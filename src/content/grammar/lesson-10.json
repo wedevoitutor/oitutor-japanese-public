@@ -1,0 +1,726 @@
+{
+  "id": "grammar-lesson-10",
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Group 1 Negative — う-Verbs",
+      "intro": "Group 1 verbs change their final kana to the matching あ-row sound, then add ない. The one special case is verbs ending in う: う becomes わない, not あない.",
+      "rows": [
+        [
+          "Dictionary Form",
+          "ない Form",
+          "Rule"
+        ],
+        [
+          "かく",
+          "かかない",
+          "く -> かない"
+        ],
+        [
+          "はなす",
+          "はなさない",
+          "す -> さない"
+        ],
+        [
+          "まつ",
+          "またない",
+          "つ -> たない"
+        ],
+        [
+          "のむ",
+          "のまない",
+          "む -> まない"
+        ],
+        [
+          "かう",
+          "かわない",
+          "う -> わない"
+        ]
+      ],
+      "takeaway": "For Group 1, move the final kana to the あ-row, then add ない; う becomes わない."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which is the correct plain negative of the Group 1 verb かう?",
+      "options": [
+        "かわない",
+        "かあない",
+        "かうない",
+        "かない"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'He doesn't talk much' using the Group 1 negative:",
+      "patternJp": [
+        "かれは あまり ",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "kare wa amari ",
+        "[SLOT]",
+        "."
+      ],
+      "slot": {
+        "answer": "はなさない",
+        "answerRomaji": "hanasanai",
+        "hint": "The plain negative form of 'to speak'.",
+        "acceptAlternatives": [
+          "Hanasanai"
+        ]
+      },
+      "translation": "He doesn't talk much.",
+      "speakText": "かれは あまり はなさない。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Group 2 Negative — Drop る",
+      "intro": "Group 2 verbs are simpler than Group 1. Remove the final る and attach ない directly.",
+      "rows": [
+        [
+          "Dictionary Form",
+          "ない Form",
+          "Rule"
+        ],
+        [
+          "たべる",
+          "たべない",
+          "drop る, add ない"
+        ],
+        [
+          "みる",
+          "みない",
+          "drop る, add ない"
+        ],
+        [
+          "きめる",
+          "きめない",
+          "drop る, add ない"
+        ]
+      ],
+      "takeaway": "For Group 2, drop る and add ない. Do not shift to the あ-row."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which is the correct plain negative of the Group 2 verb たべる?",
+      "options": [
+        "たべない",
+        "たべらない",
+        "たべるない",
+        "たばない"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I won't eat breakfast' using the Group 2 negative:",
+      "patternJp": [
+        "あさごはんを ",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "asagohan o ",
+        "[SLOT]",
+        "."
+      ],
+      "slot": {
+        "answer": "たべない",
+        "answerRomaji": "tabenai",
+        "hint": "The plain negative form of 'to eat'.",
+        "acceptAlternatives": [
+          "Tabenai"
+        ]
+      },
+      "translation": "I won't eat breakfast.",
+      "speakText": "あさごはんを たべない。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Group 3 Negative — Irregular Verbs",
+      "intro": "Only two core verbs are irregular here, but they are extremely common. Memorise their ない forms instead of trying to apply a Group 1 or Group 2 rule.",
+      "rows": [
+        [
+          "Dictionary Form",
+          "ない Form",
+          "Note"
+        ],
+        [
+          "する",
+          "しない",
+          "irregular"
+        ],
+        [
+          "くる",
+          "こない",
+          "irregular"
+        ]
+      ],
+      "takeaway": "Group 3 is memorised: する -> しない, くる -> こない."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which pair gives the correct plain negatives for する and くる?",
+      "options": [
+        "しない / こない",
+        "するない / くるない",
+        "すらない / くらない",
+        "しらない / きない"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I have to submit homework' using the negative + と pattern:",
+      "patternJp": [
+        "しゅくだいを ",
+        "[SLOT]",
+        "と。"
+      ],
+      "patternRom": [
+        "shukudai o ",
+        "[SLOT]",
+        " to."
+      ],
+      "slot": {
+        "answer": "ださない",
+        "answerRomaji": "dasanai",
+        "hint": "The plain negative form of 'to submit'.",
+        "acceptAlternatives": [
+          "Dasanai"
+        ]
+      },
+      "translation": "I have to submit homework.",
+      "speakText": "しゅくだいを ださないと。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Plain Form in Patterns",
+      "intro": "Plain forms appear inside many grammar patterns, even when the whole sentence is polite or casual. Before と おもう, use the dictionary form or the ない form directly.",
+      "rows": [
+        [
+          "Pattern",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "いくと おもう",
+          "iku to omou",
+          "I think someone will go"
+        ],
+        [
+          "いかないと おもう",
+          "ikanai to omou",
+          "I think someone will not go"
+        ],
+        [
+          "あした いく？",
+          "ashita iku?",
+          "Are you going tomorrow?"
+        ],
+        [
+          "まだ きめない。",
+          "mada kimenai.",
+          "I haven't decided yet."
+        ],
+        [
+          "はなさないでください",
+          "hanasanaide kudasai",
+          "Please don't speak."
+        ]
+      ],
+      "takeaway": "Use the plain form before patterns like と おもう, and use ないでください for polite negative requests."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which pattern politely means 'Please don't speak'?",
+      "options": [
+        "はなさないでください",
+        "はなさないください",
+        "はなしてないください",
+        "はなすでください"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I hope it doesn't rain' using a plain negative before と:",
+      "patternJp": [
+        "あめが ",
+        "[SLOT]",
+        "と いいね。"
+      ],
+      "patternRom": [
+        "ame ga ",
+        "[SLOT]",
+        " to ii ne."
+      ],
+      "slot": {
+        "answer": "ふらない",
+        "answerRomaji": "furanai",
+        "hint": "The plain negative form of 'to rain or fall'.",
+        "acceptAlternatives": [
+          "Furanai"
+        ]
+      },
+      "translation": "I hope it doesn't rain.",
+      "speakText": "あめが ふらないと いいね。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly forms the plain negative of かう?",
+      "title": "G1: う-verb -> あ-row + ない",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "かわない",
+          "romaji": "kawanai.",
+          "en": "Don't buy.",
+          "note": "Verbs ending in う use the special change う -> わない.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "かあない",
+          "romaji": "kaanai.",
+          "en": "(intended: don't buy)",
+          "note": "Do not apply a direct あ-row change to う-ending verbs.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "かうない",
+          "romaji": "kaunai.",
+          "en": "(intended: don't buy)",
+          "note": "Group 1 verbs do not attach ない to the dictionary form.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "かかない",
+          "romaji": "kakanai.",
+          "en": "Don't write.",
+          "note": "This is the negative of かく, not かう.",
+          "correct": false
+        }
+      ],
+      "takeaway": "For う-ending Group 1 verbs, use わない: かう -> かわない.",
+      "speakText": "かわない"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly forms the plain negative of たべる?",
+      "title": "G2: る-verb -> drop る, add ない",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "たべない",
+          "romaji": "tabenai.",
+          "en": "Don't eat.",
+          "note": "Group 2 drops る and attaches ない directly.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "たべらない",
+          "romaji": "taberanai.",
+          "en": "(intended: don't eat)",
+          "note": "Group 2 verbs do not use the あ-row shift.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "たべるない",
+          "romaji": "taberunai.",
+          "en": "(intended: don't eat)",
+          "note": "Do not attach ない to the full dictionary form.",
+          "correct": false
+        }
+      ],
+      "takeaway": "For Group 2, remove る first: たべる -> たべない.",
+      "speakText": "たべない"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which pair correctly gives the Group 3 negatives?",
+      "title": "G3: Irregular",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "しない / こない",
+          "romaji": "shinai / konai.",
+          "en": "Don't do / don't come.",
+          "note": "する and くる are irregular and must be memorised.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "するない / くるない",
+          "romaji": "surunai / kurunai.",
+          "en": "(intended: don't do / don't come)",
+          "note": "You cannot attach ない directly to these dictionary forms.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "すらない / くらない",
+          "romaji": "suranai / kuranai.",
+          "en": "(intended: don't do / don't come)",
+          "note": "Applying a Group 1-style shift creates incorrect forms.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Memorise the irregular pair: する -> しない, くる -> こない.",
+      "speakText": "しない。こない。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which is the polite negative request 'Please don't speak'?",
+      "title": "～ないでください — polite negative request",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "はなさないでください",
+          "romaji": "hanasanaide kudasai.",
+          "en": "Please don't speak.",
+          "note": "Attach でください after the ない-form as ないでください.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "はなさないください",
+          "romaji": "hanasanai kudasai.",
+          "en": "(intended: please don't speak)",
+          "note": "The request pattern needs ないでください, not ないください.",
+          "correct": false
+        },
+        {
+          "label": "NATURAL",
+          "jp": "はなさないで",
+          "romaji": "hanasanaide.",
+          "en": "Don't speak. (casual)",
+          "note": "This is natural casually, but it is not the polite request with ください.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "はなすでください",
+          "romaji": "hanasu de kudasai.",
+          "en": "(intended: please don't speak)",
+          "note": "Use the ない-form before でください.",
+          "correct": false
+        }
+      ],
+      "takeaway": "For polite negative requests, use the ない-form plus でください.",
+      "speakText": "はなさないでください"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Plain Form and ない in Context",
+      "intro": "Plain forms work in casual questions, negative statements, and sentence patterns. These examples show the same verb forms inside real sentences.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "English"
+        ],
+        [
+          "あした いく？",
+          "ashita iku?",
+          "Are you going tomorrow? (casual)"
+        ],
+        [
+          "まだ きめない。",
+          "mada kimenai.",
+          "I haven't decided yet."
+        ],
+        [
+          "あさごはんを たべない。",
+          "asagohan o tabenai.",
+          "I won't eat breakfast."
+        ],
+        [
+          "にほんごが わからない。",
+          "nihongo ga wakaranai.",
+          "I don't understand Japanese."
+        ],
+        [
+          "かれは あまり はなさない。",
+          "kare wa amari hanasanai.",
+          "He doesn't talk much."
+        ],
+        [
+          "おさけを のまない ひとです。",
+          "osake o nomanai hito desu.",
+          "He/she is a person who doesn't drink."
+        ],
+        [
+          "あめが ふらないと いいね。",
+          "ame ga furanai to ii ne.",
+          "I hope it doesn't rain."
+        ],
+        [
+          "しゅくだいを ださないと。",
+          "shukudai o dasanai to.",
+          "I have to submit homework."
+        ]
+      ],
+      "takeaway": "The same plain forms appear in casual speech, noun-modifying phrases, and grammar patterns."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "あさごはんを たべない。",
+      "options": [
+        "I won't eat breakfast.",
+        "I ate breakfast.",
+        "I'm making breakfast.",
+        "Breakfast is ready."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "にほんごが わからない。",
+      "options": [
+        "I love Japanese.",
+        "I am studying Japanese.",
+        "I don't understand Japanese.",
+        "Japanese is easy."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "かれは あまり はなさない。",
+      "options": [
+        "He talks a lot.",
+        "He doesn't talk much.",
+        "He is very loud.",
+        "He studies Japanese."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "まだ きめない。",
+      "options": [
+        "I decided already.",
+        "I will decide tomorrow.",
+        "I haven't decided yet.",
+        "I can't decide."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "おさけを のまない ひとです。",
+      "options": [
+        "He is someone who drinks a lot.",
+        "She ordered sake.",
+        "He/she is a person who doesn't drink.",
+        "They went to a bar."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "あした いく？",
+      "options": [
+        "Did you go yesterday?",
+        "Where are you going?",
+        "You should go.",
+        "Are you going tomorrow?"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "しゅくだいを ださないと。",
+      "options": [
+        "I finished my homework.",
+        "I have to submit homework.",
+        "I forgot my homework.",
+        "The homework is easy."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "あめが ふらないと いいね。",
+      "options": [
+        "It's raining heavily.",
+        "I like rainy days.",
+        "I hope it doesn't rain.",
+        "It rained yesterday."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "あさごはんを たべない",
+      "answer": "asagohan o tabenai",
+      "acceptAlternatives": [
+        "asagohan o tabenai"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "にほんごが わからない",
+      "answer": "nihongo ga wakaranai",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "かれは あまり はなさない",
+      "answer": "kare wa amari hanasanai",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "まだ きめない",
+      "answer": "mada kimenai",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "あした いく",
+      "answer": "ashita iku",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "しゅくだいを ださないと",
+      "answer": "shukudai o dasanai to",
+      "acceptAlternatives": [
+        "shukudai o dasanai to"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "おさけを のまない ひとです",
+      "answer": "osake o nomanai hito desu",
+      "acceptAlternatives": [
+        "osake o nomanai hito desu"
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning:",
+      "pairs": [
+        {
+          "left": "あさごはん",
+          "right": "breakfast"
+        },
+        {
+          "left": "あめ",
+          "right": "rain"
+        },
+        {
+          "left": "しゅくだい",
+          "right": "homework"
+        },
+        {
+          "left": "おさけ",
+          "right": "alcohol / sake"
+        },
+        {
+          "left": "にほんご",
+          "right": "Japanese language"
+        },
+        {
+          "left": "ボタン",
+          "right": "button"
+        },
+        {
+          "left": "でんき",
+          "right": "electricity / light"
+        },
+        {
+          "left": "ひと",
+          "right": "person"
+        },
+        {
+          "left": "しゅうまつ",
+          "right": "weekend"
+        },
+        {
+          "left": "あした",
+          "right": "tomorrow"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice — plain form and ない",
+      "cards": [
+        {
+          "jp": "あした いく？",
+          "romaji": "ashita iku?",
+          "en": "Are you going tomorrow? (casual)"
+        },
+        {
+          "jp": "あさごはんを たべない。",
+          "romaji": "asagohan o tabenai.",
+          "en": "I won't eat breakfast."
+        },
+        {
+          "jp": "にほんごが わからない。",
+          "romaji": "nihongo ga wakaranai.",
+          "en": "I don't understand Japanese."
+        },
+        {
+          "jp": "あめが ふらないと いいね。",
+          "romaji": "ame ga furanai to ii ne.",
+          "en": "I hope it doesn't rain."
+        },
+        {
+          "jp": "しゅくだいを ださないと。",
+          "romaji": "shukudai o dasanai to.",
+          "en": "I have to submit homework."
+        },
+        {
+          "jp": "かれは あまり はなさない。",
+          "romaji": "kare wa amari hanasanai.",
+          "en": "He doesn't talk much."
+        },
+        {
+          "jp": "おさけを のまない ひとです。",
+          "romaji": "osake o nomanai hito desu.",
+          "en": "He/she is a person who doesn't drink."
+        },
+        {
+          "jp": "まだ きめない。",
+          "romaji": "mada kimenai.",
+          "en": "I haven't decided yet."
+        },
+        {
+          "jp": "ボタンを おすと、でんきが つく。",
+          "romaji": "botan o osu to, denki ga tsuku.",
+          "en": "If you press the button, the light turns on."
+        },
+        {
+          "jp": "きのう たべなかった。",
+          "romaji": "kinou tabenakatta.",
+          "en": "I didn't eat yesterday."
+        }
+      ]
+    }
+  ]
+}

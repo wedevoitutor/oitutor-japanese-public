@@ -1,0 +1,797 @@
+{
+  "id": "grammar-lesson-12",
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Group 1 te-Form Sound Changes",
+      "intro": "The te-form connects verbs to requests, sequences, permission, and ongoing actions. Group 1 te-form sound changes mirror the ta-form sound changes from the previous lesson.",
+      "rows": [
+        [
+          "Ending",
+          "te-Form",
+          "Example"
+        ],
+        [
+          "う / つ / る",
+          "って",
+          "かう -> かって"
+        ],
+        [
+          "む / ぶ / ぬ",
+          "んで",
+          "のむ -> のんで"
+        ],
+        [
+          "く",
+          "いて",
+          "かく -> かいて"
+        ],
+        [
+          "ぐ",
+          "いで",
+          "およぐ -> およいで"
+        ],
+        [
+          "す",
+          "して",
+          "はなす -> はなして"
+        ]
+      ],
+      "takeaway": "Group 1 te-form uses the same sound-change families as ta-form."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which is the correct te-form of かく?",
+      "options": [
+        "かいて",
+        "かくて",
+        "かって",
+        "かんで"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'Please wait a moment' using the te-form of まつ:",
+      "patternJp": [
+        "ちょっと ",
+        "[SLOT]",
+        "ください。"
+      ],
+      "patternRom": [
+        "chotto ",
+        "[SLOT]",
+        " kudasai."
+      ],
+      "slot": {
+        "answer": "まって",
+        "answerRomaji": "matte",
+        "hint": "The te-form of 'to wait'.",
+        "acceptAlternatives": [
+          "Matte"
+        ]
+      },
+      "translation": "Please wait a moment.",
+      "speakText": "ちょっと まってください。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Group 2 and Irregular te-Forms",
+      "intro": "Group 2 verbs drop る and add て. The irregular verbs する and くる must be memorized, and いく again uses the special form いって.",
+      "rows": [
+        [
+          "Type",
+          "Dictionary",
+          "te-Form"
+        ],
+        [
+          "Group 2",
+          "たべる",
+          "たべて"
+        ],
+        [
+          "Group 2",
+          "みる",
+          "みて"
+        ],
+        [
+          "irregular",
+          "する",
+          "して"
+        ],
+        [
+          "irregular",
+          "くる",
+          "きて"
+        ],
+        [
+          "exception",
+          "いく",
+          "いって"
+        ]
+      ],
+      "takeaway": "Group 2 drops る; memorize する -> して, くる -> きて, and いく -> いって."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which pair gives the correct te-forms for する and くる?",
+      "options": [
+        "して / きて",
+        "するて / くるて",
+        "すって / くって",
+        "しました / きました"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I'll play after doing homework' using してから:",
+      "patternJp": [
+        "しゅくだいを ",
+        "[SLOT]",
+        "から、あそびます。"
+      ],
+      "patternRom": [
+        "shukudai o ",
+        "[SLOT]",
+        " kara, asobimasu."
+      ],
+      "slot": {
+        "answer": "して",
+        "answerRomaji": "shite",
+        "hint": "The te-form of 'to do'.",
+        "acceptAlternatives": [
+          "Shite"
+        ]
+      },
+      "translation": "I'll play after doing homework.",
+      "speakText": "しゅくだいを してから、あそびます。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Requests with てください",
+      "intro": "Attach ください after the te-form to make a polite request. This is one of the first practical uses of te-form.",
+      "rows": [
+        [
+          "Pattern",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "まってください",
+          "matte kudasai",
+          "Please wait."
+        ],
+        [
+          "まどを あけてください",
+          "mado o akete kudasai",
+          "Please open the window."
+        ],
+        [
+          "たべてみてください",
+          "tabete mite kudasai",
+          "Please try eating it."
+        ],
+        [
+          "すわってください",
+          "suwatte kudasai",
+          "Please sit down."
+        ]
+      ],
+      "takeaway": "te-form + ください makes a polite request to do something."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which pattern politely means 'Please do ~'?",
+      "options": [
+        "te-form + ください",
+        "ta-form + ことがある",
+        "ない-form + と",
+        "dictionary form + たい"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'Please open the window' using the te-form of あける:",
+      "patternJp": [
+        "まどを ",
+        "[SLOT]",
+        "ください。"
+      ],
+      "patternRom": [
+        "mado o ",
+        "[SLOT]",
+        " kudasai."
+      ],
+      "slot": {
+        "answer": "あけて",
+        "answerRomaji": "akete",
+        "hint": "The te-form of 'to open'.",
+        "acceptAlternatives": [
+          "Akete"
+        ]
+      },
+      "translation": "Please open the window.",
+      "speakText": "まどを あけてください。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Ongoing Actions and States with ている",
+      "intro": "te-form + いる can describe an action happening now or a state that continues after an action. The meaning depends on the verb and context.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "いま テレビを みている",
+          "ima terebi o mite iru",
+          "I'm watching TV now"
+        ],
+        [
+          "かのじょは めがねを かけている",
+          "kanojo wa megane o kakete iru",
+          "She wears glasses"
+        ],
+        [
+          "にほんに すんでいます",
+          "nihon ni sunde imasu",
+          "I live in Japan"
+        ],
+        [
+          "まいにち はしっている",
+          "mainichi hashitte iru",
+          "I run every day"
+        ]
+      ],
+      "takeaway": "ている can mean an action in progress or a continuing state."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which sentence shows an ongoing action happening right now?",
+      "options": [
+        "いま テレビを みている",
+        "すわってください",
+        "かいて",
+        "ここで たべてはいけません"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I'm watching TV right now' using みている:",
+      "patternJp": [
+        "いま テレビを ",
+        "[SLOT]",
+        "いる。"
+      ],
+      "patternRom": [
+        "ima terebi o ",
+        "[SLOT]",
+        " iru."
+      ],
+      "slot": {
+        "answer": "みて",
+        "answerRomaji": "mite",
+        "hint": "The te-form of 'to see or watch'.",
+        "acceptAlternatives": [
+          "Mite"
+        ]
+      },
+      "translation": "I'm watching TV right now.",
+      "speakText": "いま テレビを みている。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Sequence and Permission",
+      "intro": "The te-form can chain actions in order and ask whether an action is allowed. The last verb usually carries the tense for a sequence.",
+      "rows": [
+        [
+          "Pattern",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "～てから",
+          "~te kara",
+          "after doing ~"
+        ],
+        [
+          "V1て、V2て、V3",
+          "v1-te, v2-te, v3",
+          "do V1, then V2, then V3"
+        ],
+        [
+          "～てもいいですか",
+          "~te mo ii desu ka",
+          "May I ~?"
+        ],
+        [
+          "～てはいけません",
+          "~te wa ikemasen",
+          "must not ~"
+        ]
+      ],
+      "takeaway": "Use te-form to connect actions and to build permission or prohibition patterns."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which pattern asks 'May I ~?'",
+      "options": [
+        "～てもいいですか",
+        "～てください",
+        "～ている",
+        "～てはいけません"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'May I take a photo?' using the permission pattern:",
+      "patternJp": [
+        "しゃしんを ",
+        "[SLOT]",
+        "も いいですか。"
+      ],
+      "patternRom": [
+        "shashin o ",
+        "[SLOT]",
+        " mo ii desu ka."
+      ],
+      "slot": {
+        "answer": "とって",
+        "answerRomaji": "totte",
+        "hint": "The te-form of 'to take'.",
+        "acceptAlternatives": [
+          "Totte"
+        ]
+      },
+      "translation": "May I take a photo?",
+      "speakText": "しゃしんを とっても いいですか。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly forms the te-form of かく?",
+      "title": "te-form sound changes mirror ta-form",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "かいて",
+          "romaji": "kaite.",
+          "en": "writing / after writing",
+          "note": "く becomes いて, just as かく becomes かいた in ta-form.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "かくて",
+          "romaji": "kakute.",
+          "en": "(intended: writing)",
+          "note": "Do not attach て directly; the sound change is required.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "かって",
+          "romaji": "katte.",
+          "en": "buying / after buying",
+          "note": "This is the te-form of かう, not かく.",
+          "correct": false
+        }
+      ],
+      "takeaway": "For く-ending Group 1 verbs, use いて.",
+      "speakText": "かいて"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence shows an action happening right now?",
+      "title": "ている - ongoing action vs resulting state",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "たべている",
+          "romaji": "tabete iru.",
+          "en": "is eating right now",
+          "note": "This is an action still in progress.",
+          "correct": true
+        },
+        {
+          "label": "NATURAL",
+          "jp": "けっこんしている",
+          "romaji": "kekkon shite iru.",
+          "en": "is married",
+          "note": "This is a continuing state after the action of marrying.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "たべた",
+          "romaji": "tabeta.",
+          "en": "ate",
+          "note": "This is ta-form past, not te-form + いる.",
+          "correct": false
+        }
+      ],
+      "takeaway": "ている can be ongoing action or resulting state; read the context.",
+      "speakText": "たべている"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which politely asks someone to sit down?",
+      "title": "てください vs ないでください",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "すわってください",
+          "romaji": "suwatte kudasai.",
+          "en": "Please sit down.",
+          "note": "te-form + ください is a positive polite request.",
+          "correct": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "すわらないでください",
+          "romaji": "suwaranaide kudasai.",
+          "en": "Please don't sit down.",
+          "note": "ない-form + でください asks someone not to do it.",
+          "correct": false
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "すわるください",
+          "romaji": "suwaru kudasai.",
+          "en": "(intended: please sit down)",
+          "note": "Use te-form before ください, not dictionary form.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use te-form + ください for positive requests; use ないでください for negative requests.",
+      "speakText": "すわってください"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly connects actions in order?",
+      "title": "て for listing actions in order",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "おきて、あらって、たべた",
+          "romaji": "okite, aratte, tabeta.",
+          "en": "woke up, washed, ate",
+          "note": "て connects the earlier actions; the final verb carries tense.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "おきました、あらいました、たべました",
+          "romaji": "okimashita, araimashita, tabemashita.",
+          "en": "(intended: a sequence)",
+          "note": "This sounds like a list of separate statements, not a connected sequence.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "おきるて、あらうて、たべた",
+          "romaji": "okirute, araute, tabeta.",
+          "en": "(intended: woke, washed, ate)",
+          "note": "Do not attach て directly to dictionary forms.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use te-form between steps; the last verb carries the tense.",
+      "speakText": "おきて、あらって、たべた"
+    },
+    {
+      "type": "reference-chart",
+      "title": "te-Form in Context",
+      "intro": "These examples show the te-form in requests, ongoing actions, states, sequences, and permission. The same te-form supports many everyday patterns.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "English"
+        ],
+        [
+          "ちょっと まってください。",
+          "chotto matte kudasai.",
+          "Please wait a moment."
+        ],
+        [
+          "まどを あけてください。",
+          "mado o akete kudasai.",
+          "Please open the window."
+        ],
+        [
+          "いま テレビを みている。",
+          "ima terebi o mite iru.",
+          "I'm watching TV right now."
+        ],
+        [
+          "かのじょは めがねを かけている。",
+          "kanojo wa megane o kakete iru.",
+          "She wears glasses."
+        ],
+        [
+          "にほんに すんでいます。",
+          "nihon ni sunde imasu.",
+          "I live in Japan."
+        ],
+        [
+          "しゅくだいを してから、あそびます。",
+          "shukudai o shite kara, asobimasu.",
+          "I'll play after doing homework."
+        ],
+        [
+          "あさ おきて、シャワーを あびて、あさごはんを たべます。",
+          "asa okite, shawaa o abite, asagohan o tabemasu.",
+          "I wake up, shower, and eat breakfast."
+        ],
+        [
+          "しゃしんを とっても いいですか。",
+          "shashin o totte mo ii desu ka.",
+          "May I take a photo?"
+        ]
+      ],
+      "takeaway": "The te-form is a connector: requests, states, sequences, and permission all build on it."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ちょっと まってください。",
+      "options": [
+        "Please wait a moment.",
+        "Please sit down.",
+        "Please come here.",
+        "Please open the door."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いま テレビを みている。",
+      "options": [
+        "I watched TV yesterday.",
+        "I will watch TV later.",
+        "I'm watching TV right now.",
+        "I don't like TV."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "しゅくだいを してから、あそびます。",
+      "options": [
+        "I did my homework while playing.",
+        "I played and then did homework.",
+        "I'll play after doing homework.",
+        "I forgot to do my homework."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "しゃしんを とっても いいですか。",
+      "options": [
+        "Did you take a photo?",
+        "May I take a photo?",
+        "Please take a photo.",
+        "I took a photo."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "まどを あけてください。",
+      "options": [
+        "Please close the window.",
+        "The window is open.",
+        "Please open the window.",
+        "Is the window open?"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "かのじょは めがねを かけている。",
+      "options": [
+        "She is buying glasses.",
+        "She forgot her glasses.",
+        "She is looking for glasses.",
+        "She wears glasses."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "にほんに すんでいます。",
+      "options": [
+        "I visited Japan.",
+        "I want to live in Japan.",
+        "I live in Japan.",
+        "I am going to Japan."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "たべてみてください。",
+      "options": [
+        "Please stop eating.",
+        "Please cook this.",
+        "Please don't eat that.",
+        "Please try eating it."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "まってください",
+      "answer": "matte kudasai",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "みている",
+      "answer": "mite iru",
+      "acceptAlternatives": [
+        "miteiru"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "してから",
+      "answer": "shite kara",
+      "acceptAlternatives": [
+        "shitekara"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "とっても いいですか",
+      "answer": "totte mo ii desu ka",
+      "acceptAlternatives": [
+        "tottemo ii desu ka"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "あけてください",
+      "answer": "akete kudasai",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "すんでいます",
+      "answer": "sunde imasu",
+      "acceptAlternatives": [
+        "sundeimasu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "たべてみてください",
+      "answer": "tabete mite kudasai",
+      "acceptAlternatives": [
+        "tabete mitekudasai"
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning:",
+      "pairs": [
+        {
+          "left": "まど",
+          "right": "window"
+        },
+        {
+          "left": "しゃしん",
+          "right": "photo / photograph"
+        },
+        {
+          "left": "シャワー",
+          "right": "shower"
+        },
+        {
+          "left": "テレビ",
+          "right": "television / TV"
+        },
+        {
+          "left": "めがね",
+          "right": "glasses"
+        },
+        {
+          "left": "にほん",
+          "right": "Japan"
+        },
+        {
+          "left": "しゅくだい",
+          "right": "homework"
+        },
+        {
+          "left": "あさ",
+          "right": "morning"
+        },
+        {
+          "left": "いま",
+          "right": "now / right now"
+        },
+        {
+          "left": "まいにち",
+          "right": "every day"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice - te-form",
+      "cards": [
+        {
+          "jp": "まってください。",
+          "romaji": "matte kudasai.",
+          "en": "Please wait."
+        },
+        {
+          "jp": "いま テレビを みている。",
+          "romaji": "ima terebi o mite iru.",
+          "en": "I'm watching TV right now."
+        },
+        {
+          "jp": "しゅくだいを してから、あそびます。",
+          "romaji": "shukudai o shite kara, asobimasu.",
+          "en": "I'll play after doing homework."
+        },
+        {
+          "jp": "あさ おきて、シャワーを あびて、あさごはんを たべます。",
+          "romaji": "asa okite, shawaa o abite, asagohan o tabemasu.",
+          "en": "I wake up, shower, and eat breakfast."
+        },
+        {
+          "jp": "しゃしんを とっても いいですか。",
+          "romaji": "shashin o totte mo ii desu ka.",
+          "en": "May I take a photo?"
+        },
+        {
+          "jp": "まどを あけてください。",
+          "romaji": "mado o akete kudasai.",
+          "en": "Please open the window."
+        },
+        {
+          "jp": "かのじょは めがねを かけている。",
+          "romaji": "kanojo wa megane o kakete iru.",
+          "en": "She wears glasses."
+        },
+        {
+          "jp": "にほんに すんでいます。",
+          "romaji": "nihon ni sunde imasu.",
+          "en": "I live in Japan."
+        },
+        {
+          "jp": "たべてみてください。",
+          "romaji": "tabete mite kudasai.",
+          "en": "Please try eating it."
+        },
+        {
+          "jp": "まいにち はしっている。",
+          "romaji": "mainichi hashitte iru.",
+          "en": "I run every day."
+        }
+      ]
+    }
+  ]
+}

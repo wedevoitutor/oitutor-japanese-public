@@ -1,0 +1,1289 @@
+{
+  "id": "dialogues-lesson-39",
+  "misconceptions": [
+    {
+      "target": "city-vs-countryside-single-word-answer",
+      "error": "Answers with isolated vocabulary instead of a complete conversational turn.",
+      "mitigation": "Reference rows and response-selection drills keep prompts and natural replies together."
+    },
+    {
+      "target": "city-vs-countryside-register-mismatch",
+      "error": "Uses casual language with teachers, staff, or strangers.",
+      "mitigation": "Formal, casual, and slang scenes are separated and labeled."
+    },
+    {
+      "target": "city-vs-countryside-listening-drift",
+      "error": "Chooses a familiar phrase that does not match the audio.",
+      "mitigation": "Listening MC and type-the-answer reuse the exact dialogue speakText."
+    },
+    {
+      "target": "city-vs-countryside-particle-confusion",
+      "error": "Confuses は, へ, or を in written Japanese source phrases.",
+      "mitigation": "Formula-fill keeps the Japanese particles visible and accepts romaji as support."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "City vs Countryside - Formal · Casual · Slang",
+      "intro": "Practice city vs countryside as prompt-and-response dialogue, not as loose vocabulary.",
+      "rows": [
+        [
+          "Register",
+          "Japanese",
+          "Romaji",
+          "Typical Response",
+          "Context"
+        ],
+        [
+          "FORMAL",
+          "まちと いなか、どちらが すきですか？",
+          "machito inaka,dochiraga sukidesuka?",
+          "いなかが すきです。しずかです。",
+          "I like the countryside. It is quiet."
+        ],
+        [
+          "FORMAL",
+          "いなかが すきです。しずかです。",
+          "inakaga sukidesu.shizukadesu.",
+          "そうです。ありがとうございます。",
+          "That is right. Thank you."
+        ],
+        [
+          "CASUAL",
+          "とうきょうは にぎやかだね。",
+          "toukyouha nigiyakadane.",
+          "でも ひとが おおいね。",
+          "But there are many people."
+        ],
+        [
+          "CASUAL",
+          "でも ひとが おおいね。",
+          "demo hitoga ooine.",
+          "いいね。あとで かくにんしよう。",
+          "Nice. Let us check later."
+        ],
+        [
+          "SLANG",
+          "しゅうまつ、いなかに いかない？",
+          "shuumatsu,inakani ikanai?",
+          "まち、ちょっと つかれた。",
+          "I am a little tired of the city."
+        ],
+        [
+          "SLANG",
+          "まち、ちょっと つかれた。",
+          "machi,chotto tsukareta.",
+          "まじか。いいじゃん。",
+          "Really? Nice."
+        ]
+      ],
+      "takeaway": "First choose the right meaning, then choose the right relationship tone."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "A - FORMAL · City vs Countryside",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "先生",
+          "jp": "まちと いなか、どちらが すきですか？",
+          "romaji": "machito inaka,dochiraga sukidesuka?",
+          "en": "Which do you like, the city or the countryside?"
+        },
+        {
+          "speaker": "学生",
+          "jp": "いなかが すきです。しずかです。",
+          "romaji": "inakaga sukidesu.shizukadesu.",
+          "en": "I like the countryside. It is quiet."
+        },
+        {
+          "speaker": "先生",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "B - CASUAL · City vs Countryside",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "ゆい",
+          "jp": "とうきょうは にぎやかだね。",
+          "romaji": "toukyouha nigiyakadane.",
+          "en": "Tokyo is lively."
+        },
+        {
+          "speaker": "たく",
+          "jp": "でも ひとが おおいね。",
+          "romaji": "demo hitoga ooine.",
+          "en": "But there are many people."
+        },
+        {
+          "speaker": "ゆい",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "C - SLANG · City vs Countryside",
+      "register": "slang",
+      "lines": [
+        {
+          "speaker": "りく",
+          "jp": "しゅうまつ、いなかに いかない？",
+          "romaji": "shuumatsu,inakani ikanai?",
+          "en": "Want to go to the countryside this weekend?"
+        },
+        {
+          "speaker": "まい",
+          "jp": "まち、ちょっと つかれた。",
+          "romaji": "machi,chotto tsukareta.",
+          "en": "I am a little tired of the city."
+        },
+        {
+          "speaker": "りく",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 1: まちと いなか、どちらが すきですか？",
+      "prompt": "Which source phrase means: “Which do you like, the city or the countryside?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "まちと いなか、どちらが すきですか？",
+          "romaji": "machito inaka,dochiraga sukidesuka?",
+          "en": "Which do you like, the city or the countryside?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "まちと いなか、どちらが すきですか？"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 2: いなかが すきです。しずかです。",
+      "prompt": "Which source phrase means: “I like the countryside. It is quiet.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "いなかが すきです。しずかです。",
+          "romaji": "inakaga sukidesu.shizukadesu.",
+          "en": "I like the countryside. It is quiet.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "しゅうまつ、いなかに いかない？",
+          "romaji": "shuumatsu,inakani ikanai?",
+          "en": "Want to go to the countryside this weekend?",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "まち",
+          "romaji": "machi",
+          "en": "city",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "いなかが すきです。しずかです。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 3: そうです。ありがとうございます。",
+      "prompt": "Which source phrase means: “That is right. Thank you.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "まち、ちょっと つかれた。",
+          "romaji": "machi,chotto tsukareta.",
+          "en": "I am a little tired of the city.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "いなか",
+          "romaji": "inaka",
+          "en": "countryside",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "そうです。ありがとうございます。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 4: とうきょうは にぎやかだね。",
+      "prompt": "Which source phrase means: “Tokyo is lively.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "とうきょうは にぎやかだね。",
+          "romaji": "toukyouha nigiyakadane.",
+          "en": "Tokyo is lively.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "にぎやかです",
+          "romaji": "nigiyakadesu",
+          "en": "is lively",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "とうきょうは にぎやかだね。"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "まちと いなか、どちらが すきですか",
+        "answerRomaji": "machito inaka,dochiraga sukidesuka?",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "machitoinaka,dochiragasukidesuka?"
+        ]
+      },
+      "translation": "Which do you like, the city or the countryside?",
+      "speakText": "まちと いなか、どちらが すきですか？",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "いなかが すきです。しずかです",
+        "answerRomaji": "inakaga sukidesu.shizukadesu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "inakagasukidesu.shizukadesu."
+        ]
+      },
+      "translation": "I like the countryside. It is quiet.",
+      "speakText": "いなかが すきです。しずかです。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "そうです。ありがとうございます",
+        "answerRomaji": "soudesu.arigatougozaimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "soudesu.arigatougozaimasu."
+        ]
+      },
+      "translation": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "まちと いなか、どちらが すきですか？",
+          "romaji": "machito inaka,dochiraga sukidesuka?",
+          "en": "Which do you like, the city or the countryside?"
+        },
+        {
+          "jp": "いなかが すきです。しずかです。",
+          "romaji": "inakaga sukidesu.shizukadesu.",
+          "en": "I like the countryside. It is quiet."
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "とうきょうは にぎやかだね。",
+          "romaji": "toukyouha nigiyakadane.",
+          "en": "Tokyo is lively."
+        },
+        {
+          "jp": "でも ひとが おおいね。",
+          "romaji": "demo hitoga ooine.",
+          "en": "But there are many people."
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "しゅうまつ、いなかに いかない？",
+          "romaji": "shuumatsu,inakani ikanai?",
+          "en": "Want to go to the countryside this weekend?"
+        },
+        {
+          "jp": "まち、ちょっと つかれた。",
+          "romaji": "machi,chotto tsukareta.",
+          "en": "I am a little tired of the city."
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "まち",
+          "romaji": "machi",
+          "en": "city"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "まちと いなか、どちらが すきですか？",
+      "options": [
+        {
+          "text": "Which do you like, the city or the countryside?",
+          "correct": true
+        },
+        {
+          "text": "Tokyo is lively.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Want to go to the countryside this weekend?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "city",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いなかが すきです。しずかです。",
+      "options": [
+        {
+          "text": "I like the countryside. It is quiet.",
+          "correct": true
+        },
+        {
+          "text": "But there are many people.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "I am a little tired of the city.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "countryside",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "そうです。ありがとうございます。",
+      "options": [
+        {
+          "text": "That is right. Thank you.",
+          "correct": true
+        },
+        {
+          "text": "Nice. Let us check later.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "is lively",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "とうきょうは にぎやかだね。",
+      "options": [
+        {
+          "text": "Tokyo is lively.",
+          "correct": true
+        },
+        {
+          "text": "Want to go to the countryside this weekend?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "city",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "is quiet",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "でも ひとが おおいね。",
+      "options": [
+        {
+          "text": "But there are many people.",
+          "correct": true
+        },
+        {
+          "text": "I am a little tired of the city.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "countryside",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "there are many people",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "options": [
+        {
+          "text": "Nice. Let us check later.",
+          "correct": true
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "is lively",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "there is a lot of greenery",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "しゅうまつ、いなかに いかない？",
+      "options": [
+        {
+          "text": "Want to go to the countryside this weekend?",
+          "correct": true
+        },
+        {
+          "text": "city",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "is quiet",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "Which do you like, the city or the countryside?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "まち、ちょっと つかれた。",
+      "options": [
+        {
+          "text": "I am a little tired of the city.",
+          "correct": true
+        },
+        {
+          "text": "countryside",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "there are many people",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "I like the countryside. It is quiet.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "まちと いなか、どちらが すきですか？",
+        "romaji": "machito inaka,dochiraga sukidesuka?",
+        "speakText": "まちと いなか、どちらが すきですか？"
+      },
+      "options": [
+        {
+          "jp": "いなかが すきです。しずかです。",
+          "romaji": "inakaga sukidesu.shizukadesu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "でも ひとが おおいね。",
+          "romaji": "demo hitoga ooine.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まち、ちょっと つかれた。",
+          "romaji": "machi,chotto tsukareta.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "いなかが すきです。しずかです。",
+        "romaji": "inakaga sukidesu.shizukadesu.",
+        "speakText": "いなかが すきです。しずかです。"
+      },
+      "options": [
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "とうきょうは にぎやかだね。",
+        "romaji": "toukyouha nigiyakadane.",
+        "speakText": "とうきょうは にぎやかだね。"
+      },
+      "options": [
+        {
+          "jp": "でも ひとが おおいね。",
+          "romaji": "demo hitoga ooine.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "しゅうまつ、いなかに いかない？",
+          "romaji": "shuumatsu,inakani ikanai?",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まち",
+          "romaji": "machi",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "でも ひとが おおいね。",
+        "romaji": "demo hitoga ooine.",
+        "speakText": "でも ひとが おおいね。"
+      },
+      "options": [
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まち、ちょっと つかれた。",
+          "romaji": "machi,chotto tsukareta.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いなか",
+          "romaji": "inaka",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "しゅうまつ、いなかに いかない？",
+        "romaji": "shuumatsu,inakani ikanai?",
+        "speakText": "しゅうまつ、いなかに いかない？"
+      },
+      "options": [
+        {
+          "jp": "まち、ちょっと つかれた。",
+          "romaji": "machi,chotto tsukareta.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "にぎやかです",
+          "romaji": "nigiyakadesu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "まち、ちょっと つかれた。",
+        "romaji": "machi,chotto tsukareta.",
+        "speakText": "まち、ちょっと つかれた。"
+      },
+      "options": [
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まち",
+          "romaji": "machi",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "しずかです",
+          "romaji": "shizukadesu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "まちと いなか、どちらが すきですか？",
+      "answer": "machito inaka,dochiraga sukidesuka?",
+      "acceptAlternatives": [
+        "machitoinaka,dochiragasukidesuka?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "いなかが すきです。しずかです。",
+      "answer": "inakaga sukidesu.shizukadesu.",
+      "acceptAlternatives": [
+        "inakagasukidesu.shizukadesu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "そうです。ありがとうございます。",
+      "answer": "soudesu.arigatougozaimasu.",
+      "acceptAlternatives": [
+        "soudesu.arigatougozaimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "とうきょうは にぎやかだね。",
+      "answer": "toukyouha nigiyakadane.",
+      "acceptAlternatives": [
+        "toukyouhanigiyakadane."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "でも ひとが おおいね。",
+      "answer": "demo hitoga ooine.",
+      "acceptAlternatives": [
+        "demohitogaooine."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "answer": "iine.atode kakuninshiyou.",
+      "acceptAlternatives": [
+        "iine.atodekakuninshiyou."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "しゅうまつ、いなかに いかない？",
+      "answer": "shuumatsu,inakani ikanai?",
+      "acceptAlternatives": [
+        "shuumatsu,inakaniikanai?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "まち、ちょっと つかれた。",
+      "answer": "machi,chotto tsukareta.",
+      "acceptAlternatives": [
+        "machi,chottotsukareta."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "まちと いなか、どちらが すきですか？",
+      "romaji": "machito inaka,dochiraga sukidesuka?",
+      "en": "Which do you like, the city or the countryside?",
+      "speakText": "まちと いなか、どちらが すきですか？",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · City vs Countryside",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いなかが すきです。しずかです。",
+      "romaji": "inakaga sukidesu.shizukadesu.",
+      "en": "I like the countryside. It is quiet.",
+      "speakText": "いなかが すきです。しずかです。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · City vs Countryside",
+      "speaker": "学生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "そうです。ありがとうございます。",
+      "romaji": "soudesu.arigatougozaimasu.",
+      "en": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · City vs Countryside",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "とうきょうは にぎやかだね。",
+      "romaji": "toukyouha nigiyakadane.",
+      "en": "Tokyo is lively.",
+      "speakText": "とうきょうは にぎやかだね。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · City vs Countryside",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "でも ひとが おおいね。",
+      "romaji": "demo hitoga ooine.",
+      "en": "But there are many people.",
+      "speakText": "でも ひとが おおいね。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · City vs Countryside",
+      "speaker": "たく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いいね。あとで かくにんしよう。",
+      "romaji": "iine.atode kakuninshiyou.",
+      "en": "Nice. Let us check later.",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · City vs Countryside",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "しゅうまつ、いなかに いかない？",
+      "romaji": "shuumatsu,inakani ikanai?",
+      "en": "Want to go to the countryside this weekend?",
+      "speakText": "しゅうまつ、いなかに いかない？",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · City vs Countryside",
+      "speaker": "りく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "まち、ちょっと つかれた。",
+      "romaji": "machi,chotto tsukareta.",
+      "en": "I am a little tired of the city.",
+      "speakText": "まち、ちょっと つかれた。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · City vs Countryside",
+      "speaker": "まい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "まじか。いいじゃん。",
+      "romaji": "majika.iijan.",
+      "en": "Really? Nice.",
+      "speakText": "まじか。いいじゃん。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · City vs Countryside",
+      "speaker": "りく"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "まちと いなか、どちらが すきですか？",
+          "right": "Which do you like, the city or the countryside?"
+        },
+        {
+          "left": "いなかが すきです。しずかです。",
+          "right": "I like the countryside. It is quiet."
+        },
+        {
+          "left": "そうです。ありがとうございます。",
+          "right": "That is right. Thank you."
+        },
+        {
+          "left": "とうきょうは にぎやかだね。",
+          "right": "Tokyo is lively."
+        },
+        {
+          "left": "でも ひとが おおいね。",
+          "right": "But there are many people."
+        },
+        {
+          "left": "いいね。あとで かくにんしよう。",
+          "right": "Nice. Let us check later."
+        },
+        {
+          "left": "しゅうまつ、いなかに いかない？",
+          "right": "Want to go to the countryside this weekend?"
+        },
+        {
+          "left": "まち、ちょっと つかれた。",
+          "right": "I am a little tired of the city."
+        },
+        {
+          "left": "まじか。いいじゃん。",
+          "right": "Really? Nice."
+        },
+        {
+          "left": "まち",
+          "right": "city"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "まちと いなか、どちらが すきですか？",
+          "romaji": "machito inaka,dochiraga sukidesuka?",
+          "en": "Which do you like, the city or the countryside?"
+        },
+        {
+          "jp": "いなかが すきです。しずかです。",
+          "romaji": "inakaga sukidesu.shizukadesu.",
+          "en": "I like the countryside. It is quiet.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "とうきょうは にぎやかだね。",
+          "romaji": "toukyouha nigiyakadane.",
+          "en": "Tokyo is lively."
+        },
+        {
+          "jp": "でも ひとが おおいね。",
+          "romaji": "demo hitoga ooine.",
+          "en": "But there are many people.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "しゅうまつ、いなかに いかない？",
+          "romaji": "shuumatsu,inakani ikanai?",
+          "en": "Want to go to the countryside this weekend?"
+        },
+        {
+          "jp": "まち、ちょっと つかれた。",
+          "romaji": "machi,chotto tsukareta.",
+          "en": "I am a little tired of the city.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "まち",
+          "romaji": "machi",
+          "en": "city"
+        }
+      ]
+    }
+  ]
+}

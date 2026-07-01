@@ -1,0 +1,332 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Dakuten — が行 & ざ行",
+      "rows": [
+        [
+          "か → が (ga)",
+          "き → ぎ (gi)",
+          "く → ぐ (gu)",
+          "け → げ (ge)",
+          "こ → ご (go)"
+        ],
+        [
+          "さ → ざ (za)",
+          "し → じ (ji)",
+          "す → ず (zu)",
+          "せ → ぜ (ze)",
+          "そ → ぞ (zo)"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "が",
+          "back": "ga",
+          "speakText": "が"
+        },
+        {
+          "front": "ぎ",
+          "back": "gi",
+          "speakText": "ぎ"
+        },
+        {
+          "front": "ぐ",
+          "back": "gu",
+          "speakText": "ぐ"
+        },
+        {
+          "front": "げ",
+          "back": "ge",
+          "speakText": "げ"
+        },
+        {
+          "front": "ご",
+          "back": "go",
+          "speakText": "ご"
+        },
+        {
+          "front": "ざ",
+          "back": "za",
+          "speakText": "ざ"
+        },
+        {
+          "front": "じ",
+          "back": "ji",
+          "speakText": "じ"
+        },
+        {
+          "front": "ず",
+          "back": "zu",
+          "speakText": "ず"
+        },
+        {
+          "front": "ぜ",
+          "back": "ze",
+          "speakText": "ぜ"
+        },
+        {
+          "front": "ぞ",
+          "back": "zo",
+          "speakText": "ぞ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ga?",
+      "options": [
+        "か",
+        "が",
+        "ぎ",
+        "き"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Zo?",
+      "options": [
+        "そ",
+        "ご",
+        "ぞ",
+        "ざ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ji?",
+      "options": [
+        "し",
+        "じ",
+        "ち",
+        "ぎ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ぎ",
+      "answer": "gi"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "じ",
+      "answer": "ji",
+      "acceptAlternatives": [
+        "zi"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ず",
+      "answer": "zu",
+      "acceptAlternatives": [
+        "du"
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "が",
+          "ga"
+        ],
+        [
+          "ぐ",
+          "gu"
+        ],
+        [
+          "ざ",
+          "za"
+        ],
+        [
+          "ぜ",
+          "ze"
+        ],
+        [
+          "ご",
+          "go"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "が",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "か",
+        "が",
+        "ぎ",
+        "き"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "じ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "し",
+        "じ",
+        "ち",
+        "ぎ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ぞ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "そ",
+        "ぞ",
+        "ご",
+        "ざ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Gu?",
+      "options": [
+        "く",
+        "ぐ",
+        "げ",
+        "け"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ze?",
+      "options": [
+        "せ",
+        "ぜ",
+        "ざ",
+        "さ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "鍵 [かぎ] (kagi)",
+          "key"
+        ],
+        [
+          "家族 [かぞく] (kazoku)",
+          "family"
+        ],
+        [
+          "水 [みず] (mizu)",
+          "water"
+        ],
+        [
+          "風 [かぜ] (kaze)",
+          "wind / cold"
+        ],
+        [
+          "膝 [ひざ] (hiza)",
+          "knee"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "key",
+      "answer": [
+        "か",
+        "ぎ"
+      ],
+      "bank": [
+        "か",
+        "が",
+        "ぎ",
+        "ご",
+        "ざ"
+      ],
+      "speakText": "かぎ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "water",
+      "answer": [
+        "み",
+        "ず"
+      ],
+      "bank": [
+        "み",
+        "ず",
+        "ぞ",
+        "す",
+        "ざ"
+      ],
+      "speakText": "みず"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "wind / cold",
+      "answer": [
+        "か",
+        "ぜ"
+      ],
+      "bank": [
+        "か",
+        "ぜ",
+        "せ",
+        "ざ",
+        "ぞ"
+      ],
+      "speakText": "かぜ"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "かぎ",
+          "key"
+        ],
+        [
+          "かぞく",
+          "family"
+        ],
+        [
+          "みず",
+          "water"
+        ],
+        [
+          "かぜ",
+          "wind"
+        ],
+        [
+          "ひざ",
+          "knee"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "かぎ",
+      "prompt": "Which word did you hear?",
+      "options": [
+        "かき",
+        "かぎ",
+        "がき",
+        "がぎ"
+      ],
+      "correctIndex": 1
+    }
+  ],
+  "id": "hiragana-row-dakuten-gz"
+}

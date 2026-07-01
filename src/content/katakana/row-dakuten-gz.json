@@ -1,0 +1,334 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Dakuten — ガ行 & ザ行",
+      "rows": [
+        [
+          "カ → ガ (ga)",
+          "キ → ギ (gi)",
+          "ク → グ (gu)",
+          "ケ → ゲ (ge)",
+          "コ → ゴ (go)"
+        ],
+        [
+          "サ → ザ (za)",
+          "シ → ジ (ji)",
+          "ス → ズ (zu)",
+          "セ → ゼ (ze)",
+          "ソ → ゾ (zo)"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ガ",
+          "back": "ga",
+          "speakText": "ガ"
+        },
+        {
+          "front": "ギ",
+          "back": "gi",
+          "speakText": "ギ"
+        },
+        {
+          "front": "グ",
+          "back": "gu",
+          "speakText": "グ"
+        },
+        {
+          "front": "ゲ",
+          "back": "ge",
+          "speakText": "ゲ"
+        },
+        {
+          "front": "ゴ",
+          "back": "go",
+          "speakText": "ゴ"
+        },
+        {
+          "front": "ザ",
+          "back": "za",
+          "speakText": "ザ"
+        },
+        {
+          "front": "ジ",
+          "back": "ji",
+          "speakText": "ジ"
+        },
+        {
+          "front": "ズ",
+          "back": "zu",
+          "speakText": "ズ"
+        },
+        {
+          "front": "ゼ",
+          "back": "ze",
+          "speakText": "ゼ"
+        },
+        {
+          "front": "ゾ",
+          "back": "zo",
+          "speakText": "ゾ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ga?",
+      "options": [
+        "カ",
+        "ガ",
+        "ギ",
+        "キ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Zo?",
+      "options": [
+        "ソ",
+        "ゴ",
+        "ゾ",
+        "ザ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ji?",
+      "options": [
+        "シ",
+        "ジ",
+        "チ",
+        "ギ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ギ",
+      "answer": "gi"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ジ",
+      "answer": "ji",
+      "acceptAlternatives": [
+        "zi"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ズ",
+      "answer": "zu"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ガ",
+          "ga"
+        ],
+        [
+          "グ",
+          "gu"
+        ],
+        [
+          "ザ",
+          "za"
+        ],
+        [
+          "ゼ",
+          "ze"
+        ],
+        [
+          "ゴ",
+          "go"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ガ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "カ",
+        "ガ",
+        "ギ",
+        "キ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ジ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "シ",
+        "ジ",
+        "チ",
+        "ギ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ゾ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ソ",
+        "ゾ",
+        "ゴ",
+        "ザ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Gu?",
+      "options": [
+        "ク",
+        "グ",
+        "ゲ",
+        "ケ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ze?",
+      "options": [
+        "セ",
+        "ゼ",
+        "ザ",
+        "サ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "ギター (gitaa)",
+          "guitar"
+        ],
+        [
+          "ガス (gasu)",
+          "gas"
+        ],
+        [
+          "ジュース (juusu)",
+          "juice"
+        ],
+        [
+          "ゲーム (geemu)",
+          "game"
+        ],
+        [
+          "ゴルフ (gorufu)",
+          "golf"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "guitar",
+      "answer": [
+        "ギ",
+        "タ",
+        "ー"
+      ],
+      "bank": [
+        "ガ",
+        "ギ",
+        "グ",
+        "タ",
+        "テ",
+        "ー"
+      ],
+      "speakText": "ギター"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "gas",
+      "answer": [
+        "ガ",
+        "ス"
+      ],
+      "bank": [
+        "ガ",
+        "ギ",
+        "グ",
+        "ス",
+        "ソ",
+        "ザ"
+      ],
+      "speakText": "ガス"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "game",
+      "answer": [
+        "ゲ",
+        "ー",
+        "ム"
+      ],
+      "bank": [
+        "ガ",
+        "ゲ",
+        "ゴ",
+        "ム",
+        "マ",
+        "ー"
+      ],
+      "speakText": "ゲーム"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ギター",
+          "guitar"
+        ],
+        [
+          "ガス",
+          "gas"
+        ],
+        [
+          "ジュース",
+          "juice"
+        ],
+        [
+          "ゲーム",
+          "game"
+        ],
+        [
+          "ゴルフ",
+          "golf"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ゲーム",
+      "prompt": "Which word did you hear?",
+      "options": [
+        "game",
+        "gas",
+        "golf",
+        "guitar"
+      ],
+      "correctIndex": 0
+    }
+  ],
+  "id": "katakana-row-dakuten-gz"
+}

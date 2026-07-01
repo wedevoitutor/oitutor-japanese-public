@@ -1,0 +1,379 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Vowels — ア行",
+      "rows": [
+        [
+          "ア a",
+          "イ i",
+          "ウ u",
+          "エ e",
+          "オ o"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ア",
+          "back": "a",
+          "speakText": "ア"
+        },
+        {
+          "front": "オ",
+          "back": "o",
+          "speakText": "オ"
+        },
+        {
+          "front": "エ",
+          "back": "e",
+          "speakText": "エ"
+        },
+        {
+          "front": "イ",
+          "back": "i",
+          "speakText": "イ"
+        },
+        {
+          "front": "ウ",
+          "back": "u",
+          "speakText": "ウ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is A?",
+      "options": [
+        "イ",
+        "ア",
+        "ウ",
+        "オ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is O?",
+      "options": [
+        "エ",
+        "オ",
+        "ア",
+        "ウ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "オ",
+      "answer": "o"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "イ",
+      "answer": "i"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "オ",
+          "o"
+        ],
+        [
+          "ア",
+          "a"
+        ],
+        [
+          "エ",
+          "e"
+        ],
+        [
+          "ウ",
+          "u"
+        ],
+        [
+          "イ",
+          "i"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ア",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "イ",
+        "ア",
+        "ウ",
+        "オ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ウ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "エ",
+        "オ",
+        "ウ",
+        "ア"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is E?",
+      "options": [
+        "ウ",
+        "イ",
+        "エ",
+        "オ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "エ",
+      "answer": "e"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ウ",
+      "answer": "u"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is O? (watch for look-alikes)",
+      "options": [
+        "ホ",
+        "オ",
+        "ヌ",
+        "ア"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is U? (watch for look-alikes)",
+      "options": [
+        "ワ",
+        "フ",
+        "ラ",
+        "ウ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "listening",
+      "speakText": "エ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "イ",
+        "ウ",
+        "エ",
+        "オ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "オ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ア",
+        "オ",
+        "エ",
+        "ウ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ア",
+      "answer": "a"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is I?",
+      "options": [
+        "エ",
+        "イ",
+        "ウ",
+        "オ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "reference-chart",
+      "title": "New mark — ー (long vowel)",
+      "rows": [
+        [
+          "The ー mark doubles the previous vowel sound",
+          ""
+        ],
+        [
+          "アー",
+          "long 'ah'"
+        ],
+        [
+          "エー",
+          "long 'eh'"
+        ],
+        [
+          "オー",
+          "long 'oh'"
+        ],
+        [
+          "Essential for katakana loanwords (e.g. コーヒー = coffee)",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "エア (ea)",
+          "air"
+        ],
+        [
+          "アイ (ai)",
+          "eye / love"
+        ],
+        [
+          "アオ (ao)",
+          "blue"
+        ],
+        [
+          "ウエ (ue)",
+          "up / above"
+        ],
+        [
+          "イエ (ie)",
+          "house"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "air",
+      "answer": [
+        "エ",
+        "ア"
+      ],
+      "bank": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ",
+        "オ"
+      ],
+      "speakText": "エア"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "blue",
+      "answer": [
+        "ア",
+        "オ"
+      ],
+      "bank": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ",
+        "オ"
+      ],
+      "speakText": "アオ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "up / above",
+      "answer": [
+        "ウ",
+        "エ"
+      ],
+      "bank": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ",
+        "オ"
+      ],
+      "speakText": "ウエ"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "エア",
+      "answer": "ea"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "アオ",
+      "answer": "ao"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "エア",
+          "air"
+        ],
+        [
+          "アイ",
+          "eye / love"
+        ],
+        [
+          "アオ",
+          "blue"
+        ],
+        [
+          "ウエ",
+          "up / above"
+        ],
+        [
+          "イエ",
+          "house"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "イ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "エ",
+        "ア",
+        "イ",
+        "オ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "eye / love",
+      "answer": [
+        "ア",
+        "イ"
+      ],
+      "bank": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ",
+        "オ"
+      ],
+      "speakText": "アイ"
+    }
+  ],
+  "id": "katakana-row-vowels"
+}

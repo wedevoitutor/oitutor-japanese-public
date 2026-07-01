@@ -1,0 +1,1409 @@
+{
+  "id": "dialogues-lesson-08",
+  "dictionaryVocabulary": [
+    {
+      "word": "の",
+      "kana": "の",
+      "romaji": "no",
+      "partOfSpeech": "particle",
+      "meaning": "possessive / modifier marker",
+      "description": "Connects nouns to show ownership, belonging, description, or modification.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "これは私のかばんです。",
+        "kana": "これはわたしのかばんです。",
+        "romaji": "Kore wa watashi no kaban desu.",
+        "english": "This is my bag.",
+        "highlight": "の"
+      },
+      "tags": ["particles", "possession", "dialogue-08"]
+    },
+    {
+      "word": "かばん",
+      "kana": "かばん",
+      "romaji": "kaban",
+      "partOfSpeech": "noun",
+      "meaning": "bag",
+      "description": "A general word for a bag.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "これは私のかばんです。",
+        "kana": "これはわたしのかばんです。",
+        "romaji": "Kore wa watashi no kaban desu.",
+        "english": "This is my bag.",
+        "highlight": "かばん"
+      },
+      "tags": ["objects", "possession", "dialogue-08"]
+    },
+    {
+      "word": "誰",
+      "kana": "だれ",
+      "romaji": "dare",
+      "partOfSpeech": "question word",
+      "meaning": "who",
+      "description": "Question word used to ask about a person.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "それは誰のですか。",
+        "kana": "それはだれのですか。",
+        "romaji": "Sore wa dare no desu ka.",
+        "english": "Whose is that?",
+        "highlight": "誰"
+      },
+      "tags": ["questions", "possession", "dialogue-08"]
+    },
+    {
+      "word": "私",
+      "kana": "わたし",
+      "romaji": "watashi",
+      "partOfSpeech": "pronoun",
+      "meaning": "I / me",
+      "description": "The neutral first-person pronoun and the safest beginner default for 'I'.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "私のは黒いです。",
+        "kana": "わたしのはくろいです。",
+        "romaji": "Watashi no wa kuroi desu.",
+        "english": "Mine is black.",
+        "highlight": "私"
+      },
+      "tags": ["pronouns", "possession", "dialogue-08"]
+    },
+    {
+      "word": "黒い",
+      "kana": "くろい",
+      "romaji": "kuroi",
+      "partOfSpeech": "i-adjective",
+      "meaning": "black",
+      "description": "Used to describe something black in color.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "私のは黒いです。",
+        "kana": "わたしのはくろいです。",
+        "romaji": "Watashi no wa kuroi desu.",
+        "english": "Mine is black.",
+        "highlight": "黒い"
+      },
+      "tags": ["colors", "adjectives", "dialogue-08"]
+    },
+    {
+      "word": "ペン",
+      "kana": "ぺん",
+      "romaji": "pen",
+      "partOfSpeech": "noun",
+      "meaning": "pen",
+      "description": "A common writing tool, written in katakana.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "そのペンは誰のですか。",
+        "kana": "そのぺんはだれのですか。",
+        "romaji": "Sono pen wa dare no desu ka.",
+        "english": "Whose pen is that?",
+        "highlight": "ペン"
+      },
+      "tags": ["objects", "katakana", "dialogue-08"]
+    }
+  ],
+  "misconceptions": [
+    {
+      "target": "no-possession",
+      "error": "Reads の only as possession and misses modifier uses like にほんごのほん.",
+      "mitigation": "Comparison cards contrast ownership and modifier readings."
+    },
+    {
+      "target": "dare-no",
+      "error": "Answers だれの questions with item identity instead of owner.",
+      "mitigation": "Response-selection drills require owner answers."
+    },
+    {
+      "target": "watashi-no-ja-nai",
+      "error": "Treats わたしのじゃないです as ownership confirmation.",
+      "mitigation": "Meaning checks and typing drills practice the negative ownership phrase."
+    },
+    {
+      "target": "formal-ownership",
+      "error": "Uses casual だれの with office lost-and-found staff.",
+      "mitigation": "Register comparison cards distinguish formal どなたの from casual だれの."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Possession - Formal · Standard · Casual",
+      "intro": "Expressing ownership, asking whose item something is, and using の as both possession and modification.",
+      "rows": [
+        [
+          "Register",
+          "Japanese",
+          "Romaji",
+          "Typical Response",
+          "Context"
+        ],
+        [
+          "STANDARD",
+          "これは わたしの [もの]です",
+          "Kore wa watashi no [mono] desu",
+          "そうですかSou desu ka",
+          "Claiming ownership"
+        ],
+        [
+          "STANDARD",
+          "あなたの [もの]ですか？",
+          "Anata no [mono] desu ka?",
+          "はい、そうです。/ いいえ、ちがいます。Hai, sou desu. / Iie, chigaimasu.",
+          "Asking if something belongs to someone"
+        ],
+        [
+          "STANDARD",
+          "だれの [もの]ですか？",
+          "Dare no [mono] desu ka?",
+          "～さんのです~-san no desu",
+          "Asking whose something is"
+        ],
+        [
+          "STANDARD",
+          "～さんの [もの]です",
+          "~-san no [mono] desu",
+          "ありがとうございますArigatou gozaimasu",
+          "Attributing ownership by name"
+        ],
+        [
+          "STANDARD",
+          "わたしのじゃないです",
+          "Watashi no ja nai desu",
+          "では、だれのですか？Dewa, dare no desu ka?",
+          "Denying ownership (standard)"
+        ],
+        [
+          "CASUAL",
+          "これ、ぼく/わたしのだよ",
+          "Kore, boku/watashi no da yo",
+          "あ、そう！A, sou!",
+          "Claiming item casually"
+        ],
+        [
+          "CASUAL",
+          "それ、きみの？",
+          "Sore, kimi no?",
+          "うん。/ ちがうよ。Un. / Chigau yo.",
+          "Asking ownership casually"
+        ],
+        [
+          "CASUAL",
+          "だれの？",
+          "Dare no?",
+          "～のだよ~ no da yo",
+          "Quick \"whose?\" (noun dropped)"
+        ],
+        [
+          "CASUAL",
+          "～の（noun drop）",
+          "~ no",
+          "うん、そうだよUn, sou da yo",
+          "Dropping noun when context is clear"
+        ]
+      ],
+      "takeaway": "の links owner to item, and can stand alone as mine/yours when the item is already clear."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "A - FORMAL · Office Lost & Found",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "エマ",
+          "jp": "すみません、こちらは やまださんの かばんですか？",
+          "romaji": "Sumimasen, kochira wa Yamada-san no kaban desu ka?",
+          "en": "Excuse me, is this bag Yamada-san's?"
+        },
+        {
+          "speaker": "やまだ先生",
+          "jp": "いいえ、わたしのでは ございません。たなかさんのでは ないでしょうか。",
+          "romaji": "Iie, watashi no de wa gozaimasen. Tanaka-san no de wa nai deshou ka.",
+          "en": "No, it is not mine. Perhaps it might be Tanaka-san's?"
+        },
+        {
+          "speaker": "エマ",
+          "jp": "そうですか。では、だれの かばんか わかりません。おとしものがかりに きいてみます。",
+          "romaji": "Sou desu ka. Dewa, dare no kaban ka wakarimasen. Otoshimono-gakari ni kiite mimasu.",
+          "en": "I see. Then I don't know whose bag it is. I'll try asking at the lost & found."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "B - STANDARD · Café Phone on the Table",
+      "register": "polite",
+      "lines": [
+        {
+          "speaker": "みどり",
+          "jp": "ねえ、この スマートフォン、あなたのですか？",
+          "romaji": "Nee, kono sumātofon, anata no desu ka?",
+          "en": "Hey, is this smartphone yours?"
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "あ、ちがいます。わたしのは くろいです。それは だれのですか？",
+          "romaji": "A, chigaimasu. Watashi no wa kuroi desu. Sore wa dare no desu ka?",
+          "en": "Oh, it's not. Mine is black. Whose is that?"
+        },
+        {
+          "speaker": "みどり",
+          "jp": "わかりません。みせの ひとに きいてみます。",
+          "romaji": "Wakarimasen. Mise no hito ni kiite mimasu.",
+          "en": "I don't know. I'll try asking the café staff."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "C - CASUAL · Friends, Borrowing a Pen",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "ゆき",
+          "jp": "ねえ、そのペン、だれの？",
+          "romaji": "Nee, sono pen, dare no?",
+          "en": "Hey, whose pen is that?"
+        },
+        {
+          "speaker": "ルーカス",
+          "jp": "ぼくのだよ。でも、きみのペンを かしてくれる？",
+          "romaji": "Boku no da yo. Demo, kimi no pen wo kashite kureru?",
+          "en": "It's mine. But can you lend me your pen?"
+        },
+        {
+          "speaker": "ゆき",
+          "jp": "いいよ！でも なくさないでね。",
+          "romaji": "Ii yo! Demo nakusanai de ne.",
+          "en": "Sure! But don't lose it, okay."
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase matches: \"This is my bag.\"?",
+      "title": "Contrast 1: これは わたしの かばんです。",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "これは わたしの かばんです。",
+          "romaji": "Kore wa watashi no kaban desu.",
+          "en": "This is my bag.",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "あなたの でんわですか？",
+          "romaji": "Anata no denwa desu ka?",
+          "en": "Is it your phone?",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "だれの かぎですか？",
+          "romaji": "Dare no kagi desu ka?",
+          "en": "Whose key is this?",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "これは わたしの かばんです。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase matches: \"Whose key is this?\"?",
+      "title": "Contrast 3: だれの かぎですか？",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "だれの かぎですか？",
+          "romaji": "Dare no kagi desu ka?",
+          "en": "Whose key is this?",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "やまださんの ほんです。",
+          "romaji": "Yamada-san no hon desu.",
+          "en": "It's Yamada's book.",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "これは ぼくのです。",
+          "romaji": "Kore wa boku no desu.",
+          "en": "This is mine.",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongRegister",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "casual",
+          "relationship": "friends",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "だれの かぎですか？"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase matches: \"This is mine.\"?",
+      "title": "Contrast 5: これは ぼくのです。",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "これは ぼくのです。",
+          "romaji": "Kore wa boku no desu.",
+          "en": "This is mine.",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "casual",
+          "relationship": "friends",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "わたしのじゃないです。",
+          "romaji": "Watashi no ja nai desu.",
+          "en": "It's not mine.",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "かれの なまえは たろうです。",
+          "romaji": "Kare no namae wa Tarou desu.",
+          "en": "His name is Taro.",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongRegister",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "これは ぼくのです。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase matches: \"His name is Taro.\"?",
+      "title": "Contrast 7: かれの なまえは たろうです。",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "かれの なまえは たろうです。",
+          "romaji": "Kare no namae wa Tarou desu.",
+          "en": "His name is Taro.",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "にほんごの ほん",
+          "romaji": "Nihongo no hon",
+          "en": "Japanese language book (の as modifier)",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "きみの ペン、かして。",
+          "romaji": "Kimi no pen, kashite.",
+          "en": "Lend me your pen.",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongRegister",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "casual",
+          "relationship": "friends",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "かれの なまえは たろうです。"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the key phrase from the source lesson:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "これは わたしの かばんです",
+        "answerRomaji": "kore wa watashi no kaban desu",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "kore wa watashi no kaban desu"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "これは わたしの かばんです。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the whole source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "だれの かぎですか",
+        "answerRomaji": "dare no kagi desu ka",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "dare no kagi desu ka"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "だれの かぎですか？",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the whole source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "やまださんの ほんです",
+        "answerRomaji": "yamada-san no hon desu",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "yamadasan no hon desu",
+          "yamada-san no hon desu"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "やまださんの ほんです。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "これは わたしの かばんです。",
+          "romaji": "Kore wa watashi no kaban desu.",
+          "en": "This is my bag."
+        },
+        {
+          "jp": "あなたの でんわですか？",
+          "romaji": "Anata no denwa desu ka?",
+          "en": "Is it your phone?"
+        },
+        {
+          "jp": "だれの かぎですか？",
+          "romaji": "Dare no kagi desu ka?",
+          "en": "Whose key is this?"
+        },
+        {
+          "jp": "やまださんの ほんです。",
+          "romaji": "Yamada-san no hon desu.",
+          "en": "It's Yamada's book."
+        },
+        {
+          "jp": "これは ぼくのです。",
+          "romaji": "Kore wa boku no desu.",
+          "en": "This is mine."
+        },
+        {
+          "jp": "わたしのじゃないです。",
+          "romaji": "Watashi no ja nai desu.",
+          "en": "It's not mine."
+        },
+        {
+          "jp": "かれの なまえは たろうです。",
+          "romaji": "Kare no namae wa Tarou desu.",
+          "en": "His name is Taro."
+        },
+        {
+          "jp": "にほんごの ほん",
+          "romaji": "Nihongo no hon",
+          "en": "Japanese language book (の as modifier)"
+        },
+        {
+          "jp": "きみの ペン、かして。",
+          "romaji": "Kimi no pen, kashite.",
+          "en": "Lend me your pen."
+        },
+        {
+          "jp": "これ、だれの？",
+          "romaji": "Kore, dare no?",
+          "en": "Whose is this? (casual)"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "わたしのかばんです。",
+      "options": [
+        {
+          "text": "It's my bag.",
+          "correct": true
+        },
+        {
+          "text": "It's your bag.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "It's his bag.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Is it my bag?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "だれのかぎですか？",
+      "options": [
+        {
+          "text": "Where is the key?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Whose key is this?",
+          "correct": true
+        },
+        {
+          "text": "Do you have a key?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Is this a key?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "これはぼくのです。",
+      "options": [
+        {
+          "text": "This is yours.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Is this mine?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "This is mine.",
+          "correct": true
+        },
+        {
+          "text": "This is his.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "あなたのでんわですか？",
+      "options": [
+        {
+          "text": "Is this a phone?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Where is your phone?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Is this my phone?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Is it your phone?",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "やまださんのほんです。",
+      "options": [
+        {
+          "text": "It's Yamada's book.",
+          "correct": true
+        },
+        {
+          "text": "Yamada has a book.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Yamada likes books.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Is this Yamada's?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "わたしのじゃないです。",
+      "options": [
+        {
+          "text": "It's mine.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I don't know.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "It's yours.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "It's not mine.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "にほんごのほん",
+      "options": [
+        {
+          "text": "A book about Japan",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "A Japanese person's book",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Reading a book in Japanese",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Japanese language book",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "きみのペン、かして。",
+      "options": [
+        {
+          "text": "Lend me your pen.",
+          "correct": true
+        },
+        {
+          "text": "Buy me a pen.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Do you have a pen?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Your pen is nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "これは あなたの かばんですか？",
+        "romaji": "Kore wa anata no kaban desu ka?",
+        "speakText": "これは あなたの かばんですか？"
+      },
+      "options": [
+        {
+          "jp": "はい、わたしのです。",
+          "romaji": "Hai, watashi no desu.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いいえ、かばんです。",
+          "romaji": "Iie, kaban desu.",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This is a familiar earlier phrase, but it does not answer this prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はい、あなたのです。",
+          "romaji": "Hai, anata no desu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "だれの かぎですか？",
+        "romaji": "Dare no kagi desu ka?",
+        "speakText": "だれの かぎですか？"
+      },
+      "options": [
+        {
+          "jp": "えんぴつです。",
+          "romaji": "Enpitsu desu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption0",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "やまださんのです。",
+          "romaji": "Yamada-san no desu.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はい、かぎです。",
+          "romaji": "Hai, kagi desu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "このほん、きみの？",
+        "romaji": "Kono hon, kimi no?",
+        "speakText": "このほん、きみの？"
+      },
+      "options": [
+        {
+          "jp": "うん、ぼくのだよ。",
+          "romaji": "Un, boku no da yo.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "friends",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いいえ、ほんです。",
+          "romaji": "Iie, hon desu.",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This is a familiar earlier phrase, but it does not answer this prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はい、あなたのです。",
+          "romaji": "Hai, anata no desu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "すみません、これは どなたの かばんでしょうか？",
+        "romaji": "Sumimasen, kore wa donata no kaban deshou ka?",
+        "speakText": "すみません、これは どなたの かばんでしょうか？"
+      },
+      "options": [
+        {
+          "jp": "はい、かばんです。",
+          "romaji": "Hai, kaban desu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption0",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "わかりません。おとしものがかりに きいてください。",
+          "romaji": "Wakarimasen. Otoshimono-gakari ni kiite kudasai.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いいえ、ありがとうございます。",
+          "romaji": "Iie, arigatou gozaimasu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "formal",
+          "relationship": "junior-to-senior",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Review from dialogues-lesson-06: choose the best response:",
+      "reviewFrom": "dialogues-lesson-06",
+      "question": {
+        "jp": "どこの くにから きましたか？",
+        "romaji": "Doko no kuni kara kimashita ka?",
+        "speakText": "どこの くにから きましたか？"
+      },
+      "options": [
+        {
+          "jp": "ポーランドから きました。",
+          "romaji": "Poorando kara kimashita.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はじめまして、よろしく！",
+          "romaji": "Hajimemashite, yoroshiku!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor0",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "おはようございます！",
+          "romaji": "Ohayou gozaimasu!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor1",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "formal",
+          "relationship": "junior-to-senior",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Review from dialogues-lesson-07: choose the best response:",
+      "reviewFrom": "dialogues-lesson-07",
+      "question": {
+        "jp": "えいがを みに いきますか？",
+        "romaji": "Eiga wo mi ni ikimasu ka?",
+        "speakText": "えいがを みに いきますか？"
+      },
+      "options": [
+        {
+          "jp": "はい、いきたいです！なんじに でますか？",
+          "romaji": "Hai, ikitai desu! Nanji ni demasu ka?",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はじめまして、よろしく！",
+          "romaji": "Hajimemashite, yoroshiku!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor0",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "おはようございます！",
+          "romaji": "Ohayou gozaimasu!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor1",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "formal",
+          "relationship": "junior-to-senior",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "これは わたしの かばんです。",
+      "answer": "kore wa watashi no kaban desu",
+      "acceptAlternatives": [],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "だれの かぎですか？",
+      "answer": "dare no kagi desu ka",
+      "acceptAlternatives": [],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "やまださんの ほんです。",
+      "answer": "yamada-san no hon desu",
+      "acceptAlternatives": [
+        "yamadasan no hon desu"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "わたしのじゃないです。",
+      "answer": "watashi no ja nai desu",
+      "acceptAlternatives": [],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "これは ぼくのです。",
+      "answer": "kore wa boku no desu",
+      "acceptAlternatives": [],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "あなたの でんわですか？",
+      "answer": "anata no denwa desu ka",
+      "acceptAlternatives": [],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "にほんごの ほんです。",
+      "answer": "nihongo no hon desu",
+      "acceptAlternatives": [],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "それ、きみの？",
+      "answer": "sore, kimi no",
+      "acceptAlternatives": [
+        "sore kimi no"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "すみません、こちらは やまださんの かばんですか？",
+      "romaji": "Sumimasen, kochira wa Yamada-san no kaban desu ka?",
+      "en": "Excuse me, is this bag Yamada-san's?",
+      "speakText": "すみません、こちらは やまださんの かばんですか？",
+      "register": "formal",
+      "dialogueContext": "A - Formal · Office Lost & Found",
+      "speaker": "エマ"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いいえ、わたしのでは ございません。たなかさんのでは ないでしょうか。",
+      "romaji": "Iie, watashi no de wa gozaimasen. Tanaka-san no de wa nai deshou ka.",
+      "en": "No, it is not mine. Perhaps it might be Tanaka-san's?",
+      "speakText": "いいえ、わたしのでは ございません。たなかさんのでは ないでしょうか。",
+      "register": "formal",
+      "dialogueContext": "A - Formal · Office Lost & Found",
+      "speaker": "やまだ先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "そうですか。では、だれの かばんか わかりません。おとしものがかりに きいてみます。",
+      "romaji": "Sou desu ka. Dewa, dare no kaban ka wakarimasen. Otoshimono-gakari ni kiite mimasu.",
+      "en": "I see. Then I don't know whose bag it is. I'll try asking at the lost & found.",
+      "speakText": "そうですか。では、だれの かばんか わかりません。おとしものがかりに きいてみます。",
+      "register": "formal",
+      "dialogueContext": "A - Formal · Office Lost & Found",
+      "speaker": "エマ"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ねえ、この スマートフォン、あなたのですか？",
+      "romaji": "Nee, kono sumātofon, anata no desu ka?",
+      "en": "Hey, is this smartphone yours?",
+      "speakText": "ねえ、この スマートフォン、あなたのですか？",
+      "register": "polite",
+      "dialogueContext": "B - Standard · Café Phone on the Table",
+      "speaker": "みどり"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "あ、ちがいます。わたしのは くろいです。それは だれのですか？",
+      "romaji": "A, chigaimasu. Watashi no wa kuroi desu. Sore wa dare no desu ka?",
+      "en": "Oh, it's not. Mine is black. Whose is that?",
+      "speakText": "あ、ちがいます。わたしのは くろいです。それは だれのですか？",
+      "register": "polite",
+      "dialogueContext": "B - Standard · Café Phone on the Table",
+      "speaker": "アレックス"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "わかりません。みせの ひとに きいてみます。",
+      "romaji": "Wakarimasen. Mise no hito ni kiite mimasu.",
+      "en": "I don't know. I'll try asking the café staff.",
+      "speakText": "わかりません。みせの ひとに きいてみます。",
+      "register": "polite",
+      "dialogueContext": "B - Standard · Café Phone on the Table",
+      "speaker": "みどり"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ねえ、そのペン、だれの？",
+      "romaji": "Nee, sono pen, dare no?",
+      "en": "Hey, whose pen is that?",
+      "speakText": "ねえ、そのペン、だれの？",
+      "register": "casual",
+      "dialogueContext": "C - Casual · Friends, Borrowing a Pen",
+      "speaker": "ゆき"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ぼくのだよ。でも、きみのペンを かしてくれる？",
+      "romaji": "Boku no da yo. Demo, kimi no pen wo kashite kureru?",
+      "en": "It's mine. But can you lend me your pen?",
+      "speakText": "ぼくのだよ。でも、きみのペンを かしてくれる？",
+      "register": "casual",
+      "dialogueContext": "C - Casual · Friends, Borrowing a Pen",
+      "speaker": "ルーカス"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いいよ！でも なくさないでね。",
+      "romaji": "Ii yo! Demo nakusanai de ne.",
+      "en": "Sure! But don't lose it, okay.",
+      "speakText": "いいよ！でも なくさないでね。",
+      "register": "casual",
+      "dialogueContext": "C - Casual · Friends, Borrowing a Pen",
+      "speaker": "ゆき"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "これは わたしの かばんです。",
+          "right": "This is my bag."
+        },
+        {
+          "left": "あなたの でんわですか？",
+          "right": "Is it your phone?"
+        },
+        {
+          "left": "だれの かぎですか？",
+          "right": "Whose key is this?"
+        },
+        {
+          "left": "やまださんの ほんです。",
+          "right": "It's Yamada's book."
+        },
+        {
+          "left": "これは ぼくのです。",
+          "right": "This is mine."
+        },
+        {
+          "left": "わたしのじゃないです。",
+          "right": "It's not mine."
+        },
+        {
+          "left": "大丈夫ですか",
+          "right": "Are you okay?",
+          "reviewFrom": "dialogues-lesson-02"
+        },
+        {
+          "left": "つぎの かどで まがってください。",
+          "right": "Please turn at the next corner.",
+          "reviewFrom": "dialogues-lesson-04"
+        },
+        {
+          "left": "どこの くにから きましたか？",
+          "right": "Which country are you from?",
+          "reviewFrom": "dialogues-lesson-06"
+        },
+        {
+          "left": "またね",
+          "right": "See you (casual)",
+          "reviewFrom": "dialogues-lesson-01"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "すみません、こちらは やまださんの かばんですか？",
+          "romaji": "Sumimasen, kochira wa Yamada-san no kaban desu ka?",
+          "en": "Excuse me, is this bag Yamada-san's?"
+        },
+        {
+          "jp": "いいえ、わたしのでは ございません。たなかさんのでは ないでしょうか。",
+          "romaji": "Iie, watashi no de wa gozaimasen. Tanaka-san no de wa nai deshou ka.",
+          "en": "No, it is not mine. Perhaps it might be Tanaka-san's?",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "A - Formal · Office Lost & Found; register is formal."
+          }
+        },
+        {
+          "jp": "そうですか。では、だれの かばんか わかりません。おとしものがかりに きいてみます。",
+          "romaji": "Sou desu ka. Dewa, dare no kaban ka wakarimasen. Otoshimono-gakari ni kiite mimasu.",
+          "en": "I see. Then I don't know whose bag it is. I'll try asking at the lost & found."
+        },
+        {
+          "jp": "ねえ、この スマートフォン、あなたのですか？",
+          "romaji": "Nee, kono sumātofon, anata no desu ka?",
+          "en": "Hey, is this smartphone yours?"
+        },
+        {
+          "jp": "あ、ちがいます。わたしのは くろいです。それは だれのですか？",
+          "romaji": "A, chigaimasu. Watashi no wa kuroi desu. Sore wa dare no desu ka?",
+          "en": "Oh, it's not. Mine is black. Whose is that?",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "B - Standard · Café Phone on the Table; register is polite."
+          }
+        },
+        {
+          "jp": "わかりません。みせの ひとに きいてみます。",
+          "romaji": "Wakarimasen. Mise no hito ni kiite mimasu.",
+          "en": "I don't know. I'll try asking the café staff."
+        },
+        {
+          "jp": "ねえ、そのペン、だれの？",
+          "romaji": "Nee, sono pen, dare no?",
+          "en": "Hey, whose pen is that?"
+        },
+        {
+          "jp": "ぼくのだよ。でも、きみのペンを かしてくれる？",
+          "romaji": "Boku no da yo. Demo, kimi no pen wo kashite kureru?",
+          "en": "It's mine. But can you lend me your pen?",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "C - Casual · Friends, Borrowing a Pen; register is casual."
+          }
+        },
+        {
+          "jp": "いいよ！でも なくさないでね。",
+          "romaji": "Ii yo! Demo nakusanai de ne.",
+          "en": "Sure! But don't lose it, okay."
+        },
+        {
+          "jp": "これは わたしの かばんです。",
+          "romaji": "Kore wa watashi no kaban desu.",
+          "en": "This is my bag."
+        }
+      ]
+    }
+  ]
+}

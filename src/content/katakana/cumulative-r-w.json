@@ -1,0 +1,331 @@
+{
+  "exercises": [
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ラ",
+          "back": "ra",
+          "speakText": "ラ"
+        },
+        {
+          "front": "ワ",
+          "back": "wa",
+          "speakText": "ワ"
+        },
+        {
+          "front": "リ",
+          "back": "ri",
+          "speakText": "リ"
+        },
+        {
+          "front": "ン",
+          "back": "n",
+          "speakText": "ン"
+        },
+        {
+          "front": "ル",
+          "back": "ru",
+          "speakText": "ル"
+        },
+        {
+          "front": "ヲ",
+          "back": "wo",
+          "speakText": "ヲ"
+        },
+        {
+          "front": "レ",
+          "back": "re",
+          "speakText": "レ"
+        },
+        {
+          "front": "ロ",
+          "back": "ro",
+          "speakText": "ロ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Wa?",
+      "options": [
+        "ラ",
+        "ワ",
+        "ヲ",
+        "ン"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ro?",
+      "options": [
+        "ル",
+        "ロ",
+        "レ",
+        "ワ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is N?",
+      "options": [
+        "ソ",
+        "ン",
+        "ノ",
+        "ツ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "リ",
+      "answer": "ri"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ワ",
+      "answer": "wa"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ン",
+      "answer": "n"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ラ",
+          "ra"
+        ],
+        [
+          "ル",
+          "ru"
+        ],
+        [
+          "ロ",
+          "ro"
+        ],
+        [
+          "ワ",
+          "wa"
+        ],
+        [
+          "ン",
+          "n"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "レ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ラ",
+        "リ",
+        "ル",
+        "レ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "listening",
+      "speakText": "ワ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ウ",
+        "ワ",
+        "フ",
+        "ク"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Re? (watch for look-alikes)",
+      "options": [
+        "ル",
+        "レ",
+        "ロ",
+        "ラ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Wo?",
+      "options": [
+        "ヌ",
+        "ラ",
+        "ヲ",
+        "モ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ル",
+      "answer": "ru"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ロ",
+      "answer": "ro"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "ワイン (wain)",
+          "wine"
+        ],
+        [
+          "レモン (remon)",
+          "lemon"
+        ],
+        [
+          "ラーメン (raamen)",
+          "ramen"
+        ],
+        [
+          "ルール (ruuru)",
+          "rule"
+        ],
+        [
+          "カメラ (kamera)",
+          "camera"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "wine",
+      "answer": [
+        "ワ",
+        "イ",
+        "ン"
+      ],
+      "bank": [
+        "ワ",
+        "ヲ",
+        "ン",
+        "ソ",
+        "イ",
+        "ウ"
+      ],
+      "speakText": "ワイン"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "rule",
+      "answer": [
+        "ル",
+        "ー",
+        "ル"
+      ],
+      "bank": [
+        "ラ",
+        "リ",
+        "ル",
+        "レ",
+        "ロ",
+        "ー"
+      ],
+      "speakText": "ルール"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "ramen",
+      "answer": [
+        "ラ",
+        "ー",
+        "メ",
+        "ン"
+      ],
+      "bank": [
+        "ラ",
+        "リ",
+        "ン",
+        "ソ",
+        "メ",
+        "マ",
+        "ー"
+      ],
+      "speakText": "ラーメン"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ワイン",
+      "answer": "wain"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ルール",
+      "answer": "ruuru"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ワイン",
+          "wine"
+        ],
+        [
+          "レモン",
+          "lemon"
+        ],
+        [
+          "ラーメン",
+          "ramen"
+        ],
+        [
+          "ルール",
+          "rule"
+        ],
+        [
+          "カメラ",
+          "camera"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "レモン",
+      "prompt": "What did you hear?",
+      "options": [
+        "lemon",
+        "wine",
+        "ramen",
+        "rule"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "camera",
+      "answer": [
+        "カ",
+        "メ",
+        "ラ"
+      ],
+      "bank": [
+        "ラ",
+        "リ",
+        "ワ",
+        "ン",
+        "カ",
+        "キ",
+        "メ"
+      ],
+      "speakText": "カメラ"
+    }
+  ],
+  "id": "katakana-cumulative-r-w"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "hiragana-practice-1",
+  "exercises": [
+    {
+      "type": "flashcard",
+      "cards": [
+        { "front": "さ", "back": "sa" },
+        { "front": "し", "back": "shi" },
+        { "front": "す", "back": "su" },
+        { "front": "せ", "back": "se" },
+        { "front": "そ", "back": "so" }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "し",
+      "answer": "shi",
+      "acceptAlternatives": ["si"]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "つ",
+      "answer": "tsu",
+      "acceptAlternatives": ["tu"]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["あ", "a"],
+        ["か", "ka"],
+        ["さ", "sa"],
+        ["た", "ta"],
+        ["な", "na"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,508 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "All 48 Katakana",
+      "rows": [
+        [
+          "ア a",
+          "イ i",
+          "ウ u",
+          "エ e",
+          "オ o"
+        ],
+        [
+          "カ ka",
+          "キ ki",
+          "ク ku",
+          "ケ ke",
+          "コ ko"
+        ],
+        [
+          "サ sa",
+          "シ shi",
+          "ス su",
+          "セ se",
+          "ソ so"
+        ],
+        [
+          "タ ta",
+          "チ chi",
+          "ツ tsu",
+          "テ te",
+          "ト to"
+        ],
+        [
+          "ナ na",
+          "ニ ni",
+          "ヌ nu",
+          "ネ ne",
+          "ノ no"
+        ],
+        [
+          "ハ ha",
+          "ヒ hi",
+          "フ fu",
+          "ヘ he",
+          "ホ ho"
+        ],
+        [
+          "マ ma",
+          "ミ mi",
+          "ム mu",
+          "メ me",
+          "モ mo"
+        ],
+        [
+          "ヤ ya",
+          "ユ yu",
+          "ヨ yo"
+        ],
+        [
+          "ラ ra",
+          "リ ri",
+          "ル ru",
+          "レ re",
+          "ロ ro"
+        ],
+        [
+          "ワ wa",
+          "ヰ wi",
+          "ヱ we",
+          "ヲ wo",
+          "ン n"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ア",
+          "back": "a",
+          "speakText": "ア"
+        },
+        {
+          "front": "サ",
+          "back": "sa",
+          "speakText": "サ"
+        },
+        {
+          "front": "ツ",
+          "back": "tsu",
+          "speakText": "ツ"
+        },
+        {
+          "front": "ネ",
+          "back": "ne",
+          "speakText": "ネ"
+        },
+        {
+          "front": "ヒ",
+          "back": "hi",
+          "speakText": "ヒ"
+        },
+        {
+          "front": "ム",
+          "back": "mu",
+          "speakText": "ム"
+        },
+        {
+          "front": "ヨ",
+          "back": "yo",
+          "speakText": "ヨ"
+        },
+        {
+          "front": "レ",
+          "back": "re",
+          "speakText": "レ"
+        },
+        {
+          "front": "ワ",
+          "back": "wa",
+          "speakText": "ワ"
+        },
+        {
+          "front": "ン",
+          "back": "n",
+          "speakText": "ン"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Shi? (watch シ/ツ)",
+      "options": [
+        "シ",
+        "ツ",
+        "ソ",
+        "ン"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Tsu? (watch シ/ツ)",
+      "options": [
+        "シ",
+        "ツ",
+        "ソ",
+        "ン"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is N? (watch ソ/ン)",
+      "options": [
+        "ソ",
+        "ン",
+        "ノ",
+        "リ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ro? (watch コ/ロ)",
+      "options": [
+        "コ",
+        "ユ",
+        "ロ",
+        "ワ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "チ",
+      "answer": "chi",
+      "acceptAlternatives": [
+        "ti"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ツ",
+      "answer": "tsu",
+      "acceptAlternatives": [
+        "tu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "フ",
+      "answer": "fu",
+      "acceptAlternatives": [
+        "hu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ヲ",
+      "answer": "wo",
+      "acceptAlternatives": [
+        "o"
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "オ",
+          "o"
+        ],
+        [
+          "ク",
+          "ku"
+        ],
+        [
+          "セ",
+          "se"
+        ],
+        [
+          "ト",
+          "to"
+        ],
+        [
+          "ヌ",
+          "nu"
+        ]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ホ",
+          "ho"
+        ],
+        [
+          "ミ",
+          "mi"
+        ],
+        [
+          "ヤ",
+          "ya"
+        ],
+        [
+          "リ",
+          "ri"
+        ],
+        [
+          "ヲ",
+          "wo"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ケ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ク",
+        "コ",
+        "ケ",
+        "カ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "ホ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ハ",
+        "ヘ",
+        "ヒ",
+        "ホ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "listening",
+      "speakText": "ン",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ソ",
+        "ノ",
+        "ン",
+        "ツ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Nu? (watch ヌ/ス)",
+      "options": [
+        "ス",
+        "ヌ",
+        "ク",
+        "ワ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ma? (watch マ/ム/ア)",
+      "options": [
+        "マ",
+        "ム",
+        "ア",
+        "ヤ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Na? (watch ナ/メ)",
+      "options": [
+        "メ",
+        "ナ",
+        "ヌ",
+        "ノ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ヘ",
+      "answer": "he"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ヨ",
+      "answer": "yo"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "テレビ (terebi)",
+          "TV (voiced — coming soon)"
+        ],
+        [
+          "カメラ (kamera)",
+          "camera"
+        ],
+        [
+          "ノート (nooto)",
+          "notebook"
+        ],
+        [
+          "ラーメン (raamen)",
+          "ramen"
+        ],
+        [
+          "ワイン (wain)",
+          "wine"
+        ],
+        [
+          "ホテル (hoteru)",
+          "hotel"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "camera",
+      "answer": [
+        "カ",
+        "メ",
+        "ラ"
+      ],
+      "bank": [
+        "カ",
+        "キ",
+        "ク",
+        "メ",
+        "マ",
+        "ラ",
+        "リ"
+      ],
+      "speakText": "カメラ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "notebook",
+      "answer": [
+        "ノ",
+        "ー",
+        "ト"
+      ],
+      "bank": [
+        "ナ",
+        "ニ",
+        "ヌ",
+        "ネ",
+        "ノ",
+        "ト",
+        "タ",
+        "ー"
+      ],
+      "speakText": "ノート"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "ramen",
+      "answer": [
+        "ラ",
+        "ー",
+        "メ",
+        "ン"
+      ],
+      "bank": [
+        "ラ",
+        "リ",
+        "ル",
+        "メ",
+        "マ",
+        "ン",
+        "ソ",
+        "ー"
+      ],
+      "speakText": "ラーメン"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "hotel",
+      "answer": [
+        "ホ",
+        "テ",
+        "ル"
+      ],
+      "bank": [
+        "ハ",
+        "ヒ",
+        "フ",
+        "ヘ",
+        "ホ",
+        "テ",
+        "タ",
+        "ル"
+      ],
+      "speakText": "ホテル"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "カメラ",
+          "camera"
+        ],
+        [
+          "ノート",
+          "notebook"
+        ],
+        [
+          "ラーメン",
+          "ramen"
+        ],
+        [
+          "ワイン",
+          "wine"
+        ],
+        [
+          "ホテル",
+          "hotel"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ラーメン",
+      "prompt": "What did you hear?",
+      "options": [
+        "ramen",
+        "camera",
+        "hotel",
+        "notebook"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "wine",
+      "answer": [
+        "ワ",
+        "イ",
+        "ン"
+      ],
+      "bank": [
+        "ワ",
+        "ヲ",
+        "ン",
+        "ソ",
+        "イ",
+        "ウ"
+      ],
+      "speakText": "ワイン"
+    }
+  ],
+  "id": "katakana-review-final"
+}

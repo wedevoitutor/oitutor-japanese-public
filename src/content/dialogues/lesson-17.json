@@ -1,0 +1,1289 @@
+{
+  "id": "dialogues-lesson-17",
+  "misconceptions": [
+    {
+      "target": "colours-single-word-answer",
+      "error": "Answers with isolated vocabulary instead of a complete conversational turn.",
+      "mitigation": "Reference rows and response-selection drills keep prompts and natural replies together."
+    },
+    {
+      "target": "colours-register-mismatch",
+      "error": "Uses casual language with teachers, staff, or strangers.",
+      "mitigation": "Formal, casual, and slang scenes are separated and labeled."
+    },
+    {
+      "target": "colours-listening-drift",
+      "error": "Chooses a familiar phrase that does not match the audio.",
+      "mitigation": "Listening MC and type-the-answer reuse the exact dialogue speakText."
+    },
+    {
+      "target": "colours-particle-confusion",
+      "error": "Confuses は, へ, or を in written Japanese source phrases.",
+      "mitigation": "Formula-fill keeps the Japanese particles visible and accepts romaji as support."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Colours - Formal · Casual · Slang",
+      "intro": "Practice colours as prompt-and-response dialogue, not as loose vocabulary.",
+      "rows": [
+        [
+          "Register",
+          "Japanese",
+          "Romaji",
+          "Typical Response",
+          "Context"
+        ],
+        [
+          "FORMAL",
+          "かばんは なにいろですか？",
+          "kabanha naniirodesuka?",
+          "くろい かばんです。",
+          "It is a black bag."
+        ],
+        [
+          "FORMAL",
+          "くろい かばんです。",
+          "kuroi kabandesu.",
+          "そうです。ありがとうございます。",
+          "That is right. Thank you."
+        ],
+        [
+          "CASUAL",
+          "あおい シャツと しろい シャツ、どっちが いい？",
+          "aoi shatsuto shiroi shatsu,dotchiga ii?",
+          "あおい シャツが いいよ。",
+          "The blue shirt is good."
+        ],
+        [
+          "CASUAL",
+          "あおい シャツが いいよ。",
+          "aoi shatsuga iiyo.",
+          "いいね。あとで かくにんしよう。",
+          "Nice. Let us check later."
+        ],
+        [
+          "SLANG",
+          "この ケース、ピンクすぎる？",
+          "kono keesu,pinkusugiru?",
+          "いや、かわいいじゃん。",
+          "No, it is cute."
+        ],
+        [
+          "SLANG",
+          "いや、かわいいじゃん。",
+          "iya,kawaiijan.",
+          "まじか。いいじゃん。",
+          "Really? Nice."
+        ]
+      ],
+      "takeaway": "First choose the right meaning, then choose the right relationship tone."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "A - FORMAL · Colours",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "先生",
+          "jp": "かばんは なにいろですか？",
+          "romaji": "kabanha naniirodesuka?",
+          "en": "What color is the bag?"
+        },
+        {
+          "speaker": "学生",
+          "jp": "くろい かばんです。",
+          "romaji": "kuroi kabandesu.",
+          "en": "It is a black bag."
+        },
+        {
+          "speaker": "先生",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "B - CASUAL · Colours",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "ゆい",
+          "jp": "あおい シャツと しろい シャツ、どっちが いい？",
+          "romaji": "aoi shatsuto shiroi shatsu,dotchiga ii?",
+          "en": "Which is better, the blue shirt or the white shirt?"
+        },
+        {
+          "speaker": "たく",
+          "jp": "あおい シャツが いいよ。",
+          "romaji": "aoi shatsuga iiyo.",
+          "en": "The blue shirt is good."
+        },
+        {
+          "speaker": "ゆい",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "C - SLANG · Colours",
+      "register": "slang",
+      "lines": [
+        {
+          "speaker": "りく",
+          "jp": "この ケース、ピンクすぎる？",
+          "romaji": "kono keesu,pinkusugiru?",
+          "en": "Is this case too pink?"
+        },
+        {
+          "speaker": "まい",
+          "jp": "いや、かわいいじゃん。",
+          "romaji": "iya,kawaiijan.",
+          "en": "No, it is cute."
+        },
+        {
+          "speaker": "りく",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 1: かばんは なにいろですか？",
+      "prompt": "Which source phrase means: “What color is the bag?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "かばんは なにいろですか？",
+          "romaji": "kabanha naniirodesuka?",
+          "en": "What color is the bag?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "かばんは なにいろですか？"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 2: くろい かばんです。",
+      "prompt": "Which source phrase means: “It is a black bag.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "くろい かばんです。",
+          "romaji": "kuroi kabandesu.",
+          "en": "It is a black bag.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "この ケース、ピンクすぎる？",
+          "romaji": "kono keesu,pinkusugiru?",
+          "en": "Is this case too pink?",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "あか",
+          "romaji": "aka",
+          "en": "red",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "くろい かばんです。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 3: そうです。ありがとうございます。",
+      "prompt": "Which source phrase means: “That is right. Thank you.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "いや、かわいいじゃん。",
+          "romaji": "iya,kawaiijan.",
+          "en": "No, it is cute.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "あお",
+          "romaji": "ao",
+          "en": "blue",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "そうです。ありがとうございます。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 4: あおい シャツと しろい シャツ、どっちが いい？",
+      "prompt": "Which source phrase means: “Which is better, the blue shirt or the white shirt?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "あおい シャツと しろい シャツ、どっちが いい？",
+          "romaji": "aoi shatsuto shiroi shatsu,dotchiga ii?",
+          "en": "Which is better, the blue shirt or the white shirt?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "しろ",
+          "romaji": "shiro",
+          "en": "white",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "あおい シャツと しろい シャツ、どっちが いい？"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "かばんは なにいろですか",
+        "answerRomaji": "kabanha naniirodesuka?",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "kabanhananiirodesuka?"
+        ]
+      },
+      "translation": "What color is the bag?",
+      "speakText": "かばんは なにいろですか？",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "くろい かばんです",
+        "answerRomaji": "kuroi kabandesu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "kuroikabandesu."
+        ]
+      },
+      "translation": "It is a black bag.",
+      "speakText": "くろい かばんです。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "そうです。ありがとうございます",
+        "answerRomaji": "soudesu.arigatougozaimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "soudesu.arigatougozaimasu."
+        ]
+      },
+      "translation": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "かばんは なにいろですか？",
+          "romaji": "kabanha naniirodesuka?",
+          "en": "What color is the bag?"
+        },
+        {
+          "jp": "くろい かばんです。",
+          "romaji": "kuroi kabandesu.",
+          "en": "It is a black bag."
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "あおい シャツと しろい シャツ、どっちが いい？",
+          "romaji": "aoi shatsuto shiroi shatsu,dotchiga ii?",
+          "en": "Which is better, the blue shirt or the white shirt?"
+        },
+        {
+          "jp": "あおい シャツが いいよ。",
+          "romaji": "aoi shatsuga iiyo.",
+          "en": "The blue shirt is good."
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "この ケース、ピンクすぎる？",
+          "romaji": "kono keesu,pinkusugiru?",
+          "en": "Is this case too pink?"
+        },
+        {
+          "jp": "いや、かわいいじゃん。",
+          "romaji": "iya,kawaiijan.",
+          "en": "No, it is cute."
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "あか",
+          "romaji": "aka",
+          "en": "red"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "かばんは なにいろですか？",
+      "options": [
+        {
+          "text": "What color is the bag?",
+          "correct": true
+        },
+        {
+          "text": "Which is better, the blue shirt or the white shirt?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Is this case too pink?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "red",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "くろい かばんです。",
+      "options": [
+        {
+          "text": "It is a black bag.",
+          "correct": true
+        },
+        {
+          "text": "The blue shirt is good.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "No, it is cute.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "blue",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "そうです。ありがとうございます。",
+      "options": [
+        {
+          "text": "That is right. Thank you.",
+          "correct": true
+        },
+        {
+          "text": "Nice. Let us check later.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "white",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "あおい シャツと しろい シャツ、どっちが いい？",
+      "options": [
+        {
+          "text": "Which is better, the blue shirt or the white shirt?",
+          "correct": true
+        },
+        {
+          "text": "Is this case too pink?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "red",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "black",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "あおい シャツが いいよ。",
+      "options": [
+        {
+          "text": "The blue shirt is good.",
+          "correct": true
+        },
+        {
+          "text": "No, it is cute.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "blue",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "green",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "options": [
+        {
+          "text": "Nice. Let us check later.",
+          "correct": true
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "white",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "yellow",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "この ケース、ピンクすぎる？",
+      "options": [
+        {
+          "text": "Is this case too pink?",
+          "correct": true
+        },
+        {
+          "text": "red",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "black",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "What color is the bag?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いや、かわいいじゃん。",
+      "options": [
+        {
+          "text": "No, it is cute.",
+          "correct": true
+        },
+        {
+          "text": "blue",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "green",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "It is a black bag.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "かばんは なにいろですか？",
+        "romaji": "kabanha naniirodesuka?",
+        "speakText": "かばんは なにいろですか？"
+      },
+      "options": [
+        {
+          "jp": "くろい かばんです。",
+          "romaji": "kuroi kabandesu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "あおい シャツが いいよ。",
+          "romaji": "aoi shatsuga iiyo.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いや、かわいいじゃん。",
+          "romaji": "iya,kawaiijan.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "くろい かばんです。",
+        "romaji": "kuroi kabandesu.",
+        "speakText": "くろい かばんです。"
+      },
+      "options": [
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "あおい シャツと しろい シャツ、どっちが いい？",
+        "romaji": "aoi shatsuto shiroi shatsu,dotchiga ii?",
+        "speakText": "あおい シャツと しろい シャツ、どっちが いい？"
+      },
+      "options": [
+        {
+          "jp": "あおい シャツが いいよ。",
+          "romaji": "aoi shatsuga iiyo.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "この ケース、ピンクすぎる？",
+          "romaji": "kono keesu,pinkusugiru?",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "あか",
+          "romaji": "aka",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "あおい シャツが いいよ。",
+        "romaji": "aoi shatsuga iiyo.",
+        "speakText": "あおい シャツが いいよ。"
+      },
+      "options": [
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いや、かわいいじゃん。",
+          "romaji": "iya,kawaiijan.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "あお",
+          "romaji": "ao",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "この ケース、ピンクすぎる？",
+        "romaji": "kono keesu,pinkusugiru?",
+        "speakText": "この ケース、ピンクすぎる？"
+      },
+      "options": [
+        {
+          "jp": "いや、かわいいじゃん。",
+          "romaji": "iya,kawaiijan.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "しろ",
+          "romaji": "shiro",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "いや、かわいいじゃん。",
+        "romaji": "iya,kawaiijan.",
+        "speakText": "いや、かわいいじゃん。"
+      },
+      "options": [
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "あか",
+          "romaji": "aka",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "くろ",
+          "romaji": "kuro",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "かばんは なにいろですか？",
+      "answer": "kabanha naniirodesuka?",
+      "acceptAlternatives": [
+        "kabanhananiirodesuka?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "くろい かばんです。",
+      "answer": "kuroi kabandesu.",
+      "acceptAlternatives": [
+        "kuroikabandesu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "そうです。ありがとうございます。",
+      "answer": "soudesu.arigatougozaimasu.",
+      "acceptAlternatives": [
+        "soudesu.arigatougozaimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "あおい シャツと しろい シャツ、どっちが いい？",
+      "answer": "aoi shatsuto shiroi shatsu,dotchiga ii?",
+      "acceptAlternatives": [
+        "aoishatsutoshiroishatsu,dotchigaii?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "あおい シャツが いいよ。",
+      "answer": "aoi shatsuga iiyo.",
+      "acceptAlternatives": [
+        "aoishatsugaiiyo."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "answer": "iine.atode kakuninshiyou.",
+      "acceptAlternatives": [
+        "iine.atodekakuninshiyou."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "この ケース、ピンクすぎる？",
+      "answer": "kono keesu,pinkusugiru?",
+      "acceptAlternatives": [
+        "konokeesu,pinkusugiru?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "いや、かわいいじゃん。",
+      "answer": "iya,kawaiijan.",
+      "acceptAlternatives": [
+        "iya,kawaiijan."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "かばんは なにいろですか？",
+      "romaji": "kabanha naniirodesuka?",
+      "en": "What color is the bag?",
+      "speakText": "かばんは なにいろですか？",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Colours",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "くろい かばんです。",
+      "romaji": "kuroi kabandesu.",
+      "en": "It is a black bag.",
+      "speakText": "くろい かばんです。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Colours",
+      "speaker": "学生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "そうです。ありがとうございます。",
+      "romaji": "soudesu.arigatougozaimasu.",
+      "en": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Colours",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "あおい シャツと しろい シャツ、どっちが いい？",
+      "romaji": "aoi shatsuto shiroi shatsu,dotchiga ii?",
+      "en": "Which is better, the blue shirt or the white shirt?",
+      "speakText": "あおい シャツと しろい シャツ、どっちが いい？",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Colours",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "あおい シャツが いいよ。",
+      "romaji": "aoi shatsuga iiyo.",
+      "en": "The blue shirt is good.",
+      "speakText": "あおい シャツが いいよ。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Colours",
+      "speaker": "たく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いいね。あとで かくにんしよう。",
+      "romaji": "iine.atode kakuninshiyou.",
+      "en": "Nice. Let us check later.",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Colours",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "この ケース、ピンクすぎる？",
+      "romaji": "kono keesu,pinkusugiru?",
+      "en": "Is this case too pink?",
+      "speakText": "この ケース、ピンクすぎる？",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Colours",
+      "speaker": "りく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いや、かわいいじゃん。",
+      "romaji": "iya,kawaiijan.",
+      "en": "No, it is cute.",
+      "speakText": "いや、かわいいじゃん。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Colours",
+      "speaker": "まい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "まじか。いいじゃん。",
+      "romaji": "majika.iijan.",
+      "en": "Really? Nice.",
+      "speakText": "まじか。いいじゃん。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Colours",
+      "speaker": "りく"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "かばんは なにいろですか？",
+          "right": "What color is the bag?"
+        },
+        {
+          "left": "くろい かばんです。",
+          "right": "It is a black bag."
+        },
+        {
+          "left": "そうです。ありがとうございます。",
+          "right": "That is right. Thank you."
+        },
+        {
+          "left": "あおい シャツと しろい シャツ、どっちが いい？",
+          "right": "Which is better, the blue shirt or the white shirt?"
+        },
+        {
+          "left": "あおい シャツが いいよ。",
+          "right": "The blue shirt is good."
+        },
+        {
+          "left": "いいね。あとで かくにんしよう。",
+          "right": "Nice. Let us check later."
+        },
+        {
+          "left": "この ケース、ピンクすぎる？",
+          "right": "Is this case too pink?"
+        },
+        {
+          "left": "いや、かわいいじゃん。",
+          "right": "No, it is cute."
+        },
+        {
+          "left": "まじか。いいじゃん。",
+          "right": "Really? Nice."
+        },
+        {
+          "left": "あか",
+          "right": "red"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "かばんは なにいろですか？",
+          "romaji": "kabanha naniirodesuka?",
+          "en": "What color is the bag?"
+        },
+        {
+          "jp": "くろい かばんです。",
+          "romaji": "kuroi kabandesu.",
+          "en": "It is a black bag.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "あおい シャツと しろい シャツ、どっちが いい？",
+          "romaji": "aoi shatsuto shiroi shatsu,dotchiga ii?",
+          "en": "Which is better, the blue shirt or the white shirt?"
+        },
+        {
+          "jp": "あおい シャツが いいよ。",
+          "romaji": "aoi shatsuga iiyo.",
+          "en": "The blue shirt is good.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "この ケース、ピンクすぎる？",
+          "romaji": "kono keesu,pinkusugiru?",
+          "en": "Is this case too pink?"
+        },
+        {
+          "jp": "いや、かわいいじゃん。",
+          "romaji": "iya,kawaiijan.",
+          "en": "No, it is cute.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "あか",
+          "romaji": "aka",
+          "en": "red"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,774 @@
+{
+  "id": "grammar-lesson-04",
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "を — Direct Object Marker",
+      "intro": "を marks the thing an action is done TO — what you eat, drink, study, watch. Place it right after the object, just before the verb. Note: although written を, it is pronounced 'o' in modern Japanese.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "パンを たべます",
+          "pan o tabemasu",
+          "I eat bread"
+        ],
+        [
+          "みずを のみます",
+          "mizu o nomimasu",
+          "I drink water"
+        ],
+        [
+          "にほんごを べんきょうします",
+          "nihongo o benkyou shimasu",
+          "I study Japanese"
+        ],
+        [
+          "テレビを みます",
+          "terebi o mimasu",
+          "I watch TV"
+        ]
+      ],
+      "takeaway": "を = direct object marker. Pattern: [OBJECT] を [VERB]. Always pronounced 'o'."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which particle marks the direct object of an action verb (the thing you eat, drink, watch)?",
+      "options": [
+        "は (wa)",
+        "が (ga)",
+        "を (o)",
+        "に (ni)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I eat bread' using the direct object particle:",
+      "patternJp": [
+        "パン",
+        "[SLOT]",
+        " たべます。"
+      ],
+      "patternRom": [
+        "pan ",
+        "[SLOT]",
+        " tabemasu"
+      ],
+      "slot": {
+        "answer": "を",
+        "answerRomaji": "o",
+        "hint": "The particle that marks the direct object — what you do the verb TO.",
+        "acceptAlternatives": [
+          "wo",
+          "ヲ"
+        ]
+      },
+      "translation": "I eat bread.",
+      "speakText": "パンを たべます。"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I drink water every day' — fill in the object:",
+      "patternJp": [
+        "まいにち ",
+        "[SLOT]",
+        "を のみます。"
+      ],
+      "patternRom": [
+        "mainichi ",
+        "[SLOT]",
+        " o nomimasu"
+      ],
+      "slot": {
+        "answer": "みず",
+        "answerRomaji": "mizu",
+        "hint": "The Japanese word for 'water'.",
+        "acceptAlternatives": [
+          "Mizu",
+          "ミズ",
+          "水"
+        ]
+      },
+      "translation": "I drink water every day.",
+      "speakText": "まいにち みずを のみます。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "に — Multi-Purpose Particle",
+      "intro": "に is the Swiss army knife of Japanese particles. Same little kana, four core jobs at N5 level: destination ('to'), specific time point ('at'), indirect object (the person you give/call), and existence location ('at/in' for います / あります).",
+      "rows": [
+        [
+          "Function",
+          "Example",
+          "Meaning"
+        ],
+        [
+          "Destination",
+          "がっこうに いきます",
+          "I go to school"
+        ],
+        [
+          "Time point",
+          "しちじに おきます",
+          "I wake up at 7"
+        ],
+        [
+          "Indirect object",
+          "ともだちに あげます",
+          "I give to a friend"
+        ],
+        [
+          "Existence",
+          "ここに います",
+          "I am here"
+        ]
+      ],
+      "takeaway": "に = destination, time point, recipient, or existence. Same kana, four jobs."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which particle marks BOTH a destination ('to school') AND a specific time ('at 7')?",
+      "options": [
+        "を (o)",
+        "へ (e)",
+        "に (ni)",
+        "で (de)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I go to school' — fill in the destination particle:",
+      "patternJp": [
+        "がっこう",
+        "[SLOT]",
+        " いきます。"
+      ],
+      "patternRom": [
+        "gakkou ",
+        "[SLOT]",
+        " ikimasu"
+      ],
+      "slot": {
+        "answer": "に",
+        "answerRomaji": "ni",
+        "hint": "The particle that marks a destination or arrival point.",
+        "acceptAlternatives": [
+          "Ni",
+          "ニ"
+        ]
+      },
+      "translation": "I go to school.",
+      "speakText": "がっこうに いきます。"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I wake up at 7' — fill in the time particle:",
+      "patternJp": [
+        "しちじ",
+        "[SLOT]",
+        " おきます。"
+      ],
+      "patternRom": [
+        "shichiji ",
+        "[SLOT]",
+        " okimasu"
+      ],
+      "slot": {
+        "answer": "に",
+        "answerRomaji": "ni",
+        "hint": "The particle attached to a specific clock time.",
+        "acceptAlternatives": [
+          "Ni",
+          "ニ"
+        ]
+      },
+      "translation": "I wake up at 7.",
+      "speakText": "しちじに おきます。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "へ — Direction (Toward)",
+      "intro": "へ marks the direction of movement — the journey rather than the arrival. It pairs only with movement verbs (いきます, きます, かえります). Although written with the kana へ, it is pronounced 'e' as a particle. Softer and more literary than に.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "にほんへ いきます",
+          "nihon e ikimasu",
+          "I go toward Japan"
+        ],
+        [
+          "にほんへ りょこうしたいです",
+          "nihon e ryokou shitai desu",
+          "I want to travel to Japan"
+        ],
+        [
+          "みなみへ むかいます",
+          "minami e mukaimasu",
+          "I head toward the south"
+        ]
+      ],
+      "takeaway": "へ = direction with movement verbs. Pronounced 'e'. Slightly more literary than に."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which particle emphasises DIRECTION ('toward [place]') with a movement verb?",
+      "options": [
+        "を (o)",
+        "に (ni)",
+        "で (de)",
+        "へ (e)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I want to travel to Japan' — fill in the direction particle:",
+      "patternJp": [
+        "にほん",
+        "[SLOT]",
+        " りょこうしたいです。"
+      ],
+      "patternRom": [
+        "nihon ",
+        "[SLOT]",
+        " ryokou shitai desu"
+      ],
+      "slot": {
+        "answer": "へ",
+        "answerRomaji": "e",
+        "hint": "The particle for direction, pronounced like the vowel 'e'.",
+        "acceptAlternatives": [
+          "He",
+          "he",
+          "ヘ"
+        ]
+      },
+      "translation": "I want to travel to Japan.",
+      "speakText": "にほんへ りょこうしたいです。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "を — Traversal (Moving Through)",
+      "intro": "を has a second job beyond direct objects: with movement verbs like あるきます (walk), わたります (cross), and さんぽします (stroll), it marks the SPACE you move through. Think 'walk along', 'cross over', 'stroll through'.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "こうえんを さんぽします",
+          "kouen o sanpo shimasu",
+          "I walk through the park"
+        ],
+        [
+          "はしを わたります",
+          "hashi o watarimasu",
+          "I cross the bridge"
+        ],
+        [
+          "みちを あるきます",
+          "michi o arukimasu",
+          "I walk along the road"
+        ]
+      ],
+      "takeaway": "を + movement verb = traversal. Marks the space you move THROUGH."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which particle marks the SPACE you move through (e.g., 'walk through the park')?",
+      "options": [
+        "に (ni)",
+        "へ (e)",
+        "で (de)",
+        "を (o)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I walk through the park' — fill in the traversal particle:",
+      "patternJp": [
+        "こうえん",
+        "[SLOT]",
+        " さんぽします。"
+      ],
+      "patternRom": [
+        "kouen ",
+        "[SLOT]",
+        " sanpo shimasu"
+      ],
+      "slot": {
+        "answer": "を",
+        "answerRomaji": "o",
+        "hint": "The same particle as direct-object — but here it marks the path of movement.",
+        "acceptAlternatives": [
+          "wo",
+          "ヲ"
+        ]
+      },
+      "translation": "I walk through the park.",
+      "speakText": "こうえんを さんぽします。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence correctly says 'I eat bread.'?",
+      "title": "を marks what you DO something TO",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "パンを たべます。",
+          "romaji": "pan o tabemasu.",
+          "en": "I eat bread.",
+          "note": "を marks the direct object of an action verb.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "パンが たべます。",
+          "romaji": "pan ga tabemasu.",
+          "en": "(unnatural)",
+          "note": "が is used for liking/understanding, not for action verbs like たべる.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "パンに たべます。",
+          "romaji": "pan ni tabemasu.",
+          "en": "(ungrammatical)",
+          "note": "に doesn't mark direct objects — use を for what you eat.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Action verbs take を for their direct object — not が, not に.",
+      "speakText": "パンを たべます。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence is correct for 'I like sushi.'?",
+      "title": "すき takes が, not を",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "すしが すきです。",
+          "romaji": "sushi ga suki desu.",
+          "en": "I like sushi.",
+          "note": "すきです is a state, not an action — the liked thing takes が.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "すしを すきです。",
+          "romaji": "sushi o suki desu.",
+          "en": "(ungrammatical)",
+          "note": "すき (like), わかる (understand), できる (can do) all use が, never を.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "すしに すきです。",
+          "romaji": "sushi ni suki desu.",
+          "en": "(ungrammatical)",
+          "note": "に doesn't mark the thing liked — only が works with すき.",
+          "correct": false
+        }
+      ],
+      "takeaway": "すき / わかる / できる take が, not を. They describe states, not actions.",
+      "speakText": "すしが すきです。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which is the natural way to say 'I go to school'?",
+      "title": "に vs へ — destination vs direction",
+      "variants": [
+        {
+          "label": "NATURAL",
+          "jp": "がっこうに いきます。",
+          "romaji": "gakkou ni ikimasu.",
+          "en": "I go to school.",
+          "note": "に focuses on the destination — most common in everyday speech.",
+          "correct": true
+        },
+        {
+          "label": "NATURAL",
+          "jp": "がっこうへ いきます。",
+          "romaji": "gakkou e ikimasu.",
+          "en": "I go toward school.",
+          "note": "へ also works — softer, more literary, emphasises direction.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "がっこうを いきます。",
+          "romaji": "gakkou o ikimasu.",
+          "en": "(ungrammatical)",
+          "note": "を doesn't mark a destination — use に or へ with いきます.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "がっこうで いきます。",
+          "romaji": "gakkou de ikimasu.",
+          "en": "(ungrammatical)",
+          "note": "で marks where an action happens, not a destination.",
+          "correct": false
+        }
+      ],
+      "takeaway": "に and へ both work for 'go to'. Only に works for time, indirect object, and existence.",
+      "speakText": "がっこうに いきます。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly says 'I want to travel to Japan' — emphasising the journey?",
+      "title": "へ for direction with りょこう / むかいます",
+      "variants": [
+        {
+          "label": "NATURAL",
+          "jp": "にほんに りょこうしたいです。",
+          "romaji": "nihon ni ryokou shitai desu.",
+          "en": "I want to travel to Japan.",
+          "note": "に naturally marks Japan as the destination for this travel sentence.",
+          "correct": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "にほんを りょこうしたいです。",
+          "romaji": "nihon o ryokou shitai desu.",
+          "en": "I want to travel around Japan.",
+          "note": "日本を旅行する is grammatical, but it means traveling through/around Japan, not simply going to Japan.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "にほんで りょこうしたいです。",
+          "romaji": "nihon de ryokou shitai desu.",
+          "en": "I want to travel inside Japan.",
+          "note": "で changes the meaning to 'travel WITHIN Japan' — not what you said.",
+          "correct": false
+        }
+      ],
+      "takeaway": "に marks the destination; を with 旅行する can mean traveling through or around a place.",
+      "speakText": "にほんに りょこうしたいです。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Sentences in Context",
+      "intro": "These sentences combine を, に, and へ as you'll meet them in real life. Tap the speaker on each row to hear it.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "English"
+        ],
+        [
+          "まいにち みずを のみます。",
+          "mainichi mizu o nomimasu.",
+          "I drink water every day."
+        ],
+        [
+          "にほんごを べんきょうします。",
+          "nihongo o benkyou shimasu.",
+          "I study Japanese."
+        ],
+        [
+          "あした とうきょうに いきます。",
+          "ashita toukyou ni ikimasu.",
+          "I will go to Tokyo tomorrow."
+        ],
+        [
+          "くじに がっこうに いきます。",
+          "kuji ni gakkou ni ikimasu.",
+          "I go to school at 9."
+        ],
+        [
+          "ははに でんわを します。",
+          "haha ni denwa o shimasu.",
+          "I call my mother."
+        ],
+        [
+          "つくえの うえに ほんが あります。",
+          "tsukue no ue ni hon ga arimasu.",
+          "There is a book on the desk."
+        ],
+        [
+          "にほんへ りょこうしたいです。",
+          "nihon e ryokou shitai desu.",
+          "I want to travel to Japan."
+        ],
+        [
+          "こうえんを さんぽします。",
+          "kouen o sanpo shimasu.",
+          "I walk through the park."
+        ]
+      ],
+      "takeaway": "Mix を, に, and へ freely — each does its own job in the same sentence."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "まいにち みずを のみます。",
+      "options": [
+        "I drink water every day.",
+        "I eat water every day.",
+        "I buy water every day.",
+        "I drink milk every day."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "がっこうに いきます。",
+      "options": [
+        "I leave school.",
+        "I like school.",
+        "I go to school.",
+        "I am at school."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "しちじに おきます。",
+      "options": [
+        "I sleep at 7.",
+        "I wake up at 7.",
+        "I eat at 7.",
+        "I leave at 7."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "にほんへ りょこうしたいです。",
+      "options": [
+        "I live in Japan.",
+        "I came from Japan.",
+        "I want to travel to Japan.",
+        "I work in Japan."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "こうえんを さんぽします。",
+      "options": [
+        "I walk through the park.",
+        "I go to the park.",
+        "I am at the park.",
+        "I like the park."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ともだちに あげます。",
+      "options": [
+        "I meet a friend.",
+        "I call a friend.",
+        "I give it to a friend.",
+        "I go with a friend."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "つくえの うえに ほんが あります。",
+      "options": [
+        "I read a book at the desk.",
+        "The desk is under the book.",
+        "There is a book on the desk.",
+        "I put the book on the desk."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "にほんごを べんきょうします。",
+      "options": [
+        "I speak Japanese.",
+        "I study Japanese.",
+        "I teach Japanese.",
+        "I understand Japanese."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "パンを たべます",
+      "answer": "pan o tabemasu",
+      "acceptAlternatives": [
+        "pan wo tabemasu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "みずを のみます",
+      "answer": "mizu o nomimasu",
+      "acceptAlternatives": [
+        "mizu wo nomimasu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "がっこうに いきます",
+      "answer": "gakkou ni ikimasu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "しちじに おきます",
+      "answer": "shichiji ni okimasu",
+      "acceptAlternatives": [
+        "sitizi ni okimasu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "ともだちに あげます",
+      "answer": "tomodachi ni agemasu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "にほんへ いきます",
+      "answer": "nihon e ikimasu",
+      "acceptAlternatives": [
+        "nihon he ikimasu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "こうえんを さんぽします",
+      "answer": "kouen o sanpo shimasu",
+      "acceptAlternatives": [
+        "kouen wo sanpo shimasu",
+        "kouen o sanpo simasu"
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning:",
+      "pairs": [
+        {
+          "left": "パン",
+          "right": "bread"
+        },
+        {
+          "left": "みず",
+          "right": "water"
+        },
+        {
+          "left": "がっこう",
+          "right": "school"
+        },
+        {
+          "left": "とうきょう",
+          "right": "Tokyo"
+        },
+        {
+          "left": "つくえ",
+          "right": "desk"
+        },
+        {
+          "left": "ほん",
+          "right": "book"
+        },
+        {
+          "left": "こうえん",
+          "right": "park"
+        },
+        {
+          "left": "はし",
+          "right": "bridge"
+        },
+        {
+          "left": "でんわ",
+          "right": "telephone"
+        },
+        {
+          "left": "りょこう",
+          "right": "travel"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice — を, に, へ in action",
+      "cards": [
+        {
+          "jp": "パンを たべます。",
+          "romaji": "pan o tabemasu.",
+          "en": "I eat bread."
+        },
+        {
+          "jp": "みずを のみます。",
+          "romaji": "mizu o nomimasu.",
+          "en": "I drink water."
+        },
+        {
+          "jp": "にほんごを べんきょうします。",
+          "romaji": "nihongo o benkyou shimasu.",
+          "en": "I study Japanese."
+        },
+        {
+          "jp": "がっこうに いきます。",
+          "romaji": "gakkou ni ikimasu.",
+          "en": "I go to school."
+        },
+        {
+          "jp": "しちじに おきます。",
+          "romaji": "shichiji ni okimasu.",
+          "en": "I wake up at 7."
+        },
+        {
+          "jp": "ともだちに あげます。",
+          "romaji": "tomodachi ni agemasu.",
+          "en": "I give it to a friend."
+        },
+        {
+          "jp": "つくえの うえに ほんが あります。",
+          "romaji": "tsukue no ue ni hon ga arimasu.",
+          "en": "There is a book on the desk."
+        },
+        {
+          "jp": "にほんへ りょこうしたいです。",
+          "romaji": "nihon e ryokou shitai desu.",
+          "en": "I want to travel to Japan."
+        },
+        {
+          "jp": "こうえんを さんぽします。",
+          "romaji": "kouen o sanpo shimasu.",
+          "en": "I walk through the park."
+        },
+        {
+          "jp": "ははに でんわを します。",
+          "romaji": "haha ni denwa o shimasu.",
+          "en": "I call my mother."
+        }
+      ]
+    }
+  ]
+}

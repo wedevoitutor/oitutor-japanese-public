@@ -1,0 +1,345 @@
+{
+  "exercises": [
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ハ",
+          "back": "ha",
+          "speakText": "ハ"
+        },
+        {
+          "front": "ヌ",
+          "back": "nu",
+          "speakText": "ヌ"
+        },
+        {
+          "front": "ヒ",
+          "back": "hi",
+          "speakText": "ヒ"
+        },
+        {
+          "front": "ナ",
+          "back": "na",
+          "speakText": "ナ"
+        },
+        {
+          "front": "ホ",
+          "back": "ho",
+          "speakText": "ホ"
+        },
+        {
+          "front": "ニ",
+          "back": "ni",
+          "speakText": "ニ"
+        },
+        {
+          "front": "フ",
+          "back": "fu",
+          "speakText": "フ"
+        },
+        {
+          "front": "ノ",
+          "back": "no",
+          "speakText": "ノ"
+        },
+        {
+          "front": "ヘ",
+          "back": "he",
+          "speakText": "ヘ"
+        },
+        {
+          "front": "ネ",
+          "back": "ne",
+          "speakText": "ネ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ne?",
+      "options": [
+        "ネ",
+        "ヌ",
+        "ヤ",
+        "ホ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Fu?",
+      "options": [
+        "ウ",
+        "フ",
+        "ヌ",
+        "ワ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ho?",
+      "options": [
+        "オ",
+        "ネ",
+        "ホ",
+        "ハ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ニ",
+      "answer": "ni"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ヘ",
+      "answer": "he"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "フ",
+      "answer": "fu",
+      "acceptAlternatives": [
+        "hu"
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ナ",
+          "na"
+        ],
+        [
+          "ヒ",
+          "hi"
+        ],
+        [
+          "ヌ",
+          "nu"
+        ],
+        [
+          "ホ",
+          "ho"
+        ],
+        [
+          "ノ",
+          "no"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ヌ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ヌ",
+        "ネ",
+        "ノ",
+        "ナ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "listening",
+      "speakText": "ハ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ヘ",
+        "ハ",
+        "ヒ",
+        "ホ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Na? (watch for look-alikes)",
+      "options": [
+        "メ",
+        "ナ",
+        "チ",
+        "ト"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Nu? (watch for look-alikes)",
+      "options": [
+        "ス",
+        "ク",
+        "ヌ",
+        "ヲ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ホ",
+      "answer": "ho"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "ノート (nooto)",
+          "notebook"
+        ],
+        [
+          "ハート (haato)",
+          "heart"
+        ],
+        [
+          "テニス (tenisu)",
+          "tennis"
+        ],
+        [
+          "ネクタイ (nekutai)",
+          "necktie"
+        ],
+        [
+          "ヒーター (hiitaa)",
+          "heater"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "notebook",
+      "answer": [
+        "ノ",
+        "ー",
+        "ト"
+      ],
+      "bank": [
+        "ナ",
+        "ニ",
+        "ヌ",
+        "ネ",
+        "ノ",
+        "ト",
+        "タ",
+        "ー"
+      ],
+      "speakText": "ノート"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "necktie",
+      "answer": [
+        "ネ",
+        "ク",
+        "タ",
+        "イ"
+      ],
+      "bank": [
+        "ナ",
+        "ニ",
+        "ヌ",
+        "ネ",
+        "ノ",
+        "ク",
+        "カ",
+        "タ",
+        "イ"
+      ],
+      "speakText": "ネクタイ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "heart",
+      "answer": [
+        "ハ",
+        "ー",
+        "ト"
+      ],
+      "bank": [
+        "ハ",
+        "ヒ",
+        "フ",
+        "ヘ",
+        "ホ",
+        "ト",
+        "ー"
+      ],
+      "speakText": "ハート"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ノート",
+      "answer": "nooto"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "テニス",
+      "answer": "tenisu"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ノート",
+          "notebook"
+        ],
+        [
+          "ハート",
+          "heart"
+        ],
+        [
+          "テニス",
+          "tennis"
+        ],
+        [
+          "ネクタイ",
+          "necktie"
+        ],
+        [
+          "ヒーター",
+          "heater"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ヒーター",
+      "prompt": "What did you hear?",
+      "options": [
+        "heater",
+        "notebook",
+        "necktie",
+        "tennis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "tennis",
+      "answer": [
+        "テ",
+        "ニ",
+        "ス"
+      ],
+      "bank": [
+        "ナ",
+        "ニ",
+        "ヌ",
+        "ネ",
+        "ノ",
+        "テ",
+        "タ",
+        "ス"
+      ],
+      "speakText": "テニス"
+    }
+  ],
+  "id": "katakana-cumulative-n-h"
+}

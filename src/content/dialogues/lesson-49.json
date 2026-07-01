@@ -1,0 +1,1289 @@
+{
+  "id": "dialogues-lesson-49",
+  "misconceptions": [
+    {
+      "target": "simple-phone-calls-single-word-answer",
+      "error": "Answers with isolated vocabulary instead of a complete conversational turn.",
+      "mitigation": "Reference rows and response-selection drills keep prompts and natural replies together."
+    },
+    {
+      "target": "simple-phone-calls-register-mismatch",
+      "error": "Uses casual language with teachers, staff, or strangers.",
+      "mitigation": "Formal, casual, and slang scenes are separated and labeled."
+    },
+    {
+      "target": "simple-phone-calls-listening-drift",
+      "error": "Chooses a familiar phrase that does not match the audio.",
+      "mitigation": "Listening MC and type-the-answer reuse the exact dialogue speakText."
+    },
+    {
+      "target": "simple-phone-calls-particle-confusion",
+      "error": "Confuses は, へ, or を in written Japanese source phrases.",
+      "mitigation": "Formula-fill keeps the Japanese particles visible and accepts romaji as support."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Simple Phone Calls - Formal · Casual · Slang",
+      "intro": "Practice simple phone calls as prompt-and-response dialogue, not as loose vocabulary.",
+      "rows": [
+        [
+          "Register",
+          "Japanese",
+          "Romaji",
+          "Typical Response",
+          "Context"
+        ],
+        [
+          "FORMAL",
+          "はい、さとうがいしゃでございます。",
+          "hai,satougaishadegozaimasu.",
+          "たなかと もうします。やまださんは いらっしゃいますか？",
+          "My name is Tanaka. Is Yamada available?"
+        ],
+        [
+          "FORMAL",
+          "たなかと もうします。やまださんは いらっしゃいますか？",
+          "tanakato moushimasu.yamadasanha irasshaimasuka?",
+          "そうです。ありがとうございます。",
+          "That is right. Thank you."
+        ],
+        [
+          "CASUAL",
+          "もしもし、けん？いま だいじょうぶ？",
+          "moshimoshi,ken?ima daijoubu?",
+          "うん、だいじょうぶ。どうしたの？",
+          "Yes, it is okay. What is up?"
+        ],
+        [
+          "CASUAL",
+          "うん、だいじょうぶ。どうしたの？",
+          "un,daijoubu.doushitano?",
+          "いいね。あとで かくにんしよう。",
+          "Nice. Let us check later."
+        ],
+        [
+          "SLANG",
+          "さっき でんわ した？",
+          "sakki denwa shita?",
+          "ごめん。あとで かけなおす。",
+          "Sorry. I will call back later."
+        ],
+        [
+          "SLANG",
+          "ごめん。あとで かけなおす。",
+          "gomen.atode kakenaosu.",
+          "まじか。いいじゃん。",
+          "Really? Nice."
+        ]
+      ],
+      "takeaway": "First choose the right meaning, then choose the right relationship tone."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "A - FORMAL · Simple Phone Calls",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "先生",
+          "jp": "はい、さとうがいしゃでございます。",
+          "romaji": "hai,satougaishadegozaimasu.",
+          "en": "Hello, this is Sato Company."
+        },
+        {
+          "speaker": "学生",
+          "jp": "たなかと もうします。やまださんは いらっしゃいますか？",
+          "romaji": "tanakato moushimasu.yamadasanha irasshaimasuka?",
+          "en": "My name is Tanaka. Is Yamada available?"
+        },
+        {
+          "speaker": "先生",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "B - CASUAL · Simple Phone Calls",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "ゆい",
+          "jp": "もしもし、けん？いま だいじょうぶ？",
+          "romaji": "moshimoshi,ken?ima daijoubu?",
+          "en": "Hello, Ken? Is now okay?"
+        },
+        {
+          "speaker": "たく",
+          "jp": "うん、だいじょうぶ。どうしたの？",
+          "romaji": "un,daijoubu.doushitano?",
+          "en": "Yes, it is okay. What is up?"
+        },
+        {
+          "speaker": "ゆい",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "C - SLANG · Simple Phone Calls",
+      "register": "slang",
+      "lines": [
+        {
+          "speaker": "りく",
+          "jp": "さっき でんわ した？",
+          "romaji": "sakki denwa shita?",
+          "en": "Did you call earlier?"
+        },
+        {
+          "speaker": "まい",
+          "jp": "ごめん。あとで かけなおす。",
+          "romaji": "gomen.atode kakenaosu.",
+          "en": "Sorry. I will call back later."
+        },
+        {
+          "speaker": "りく",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 1: はい、さとうがいしゃでございます。",
+      "prompt": "Which source phrase means: “Hello, this is Sato Company.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "はい、さとうがいしゃでございます。",
+          "romaji": "hai,satougaishadegozaimasu.",
+          "en": "Hello, this is Sato Company.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "はい、さとうがいしゃでございます。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 2: たなかと もうします。やまださんは いらっしゃいますか？",
+      "prompt": "Which source phrase means: “My name is Tanaka. Is Yamada available?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "たなかと もうします。やまださんは いらっしゃいますか？",
+          "romaji": "tanakato moushimasu.yamadasanha irasshaimasuka?",
+          "en": "My name is Tanaka. Is Yamada available?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "さっき でんわ した？",
+          "romaji": "sakki denwa shita?",
+          "en": "Did you call earlier?",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "もしもし",
+          "romaji": "moshimoshi",
+          "en": "hello on the phone",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "たなかと もうします。やまださんは いらっしゃいますか？"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 3: そうです。ありがとうございます。",
+      "prompt": "Which source phrase means: “That is right. Thank you.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "ごめん。あとで かけなおす。",
+          "romaji": "gomen.atode kakenaosu.",
+          "en": "Sorry. I will call back later.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "しょうしょう おまちください",
+          "romaji": "shoushou omachikudasai",
+          "en": "please wait a moment",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "そうです。ありがとうございます。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 4: もしもし、けん？いま だいじょうぶ？",
+      "prompt": "Which source phrase means: “Hello, Ken? Is now okay?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "もしもし、けん？いま だいじょうぶ？",
+          "romaji": "moshimoshi,ken?ima daijoubu?",
+          "en": "Hello, Ken? Is now okay?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "いま だいじょうぶですか？",
+          "romaji": "ima daijoubudesuka?",
+          "en": "Is now okay?",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "もしもし、けん？いま だいじょうぶ？"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "はい、さとうがいしゃでございます",
+        "answerRomaji": "hai,satougaishadegozaimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "hai,satougaishadegozaimasu."
+        ]
+      },
+      "translation": "Hello, this is Sato Company.",
+      "speakText": "はい、さとうがいしゃでございます。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "たなかと もうします。やまださんは いらっしゃいますか",
+        "answerRomaji": "tanakato moushimasu.yamadasanha irasshaimasuka?",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "tanakatomoushimasu.yamadasanhairasshaimasuka?"
+        ]
+      },
+      "translation": "My name is Tanaka. Is Yamada available?",
+      "speakText": "たなかと もうします。やまださんは いらっしゃいますか？",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "そうです。ありがとうございます",
+        "answerRomaji": "soudesu.arigatougozaimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "soudesu.arigatougozaimasu."
+        ]
+      },
+      "translation": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "はい、さとうがいしゃでございます。",
+          "romaji": "hai,satougaishadegozaimasu.",
+          "en": "Hello, this is Sato Company."
+        },
+        {
+          "jp": "たなかと もうします。やまださんは いらっしゃいますか？",
+          "romaji": "tanakato moushimasu.yamadasanha irasshaimasuka?",
+          "en": "My name is Tanaka. Is Yamada available?"
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "もしもし、けん？いま だいじょうぶ？",
+          "romaji": "moshimoshi,ken?ima daijoubu?",
+          "en": "Hello, Ken? Is now okay?"
+        },
+        {
+          "jp": "うん、だいじょうぶ。どうしたの？",
+          "romaji": "un,daijoubu.doushitano?",
+          "en": "Yes, it is okay. What is up?"
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "さっき でんわ した？",
+          "romaji": "sakki denwa shita?",
+          "en": "Did you call earlier?"
+        },
+        {
+          "jp": "ごめん。あとで かけなおす。",
+          "romaji": "gomen.atode kakenaosu.",
+          "en": "Sorry. I will call back later."
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "もしもし",
+          "romaji": "moshimoshi",
+          "en": "hello on the phone"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "はい、さとうがいしゃでございます。",
+      "options": [
+        {
+          "text": "Hello, this is Sato Company.",
+          "correct": true
+        },
+        {
+          "text": "Hello, Ken? Is now okay?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Did you call earlier?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "hello on the phone",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "たなかと もうします。やまださんは いらっしゃいますか？",
+      "options": [
+        {
+          "text": "My name is Tanaka. Is Yamada available?",
+          "correct": true
+        },
+        {
+          "text": "Yes, it is okay. What is up?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Sorry. I will call back later.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "please wait a moment",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "そうです。ありがとうございます。",
+      "options": [
+        {
+          "text": "That is right. Thank you.",
+          "correct": true
+        },
+        {
+          "text": "Nice. Let us check later.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "Is now okay?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "もしもし、けん？いま だいじょうぶ？",
+      "options": [
+        {
+          "text": "Hello, Ken? Is now okay?",
+          "correct": true
+        },
+        {
+          "text": "Did you call earlier?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "hello on the phone",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "make a phone call",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "うん、だいじょうぶ。どうしたの？",
+      "options": [
+        {
+          "text": "Yes, it is okay. What is up?",
+          "correct": true
+        },
+        {
+          "text": "Sorry. I will call back later.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "please wait a moment",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "call back",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "options": [
+        {
+          "text": "Nice. Let us check later.",
+          "correct": true
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Is now okay?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "Who is calling?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "さっき でんわ した？",
+      "options": [
+        {
+          "text": "Did you call earlier?",
+          "correct": true
+        },
+        {
+          "text": "hello on the phone",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "make a phone call",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "Hello, this is Sato Company.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ごめん。あとで かけなおす。",
+      "options": [
+        {
+          "text": "Sorry. I will call back later.",
+          "correct": true
+        },
+        {
+          "text": "please wait a moment",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "call back",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "My name is Tanaka. Is Yamada available?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "はい、さとうがいしゃでございます。",
+        "romaji": "hai,satougaishadegozaimasu.",
+        "speakText": "はい、さとうがいしゃでございます。"
+      },
+      "options": [
+        {
+          "jp": "たなかと もうします。やまださんは いらっしゃいますか？",
+          "romaji": "tanakato moushimasu.yamadasanha irasshaimasuka?",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "うん、だいじょうぶ。どうしたの？",
+          "romaji": "un,daijoubu.doushitano?",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "ごめん。あとで かけなおす。",
+          "romaji": "gomen.atode kakenaosu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "たなかと もうします。やまださんは いらっしゃいますか？",
+        "romaji": "tanakato moushimasu.yamadasanha irasshaimasuka?",
+        "speakText": "たなかと もうします。やまださんは いらっしゃいますか？"
+      },
+      "options": [
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "もしもし、けん？いま だいじょうぶ？",
+        "romaji": "moshimoshi,ken?ima daijoubu?",
+        "speakText": "もしもし、けん？いま だいじょうぶ？"
+      },
+      "options": [
+        {
+          "jp": "うん、だいじょうぶ。どうしたの？",
+          "romaji": "un,daijoubu.doushitano?",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "さっき でんわ した？",
+          "romaji": "sakki denwa shita?",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "もしもし",
+          "romaji": "moshimoshi",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "うん、だいじょうぶ。どうしたの？",
+        "romaji": "un,daijoubu.doushitano?",
+        "speakText": "うん、だいじょうぶ。どうしたの？"
+      },
+      "options": [
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "ごめん。あとで かけなおす。",
+          "romaji": "gomen.atode kakenaosu.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "しょうしょう おまちください",
+          "romaji": "shoushou omachikudasai",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "さっき でんわ した？",
+        "romaji": "sakki denwa shita?",
+        "speakText": "さっき でんわ した？"
+      },
+      "options": [
+        {
+          "jp": "ごめん。あとで かけなおす。",
+          "romaji": "gomen.atode kakenaosu.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いま だいじょうぶですか？",
+          "romaji": "ima daijoubudesuka?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "ごめん。あとで かけなおす。",
+        "romaji": "gomen.atode kakenaosu.",
+        "speakText": "ごめん。あとで かけなおす。"
+      },
+      "options": [
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "もしもし",
+          "romaji": "moshimoshi",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "でんわします",
+          "romaji": "denwashimasu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "はい、さとうがいしゃでございます。",
+      "answer": "hai,satougaishadegozaimasu.",
+      "acceptAlternatives": [
+        "hai,satougaishadegozaimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "たなかと もうします。やまださんは いらっしゃいますか？",
+      "answer": "tanakato moushimasu.yamadasanha irasshaimasuka?",
+      "acceptAlternatives": [
+        "tanakatomoushimasu.yamadasanhairasshaimasuka?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "そうです。ありがとうございます。",
+      "answer": "soudesu.arigatougozaimasu.",
+      "acceptAlternatives": [
+        "soudesu.arigatougozaimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "もしもし、けん？いま だいじょうぶ？",
+      "answer": "moshimoshi,ken?ima daijoubu?",
+      "acceptAlternatives": [
+        "moshimoshi,ken?imadaijoubu?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "うん、だいじょうぶ。どうしたの？",
+      "answer": "un,daijoubu.doushitano?",
+      "acceptAlternatives": [
+        "un,daijoubu.doushitano?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "answer": "iine.atode kakuninshiyou.",
+      "acceptAlternatives": [
+        "iine.atodekakuninshiyou."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "さっき でんわ した？",
+      "answer": "sakki denwa shita?",
+      "acceptAlternatives": [
+        "sakkidenwashita?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "ごめん。あとで かけなおす。",
+      "answer": "gomen.atode kakenaosu.",
+      "acceptAlternatives": [
+        "gomen.atodekakenaosu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "はい、さとうがいしゃでございます。",
+      "romaji": "hai,satougaishadegozaimasu.",
+      "en": "Hello, this is Sato Company.",
+      "speakText": "はい、さとうがいしゃでございます。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Simple Phone Calls",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "たなかと もうします。やまださんは いらっしゃいますか？",
+      "romaji": "tanakato moushimasu.yamadasanha irasshaimasuka?",
+      "en": "My name is Tanaka. Is Yamada available?",
+      "speakText": "たなかと もうします。やまださんは いらっしゃいますか？",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Simple Phone Calls",
+      "speaker": "学生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "そうです。ありがとうございます。",
+      "romaji": "soudesu.arigatougozaimasu.",
+      "en": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Simple Phone Calls",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "もしもし、けん？いま だいじょうぶ？",
+      "romaji": "moshimoshi,ken?ima daijoubu?",
+      "en": "Hello, Ken? Is now okay?",
+      "speakText": "もしもし、けん？いま だいじょうぶ？",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Simple Phone Calls",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "うん、だいじょうぶ。どうしたの？",
+      "romaji": "un,daijoubu.doushitano?",
+      "en": "Yes, it is okay. What is up?",
+      "speakText": "うん、だいじょうぶ。どうしたの？",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Simple Phone Calls",
+      "speaker": "たく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いいね。あとで かくにんしよう。",
+      "romaji": "iine.atode kakuninshiyou.",
+      "en": "Nice. Let us check later.",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Simple Phone Calls",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "さっき でんわ した？",
+      "romaji": "sakki denwa shita?",
+      "en": "Did you call earlier?",
+      "speakText": "さっき でんわ した？",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Simple Phone Calls",
+      "speaker": "りく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ごめん。あとで かけなおす。",
+      "romaji": "gomen.atode kakenaosu.",
+      "en": "Sorry. I will call back later.",
+      "speakText": "ごめん。あとで かけなおす。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Simple Phone Calls",
+      "speaker": "まい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "まじか。いいじゃん。",
+      "romaji": "majika.iijan.",
+      "en": "Really? Nice.",
+      "speakText": "まじか。いいじゃん。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Simple Phone Calls",
+      "speaker": "りく"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "はい、さとうがいしゃでございます。",
+          "right": "Hello, this is Sato Company."
+        },
+        {
+          "left": "たなかと もうします。やまださんは いらっしゃいますか？",
+          "right": "My name is Tanaka. Is Yamada available?"
+        },
+        {
+          "left": "そうです。ありがとうございます。",
+          "right": "That is right. Thank you."
+        },
+        {
+          "left": "もしもし、けん？いま だいじょうぶ？",
+          "right": "Hello, Ken? Is now okay?"
+        },
+        {
+          "left": "うん、だいじょうぶ。どうしたの？",
+          "right": "Yes, it is okay. What is up?"
+        },
+        {
+          "left": "いいね。あとで かくにんしよう。",
+          "right": "Nice. Let us check later."
+        },
+        {
+          "left": "さっき でんわ した？",
+          "right": "Did you call earlier?"
+        },
+        {
+          "left": "ごめん。あとで かけなおす。",
+          "right": "Sorry. I will call back later."
+        },
+        {
+          "left": "まじか。いいじゃん。",
+          "right": "Really? Nice."
+        },
+        {
+          "left": "もしもし",
+          "right": "hello on the phone"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "はい、さとうがいしゃでございます。",
+          "romaji": "hai,satougaishadegozaimasu.",
+          "en": "Hello, this is Sato Company."
+        },
+        {
+          "jp": "たなかと もうします。やまださんは いらっしゃいますか？",
+          "romaji": "tanakato moushimasu.yamadasanha irasshaimasuka?",
+          "en": "My name is Tanaka. Is Yamada available?",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "もしもし、けん？いま だいじょうぶ？",
+          "romaji": "moshimoshi,ken?ima daijoubu?",
+          "en": "Hello, Ken? Is now okay?"
+        },
+        {
+          "jp": "うん、だいじょうぶ。どうしたの？",
+          "romaji": "un,daijoubu.doushitano?",
+          "en": "Yes, it is okay. What is up?",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "さっき でんわ した？",
+          "romaji": "sakki denwa shita?",
+          "en": "Did you call earlier?"
+        },
+        {
+          "jp": "ごめん。あとで かけなおす。",
+          "romaji": "gomen.atode kakenaosu.",
+          "en": "Sorry. I will call back later.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "もしもし",
+          "romaji": "moshimoshi",
+          "en": "hello on the phone"
+        }
+      ]
+    }
+  ]
+}

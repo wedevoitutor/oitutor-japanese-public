@@ -1,0 +1,1140 @@
+{
+  "id": "kanji-batch-14",
+  "misconceptions": [
+    {
+      "kanji": "妹",
+      "error": "Overuses one reading of 妹 and misses the reading in 姉妹.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "毎",
+      "error": "Overuses one reading of 毎 and misses the reading in 毎日.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "語",
+      "error": "Overuses one reading of 語 and misses the reading in 日本語.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "文",
+      "error": "Overuses one reading of 文 and misses the reading in 文章.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "高",
+      "error": "Overuses one reading of 高 and misses the reading in 高校.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Batch 14 - 妹 毎 語 文 高",
+      "intro": "This batch teaches 妹 毎 語 文 高 with anchor readings, N5 words, and short sentence practice.",
+      "rows": [
+        [
+          "Kanji",
+          "Meaning",
+          "Anchor reading",
+          "Other reading",
+          "Memory hook"
+        ],
+        [
+          "妹",
+          "younger sister",
+          "マイ",
+          "いもうと",
+          "妹 → younger sister"
+        ],
+        [
+          "毎",
+          "every",
+          "マイ",
+          "—",
+          "毎 → every"
+        ],
+        [
+          "語",
+          "language / word",
+          "ゴ",
+          "かたる",
+          "語 → language / word"
+        ],
+        [
+          "文",
+          "sentence / writing",
+          "ブン",
+          "ふみ",
+          "文 → sentence / writing"
+        ],
+        [
+          "高",
+          "high / expensive",
+          "コウ",
+          "たかい",
+          "高 → high / expensive"
+        ]
+      ],
+      "takeaway": "Recognise the kanji first, then confirm the reading from the word around it."
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "妹",
+      "meaning": "younger sister",
+      "memoryHook": "妹 visually anchors younger sister.",
+      "jlpt": "N5",
+      "strokeCount": 8,
+      "components": [
+        {
+          "shape": "妹",
+          "note": "Use the whole shape as a visual anchor for younger sister; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "マイ",
+            "romaji": "mai",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 姉妹.",
+            "anchorExampleWord": "姉妹"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "いもうと",
+            "romaji": "imouto"
+          }
+        ]
+      },
+      "mnemonic": "Connect 妹 to younger sister; practise マイ in 姉妹 and compare it with いもうと in 妹.",
+      "confusables": [
+        {
+          "kanji": "姉",
+          "meaning": "older sister",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "弟",
+          "meaning": "younger brother",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "姉妹",
+          "reading": "しまい",
+          "meaning": "sisters"
+        },
+        {
+          "word": "妹",
+          "reading": "いもうと",
+          "meaning": "younger sister"
+        },
+        {
+          "word": "妹さん",
+          "reading": "いもうとさん",
+          "meaning": "younger sister"
+        },
+        {
+          "word": "兄妹",
+          "reading": "けいまい",
+          "meaning": "older brother and younger sister"
+        },
+        {
+          "word": "妹と弟",
+          "reading": "いもうととおとうと",
+          "meaning": "younger sister and younger brother"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "妹は中学生です。",
+          "highlight": "妹",
+          "reading": "いもうとは ちゅうがくせいです",
+          "en": "My younger sister is a junior high school student."
+        },
+        {
+          "jp": "妹と学校へ行きます。",
+          "highlight": "妹",
+          "reading": "いもうとと がっこうへ いきます",
+          "en": "I go to school with my younger sister."
+        },
+        {
+          "jp": "姉妹で料理を作ります。",
+          "highlight": "妹",
+          "reading": "しまいで りょうりを つくります",
+          "en": "The sisters cook together."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "毎",
+      "meaning": "every",
+      "memoryHook": "毎 visually anchors every.",
+      "jlpt": "N5",
+      "strokeCount": 6,
+      "components": [
+        {
+          "shape": "毎",
+          "note": "Use the whole shape as a visual anchor for every; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "マイ",
+            "romaji": "mai",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 毎日.",
+            "anchorExampleWord": "毎日"
+          }
+        ],
+        "kun": []
+      },
+      "mnemonic": "Connect 毎 to every; practise マイ in 毎日 and compare it with まいしゅう in 毎週.",
+      "confusables": [
+        {
+          "kanji": "姉",
+          "meaning": "older sister",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "弟",
+          "meaning": "younger brother",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "毎日",
+          "reading": "まいにち",
+          "meaning": "every day"
+        },
+        {
+          "word": "毎週",
+          "reading": "まいしゅう",
+          "meaning": "every week"
+        },
+        {
+          "word": "毎月",
+          "reading": "まいつき",
+          "meaning": "every month"
+        },
+        {
+          "word": "毎年",
+          "reading": "まいとし",
+          "meaning": "every year"
+        },
+        {
+          "word": "毎朝",
+          "reading": "まいあさ",
+          "meaning": "every morning"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "毎日、日本語を勉強します。",
+          "highlight": "毎",
+          "reading": "まいにち にほんごを べんきょうします",
+          "en": "I study Japanese every day."
+        },
+        {
+          "jp": "毎週、友だちに会います。",
+          "highlight": "毎",
+          "reading": "まいしゅう ともだちに あいます",
+          "en": "I meet a friend every week."
+        },
+        {
+          "jp": "毎朝、水を飲みます。",
+          "highlight": "毎",
+          "reading": "まいあさ みずを のみます",
+          "en": "I drink water every morning."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "語",
+      "meaning": "language / word",
+      "memoryHook": "語 visually anchors language / word.",
+      "jlpt": "N5",
+      "strokeCount": 14,
+      "components": [
+        {
+          "shape": "語",
+          "note": "Use the whole shape as a visual anchor for language / word; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ゴ",
+            "romaji": "go",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 日本語.",
+            "anchorExampleWord": "日本語"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "かたる",
+            "romaji": "eigo"
+          }
+        ]
+      },
+      "mnemonic": "Connect 語 to language / word; practise ゴ in 日本語 and compare it with えいご in 英語.",
+      "confusables": [
+        {
+          "kanji": "姉",
+          "meaning": "older sister",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "弟",
+          "meaning": "younger brother",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "日本語",
+          "reading": "にほんご",
+          "meaning": "Japanese language"
+        },
+        {
+          "word": "英語",
+          "reading": "えいご",
+          "meaning": "English"
+        },
+        {
+          "word": "語学",
+          "reading": "ごがく",
+          "meaning": "language study"
+        },
+        {
+          "word": "単語",
+          "reading": "たんご",
+          "meaning": "word / vocabulary item"
+        },
+        {
+          "word": "物語",
+          "reading": "ものがたり",
+          "meaning": "story"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "日本語を話します。",
+          "highlight": "語",
+          "reading": "にほんごを はなします",
+          "en": "I speak Japanese."
+        },
+        {
+          "jp": "英語の本を読みます。",
+          "highlight": "語",
+          "reading": "えいごの ほんを よみます",
+          "en": "I read an English book."
+        },
+        {
+          "jp": "単語をノートに書きます。",
+          "highlight": "語",
+          "reading": "たんごを ノートに かきます",
+          "en": "I write vocabulary words in a notebook."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "文",
+      "meaning": "sentence / writing",
+      "memoryHook": "文 visually anchors sentence / writing.",
+      "jlpt": "N5",
+      "strokeCount": 4,
+      "components": [
+        {
+          "shape": "文",
+          "note": "Use the whole shape as a visual anchor for sentence / writing; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ブン",
+            "romaji": "bun",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 文章.",
+            "anchorExampleWord": "文章"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "ふみ",
+            "romaji": "bun"
+          }
+        ]
+      },
+      "mnemonic": "Connect 文 to sentence / writing; practise ブン in 文章 and compare it with ぶん in 文.",
+      "confusables": [
+        {
+          "kanji": "姉",
+          "meaning": "older sister",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "弟",
+          "meaning": "younger brother",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "文章",
+          "reading": "ぶんしょう",
+          "meaning": "text / article"
+        },
+        {
+          "word": "文",
+          "reading": "ぶん",
+          "meaning": "sentence"
+        },
+        {
+          "word": "文法",
+          "reading": "ぶんぽう",
+          "meaning": "grammar"
+        },
+        {
+          "word": "作文",
+          "reading": "さくぶん",
+          "meaning": "composition"
+        },
+        {
+          "word": "文字",
+          "reading": "もじ",
+          "meaning": "character / letter"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "文章を読みます。",
+          "highlight": "文",
+          "reading": "ぶんしょうを よみます",
+          "en": "I read a text."
+        },
+        {
+          "jp": "短い文を書きます。",
+          "highlight": "文",
+          "reading": "みじかい ぶんを かきます",
+          "en": "I write a short sentence."
+        },
+        {
+          "jp": "文法を勉強します。",
+          "highlight": "文",
+          "reading": "ぶんぽうを べんきょうします",
+          "en": "I study grammar."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "高",
+      "meaning": "high / expensive",
+      "memoryHook": "高 visually anchors high / expensive.",
+      "jlpt": "N5",
+      "strokeCount": 10,
+      "components": [
+        {
+          "shape": "高",
+          "note": "Use the whole shape as a visual anchor for high / expensive; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "コウ",
+            "romaji": "kou",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 高校.",
+            "anchorExampleWord": "高校"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "たかい",
+            "romaji": "takai"
+          }
+        ]
+      },
+      "mnemonic": "Connect 高 to high / expensive; practise コウ in 高校 and compare it with たかい in 高い.",
+      "confusables": [
+        {
+          "kanji": "姉",
+          "meaning": "older sister",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "弟",
+          "meaning": "younger brother",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "高校",
+          "reading": "こうこう",
+          "meaning": "high school"
+        },
+        {
+          "word": "高い",
+          "reading": "たかい",
+          "meaning": "high / expensive"
+        },
+        {
+          "word": "高校生",
+          "reading": "こうこうせい",
+          "meaning": "high school student"
+        },
+        {
+          "word": "最高",
+          "reading": "さいこう",
+          "meaning": "the best / highest"
+        },
+        {
+          "word": "高山",
+          "reading": "こうざん",
+          "meaning": "high mountain"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "高校で英語を習います。",
+          "highlight": "高",
+          "reading": "こうこうで えいごを ならいます",
+          "en": "I learn English at high school."
+        },
+        {
+          "jp": "高い山に登ります。",
+          "highlight": "高",
+          "reading": "たかい やまに のぼります",
+          "en": "I climb a high mountain."
+        },
+        {
+          "jp": "高校生が電車に乗ります。",
+          "highlight": "高",
+          "reading": "こうこうせいが でんしゃに のります",
+          "en": "A high school student rides the train."
+        }
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "妹",
+          "back": "younger sister - マイ",
+          "speakText": "妹"
+        },
+        {
+          "front": "毎",
+          "back": "every - マイ",
+          "speakText": "毎"
+        },
+        {
+          "front": "語",
+          "back": "language / word - ゴ",
+          "speakText": "語"
+        },
+        {
+          "front": "文",
+          "back": "sentence / writing - ブン",
+          "speakText": "文"
+        },
+        {
+          "front": "高",
+          "back": "high / expensive - コウ",
+          "speakText": "高"
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 妹 (kana or romaji):",
+      "question": "妹",
+      "speakText": "妹",
+      "answer": "マイ",
+      "acceptAlternatives": [
+        "mai",
+        "マイ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 毎 (kana or romaji):",
+      "question": "毎",
+      "speakText": "毎",
+      "answer": "マイ",
+      "acceptAlternatives": [
+        "mai",
+        "マイ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 語 (kana or romaji):",
+      "question": "語",
+      "speakText": "語",
+      "answer": "ゴ",
+      "acceptAlternatives": [
+        "go",
+        "ゴ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 文 (kana or romaji):",
+      "question": "文",
+      "speakText": "文",
+      "answer": "ブン",
+      "acceptAlternatives": [
+        "bun",
+        "ブン"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 高 (kana or romaji):",
+      "question": "高",
+      "speakText": "高",
+      "answer": "コウ",
+      "acceptAlternatives": [
+        "ko",
+        "kou",
+        "コウ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 姉妹 in hiragana or romaji:",
+      "question": "姉妹",
+      "speakText": "姉妹",
+      "answer": "しまい",
+      "acceptAlternatives": [
+        "shimai",
+        "しまい"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "妹"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 毎日 in hiragana or romaji:",
+      "question": "毎日",
+      "speakText": "毎日",
+      "answer": "まいにち",
+      "acceptAlternatives": [
+        "mainichi",
+        "まいにち"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "毎"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 日本語 in hiragana or romaji:",
+      "question": "日本語",
+      "speakText": "日本語",
+      "answer": "にほんご",
+      "acceptAlternatives": [
+        "nihongo",
+        "にほんご"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "語"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 文章 in hiragana or romaji:",
+      "question": "文章",
+      "speakText": "文章",
+      "answer": "ぶんしょう",
+      "acceptAlternatives": [
+        "bunsho",
+        "bunshou",
+        "ぶんしょう"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "文"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 高校 in hiragana or romaji:",
+      "question": "高校",
+      "speakText": "高校",
+      "answer": "こうこう",
+      "acceptAlternatives": [
+        "koko",
+        "koukou",
+        "こうこう"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "高"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 英語 in hiragana or romaji:",
+      "question": "英語",
+      "speakText": "英語",
+      "answer": "えいご",
+      "acceptAlternatives": [
+        "eigo",
+        "えいご"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "語"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "は中学生です。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "妹",
+        "answerRomaji": "mai",
+        "hint": "Choose the kanji for younger sister.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "妹",
+            "correct": true
+          },
+          {
+            "text": "毎",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "毎 means “every,” so it does not fit this prompt."
+          },
+          {
+            "text": "語",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "語 means “language / word,” so it does not fit this prompt."
+          },
+          {
+            "text": "文",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "文 means “sentence / writing,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "My younger sister is a junior high school student.",
+      "speakText": "妹は中学生です。",
+      "targetKanji": "妹",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "日本",
+        "[SLOT]",
+        "を話します。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "語",
+        "answerRomaji": "go",
+        "hint": "Choose the kanji for language / word.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "語",
+            "correct": true
+          },
+          {
+            "text": "妹",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "妹 means “younger sister,” so it does not fit this prompt."
+          },
+          {
+            "text": "毎",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "毎 means “every,” so it does not fit this prompt."
+          },
+          {
+            "text": "文",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "文 means “sentence / writing,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I speak Japanese.",
+      "speakText": "日本語を話します。",
+      "targetKanji": "語",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "校で英語を習います。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "高",
+        "answerRomaji": "kou",
+        "hint": "Choose the kanji for high / expensive.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "高",
+            "correct": true
+          },
+          {
+            "text": "妹",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "妹 means “younger sister,” so it does not fit this prompt."
+          },
+          {
+            "text": "毎",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "毎 means “every,” so it does not fit this prompt."
+          },
+          {
+            "text": "語",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "語 means “language / word,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I learn English at high school.",
+      "speakText": "高校で英語を習います。",
+      "targetKanji": "高",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 妹 read in 姉妹?",
+      "word": "姉妹",
+      "targetKanji": "妹",
+      "options": [
+        {
+          "kana": "しまい",
+          "romaji": "shimai",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "姉妹 is read しまい in this vocabulary item."
+        },
+        {
+          "kana": "マイ",
+          "romaji": "mai",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "マイ is useful for 妹, but not the full reading of 姉妹."
+        },
+        {
+          "kana": "いもうと",
+          "romaji": "imouto",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "いもうと is another reading connected to 妹, not the reading used in 姉妹."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 語 read in 日本語?",
+      "word": "日本語",
+      "targetKanji": "語",
+      "options": [
+        {
+          "kana": "にほんご",
+          "romaji": "nihongo",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "日本語 is read にほんご in this vocabulary item."
+        },
+        {
+          "kana": "ゴ",
+          "romaji": "go",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "ゴ is useful for 語, but not the full reading of 日本語."
+        },
+        {
+          "kana": "かたる",
+          "romaji": "eigo",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "かたる is another reading connected to 語, not the reading used in 日本語."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 高 read in 高校?",
+      "word": "高校",
+      "targetKanji": "高",
+      "options": [
+        {
+          "kana": "こうこう",
+          "romaji": "koko",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "高校 is read こうこう in this vocabulary item."
+        },
+        {
+          "kana": "コウ",
+          "romaji": "kou",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "コウ is useful for 高, but not the full reading of 高校."
+        },
+        {
+          "kana": "たかい",
+          "romaji": "takai",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "たかい is another reading connected to 高, not the reading used in 高校."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji means 'every'?",
+      "options": [
+        {
+          "text": "毎",
+          "correct": true
+        },
+        {
+          "text": "妹",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "妹 means “younger sister,” so it does not fit this prompt."
+        },
+        {
+          "text": "語",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "語 means “language / word,” so it does not fit this prompt."
+        },
+        {
+          "text": "文",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "文 means “sentence / writing,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the kanji you hear:",
+      "speakText": "文",
+      "options": [
+        {
+          "text": "文",
+          "correct": true
+        },
+        {
+          "text": "妹",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "妹 means “younger sister,” so it does not fit this prompt."
+        },
+        {
+          "text": "毎",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "毎 means “every,” so it does not fit this prompt."
+        },
+        {
+          "text": "語",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "語 means “language / word,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji in 高校 (high school) means 'high / expensive'?",
+      "options": [
+        {
+          "text": "高",
+          "correct": true
+        },
+        {
+          "text": "妹",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "妹 means “younger sister,” so it does not fit this prompt."
+        },
+        {
+          "text": "毎",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "毎 means “every,” so it does not fit this prompt."
+        },
+        {
+          "text": "語",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "語 means “language / word,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Review: which older kanji means 'older sister'?",
+      "reviewFrom": "kanji-batch-13",
+      "options": [
+        {
+          "text": "姉",
+          "correct": true
+        },
+        {
+          "text": "父",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "父 means “father,” so it does not fit this prompt."
+        },
+        {
+          "text": "母",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "母 means “mother,” so it does not fit this prompt."
+        },
+        {
+          "text": "兄",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "兄 means “older brother,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Review: match older kanji to their meanings:",
+      "reviewFrom": [
+        "kanji-batch-12",
+        "kanji-batch-13"
+      ],
+      "pairs": [
+        {
+          "left": "母",
+          "right": "mother",
+          "reviewFrom": "kanji-batch-13"
+        },
+        {
+          "left": "兄",
+          "right": "older brother",
+          "reviewFrom": "kanji-batch-13"
+        },
+        {
+          "left": "弟",
+          "right": "younger brother",
+          "reviewFrom": "kanji-batch-13"
+        },
+        {
+          "left": "姉",
+          "right": "older sister",
+          "reviewFrom": "kanji-batch-13"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each kanji to its meaning:",
+      "pairs": [
+        {
+          "left": "妹",
+          "right": "younger sister"
+        },
+        {
+          "left": "毎",
+          "right": "every"
+        },
+        {
+          "left": "語",
+          "right": "language / word"
+        },
+        {
+          "left": "文",
+          "right": "sentence / writing"
+        },
+        {
+          "left": "高",
+          "right": "high / expensive"
+        }
+      ]
+    }
+  ]
+}

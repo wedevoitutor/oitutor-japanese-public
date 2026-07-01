@@ -1,0 +1,1144 @@
+{
+  "id": "kanji-batch-09",
+  "misconceptions": [
+    {
+      "kanji": "木",
+      "error": "Overuses one reading of 木 and misses the reading in 木曜日.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "車",
+      "error": "Overuses one reading of 車 and misses the reading in 電車.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "白",
+      "error": "Overuses one reading of 白 and misses the reading in 白紙.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "天",
+      "error": "Overuses one reading of 天 and misses the reading in 天気.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "火",
+      "error": "Overuses one reading of 火 and misses the reading in 火曜日.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Batch 09 - 木 車 白 天 火",
+      "intro": "This batch teaches 木 車 白 天 火 with anchor readings, N5 words, and short sentence practice.",
+      "rows": [
+        [
+          "Kanji",
+          "Meaning",
+          "Anchor reading",
+          "Other reading",
+          "Memory hook"
+        ],
+        [
+          "木",
+          "tree / wood",
+          "モク",
+          "き",
+          "木 → tree / wood"
+        ],
+        [
+          "車",
+          "car",
+          "シャ",
+          "くるま",
+          "車 → car"
+        ],
+        [
+          "白",
+          "white",
+          "ハク",
+          "しろ",
+          "白 → white"
+        ],
+        [
+          "天",
+          "heaven / sky",
+          "テン",
+          "あま",
+          "天 → heaven / sky"
+        ],
+        [
+          "火",
+          "fire",
+          "カ",
+          "ひ",
+          "火 → fire"
+        ]
+      ],
+      "takeaway": "Recognise the kanji first, then confirm the reading from the word around it."
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "木",
+      "meaning": "tree / wood",
+      "memoryHook": "木 visually anchors tree / wood.",
+      "jlpt": "N5",
+      "strokeCount": 4,
+      "components": [
+        {
+          "shape": "木",
+          "note": "Use the whole shape as a visual anchor for tree / wood; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "モク",
+            "romaji": "moku",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 木曜日.",
+            "anchorExampleWord": "木曜日"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "き",
+            "romaji": "ki"
+          }
+        ]
+      },
+      "mnemonic": "Connect 木 to tree / wood; practise モク in 木曜日 and compare it with き in 木.",
+      "confusables": [
+        {
+          "kanji": "土",
+          "meaning": "earth / soil",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "校",
+          "meaning": "school",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "木曜日",
+          "reading": "もくようび",
+          "meaning": "Thursday"
+        },
+        {
+          "word": "木",
+          "reading": "き",
+          "meaning": "tree"
+        },
+        {
+          "word": "木の下",
+          "reading": "きのした",
+          "meaning": "under a tree"
+        },
+        {
+          "word": "木材",
+          "reading": "もくざい",
+          "meaning": "wood / lumber"
+        },
+        {
+          "word": "木々",
+          "reading": "きぎ",
+          "meaning": "trees"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "木曜日にテストを受けます。",
+          "highlight": "木",
+          "reading": "もくようびに テストを うけます",
+          "en": "I take a test on Thursday."
+        },
+        {
+          "jp": "木の下で休みます。",
+          "highlight": "木",
+          "reading": "きの したで やすみます",
+          "en": "I rest under a tree."
+        },
+        {
+          "jp": "木材で机を作ります。",
+          "highlight": "木",
+          "reading": "もくざいで つくえを つくります",
+          "en": "I make a desk from wood."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "車",
+      "meaning": "car",
+      "memoryHook": "車 visually anchors car.",
+      "jlpt": "N5",
+      "strokeCount": 7,
+      "components": [
+        {
+          "shape": "車",
+          "note": "Use the whole shape as a visual anchor for car; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "シャ",
+            "romaji": "sha",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 電車.",
+            "anchorExampleWord": "電車"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "くるま",
+            "romaji": "kuruma"
+          }
+        ]
+      },
+      "mnemonic": "Connect 車 to car; practise シャ in 電車 and compare it with くるま in 車.",
+      "confusables": [
+        {
+          "kanji": "土",
+          "meaning": "earth / soil",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "校",
+          "meaning": "school",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "電車",
+          "reading": "でんしゃ",
+          "meaning": "train"
+        },
+        {
+          "word": "車",
+          "reading": "くるま",
+          "meaning": "car"
+        },
+        {
+          "word": "自転車",
+          "reading": "じてんしゃ",
+          "meaning": "bicycle"
+        },
+        {
+          "word": "車内",
+          "reading": "しゃない",
+          "meaning": "inside a vehicle"
+        },
+        {
+          "word": "車道",
+          "reading": "しゃどう",
+          "meaning": "roadway"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "電車で学校へ行きます。",
+          "highlight": "車",
+          "reading": "でんしゃで がっこうへ いきます",
+          "en": "I go to school by train."
+        },
+        {
+          "jp": "車を運転します。",
+          "highlight": "車",
+          "reading": "くるまを うんてんします",
+          "en": "I drive a car."
+        },
+        {
+          "jp": "自転車で川まで行きます。",
+          "highlight": "車",
+          "reading": "じてんしゃで かわまで いきます",
+          "en": "I go to the river by bicycle."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "白",
+      "meaning": "white",
+      "memoryHook": "白 visually anchors white.",
+      "jlpt": "N5",
+      "strokeCount": 5,
+      "components": [
+        {
+          "shape": "白",
+          "note": "Use the whole shape as a visual anchor for white; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ハク",
+            "romaji": "haku",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 白紙.",
+            "anchorExampleWord": "白紙"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "しろ",
+            "romaji": "shiro"
+          }
+        ]
+      },
+      "mnemonic": "Connect 白 to white; practise ハク in 白紙 and compare it with しろい in 白い.",
+      "confusables": [
+        {
+          "kanji": "土",
+          "meaning": "earth / soil",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "校",
+          "meaning": "school",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "白紙",
+          "reading": "はくし",
+          "meaning": "blank paper"
+        },
+        {
+          "word": "白い",
+          "reading": "しろい",
+          "meaning": "white"
+        },
+        {
+          "word": "白色",
+          "reading": "はくしょく",
+          "meaning": "white color"
+        },
+        {
+          "word": "白鳥",
+          "reading": "はくちょう",
+          "meaning": "swan"
+        },
+        {
+          "word": "白米",
+          "reading": "はくまい",
+          "meaning": "white rice"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "白い紙に名前を書きます。",
+          "highlight": "白",
+          "reading": "しろい かみに なまえを かきます",
+          "en": "I write my name on white paper."
+        },
+        {
+          "jp": "白紙で出します。",
+          "highlight": "白",
+          "reading": "はくしで だします",
+          "en": "I submit it blank."
+        },
+        {
+          "jp": "白いシャツを着ます。",
+          "highlight": "白",
+          "reading": "しろい シャツを きます",
+          "en": "I wear a white shirt."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "天",
+      "meaning": "heaven / sky",
+      "memoryHook": "天 visually anchors heaven / sky.",
+      "jlpt": "N5",
+      "strokeCount": 4,
+      "components": [
+        {
+          "shape": "天",
+          "note": "Use the whole shape as a visual anchor for heaven / sky; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "テン",
+            "romaji": "ten",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 天気.",
+            "anchorExampleWord": "天気"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "あま",
+            "romaji": "ten"
+          }
+        ]
+      },
+      "mnemonic": "Connect 天 to heaven / sky; practise テン in 天気 and compare it with てん in 天.",
+      "confusables": [
+        {
+          "kanji": "土",
+          "meaning": "earth / soil",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "校",
+          "meaning": "school",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "天気",
+          "reading": "てんき",
+          "meaning": "weather"
+        },
+        {
+          "word": "天",
+          "reading": "てん",
+          "meaning": "heaven / sky"
+        },
+        {
+          "word": "天国",
+          "reading": "てんごく",
+          "meaning": "heaven"
+        },
+        {
+          "word": "天才",
+          "reading": "てんさい",
+          "meaning": "genius"
+        },
+        {
+          "word": "天気予報",
+          "reading": "てんきよほう",
+          "meaning": "weather forecast"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "天気が悪いです。",
+          "highlight": "天",
+          "reading": "てんきが わるいです",
+          "en": "The weather is bad."
+        },
+        {
+          "jp": "天気予報を聞きます。",
+          "highlight": "天",
+          "reading": "てんきよほうを ききます",
+          "en": "I listen to the weather forecast."
+        },
+        {
+          "jp": "天国の話を読みます。",
+          "highlight": "天",
+          "reading": "てんごくの はなしを よみます",
+          "en": "I read a story about heaven."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "火",
+      "meaning": "fire",
+      "memoryHook": "火 visually anchors fire.",
+      "jlpt": "N5",
+      "strokeCount": 4,
+      "components": [
+        {
+          "shape": "火",
+          "note": "Use the whole shape as a visual anchor for fire; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "カ",
+            "romaji": "ka",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 火曜日.",
+            "anchorExampleWord": "火曜日"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "ひ",
+            "romaji": "hi"
+          }
+        ]
+      },
+      "mnemonic": "Connect 火 to fire; practise カ in 火曜日 and compare it with ひ in 火.",
+      "confusables": [
+        {
+          "kanji": "土",
+          "meaning": "earth / soil",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "校",
+          "meaning": "school",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "火曜日",
+          "reading": "かようび",
+          "meaning": "Tuesday"
+        },
+        {
+          "word": "火",
+          "reading": "ひ",
+          "meaning": "fire"
+        },
+        {
+          "word": "花火",
+          "reading": "はなび",
+          "meaning": "fireworks"
+        },
+        {
+          "word": "火山",
+          "reading": "かざん",
+          "meaning": "volcano"
+        },
+        {
+          "word": "火事",
+          "reading": "かじ",
+          "meaning": "fire / conflagration"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "火曜日に日本語を勉強します。",
+          "highlight": "火",
+          "reading": "かようびに にほんごを べんきょうします",
+          "en": "I study Japanese on Tuesday."
+        },
+        {
+          "jp": "火を消してください。",
+          "highlight": "火",
+          "reading": "ひを けしてください",
+          "en": "Please put out the fire."
+        },
+        {
+          "jp": "花火を写真に撮ります。",
+          "highlight": "火",
+          "reading": "はなびを しゃしんに とります",
+          "en": "I take a photo of fireworks."
+        }
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "木",
+          "back": "tree / wood - モク",
+          "speakText": "木"
+        },
+        {
+          "front": "車",
+          "back": "car - シャ",
+          "speakText": "車"
+        },
+        {
+          "front": "白",
+          "back": "white - ハク",
+          "speakText": "白"
+        },
+        {
+          "front": "天",
+          "back": "heaven / sky - テン",
+          "speakText": "天"
+        },
+        {
+          "front": "火",
+          "back": "fire - カ",
+          "speakText": "火"
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 木 (kana or romaji):",
+      "question": "木",
+      "speakText": "木",
+      "answer": "モク",
+      "acceptAlternatives": [
+        "moku",
+        "モク"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 車 (kana or romaji):",
+      "question": "車",
+      "speakText": "車",
+      "answer": "シャ",
+      "acceptAlternatives": [
+        "sha",
+        "シャ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 白 (kana or romaji):",
+      "question": "白",
+      "speakText": "白",
+      "answer": "ハク",
+      "acceptAlternatives": [
+        "haku",
+        "ハク"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 天 (kana or romaji):",
+      "question": "天",
+      "speakText": "天",
+      "answer": "テン",
+      "acceptAlternatives": [
+        "ten",
+        "テン"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 火 (kana or romaji):",
+      "question": "火",
+      "speakText": "火",
+      "answer": "カ",
+      "acceptAlternatives": [
+        "ka",
+        "カ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 木曜日 in hiragana or romaji:",
+      "question": "木曜日",
+      "speakText": "木曜日",
+      "answer": "もくようび",
+      "acceptAlternatives": [
+        "mokuyobi",
+        "mokuyoubi",
+        "もくようび"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "木"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 電車 in hiragana or romaji:",
+      "question": "電車",
+      "speakText": "電車",
+      "answer": "でんしゃ",
+      "acceptAlternatives": [
+        "densha",
+        "でんしゃ"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "車"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 白紙 in hiragana or romaji:",
+      "question": "白紙",
+      "speakText": "白紙",
+      "answer": "はくし",
+      "acceptAlternatives": [
+        "hakushi",
+        "はくし"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "白"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 天気 in hiragana or romaji:",
+      "question": "天気",
+      "speakText": "天気",
+      "answer": "てんき",
+      "acceptAlternatives": [
+        "tenki",
+        "てんき"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "天"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 火曜日 in hiragana or romaji:",
+      "question": "火曜日",
+      "speakText": "火曜日",
+      "answer": "かようび",
+      "acceptAlternatives": [
+        "kayobi",
+        "kayoubi",
+        "かようび"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "火"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 白い in hiragana or romaji:",
+      "question": "白い",
+      "speakText": "白い",
+      "answer": "しろい",
+      "acceptAlternatives": [
+        "shiroi",
+        "しろい"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "白"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "曜日にテストを受けます。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "木",
+        "answerRomaji": "moku",
+        "hint": "Choose the kanji for tree / wood.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "木",
+            "correct": true
+          },
+          {
+            "text": "車",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "車 means “car,” so it does not fit this prompt."
+          },
+          {
+            "text": "白",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "白 means “white,” so it does not fit this prompt."
+          },
+          {
+            "text": "天",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "天 means “heaven / sky,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I take a test on Thursday.",
+      "speakText": "木曜日にテストを受けます。",
+      "targetKanji": "木",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "い紙に名前を書きます。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "白",
+        "answerRomaji": "haku",
+        "hint": "Choose the kanji for white.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "白",
+            "correct": true
+          },
+          {
+            "text": "木",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "木 means “tree / wood,” so it does not fit this prompt."
+          },
+          {
+            "text": "車",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "車 means “car,” so it does not fit this prompt."
+          },
+          {
+            "text": "天",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "天 means “heaven / sky,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I write my name on white paper.",
+      "speakText": "白い紙に名前を書きます。",
+      "targetKanji": "白",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "曜日に日本語を勉強します。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "火",
+        "answerRomaji": "ka",
+        "hint": "Choose the kanji for fire.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "火",
+            "correct": true
+          },
+          {
+            "text": "木",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "木 means “tree / wood,” so it does not fit this prompt."
+          },
+          {
+            "text": "車",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "車 means “car,” so it does not fit this prompt."
+          },
+          {
+            "text": "白",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "白 means “white,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I study Japanese on Tuesday.",
+      "speakText": "火曜日に日本語を勉強します。",
+      "targetKanji": "火",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 木 read in 木曜日?",
+      "word": "木曜日",
+      "targetKanji": "木",
+      "options": [
+        {
+          "kana": "もくようび",
+          "romaji": "mokuyobi",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "木曜日 is read もくようび in this vocabulary item."
+        },
+        {
+          "kana": "モク",
+          "romaji": "moku",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "モク is useful for 木, but not the full reading of 木曜日."
+        },
+        {
+          "kana": "き",
+          "romaji": "ki",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "き is another reading connected to 木, not the reading used in 木曜日."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 白 read in 白紙?",
+      "word": "白紙",
+      "targetKanji": "白",
+      "options": [
+        {
+          "kana": "はくし",
+          "romaji": "hakushi",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "白紙 is read はくし in this vocabulary item."
+        },
+        {
+          "kana": "ハク",
+          "romaji": "haku",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "ハク is useful for 白, but not the full reading of 白紙."
+        },
+        {
+          "kana": "しろ",
+          "romaji": "shiro",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "しろ is another reading connected to 白, not the reading used in 白紙."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 火 read in 火曜日?",
+      "word": "火曜日",
+      "targetKanji": "火",
+      "options": [
+        {
+          "kana": "かようび",
+          "romaji": "kayobi",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "火曜日 is read かようび in this vocabulary item."
+        },
+        {
+          "kana": "カ",
+          "romaji": "ka",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "カ is useful for 火, but not the full reading of 火曜日."
+        },
+        {
+          "kana": "ひ",
+          "romaji": "hi",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "ひ is another reading connected to 火, not the reading used in 火曜日."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji means 'car'?",
+      "options": [
+        {
+          "text": "車",
+          "correct": true
+        },
+        {
+          "text": "木",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "木 means “tree / wood,” so it does not fit this prompt."
+        },
+        {
+          "text": "白",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "白 means “white,” so it does not fit this prompt."
+        },
+        {
+          "text": "天",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "天 means “heaven / sky,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the kanji you hear:",
+      "speakText": "天",
+      "options": [
+        {
+          "text": "天",
+          "correct": true
+        },
+        {
+          "text": "木",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "木 means “tree / wood,” so it does not fit this prompt."
+        },
+        {
+          "text": "車",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "車 means “car,” so it does not fit this prompt."
+        },
+        {
+          "text": "白",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "白 means “white,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji in 火曜日 (Tuesday) means 'fire'?",
+      "options": [
+        {
+          "text": "火",
+          "correct": true
+        },
+        {
+          "text": "木",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "木 means “tree / wood,” so it does not fit this prompt."
+        },
+        {
+          "text": "車",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "車 means “car,” so it does not fit this prompt."
+        },
+        {
+          "text": "白",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "白 means “white,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Review: which older kanji means 'earth / soil'?",
+      "reviewFrom": "kanji-batch-08",
+      "options": [
+        {
+          "text": "土",
+          "correct": true
+        },
+        {
+          "text": "千",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "千 means “thousand,” so it does not fit this prompt."
+        },
+        {
+          "text": "水",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "水 means “water,” so it does not fit this prompt."
+        },
+        {
+          "text": "男",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "男 means “man / male,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Review: match older kanji to their meanings:",
+      "reviewFrom": [
+        "kanji-batch-07",
+        "kanji-batch-08"
+      ],
+      "pairs": [
+        {
+          "left": "水",
+          "right": "water",
+          "reviewFrom": "kanji-batch-08"
+        },
+        {
+          "left": "男",
+          "right": "man / male",
+          "reviewFrom": "kanji-batch-08"
+        },
+        {
+          "left": "校",
+          "right": "school",
+          "reviewFrom": "kanji-batch-08"
+        },
+        {
+          "left": "土",
+          "right": "earth / soil",
+          "reviewFrom": "kanji-batch-08"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each kanji to its meaning:",
+      "pairs": [
+        {
+          "left": "木",
+          "right": "tree / wood"
+        },
+        {
+          "left": "車",
+          "right": "car"
+        },
+        {
+          "left": "白",
+          "right": "white"
+        },
+        {
+          "left": "天",
+          "right": "heaven / sky"
+        },
+        {
+          "left": "火",
+          "right": "fire"
+        }
+      ]
+    }
+  ]
+}

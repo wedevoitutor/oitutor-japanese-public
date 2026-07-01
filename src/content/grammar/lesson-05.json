@@ -1,0 +1,763 @@
+{
+  "id": "grammar-lesson-05",
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "で — Where an Action Happens",
+      "intro": "Use で when an action is happening at a place. The place is the stage for doing, studying, eating, playing, or speaking.",
+      "rows": [
+        [
+          "Situation",
+          "Pattern",
+          "Example"
+        ],
+        [
+          "Location of action",
+          "[ばしょ]で [どうし]",
+          "カフェで べんきょうします"
+        ],
+        [
+          "Study somewhere",
+          "[ばしょ]で べんきょうします",
+          "としょかんで べんきょうします。"
+        ],
+        [
+          "Play somewhere",
+          "[ばしょ]で あそびます",
+          "こうえんで あそびます。"
+        ],
+        [
+          "Eat somewhere",
+          "[ばしょ]で たべます",
+          "レストランで たべます。"
+        ]
+      ],
+      "takeaway": "If something active is happening there, mark the place with で."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which particle marks the place where an action happens?",
+      "options": [
+        "で (de)",
+        "に (ni)",
+        "を (wo)",
+        "と (to)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I study at the library' using the action-location particle:",
+      "patternJp": [
+        "としょかん",
+        "[SLOT]",
+        " べんきょうします。"
+      ],
+      "patternRom": [
+        "toshokan ",
+        "[SLOT]",
+        " benkyou shimasu"
+      ],
+      "slot": {
+        "answer": "で",
+        "answerRomaji": "de",
+        "hint": "The particle for where an action happens.",
+        "acceptAlternatives": [
+          "De",
+          "デ"
+        ]
+      },
+      "translation": "I study at the library.",
+      "speakText": "としょかんで べんきょうします。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "に — Where Something Exists",
+      "intro": "Use に when something or someone simply exists in a place. With あります and います, the place is a static location, not the stage of an action.",
+      "rows": [
+        [
+          "Situation",
+          "Pattern",
+          "Example"
+        ],
+        [
+          "Animate existence",
+          "[ばしょ]に [ひと/どうぶつ]が います",
+          "カフェに ねこが います"
+        ],
+        [
+          "Inanimate existence",
+          "[ばしょ]に [もの]が あります",
+          "としょかんに ほんが あります"
+        ],
+        [
+          "Surface / container",
+          "[ばしょ]に あります",
+          "かべに ポスターが あります"
+        ],
+        [
+          "Town / area",
+          "[ばしょ]に [もの]が あります",
+          "この まちに コンビニが あります。"
+        ]
+      ],
+      "takeaway": "If the sentence means 'exists at/in/on', mark the place with に."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which particle fits existence with あります or います?",
+      "options": [
+        "で (de)",
+        "に (ni)",
+        "が (ga)",
+        "を (wo)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'There are books in the library' using the existence-location particle:",
+      "patternJp": [
+        "としょかん",
+        "[SLOT]",
+        " ほんが あります。"
+      ],
+      "patternRom": [
+        "toshokan ",
+        "[SLOT]",
+        " hon ga arimasu"
+      ],
+      "slot": {
+        "answer": "に",
+        "answerRomaji": "ni",
+        "hint": "The particle for where something exists.",
+        "acceptAlternatives": [
+          "Ni",
+          "ニ"
+        ]
+      },
+      "translation": "There are books in the library.",
+      "speakText": "としょかんに ほんが あります。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "で — Means, Tools, Language, Material",
+      "intro": "で also marks the means used to do something: a tool, vehicle, language, material, or reason. The shared idea is 'by means of' or 'using'.",
+      "rows": [
+        [
+          "Situation",
+          "Pattern",
+          "Example"
+        ],
+        [
+          "Means / tool",
+          "[どうぐ]で [どうし]",
+          "はしで たべます"
+        ],
+        [
+          "Transport",
+          "[のりもの]で いきます",
+          "でんしゃで いきます"
+        ],
+        [
+          "Material",
+          "[ざいりょう]で つくります",
+          "きで つくります"
+        ],
+        [
+          "Language",
+          "[ことば]で はなします",
+          "にほんごで はなします"
+        ],
+        [
+          "Reason / cause",
+          "[りゆう]で やすみます",
+          "びょうきで やすみます"
+        ]
+      ],
+      "takeaway": "Use で for the means: by train, with chopsticks, in Japanese, from paper, or because of a reason."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which particle fits 'by bus' in バス ___ がっこうに いきます?",
+      "options": [
+        "に (ni)",
+        "で (de)",
+        "を (wo)",
+        "が (ga)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I go by train' using the means particle:",
+      "patternJp": [
+        "でんしゃ",
+        "[SLOT]",
+        " いきます。"
+      ],
+      "patternRom": [
+        "densha ",
+        "[SLOT]",
+        " ikimasu"
+      ],
+      "slot": {
+        "answer": "で",
+        "answerRomaji": "de",
+        "hint": "The particle for means or transport.",
+        "acceptAlternatives": [
+          "De",
+          "デ"
+        ]
+      },
+      "translation": "I go by train.",
+      "speakText": "でんしゃで いきます。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Quick Decision: で or に",
+      "intro": "The fastest check is action versus existence. で marks active doing or means; に marks where something exists or where motion is directed.",
+      "rows": [
+        [
+          "Question",
+          "Choose",
+          "Example"
+        ],
+        [
+          "Is something happening there?",
+          "で",
+          "としょかんで べんきょうします"
+        ],
+        [
+          "Is something just there?",
+          "に",
+          "としょかんに ほんが あります"
+        ],
+        [
+          "How do you go?",
+          "で",
+          "バスで がっこうに いきます"
+        ],
+        [
+          "Where are you going to?",
+          "に",
+          "おおさかに いきます"
+        ],
+        [
+          "What scope is true?",
+          "で",
+          "せかいで いちばん おいしいです"
+        ]
+      ],
+      "takeaway": "Action or means takes で; existence or destination takes に."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which pair correctly matches the meaning?",
+      "options": [
+        "で = existence, に = means",
+        "で = action/means, に = existence/destination",
+        "で = subject, に = object",
+        "で = question, に = answer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I go to Osaka for work' by filling the reason/means particle:",
+      "patternJp": [
+        "しごと",
+        "[SLOT]",
+        " おおさかに いきます。"
+      ],
+      "patternRom": [
+        "shigoto ",
+        "[SLOT]",
+        " oosaka ni ikimasu"
+      ],
+      "slot": {
+        "answer": "で",
+        "answerRomaji": "de",
+        "hint": "The particle for cause, reason, or means.",
+        "acceptAlternatives": [
+          "De",
+          "デ"
+        ]
+      },
+      "translation": "I go to Osaka for work.",
+      "speakText": "しごとで おおさかに いきます。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence uses the right particle for an action at the library?",
+      "title": "Action → で, Existence → に",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "としょかんで べんきょうします。",
+          "romaji": "toshokan de benkyou shimasu.",
+          "en": "I study at the library.",
+          "note": "Studying is an action happening at the library, so use で.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "としょかんに べんきょうします。",
+          "romaji": "toshokan ni benkyou shimasu.",
+          "en": "(Intended: I study at the library.)",
+          "note": "に marks existence or destination, not the place where this action happens.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "としょかんに ほんが あります。",
+          "romaji": "toshokan ni hon ga arimasu.",
+          "en": "There are books in the library.",
+          "note": "This is grammatical, but it describes existence, not studying.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "としょかんを べんきょうします。",
+          "romaji": "toshokan o benkyou shimasu.",
+          "en": "(ungrammatical for this meaning)",
+          "note": "を marks a direct object; the library is the action location here.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use で for the place where an action happens; use に for where something exists.",
+      "speakText": "としょかんで べんきょうします。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence correctly says 'I go by train'?",
+      "title": "Transport uses で — except on foot",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "でんしゃで いきます。",
+          "romaji": "densha de ikimasu.",
+          "en": "I go by train.",
+          "note": "A vehicle is a means of transportation, so use で.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "でんしゃに いきます。",
+          "romaji": "densha ni ikimasu.",
+          "en": "(Intended: I go by train.)",
+          "note": "に would make the train sound like the destination.",
+          "correct": false
+        },
+        {
+          "label": "NATURAL",
+          "jp": "あるいて いきます。",
+          "romaji": "aruite ikimasu.",
+          "en": "I go on foot.",
+          "note": "This is natural, but it is the on-foot exception and does not use で.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "でんしゃを いきます。",
+          "romaji": "densha o ikimasu.",
+          "en": "(ungrammatical for this meaning)",
+          "note": "を does not mark a vehicle used as transportation here.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Vehicle + で means 'by vehicle'; on foot is あるいて, with no particle.",
+      "speakText": "でんしゃで いきます。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence correctly says 'I am at the library'?",
+      "title": "Common Trap — I am at the library",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "としょかんに います。",
+          "romaji": "toshokan ni imasu.",
+          "en": "I am at the library.",
+          "note": "います is existence, so the location takes に.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "としょかんで います。",
+          "romaji": "toshokan de imasu.",
+          "en": "(Intended: I am at the library.)",
+          "note": "で marks an action location; います is simply existing.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "としょかんで べんきょうします。",
+          "romaji": "toshokan de benkyou shimasu.",
+          "en": "I study at the library.",
+          "note": "This is grammatical, but it describes an action, not just being there.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "としょかんを います。",
+          "romaji": "toshokan o imasu.",
+          "en": "(ungrammatical)",
+          "note": "を cannot mark the place where someone exists.",
+          "correct": false
+        }
+      ],
+      "takeaway": "For 'I am at/in/on a place', use place + に + います.",
+      "speakText": "としょかんに います。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence uses で for the scope of a superlative?",
+      "title": "で for Scope — Best in the World",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "せかいで いちばん おいしいです。",
+          "romaji": "sekai de ichiban oishii desu.",
+          "en": "It is the most delicious in the world.",
+          "note": "で defines the scope within which the superlative is true.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "せかいに いちばん おいしいです。",
+          "romaji": "sekai ni ichiban oishii desu.",
+          "en": "(Intended: the most delicious in the world.)",
+          "note": "に marks existence or destination; it does not set the superlative scope here.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "さんにんで たべます。",
+          "romaji": "sannin de tabemasu.",
+          "en": "The three of us eat together.",
+          "note": "This is another valid use of で, but it marks group size, not superlative scope.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "せかいを いちばん おいしいです。",
+          "romaji": "sekai o ichiban oishii desu.",
+          "en": "(ungrammatical)",
+          "note": "を marks a direct object, not the scope of comparison.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use で to set the scope: within the world, class, town, or group.",
+      "speakText": "せかいで いちばん おいしいです。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Sentences in Context",
+      "intro": "These are the core examples from the lesson. Notice how で marks action, means, language, material, reason, and scope, while に marks existence or destination.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "English"
+        ],
+        [
+          "としょかんで べんきょうします。",
+          "toshokan de benkyou shimasu.",
+          "I study at the library."
+        ],
+        [
+          "バスで がっこうに いきます。",
+          "basu de gakkou ni ikimasu.",
+          "I go to school by bus."
+        ],
+        [
+          "にほんごで せつめいしてください。",
+          "nihongo de setsumei shite kudasai.",
+          "Please explain in Japanese."
+        ],
+        [
+          "かみで ひこうきを つくりました。",
+          "kami de hikouki o tsukurimashita.",
+          "I made a plane from paper."
+        ],
+        [
+          "しごとで おおさかに いきます。",
+          "shigoto de oosaka ni ikimasu.",
+          "I go to Osaka for work."
+        ],
+        [
+          "レストランで たべます。",
+          "resutoran de tabemasu.",
+          "I eat at a restaurant."
+        ],
+        [
+          "としょかんに ほんが あります。",
+          "toshokan ni hon ga arimasu.",
+          "There are books in the library."
+        ],
+        [
+          "この まちに コンビニが さんけん あります。",
+          "kono machi ni konbini ga sanken arimasu.",
+          "There are 3 convenience stores in this town."
+        ]
+      ],
+      "takeaway": "Ask whether the phrase shows action/means or existence/destination, then choose で or に."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "としょかんで べんきょうします。",
+      "options": [
+        "I study at the library.",
+        "There are books in the library.",
+        "I go to the library.",
+        "The library is closed."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "バスで がっこうに いきます。",
+      "options": [
+        "I walk to school.",
+        "The bus is at school.",
+        "I go to school by bus.",
+        "School is near the bus stop."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "としょかんに ほんが あります。",
+      "options": [
+        "I study books at the library.",
+        "There are books in the library.",
+        "I bought books at the library.",
+        "The library has no books."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "にほんごで はなします。",
+      "options": [
+        "I study Japanese.",
+        "I speak in Japanese.",
+        "I understand Japanese.",
+        "I write in Japanese."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "レストランで たべます。",
+      "options": [
+        "I eat alone.",
+        "I eat at a restaurant.",
+        "I cook at home.",
+        "I go to a restaurant."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "かみで ひこうきを つくりました。",
+      "options": [
+        "I drew a plane on paper.",
+        "I bought paper at the shop.",
+        "I flew a paper plane.",
+        "I made a plane from paper."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "この まちに コンビニが あります。",
+      "options": [
+        "There is a convenience store in this town.",
+        "I go to the convenience store in this town.",
+        "This convenience store is very big.",
+        "The town has no shops."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "でんしゃで いきます。",
+      "options": [
+        "The train is coming.",
+        "I go by bus.",
+        "I go by train.",
+        "I wait for the train."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "としょかんで べんきょうします",
+      "answer": "toshokan de benkyou shimasu",
+      "acceptAlternatives": [
+        "toshokan de benkyo shimasu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "としょかんに ほんが あります",
+      "answer": "toshokan ni hon ga arimasu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "バスで がっこうに いきます",
+      "answer": "basu de gakkou ni ikimasu",
+      "acceptAlternatives": [
+        "basu de gakko ni ikimasu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "にほんごで はなします",
+      "answer": "nihongo de hanashimasu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "かみで ひこうきを つくりました",
+      "answer": "kami de hikouki o tsukurimashita",
+      "acceptAlternatives": [
+        "kami de hikouki o tsukurimashita"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "しごとで おおさかに いきます",
+      "answer": "shigoto de oosaka ni ikimasu",
+      "acceptAlternatives": [
+        "shigoto de osaka ni ikimasu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "レストランで たべます",
+      "answer": "resutoran de tabemasu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning:",
+      "pairs": [
+        {
+          "left": "としょかん",
+          "right": "library"
+        },
+        {
+          "left": "カフェ",
+          "right": "cafe"
+        },
+        {
+          "left": "バス",
+          "right": "bus"
+        },
+        {
+          "left": "でんしゃ",
+          "right": "train"
+        },
+        {
+          "left": "にほんご",
+          "right": "Japanese language"
+        },
+        {
+          "left": "かみ",
+          "right": "paper"
+        },
+        {
+          "left": "しごと",
+          "right": "work / job"
+        },
+        {
+          "left": "まち",
+          "right": "town"
+        },
+        {
+          "left": "コンビニ",
+          "right": "convenience store"
+        },
+        {
+          "left": "せかい",
+          "right": "world"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice — で and に",
+      "cards": [
+        {
+          "jp": "としょかんで べんきょうします。",
+          "romaji": "toshokan de benkyou shimasu.",
+          "en": "I study at the library."
+        },
+        {
+          "jp": "としょかんに ほんが あります。",
+          "romaji": "toshokan ni hon ga arimasu.",
+          "en": "There are books in the library."
+        },
+        {
+          "jp": "バスで がっこうに いきます。",
+          "romaji": "basu de gakkou ni ikimasu.",
+          "en": "I go to school by bus."
+        },
+        {
+          "jp": "にほんごで せつめいしてください。",
+          "romaji": "nihongo de setsumei shite kudasai.",
+          "en": "Please explain in Japanese."
+        },
+        {
+          "jp": "かみで ひこうきを つくりました。",
+          "romaji": "kami de hikouki o tsukurimashita.",
+          "en": "I made a plane from paper."
+        },
+        {
+          "jp": "しごとで おおさかに いきます。",
+          "romaji": "shigoto de oosaka ni ikimasu.",
+          "en": "I go to Osaka for work."
+        },
+        {
+          "jp": "レストランで たべます。",
+          "romaji": "resutoran de tabemasu.",
+          "en": "I eat at a restaurant."
+        },
+        {
+          "jp": "この まちに コンビニが さんけん あります。",
+          "romaji": "kono machi ni konbini ga sanken arimasu.",
+          "en": "There are 3 convenience stores in this town."
+        },
+        {
+          "jp": "せかいで いちばん おいしいです。",
+          "romaji": "sekai de ichiban oishii desu.",
+          "en": "It is the most delicious in the world."
+        },
+        {
+          "jp": "でんしゃで いきます。",
+          "romaji": "densha de ikimasu.",
+          "en": "I go by train."
+        }
+      ]
+    }
+  ]
+}

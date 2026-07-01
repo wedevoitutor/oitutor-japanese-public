@@ -1,0 +1,1289 @@
+{
+  "id": "dialogues-lesson-22",
+  "misconceptions": [
+    {
+      "target": "my-job-studies-single-word-answer",
+      "error": "Answers with isolated vocabulary instead of a complete conversational turn.",
+      "mitigation": "Reference rows and response-selection drills keep prompts and natural replies together."
+    },
+    {
+      "target": "my-job-studies-register-mismatch",
+      "error": "Uses casual language with teachers, staff, or strangers.",
+      "mitigation": "Formal, casual, and slang scenes are separated and labeled."
+    },
+    {
+      "target": "my-job-studies-listening-drift",
+      "error": "Chooses a familiar phrase that does not match the audio.",
+      "mitigation": "Listening MC and type-the-answer reuse the exact dialogue speakText."
+    },
+    {
+      "target": "my-job-studies-particle-confusion",
+      "error": "Confuses は, へ, or を in written Japanese source phrases.",
+      "mitigation": "Formula-fill keeps the Japanese particles visible and accepts romaji as support."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "My Job / Studies - Formal · Casual · Slang",
+      "intro": "Practice my job / studies as prompt-and-response dialogue, not as loose vocabulary.",
+      "rows": [
+        [
+          "Register",
+          "Japanese",
+          "Romaji",
+          "Typical Response",
+          "Context"
+        ],
+        [
+          "FORMAL",
+          "おしごとは なんですか？",
+          "oshigotoha nandesuka?",
+          "エンジニアです。ソフトを つくっています。",
+          "I am an engineer. I make software."
+        ],
+        [
+          "FORMAL",
+          "エンジニアです。ソフトを つくっています。",
+          "enjiniadesu.sofutowo tsukutteimasu.",
+          "そうです。ありがとうございます。",
+          "That is right. Thank you."
+        ],
+        [
+          "CASUAL",
+          "なにを べんきょうしてるの？",
+          "naniwo benkyoushiteruno?",
+          "だいがくで にほんごを べんきょうしてるよ。",
+          "I study Japanese at university."
+        ],
+        [
+          "CASUAL",
+          "だいがくで にほんごを べんきょうしてるよ。",
+          "daigakude nihongowo benkyoushiteruyo.",
+          "いいね。あとで かくにんしよう。",
+          "Nice. Let us check later."
+        ],
+        [
+          "SLANG",
+          "バイト、どう？",
+          "baito,dou?",
+          "けっこう いそがしい。でも たのしい。",
+          "Pretty busy, but fun."
+        ],
+        [
+          "SLANG",
+          "けっこう いそがしい。でも たのしい。",
+          "kekkou isogashii.demo tanoshii.",
+          "まじか。いいじゃん。",
+          "Really? Nice."
+        ]
+      ],
+      "takeaway": "First choose the right meaning, then choose the right relationship tone."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "A - FORMAL · My Job / Studies",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "先生",
+          "jp": "おしごとは なんですか？",
+          "romaji": "oshigotoha nandesuka?",
+          "en": "What is your job?"
+        },
+        {
+          "speaker": "学生",
+          "jp": "エンジニアです。ソフトを つくっています。",
+          "romaji": "enjiniadesu.sofutowo tsukutteimasu.",
+          "en": "I am an engineer. I make software."
+        },
+        {
+          "speaker": "先生",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "B - CASUAL · My Job / Studies",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "ゆい",
+          "jp": "なにを べんきょうしてるの？",
+          "romaji": "naniwo benkyoushiteruno?",
+          "en": "What are you studying?"
+        },
+        {
+          "speaker": "たく",
+          "jp": "だいがくで にほんごを べんきょうしてるよ。",
+          "romaji": "daigakude nihongowo benkyoushiteruyo.",
+          "en": "I study Japanese at university."
+        },
+        {
+          "speaker": "ゆい",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "C - SLANG · My Job / Studies",
+      "register": "slang",
+      "lines": [
+        {
+          "speaker": "りく",
+          "jp": "バイト、どう？",
+          "romaji": "baito,dou?",
+          "en": "How is your part-time job?"
+        },
+        {
+          "speaker": "まい",
+          "jp": "けっこう いそがしい。でも たのしい。",
+          "romaji": "kekkou isogashii.demo tanoshii.",
+          "en": "Pretty busy, but fun."
+        },
+        {
+          "speaker": "りく",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 1: おしごとは なんですか？",
+      "prompt": "Which source phrase means: “What is your job?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "おしごとは なんですか？",
+          "romaji": "oshigotoha nandesuka?",
+          "en": "What is your job?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "おしごとは なんですか？"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 2: エンジニアです。ソフトを つくっています。",
+      "prompt": "Which source phrase means: “I am an engineer. I make software.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "エンジニアです。ソフトを つくっています。",
+          "romaji": "enjiniadesu.sofutowo tsukutteimasu.",
+          "en": "I am an engineer. I make software.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "バイト、どう？",
+          "romaji": "baito,dou?",
+          "en": "How is your part-time job?",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "かいしゃいんです",
+          "romaji": "kaishaindesu",
+          "en": "I am a company employee",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "エンジニアです。ソフトを つくっています。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 3: そうです。ありがとうございます。",
+      "prompt": "Which source phrase means: “That is right. Thank you.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "けっこう いそがしい。でも たのしい。",
+          "romaji": "kekkou isogashii.demo tanoshii.",
+          "en": "Pretty busy, but fun.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "がくせいです",
+          "romaji": "gakuseidesu",
+          "en": "I am a student",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "そうです。ありがとうございます。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 4: なにを べんきょうしてるの？",
+      "prompt": "Which source phrase means: “What are you studying?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "なにを べんきょうしてるの？",
+          "romaji": "naniwo benkyoushiteruno?",
+          "en": "What are you studying?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "せんせいです",
+          "romaji": "senseidesu",
+          "en": "I am a teacher",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "なにを べんきょうしてるの？"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "おしごとは なんですか",
+        "answerRomaji": "oshigotoha nandesuka?",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "oshigotohanandesuka?"
+        ]
+      },
+      "translation": "What is your job?",
+      "speakText": "おしごとは なんですか？",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "エンジニアです。ソフトを つくっています",
+        "answerRomaji": "enjiniadesu.sofutowo tsukutteimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "enjiniadesu.sofutowotsukutteimasu."
+        ]
+      },
+      "translation": "I am an engineer. I make software.",
+      "speakText": "エンジニアです。ソフトを つくっています。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "そうです。ありがとうございます",
+        "answerRomaji": "soudesu.arigatougozaimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "soudesu.arigatougozaimasu."
+        ]
+      },
+      "translation": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "おしごとは なんですか？",
+          "romaji": "oshigotoha nandesuka?",
+          "en": "What is your job?"
+        },
+        {
+          "jp": "エンジニアです。ソフトを つくっています。",
+          "romaji": "enjiniadesu.sofutowo tsukutteimasu.",
+          "en": "I am an engineer. I make software."
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "なにを べんきょうしてるの？",
+          "romaji": "naniwo benkyoushiteruno?",
+          "en": "What are you studying?"
+        },
+        {
+          "jp": "だいがくで にほんごを べんきょうしてるよ。",
+          "romaji": "daigakude nihongowo benkyoushiteruyo.",
+          "en": "I study Japanese at university."
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "バイト、どう？",
+          "romaji": "baito,dou?",
+          "en": "How is your part-time job?"
+        },
+        {
+          "jp": "けっこう いそがしい。でも たのしい。",
+          "romaji": "kekkou isogashii.demo tanoshii.",
+          "en": "Pretty busy, but fun."
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "かいしゃいんです",
+          "romaji": "kaishaindesu",
+          "en": "I am a company employee"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "おしごとは なんですか？",
+      "options": [
+        {
+          "text": "What is your job?",
+          "correct": true
+        },
+        {
+          "text": "What are you studying?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "How is your part-time job?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "I am a company employee",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "エンジニアです。ソフトを つくっています。",
+      "options": [
+        {
+          "text": "I am an engineer. I make software.",
+          "correct": true
+        },
+        {
+          "text": "I study Japanese at university.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Pretty busy, but fun.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "I am a student",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "そうです。ありがとうございます。",
+      "options": [
+        {
+          "text": "That is right. Thank you.",
+          "correct": true
+        },
+        {
+          "text": "Nice. Let us check later.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "I am a teacher",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "なにを べんきょうしてるの？",
+      "options": [
+        {
+          "text": "What are you studying?",
+          "correct": true
+        },
+        {
+          "text": "How is your part-time job?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "I am a company employee",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "I study at university",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "だいがくで にほんごを べんきょうしてるよ。",
+      "options": [
+        {
+          "text": "I study Japanese at university.",
+          "correct": true
+        },
+        {
+          "text": "Pretty busy, but fun.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "I am a student",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "I have a part-time job",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "options": [
+        {
+          "text": "Nice. Let us check later.",
+          "correct": true
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "I am a teacher",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "work is busy",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "バイト、どう？",
+      "options": [
+        {
+          "text": "How is your part-time job?",
+          "correct": true
+        },
+        {
+          "text": "I am a company employee",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "I study at university",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "What is your job?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "けっこう いそがしい。でも たのしい。",
+      "options": [
+        {
+          "text": "Pretty busy, but fun.",
+          "correct": true
+        },
+        {
+          "text": "I am a student",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "I have a part-time job",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "I am an engineer. I make software.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "おしごとは なんですか？",
+        "romaji": "oshigotoha nandesuka?",
+        "speakText": "おしごとは なんですか？"
+      },
+      "options": [
+        {
+          "jp": "エンジニアです。ソフトを つくっています。",
+          "romaji": "enjiniadesu.sofutowo tsukutteimasu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "だいがくで にほんごを べんきょうしてるよ。",
+          "romaji": "daigakude nihongowo benkyoushiteruyo.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "けっこう いそがしい。でも たのしい。",
+          "romaji": "kekkou isogashii.demo tanoshii.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "エンジニアです。ソフトを つくっています。",
+        "romaji": "enjiniadesu.sofutowo tsukutteimasu.",
+        "speakText": "エンジニアです。ソフトを つくっています。"
+      },
+      "options": [
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "なにを べんきょうしてるの？",
+        "romaji": "naniwo benkyoushiteruno?",
+        "speakText": "なにを べんきょうしてるの？"
+      },
+      "options": [
+        {
+          "jp": "だいがくで にほんごを べんきょうしてるよ。",
+          "romaji": "daigakude nihongowo benkyoushiteruyo.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "バイト、どう？",
+          "romaji": "baito,dou?",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "かいしゃいんです",
+          "romaji": "kaishaindesu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "だいがくで にほんごを べんきょうしてるよ。",
+        "romaji": "daigakude nihongowo benkyoushiteruyo.",
+        "speakText": "だいがくで にほんごを べんきょうしてるよ。"
+      },
+      "options": [
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "けっこう いそがしい。でも たのしい。",
+          "romaji": "kekkou isogashii.demo tanoshii.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "がくせいです",
+          "romaji": "gakuseidesu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "バイト、どう？",
+        "romaji": "baito,dou?",
+        "speakText": "バイト、どう？"
+      },
+      "options": [
+        {
+          "jp": "けっこう いそがしい。でも たのしい。",
+          "romaji": "kekkou isogashii.demo tanoshii.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "せんせいです",
+          "romaji": "senseidesu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "けっこう いそがしい。でも たのしい。",
+        "romaji": "kekkou isogashii.demo tanoshii.",
+        "speakText": "けっこう いそがしい。でも たのしい。"
+      },
+      "options": [
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "かいしゃいんです",
+          "romaji": "kaishaindesu",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "だいがくで べんきょうしています",
+          "romaji": "daigakude benkyoushiteimasu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "おしごとは なんですか？",
+      "answer": "oshigotoha nandesuka?",
+      "acceptAlternatives": [
+        "oshigotohanandesuka?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "エンジニアです。ソフトを つくっています。",
+      "answer": "enjiniadesu.sofutowo tsukutteimasu.",
+      "acceptAlternatives": [
+        "enjiniadesu.sofutowotsukutteimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "そうです。ありがとうございます。",
+      "answer": "soudesu.arigatougozaimasu.",
+      "acceptAlternatives": [
+        "soudesu.arigatougozaimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "なにを べんきょうしてるの？",
+      "answer": "naniwo benkyoushiteruno?",
+      "acceptAlternatives": [
+        "naniwobenkyoushiteruno?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "だいがくで にほんごを べんきょうしてるよ。",
+      "answer": "daigakude nihongowo benkyoushiteruyo.",
+      "acceptAlternatives": [
+        "daigakudenihongowobenkyoushiteruyo."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "answer": "iine.atode kakuninshiyou.",
+      "acceptAlternatives": [
+        "iine.atodekakuninshiyou."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "バイト、どう？",
+      "answer": "baito,dou?",
+      "acceptAlternatives": [
+        "baito,dou?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "けっこう いそがしい。でも たのしい。",
+      "answer": "kekkou isogashii.demo tanoshii.",
+      "acceptAlternatives": [
+        "kekkouisogashii.demotanoshii."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "おしごとは なんですか？",
+      "romaji": "oshigotoha nandesuka?",
+      "en": "What is your job?",
+      "speakText": "おしごとは なんですか？",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · My Job / Studies",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "エンジニアです。ソフトを つくっています。",
+      "romaji": "enjiniadesu.sofutowo tsukutteimasu.",
+      "en": "I am an engineer. I make software.",
+      "speakText": "エンジニアです。ソフトを つくっています。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · My Job / Studies",
+      "speaker": "学生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "そうです。ありがとうございます。",
+      "romaji": "soudesu.arigatougozaimasu.",
+      "en": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · My Job / Studies",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "なにを べんきょうしてるの？",
+      "romaji": "naniwo benkyoushiteruno?",
+      "en": "What are you studying?",
+      "speakText": "なにを べんきょうしてるの？",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · My Job / Studies",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "だいがくで にほんごを べんきょうしてるよ。",
+      "romaji": "daigakude nihongowo benkyoushiteruyo.",
+      "en": "I study Japanese at university.",
+      "speakText": "だいがくで にほんごを べんきょうしてるよ。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · My Job / Studies",
+      "speaker": "たく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いいね。あとで かくにんしよう。",
+      "romaji": "iine.atode kakuninshiyou.",
+      "en": "Nice. Let us check later.",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · My Job / Studies",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "バイト、どう？",
+      "romaji": "baito,dou?",
+      "en": "How is your part-time job?",
+      "speakText": "バイト、どう？",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · My Job / Studies",
+      "speaker": "りく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "けっこう いそがしい。でも たのしい。",
+      "romaji": "kekkou isogashii.demo tanoshii.",
+      "en": "Pretty busy, but fun.",
+      "speakText": "けっこう いそがしい。でも たのしい。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · My Job / Studies",
+      "speaker": "まい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "まじか。いいじゃん。",
+      "romaji": "majika.iijan.",
+      "en": "Really? Nice.",
+      "speakText": "まじか。いいじゃん。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · My Job / Studies",
+      "speaker": "りく"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "おしごとは なんですか？",
+          "right": "What is your job?"
+        },
+        {
+          "left": "エンジニアです。ソフトを つくっています。",
+          "right": "I am an engineer. I make software."
+        },
+        {
+          "left": "そうです。ありがとうございます。",
+          "right": "That is right. Thank you."
+        },
+        {
+          "left": "なにを べんきょうしてるの？",
+          "right": "What are you studying?"
+        },
+        {
+          "left": "だいがくで にほんごを べんきょうしてるよ。",
+          "right": "I study Japanese at university."
+        },
+        {
+          "left": "いいね。あとで かくにんしよう。",
+          "right": "Nice. Let us check later."
+        },
+        {
+          "left": "バイト、どう？",
+          "right": "How is your part-time job?"
+        },
+        {
+          "left": "けっこう いそがしい。でも たのしい。",
+          "right": "Pretty busy, but fun."
+        },
+        {
+          "left": "まじか。いいじゃん。",
+          "right": "Really? Nice."
+        },
+        {
+          "left": "かいしゃいんです",
+          "right": "I am a company employee"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "おしごとは なんですか？",
+          "romaji": "oshigotoha nandesuka?",
+          "en": "What is your job?"
+        },
+        {
+          "jp": "エンジニアです。ソフトを つくっています。",
+          "romaji": "enjiniadesu.sofutowo tsukutteimasu.",
+          "en": "I am an engineer. I make software.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "なにを べんきょうしてるの？",
+          "romaji": "naniwo benkyoushiteruno?",
+          "en": "What are you studying?"
+        },
+        {
+          "jp": "だいがくで にほんごを べんきょうしてるよ。",
+          "romaji": "daigakude nihongowo benkyoushiteruyo.",
+          "en": "I study Japanese at university.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "バイト、どう？",
+          "romaji": "baito,dou?",
+          "en": "How is your part-time job?"
+        },
+        {
+          "jp": "けっこう いそがしい。でも たのしい。",
+          "romaji": "kekkou isogashii.demo tanoshii.",
+          "en": "Pretty busy, but fun.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "かいしゃいんです",
+          "romaji": "kaishaindesu",
+          "en": "I am a company employee"
+        }
+      ]
+    }
+  ]
+}

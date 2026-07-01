@@ -1,0 +1,853 @@
+{
+  "id": "grammar-lesson-09",
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Group 1 Verbs — Final Kana Shifts",
+      "intro": "Group 1 verbs end in an u-row kana. To make the polite ます-form, change that final kana to the matching i-row kana and add ます.",
+      "rows": [
+        [
+          "Dictionary Form",
+          "ます-Form",
+          "Meaning"
+        ],
+        [
+          "かく",
+          "かきます / kakimasu",
+          "to write"
+        ],
+        [
+          "はなす",
+          "はなします / hanashimasu",
+          "to speak"
+        ],
+        [
+          "まつ",
+          "まちます / machimasu",
+          "to wait"
+        ],
+        [
+          "のむ",
+          "のみます / nomimasu",
+          "to drink"
+        ],
+        [
+          "あそぶ",
+          "あそびます / asobimasu",
+          "to play"
+        ],
+        [
+          "かう",
+          "かいます / kaimasu",
+          "to buy"
+        ]
+      ],
+      "takeaway": "For Group 1, shift the final u-row kana to i-row, then add ます."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which polite form correctly comes from the Group 1 verb のむ?",
+      "options": [
+        "のみます",
+        "のむます",
+        "のめます",
+        "のります"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I wrote a letter' using the past polite form of 'write':",
+      "patternJp": [
+        "てがみを ",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "tegami o ",
+        "[SLOT]"
+      ],
+      "slot": {
+        "answer": "かきました",
+        "answerRomaji": "kakimashita",
+        "hint": "The past polite form of the Group 1 verb meaning 'to write'.",
+        "acceptAlternatives": [
+          "Kakimashita"
+        ]
+      },
+      "translation": "I wrote a letter.",
+      "speakText": "てがみを かきました。"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Invite someone for coffee using the polite negative question form:",
+      "patternJp": [
+        "コーヒーを ",
+        "[SLOT]",
+        "か。"
+      ],
+      "patternRom": [
+        "koohii o ",
+        "[SLOT]",
+        " ka"
+      ],
+      "slot": {
+        "answer": "のみません",
+        "answerRomaji": "nomimasen",
+        "hint": "The present negative polite form of the Group 1 verb meaning 'to drink'.",
+        "acceptAlternatives": [
+          "Nomimasen"
+        ]
+      },
+      "translation": "Would you like to drink coffee?",
+      "speakText": "コーヒーを のみませんか。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Group 2 Verbs — Drop る",
+      "intro": "Group 2 verbs usually end in いる or える. Their ます-form is shorter than Group 1: drop る and add ます.",
+      "rows": [
+        [
+          "Dictionary Form",
+          "ます-Form",
+          "Meaning"
+        ],
+        [
+          "たべる",
+          "たべます / tabemasu",
+          "to eat"
+        ],
+        [
+          "みる",
+          "みます / mimasu",
+          "to see / to watch"
+        ],
+        [
+          "おきる",
+          "おきます / okimasu",
+          "to wake up"
+        ],
+        [
+          "ねる",
+          "ねます / nemasu",
+          "to sleep"
+        ]
+      ],
+      "takeaway": "For Group 2, drop る and add ます."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which polite form correctly comes from the Group 2 verb たべる?",
+      "options": [
+        "たべります",
+        "たべます",
+        "たびます",
+        "たべるます"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I wake up at 6 every morning' using the polite form of 'wake up':",
+      "patternJp": [
+        "まいあさ ろくじに ",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "maiasa roku-ji ni ",
+        "[SLOT]"
+      ],
+      "slot": {
+        "answer": "おきます",
+        "answerRomaji": "okimasu",
+        "hint": "The polite form of the Group 2 verb meaning 'to wake up'.",
+        "acceptAlternatives": [
+          "Okimasu"
+        ]
+      },
+      "translation": "I wake up at 6 every morning.",
+      "speakText": "まいあさ ろくじに おきます。"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I watched a movie yesterday' using the past polite form of 'watch':",
+      "patternJp": [
+        "きのう えいがを ",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "kinou eiga o ",
+        "[SLOT]"
+      ],
+      "slot": {
+        "answer": "みました",
+        "answerRomaji": "mimashita",
+        "hint": "The past polite form of the Group 2 verb meaning 'to see or watch'.",
+        "acceptAlternatives": [
+          "Mimashita"
+        ]
+      },
+      "translation": "I watched a movie yesterday.",
+      "speakText": "きのう えいがを みました。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Group 3 Verbs — Irregular",
+      "intro": "Group 3 has only the irregular verbs する and くる. Many noun + する verbs work by changing only the する part.",
+      "rows": [
+        [
+          "Dictionary Form",
+          "ます-Form",
+          "Meaning"
+        ],
+        [
+          "する",
+          "します / shimasu",
+          "to do"
+        ],
+        [
+          "くる",
+          "きます / kimasu",
+          "to come"
+        ],
+        [
+          "べんきょうする",
+          "べんきょうします / benkyou shimasu",
+          "to study"
+        ],
+        [
+          "うんどうする",
+          "うんどうします / undou shimasu",
+          "to exercise"
+        ],
+        [
+          "りょこうする",
+          "りょこうします / ryokou shimasu",
+          "to travel"
+        ],
+        [
+          "そうじする",
+          "そうじします / souji shimasu",
+          "to clean"
+        ]
+      ],
+      "takeaway": "Memorise する → します and くる → きます; noun + する keeps the noun unchanged."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which polite form correctly comes from the irregular verb くる?",
+      "options": [
+        "くります",
+        "きます",
+        "こます",
+        "きります"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I study Japanese' using the する compound verb:",
+      "patternJp": [
+        "にほんごを べんきょう",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "nihongo o benkyou",
+        "[SLOT]"
+      ],
+      "slot": {
+        "answer": "します",
+        "answerRomaji": "shimasu",
+        "hint": "The polite form of the irregular verb meaning 'to do'.",
+        "acceptAlternatives": [
+          "Shimasu"
+        ]
+      },
+      "translation": "I study Japanese.",
+      "speakText": "にほんごを べんきょうします。"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'A friend is coming' using the irregular polite form:",
+      "patternJp": [
+        "ともだちが ",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "tomodachi ga ",
+        "[SLOT]"
+      ],
+      "slot": {
+        "answer": "きます",
+        "answerRomaji": "kimasu",
+        "hint": "The polite form of the irregular verb meaning 'to come'.",
+        "acceptAlternatives": [
+          "Kimasu"
+        ]
+      },
+      "translation": "A friend is coming.",
+      "speakText": "ともだちが きます。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "ます-Form Conjugation",
+      "intro": "Once you have the ます-form, polite present, negative, past, and past negative endings follow a regular pattern. The same endings attach after the ます-stem.",
+      "rows": [
+        [
+          "Form",
+          "たべる (Group 2)",
+          "かく (Group 1)"
+        ],
+        [
+          "Present affirmative",
+          "たべます / tabemasu",
+          "かきます / kakimasu"
+        ],
+        [
+          "Present negative",
+          "たべません / tabemasen",
+          "かきません / kakimasen"
+        ],
+        [
+          "Past affirmative",
+          "たべました / tabemashita",
+          "かきました / kakimashita"
+        ],
+        [
+          "Past negative",
+          "たべませんでした / tabemasen deshita",
+          "かきませんでした / kakimasen deshita"
+        ]
+      ],
+      "takeaway": "After the ます-stem, use ます, ません, ました, or ませんでした."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which ending means polite past negative?",
+      "options": [
+        "ます",
+        "ません",
+        "ました",
+        "ませんでした"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I did not go to school yesterday' using polite past negative:",
+      "patternJp": [
+        "きのう がっこうに ",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "kinou gakkou ni ",
+        "[SLOT]"
+      ],
+      "slot": {
+        "answer": "いきませんでした",
+        "answerRomaji": "ikimasen deshita",
+        "hint": "The past negative polite form of the verb meaning 'to go'.",
+        "acceptAlternatives": [
+          "Ikimasen deshita",
+          "ikimasendeshita"
+        ]
+      },
+      "translation": "I didn't go to school yesterday.",
+      "speakText": "きのう がっこうに いきませんでした。"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'Let's eat together' using the polite suggestion form:",
+      "patternJp": [
+        "いっしょに ",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "issho ni ",
+        "[SLOT]"
+      ],
+      "slot": {
+        "answer": "たべましょう",
+        "answerRomaji": "tabemashou",
+        "hint": "The polite suggestion form of the Group 2 verb meaning 'to eat'.",
+        "acceptAlternatives": [
+          "Tabemashou"
+        ]
+      },
+      "translation": "Let's eat together.",
+      "speakText": "いっしょに たべましょう。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which conversion correctly uses the Group 2 shortcut?",
+      "title": "Group 2 shortcut",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "たべる → たべます",
+          "romaji": "taberu → tabemasu.",
+          "en": "to eat → eats (polite)",
+          "note": "The vowel before る is e, so this is Group 2: drop る and add ます.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "たべる → たべります",
+          "romaji": "taberu → taberimasu.",
+          "en": "over-applied Group 1 pattern",
+          "note": "Group 2 does not shift to り; it simply drops る.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "かえる → かえります",
+          "romaji": "kaeru → kaerimasu.",
+          "en": "to return → returns (polite)",
+          "note": "This is correct Japanese, but かえる is a tricky Group 1 verb, not the Group 2 shortcut.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "かえる → かえます",
+          "romaji": "kaeru → kaemasu.",
+          "en": "wrong for 'to return'",
+          "note": "かえる meaning 'to return' is Group 1, so it becomes かえります.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Group 2 usually drops る, but memorise the tricky Group 1 verbs that look similar.",
+      "speakText": "たべる、たべます。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which conversion correctly applies the Group 1 ます rule?",
+      "title": "Group 1 ます rule",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "のむ → のみます",
+          "romaji": "nomu → nomimasu.",
+          "en": "to drink → drinks (polite)",
+          "note": "む shifts to み, then ます is added.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "のむ → のむます",
+          "romaji": "nomu → nomumasu.",
+          "en": "leaving the u-row kana unchanged",
+          "note": "Never attach ます directly to a Group 1 dictionary form.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "のむ → のめます",
+          "romaji": "nomu → nomemasu.",
+          "en": "wrong stem for this lesson",
+          "note": "The ます-form uses the i-row, not the e-row.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "まつ → まちます",
+          "romaji": "matsu → machimasu.",
+          "en": "to wait → waits (polite)",
+          "note": "This is also Group 1, but it is not the verb in the prompt.",
+          "correct": false
+        }
+      ],
+      "takeaway": "For Group 1, change only the final kana to its i-row equivalent before adding ます.",
+      "speakText": "のむ、のみます。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence is a polite invitation to eat together?",
+      "title": "～ませんか — polite invitation",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "いっしょに たべませんか。",
+          "romaji": "issho ni tabemasen ka.",
+          "en": "Shall we eat together?",
+          "note": "～ませんか makes a soft, polite invitation.",
+          "correct": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "コーヒーを のみませんか。",
+          "romaji": "koohii o nomimasen ka.",
+          "en": "Would you like to drink coffee?",
+          "note": "This is the same invitation pattern, but it invites someone for coffee, not eating together.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "いっしょに たべましょう。",
+          "romaji": "issho ni tabemashou.",
+          "en": "Let's eat together.",
+          "note": "～ましょう is a direct suggestion, while the prompt asks for the softer ～ませんか invitation.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "いっしょに たべますか。",
+          "romaji": "issho ni tabemasu ka.",
+          "en": "Do you eat together?",
+          "note": "This is a question with ますか, not the polite invitation pattern.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use ～ませんか for a soft invitation; ～ましょう is a stronger 'let's'.",
+      "speakText": "いっしょに たべませんか。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence correctly uses an irregular する compound?",
+      "title": "Irregular verbs: する→します, くる→きます",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "べんきょうします。",
+          "romaji": "benkyou shimasu.",
+          "en": "I study.",
+          "note": "Noun + する becomes a verb, and する changes to します.",
+          "correct": true
+        },
+        {
+          "label": "WRONG",
+          "jp": "べんきょうするます。",
+          "romaji": "benkyou surumasu.",
+          "en": "wrong する conjugation",
+          "note": "Do not attach ます directly to する; use します.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "きます。",
+          "romaji": "kimasu.",
+          "en": "comes",
+          "note": "This is the correct polite form of くる, but it is not a する compound.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "きります。",
+          "romaji": "kirimasu.",
+          "en": "cuts",
+          "note": "きります comes from きる 'to cut', not くる 'to come'.",
+          "correct": false
+        }
+      ],
+      "takeaway": "する becomes します in compounds; くる becomes きます, which is different from きります.",
+      "speakText": "べんきょうします。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Verb Groups & ます-Form in Context",
+      "intro": "These are the core sentence patterns from the lesson in context. Listen for the verb ending and connect it back to the verb group.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "English"
+        ],
+        [
+          "まいあさ ろくじに おきます。",
+          "maiasa roku-ji ni okimasu.",
+          "I wake up at 6 every morning."
+        ],
+        [
+          "にほんごを べんきょうします。",
+          "nihongo o benkyou shimasu.",
+          "I study Japanese."
+        ],
+        [
+          "コーヒーを のみませんか。",
+          "koohii o nomimasen ka.",
+          "Would you like to drink coffee?"
+        ],
+        [
+          "しゅうまつ なにを しますか。",
+          "shuumatsu nani o shimasu ka.",
+          "What will you do on the weekend?"
+        ],
+        [
+          "きのう えいがを みました。",
+          "kinou eiga o mimashita.",
+          "I watched a movie yesterday."
+        ],
+        [
+          "きのう がっこうに いきませんでした。",
+          "kinou gakkou ni ikimasen deshita.",
+          "I didn't go to school yesterday."
+        ],
+        [
+          "てがみを かきました。",
+          "tegami o kakimashita.",
+          "I wrote a letter."
+        ],
+        [
+          "ともだちが きます。",
+          "tomodachi ga kimasu.",
+          "A friend is coming."
+        ]
+      ],
+      "takeaway": "Identify the verb group first, then read the ます ending for tense and polarity."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "まいあさ ろくじに おきます。",
+      "options": [
+        "I wake up at 6 every morning.",
+        "I sleep until 6.",
+        "I arrived at 6.",
+        "I left at 6 in the morning."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "にほんごを べんきょうします。",
+      "options": [
+        "I speak Japanese.",
+        "I like Japanese.",
+        "I study Japanese.",
+        "I teach Japanese."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "きのう えいがを みました。",
+      "options": [
+        "I want to watch a movie.",
+        "I watched a movie yesterday.",
+        "I didn't watch a movie.",
+        "I will watch a movie tomorrow."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "コーヒーを のみませんか。",
+      "options": [
+        "I don't drink coffee.",
+        "Did you drink coffee?",
+        "I want some coffee.",
+        "Would you like to drink coffee?"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ともだちが きます。",
+      "options": [
+        "A friend left.",
+        "A friend is coming.",
+        "I am going to a friend's place.",
+        "My friend called."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "てがみを かきました。",
+      "options": [
+        "I read a letter.",
+        "I received a letter.",
+        "I wrote a letter.",
+        "I sent a letter."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "しゅうまつ なにを しますか。",
+      "options": [
+        "What did you do on the weekend?",
+        "Do you like the weekend?",
+        "What will you do on the weekend?",
+        "Where are you going this weekend?"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "きのう がっこうに いきませんでした。",
+      "options": [
+        "I go to school every day.",
+        "I didn't go to school yesterday.",
+        "I went to school this morning.",
+        "I can't go to school."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "おきます",
+      "answer": "okimasu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "たべました",
+      "answer": "tabemashita",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "のみません",
+      "answer": "nomimasen",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "します",
+      "answer": "shimasu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "きます",
+      "answer": "kimasu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "かきました",
+      "answer": "kakimashita",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "いきませんでした",
+      "answer": "ikimasen deshita",
+      "acceptAlternatives": [
+        "ikimasendeshita"
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each verb to its meaning:",
+      "pairs": [
+        {
+          "left": "かく",
+          "right": "to write (G1)"
+        },
+        {
+          "left": "はなす",
+          "right": "to speak (G1)"
+        },
+        {
+          "left": "まつ",
+          "right": "to wait (G1)"
+        },
+        {
+          "left": "のむ",
+          "right": "to drink (G1)"
+        },
+        {
+          "left": "あそぶ",
+          "right": "to play (G1)"
+        },
+        {
+          "left": "かう",
+          "right": "to buy (G1)"
+        },
+        {
+          "left": "たべる",
+          "right": "to eat (G2)"
+        },
+        {
+          "left": "みる",
+          "right": "to see / watch (G2)"
+        },
+        {
+          "left": "する",
+          "right": "to do (G3 irregular)"
+        },
+        {
+          "left": "くる",
+          "right": "to come (G3 irregular)"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice — verb groups and ます-form",
+      "cards": [
+        {
+          "jp": "まいあさ ろくじに おきます。",
+          "romaji": "maiasa roku-ji ni okimasu.",
+          "en": "I wake up at 6 every morning. (Group 2)"
+        },
+        {
+          "jp": "にほんごを べんきょうします。",
+          "romaji": "nihongo o benkyou shimasu.",
+          "en": "I study Japanese. (する compound verb)"
+        },
+        {
+          "jp": "きのう えいがを みました。",
+          "romaji": "kinou eiga o mimashita.",
+          "en": "I watched a movie yesterday. (Group 2 past)"
+        },
+        {
+          "jp": "コーヒーを のみませんか。",
+          "romaji": "koohii o nomimasen ka.",
+          "en": "Would you like to drink coffee? (Group 1 invitation)"
+        },
+        {
+          "jp": "きのう がっこうに いきませんでした。",
+          "romaji": "kinou gakkou ni ikimasen deshita.",
+          "en": "I didn't go to school yesterday. (Group 1 past negative)"
+        },
+        {
+          "jp": "しゅうまつ なにを しますか。",
+          "romaji": "shuumatsu nani o shimasu ka.",
+          "en": "What will you do on the weekend? (irregular)"
+        },
+        {
+          "jp": "ともだちが きます。",
+          "romaji": "tomodachi ga kimasu.",
+          "en": "A friend is coming. (irregular)"
+        },
+        {
+          "jp": "てがみを かきました。",
+          "romaji": "tegami o kakimashita.",
+          "en": "I wrote a letter. (Group 1 past)"
+        },
+        {
+          "jp": "いっしょに たべましょう。",
+          "romaji": "issho ni tabemashou.",
+          "en": "Let's eat together. (Group 2 suggestion)"
+        },
+        {
+          "jp": "まいにち うんどうします。",
+          "romaji": "mainichi undou shimasu.",
+          "en": "I exercise every day. (する compound)"
+        }
+      ]
+    }
+  ]
+}

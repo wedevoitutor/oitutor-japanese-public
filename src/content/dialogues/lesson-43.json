@@ -1,0 +1,1289 @@
+{
+  "id": "dialogues-lesson-43",
+  "misconceptions": [
+    {
+      "target": "health-basics-single-word-answer",
+      "error": "Answers with isolated vocabulary instead of a complete conversational turn.",
+      "mitigation": "Reference rows and response-selection drills keep prompts and natural replies together."
+    },
+    {
+      "target": "health-basics-register-mismatch",
+      "error": "Uses casual language with teachers, staff, or strangers.",
+      "mitigation": "Formal, casual, and slang scenes are separated and labeled."
+    },
+    {
+      "target": "health-basics-listening-drift",
+      "error": "Chooses a familiar phrase that does not match the audio.",
+      "mitigation": "Listening MC and type-the-answer reuse the exact dialogue speakText."
+    },
+    {
+      "target": "health-basics-particle-confusion",
+      "error": "Confuses は, へ, or を in written Japanese source phrases.",
+      "mitigation": "Formula-fill keeps the Japanese particles visible and accepts romaji as support."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Health Basics - Formal · Casual · Slang",
+      "intro": "Practice health basics as prompt-and-response dialogue, not as loose vocabulary.",
+      "rows": [
+        [
+          "Register",
+          "Japanese",
+          "Romaji",
+          "Typical Response",
+          "Context"
+        ],
+        [
+          "FORMAL",
+          "たいちょうは どうですか？",
+          "taichouha doudesuka?",
+          "すこし つかれています。でも だいじょうぶです。",
+          "I am a little tired, but okay."
+        ],
+        [
+          "FORMAL",
+          "すこし つかれています。でも だいじょうぶです。",
+          "sukoshi tsukareteimasu.demo daijoubudesu.",
+          "そうです。ありがとうございます。",
+          "That is right. Thank you."
+        ],
+        [
+          "CASUAL",
+          "げんき？",
+          "genki?",
+          "ちょっと あたまが いたい。",
+          "My head hurts a little."
+        ],
+        [
+          "CASUAL",
+          "ちょっと あたまが いたい。",
+          "chotto atamaga itai.",
+          "いいね。あとで かくにんしよう。",
+          "Nice. Let us check later."
+        ],
+        [
+          "SLANG",
+          "ねむそうだね。",
+          "nemusoudane.",
+          "きのう あまり ねてない。",
+          "I did not sleep much yesterday."
+        ],
+        [
+          "SLANG",
+          "きのう あまり ねてない。",
+          "kinou amari netenai.",
+          "まじか。いいじゃん。",
+          "Really? Nice."
+        ]
+      ],
+      "takeaway": "First choose the right meaning, then choose the right relationship tone."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "A - FORMAL · Health Basics",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "先生",
+          "jp": "たいちょうは どうですか？",
+          "romaji": "taichouha doudesuka?",
+          "en": "How is your physical condition?"
+        },
+        {
+          "speaker": "学生",
+          "jp": "すこし つかれています。でも だいじょうぶです。",
+          "romaji": "sukoshi tsukareteimasu.demo daijoubudesu.",
+          "en": "I am a little tired, but okay."
+        },
+        {
+          "speaker": "先生",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "B - CASUAL · Health Basics",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "ゆい",
+          "jp": "げんき？",
+          "romaji": "genki?",
+          "en": "Are you okay?"
+        },
+        {
+          "speaker": "たく",
+          "jp": "ちょっと あたまが いたい。",
+          "romaji": "chotto atamaga itai.",
+          "en": "My head hurts a little."
+        },
+        {
+          "speaker": "ゆい",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "C - SLANG · Health Basics",
+      "register": "slang",
+      "lines": [
+        {
+          "speaker": "りく",
+          "jp": "ねむそうだね。",
+          "romaji": "nemusoudane.",
+          "en": "You look sleepy."
+        },
+        {
+          "speaker": "まい",
+          "jp": "きのう あまり ねてない。",
+          "romaji": "kinou amari netenai.",
+          "en": "I did not sleep much yesterday."
+        },
+        {
+          "speaker": "りく",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 1: たいちょうは どうですか？",
+      "prompt": "Which source phrase means: “How is your physical condition?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "たいちょうは どうですか？",
+          "romaji": "taichouha doudesuka?",
+          "en": "How is your physical condition?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "たいちょうは どうですか？"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 2: すこし つかれています。でも だいじょうぶです。",
+      "prompt": "Which source phrase means: “I am a little tired, but okay.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "すこし つかれています。でも だいじょうぶです。",
+          "romaji": "sukoshi tsukareteimasu.demo daijoubudesu.",
+          "en": "I am a little tired, but okay.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "ねむそうだね。",
+          "romaji": "nemusoudane.",
+          "en": "You look sleepy.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "だいじょうぶです",
+          "romaji": "daijoubudesu",
+          "en": "I am okay",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "すこし つかれています。でも だいじょうぶです。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 3: そうです。ありがとうございます。",
+      "prompt": "Which source phrase means: “That is right. Thank you.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "きのう あまり ねてない。",
+          "romaji": "kinou amari netenai.",
+          "en": "I did not sleep much yesterday.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "つかれています",
+          "romaji": "tsukareteimasu",
+          "en": "I am tired",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "そうです。ありがとうございます。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 4: げんき？",
+      "prompt": "Which source phrase means: “Are you okay?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "げんき？",
+          "romaji": "genki?",
+          "en": "Are you okay?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "あたまが いたいです",
+          "romaji": "atamaga itaidesu",
+          "en": "my head hurts",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "げんき？"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "たいちょうは どうですか",
+        "answerRomaji": "taichouha doudesuka?",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "taichouhadoudesuka?"
+        ]
+      },
+      "translation": "How is your physical condition?",
+      "speakText": "たいちょうは どうですか？",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "すこし つかれています。でも だいじょうぶです",
+        "answerRomaji": "sukoshi tsukareteimasu.demo daijoubudesu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "sukoshitsukareteimasu.demodaijoubudesu."
+        ]
+      },
+      "translation": "I am a little tired, but okay.",
+      "speakText": "すこし つかれています。でも だいじょうぶです。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "そうです。ありがとうございます",
+        "answerRomaji": "soudesu.arigatougozaimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "soudesu.arigatougozaimasu."
+        ]
+      },
+      "translation": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "たいちょうは どうですか？",
+          "romaji": "taichouha doudesuka?",
+          "en": "How is your physical condition?"
+        },
+        {
+          "jp": "すこし つかれています。でも だいじょうぶです。",
+          "romaji": "sukoshi tsukareteimasu.demo daijoubudesu.",
+          "en": "I am a little tired, but okay."
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "げんき？",
+          "romaji": "genki?",
+          "en": "Are you okay?"
+        },
+        {
+          "jp": "ちょっと あたまが いたい。",
+          "romaji": "chotto atamaga itai.",
+          "en": "My head hurts a little."
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "ねむそうだね。",
+          "romaji": "nemusoudane.",
+          "en": "You look sleepy."
+        },
+        {
+          "jp": "きのう あまり ねてない。",
+          "romaji": "kinou amari netenai.",
+          "en": "I did not sleep much yesterday."
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "だいじょうぶです",
+          "romaji": "daijoubudesu",
+          "en": "I am okay"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "たいちょうは どうですか？",
+      "options": [
+        {
+          "text": "How is your physical condition?",
+          "correct": true
+        },
+        {
+          "text": "Are you okay?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "You look sleepy.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "I am okay",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "すこし つかれています。でも だいじょうぶです。",
+      "options": [
+        {
+          "text": "I am a little tired, but okay.",
+          "correct": true
+        },
+        {
+          "text": "My head hurts a little.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "I did not sleep much yesterday.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "I am tired",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "そうです。ありがとうございます。",
+      "options": [
+        {
+          "text": "That is right. Thank you.",
+          "correct": true
+        },
+        {
+          "text": "Nice. Let us check later.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "my head hurts",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "げんき？",
+      "options": [
+        {
+          "text": "Are you okay?",
+          "correct": true
+        },
+        {
+          "text": "You look sleepy.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "I am okay",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "I am sleepy",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ちょっと あたまが いたい。",
+      "options": [
+        {
+          "text": "My head hurts a little.",
+          "correct": true
+        },
+        {
+          "text": "I did not sleep much yesterday.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "I am tired",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "drink water",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "options": [
+        {
+          "text": "Nice. Let us check later.",
+          "correct": true
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "my head hurts",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "rest",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ねむそうだね。",
+      "options": [
+        {
+          "text": "You look sleepy.",
+          "correct": true
+        },
+        {
+          "text": "I am okay",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "I am sleepy",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "How is your physical condition?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "きのう あまり ねてない。",
+      "options": [
+        {
+          "text": "I did not sleep much yesterday.",
+          "correct": true
+        },
+        {
+          "text": "I am tired",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "drink water",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "I am a little tired, but okay.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "たいちょうは どうですか？",
+        "romaji": "taichouha doudesuka?",
+        "speakText": "たいちょうは どうですか？"
+      },
+      "options": [
+        {
+          "jp": "すこし つかれています。でも だいじょうぶです。",
+          "romaji": "sukoshi tsukareteimasu.demo daijoubudesu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "ちょっと あたまが いたい。",
+          "romaji": "chotto atamaga itai.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "きのう あまり ねてない。",
+          "romaji": "kinou amari netenai.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "すこし つかれています。でも だいじょうぶです。",
+        "romaji": "sukoshi tsukareteimasu.demo daijoubudesu.",
+        "speakText": "すこし つかれています。でも だいじょうぶです。"
+      },
+      "options": [
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "げんき？",
+        "romaji": "genki?",
+        "speakText": "げんき？"
+      },
+      "options": [
+        {
+          "jp": "ちょっと あたまが いたい。",
+          "romaji": "chotto atamaga itai.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "ねむそうだね。",
+          "romaji": "nemusoudane.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "だいじょうぶです",
+          "romaji": "daijoubudesu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "ちょっと あたまが いたい。",
+        "romaji": "chotto atamaga itai.",
+        "speakText": "ちょっと あたまが いたい。"
+      },
+      "options": [
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "きのう あまり ねてない。",
+          "romaji": "kinou amari netenai.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "つかれています",
+          "romaji": "tsukareteimasu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "ねむそうだね。",
+        "romaji": "nemusoudane.",
+        "speakText": "ねむそうだね。"
+      },
+      "options": [
+        {
+          "jp": "きのう あまり ねてない。",
+          "romaji": "kinou amari netenai.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "あたまが いたいです",
+          "romaji": "atamaga itaidesu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "きのう あまり ねてない。",
+        "romaji": "kinou amari netenai.",
+        "speakText": "きのう あまり ねてない。"
+      },
+      "options": [
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "だいじょうぶです",
+          "romaji": "daijoubudesu",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "ねむいです",
+          "romaji": "nemuidesu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "たいちょうは どうですか？",
+      "answer": "taichouha doudesuka?",
+      "acceptAlternatives": [
+        "taichouhadoudesuka?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "すこし つかれています。でも だいじょうぶです。",
+      "answer": "sukoshi tsukareteimasu.demo daijoubudesu.",
+      "acceptAlternatives": [
+        "sukoshitsukareteimasu.demodaijoubudesu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "そうです。ありがとうございます。",
+      "answer": "soudesu.arigatougozaimasu.",
+      "acceptAlternatives": [
+        "soudesu.arigatougozaimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "げんき？",
+      "answer": "genki?",
+      "acceptAlternatives": [
+        "genki?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "ちょっと あたまが いたい。",
+      "answer": "chotto atamaga itai.",
+      "acceptAlternatives": [
+        "chottoatamagaitai."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "answer": "iine.atode kakuninshiyou.",
+      "acceptAlternatives": [
+        "iine.atodekakuninshiyou."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "ねむそうだね。",
+      "answer": "nemusoudane.",
+      "acceptAlternatives": [
+        "nemusoudane."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "きのう あまり ねてない。",
+      "answer": "kinou amari netenai.",
+      "acceptAlternatives": [
+        "kinouamarinetenai."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "たいちょうは どうですか？",
+      "romaji": "taichouha doudesuka?",
+      "en": "How is your physical condition?",
+      "speakText": "たいちょうは どうですか？",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Health Basics",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "すこし つかれています。でも だいじょうぶです。",
+      "romaji": "sukoshi tsukareteimasu.demo daijoubudesu.",
+      "en": "I am a little tired, but okay.",
+      "speakText": "すこし つかれています。でも だいじょうぶです。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Health Basics",
+      "speaker": "学生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "そうです。ありがとうございます。",
+      "romaji": "soudesu.arigatougozaimasu.",
+      "en": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Health Basics",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "げんき？",
+      "romaji": "genki?",
+      "en": "Are you okay?",
+      "speakText": "げんき？",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Health Basics",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ちょっと あたまが いたい。",
+      "romaji": "chotto atamaga itai.",
+      "en": "My head hurts a little.",
+      "speakText": "ちょっと あたまが いたい。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Health Basics",
+      "speaker": "たく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いいね。あとで かくにんしよう。",
+      "romaji": "iine.atode kakuninshiyou.",
+      "en": "Nice. Let us check later.",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Health Basics",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ねむそうだね。",
+      "romaji": "nemusoudane.",
+      "en": "You look sleepy.",
+      "speakText": "ねむそうだね。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Health Basics",
+      "speaker": "りく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "きのう あまり ねてない。",
+      "romaji": "kinou amari netenai.",
+      "en": "I did not sleep much yesterday.",
+      "speakText": "きのう あまり ねてない。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Health Basics",
+      "speaker": "まい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "まじか。いいじゃん。",
+      "romaji": "majika.iijan.",
+      "en": "Really? Nice.",
+      "speakText": "まじか。いいじゃん。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Health Basics",
+      "speaker": "りく"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "たいちょうは どうですか？",
+          "right": "How is your physical condition?"
+        },
+        {
+          "left": "すこし つかれています。でも だいじょうぶです。",
+          "right": "I am a little tired, but okay."
+        },
+        {
+          "left": "そうです。ありがとうございます。",
+          "right": "That is right. Thank you."
+        },
+        {
+          "left": "げんき？",
+          "right": "Are you okay?"
+        },
+        {
+          "left": "ちょっと あたまが いたい。",
+          "right": "My head hurts a little."
+        },
+        {
+          "left": "いいね。あとで かくにんしよう。",
+          "right": "Nice. Let us check later."
+        },
+        {
+          "left": "ねむそうだね。",
+          "right": "You look sleepy."
+        },
+        {
+          "left": "きのう あまり ねてない。",
+          "right": "I did not sleep much yesterday."
+        },
+        {
+          "left": "まじか。いいじゃん。",
+          "right": "Really? Nice."
+        },
+        {
+          "left": "だいじょうぶです",
+          "right": "I am okay"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "たいちょうは どうですか？",
+          "romaji": "taichouha doudesuka?",
+          "en": "How is your physical condition?"
+        },
+        {
+          "jp": "すこし つかれています。でも だいじょうぶです。",
+          "romaji": "sukoshi tsukareteimasu.demo daijoubudesu.",
+          "en": "I am a little tired, but okay.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "げんき？",
+          "romaji": "genki?",
+          "en": "Are you okay?"
+        },
+        {
+          "jp": "ちょっと あたまが いたい。",
+          "romaji": "chotto atamaga itai.",
+          "en": "My head hurts a little.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "ねむそうだね。",
+          "romaji": "nemusoudane.",
+          "en": "You look sleepy."
+        },
+        {
+          "jp": "きのう あまり ねてない。",
+          "romaji": "kinou amari netenai.",
+          "en": "I did not sleep much yesterday.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "だいじょうぶです",
+          "romaji": "daijoubudesu",
+          "en": "I am okay"
+        }
+      ]
+    }
+  ]
+}

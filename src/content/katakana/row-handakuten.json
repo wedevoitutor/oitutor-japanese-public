@@ -1,0 +1,291 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Handakuten — パ行",
+      "rows": [
+        [
+          "ハ → バ (ba)",
+          "ヒ → ビ (bi)",
+          "フ → ブ (bu)",
+          "ヘ → ベ (be)",
+          "ホ → ボ (bo)"
+        ],
+        [
+          "ハ → パ (pa)",
+          "ヒ → ピ (pi)",
+          "フ → プ (pu)",
+          "ヘ → ペ (pe)",
+          "ホ → ポ (po)"
+        ],
+        [
+          "The mark ゛ (dakuten) voices to b — the small circle ゜ (handakuten) bursts it into p.",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "パ",
+          "back": "pa",
+          "speakText": "パ"
+        },
+        {
+          "front": "ピ",
+          "back": "pi",
+          "speakText": "ピ"
+        },
+        {
+          "front": "プ",
+          "back": "pu",
+          "speakText": "プ"
+        },
+        {
+          "front": "ペ",
+          "back": "pe",
+          "speakText": "ペ"
+        },
+        {
+          "front": "ポ",
+          "back": "po",
+          "speakText": "ポ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Pa?",
+      "options": [
+        "バ",
+        "パ",
+        "ハ",
+        "ホ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Po?",
+      "options": [
+        "ボ",
+        "ホ",
+        "ポ",
+        "ハ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ピ",
+      "answer": "pi"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ペ",
+      "answer": "pe"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "パ",
+          "pa"
+        ],
+        [
+          "ピ",
+          "pi"
+        ],
+        [
+          "プ",
+          "pu"
+        ],
+        [
+          "ペ",
+          "pe"
+        ],
+        [
+          "ポ",
+          "po"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "パ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ハ",
+        "パ",
+        "バ",
+        "ホ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ポ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ホ",
+        "ポ",
+        "ボ",
+        "ハ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Pa?",
+      "options": [
+        "バ",
+        "パ",
+        "ダ",
+        "ハ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Pi?",
+      "options": [
+        "ビ",
+        "ピ",
+        "ヒ",
+        "ギ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Pu?",
+      "options": [
+        "ブ",
+        "プ",
+        "フ",
+        "グ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "パン (pan)",
+          "bread"
+        ],
+        [
+          "ピアノ (piano)",
+          "piano"
+        ],
+        [
+          "プリン (purin)",
+          "pudding"
+        ],
+        [
+          "ペン (pen)",
+          "pen"
+        ],
+        [
+          "ポスト (posuto)",
+          "mailbox"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "bread",
+      "answer": [
+        "パ",
+        "ン"
+      ],
+      "bank": [
+        "パ",
+        "ン",
+        "バ",
+        "ハ",
+        "ソ"
+      ],
+      "speakText": "パン"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "pen",
+      "answer": [
+        "ペ",
+        "ン"
+      ],
+      "bank": [
+        "ペ",
+        "ン",
+        "ヘ",
+        "ベ",
+        "ソ"
+      ],
+      "speakText": "ペン"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "piano",
+      "answer": [
+        "ピ",
+        "ア",
+        "ノ"
+      ],
+      "bank": [
+        "ピ",
+        "ビ",
+        "ヒ",
+        "ア",
+        "オ",
+        "ノ",
+        "ソ"
+      ],
+      "speakText": "ピアノ"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "パン",
+          "bread"
+        ],
+        [
+          "ピアノ",
+          "piano"
+        ],
+        [
+          "プリン",
+          "pudding"
+        ],
+        [
+          "ペン",
+          "pen"
+        ],
+        [
+          "ポスト",
+          "mailbox"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "パン",
+      "prompt": "Which word did you hear?",
+      "options": [
+        "bread",
+        "pen",
+        "piano",
+        "mailbox"
+      ],
+      "correctIndex": 0
+    }
+  ],
+  "id": "katakana-row-handakuten"
+}

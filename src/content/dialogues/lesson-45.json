@@ -1,0 +1,1289 @@
+{
+  "id": "dialogues-lesson-45",
+  "misconceptions": [
+    {
+      "target": "celebrations-birthdays-single-word-answer",
+      "error": "Answers with isolated vocabulary instead of a complete conversational turn.",
+      "mitigation": "Reference rows and response-selection drills keep prompts and natural replies together."
+    },
+    {
+      "target": "celebrations-birthdays-register-mismatch",
+      "error": "Uses casual language with teachers, staff, or strangers.",
+      "mitigation": "Formal, casual, and slang scenes are separated and labeled."
+    },
+    {
+      "target": "celebrations-birthdays-listening-drift",
+      "error": "Chooses a familiar phrase that does not match the audio.",
+      "mitigation": "Listening MC and type-the-answer reuse the exact dialogue speakText."
+    },
+    {
+      "target": "celebrations-birthdays-particle-confusion",
+      "error": "Confuses は, へ, or を in written Japanese source phrases.",
+      "mitigation": "Formula-fill keeps the Japanese particles visible and accepts romaji as support."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Celebrations & Birthdays - Formal · Casual · Slang",
+      "intro": "Practice celebrations & birthdays as prompt-and-response dialogue, not as loose vocabulary.",
+      "rows": [
+        [
+          "Register",
+          "Japanese",
+          "Romaji",
+          "Typical Response",
+          "Context"
+        ],
+        [
+          "FORMAL",
+          "おたんじょうび おめでとうございます。",
+          "otanjoubi omedetougozaimasu.",
+          "ありがとうございます。とてもうれしいです。",
+          "Thank you. I am very happy."
+        ],
+        [
+          "FORMAL",
+          "ありがとうございます。とてもうれしいです。",
+          "arigatougozaimasu.totemoureshiidesu.",
+          "そうです。ありがとうございます。",
+          "That is right. Thank you."
+        ],
+        [
+          "CASUAL",
+          "あしたの パーティー、なんじから？",
+          "ashitano paateii,nanjikara?",
+          "ろくじから。ケーキを かっていくよ。",
+          "From six. I will buy a cake and bring it."
+        ],
+        [
+          "CASUAL",
+          "ろくじから。ケーキを かっていくよ。",
+          "rokujikara.keekiwo katteikuyo.",
+          "いいね。あとで かくにんしよう。",
+          "Nice. Let us check later."
+        ],
+        [
+          "SLANG",
+          "サプライズ、ばれてない？",
+          "sapuraizu,baretenai?",
+          "たぶん だいじょうぶ。",
+          "Probably okay."
+        ],
+        [
+          "SLANG",
+          "たぶん だいじょうぶ。",
+          "tabun daijoubu.",
+          "まじか。いいじゃん。",
+          "Really? Nice."
+        ]
+      ],
+      "takeaway": "First choose the right meaning, then choose the right relationship tone."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "A - FORMAL · Celebrations & Birthdays",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "先生",
+          "jp": "おたんじょうび おめでとうございます。",
+          "romaji": "otanjoubi omedetougozaimasu.",
+          "en": "Happy birthday."
+        },
+        {
+          "speaker": "学生",
+          "jp": "ありがとうございます。とてもうれしいです。",
+          "romaji": "arigatougozaimasu.totemoureshiidesu.",
+          "en": "Thank you. I am very happy."
+        },
+        {
+          "speaker": "先生",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "B - CASUAL · Celebrations & Birthdays",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "ゆい",
+          "jp": "あしたの パーティー、なんじから？",
+          "romaji": "ashitano paateii,nanjikara?",
+          "en": "What time does tomorrow’s party start?"
+        },
+        {
+          "speaker": "たく",
+          "jp": "ろくじから。ケーキを かっていくよ。",
+          "romaji": "rokujikara.keekiwo katteikuyo.",
+          "en": "From six. I will buy a cake and bring it."
+        },
+        {
+          "speaker": "ゆい",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "C - SLANG · Celebrations & Birthdays",
+      "register": "slang",
+      "lines": [
+        {
+          "speaker": "りく",
+          "jp": "サプライズ、ばれてない？",
+          "romaji": "sapuraizu,baretenai?",
+          "en": "Has the surprise not been found out?"
+        },
+        {
+          "speaker": "まい",
+          "jp": "たぶん だいじょうぶ。",
+          "romaji": "tabun daijoubu.",
+          "en": "Probably okay."
+        },
+        {
+          "speaker": "りく",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 1: おたんじょうび おめでとうございます。",
+      "prompt": "Which source phrase means: “Happy birthday.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "おたんじょうび おめでとうございます。",
+          "romaji": "otanjoubi omedetougozaimasu.",
+          "en": "Happy birthday.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "おたんじょうび おめでとうございます。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 2: ありがとうございます。とてもうれしいです。",
+      "prompt": "Which source phrase means: “Thank you. I am very happy.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "ありがとうございます。とてもうれしいです。",
+          "romaji": "arigatougozaimasu.totemoureshiidesu.",
+          "en": "Thank you. I am very happy.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "サプライズ、ばれてない？",
+          "romaji": "sapuraizu,baretenai?",
+          "en": "Has the surprise not been found out?",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "おめでとうございます",
+          "romaji": "omedetougozaimasu",
+          "en": "congratulations",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "ありがとうございます。とてもうれしいです。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 3: そうです。ありがとうございます。",
+      "prompt": "Which source phrase means: “That is right. Thank you.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "たぶん だいじょうぶ。",
+          "romaji": "tabun daijoubu.",
+          "en": "Probably okay.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "たんじょうび",
+          "romaji": "tanjoubi",
+          "en": "birthday",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "そうです。ありがとうございます。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 4: あしたの パーティー、なんじから？",
+      "prompt": "Which source phrase means: “What time does tomorrow’s party start?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "あしたの パーティー、なんじから？",
+          "romaji": "ashitano paateii,nanjikara?",
+          "en": "What time does tomorrow’s party start?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "プレゼント",
+          "romaji": "purezento",
+          "en": "present",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "あしたの パーティー、なんじから？"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "おたんじょうび おめでとうございます",
+        "answerRomaji": "otanjoubi omedetougozaimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "otanjoubiomedetougozaimasu."
+        ]
+      },
+      "translation": "Happy birthday.",
+      "speakText": "おたんじょうび おめでとうございます。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "ありがとうございます。とてもうれしいです",
+        "answerRomaji": "arigatougozaimasu.totemoureshiidesu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "arigatougozaimasu.totemoureshiidesu."
+        ]
+      },
+      "translation": "Thank you. I am very happy.",
+      "speakText": "ありがとうございます。とてもうれしいです。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "そうです。ありがとうございます",
+        "answerRomaji": "soudesu.arigatougozaimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "soudesu.arigatougozaimasu."
+        ]
+      },
+      "translation": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "おたんじょうび おめでとうございます。",
+          "romaji": "otanjoubi omedetougozaimasu.",
+          "en": "Happy birthday."
+        },
+        {
+          "jp": "ありがとうございます。とてもうれしいです。",
+          "romaji": "arigatougozaimasu.totemoureshiidesu.",
+          "en": "Thank you. I am very happy."
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "あしたの パーティー、なんじから？",
+          "romaji": "ashitano paateii,nanjikara?",
+          "en": "What time does tomorrow’s party start?"
+        },
+        {
+          "jp": "ろくじから。ケーキを かっていくよ。",
+          "romaji": "rokujikara.keekiwo katteikuyo.",
+          "en": "From six. I will buy a cake and bring it."
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "サプライズ、ばれてない？",
+          "romaji": "sapuraizu,baretenai?",
+          "en": "Has the surprise not been found out?"
+        },
+        {
+          "jp": "たぶん だいじょうぶ。",
+          "romaji": "tabun daijoubu.",
+          "en": "Probably okay."
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "おめでとうございます",
+          "romaji": "omedetougozaimasu",
+          "en": "congratulations"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "おたんじょうび おめでとうございます。",
+      "options": [
+        {
+          "text": "Happy birthday.",
+          "correct": true
+        },
+        {
+          "text": "What time does tomorrow’s party start?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Has the surprise not been found out?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "congratulations",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ありがとうございます。とてもうれしいです。",
+      "options": [
+        {
+          "text": "Thank you. I am very happy.",
+          "correct": true
+        },
+        {
+          "text": "From six. I will buy a cake and bring it.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Probably okay.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "birthday",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "そうです。ありがとうございます。",
+      "options": [
+        {
+          "text": "That is right. Thank you.",
+          "correct": true
+        },
+        {
+          "text": "Nice. Let us check later.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "present",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "あしたの パーティー、なんじから？",
+      "options": [
+        {
+          "text": "What time does tomorrow’s party start?",
+          "correct": true
+        },
+        {
+          "text": "Has the surprise not been found out?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "congratulations",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "cake",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ろくじから。ケーキを かっていくよ。",
+      "options": [
+        {
+          "text": "From six. I will buy a cake and bring it.",
+          "correct": true
+        },
+        {
+          "text": "Probably okay.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "birthday",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "party",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "options": [
+        {
+          "text": "Nice. Let us check later.",
+          "correct": true
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "present",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "I am happy",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "サプライズ、ばれてない？",
+      "options": [
+        {
+          "text": "Has the surprise not been found out?",
+          "correct": true
+        },
+        {
+          "text": "congratulations",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "cake",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "Happy birthday.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "たぶん だいじょうぶ。",
+      "options": [
+        {
+          "text": "Probably okay.",
+          "correct": true
+        },
+        {
+          "text": "birthday",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "party",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "Thank you. I am very happy.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "おたんじょうび おめでとうございます。",
+        "romaji": "otanjoubi omedetougozaimasu.",
+        "speakText": "おたんじょうび おめでとうございます。"
+      },
+      "options": [
+        {
+          "jp": "ありがとうございます。とてもうれしいです。",
+          "romaji": "arigatougozaimasu.totemoureshiidesu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "ろくじから。ケーキを かっていくよ。",
+          "romaji": "rokujikara.keekiwo katteikuyo.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "たぶん だいじょうぶ。",
+          "romaji": "tabun daijoubu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "ありがとうございます。とてもうれしいです。",
+        "romaji": "arigatougozaimasu.totemoureshiidesu.",
+        "speakText": "ありがとうございます。とてもうれしいです。"
+      },
+      "options": [
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "あしたの パーティー、なんじから？",
+        "romaji": "ashitano paateii,nanjikara?",
+        "speakText": "あしたの パーティー、なんじから？"
+      },
+      "options": [
+        {
+          "jp": "ろくじから。ケーキを かっていくよ。",
+          "romaji": "rokujikara.keekiwo katteikuyo.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "サプライズ、ばれてない？",
+          "romaji": "sapuraizu,baretenai?",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "おめでとうございます",
+          "romaji": "omedetougozaimasu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "ろくじから。ケーキを かっていくよ。",
+        "romaji": "rokujikara.keekiwo katteikuyo.",
+        "speakText": "ろくじから。ケーキを かっていくよ。"
+      },
+      "options": [
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "たぶん だいじょうぶ。",
+          "romaji": "tabun daijoubu.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "たんじょうび",
+          "romaji": "tanjoubi",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "サプライズ、ばれてない？",
+        "romaji": "sapuraizu,baretenai?",
+        "speakText": "サプライズ、ばれてない？"
+      },
+      "options": [
+        {
+          "jp": "たぶん だいじょうぶ。",
+          "romaji": "tabun daijoubu.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "プレゼント",
+          "romaji": "purezento",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "たぶん だいじょうぶ。",
+        "romaji": "tabun daijoubu.",
+        "speakText": "たぶん だいじょうぶ。"
+      },
+      "options": [
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "おめでとうございます",
+          "romaji": "omedetougozaimasu",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "ケーキ",
+          "romaji": "keeki",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "おたんじょうび おめでとうございます。",
+      "answer": "otanjoubi omedetougozaimasu.",
+      "acceptAlternatives": [
+        "otanjoubiomedetougozaimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "ありがとうございます。とてもうれしいです。",
+      "answer": "arigatougozaimasu.totemoureshiidesu.",
+      "acceptAlternatives": [
+        "arigatougozaimasu.totemoureshiidesu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "そうです。ありがとうございます。",
+      "answer": "soudesu.arigatougozaimasu.",
+      "acceptAlternatives": [
+        "soudesu.arigatougozaimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "あしたの パーティー、なんじから？",
+      "answer": "ashitano paateii,nanjikara?",
+      "acceptAlternatives": [
+        "ashitanopaateii,nanjikara?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "ろくじから。ケーキを かっていくよ。",
+      "answer": "rokujikara.keekiwo katteikuyo.",
+      "acceptAlternatives": [
+        "rokujikara.keekiwokatteikuyo."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "answer": "iine.atode kakuninshiyou.",
+      "acceptAlternatives": [
+        "iine.atodekakuninshiyou."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "サプライズ、ばれてない？",
+      "answer": "sapuraizu,baretenai?",
+      "acceptAlternatives": [
+        "sapuraizu,baretenai?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "たぶん だいじょうぶ。",
+      "answer": "tabun daijoubu.",
+      "acceptAlternatives": [
+        "tabundaijoubu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "おたんじょうび おめでとうございます。",
+      "romaji": "otanjoubi omedetougozaimasu.",
+      "en": "Happy birthday.",
+      "speakText": "おたんじょうび おめでとうございます。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Celebrations & Birthdays",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ありがとうございます。とてもうれしいです。",
+      "romaji": "arigatougozaimasu.totemoureshiidesu.",
+      "en": "Thank you. I am very happy.",
+      "speakText": "ありがとうございます。とてもうれしいです。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Celebrations & Birthdays",
+      "speaker": "学生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "そうです。ありがとうございます。",
+      "romaji": "soudesu.arigatougozaimasu.",
+      "en": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Celebrations & Birthdays",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "あしたの パーティー、なんじから？",
+      "romaji": "ashitano paateii,nanjikara?",
+      "en": "What time does tomorrow’s party start?",
+      "speakText": "あしたの パーティー、なんじから？",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Celebrations & Birthdays",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ろくじから。ケーキを かっていくよ。",
+      "romaji": "rokujikara.keekiwo katteikuyo.",
+      "en": "From six. I will buy a cake and bring it.",
+      "speakText": "ろくじから。ケーキを かっていくよ。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Celebrations & Birthdays",
+      "speaker": "たく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いいね。あとで かくにんしよう。",
+      "romaji": "iine.atode kakuninshiyou.",
+      "en": "Nice. Let us check later.",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Celebrations & Birthdays",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "サプライズ、ばれてない？",
+      "romaji": "sapuraizu,baretenai?",
+      "en": "Has the surprise not been found out?",
+      "speakText": "サプライズ、ばれてない？",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Celebrations & Birthdays",
+      "speaker": "りく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "たぶん だいじょうぶ。",
+      "romaji": "tabun daijoubu.",
+      "en": "Probably okay.",
+      "speakText": "たぶん だいじょうぶ。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Celebrations & Birthdays",
+      "speaker": "まい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "まじか。いいじゃん。",
+      "romaji": "majika.iijan.",
+      "en": "Really? Nice.",
+      "speakText": "まじか。いいじゃん。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Celebrations & Birthdays",
+      "speaker": "りく"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "おたんじょうび おめでとうございます。",
+          "right": "Happy birthday."
+        },
+        {
+          "left": "ありがとうございます。とてもうれしいです。",
+          "right": "Thank you. I am very happy."
+        },
+        {
+          "left": "そうです。ありがとうございます。",
+          "right": "That is right. Thank you."
+        },
+        {
+          "left": "あしたの パーティー、なんじから？",
+          "right": "What time does tomorrow’s party start?"
+        },
+        {
+          "left": "ろくじから。ケーキを かっていくよ。",
+          "right": "From six. I will buy a cake and bring it."
+        },
+        {
+          "left": "いいね。あとで かくにんしよう。",
+          "right": "Nice. Let us check later."
+        },
+        {
+          "left": "サプライズ、ばれてない？",
+          "right": "Has the surprise not been found out?"
+        },
+        {
+          "left": "たぶん だいじょうぶ。",
+          "right": "Probably okay."
+        },
+        {
+          "left": "まじか。いいじゃん。",
+          "right": "Really? Nice."
+        },
+        {
+          "left": "おめでとうございます",
+          "right": "congratulations"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "おたんじょうび おめでとうございます。",
+          "romaji": "otanjoubi omedetougozaimasu.",
+          "en": "Happy birthday."
+        },
+        {
+          "jp": "ありがとうございます。とてもうれしいです。",
+          "romaji": "arigatougozaimasu.totemoureshiidesu.",
+          "en": "Thank you. I am very happy.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "あしたの パーティー、なんじから？",
+          "romaji": "ashitano paateii,nanjikara?",
+          "en": "What time does tomorrow’s party start?"
+        },
+        {
+          "jp": "ろくじから。ケーキを かっていくよ。",
+          "romaji": "rokujikara.keekiwo katteikuyo.",
+          "en": "From six. I will buy a cake and bring it.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "サプライズ、ばれてない？",
+          "romaji": "sapuraizu,baretenai?",
+          "en": "Has the surprise not been found out?"
+        },
+        {
+          "jp": "たぶん だいじょうぶ。",
+          "romaji": "tabun daijoubu.",
+          "en": "Probably okay.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "おめでとうございます",
+          "romaji": "omedetougozaimasu",
+          "en": "congratulations"
+        }
+      ]
+    }
+  ]
+}

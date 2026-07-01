@@ -1,0 +1,299 @@
+{
+  "exercises": [
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "れ",
+          "back": "re",
+          "speakText": "れ"
+        },
+        {
+          "front": "わ",
+          "back": "wa",
+          "speakText": "わ"
+        },
+        {
+          "front": "り",
+          "back": "ri",
+          "speakText": "り"
+        },
+        {
+          "front": "を",
+          "back": "wo",
+          "speakText": "を"
+        },
+        {
+          "front": "ろ",
+          "back": "ro",
+          "speakText": "ろ"
+        },
+        {
+          "front": "ん",
+          "back": "n",
+          "speakText": "ん"
+        },
+        {
+          "front": "ら",
+          "back": "ra",
+          "speakText": "ら"
+        },
+        {
+          "front": "る",
+          "back": "ru",
+          "speakText": "る"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ri?",
+      "options": [
+        "ら",
+        "ろ",
+        "り",
+        "る"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Wa?",
+      "options": [
+        "を",
+        "わ",
+        "ん",
+        "る"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ru?",
+      "options": [
+        "ろ",
+        "ら",
+        "る",
+        "れ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "わ",
+      "answer": "wa"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "れ",
+      "answer": "re"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ん",
+      "answer": "n"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ら",
+          "ra"
+        ],
+        [
+          "わ",
+          "wa"
+        ],
+        [
+          "る",
+          "ru"
+        ],
+        [
+          "を",
+          "wo"
+        ],
+        [
+          "れ",
+          "re"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ら",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "り",
+        "ら",
+        "る",
+        "れ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "わ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "を",
+        "わ",
+        "ん",
+        "ら"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Wa?",
+      "options": [
+        "れ",
+        "ん",
+        "わ",
+        "ね"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Wo?",
+      "options": [
+        "お",
+        "る",
+        "を",
+        "ら"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "reference-chart",
+      "title": "Vocabulary Review — R & W Rows",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "桜 [さくら] (sakura)",
+          "cherry blossom"
+        ],
+        [
+          "車 [くるま] (kuruma)",
+          "car"
+        ],
+        [
+          "空 [そら] (sora)",
+          "sky"
+        ],
+        [
+          "私 [わたし] (watashi)",
+          "I / me"
+        ],
+        [
+          "川 [かわ] (kawa)",
+          "river"
+        ],
+        [
+          "さくらが すきです",
+          "I like cherry blossoms"
+        ]
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "そら",
+      "answer": "sora"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "わたし",
+      "answer": "watashi"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "さくら",
+          "cherry blossom"
+        ],
+        [
+          "くるま",
+          "car"
+        ],
+        [
+          "わたし",
+          "I / me"
+        ],
+        [
+          "かわ",
+          "river"
+        ],
+        [
+          "そら",
+          "sky"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "sky",
+      "answer": [
+        "そ",
+        "ら"
+      ],
+      "bank": [
+        "ら",
+        "り",
+        "る",
+        "れ",
+        "ろ",
+        "そ"
+      ],
+      "speakText": "そら"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "river",
+      "answer": [
+        "か",
+        "わ"
+      ],
+      "bank": [
+        "わ",
+        "を",
+        "ん",
+        "か"
+      ],
+      "speakText": "かわ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "noon",
+      "answer": [
+        "ひ",
+        "る"
+      ],
+      "bank": [
+        "ら",
+        "り",
+        "る",
+        "れ",
+        "ろ",
+        "ひ"
+      ],
+      "speakText": "ひる"
+    },
+    {
+      "type": "listening",
+      "speakText": "ろ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "る",
+        "ろ",
+        "ら",
+        "れ"
+      ],
+      "correctIndex": 1
+    }
+  ],
+  "id": "hiragana-cumulative-r-w"
+}

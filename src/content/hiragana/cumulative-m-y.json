@@ -1,0 +1,297 @@
+{
+  "exercises": [
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "む",
+          "back": "mu",
+          "speakText": "む"
+        },
+        {
+          "front": "や",
+          "back": "ya",
+          "speakText": "や"
+        },
+        {
+          "front": "め",
+          "back": "me",
+          "speakText": "め"
+        },
+        {
+          "front": "ゆ",
+          "back": "yu",
+          "speakText": "ゆ"
+        },
+        {
+          "front": "ま",
+          "back": "ma",
+          "speakText": "ま"
+        },
+        {
+          "front": "よ",
+          "back": "yo",
+          "speakText": "よ"
+        },
+        {
+          "front": "み",
+          "back": "mi",
+          "speakText": "み"
+        },
+        {
+          "front": "も",
+          "back": "mo",
+          "speakText": "も"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Yo?",
+      "options": [
+        "ゆ",
+        "も",
+        "よ",
+        "ま"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ma?",
+      "options": [
+        "も",
+        "や",
+        "ま",
+        "む"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Yu?",
+      "options": [
+        "ゆ",
+        "み",
+        "め",
+        "ま"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "よ",
+      "answer": "yo"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "め",
+      "answer": "me"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ゆ",
+      "answer": "yu"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ま",
+          "ma"
+        ],
+        [
+          "や",
+          "ya"
+        ],
+        [
+          "む",
+          "mu"
+        ],
+        [
+          "ゆ",
+          "yu"
+        ],
+        [
+          "も",
+          "mo"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "や",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ゆ",
+        "や",
+        "よ",
+        "ま"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "も",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ま",
+        "み",
+        "む",
+        "も"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ya?",
+      "options": [
+        "か",
+        "ゆ",
+        "や",
+        "よ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Yo?",
+      "options": [
+        "ゆ",
+        "ま",
+        "よ",
+        "む"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "reference-chart",
+      "title": "Vocabulary Review — M & Y Rows",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "町 [まち] (machi)",
+          "town"
+        ],
+        [
+          "店 [みせ] (mise)",
+          "shop"
+        ],
+        [
+          "山 [やま] (yama)",
+          "mountain"
+        ],
+        [
+          "雪 [ゆき] (yuki)",
+          "snow"
+        ],
+        [
+          "物 [もの] (mono)",
+          "thing"
+        ],
+        [
+          "やまが すきです",
+          "I like mountains"
+        ]
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "やま",
+      "answer": "yama"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "むし",
+      "answer": "mushi"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "まち",
+          "town"
+        ],
+        [
+          "みせ",
+          "shop"
+        ],
+        [
+          "やま",
+          "mountain"
+        ],
+        [
+          "ゆき",
+          "snow"
+        ],
+        [
+          "もの",
+          "thing"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "mountain",
+      "answer": [
+        "や",
+        "ま"
+      ],
+      "bank": [
+        "や",
+        "ゆ",
+        "よ",
+        "ま"
+      ],
+      "speakText": "やま"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "snow",
+      "answer": [
+        "ゆ",
+        "き"
+      ],
+      "bank": [
+        "や",
+        "ゆ",
+        "よ",
+        "き"
+      ],
+      "speakText": "ゆき"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "insect",
+      "answer": [
+        "む",
+        "し"
+      ],
+      "bank": [
+        "ま",
+        "み",
+        "む",
+        "め",
+        "も",
+        "し"
+      ],
+      "speakText": "むし"
+    },
+    {
+      "type": "listening",
+      "speakText": "ゆ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "や",
+        "ゆ",
+        "よ",
+        "む"
+      ],
+      "correctIndex": 1
+    }
+  ],
+  "id": "hiragana-cumulative-m-y"
+}

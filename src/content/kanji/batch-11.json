@@ -1,0 +1,1144 @@
+{
+  "id": "kanji-batch-11",
+  "misconceptions": [
+    {
+      "kanji": "後",
+      "error": "Overuses one reading of 後 and misses the reading in 午後.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "前",
+      "error": "Overuses one reading of 前 and misses the reading in 午前.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "時",
+      "error": "Overuses one reading of 時 and misses the reading in 時間.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "間",
+      "error": "Overuses one reading of 間 and misses the reading in 時間.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "東",
+      "error": "Overuses one reading of 東 and misses the reading in 東京.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Batch 11 - 後 前 時 間 東",
+      "intro": "This batch teaches 後 前 時 間 東 with anchor readings, N5 words, and short sentence practice.",
+      "rows": [
+        [
+          "Kanji",
+          "Meaning",
+          "Anchor reading",
+          "Other reading",
+          "Memory hook"
+        ],
+        [
+          "後",
+          "after / behind",
+          "ゴ",
+          "あと",
+          "後 → after / behind"
+        ],
+        [
+          "前",
+          "before / front",
+          "ゼン",
+          "まえ",
+          "前 → before / front"
+        ],
+        [
+          "時",
+          "time / hour",
+          "ジ",
+          "とき",
+          "時 → time / hour"
+        ],
+        [
+          "間",
+          "interval / between",
+          "カン",
+          "あいだ",
+          "間 → interval / between"
+        ],
+        [
+          "東",
+          "east",
+          "トウ",
+          "ひがし",
+          "東 → east"
+        ]
+      ],
+      "takeaway": "Recognise the kanji first, then confirm the reading from the word around it."
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "後",
+      "meaning": "after / behind",
+      "memoryHook": "後 visually anchors after / behind.",
+      "jlpt": "N5",
+      "strokeCount": 9,
+      "components": [
+        {
+          "shape": "後",
+          "note": "Use the whole shape as a visual anchor for after / behind; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ゴ",
+            "romaji": "go",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 午後.",
+            "anchorExampleWord": "午後"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "あと",
+            "romaji": "ato"
+          }
+        ]
+      },
+      "mnemonic": "Connect 後 to after / behind; practise ゴ in 午後 and compare it with あと in 後.",
+      "confusables": [
+        {
+          "kanji": "午",
+          "meaning": "noon",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "何",
+          "meaning": "what",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "午後",
+          "reading": "ごご",
+          "meaning": "afternoon / p.m."
+        },
+        {
+          "word": "後",
+          "reading": "あと",
+          "meaning": "after"
+        },
+        {
+          "word": "後ろ",
+          "reading": "うしろ",
+          "meaning": "behind"
+        },
+        {
+          "word": "後で",
+          "reading": "あとで",
+          "meaning": "later"
+        },
+        {
+          "word": "最後",
+          "reading": "さいご",
+          "meaning": "last / final"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "午後に友だちと会います。",
+          "highlight": "後",
+          "reading": "ごごに ともだちと あいます",
+          "en": "I meet a friend in the afternoon."
+        },
+        {
+          "jp": "授業の後で休みます。",
+          "highlight": "後",
+          "reading": "じゅぎょうの あとで やすみます",
+          "en": "I rest after class."
+        },
+        {
+          "jp": "後ろの席に座ります。",
+          "highlight": "後",
+          "reading": "うしろの せきに すわります",
+          "en": "I sit in the back seat."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "前",
+      "meaning": "before / front",
+      "memoryHook": "前 visually anchors before / front.",
+      "jlpt": "N5",
+      "strokeCount": 9,
+      "components": [
+        {
+          "shape": "前",
+          "note": "Use the whole shape as a visual anchor for before / front; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ゼン",
+            "romaji": "zen",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 午前.",
+            "anchorExampleWord": "午前"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "まえ",
+            "romaji": "mae"
+          }
+        ]
+      },
+      "mnemonic": "Connect 前 to before / front; practise ゼン in 午前 and compare it with まえ in 前.",
+      "confusables": [
+        {
+          "kanji": "午",
+          "meaning": "noon",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "何",
+          "meaning": "what",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "午前",
+          "reading": "ごぜん",
+          "meaning": "morning / a.m."
+        },
+        {
+          "word": "前",
+          "reading": "まえ",
+          "meaning": "front / before"
+        },
+        {
+          "word": "名前",
+          "reading": "なまえ",
+          "meaning": "name"
+        },
+        {
+          "word": "前に",
+          "reading": "まえに",
+          "meaning": "before / in front"
+        },
+        {
+          "word": "駅前",
+          "reading": "えきまえ",
+          "meaning": "in front of the station"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "午前にメールを書きます。",
+          "highlight": "前",
+          "reading": "ごぜんに メールを かきます",
+          "en": "I write an email in the morning."
+        },
+        {
+          "jp": "駅の前で待ちます。",
+          "highlight": "前",
+          "reading": "えきの まえで まちます",
+          "en": "I wait in front of the station."
+        },
+        {
+          "jp": "前に進みます。",
+          "highlight": "前",
+          "reading": "まえに すすみます",
+          "en": "I move forward."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "時",
+      "meaning": "time / hour",
+      "memoryHook": "時 visually anchors time / hour.",
+      "jlpt": "N5",
+      "strokeCount": 10,
+      "components": [
+        {
+          "shape": "時",
+          "note": "Use the whole shape as a visual anchor for time / hour; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ジ",
+            "romaji": "ji",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 時間.",
+            "anchorExampleWord": "時間"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "とき",
+            "romaji": "toki"
+          }
+        ]
+      },
+      "mnemonic": "Connect 時 to time / hour; practise ジ in 時間 and compare it with とき in 時.",
+      "confusables": [
+        {
+          "kanji": "午",
+          "meaning": "noon",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "何",
+          "meaning": "what",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "時間",
+          "reading": "じかん",
+          "meaning": "time"
+        },
+        {
+          "word": "時",
+          "reading": "とき",
+          "meaning": "time / occasion"
+        },
+        {
+          "word": "何時",
+          "reading": "なんじ",
+          "meaning": "what time"
+        },
+        {
+          "word": "一時",
+          "reading": "いちじ",
+          "meaning": "one o’clock"
+        },
+        {
+          "word": "時計",
+          "reading": "とけい",
+          "meaning": "clock / watch"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "時間を確認します。",
+          "highlight": "時",
+          "reading": "じかんを かくにんします",
+          "en": "I check the time."
+        },
+        {
+          "jp": "三時に授業が始まります。",
+          "highlight": "時",
+          "reading": "さんじに じゅぎょうが はじまります",
+          "en": "Class starts at three o’clock."
+        },
+        {
+          "jp": "時計を買います。",
+          "highlight": "時",
+          "reading": "とけいを かいます",
+          "en": "I buy a clock."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "間",
+      "meaning": "interval / between",
+      "memoryHook": "間 visually anchors interval / between.",
+      "jlpt": "N5",
+      "strokeCount": 12,
+      "components": [
+        {
+          "shape": "間",
+          "note": "Use the whole shape as a visual anchor for interval / between; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "カン",
+            "romaji": "kan",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 時間.",
+            "anchorExampleWord": "時間"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "あいだ",
+            "romaji": "aida"
+          }
+        ]
+      },
+      "mnemonic": "Connect 間 to interval / between; practise カン in 時間 and compare it with あいだ in 間.",
+      "confusables": [
+        {
+          "kanji": "午",
+          "meaning": "noon",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "何",
+          "meaning": "what",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "時間",
+          "reading": "じかん",
+          "meaning": "time"
+        },
+        {
+          "word": "間",
+          "reading": "あいだ",
+          "meaning": "between"
+        },
+        {
+          "word": "一週間",
+          "reading": "いっしゅうかん",
+          "meaning": "one week"
+        },
+        {
+          "word": "昼間",
+          "reading": "ひるま",
+          "meaning": "daytime"
+        },
+        {
+          "word": "人間",
+          "reading": "にんげん",
+          "meaning": "human being"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "日本語の時間です。",
+          "highlight": "間",
+          "reading": "にほんごの じかんです",
+          "en": "It is Japanese class time."
+        },
+        {
+          "jp": "駅と学校の間を歩きます。",
+          "highlight": "間",
+          "reading": "えきと がっこうの あいだを あるきます",
+          "en": "I walk between the station and the school."
+        },
+        {
+          "jp": "一週間に三回勉強します。",
+          "highlight": "間",
+          "reading": "いっしゅうかんに さんかい べんきょうします",
+          "en": "I study three times a week."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "東",
+      "meaning": "east",
+      "memoryHook": "東 visually anchors east.",
+      "jlpt": "N5",
+      "strokeCount": 8,
+      "components": [
+        {
+          "shape": "東",
+          "note": "Use the whole shape as a visual anchor for east; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "トウ",
+            "romaji": "tou",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 東京.",
+            "anchorExampleWord": "東京"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "ひがし",
+            "romaji": "higashi"
+          }
+        ]
+      },
+      "mnemonic": "Connect 東 to east; practise トウ in 東京 and compare it with ひがし in 東.",
+      "confusables": [
+        {
+          "kanji": "午",
+          "meaning": "noon",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "何",
+          "meaning": "what",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "東京",
+          "reading": "とうきょう",
+          "meaning": "Tokyo"
+        },
+        {
+          "word": "東",
+          "reading": "ひがし",
+          "meaning": "east"
+        },
+        {
+          "word": "東口",
+          "reading": "ひがしぐち",
+          "meaning": "east exit"
+        },
+        {
+          "word": "東西",
+          "reading": "とうざい",
+          "meaning": "east and west"
+        },
+        {
+          "word": "関東",
+          "reading": "かんとう",
+          "meaning": "Kanto region"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "東京へ行きます。",
+          "highlight": "東",
+          "reading": "とうきょうへ いきます",
+          "en": "I go to Tokyo."
+        },
+        {
+          "jp": "東口で待ちます。",
+          "highlight": "東",
+          "reading": "ひがしぐちで まちます",
+          "en": "I wait at the east exit."
+        },
+        {
+          "jp": "東の空が明るいです。",
+          "highlight": "東",
+          "reading": "ひがしの そらが あかるいです",
+          "en": "The eastern sky is bright."
+        }
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "後",
+          "back": "after / behind - ゴ",
+          "speakText": "後"
+        },
+        {
+          "front": "前",
+          "back": "before / front - ゼン",
+          "speakText": "前"
+        },
+        {
+          "front": "時",
+          "back": "time / hour - ジ",
+          "speakText": "時"
+        },
+        {
+          "front": "間",
+          "back": "interval / between - カン",
+          "speakText": "間"
+        },
+        {
+          "front": "東",
+          "back": "east - トウ",
+          "speakText": "東"
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 後 (kana or romaji):",
+      "question": "後",
+      "speakText": "後",
+      "answer": "ゴ",
+      "acceptAlternatives": [
+        "go",
+        "ゴ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 前 (kana or romaji):",
+      "question": "前",
+      "speakText": "前",
+      "answer": "ゼン",
+      "acceptAlternatives": [
+        "zen",
+        "ゼン"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 時 (kana or romaji):",
+      "question": "時",
+      "speakText": "時",
+      "answer": "ジ",
+      "acceptAlternatives": [
+        "ji",
+        "ジ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 間 (kana or romaji):",
+      "question": "間",
+      "speakText": "間",
+      "answer": "カン",
+      "acceptAlternatives": [
+        "kan",
+        "カン"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 東 (kana or romaji):",
+      "question": "東",
+      "speakText": "東",
+      "answer": "トウ",
+      "acceptAlternatives": [
+        "to",
+        "tou",
+        "トウ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 午後 in hiragana or romaji:",
+      "question": "午後",
+      "speakText": "午後",
+      "answer": "ごご",
+      "acceptAlternatives": [
+        "gogo",
+        "ごご"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "後"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 午前 in hiragana or romaji:",
+      "question": "午前",
+      "speakText": "午前",
+      "answer": "ごぜん",
+      "acceptAlternatives": [
+        "gozen",
+        "ごぜん"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "前"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 時間 in hiragana or romaji:",
+      "question": "時間",
+      "speakText": "時間",
+      "answer": "じかん",
+      "acceptAlternatives": [
+        "jikan",
+        "じかん"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "時"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 時間 in hiragana or romaji:",
+      "question": "時間",
+      "speakText": "時間",
+      "answer": "じかん",
+      "acceptAlternatives": [
+        "jikan",
+        "じかん"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "間"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 東京 in hiragana or romaji:",
+      "question": "東京",
+      "speakText": "東京",
+      "answer": "とうきょう",
+      "acceptAlternatives": [
+        "tokyo",
+        "toukyou",
+        "とうきょう"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "東"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 時 in hiragana or romaji:",
+      "question": "時",
+      "speakText": "時",
+      "answer": "とき",
+      "acceptAlternatives": [
+        "toki",
+        "とき"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "時"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "午",
+        "[SLOT]",
+        "に友だちと会います。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "後",
+        "answerRomaji": "go",
+        "hint": "Choose the kanji for after / behind.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "後",
+            "correct": true
+          },
+          {
+            "text": "前",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "前 means “before / front,” so it does not fit this prompt."
+          },
+          {
+            "text": "時",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "時 means “time / hour,” so it does not fit this prompt."
+          },
+          {
+            "text": "間",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "間 means “interval / between,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I meet a friend in the afternoon.",
+      "speakText": "午後に友だちと会います。",
+      "targetKanji": "後",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "間を確認します。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "時",
+        "answerRomaji": "ji",
+        "hint": "Choose the kanji for time / hour.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "時",
+            "correct": true
+          },
+          {
+            "text": "後",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "後 means “after / behind,” so it does not fit this prompt."
+          },
+          {
+            "text": "前",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "前 means “before / front,” so it does not fit this prompt."
+          },
+          {
+            "text": "間",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "間 means “interval / between,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I check the time.",
+      "speakText": "時間を確認します。",
+      "targetKanji": "時",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "京へ行きます。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "東",
+        "answerRomaji": "tou",
+        "hint": "Choose the kanji for east.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "東",
+            "correct": true
+          },
+          {
+            "text": "後",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "後 means “after / behind,” so it does not fit this prompt."
+          },
+          {
+            "text": "前",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "前 means “before / front,” so it does not fit this prompt."
+          },
+          {
+            "text": "時",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "時 means “time / hour,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I go to Tokyo.",
+      "speakText": "東京へ行きます。",
+      "targetKanji": "東",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 後 read in 午後?",
+      "word": "午後",
+      "targetKanji": "後",
+      "options": [
+        {
+          "kana": "ごご",
+          "romaji": "gogo",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "午後 is read ごご in this vocabulary item."
+        },
+        {
+          "kana": "ゴ",
+          "romaji": "go",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "ゴ is useful for 後, but not the full reading of 午後."
+        },
+        {
+          "kana": "あと",
+          "romaji": "ato",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "あと is another reading connected to 後, not the reading used in 午後."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 時 read in 時間?",
+      "word": "時間",
+      "targetKanji": "時",
+      "options": [
+        {
+          "kana": "じかん",
+          "romaji": "jikan",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "時間 is read じかん in this vocabulary item."
+        },
+        {
+          "kana": "ジ",
+          "romaji": "ji",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "ジ is useful for 時, but not the full reading of 時間."
+        },
+        {
+          "kana": "とき",
+          "romaji": "toki",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "とき is another reading connected to 時, not the reading used in 時間."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 東 read in 東京?",
+      "word": "東京",
+      "targetKanji": "東",
+      "options": [
+        {
+          "kana": "とうきょう",
+          "romaji": "tokyo",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "東京 is read とうきょう in this vocabulary item."
+        },
+        {
+          "kana": "トウ",
+          "romaji": "tou",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "トウ is useful for 東, but not the full reading of 東京."
+        },
+        {
+          "kana": "ひがし",
+          "romaji": "higashi",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "ひがし is another reading connected to 東, not the reading used in 東京."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji means 'before / front'?",
+      "options": [
+        {
+          "text": "前",
+          "correct": true
+        },
+        {
+          "text": "後",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "後 means “after / behind,” so it does not fit this prompt."
+        },
+        {
+          "text": "時",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "時 means “time / hour,” so it does not fit this prompt."
+        },
+        {
+          "text": "間",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "間 means “interval / between,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the kanji you hear:",
+      "speakText": "間",
+      "options": [
+        {
+          "text": "間",
+          "correct": true
+        },
+        {
+          "text": "後",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "後 means “after / behind,” so it does not fit this prompt."
+        },
+        {
+          "text": "前",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "前 means “before / front,” so it does not fit this prompt."
+        },
+        {
+          "text": "時",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "時 means “time / hour,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji in 東京 (Tokyo) means 'east'?",
+      "options": [
+        {
+          "text": "東",
+          "correct": true
+        },
+        {
+          "text": "後",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "後 means “after / behind,” so it does not fit this prompt."
+        },
+        {
+          "text": "前",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "前 means “before / front,” so it does not fit this prompt."
+        },
+        {
+          "text": "時",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "時 means “time / hour,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Review: which older kanji means 'noon'?",
+      "reviewFrom": "kanji-batch-10",
+      "options": [
+        {
+          "text": "午",
+          "correct": true
+        },
+        {
+          "text": "右",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "右 means “right,” so it does not fit this prompt."
+        },
+        {
+          "text": "左",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "左 means “left,” so it does not fit this prompt."
+        },
+        {
+          "text": "休",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "休 means “rest,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Review: match older kanji to their meanings:",
+      "reviewFrom": [
+        "kanji-batch-09",
+        "kanji-batch-10"
+      ],
+      "pairs": [
+        {
+          "left": "左",
+          "right": "left",
+          "reviewFrom": "kanji-batch-10"
+        },
+        {
+          "left": "休",
+          "right": "rest",
+          "reviewFrom": "kanji-batch-10"
+        },
+        {
+          "left": "何",
+          "right": "what",
+          "reviewFrom": "kanji-batch-10"
+        },
+        {
+          "left": "午",
+          "right": "noon",
+          "reviewFrom": "kanji-batch-10"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each kanji to its meaning:",
+      "pairs": [
+        {
+          "left": "後",
+          "right": "after / behind"
+        },
+        {
+          "left": "前",
+          "right": "before / front"
+        },
+        {
+          "left": "時",
+          "right": "time / hour"
+        },
+        {
+          "left": "間",
+          "right": "interval / between"
+        },
+        {
+          "left": "東",
+          "right": "east"
+        }
+      ]
+    }
+  ]
+}

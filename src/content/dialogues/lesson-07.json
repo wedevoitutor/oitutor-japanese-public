@@ -1,0 +1,1456 @@
+{
+  "id": "dialogues-lesson-07",
+  "dictionaryVocabulary": [
+    {
+      "word": "いる",
+      "kana": "いる",
+      "romaji": "iru",
+      "partOfSpeech": "verb",
+      "meaning": "to exist / to be there",
+      "description": "Used for the existence of people and animals.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "ここに猫がいる。",
+        "kana": "ここにねこがいる。",
+        "romaji": "Koko ni neko ga iru.",
+        "english": "There is a cat here.",
+        "highlight": "いる"
+      },
+      "tags": ["verbs", "existence", "dialogue-07"]
+    },
+    {
+      "word": "ある",
+      "kana": "ある",
+      "romaji": "aru",
+      "partOfSpeech": "verb",
+      "meaning": "to exist / there is",
+      "description": "Used for the existence of inanimate things, plants, events, or abstract things.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "机に本がある。",
+        "kana": "つくえにほんがある。",
+        "romaji": "Tsukue ni hon ga aru.",
+        "english": "There is a book on the desk.",
+        "highlight": "ある"
+      },
+      "tags": ["verbs", "existence", "dialogue-07"]
+    },
+    {
+      "word": "行く",
+      "kana": "いく",
+      "romaji": "iku",
+      "partOfSpeech": "verb",
+      "meaning": "to go",
+      "description": "Used when moving away from the speaker toward another place.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "映画を見に行きます。",
+        "kana": "えいがをみにいきます。",
+        "romaji": "Eiga o mi ni ikimasu.",
+        "english": "I am going to watch a movie.",
+        "highlight": "行"
+      },
+      "tags": ["verbs", "movement", "dialogue-07"]
+    },
+    {
+      "word": "上げる",
+      "kana": "あげる",
+      "romaji": "ageru",
+      "partOfSpeech": "verb",
+      "meaning": "to give",
+      "description": "Used when giving something to someone else.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "お母さんにプレゼントをあげます。",
+        "kana": "おかあさんにぷれぜんとをあげます。",
+        "romaji": "Okaasan ni purezento o agemasu.",
+        "english": "I give a present to my mother.",
+        "highlight": "あげ"
+      },
+      "tags": ["verbs", "giving", "dialogue-07"]
+    },
+    {
+      "word": "できる",
+      "kana": "できる",
+      "romaji": "dekiru",
+      "partOfSpeech": "verb",
+      "meaning": "can do / be able to",
+      "description": "Used to say that someone can do something or that something is possible.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "日本語ができます。",
+        "kana": "にほんごができます。",
+        "romaji": "Nihongo ga dekimasu.",
+        "english": "I can speak Japanese.",
+        "highlight": "でき"
+      },
+      "tags": ["verbs", "ability", "dialogue-07"]
+    },
+    {
+      "word": "欲しい",
+      "kana": "ほしい",
+      "romaji": "hoshii",
+      "partOfSpeech": "i-adjective",
+      "meaning": "wanted / want",
+      "description": "Used when saying that you want a thing.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "新しい靴が欲しいです。",
+        "kana": "あたらしいくつがほしいです。",
+        "romaji": "Atarashii kutsu ga hoshii desu.",
+        "english": "I want new shoes.",
+        "highlight": "欲しい"
+      },
+      "tags": ["adjectives", "desire", "dialogue-07"]
+    },
+    {
+      "word": "帰る",
+      "kana": "かえる",
+      "romaji": "kaeru",
+      "partOfSpeech": "verb",
+      "meaning": "to return / go home",
+      "description": "Used when returning home or going back to a place.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "うちに帰ります。",
+        "kana": "うちにかえります。",
+        "romaji": "Uchi ni kaerimasu.",
+        "english": "I am going home.",
+        "highlight": "帰"
+      },
+      "tags": ["verbs", "movement", "dialogue-07"]
+    },
+    {
+      "word": "言う",
+      "kana": "いう",
+      "romaji": "iu",
+      "partOfSpeech": "verb",
+      "meaning": "to say",
+      "description": "Used when saying words or calling something by a name.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "ありがとうと言います。",
+        "kana": "ありがとうといいます。",
+        "romaji": "Arigatou to iimasu.",
+        "english": "I say thank you.",
+        "highlight": "言"
+      },
+      "tags": ["verbs", "communication", "dialogue-07"]
+    }
+  ],
+  "misconceptions": [
+    {
+      "target": "imasu-arimasu",
+      "error": "Uses あります for people or います for objects.",
+      "mitigation": "Comparison cards and meaning checks contrast animate and inanimate existence."
+    },
+    {
+      "target": "hoshii-vs-tai",
+      "error": "Uses ほしい for actions or ～たい for nouns.",
+      "mitigation": "Formula-fill and MC items separate noun wants from verb wants."
+    },
+    {
+      "target": "suki-pattern",
+      "error": "Treats すきです as an English-style action verb.",
+      "mitigation": "Reference rows and response drills use the がすきです frame."
+    },
+    {
+      "target": "casual-verb-register",
+      "error": "Uses plain casual verb forms in formal situations.",
+      "mitigation": "Comparison cards and shadowing keep polite and casual forms distinct."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Basic Verbs - Standard · Casual · Formal",
+      "intro": "Essential N5 verbs for existence, wanting, liking, motion, daily actions, and communication.",
+      "rows": [
+        [
+          "Focus",
+          "Japanese",
+          "Romaji",
+          "Meaning",
+          "Context"
+        ],
+        [
+          "CORE",
+          "ここに ねこが います。",
+          "Koko ni neko ga imasu.",
+          "There is a cat here. (animate)",
+          "Core source item from the verb-reference lesson."
+        ],
+        [
+          "CORE",
+          "つくえに ほんが あります。",
+          "Tsukue ni hon ga arimasu.",
+          "There is a book on the desk. (inanimate)",
+          "Core source item from the verb-reference lesson."
+        ],
+        [
+          "CORE",
+          "えいがを みに いきます。",
+          "Eiga wo mi ni ikimasu.",
+          "I'm going to watch a movie.",
+          "Core source item from the verb-reference lesson."
+        ],
+        [
+          "CORE",
+          "おかあさんに プレゼントを あげます。",
+          "Okaasan ni purezento wo agemasu.",
+          "I give a present to my mother.",
+          "Core source item from the verb-reference lesson."
+        ],
+        [
+          "CORE",
+          "せんせいが ほんを くれました。",
+          "Sensei ga hon wo kuremashita.",
+          "My teacher gave me a book.",
+          "Core source item from the verb-reference lesson."
+        ],
+        [
+          "CORE",
+          "にほんごが できます。",
+          "Nihongo ga dekimasu.",
+          "I can speak Japanese.",
+          "Support verb or phrase from source flashcards."
+        ],
+        [
+          "CORE",
+          "あたらしい くつが ほしいです。",
+          "Atarashii kutsu ga hoshii desu.",
+          "I want new shoes.",
+          "Support verb or phrase from source flashcards."
+        ],
+        [
+          "CORE",
+          "この うたを しっています。",
+          "Kono uta wo shitte imasu.",
+          "I know this song.",
+          "Support verb or phrase from source flashcards."
+        ],
+        [
+          "CORE",
+          "うちに かえります。",
+          "Uchi ni kaerimasu.",
+          "I'm going home.",
+          "Support verb or phrase from source flashcards."
+        ],
+        [
+          "CORE",
+          "「ありがとう」と いいます。",
+          "\"Arigatou\" to iimasu.",
+          "I say \"thank you.\"",
+          "Support verb or phrase from source flashcards."
+        ]
+      ],
+      "takeaway": "Pick the verb pattern that matches the meaning: います for animate existence, あります for things, and ～たい for wanting to do an action."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "A - FORMAL · University Library",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "エマ",
+          "jp": "すみません、としょかんに にほんごの じしょが ありますか？",
+          "romaji": "Sumimasen, toshokan ni Nihongo no jisho ga arimasu ka?",
+          "en": "Excuse me, is there a Japanese dictionary in the library?"
+        },
+        {
+          "speaker": "やまだ先生",
+          "jp": "はい、にかいに ございます。パソコンも ございます から、べんきょうが できますよ。",
+          "romaji": "Hai, nikai ni gozaimasu. Pasokon mo gozaimasu kara, benkyou ga dekimasu yo.",
+          "en": "Yes, it's on the second floor. There are computers too, so you can study."
+        },
+        {
+          "speaker": "エマ",
+          "jp": "ありがとうございます。いまから いってきます。",
+          "romaji": "Arigatou gozaimasu. Ima kara itte kimasu.",
+          "en": "Thank you very much. I'll head there now. (lit. \"I'll go and come back\")"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "B - STANDARD · Weekend Plans",
+      "register": "polite",
+      "lines": [
+        {
+          "speaker": "みどり",
+          "jp": "しゅうまつ、えいがを みに いきますか？あたらしい えいがが あります よ。",
+          "romaji": "Shuumatsu, eiga wo mi ni ikimasu ka? Atarashii eiga ga arimasu yo.",
+          "en": "Do you want to go see a movie this weekend? There's a new one."
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "いきたいです！でも まず おかあさんに プレゼントを あげます。なんじに うちを でますか？",
+          "romaji": "Ikitai desu! Demo mazu okaasan ni purezento wo agemasu. Nanji ni uchi wo demasu ka?",
+          "en": "I want to go! But first I'll give a present to my mum. What time do you leave the house?"
+        },
+        {
+          "speaker": "みどり",
+          "jp": "ごごいちじに でましょう。よるには うちに かえります。",
+          "romaji": "Gogo ichiji ni demashou. Yoru ni wa uchi ni kaerimasu.",
+          "en": "Let's leave at 1pm. I'll go home in the evening."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "C - CASUAL · Friends Talking About Music",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "ゆき",
+          "jp": "ねえ、この バンド しってる？すごく すきなんだけど。",
+          "romaji": "Nee, kono bando shitteru? Sugoku suki nan da kedo.",
+          "en": "Hey, do you know this band? I really like them."
+        },
+        {
+          "speaker": "ルーカス",
+          "jp": "しってる よ！ぼくも すきだ よ。ライブに いきたい な。チケット ほしいね。",
+          "romaji": "Shitteru yo! Boku mo suki da yo. Raibu ni ikitai na. Chiketto hoshii ne.",
+          "en": "I know them! I like them too. I want to go to a live show. I want tickets."
+        },
+        {
+          "speaker": "ゆき",
+          "jp": "じゃあ しらべて みよう よ！あとで かえる？",
+          "romaji": "Jaa shirabete miyou yo! Atode kaeru?",
+          "en": "Then let's try looking it up! Are you going home later?"
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase matches: \"There is a cat here. (animate)\"?",
+      "title": "Contrast 1: ここに ねこが います。",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "ここに ねこが います。",
+          "romaji": "Koko ni neko ga imasu.",
+          "en": "There is a cat here. (animate)",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "つくえに ほんが あります。",
+          "romaji": "Tsukue ni hon ga arimasu.",
+          "en": "There is a book on the desk. (inanimate)",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "えいがを みに いきます。",
+          "romaji": "Eiga wo mi ni ikimasu.",
+          "en": "I'm going to watch a movie.",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "ここに ねこが います。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase matches: \"I'm going to watch a movie.\"?",
+      "title": "Contrast 3: えいがを みに いきます。",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "えいがを みに いきます。",
+          "romaji": "Eiga wo mi ni ikimasu.",
+          "en": "I'm going to watch a movie.",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "おかあさんに プレゼントを あげます。",
+          "romaji": "Okaasan ni purezento wo agemasu.",
+          "en": "I give a present to my mother.",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "せんせいが ほんを くれました。",
+          "romaji": "Sensei ga hon wo kuremashita.",
+          "en": "My teacher gave me a book.",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "えいがを みに いきます。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase matches: \"My teacher gave me a book.\"?",
+      "title": "Contrast 5: せんせいが ほんを くれました。",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "せんせいが ほんを くれました。",
+          "romaji": "Sensei ga hon wo kuremashita.",
+          "en": "My teacher gave me a book.",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "にほんごが できます。",
+          "romaji": "Nihongo ga dekimasu.",
+          "en": "I can speak Japanese.",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "あたらしい くつが ほしいです。",
+          "romaji": "Atarashii kutsu ga hoshii desu.",
+          "en": "I want new shoes.",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "せんせいが ほんを くれました。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase matches: \"I want new shoes.\"?",
+      "title": "Contrast 7: あたらしい くつが ほしいです。",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "あたらしい くつが ほしいです。",
+          "romaji": "Atarashii kutsu ga hoshii desu.",
+          "en": "I want new shoes.",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "この うたを しっています。",
+          "romaji": "Kono uta wo shitte imasu.",
+          "en": "I know this song.",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "うちに かえります。",
+          "romaji": "Uchi ni kaerimasu.",
+          "en": "I'm going home.",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "あたらしい くつが ほしいです。"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the key phrase from the source lesson:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "ここに ねこが います",
+        "answerRomaji": "koko ni neko ga imasu",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "koko ni neko ga imasu"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "ここに ねこが います。",
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the whole source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "えいがを みに いきます",
+        "answerRomaji": "eiga wo mi ni ikimasu",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "eiga o mi ni ikimasu",
+          "eiga wo mi ni ikimasu"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "えいがを みに いきます。",
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the whole source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "うちに かえります",
+        "answerRomaji": "uchi ni kaerimasu",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "uchi ni kaerimasu"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "うちに かえります。",
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "ここに ねこが います。",
+          "romaji": "Koko ni neko ga imasu.",
+          "en": "There is a cat here. (animate)"
+        },
+        {
+          "jp": "つくえに ほんが あります。",
+          "romaji": "Tsukue ni hon ga arimasu.",
+          "en": "There is a book on the desk. (inanimate)"
+        },
+        {
+          "jp": "えいがを みに いきます。",
+          "romaji": "Eiga wo mi ni ikimasu.",
+          "en": "I'm going to watch a movie."
+        },
+        {
+          "jp": "おかあさんに プレゼントを あげます。",
+          "romaji": "Okaasan ni purezento wo agemasu.",
+          "en": "I give a present to my mother."
+        },
+        {
+          "jp": "せんせいが ほんを くれました。",
+          "romaji": "Sensei ga hon wo kuremashita.",
+          "en": "My teacher gave me a book."
+        },
+        {
+          "jp": "にほんごが できます。",
+          "romaji": "Nihongo ga dekimasu.",
+          "en": "I can speak Japanese."
+        },
+        {
+          "jp": "あたらしい くつが ほしいです。",
+          "romaji": "Atarashii kutsu ga hoshii desu.",
+          "en": "I want new shoes."
+        },
+        {
+          "jp": "この うたを しっています。",
+          "romaji": "Kono uta wo shitte imasu.",
+          "en": "I know this song."
+        },
+        {
+          "jp": "うちに かえります。",
+          "romaji": "Uchi ni kaerimasu.",
+          "en": "I'm going home."
+        },
+        {
+          "jp": "「ありがとう」と いいます。",
+          "romaji": "\"Arigatou\" to iimasu.",
+          "en": "I say \"thank you.\""
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "こうえんに ねこが います。",
+      "options": [
+        {
+          "text": "There is a cat in the park.",
+          "correct": true
+        },
+        {
+          "text": "There is a cat on the desk.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "The cat goes to the park.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I like cats.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いえを でます。",
+      "options": [
+        {
+          "text": "I go home.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I leave the house.",
+          "correct": true
+        },
+        {
+          "text": "I enter the house.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I clean the house.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "コーヒーが のみたいです。",
+      "options": [
+        {
+          "text": "I have coffee.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I like coffee.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I want to drink coffee.",
+          "correct": true
+        },
+        {
+          "text": "I want coffee (as an object).",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ともだちが プレゼントを くれました。",
+      "options": [
+        {
+          "text": "I gave a present to my friend.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "My friend wants a present.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "My friend gave me a present.",
+          "correct": true
+        },
+        {
+          "text": "I received a present from a shop.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "その こと しっていますか？",
+      "options": [
+        {
+          "text": "Do you know about that?",
+          "correct": true
+        },
+        {
+          "text": "Do you want to know?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Did you find that out?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Can you tell me about that?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "テーブルに かばんを おきます。",
+      "options": [
+        {
+          "text": "I take my bag from the table.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I put my bag on the table.",
+          "correct": true
+        },
+        {
+          "text": "My bag is on the table.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I want a bag.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ごごに うちに かえります。",
+      "options": [
+        {
+          "text": "I'm going out this afternoon.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I'm leaving home this afternoon.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I'm going back home in the afternoon.",
+          "correct": true
+        },
+        {
+          "text": "I arrived home this afternoon.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "えいがが すきです。",
+      "options": [
+        {
+          "text": "I want to see a movie.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I can watch movies.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I like movies.",
+          "correct": true
+        },
+        {
+          "text": "There are movies.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "としょかんに じしょが ありますか？",
+        "romaji": "Toshokan ni jisho ga arimasu ka?",
+        "speakText": "としょかんに じしょが ありますか？"
+      },
+      "options": [
+        {
+          "jp": "はい、にかいに あります。",
+          "romaji": "Hai, nikai ni arimasu.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はい、います。",
+          "romaji": "Hai, imasu.",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This is a familiar earlier phrase, but it does not answer this prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はい、いきます。",
+          "romaji": "Hai, ikimasu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "えいがを みに いきますか？",
+        "romaji": "Eiga wo mi ni ikimasu ka?",
+        "speakText": "えいがを みに いきますか？"
+      },
+      "options": [
+        {
+          "jp": "えいがが あります。",
+          "romaji": "Eiga ga arimasu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption0",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はい、いきたいです！なんじに でますか？",
+          "romaji": "Hai, ikitai desu! Nanji ni demasu ka?",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "えいがを しっています。",
+          "romaji": "Eiga wo shitte imasu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "この バンド しってる？",
+        "romaji": "Kono bando shitteru?",
+        "speakText": "この バンド しってる？"
+      },
+      "options": [
+        {
+          "jp": "しってるよ！すごく すきだよ。",
+          "romaji": "Shitteru yo! Sugoku suki da yo.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "friends",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "バンドが あります。",
+          "romaji": "Bando ga arimasu.",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This is a familiar earlier phrase, but it does not answer this prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "バンドに いきます。",
+          "romaji": "Bando ni ikimasu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "なにが ほしいですか？",
+        "romaji": "Nani ga hoshii desu ka?",
+        "speakText": "なにが ほしいですか？"
+      },
+      "options": [
+        {
+          "jp": "べんきょうしたいです。",
+          "romaji": "Benkyou shitai desu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption0",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "あたらしい じてんしゃが ほしいです。",
+          "romaji": "Atarashii jitensha ga hoshii desu.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "ともだちが います。",
+          "romaji": "Tomodachi ga imasu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Review from dialogues-lesson-05: choose the best response:",
+      "reviewFrom": "dialogues-lesson-05",
+      "question": {
+        "jp": "しごとは なんですか？",
+        "romaji": "Shigoto wa nan desu ka?",
+        "speakText": "しごとは なんですか？"
+      },
+      "options": [
+        {
+          "jp": "エンジニアです。",
+          "romaji": "Enjinia desu.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はじめまして、よろしく！",
+          "romaji": "Hajimemashite, yoroshiku!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor0",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "おはようございます！",
+          "romaji": "Ohayou gozaimasu!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor1",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "formal",
+          "relationship": "junior-to-senior",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Review from dialogues-lesson-06: choose the best response:",
+      "reviewFrom": "dialogues-lesson-06",
+      "question": {
+        "jp": "どこの くにから きましたか？",
+        "romaji": "Doko no kuni kara kimashita ka?",
+        "speakText": "どこの くにから きましたか？"
+      },
+      "options": [
+        {
+          "jp": "ポーランドから きました。",
+          "romaji": "Poorando kara kimashita.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はじめまして、よろしく！",
+          "romaji": "Hajimemashite, yoroshiku!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor0",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "おはようございます！",
+          "romaji": "Ohayou gozaimasu!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor1",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "formal",
+          "relationship": "junior-to-senior",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "ここに ねこが います。",
+      "answer": "koko ni neko ga imasu",
+      "acceptAlternatives": [],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "えいがを みに いきます。",
+      "answer": "eiga wo mi ni ikimasu",
+      "acceptAlternatives": [
+        "eiga o mi ni ikimasu"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "うちに かえります。",
+      "answer": "uchi ni kaerimasu",
+      "acceptAlternatives": [],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "にほんごが できます。",
+      "answer": "nihongo ga dekimasu",
+      "acceptAlternatives": [],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "ともだちに プレゼントを あげます。",
+      "answer": "tomodachi ni purezento wo agemasu",
+      "acceptAlternatives": [
+        "tomodachi ni purezento o agemasu"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "あたらしい くつが ほしいです。",
+      "answer": "atarashii kutsu ga hoshii desu",
+      "acceptAlternatives": [],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "この うたを しっています。",
+      "answer": "kono uta wo shitte imasu",
+      "acceptAlternatives": [
+        "kono uta o shitte imasu",
+        "kono uta wo shitteimasu"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "いえを でます。",
+      "answer": "ie wo demasu",
+      "acceptAlternatives": [
+        "uchi wo demasu",
+        "ie o demasu"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "すみません、としょかんに にほんごの じしょが ありますか？",
+      "romaji": "Sumimasen, toshokan ni Nihongo no jisho ga arimasu ka?",
+      "en": "Excuse me, is there a Japanese dictionary in the library?",
+      "speakText": "すみません、としょかんに にほんごの じしょが ありますか？",
+      "register": "formal",
+      "dialogueContext": "A - Formal · University Library",
+      "speaker": "エマ"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "はい、にかいに ございます。パソコンも ございます から、べんきょうが できますよ。",
+      "romaji": "Hai, nikai ni gozaimasu. Pasokon mo gozaimasu kara, benkyou ga dekimasu yo.",
+      "en": "Yes, it's on the second floor. There are computers too, so you can study.",
+      "speakText": "はい、にかいに ございます。パソコンも ございます から、べんきょうが できますよ。",
+      "register": "formal",
+      "dialogueContext": "A - Formal · University Library",
+      "speaker": "やまだ先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ありがとうございます。いまから いってきます。",
+      "romaji": "Arigatou gozaimasu. Ima kara itte kimasu.",
+      "en": "Thank you very much. I'll head there now. (lit. \"I'll go and come back\")",
+      "speakText": "ありがとうございます。いまから いってきます。",
+      "register": "formal",
+      "dialogueContext": "A - Formal · University Library",
+      "speaker": "エマ"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "しゅうまつ、えいがを みに いきますか？あたらしい えいがが あります よ。",
+      "romaji": "Shuumatsu, eiga wo mi ni ikimasu ka? Atarashii eiga ga arimasu yo.",
+      "en": "Do you want to go see a movie this weekend? There's a new one.",
+      "speakText": "しゅうまつ、えいがを みに いきますか？あたらしい えいがが あります よ。",
+      "register": "polite",
+      "dialogueContext": "B - Standard · Weekend Plans",
+      "speaker": "みどり"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いきたいです！でも まず おかあさんに プレゼントを あげます。なんじに うちを でますか？",
+      "romaji": "Ikitai desu! Demo mazu okaasan ni purezento wo agemasu. Nanji ni uchi wo demasu ka?",
+      "en": "I want to go! But first I'll give a present to my mum. What time do you leave the house?",
+      "speakText": "いきたいです！でも まず おかあさんに プレゼントを あげます。なんじに うちを でますか？",
+      "register": "polite",
+      "dialogueContext": "B - Standard · Weekend Plans",
+      "speaker": "アレックス"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ごごいちじに でましょう。よるには うちに かえります。",
+      "romaji": "Gogo ichiji ni demashou. Yoru ni wa uchi ni kaerimasu.",
+      "en": "Let's leave at 1pm. I'll go home in the evening.",
+      "speakText": "ごごいちじに でましょう。よるには うちに かえります。",
+      "register": "polite",
+      "dialogueContext": "B - Standard · Weekend Plans",
+      "speaker": "みどり"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ねえ、この バンド しってる？すごく すきなんだけど。",
+      "romaji": "Nee, kono bando shitteru? Sugoku suki nan da kedo.",
+      "en": "Hey, do you know this band? I really like them.",
+      "speakText": "ねえ、この バンド しってる？すごく すきなんだけど。",
+      "register": "casual",
+      "dialogueContext": "C - Casual · Friends Talking About Music",
+      "speaker": "ゆき"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "しってる よ！ぼくも すきだ よ。ライブに いきたい な。チケット ほしいね。",
+      "romaji": "Shitteru yo! Boku mo suki da yo. Raibu ni ikitai na. Chiketto hoshii ne.",
+      "en": "I know them! I like them too. I want to go to a live show. I want tickets.",
+      "speakText": "しってる よ！ぼくも すきだ よ。ライブに いきたい な。チケット ほしいね。",
+      "register": "casual",
+      "dialogueContext": "C - Casual · Friends Talking About Music",
+      "speaker": "ルーカス"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "じゃあ しらべて みよう よ！あとで かえる？",
+      "romaji": "Jaa shirabete miyou yo! Atode kaeru?",
+      "en": "Then let's try looking it up! Are you going home later?",
+      "speakText": "じゃあ しらべて みよう よ！あとで かえる？",
+      "register": "casual",
+      "dialogueContext": "C - Casual · Friends Talking About Music",
+      "speaker": "ゆき"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "ここに ねこが います。",
+          "right": "There is a cat here. (animate)"
+        },
+        {
+          "left": "つくえに ほんが あります。",
+          "right": "There is a book on the desk. (inanimate)"
+        },
+        {
+          "left": "えいがを みに いきます。",
+          "right": "I'm going to watch a movie."
+        },
+        {
+          "left": "おかあさんに プレゼントを あげます。",
+          "right": "I give a present to my mother."
+        },
+        {
+          "left": "せんせいが ほんを くれました。",
+          "right": "My teacher gave me a book."
+        },
+        {
+          "left": "にほんごが できます。",
+          "right": "I can speak Japanese."
+        },
+        {
+          "left": "ちょっとすみません",
+          "right": "Excuse me for a moment",
+          "reviewFrom": "dialogues-lesson-02"
+        },
+        {
+          "left": "ひだりに まがってください。",
+          "right": "Please turn left.",
+          "reviewFrom": "dialogues-lesson-04"
+        },
+        {
+          "left": "[COUNTRY]人です。",
+          "right": "I am [COUNTRY] (nationality).",
+          "reviewFrom": "dialogues-lesson-06"
+        },
+        {
+          "left": "ゆっくり はなしてください",
+          "right": "Please speak slowly",
+          "reviewFrom": "dialogues-lesson-03"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "すみません、としょかんに にほんごの じしょが ありますか？",
+          "romaji": "Sumimasen, toshokan ni Nihongo no jisho ga arimasu ka?",
+          "en": "Excuse me, is there a Japanese dictionary in the library?"
+        },
+        {
+          "jp": "はい、にかいに ございます。パソコンも ございます から、べんきょうが できますよ。",
+          "romaji": "Hai, nikai ni gozaimasu. Pasokon mo gozaimasu kara, benkyou ga dekimasu yo.",
+          "en": "Yes, it's on the second floor. There are computers too, so you can study.",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "A - Formal · University Library; register is formal."
+          }
+        },
+        {
+          "jp": "ありがとうございます。いまから いってきます。",
+          "romaji": "Arigatou gozaimasu. Ima kara itte kimasu.",
+          "en": "Thank you very much. I'll head there now. (lit. \"I'll go and come back\")"
+        },
+        {
+          "jp": "しゅうまつ、えいがを みに いきますか？あたらしい えいがが あります よ。",
+          "romaji": "Shuumatsu, eiga wo mi ni ikimasu ka? Atarashii eiga ga arimasu yo.",
+          "en": "Do you want to go see a movie this weekend? There's a new one."
+        },
+        {
+          "jp": "いきたいです！でも まず おかあさんに プレゼントを あげます。なんじに うちを でますか？",
+          "romaji": "Ikitai desu! Demo mazu okaasan ni purezento wo agemasu. Nanji ni uchi wo demasu ka?",
+          "en": "I want to go! But first I'll give a present to my mum. What time do you leave the house?",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "B - Standard · Weekend Plans; register is polite."
+          }
+        },
+        {
+          "jp": "ごごいちじに でましょう。よるには うちに かえります。",
+          "romaji": "Gogo ichiji ni demashou. Yoru ni wa uchi ni kaerimasu.",
+          "en": "Let's leave at 1pm. I'll go home in the evening."
+        },
+        {
+          "jp": "ねえ、この バンド しってる？すごく すきなんだけど。",
+          "romaji": "Nee, kono bando shitteru? Sugoku suki nan da kedo.",
+          "en": "Hey, do you know this band? I really like them."
+        },
+        {
+          "jp": "しってる よ！ぼくも すきだ よ。ライブに いきたい な。チケット ほしいね。",
+          "romaji": "Shitteru yo! Boku mo suki da yo. Raibu ni ikitai na. Chiketto hoshii ne.",
+          "en": "I know them! I like them too. I want to go to a live show. I want tickets.",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "C - Casual · Friends Talking About Music; register is casual."
+          }
+        },
+        {
+          "jp": "じゃあ しらべて みよう よ！あとで かえる？",
+          "romaji": "Jaa shirabete miyou yo! Atode kaeru?",
+          "en": "Then let's try looking it up! Are you going home later?"
+        },
+        {
+          "jp": "ここに ねこが います。",
+          "romaji": "Koko ni neko ga imasu.",
+          "en": "There is a cat here. (animate)"
+        }
+      ]
+    }
+  ]
+}

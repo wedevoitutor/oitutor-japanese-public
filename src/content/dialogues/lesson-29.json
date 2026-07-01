@@ -1,0 +1,1289 @@
+{
+  "id": "dialogues-lesson-29",
+  "misconceptions": [
+    {
+      "target": "ordering-in-a-cafe-single-word-answer",
+      "error": "Answers with isolated vocabulary instead of a complete conversational turn.",
+      "mitigation": "Reference rows and response-selection drills keep prompts and natural replies together."
+    },
+    {
+      "target": "ordering-in-a-cafe-register-mismatch",
+      "error": "Uses casual language with teachers, staff, or strangers.",
+      "mitigation": "Formal, casual, and slang scenes are separated and labeled."
+    },
+    {
+      "target": "ordering-in-a-cafe-listening-drift",
+      "error": "Chooses a familiar phrase that does not match the audio.",
+      "mitigation": "Listening MC and type-the-answer reuse the exact dialogue speakText."
+    },
+    {
+      "target": "ordering-in-a-cafe-particle-confusion",
+      "error": "Confuses は, へ, or を in written Japanese source phrases.",
+      "mitigation": "Formula-fill keeps the Japanese particles visible and accepts romaji as support."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Ordering in a Cafe - Formal · Casual · Slang",
+      "intro": "Practice ordering in a cafe as prompt-and-response dialogue, not as loose vocabulary.",
+      "rows": [
+        [
+          "Register",
+          "Japanese",
+          "Romaji",
+          "Typical Response",
+          "Context"
+        ],
+        [
+          "FORMAL",
+          "ごちゅうもんは おきまりですか？",
+          "gochuumonha okimaridesuka?",
+          "ホットコーヒーを ひとつ おねがいします。",
+          "One hot coffee, please."
+        ],
+        [
+          "FORMAL",
+          "ホットコーヒーを ひとつ おねがいします。",
+          "hottokoohiiwo hitotsu onegaishimasu.",
+          "そうです。ありがとうございます。",
+          "That is right. Thank you."
+        ],
+        [
+          "CASUAL",
+          "なに のむ？",
+          "nani nomu?",
+          "アイスティーに する。",
+          "I will have iced tea."
+        ],
+        [
+          "CASUAL",
+          "アイスティーに する。",
+          "aisuteiini suru.",
+          "いいね。あとで かくにんしよう。",
+          "Nice. Let us check later."
+        ],
+        [
+          "SLANG",
+          "ここで のむ？もちかえり？",
+          "kokode nomu?mochikaeri?",
+          "もちかえりで。",
+          "Takeout, please."
+        ],
+        [
+          "SLANG",
+          "もちかえりで。",
+          "mochikaeride.",
+          "まじか。いいじゃん。",
+          "Really? Nice."
+        ]
+      ],
+      "takeaway": "First choose the right meaning, then choose the right relationship tone."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "A - FORMAL · Ordering in a Cafe",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "先生",
+          "jp": "ごちゅうもんは おきまりですか？",
+          "romaji": "gochuumonha okimaridesuka?",
+          "en": "Have you decided your order?"
+        },
+        {
+          "speaker": "学生",
+          "jp": "ホットコーヒーを ひとつ おねがいします。",
+          "romaji": "hottokoohiiwo hitotsu onegaishimasu.",
+          "en": "One hot coffee, please."
+        },
+        {
+          "speaker": "先生",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "B - CASUAL · Ordering in a Cafe",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "ゆい",
+          "jp": "なに のむ？",
+          "romaji": "nani nomu?",
+          "en": "What will you drink?"
+        },
+        {
+          "speaker": "たく",
+          "jp": "アイスティーに する。",
+          "romaji": "aisuteiini suru.",
+          "en": "I will have iced tea."
+        },
+        {
+          "speaker": "ゆい",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "C - SLANG · Ordering in a Cafe",
+      "register": "slang",
+      "lines": [
+        {
+          "speaker": "りく",
+          "jp": "ここで のむ？もちかえり？",
+          "romaji": "kokode nomu?mochikaeri?",
+          "en": "Drink here or takeout?"
+        },
+        {
+          "speaker": "まい",
+          "jp": "もちかえりで。",
+          "romaji": "mochikaeride.",
+          "en": "Takeout, please."
+        },
+        {
+          "speaker": "りく",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 1: ごちゅうもんは おきまりですか？",
+      "prompt": "Which source phrase means: “Have you decided your order?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "ごちゅうもんは おきまりですか？",
+          "romaji": "gochuumonha okimaridesuka?",
+          "en": "Have you decided your order?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "ごちゅうもんは おきまりですか？"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 2: ホットコーヒーを ひとつ おねがいします。",
+      "prompt": "Which source phrase means: “One hot coffee, please.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "ホットコーヒーを ひとつ おねがいします。",
+          "romaji": "hottokoohiiwo hitotsu onegaishimasu.",
+          "en": "One hot coffee, please.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "ここで のむ？もちかえり？",
+          "romaji": "kokode nomu?mochikaeri?",
+          "en": "Drink here or takeout?",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "コーヒーを ひとつ おねがいします",
+          "romaji": "koohiiwo hitotsu onegaishimasu",
+          "en": "one coffee, please",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "ホットコーヒーを ひとつ おねがいします。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 3: そうです。ありがとうございます。",
+      "prompt": "Which source phrase means: “That is right. Thank you.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "もちかえりで。",
+          "romaji": "mochikaeride.",
+          "en": "Takeout, please.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "アイスティーに します",
+          "romaji": "aisuteiini shimasu",
+          "en": "I will have iced tea",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "そうです。ありがとうございます。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 4: なに のむ？",
+      "prompt": "Which source phrase means: “What will you drink?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "なに のむ？",
+          "romaji": "nani nomu?",
+          "en": "What will you drink?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "ここで のみます",
+          "romaji": "kokode nomimasu",
+          "en": "drink here",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "なに のむ？"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "ごちゅうもんは おきまりですか",
+        "answerRomaji": "gochuumonha okimaridesuka?",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "gochuumonhaokimaridesuka?"
+        ]
+      },
+      "translation": "Have you decided your order?",
+      "speakText": "ごちゅうもんは おきまりですか？",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "ホットコーヒーを ひとつ おねがいします",
+        "answerRomaji": "hottokoohiiwo hitotsu onegaishimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "hottokoohiiwohitotsuonegaishimasu."
+        ]
+      },
+      "translation": "One hot coffee, please.",
+      "speakText": "ホットコーヒーを ひとつ おねがいします。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "そうです。ありがとうございます",
+        "answerRomaji": "soudesu.arigatougozaimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "soudesu.arigatougozaimasu."
+        ]
+      },
+      "translation": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "ごちゅうもんは おきまりですか？",
+          "romaji": "gochuumonha okimaridesuka?",
+          "en": "Have you decided your order?"
+        },
+        {
+          "jp": "ホットコーヒーを ひとつ おねがいします。",
+          "romaji": "hottokoohiiwo hitotsu onegaishimasu.",
+          "en": "One hot coffee, please."
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "なに のむ？",
+          "romaji": "nani nomu?",
+          "en": "What will you drink?"
+        },
+        {
+          "jp": "アイスティーに する。",
+          "romaji": "aisuteiini suru.",
+          "en": "I will have iced tea."
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "ここで のむ？もちかえり？",
+          "romaji": "kokode nomu?mochikaeri?",
+          "en": "Drink here or takeout?"
+        },
+        {
+          "jp": "もちかえりで。",
+          "romaji": "mochikaeride.",
+          "en": "Takeout, please."
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "コーヒーを ひとつ おねがいします",
+          "romaji": "koohiiwo hitotsu onegaishimasu",
+          "en": "one coffee, please"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ごちゅうもんは おきまりですか？",
+      "options": [
+        {
+          "text": "Have you decided your order?",
+          "correct": true
+        },
+        {
+          "text": "What will you drink?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Drink here or takeout?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "one coffee, please",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ホットコーヒーを ひとつ おねがいします。",
+      "options": [
+        {
+          "text": "One hot coffee, please.",
+          "correct": true
+        },
+        {
+          "text": "I will have iced tea.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Takeout, please.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "I will have iced tea",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "そうです。ありがとうございます。",
+      "options": [
+        {
+          "text": "That is right. Thank you.",
+          "correct": true
+        },
+        {
+          "text": "Nice. Let us check later.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "drink here",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "なに のむ？",
+      "options": [
+        {
+          "text": "What will you drink?",
+          "correct": true
+        },
+        {
+          "text": "Drink here or takeout?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "one coffee, please",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "takeout, please",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "アイスティーに する。",
+      "options": [
+        {
+          "text": "I will have iced tea.",
+          "correct": true
+        },
+        {
+          "text": "Takeout, please.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "I will have iced tea",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "the bill, please",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "options": [
+        {
+          "text": "Nice. Let us check later.",
+          "correct": true
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "drink here",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "water, please",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ここで のむ？もちかえり？",
+      "options": [
+        {
+          "text": "Drink here or takeout?",
+          "correct": true
+        },
+        {
+          "text": "one coffee, please",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "takeout, please",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "Have you decided your order?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "もちかえりで。",
+      "options": [
+        {
+          "text": "Takeout, please.",
+          "correct": true
+        },
+        {
+          "text": "I will have iced tea",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "the bill, please",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "One hot coffee, please.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "ごちゅうもんは おきまりですか？",
+        "romaji": "gochuumonha okimaridesuka?",
+        "speakText": "ごちゅうもんは おきまりですか？"
+      },
+      "options": [
+        {
+          "jp": "ホットコーヒーを ひとつ おねがいします。",
+          "romaji": "hottokoohiiwo hitotsu onegaishimasu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "アイスティーに する。",
+          "romaji": "aisuteiini suru.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "もちかえりで。",
+          "romaji": "mochikaeride.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "ホットコーヒーを ひとつ おねがいします。",
+        "romaji": "hottokoohiiwo hitotsu onegaishimasu.",
+        "speakText": "ホットコーヒーを ひとつ おねがいします。"
+      },
+      "options": [
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "なに のむ？",
+        "romaji": "nani nomu?",
+        "speakText": "なに のむ？"
+      },
+      "options": [
+        {
+          "jp": "アイスティーに する。",
+          "romaji": "aisuteiini suru.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "ここで のむ？もちかえり？",
+          "romaji": "kokode nomu?mochikaeri?",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "コーヒーを ひとつ おねがいします",
+          "romaji": "koohiiwo hitotsu onegaishimasu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "アイスティーに する。",
+        "romaji": "aisuteiini suru.",
+        "speakText": "アイスティーに する。"
+      },
+      "options": [
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "もちかえりで。",
+          "romaji": "mochikaeride.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "アイスティーに します",
+          "romaji": "aisuteiini shimasu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "ここで のむ？もちかえり？",
+        "romaji": "kokode nomu?mochikaeri?",
+        "speakText": "ここで のむ？もちかえり？"
+      },
+      "options": [
+        {
+          "jp": "もちかえりで。",
+          "romaji": "mochikaeride.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "ここで のみます",
+          "romaji": "kokode nomimasu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "もちかえりで。",
+        "romaji": "mochikaeride.",
+        "speakText": "もちかえりで。"
+      },
+      "options": [
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "コーヒーを ひとつ おねがいします",
+          "romaji": "koohiiwo hitotsu onegaishimasu",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "もちかえりで おねがいします",
+          "romaji": "mochikaeride onegaishimasu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "ごちゅうもんは おきまりですか？",
+      "answer": "gochuumonha okimaridesuka?",
+      "acceptAlternatives": [
+        "gochuumonhaokimaridesuka?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "ホットコーヒーを ひとつ おねがいします。",
+      "answer": "hottokoohiiwo hitotsu onegaishimasu.",
+      "acceptAlternatives": [
+        "hottokoohiiwohitotsuonegaishimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "そうです。ありがとうございます。",
+      "answer": "soudesu.arigatougozaimasu.",
+      "acceptAlternatives": [
+        "soudesu.arigatougozaimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "なに のむ？",
+      "answer": "nani nomu?",
+      "acceptAlternatives": [
+        "naninomu?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "アイスティーに する。",
+      "answer": "aisuteiini suru.",
+      "acceptAlternatives": [
+        "aisuteiinisuru."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "answer": "iine.atode kakuninshiyou.",
+      "acceptAlternatives": [
+        "iine.atodekakuninshiyou."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "ここで のむ？もちかえり？",
+      "answer": "kokode nomu?mochikaeri?",
+      "acceptAlternatives": [
+        "kokodenomu?mochikaeri?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "もちかえりで。",
+      "answer": "mochikaeride.",
+      "acceptAlternatives": [
+        "mochikaeride."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ごちゅうもんは おきまりですか？",
+      "romaji": "gochuumonha okimaridesuka?",
+      "en": "Have you decided your order?",
+      "speakText": "ごちゅうもんは おきまりですか？",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Ordering in a Cafe",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ホットコーヒーを ひとつ おねがいします。",
+      "romaji": "hottokoohiiwo hitotsu onegaishimasu.",
+      "en": "One hot coffee, please.",
+      "speakText": "ホットコーヒーを ひとつ おねがいします。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Ordering in a Cafe",
+      "speaker": "学生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "そうです。ありがとうございます。",
+      "romaji": "soudesu.arigatougozaimasu.",
+      "en": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Ordering in a Cafe",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "なに のむ？",
+      "romaji": "nani nomu?",
+      "en": "What will you drink?",
+      "speakText": "なに のむ？",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Ordering in a Cafe",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "アイスティーに する。",
+      "romaji": "aisuteiini suru.",
+      "en": "I will have iced tea.",
+      "speakText": "アイスティーに する。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Ordering in a Cafe",
+      "speaker": "たく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いいね。あとで かくにんしよう。",
+      "romaji": "iine.atode kakuninshiyou.",
+      "en": "Nice. Let us check later.",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Ordering in a Cafe",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ここで のむ？もちかえり？",
+      "romaji": "kokode nomu?mochikaeri?",
+      "en": "Drink here or takeout?",
+      "speakText": "ここで のむ？もちかえり？",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Ordering in a Cafe",
+      "speaker": "りく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "もちかえりで。",
+      "romaji": "mochikaeride.",
+      "en": "Takeout, please.",
+      "speakText": "もちかえりで。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Ordering in a Cafe",
+      "speaker": "まい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "まじか。いいじゃん。",
+      "romaji": "majika.iijan.",
+      "en": "Really? Nice.",
+      "speakText": "まじか。いいじゃん。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Ordering in a Cafe",
+      "speaker": "りく"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "ごちゅうもんは おきまりですか？",
+          "right": "Have you decided your order?"
+        },
+        {
+          "left": "ホットコーヒーを ひとつ おねがいします。",
+          "right": "One hot coffee, please."
+        },
+        {
+          "left": "そうです。ありがとうございます。",
+          "right": "That is right. Thank you."
+        },
+        {
+          "left": "なに のむ？",
+          "right": "What will you drink?"
+        },
+        {
+          "left": "アイスティーに する。",
+          "right": "I will have iced tea."
+        },
+        {
+          "left": "いいね。あとで かくにんしよう。",
+          "right": "Nice. Let us check later."
+        },
+        {
+          "left": "ここで のむ？もちかえり？",
+          "right": "Drink here or takeout?"
+        },
+        {
+          "left": "もちかえりで。",
+          "right": "Takeout, please."
+        },
+        {
+          "left": "まじか。いいじゃん。",
+          "right": "Really? Nice."
+        },
+        {
+          "left": "コーヒーを ひとつ おねがいします",
+          "right": "one coffee, please"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "ごちゅうもんは おきまりですか？",
+          "romaji": "gochuumonha okimaridesuka?",
+          "en": "Have you decided your order?"
+        },
+        {
+          "jp": "ホットコーヒーを ひとつ おねがいします。",
+          "romaji": "hottokoohiiwo hitotsu onegaishimasu.",
+          "en": "One hot coffee, please.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "なに のむ？",
+          "romaji": "nani nomu?",
+          "en": "What will you drink?"
+        },
+        {
+          "jp": "アイスティーに する。",
+          "romaji": "aisuteiini suru.",
+          "en": "I will have iced tea.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "ここで のむ？もちかえり？",
+          "romaji": "kokode nomu?mochikaeri?",
+          "en": "Drink here or takeout?"
+        },
+        {
+          "jp": "もちかえりで。",
+          "romaji": "mochikaeride.",
+          "en": "Takeout, please.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "コーヒーを ひとつ おねがいします",
+          "romaji": "koohiiwo hitotsu onegaishimasu",
+          "en": "one coffee, please"
+        }
+      ]
+    }
+  ]
+}

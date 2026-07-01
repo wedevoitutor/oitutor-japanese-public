@@ -1,0 +1,1075 @@
+{
+  "id": "kanji-batch-03",
+  "misconceptions": [
+    {
+      "kanji": "三",
+      "error": "Assumes number kanji always use on-yomi and misses native counter forms like みっつ and みっか.",
+      "mitigation": "Kun-yomi and context drills contrast 三月, 三日, and 三つ."
+    },
+    {
+      "kanji": "見",
+      "error": "Knows 見る but fails to read compound ケン in 見学.",
+      "mitigation": "Reading explanation contrasts 見る with 見学 and compounds."
+    },
+    {
+      "kanji": "月",
+      "error": "Confuses ゲツ and ガツ, especially in months versus weekdays.",
+      "mitigation": "Reading explanation drills 月曜日 vs 三月."
+    },
+    {
+      "kanji": "生",
+      "error": "Treats 生 as only student/せい and misses life, birth, and raw readings.",
+      "mitigation": "Card and drills include 学生, 生まれる, 生きる, and 生魚."
+    },
+    {
+      "kanji": "五",
+      "error": "Uses ご for all contexts and misses native いつつ / いつか.",
+      "mitigation": "Kun-yomi and compound drills contrast 五, 五つ, 五月, and 五日."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Batch 03 - 三 見 月 生 五",
+      "intro": "This batch adds two more number kanji, one core perception verb, and two high-frequency time/life kanji. Pay attention to context: 月 changes between month and moon readings, while 生 has several common N5 readings.",
+      "rows": [
+        [
+          "Kanji",
+          "Meaning",
+          "On-yomi",
+          "Kun-yomi",
+          "Memory hook"
+        ],
+        [
+          "三",
+          "three",
+          "サン",
+          "み · みつ · みっつ",
+          "three horizontal strokes = three"
+        ],
+        [
+          "見",
+          "see / look",
+          "ケン",
+          "みる · みえる · みせる",
+          "an eye on legs looking around"
+        ],
+        [
+          "月",
+          "moon / month",
+          "ゲツ · ガツ",
+          "つき",
+          "crescent moon in the night sky"
+        ],
+        [
+          "生",
+          "life / birth / raw",
+          "セイ · ショウ",
+          "いきる · うまれる · なま",
+          "a plant sprouting from the ground"
+        ],
+        [
+          "五",
+          "five",
+          "ゴ",
+          "いつ · いつつ",
+          "five lines held together in balance"
+        ]
+      ],
+      "takeaway": "Numbers often have native counter readings, and high-frequency kanji like 月 and 生 change reading by word."
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "三",
+      "meaning": "three",
+      "memoryHook": "Three horizontal strokes = three",
+      "jlpt": "N5",
+      "strokeCount": 3,
+      "components": [
+        {
+          "shape": "一",
+          "note": "One horizontal stroke repeated three times. The stroke count is the meaning."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "サン",
+            "romaji": "san",
+            "anchor": true,
+            "anchorReason": "Default compound reading for the number three.",
+            "anchorExampleWord": "三月"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "み",
+            "romaji": "mi"
+          },
+          {
+            "kana": "みつ",
+            "romaji": "mitsu"
+          },
+          {
+            "kana": "みっつ",
+            "romaji": "mittsu"
+          }
+        ]
+      },
+      "mnemonic": "一 is one line, 二 is two lines, and 三 is three lines. The kanji teaches itself: count the strokes and you know the meaning. The on-yomi サン appears in regular number compounds like 三月, while native readings appear in old counting words such as 三つ and 三日.",
+      "confusables": [
+        {
+          "kanji": "二",
+          "meaning": "two",
+          "note": "二 has two horizontal strokes; 三 has three."
+        },
+        {
+          "kanji": "王",
+          "meaning": "king",
+          "note": "王 adds a vertical stroke connecting the three lines."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "三",
+          "reading": "さん",
+          "meaning": "three"
+        },
+        {
+          "word": "三つ",
+          "reading": "みっつ",
+          "meaning": "three things"
+        },
+        {
+          "word": "三月",
+          "reading": "さんがつ",
+          "meaning": "March"
+        },
+        {
+          "word": "三日",
+          "reading": "みっか",
+          "meaning": "the third day; three days"
+        },
+        {
+          "word": "三人",
+          "reading": "さんにん",
+          "meaning": "three people"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "りんごが三つあります。",
+          "highlight": "三",
+          "reading": "りんごが みっつ あります",
+          "romaji": "Ringo ga mittsu arimasu.",
+          "gloss": "Apples (subj) three exist.",
+          "en": "There are three apples."
+        },
+        {
+          "jp": "三月に日本へ行きます。",
+          "highlight": "三月",
+          "reading": "さんがつに にほんへ いきます",
+          "romaji": "Sangatsu ni Nihon e ikimasu.",
+          "gloss": "March in Japan toward go.",
+          "en": "I will go to Japan in March."
+        },
+        {
+          "jp": "三人で勉強します。",
+          "highlight": "三",
+          "reading": "さんにんで べんきょうします",
+          "romaji": "San-nin de benkyou shimasu.",
+          "gloss": "Three people together study.",
+          "en": "Three people study together."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "見",
+      "meaning": "see / look",
+      "memoryHook": "An eye on legs looking around",
+      "jlpt": "N5",
+      "strokeCount": 7,
+      "components": [
+        {
+          "shape": "目",
+          "note": "Eye component at the top."
+        },
+        {
+          "shape": "儿",
+          "note": "Leg-like shape below, giving the idea of an eye moving around."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ケン",
+            "romaji": "ken",
+            "anchor": true,
+            "anchorReason": "Compound reading in study and opinion words.",
+            "anchorExampleWord": "見学"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "みる",
+            "romaji": "miru"
+          },
+          {
+            "kana": "みえる",
+            "romaji": "mieru"
+          },
+          {
+            "kana": "みせる",
+            "romaji": "miseru"
+          }
+        ]
+      },
+      "mnemonic": "見 combines an eye-like shape with legs underneath. Imagine an eye walking around to inspect the world: it sees, looks, and observes. The everyday verb is 見る, while ケン appears in compounds like 見学 and 意見.",
+      "confusables": [
+        {
+          "kanji": "目",
+          "meaning": "eye",
+          "note": "目 is only the eye box; 見 adds legs underneath."
+        },
+        {
+          "kanji": "貝",
+          "meaning": "shellfish",
+          "note": "貝 has a similar lower shape but comes from a shell/money form, not seeing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "見る",
+          "reading": "みる",
+          "meaning": "to see; to watch"
+        },
+        {
+          "word": "見える",
+          "reading": "みえる",
+          "meaning": "to be visible"
+        },
+        {
+          "word": "見せる",
+          "reading": "みせる",
+          "meaning": "to show"
+        },
+        {
+          "word": "見学",
+          "reading": "けんがく",
+          "meaning": "observation visit; field trip"
+        },
+        {
+          "word": "花見",
+          "reading": "はなみ",
+          "meaning": "cherry-blossom viewing"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "映画を見ます。",
+          "highlight": "見",
+          "reading": "えいがを みます",
+          "romaji": "Eiga wo mimasu.",
+          "gloss": "Movie (obj) watch.",
+          "en": "I watch a movie."
+        },
+        {
+          "jp": "富士山が見えます。",
+          "highlight": "見",
+          "reading": "ふじさんが みえます",
+          "romaji": "Fuji-san ga miemasu.",
+          "gloss": "Mt. Fuji (subj) is visible.",
+          "en": "I can see Mt. Fuji."
+        },
+        {
+          "jp": "学校を見学しました。",
+          "highlight": "見学",
+          "reading": "がっこうを けんがくしました",
+          "romaji": "Gakkou wo kengaku shimashita.",
+          "gloss": "School (obj) observed/visited.",
+          "en": "I visited the school for observation."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "月",
+      "meaning": "moon / month",
+      "memoryHook": "Crescent moon in the night sky",
+      "jlpt": "N5",
+      "strokeCount": 4,
+      "components": [
+        {
+          "shape": "月",
+          "note": "Originally a picture of the moon; also reused as a component in many body-related kanji."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ゲツ",
+            "romaji": "getsu",
+            "anchor": true,
+            "anchorReason": "Common in weekday and monthly compounds.",
+            "anchorExampleWord": "月曜日"
+          },
+          {
+            "kana": "ガツ",
+            "romaji": "gatsu"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "つき",
+            "romaji": "tsuki"
+          }
+        ]
+      },
+      "mnemonic": "月 began as a drawing of the moon: a curved body with inner marks. Since months were tracked by the moon, the same kanji means both moon and month. Use ガツ for named months like 三月, ゲツ in compounds like 月曜日, and つき when talking about the moon itself.",
+      "confusables": [
+        {
+          "kanji": "日",
+          "meaning": "sun / day",
+          "note": "日 is a boxed sun; 月 is taller and open-looking like a crescent moon."
+        },
+        {
+          "kanji": "用",
+          "meaning": "use",
+          "note": "用 has an extra vertical structure; 月 is simpler."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "月",
+          "reading": "つき",
+          "meaning": "moon"
+        },
+        {
+          "word": "一月",
+          "reading": "いちがつ",
+          "meaning": "January"
+        },
+        {
+          "word": "三月",
+          "reading": "さんがつ",
+          "meaning": "March"
+        },
+        {
+          "word": "月曜日",
+          "reading": "げつようび",
+          "meaning": "Monday"
+        },
+        {
+          "word": "毎月",
+          "reading": "まいつき",
+          "meaning": "every month"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "月がきれいです。",
+          "highlight": "月",
+          "reading": "つきが きれい です",
+          "romaji": "Tsuki ga kirei desu.",
+          "gloss": "Moon (subj) beautiful is.",
+          "en": "The moon is beautiful."
+        },
+        {
+          "jp": "月曜日に会いましょう。",
+          "highlight": "月",
+          "reading": "げつようびに あいましょう",
+          "romaji": "Getsuyoubi ni aimashou.",
+          "gloss": "Monday on let's-meet.",
+          "en": "Let's meet on Monday."
+        },
+        {
+          "jp": "三月は春です。",
+          "highlight": "月",
+          "reading": "さんがつは はる です",
+          "romaji": "Sangatsu wa haru desu.",
+          "gloss": "March as-for spring is.",
+          "en": "March is spring."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "生",
+      "meaning": "life / birth / raw",
+      "memoryHook": "A plant sprouting from the ground",
+      "jlpt": "N5",
+      "strokeCount": 5,
+      "components": [
+        {
+          "shape": "生",
+          "note": "Sprout-like shape rising from soil; use it as life beginning."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "セイ",
+            "romaji": "sei",
+            "anchor": true,
+            "anchorReason": "Dominant reading in N5 words like 学生 and 先生.",
+            "anchorExampleWord": "学生"
+          },
+          {
+            "kana": "ショウ",
+            "romaji": "shou"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "いきる",
+            "romaji": "ikiru"
+          },
+          {
+            "kana": "うまれる",
+            "romaji": "umareru"
+          },
+          {
+            "kana": "なま",
+            "romaji": "nama"
+          }
+        ]
+      },
+      "mnemonic": "生 shows something living pushing up from the earth. From that image come life, birth, growth, and raw freshness. In school words it is usually セイ, as in 学生 and 先生. In native verbs it becomes いきる or うまれる, and in food words なま means raw.",
+      "confusables": [
+        {
+          "kanji": "牛",
+          "meaning": "cow",
+          "note": "牛 has a similar vertical body but a different top and no life-sprout meaning."
+        },
+        {
+          "kanji": "年",
+          "meaning": "year",
+          "note": "年 is denser and harvest-like; 生 is a sprout/life shape."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "学生",
+          "reading": "がくせい",
+          "meaning": "student"
+        },
+        {
+          "word": "先生",
+          "reading": "せんせい",
+          "meaning": "teacher"
+        },
+        {
+          "word": "生まれる",
+          "reading": "うまれる",
+          "meaning": "to be born"
+        },
+        {
+          "word": "生きる",
+          "reading": "いきる",
+          "meaning": "to live"
+        },
+        {
+          "word": "生魚",
+          "reading": "なまざかな",
+          "meaning": "raw fish"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "私は学生です。",
+          "highlight": "生",
+          "reading": "わたしは がくせい です",
+          "romaji": "Watashi wa gakusei desu.",
+          "gloss": "I as-for student is.",
+          "en": "I am a student."
+        },
+        {
+          "jp": "先生に聞きます。",
+          "highlight": "生",
+          "reading": "せんせいに ききます",
+          "romaji": "Sensei ni kikimasu.",
+          "gloss": "Teacher to ask/listen.",
+          "en": "I will ask the teacher."
+        },
+        {
+          "jp": "赤ちゃんが生まれました。",
+          "highlight": "生",
+          "reading": "あかちゃんが うまれました",
+          "romaji": "Akachan ga umaremashita.",
+          "gloss": "Baby (subj) was born.",
+          "en": "A baby was born."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "五",
+      "meaning": "five",
+      "memoryHook": "Five balanced strokes held together",
+      "jlpt": "N5",
+      "strokeCount": 4,
+      "components": [
+        {
+          "shape": "五",
+          "note": "Boxy crossing lines; use it as the fixed shape for the number five rather than counting strokes."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ゴ",
+            "romaji": "go",
+            "anchor": true,
+            "anchorReason": "Default reading in number compounds and months.",
+            "anchorExampleWord": "五月"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "いつ",
+            "romaji": "itsu"
+          },
+          {
+            "kana": "いつつ",
+            "romaji": "itsutsu"
+          }
+        ]
+      },
+      "mnemonic": "五 is less transparent than 一, 二, 三, but imagine five parts locked into a compact frame. The on-yomi ゴ is the regular number reading in 五, 五月, and 五人. The native reading appears in 五つ and the special date 五日.",
+      "confusables": [
+        {
+          "kanji": "互",
+          "meaning": "mutual",
+          "note": "互 looks similar but has a more hooked lower structure and different meaning."
+        },
+        {
+          "kanji": "王",
+          "meaning": "king",
+          "note": "王 has three horizontal lines connected by a straight vertical stroke."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "五",
+          "reading": "ご",
+          "meaning": "five"
+        },
+        {
+          "word": "五つ",
+          "reading": "いつつ",
+          "meaning": "five things"
+        },
+        {
+          "word": "五月",
+          "reading": "ごがつ",
+          "meaning": "May"
+        },
+        {
+          "word": "五日",
+          "reading": "いつか",
+          "meaning": "the fifth day; five days"
+        },
+        {
+          "word": "五人",
+          "reading": "ごにん",
+          "meaning": "five people"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "みかんが五つあります。",
+          "highlight": "五",
+          "reading": "みかんが いつつ あります",
+          "romaji": "Mikan ga itsutsu arimasu.",
+          "gloss": "Mandarins (subj) five exist.",
+          "en": "There are five mandarins."
+        },
+        {
+          "jp": "五月はあたたかいです。",
+          "highlight": "五月",
+          "reading": "ごがつは あたたかい です",
+          "romaji": "Gogatsu wa atatakai desu.",
+          "gloss": "May as-for warm is.",
+          "en": "May is warm."
+        },
+        {
+          "jp": "五人で行きます。",
+          "highlight": "五",
+          "reading": "ごにんで いきます",
+          "romaji": "Go-nin de ikimasu.",
+          "gloss": "Five people together go.",
+          "en": "Five people will go together."
+        }
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "三",
+          "back": "three - サン · み",
+          "speakText": "三"
+        },
+        {
+          "front": "見",
+          "back": "see / look - ケン · みる",
+          "speakText": "見"
+        },
+        {
+          "front": "月",
+          "back": "moon / month - ゲツ · つき",
+          "speakText": "月"
+        },
+        {
+          "front": "生",
+          "back": "life / birth / raw - セイ · いきる",
+          "speakText": "生"
+        },
+        {
+          "front": "五",
+          "back": "five - ゴ · いつ",
+          "speakText": "五"
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the on-yomi (katakana or romaji):",
+      "question": "三",
+      "speakText": "三",
+      "answer": "サン",
+      "acceptAlternatives": [
+        "san",
+        "さん"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the on-yomi (katakana or romaji):",
+      "question": "見",
+      "speakText": "見",
+      "answer": "ケン",
+      "acceptAlternatives": [
+        "ken",
+        "けん"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the on-yomi (katakana or romaji):",
+      "question": "月",
+      "speakText": "月",
+      "answer": "ゲツ",
+      "acceptAlternatives": [
+        "getsu",
+        "げつ",
+        "ガツ",
+        "gatsu",
+        "がつ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the on-yomi (katakana or romaji):",
+      "question": "生",
+      "speakText": "生",
+      "answer": "セイ",
+      "acceptAlternatives": [
+        "sei",
+        "せい",
+        "ショウ",
+        "shou",
+        "sho",
+        "しょう"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the on-yomi (katakana or romaji):",
+      "question": "五",
+      "speakText": "五",
+      "answer": "ゴ",
+      "acceptAlternatives": [
+        "go",
+        "ご"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the kun-yomi (hiragana or romaji):",
+      "question": "三",
+      "speakText": "三",
+      "answer": "み",
+      "acceptAlternatives": [
+        "mi",
+        "みつ",
+        "mitsu",
+        "みっつ",
+        "mittsu"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the kun-yomi (hiragana or romaji):",
+      "question": "見",
+      "speakText": "見",
+      "answer": "みる",
+      "acceptAlternatives": [
+        "miru",
+        "みえる",
+        "mieru",
+        "みせる",
+        "miseru"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the kun-yomi (hiragana or romaji):",
+      "question": "月",
+      "speakText": "月",
+      "answer": "つき",
+      "acceptAlternatives": [
+        "tsuki"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the kun-yomi (hiragana or romaji):",
+      "question": "生",
+      "speakText": "生",
+      "answer": "いきる",
+      "acceptAlternatives": [
+        "ikiru",
+        "うまれる",
+        "umareru",
+        "なま",
+        "nama"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the kun-yomi (hiragana or romaji):",
+      "question": "五",
+      "speakText": "五",
+      "answer": "いつ",
+      "acceptAlternatives": [
+        "itsu",
+        "いつつ",
+        "itsutsu"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the English meaning:",
+      "question": "三",
+      "speakText": "三",
+      "answer": "three",
+      "acceptAlternatives": [
+        "3"
+      ],
+      "strictness": "meaning"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the English meaning:",
+      "question": "見",
+      "speakText": "見",
+      "answer": "see",
+      "acceptAlternatives": [
+        "look",
+        "watch",
+        "see / look",
+        "to see",
+        "to look"
+      ],
+      "strictness": "meaning"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the English meaning:",
+      "question": "月",
+      "speakText": "月",
+      "answer": "moon",
+      "acceptAlternatives": [
+        "month",
+        "moon / month",
+        "moon/month"
+      ],
+      "strictness": "meaning"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the English meaning:",
+      "question": "生",
+      "speakText": "生",
+      "answer": "life",
+      "acceptAlternatives": [
+        "birth",
+        "raw",
+        "live",
+        "life / birth / raw",
+        "life/birth/raw"
+      ],
+      "strictness": "meaning"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the English meaning:",
+      "question": "五",
+      "speakText": "五",
+      "answer": "five",
+      "acceptAlternatives": [
+        "5"
+      ],
+      "strictness": "meaning"
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 月 pronounced in 月曜日 (Monday)?",
+      "word": "月曜日",
+      "targetKanji": "月",
+      "options": [
+        {
+          "kana": "げつ",
+          "romaji": "getsu",
+          "readingType": "on",
+          "correct": true,
+          "explanation": "月曜日 uses the weekday compound reading ゲツ, as in Monday."
+        },
+        {
+          "kana": "がつ",
+          "romaji": "gatsu",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "confusionFeature": "monthNameReading",
+          "wrongExplanation": "ガツ is used for named months like 三月 and 五月, not 月曜日."
+        },
+        {
+          "kana": "つき",
+          "romaji": "tsuki",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "confusionFeature": "standaloneMoonReading",
+          "wrongExplanation": "つき is the native reading for the moon itself, not this weekday compound."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 生 pronounced in 学生 (student)?",
+      "word": "学生",
+      "targetKanji": "生",
+      "options": [
+        {
+          "kana": "せい",
+          "romaji": "sei",
+          "readingType": "on",
+          "correct": true,
+          "explanation": "学生 is a compound word, and 生 takes the on-yomi セイ here."
+        },
+        {
+          "kana": "なま",
+          "romaji": "nama",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "confusionFeature": "rawMeaning",
+          "wrongExplanation": "なま means raw/fresh, as in 生魚. It is not used in 学生."
+        },
+        {
+          "kana": "うま",
+          "romaji": "uma",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "confusionFeature": "birthVerbStem",
+          "wrongExplanation": "うま appears in 生まれる, to be born, not in 学生."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 三 pronounced in 三日 (the third day / three days)?",
+      "word": "三日",
+      "targetKanji": "三",
+      "options": [
+        {
+          "kana": "みっ",
+          "romaji": "mi",
+          "readingType": "kun",
+          "correct": true,
+          "explanation": "三日 is a special native date word read みっか. The 三 part compresses to みっ."
+        },
+        {
+          "kana": "さん",
+          "romaji": "san",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "confusionFeature": "regularNumberReading",
+          "wrongExplanation": "サン is the regular number reading, but dates often use special native readings."
+        },
+        {
+          "kana": "ご",
+          "romaji": "go",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongNumber",
+          "confusionFeature": "nearbyBatchNumber",
+          "wrongExplanation": "ゴ belongs to 五, not 三."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji means 'moon / month'?",
+      "options": [
+        {
+          "text": "月",
+          "correct": true
+        },
+        {
+          "text": "日",
+          "correct": false,
+          "distractorReason": "semanticNeighbor",
+          "wrongExplanation": "日 means sun or day, not moon/month."
+        },
+        {
+          "text": "用",
+          "correct": false,
+          "distractorReason": "visualConfusion",
+          "wrongExplanation": "用 has extra internal structure and means use."
+        },
+        {
+          "text": "見",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "wrongExplanation": "見 means see or look."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji is read みる as a verb?",
+      "options": [
+        {
+          "text": "見",
+          "correct": true
+        },
+        {
+          "text": "目",
+          "correct": false,
+          "distractorReason": "componentShare",
+          "wrongExplanation": "目 means eye; it is part of 見 but is not read みる."
+        },
+        {
+          "text": "月",
+          "correct": false,
+          "distractorReason": "soundNeighbor",
+          "wrongExplanation": "月 is つき / ゲツ / ガツ."
+        },
+        {
+          "text": "貝",
+          "correct": false,
+          "distractorReason": "visualConfusion",
+          "wrongExplanation": "貝 has a similar lower shape but means shellfish."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji completes __月 (March)?",
+      "options": [
+        {
+          "text": "三",
+          "correct": true
+        },
+        {
+          "text": "五",
+          "correct": false,
+          "distractorReason": "wrongNumber",
+          "wrongExplanation": "五月 is May, not March."
+        },
+        {
+          "text": "二",
+          "correct": false,
+          "distractorReason": "wrongNumber",
+          "wrongExplanation": "二月 is February."
+        },
+        {
+          "text": "生",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "wrongExplanation": "生 is life/birth/raw, not a number."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Review: which older kanji means 'person'?",
+      "options": [
+        {
+          "text": "人",
+          "correct": true
+        },
+        {
+          "text": "日",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "wrongExplanation": "日 means sun or day, not person."
+        },
+        {
+          "text": "二",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "wrongExplanation": "二 means two, not person."
+        },
+        {
+          "text": "大",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "wrongExplanation": "大 means big, not person."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each kanji to its meaning:",
+      "pairs": [
+        {
+          "left": "三",
+          "right": "three"
+        },
+        {
+          "left": "見",
+          "right": "see / look"
+        },
+        {
+          "left": "月",
+          "right": "moon / month"
+        },
+        {
+          "left": "生",
+          "right": "life / birth / raw"
+        },
+        {
+          "left": "五",
+          "right": "five"
+        }
+      ]
+    }
+  ]
+}

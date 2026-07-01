@@ -1,0 +1,1145 @@
+{
+  "id": "kanji-batch-12",
+  "misconceptions": [
+    {
+      "kanji": "西",
+      "error": "Overuses one reading of 西 and misses the reading in 西口.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "南",
+      "error": "Overuses one reading of 南 and misses the reading in 南口.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "北",
+      "error": "Overuses one reading of 北 and misses the reading in 北口.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "口",
+      "error": "Overuses one reading of 口 and misses the reading in 入口.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "友",
+      "error": "Overuses one reading of 友 and misses the reading in 友人.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Batch 12 - 西 南 北 口 友",
+      "intro": "This batch teaches 西 南 北 口 友 with anchor readings, N5 words, and short sentence practice.",
+      "rows": [
+        [
+          "Kanji",
+          "Meaning",
+          "Anchor reading",
+          "Other reading",
+          "Memory hook"
+        ],
+        [
+          "西",
+          "west",
+          "セイ",
+          "にし",
+          "西 → west"
+        ],
+        [
+          "南",
+          "south",
+          "ナン",
+          "みなみ",
+          "南 → south"
+        ],
+        [
+          "北",
+          "north",
+          "ホク",
+          "きた",
+          "北 → north"
+        ],
+        [
+          "口",
+          "mouth / opening",
+          "コウ",
+          "くち",
+          "口 → mouth / opening"
+        ],
+        [
+          "友",
+          "friend",
+          "ユウ",
+          "とも",
+          "友 → friend"
+        ]
+      ],
+      "takeaway": "Recognise the kanji first, then confirm the reading from the word around it."
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "西",
+      "meaning": "west",
+      "memoryHook": "西 visually anchors west.",
+      "jlpt": "N5",
+      "strokeCount": 6,
+      "components": [
+        {
+          "shape": "西",
+          "note": "Use the whole shape as a visual anchor for west; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "セイ",
+            "romaji": "sei",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 西口.",
+            "anchorExampleWord": "西口"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "にし",
+            "romaji": "nishi"
+          }
+        ]
+      },
+      "mnemonic": "Connect 西 to west; practise セイ in 西口 and compare it with にし in 西.",
+      "confusables": [
+        {
+          "kanji": "東",
+          "meaning": "east",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "間",
+          "meaning": "interval / between",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "西口",
+          "reading": "にしぐち",
+          "meaning": "west exit"
+        },
+        {
+          "word": "西",
+          "reading": "にし",
+          "meaning": "west"
+        },
+        {
+          "word": "西の空",
+          "reading": "にしのそら",
+          "meaning": "western sky"
+        },
+        {
+          "word": "東西",
+          "reading": "とうざい",
+          "meaning": "east and west"
+        },
+        {
+          "word": "関西",
+          "reading": "かんさい",
+          "meaning": "Kansai region"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "西口で待ちます。",
+          "highlight": "西",
+          "reading": "にしぐちで まちます",
+          "en": "I wait at the west exit."
+        },
+        {
+          "jp": "西の空が赤いです。",
+          "highlight": "西",
+          "reading": "にしの そらが あかいです",
+          "en": "The western sky is red."
+        },
+        {
+          "jp": "東西を地図で確認します。",
+          "highlight": "西",
+          "reading": "とうざいを ちずで かくにんします",
+          "en": "I check east and west on the map."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "南",
+      "meaning": "south",
+      "memoryHook": "南 visually anchors south.",
+      "jlpt": "N5",
+      "strokeCount": 9,
+      "components": [
+        {
+          "shape": "南",
+          "note": "Use the whole shape as a visual anchor for south; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ナン",
+            "romaji": "nan",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 南口.",
+            "anchorExampleWord": "南口"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "みなみ",
+            "romaji": "minami"
+          }
+        ]
+      },
+      "mnemonic": "Connect 南 to south; practise ナン in 南口 and compare it with みなみ in 南.",
+      "confusables": [
+        {
+          "kanji": "東",
+          "meaning": "east",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "間",
+          "meaning": "interval / between",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "南口",
+          "reading": "みなみぐち",
+          "meaning": "south exit"
+        },
+        {
+          "word": "南",
+          "reading": "みなみ",
+          "meaning": "south"
+        },
+        {
+          "word": "南国",
+          "reading": "なんごく",
+          "meaning": "southern country / tropics"
+        },
+        {
+          "word": "南北",
+          "reading": "なんぼく",
+          "meaning": "south and north"
+        },
+        {
+          "word": "東南",
+          "reading": "とうなん",
+          "meaning": "southeast"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "南口から出ます。",
+          "highlight": "南",
+          "reading": "みなみぐちから でます",
+          "en": "I leave from the south exit."
+        },
+        {
+          "jp": "南の町へ行きます。",
+          "highlight": "南",
+          "reading": "みなみの まちへ いきます",
+          "en": "I go to a town in the south."
+        },
+        {
+          "jp": "南北の道を歩きます。",
+          "highlight": "南",
+          "reading": "なんぼくの みちを あるきます",
+          "en": "I walk along the north-south road."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "北",
+      "meaning": "north",
+      "memoryHook": "北 visually anchors north.",
+      "jlpt": "N5",
+      "strokeCount": 5,
+      "components": [
+        {
+          "shape": "北",
+          "note": "Use the whole shape as a visual anchor for north; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ホク",
+            "romaji": "hoku",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 北口.",
+            "anchorExampleWord": "北口"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "きた",
+            "romaji": "kita"
+          }
+        ]
+      },
+      "mnemonic": "Connect 北 to north; practise ホク in 北口 and compare it with きた in 北.",
+      "confusables": [
+        {
+          "kanji": "東",
+          "meaning": "east",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "間",
+          "meaning": "interval / between",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "北口",
+          "reading": "きたぐち",
+          "meaning": "north exit"
+        },
+        {
+          "word": "北",
+          "reading": "きた",
+          "meaning": "north"
+        },
+        {
+          "word": "北国",
+          "reading": "きたぐに",
+          "meaning": "northern country"
+        },
+        {
+          "word": "南北",
+          "reading": "なんぼく",
+          "meaning": "south and north"
+        },
+        {
+          "word": "北海道",
+          "reading": "ほっかいどう",
+          "meaning": "Hokkaido"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "北口から入ります。",
+          "highlight": "北",
+          "reading": "きたぐちから はいります",
+          "en": "I enter from the north exit."
+        },
+        {
+          "jp": "北の国は寒いです。",
+          "highlight": "北",
+          "reading": "きたの くには さむいです",
+          "en": "Northern countries are cold."
+        },
+        {
+          "jp": "北海道へ行きたいです。",
+          "highlight": "北",
+          "reading": "ほっかいどうへ いきたいです",
+          "en": "I want to go to Hokkaido."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "口",
+      "meaning": "mouth / opening",
+      "memoryHook": "口 visually anchors mouth / opening.",
+      "jlpt": "N5",
+      "strokeCount": 3,
+      "components": [
+        {
+          "shape": "口",
+          "note": "Use the whole shape as a visual anchor for mouth / opening; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "コウ",
+            "romaji": "kou",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 入口.",
+            "anchorExampleWord": "入口"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "くち",
+            "romaji": "kuchi"
+          }
+        ]
+      },
+      "mnemonic": "Connect 口 to mouth / opening; practise コウ in 入口 and compare it with くち in 口.",
+      "confusables": [
+        {
+          "kanji": "東",
+          "meaning": "east",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "間",
+          "meaning": "interval / between",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "入口",
+          "reading": "いりぐち",
+          "meaning": "entrance"
+        },
+        {
+          "word": "口",
+          "reading": "くち",
+          "meaning": "mouth"
+        },
+        {
+          "word": "出口",
+          "reading": "でぐち",
+          "meaning": "exit"
+        },
+        {
+          "word": "西口",
+          "reading": "にしぐち",
+          "meaning": "west exit"
+        },
+        {
+          "word": "人口",
+          "reading": "じんこう",
+          "meaning": "population"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "入口から入ります。",
+          "highlight": "口",
+          "reading": "いりぐちから はいります",
+          "en": "I enter from the entrance."
+        },
+        {
+          "jp": "出口は右です。",
+          "highlight": "口",
+          "reading": "でぐちは みぎです",
+          "en": "The exit is on the right."
+        },
+        {
+          "jp": "口を大きく開けます。",
+          "highlight": "口",
+          "reading": "くちを おおきく あけます",
+          "en": "I open my mouth wide."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "友",
+      "meaning": "friend",
+      "memoryHook": "友 visually anchors friend.",
+      "jlpt": "N5",
+      "strokeCount": 4,
+      "components": [
+        {
+          "shape": "友",
+          "note": "Use the whole shape as a visual anchor for friend; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ユウ",
+            "romaji": "yuu",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 友人.",
+            "anchorExampleWord": "友人"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "とも",
+            "romaji": "tomodachi"
+          }
+        ]
+      },
+      "mnemonic": "Connect 友 to friend; practise ユウ in 友人 and compare it with ともだち in 友だち.",
+      "confusables": [
+        {
+          "kanji": "東",
+          "meaning": "east",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "間",
+          "meaning": "interval / between",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "友人",
+          "reading": "ゆうじん",
+          "meaning": "friend"
+        },
+        {
+          "word": "友だち",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "word": "親友",
+          "reading": "しんゆう",
+          "meaning": "close friend"
+        },
+        {
+          "word": "友好",
+          "reading": "ゆうこう",
+          "meaning": "friendship"
+        },
+        {
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "友人に電話します。",
+          "highlight": "友",
+          "reading": "ゆうじんに でんわします",
+          "en": "I call a friend."
+        },
+        {
+          "jp": "友だちと学校へ行きます。",
+          "highlight": "友",
+          "reading": "ともだちと がっこうへ いきます",
+          "en": "I go to school with a friend."
+        },
+        {
+          "jp": "親友に手紙を書きます。",
+          "highlight": "友",
+          "reading": "しんゆうに てがみを かきます",
+          "en": "I write a letter to my close friend."
+        }
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "西",
+          "back": "west - セイ",
+          "speakText": "西"
+        },
+        {
+          "front": "南",
+          "back": "south - ナン",
+          "speakText": "南"
+        },
+        {
+          "front": "北",
+          "back": "north - ホク",
+          "speakText": "北"
+        },
+        {
+          "front": "口",
+          "back": "mouth / opening - コウ",
+          "speakText": "口"
+        },
+        {
+          "front": "友",
+          "back": "friend - ユウ",
+          "speakText": "友"
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 西 (kana or romaji):",
+      "question": "西",
+      "speakText": "西",
+      "answer": "セイ",
+      "acceptAlternatives": [
+        "sei",
+        "セイ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 南 (kana or romaji):",
+      "question": "南",
+      "speakText": "南",
+      "answer": "ナン",
+      "acceptAlternatives": [
+        "nan",
+        "ナン"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 北 (kana or romaji):",
+      "question": "北",
+      "speakText": "北",
+      "answer": "ホク",
+      "acceptAlternatives": [
+        "hoku",
+        "ホク"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 口 (kana or romaji):",
+      "question": "口",
+      "speakText": "口",
+      "answer": "コウ",
+      "acceptAlternatives": [
+        "ko",
+        "kou",
+        "コウ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 友 (kana or romaji):",
+      "question": "友",
+      "speakText": "友",
+      "answer": "ユウ",
+      "acceptAlternatives": [
+        "yu",
+        "yuu",
+        "ユウ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 西口 in hiragana or romaji:",
+      "question": "西口",
+      "speakText": "西口",
+      "answer": "にしぐち",
+      "acceptAlternatives": [
+        "nishiguchi",
+        "にしぐち"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "西"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 南口 in hiragana or romaji:",
+      "question": "南口",
+      "speakText": "南口",
+      "answer": "みなみぐち",
+      "acceptAlternatives": [
+        "minamiguchi",
+        "みなみぐち"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "南"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 北口 in hiragana or romaji:",
+      "question": "北口",
+      "speakText": "北口",
+      "answer": "きたぐち",
+      "acceptAlternatives": [
+        "kitaguchi",
+        "きたぐち"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "北"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 入口 in hiragana or romaji:",
+      "question": "入口",
+      "speakText": "入口",
+      "answer": "いりぐち",
+      "acceptAlternatives": [
+        "iriguchi",
+        "いりぐち"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "口"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 友人 in hiragana or romaji:",
+      "question": "友人",
+      "speakText": "友人",
+      "answer": "ゆうじん",
+      "acceptAlternatives": [
+        "yujin",
+        "yuujin",
+        "ゆうじん"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "友"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 北 in hiragana or romaji:",
+      "question": "北",
+      "speakText": "北",
+      "answer": "きた",
+      "acceptAlternatives": [
+        "kita",
+        "きた"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "北"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "口で待ちます。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "西",
+        "answerRomaji": "sei",
+        "hint": "Choose the kanji for west.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "西",
+            "correct": true
+          },
+          {
+            "text": "南",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "南 means “south,” so it does not fit this prompt."
+          },
+          {
+            "text": "北",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "北 means “north,” so it does not fit this prompt."
+          },
+          {
+            "text": "口",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "口 means “mouth / opening,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I wait at the west exit.",
+      "speakText": "西口で待ちます。",
+      "targetKanji": "西",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "口から入ります。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "北",
+        "answerRomaji": "hoku",
+        "hint": "Choose the kanji for north.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "北",
+            "correct": true
+          },
+          {
+            "text": "西",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "西 means “west,” so it does not fit this prompt."
+          },
+          {
+            "text": "南",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "南 means “south,” so it does not fit this prompt."
+          },
+          {
+            "text": "口",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "口 means “mouth / opening,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I enter from the north exit.",
+      "speakText": "北口から入ります。",
+      "targetKanji": "北",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "人に電話します。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "友",
+        "answerRomaji": "yuu",
+        "hint": "Choose the kanji for friend.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "友",
+            "correct": true
+          },
+          {
+            "text": "西",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "西 means “west,” so it does not fit this prompt."
+          },
+          {
+            "text": "南",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "南 means “south,” so it does not fit this prompt."
+          },
+          {
+            "text": "北",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "北 means “north,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I call a friend.",
+      "speakText": "友人に電話します。",
+      "targetKanji": "友",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 西 read in 西口?",
+      "word": "西口",
+      "targetKanji": "西",
+      "options": [
+        {
+          "kana": "にしぐち",
+          "romaji": "nishiguchi",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "西口 is read にしぐち in this vocabulary item."
+        },
+        {
+          "kana": "セイ",
+          "romaji": "sei",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "セイ is useful for 西, but not the full reading of 西口."
+        },
+        {
+          "kana": "にし",
+          "romaji": "nishi",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "にし is another reading connected to 西, not the reading used in 西口."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 北 read in 北口?",
+      "word": "北口",
+      "targetKanji": "北",
+      "options": [
+        {
+          "kana": "きたぐち",
+          "romaji": "kitaguchi",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "北口 is read きたぐち in this vocabulary item."
+        },
+        {
+          "kana": "ホク",
+          "romaji": "hoku",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "ホク is useful for 北, but not the full reading of 北口."
+        },
+        {
+          "kana": "きた",
+          "romaji": "kita",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "きた is another reading connected to 北, not the reading used in 北口."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 友 read in 友人?",
+      "word": "友人",
+      "targetKanji": "友",
+      "options": [
+        {
+          "kana": "ゆうじん",
+          "romaji": "yujin",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "友人 is read ゆうじん in this vocabulary item."
+        },
+        {
+          "kana": "ユウ",
+          "romaji": "yuu",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "ユウ is useful for 友, but not the full reading of 友人."
+        },
+        {
+          "kana": "とも",
+          "romaji": "tomodachi",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "とも is another reading connected to 友, not the reading used in 友人."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji means 'south'?",
+      "options": [
+        {
+          "text": "南",
+          "correct": true
+        },
+        {
+          "text": "西",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "西 means “west,” so it does not fit this prompt."
+        },
+        {
+          "text": "北",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "北 means “north,” so it does not fit this prompt."
+        },
+        {
+          "text": "口",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "口 means “mouth / opening,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the kanji you hear:",
+      "speakText": "口",
+      "options": [
+        {
+          "text": "口",
+          "correct": true
+        },
+        {
+          "text": "西",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "西 means “west,” so it does not fit this prompt."
+        },
+        {
+          "text": "南",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "南 means “south,” so it does not fit this prompt."
+        },
+        {
+          "text": "北",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "北 means “north,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji in 友人 (friend) means 'friend'?",
+      "options": [
+        {
+          "text": "友",
+          "correct": true
+        },
+        {
+          "text": "西",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "西 means “west,” so it does not fit this prompt."
+        },
+        {
+          "text": "南",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "南 means “south,” so it does not fit this prompt."
+        },
+        {
+          "text": "北",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "北 means “north,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Review: which older kanji means 'east'?",
+      "reviewFrom": "kanji-batch-11",
+      "options": [
+        {
+          "text": "東",
+          "correct": true
+        },
+        {
+          "text": "後",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "後 means “after / behind,” so it does not fit this prompt."
+        },
+        {
+          "text": "前",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "前 means “before / front,” so it does not fit this prompt."
+        },
+        {
+          "text": "時",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "時 means “time / hour,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Review: match older kanji to their meanings:",
+      "reviewFrom": [
+        "kanji-batch-10",
+        "kanji-batch-11"
+      ],
+      "pairs": [
+        {
+          "left": "前",
+          "right": "before / front",
+          "reviewFrom": "kanji-batch-11"
+        },
+        {
+          "left": "時",
+          "right": "time / hour",
+          "reviewFrom": "kanji-batch-11"
+        },
+        {
+          "left": "間",
+          "right": "interval / between",
+          "reviewFrom": "kanji-batch-11"
+        },
+        {
+          "left": "東",
+          "right": "east",
+          "reviewFrom": "kanji-batch-11"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each kanji to its meaning:",
+      "pairs": [
+        {
+          "left": "西",
+          "right": "west"
+        },
+        {
+          "left": "南",
+          "right": "south"
+        },
+        {
+          "left": "北",
+          "right": "north"
+        },
+        {
+          "left": "口",
+          "right": "mouth / opening"
+        },
+        {
+          "left": "友",
+          "right": "friend"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Dakuten — ダ行 & バ行",
+      "rows": [
+        [
+          "タ → ダ (da)",
+          "チ → ヂ (ji)",
+          "ツ → ヅ (zu)",
+          "テ → デ (de)",
+          "ト → ド (do)"
+        ],
+        [
+          "ハ → バ (ba)",
+          "ヒ → ビ (bi)",
+          "フ → ブ (bu)",
+          "ヘ → ベ (be)",
+          "ホ → ボ (bo)"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ダ",
+          "back": "da",
+          "speakText": "ダ"
+        },
+        {
+          "front": "ヂ",
+          "back": "ji",
+          "speakText": "ヂ"
+        },
+        {
+          "front": "ヅ",
+          "back": "zu",
+          "speakText": "ヅ"
+        },
+        {
+          "front": "デ",
+          "back": "de",
+          "speakText": "デ"
+        },
+        {
+          "front": "ド",
+          "back": "do",
+          "speakText": "ド"
+        },
+        {
+          "front": "バ",
+          "back": "ba",
+          "speakText": "バ"
+        },
+        {
+          "front": "ビ",
+          "back": "bi",
+          "speakText": "ビ"
+        },
+        {
+          "front": "ブ",
+          "back": "bu",
+          "speakText": "ブ"
+        },
+        {
+          "front": "ベ",
+          "back": "be",
+          "speakText": "ベ"
+        },
+        {
+          "front": "ボ",
+          "back": "bo",
+          "speakText": "ボ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Da?",
+      "options": [
+        "タ",
+        "ナ",
+        "ダ",
+        "ザ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Bo?",
+      "options": [
+        "ホ",
+        "ボ",
+        "バ",
+        "ゴ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Bu?",
+      "options": [
+        "フ",
+        "ブ",
+        "プ",
+        "グ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "デ",
+      "answer": "de"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ヂ",
+      "answer": "ji",
+      "acceptAlternatives": [
+        "di"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "バ",
+      "answer": "ba"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ダ",
+          "da"
+        ],
+        [
+          "デ",
+          "de"
+        ],
+        [
+          "バ",
+          "ba"
+        ],
+        [
+          "ビ",
+          "bi"
+        ],
+        [
+          "ボ",
+          "bo"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ダ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "タ",
+        "ダ",
+        "ナ",
+        "ザ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "バ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ハ",
+        "バ",
+        "ダ",
+        "ナ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ボ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ホ",
+        "ボ",
+        "バ",
+        "ゴ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Do?",
+      "options": [
+        "ト",
+        "ド",
+        "ダ",
+        "タ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Be?",
+      "options": [
+        "ヘ",
+        "ベ",
+        "デ",
+        "ペ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "テレビ (terebi)",
+          "TV"
+        ],
+        [
+          "ドア (doa)",
+          "door"
+        ],
+        [
+          "バス (basu)",
+          "bus"
+        ],
+        [
+          "ビル (biru)",
+          "building"
+        ],
+        [
+          "ボタン (botan)",
+          "button"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "TV",
+      "answer": [
+        "テ",
+        "レ",
+        "ビ"
+      ],
+      "bank": [
+        "テ",
+        "デ",
+        "レ",
+        "ビ",
+        "バ",
+        "ボ"
+      ],
+      "speakText": "テレビ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "door",
+      "answer": [
+        "ド",
+        "ア"
+      ],
+      "bank": [
+        "ド",
+        "ト",
+        "ダ",
+        "ア",
+        "オ",
+        "ウ"
+      ],
+      "speakText": "ドア"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "bus",
+      "answer": [
+        "バ",
+        "ス"
+      ],
+      "bank": [
+        "バ",
+        "ビ",
+        "ブ",
+        "ス",
+        "ソ",
+        "サ"
+      ],
+      "speakText": "バス"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "テレビ",
+          "TV"
+        ],
+        [
+          "ドア",
+          "door"
+        ],
+        [
+          "バス",
+          "bus"
+        ],
+        [
+          "ビル",
+          "building"
+        ],
+        [
+          "ボタン",
+          "button"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "テレビ",
+      "prompt": "Which word did you hear?",
+      "options": [
+        "TV",
+        "bus",
+        "building",
+        "button"
+      ],
+      "correctIndex": 0
+    }
+  ],
+  "id": "katakana-row-dakuten-db"
+}

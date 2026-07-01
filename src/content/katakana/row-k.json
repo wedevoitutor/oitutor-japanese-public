@@ -1,0 +1,362 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "K-row — カ行",
+      "rows": [
+        [
+          "カ ka",
+          "キ ki",
+          "ク ku",
+          "ケ ke",
+          "コ ko"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "キ",
+          "back": "ki",
+          "speakText": "キ"
+        },
+        {
+          "front": "ケ",
+          "back": "ke",
+          "speakText": "ケ"
+        },
+        {
+          "front": "ク",
+          "back": "ku",
+          "speakText": "ク"
+        },
+        {
+          "front": "コ",
+          "back": "ko",
+          "speakText": "コ"
+        },
+        {
+          "front": "カ",
+          "back": "ka",
+          "speakText": "カ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ku?",
+      "options": [
+        "キ",
+        "コ",
+        "カ",
+        "ク"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ki?",
+      "options": [
+        "コ",
+        "キ",
+        "ク",
+        "ケ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "カ",
+      "answer": "ka"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "コ",
+      "answer": "ko"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "コ",
+          "ko"
+        ],
+        [
+          "ク",
+          "ku"
+        ],
+        [
+          "カ",
+          "ka"
+        ],
+        [
+          "キ",
+          "ki"
+        ],
+        [
+          "ケ",
+          "ke"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "カ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "キ",
+        "カ",
+        "ク",
+        "コ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ケ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ケ",
+        "コ",
+        "ク",
+        "カ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ke?",
+      "options": [
+        "ケ",
+        "コ",
+        "ク",
+        "カ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "キ",
+      "answer": "ki"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ケ",
+      "answer": "ke"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ku? (watch for look-alikes)",
+      "options": [
+        "ワ",
+        "ク",
+        "ケ",
+        "タ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ko? (watch for look-alikes)",
+      "options": [
+        "ユ",
+        "ロ",
+        "コ",
+        "エ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "キ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "コ",
+        "ケ",
+        "キ",
+        "ク"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "コ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "カ",
+        "ク",
+        "コ",
+        "ケ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ク",
+      "answer": "ku"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ka?",
+      "options": [
+        "カ",
+        "ケ",
+        "ク",
+        "コ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "ケーキ (keeki)",
+          "cake"
+        ],
+        [
+          "オーケー (ookee)",
+          "OK"
+        ],
+        [
+          "カカオ (kakao)",
+          "cacao"
+        ],
+        [
+          "オーク (ooku)",
+          "oak"
+        ],
+        [
+          "コア (koa)",
+          "core"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "cake",
+      "answer": [
+        "ケ",
+        "ー",
+        "キ"
+      ],
+      "bank": [
+        "カ",
+        "キ",
+        "ク",
+        "ケ",
+        "コ",
+        "ー"
+      ],
+      "speakText": "ケーキ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "cacao",
+      "answer": [
+        "カ",
+        "カ",
+        "オ"
+      ],
+      "bank": [
+        "ア",
+        "カ",
+        "キ",
+        "ク",
+        "コ",
+        "オ"
+      ],
+      "speakText": "カカオ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "OK",
+      "answer": [
+        "オ",
+        "ー",
+        "ケ",
+        "ー"
+      ],
+      "bank": [
+        "ア",
+        "オ",
+        "ケ",
+        "コ",
+        "ク",
+        "ー"
+      ],
+      "speakText": "オーケー"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ケーキ",
+      "answer": "keeki"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "カカオ",
+      "answer": "kakao"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ケーキ",
+          "cake"
+        ],
+        [
+          "オーケー",
+          "OK"
+        ],
+        [
+          "カカオ",
+          "cacao"
+        ],
+        [
+          "オーク",
+          "oak"
+        ],
+        [
+          "コア",
+          "core"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ク",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "キ",
+        "カ",
+        "コ",
+        "ク"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "oak",
+      "answer": [
+        "オ",
+        "ー",
+        "ク"
+      ],
+      "bank": [
+        "ア",
+        "オ",
+        "キ",
+        "ク",
+        "コ",
+        "ー"
+      ],
+      "speakText": "オーク"
+    }
+  ],
+  "id": "katakana-row-k"
+}

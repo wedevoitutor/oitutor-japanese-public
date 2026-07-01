@@ -1,0 +1,777 @@
+{
+  "id": "grammar-lesson-17",
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Relative Time Words - No に",
+      "intro": "Words like today, tomorrow, and last week already point to a time. In beginner Japanese, they usually do not need に before the verb.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "きょう",
+          "kyou",
+          "today"
+        ],
+        [
+          "あした",
+          "ashita",
+          "tomorrow"
+        ],
+        [
+          "きのう",
+          "kinou",
+          "yesterday"
+        ],
+        [
+          "けさ",
+          "kesa",
+          "this morning"
+        ],
+        [
+          "こんばん",
+          "konban",
+          "tonight"
+        ],
+        [
+          "せんしゅう",
+          "senshuu",
+          "last week"
+        ],
+        [
+          "らいしゅう",
+          "raishuu",
+          "next week"
+        ]
+      ],
+      "takeaway": "Relative time words usually go before the verb without に."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which time word normally does NOT need に?",
+      "options": [
+        "きょう (kyou)",
+        "三じ (san-ji)",
+        "月ようび (getsuyoubi)",
+        "七月 (shichi-gatsu)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I will study today' using a relative time word:",
+      "patternJp": [
+        "[SLOT]",
+        " べんきょうします。"
+      ],
+      "patternRom": [
+        "[SLOT]",
+        " benkyou shimasu."
+      ],
+      "slot": {
+        "answer": "きょう",
+        "answerRomaji": "kyou",
+        "hint": "The relative time word meaning 'today'.",
+        "acceptAlternatives": [
+          "Kyou"
+        ]
+      },
+      "translation": "I will study today.",
+      "speakText": "きょう べんきょうします。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Specific Time - Use に",
+      "intro": "Clock times and named calendar times are specific points on a schedule. Mark them with に when you say when something happens.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "一じに",
+          "ichi-ji ni",
+          "at one o'clock"
+        ],
+        [
+          "三じはんに",
+          "san-ji han ni",
+          "at three thirty"
+        ],
+        [
+          "月ようびに",
+          "getsuyoubi ni",
+          "on Monday"
+        ],
+        [
+          "七月に",
+          "shichi-gatsu ni",
+          "in July"
+        ],
+        [
+          "たんじょうびに",
+          "tanjoubi ni",
+          "on a birthday"
+        ],
+        [
+          "あさ 八じに",
+          "asa hachi-ji ni",
+          "at 8 in the morning"
+        ]
+      ],
+      "takeaway": "Specific scheduled time + に tells when the action happens."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which sentence correctly says 'I get up at seven o'clock'?",
+      "options": [
+        "七じに おきます。",
+        "七じ おきますに。",
+        "きょうに おきます。",
+        "七つに おきます。"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I go to school at eight o'clock' using に:",
+      "patternJp": [
+        "八じに ",
+        "[SLOT]",
+        "へ いきます。"
+      ],
+      "patternRom": [
+        "hachi-ji ni ",
+        "[SLOT]",
+        " e ikimasu."
+      ],
+      "slot": {
+        "answer": "がっこう",
+        "answerRomaji": "gakkou",
+        "hint": "The place where students go to study.",
+        "acceptAlternatives": [
+          "Gakkou",
+          "学校",
+          "がっこ"
+        ]
+      },
+      "translation": "I go to school at eight o'clock.",
+      "speakText": "八じに がっこうへ いきます。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Frequency and Duration",
+      "intro": "Frequency words tell how often something happens. Duration phrases tell how long it lasts; they usually sit before the verb without に.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "まいにち",
+          "mainichi",
+          "every day"
+        ],
+        [
+          "ときどき",
+          "tokidoki",
+          "sometimes"
+        ],
+        [
+          "よく",
+          "yoku",
+          "often"
+        ],
+        [
+          "ぜんぜん",
+          "zenzen",
+          "not at all"
+        ],
+        [
+          "一じかん",
+          "ichi-jikan",
+          "one hour"
+        ],
+        [
+          "二じかん",
+          "ni-jikan",
+          "two hours"
+        ],
+        [
+          "三ぷん",
+          "san-pun",
+          "three minutes"
+        ]
+      ],
+      "takeaway": "Frequency and duration modify the action; duration normally does not take に."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which phrase means 'for two hours'?",
+      "options": [
+        "二じかん",
+        "二じに",
+        "二日",
+        "二人"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I study for one hour every day':",
+      "patternJp": [
+        "まいにち ",
+        "[SLOT]",
+        " べんきょうします。"
+      ],
+      "patternRom": [
+        "mainichi ",
+        "[SLOT]",
+        " benkyou shimasu."
+      ],
+      "slot": {
+        "answer": "一じかん",
+        "answerRomaji": "ichi-jikan",
+        "hint": "The duration phrase meaning 'one hour'.",
+        "acceptAlternatives": [
+          "ichi jikan",
+          "いちじかん",
+          "一時間"
+        ]
+      },
+      "translation": "I study for one hour every day.",
+      "speakText": "まいにち 一じかん べんきょうします。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Common N5 Counters",
+      "intro": "Japanese counts different kinds of things with different counters. Start with the most useful N5 counters and the common irregular readings.",
+      "rows": [
+        [
+          "Counter",
+          "Romaji",
+          "Use"
+        ],
+        [
+          "一人 / 二人",
+          "hitori / futari",
+          "one / two people"
+        ],
+        [
+          "三人",
+          "san-nin",
+          "three people"
+        ],
+        [
+          "一つ / 二つ",
+          "hitotsu / futatsu",
+          "one / two general things"
+        ],
+        [
+          "三つ",
+          "mittsu",
+          "three general things"
+        ],
+        [
+          "一まい",
+          "ichi-mai",
+          "one flat thing"
+        ],
+        [
+          "一本",
+          "ippon",
+          "one long thing"
+        ],
+        [
+          "一ぴき",
+          "ippiki",
+          "one small animal"
+        ]
+      ],
+      "takeaway": "Pick the counter by the thing: people, general items, flat things, long things, or small animals."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which counter phrase means 'two people'?",
+      "options": [
+        "二人 (futari)",
+        "二つ (futatsu)",
+        "二まい (ni-mai)",
+        "二本 (nihon)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'There are two people' using the people counter:",
+      "patternJp": [
+        "[SLOT]",
+        " います。"
+      ],
+      "patternRom": [
+        "[SLOT]",
+        " imasu."
+      ],
+      "slot": {
+        "answer": "二人",
+        "answerRomaji": "futari",
+        "hint": "The irregular counter phrase for two people.",
+        "acceptAlternatives": [
+          "ふたり",
+          "Futari"
+        ]
+      },
+      "translation": "There are two people.",
+      "speakText": "二人 います。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence correctly uses に with a specific clock time?",
+      "title": "Specific time needs に",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "七じに おきます。",
+          "romaji": "shichi-ji ni okimasu.",
+          "en": "I get up at seven o'clock.",
+          "note": "A clock time is a specific scheduled point, so に is natural.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "七じ おきます。",
+          "romaji": "shichi-ji okimasu.",
+          "en": "I get up seven o'clock.",
+          "note": "Beginners often drop に, but the schedule point is clearer with に.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "七じを おきます。",
+          "romaji": "shichi-ji o okimasu.",
+          "en": "(intended: get up at seven)",
+          "note": "を marks an object, not the time of waking up.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use に for a specific clock time.",
+      "speakText": "七じに おきます。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence correctly uses a relative time word?",
+      "title": "Today usually has no に",
+      "variants": [
+        {
+          "label": "NATURAL",
+          "jp": "きょう べんきょうします。",
+          "romaji": "kyou benkyou shimasu.",
+          "en": "I will study today.",
+          "note": "きょう is already a relative time word, so no に is needed.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "きょうに べんきょうします。",
+          "romaji": "kyou ni benkyou shimasu.",
+          "en": "(intended: study today)",
+          "note": "Adding に after everyday relative time words sounds unnatural for N5 basics.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "月ようびに べんきょうします。",
+          "romaji": "getsuyoubi ni benkyou shimasu.",
+          "en": "I study on Monday.",
+          "note": "This is grammatical, but it says Monday, not today.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Say きょう, あした, きのう without に in basic time sentences.",
+      "speakText": "きょう べんきょうします。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence correctly counts people?",
+      "title": "People counter irregulars",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "二人 います。",
+          "romaji": "futari imasu.",
+          "en": "There are two people.",
+          "note": "One and two people are irregular: hitori, futari.",
+          "correct": true
+        },
+        {
+          "label": "WRONG",
+          "jp": "二つ います。",
+          "romaji": "futatsu imasu.",
+          "en": "(intended: two people)",
+          "note": "二つ counts general things, not people.",
+          "correct": false
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "二人 あります。",
+          "romaji": "futari arimasu.",
+          "en": "(intended: there are two people)",
+          "note": "Use います for people and animals, not あります.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use hitori/futari with います for people.",
+      "speakText": "二人 います。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase correctly counts three minutes?",
+      "title": "Minute counter sound changes",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "三ぷん まちます。",
+          "romaji": "san-pun machimasu.",
+          "en": "I wait for three minutes.",
+          "note": "Three minutes is さんぷん, with the p-sound.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "三ふん まちます。",
+          "romaji": "san-fun machimasu.",
+          "en": "(intended: wait three minutes)",
+          "note": "Some minute counts use ふん, but three minutes is さんぷん.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "三じに まちます。",
+          "romaji": "san-ji ni machimasu.",
+          "en": "I wait at three o'clock.",
+          "note": "三じ is a clock time, not a duration of three minutes.",
+          "correct": false
+        }
+      ],
+      "takeaway": "三ぷん is a duration; 三じ is a clock time.",
+      "speakText": "三ぷん まちます。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Time and Counters in Context",
+      "intro": "These sentences show relative time, specific time with に, duration, frequency, and common counters in simple N5 contexts.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "English"
+        ],
+        [
+          "きょう べんきょうします。",
+          "kyou benkyou shimasu.",
+          "I will study today."
+        ],
+        [
+          "あした がっこうへ いきます。",
+          "ashita gakkou e ikimasu.",
+          "I will go to school tomorrow."
+        ],
+        [
+          "七じに おきます。",
+          "shichi-ji ni okimasu.",
+          "I get up at seven o'clock."
+        ],
+        [
+          "八じに がっこうへ いきます。",
+          "hachi-ji ni gakkou e ikimasu.",
+          "I go to school at eight o'clock."
+        ],
+        [
+          "まいにち 一じかん べんきょうします。",
+          "mainichi ichi-jikan benkyou shimasu.",
+          "I study for one hour every day."
+        ],
+        [
+          "三ぷん まちます。",
+          "san-pun machimasu.",
+          "I wait for three minutes."
+        ],
+        [
+          "二人 います。",
+          "futari imasu.",
+          "There are two people."
+        ],
+        [
+          "りんごを 三つ ください。",
+          "ringo o mittsu kudasai.",
+          "Three apples, please."
+        ]
+      ],
+      "takeaway": "Use the time pattern first, then choose the right counter for the thing you count."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "きょう べんきょうします。",
+      "options": [
+        "I will study today.",
+        "I studied yesterday.",
+        "I study at seven.",
+        "I do not study."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "あした がっこうへ いきます。",
+      "options": [
+        "I went to school yesterday.",
+        "I will go to school tomorrow.",
+        "I go home tomorrow.",
+        "I study at school."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "七じに おきます。",
+      "options": [
+        "I sleep for seven hours.",
+        "I get up at seven o'clock.",
+        "I wake up today.",
+        "It is seven people."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "八じに がっこうへ いきます。",
+      "options": [
+        "I go to school at eight o'clock.",
+        "I leave school at eight.",
+        "I study for eight hours.",
+        "I go to school tomorrow."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "まいにち 一じかん べんきょうします。",
+      "options": [
+        "I study for one hour every day.",
+        "I study at one o'clock every day.",
+        "I studied for one minute.",
+        "I do not study every day."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "三ぷん まちます。",
+      "options": [
+        "I wait at three o'clock.",
+        "I wait for three minutes.",
+        "I wait for three people.",
+        "I waited yesterday."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "二人 います。",
+      "options": [
+        "There are two people.",
+        "There are two things.",
+        "There are two sheets.",
+        "There are two books."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "りんごを 三つ ください。",
+      "options": [
+        "Please give me three apples.",
+        "Please give me three people.",
+        "Please give me three minutes.",
+        "Please give me an apple tomorrow."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "きょう べんきょうします",
+      "answer": "kyou benkyou shimasu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "あした がっこうへ いきます",
+      "answer": "ashita gakkou e ikimasu",
+      "acceptAlternatives": [
+        "ashita gakkou he ikimasu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "七じに おきます",
+      "answer": "shichi-ji ni okimasu",
+      "acceptAlternatives": [
+        "nana-ji ni okimasu",
+        "shichiji ni okimasu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "八じに がっこうへ いきます",
+      "answer": "hachi-ji ni gakkou e ikimasu",
+      "acceptAlternatives": [
+        "hachi ji ni gakkou e ikimasu",
+        "hachi-ji ni gakkou he ikimasu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "まいにち 一じかん べんきょうします",
+      "answer": "mainichi ichi-jikan benkyou shimasu",
+      "acceptAlternatives": [
+        "mainichi ichi jikan benkyou shimasu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "三ぷん まちます",
+      "answer": "san-pun machimasu",
+      "acceptAlternatives": [
+        "san pun machimasu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "二人 います",
+      "answer": "futari imasu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word or counter to its meaning:",
+      "pairs": [
+        {
+          "left": "きょう",
+          "right": "today"
+        },
+        {
+          "left": "あした",
+          "right": "tomorrow"
+        },
+        {
+          "left": "七じ",
+          "right": "seven o'clock"
+        },
+        {
+          "left": "まいにち",
+          "right": "every day"
+        },
+        {
+          "left": "一じかん",
+          "right": "one hour"
+        },
+        {
+          "left": "三ぷん",
+          "right": "three minutes"
+        },
+        {
+          "left": "二人",
+          "right": "two people"
+        },
+        {
+          "left": "三つ",
+          "right": "three things"
+        },
+        {
+          "left": "一まい",
+          "right": "one flat thing"
+        },
+        {
+          "left": "一本",
+          "right": "one long thing"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice - time expressions and counters",
+      "cards": [
+        {
+          "jp": "きょう べんきょうします。",
+          "romaji": "kyou benkyou shimasu.",
+          "en": "I will study today."
+        },
+        {
+          "jp": "あした がっこうへ いきます。",
+          "romaji": "ashita gakkou e ikimasu.",
+          "en": "I will go to school tomorrow."
+        },
+        {
+          "jp": "きのう えいがを みました。",
+          "romaji": "kinou eiga o mimashita.",
+          "en": "I watched a movie yesterday."
+        },
+        {
+          "jp": "七じに おきます。",
+          "romaji": "shichi-ji ni okimasu.",
+          "en": "I get up at seven o'clock."
+        },
+        {
+          "jp": "八じに がっこうへ いきます。",
+          "romaji": "hachi-ji ni gakkou e ikimasu.",
+          "en": "I go to school at eight o'clock."
+        },
+        {
+          "jp": "まいにち 一じかん べんきょうします。",
+          "romaji": "mainichi ichi-jikan benkyou shimasu.",
+          "en": "I study for one hour every day."
+        },
+        {
+          "jp": "三ぷん まちます。",
+          "romaji": "san-pun machimasu.",
+          "en": "I wait for three minutes."
+        },
+        {
+          "jp": "二人 います。",
+          "romaji": "futari imasu.",
+          "en": "There are two people."
+        },
+        {
+          "jp": "りんごを 三つ ください。",
+          "romaji": "ringo o mittsu kudasai.",
+          "en": "Three apples, please."
+        },
+        {
+          "jp": "かみを 一まい ください。",
+          "romaji": "kami o ichi-mai kudasai.",
+          "en": "One sheet of paper, please."
+        }
+      ]
+    }
+  ]
+}

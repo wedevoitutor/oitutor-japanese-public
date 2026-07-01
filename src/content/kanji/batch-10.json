@@ -1,0 +1,1139 @@
+{
+  "id": "kanji-batch-10",
+  "misconceptions": [
+    {
+      "kanji": "右",
+      "error": "Overuses one reading of 右 and misses the reading in 右手.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "左",
+      "error": "Overuses one reading of 左 and misses the reading in 左手.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "休",
+      "error": "Overuses one reading of 休 and misses the reading in 休日.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "何",
+      "error": "Overuses one reading of 何 and misses the reading in 何月.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "午",
+      "error": "Overuses one reading of 午 and misses the reading in 午後.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Batch 10 - 右 左 休 何 午",
+      "intro": "This batch teaches 右 左 休 何 午 with anchor readings, N5 words, and short sentence practice.",
+      "rows": [
+        [
+          "Kanji",
+          "Meaning",
+          "Anchor reading",
+          "Other reading",
+          "Memory hook"
+        ],
+        [
+          "右",
+          "right",
+          "ウ",
+          "みぎ",
+          "右 → right"
+        ],
+        [
+          "左",
+          "left",
+          "サ",
+          "ひだり",
+          "左 → left"
+        ],
+        [
+          "休",
+          "rest",
+          "キュウ",
+          "やすむ",
+          "休 → rest"
+        ],
+        [
+          "何",
+          "what",
+          "カ",
+          "なに",
+          "何 → what"
+        ],
+        [
+          "午",
+          "noon",
+          "ゴ",
+          "—",
+          "午 → noon"
+        ]
+      ],
+      "takeaway": "Recognise the kanji first, then confirm the reading from the word around it."
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "右",
+      "meaning": "right",
+      "memoryHook": "右 visually anchors right.",
+      "jlpt": "N5",
+      "strokeCount": 5,
+      "components": [
+        {
+          "shape": "右",
+          "note": "Use the whole shape as a visual anchor for right; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ウ",
+            "romaji": "u",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 右手.",
+            "anchorExampleWord": "右手"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "みぎ",
+            "romaji": "migi"
+          }
+        ]
+      },
+      "mnemonic": "Connect 右 to right; practise ウ in 右手 and compare it with みぎ in 右.",
+      "confusables": [
+        {
+          "kanji": "火",
+          "meaning": "fire",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "天",
+          "meaning": "heaven / sky",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "右手",
+          "reading": "みぎて",
+          "meaning": "right hand"
+        },
+        {
+          "word": "右",
+          "reading": "みぎ",
+          "meaning": "right"
+        },
+        {
+          "word": "右側",
+          "reading": "みぎがわ",
+          "meaning": "right side"
+        },
+        {
+          "word": "右目",
+          "reading": "みぎめ",
+          "meaning": "right eye"
+        },
+        {
+          "word": "右上",
+          "reading": "みぎうえ",
+          "meaning": "upper right"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "右手で名前を書きます。",
+          "highlight": "右",
+          "reading": "みぎてで なまえを かきます",
+          "en": "I write my name with my right hand."
+        },
+        {
+          "jp": "右に曲がってください。",
+          "highlight": "右",
+          "reading": "みぎに まがってください",
+          "en": "Please turn right."
+        },
+        {
+          "jp": "右側のドアを開けます。",
+          "highlight": "右",
+          "reading": "みぎがわの ドアを あけます",
+          "en": "I open the door on the right side."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "左",
+      "meaning": "left",
+      "memoryHook": "左 visually anchors left.",
+      "jlpt": "N5",
+      "strokeCount": 5,
+      "components": [
+        {
+          "shape": "左",
+          "note": "Use the whole shape as a visual anchor for left; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "サ",
+            "romaji": "sa",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 左手.",
+            "anchorExampleWord": "左手"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "ひだり",
+            "romaji": "hidari"
+          }
+        ]
+      },
+      "mnemonic": "Connect 左 to left; practise サ in 左手 and compare it with ひだり in 左.",
+      "confusables": [
+        {
+          "kanji": "火",
+          "meaning": "fire",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "天",
+          "meaning": "heaven / sky",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "左手",
+          "reading": "ひだりて",
+          "meaning": "left hand"
+        },
+        {
+          "word": "左",
+          "reading": "ひだり",
+          "meaning": "left"
+        },
+        {
+          "word": "左側",
+          "reading": "ひだりがわ",
+          "meaning": "left side"
+        },
+        {
+          "word": "左目",
+          "reading": "ひだりめ",
+          "meaning": "left eye"
+        },
+        {
+          "word": "左上",
+          "reading": "ひだりうえ",
+          "meaning": "upper left"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "左手でかばんを持ちます。",
+          "highlight": "左",
+          "reading": "ひだりてで かばんを もちます",
+          "en": "I hold the bag with my left hand."
+        },
+        {
+          "jp": "左に曲がります。",
+          "highlight": "左",
+          "reading": "ひだりに まがります",
+          "en": "I turn left."
+        },
+        {
+          "jp": "左側に学校が見えます。",
+          "highlight": "左",
+          "reading": "ひだりがわに がっこうが みえます",
+          "en": "You can see the school on the left side."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "休",
+      "meaning": "rest",
+      "memoryHook": "休 visually anchors rest.",
+      "jlpt": "N5",
+      "strokeCount": 6,
+      "components": [
+        {
+          "shape": "休",
+          "note": "Use the whole shape as a visual anchor for rest; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "キュウ",
+            "romaji": "kyuu",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 休日.",
+            "anchorExampleWord": "休日"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "やすむ",
+            "romaji": "yasumi"
+          }
+        ]
+      },
+      "mnemonic": "Connect 休 to rest; practise キュウ in 休日 and compare it with やすみ in 休み.",
+      "confusables": [
+        {
+          "kanji": "火",
+          "meaning": "fire",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "天",
+          "meaning": "heaven / sky",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "休日",
+          "reading": "きゅうじつ",
+          "meaning": "holiday / day off"
+        },
+        {
+          "word": "休み",
+          "reading": "やすみ",
+          "meaning": "rest / break"
+        },
+        {
+          "word": "休む",
+          "reading": "やすむ",
+          "meaning": "to rest"
+        },
+        {
+          "word": "昼休み",
+          "reading": "ひるやすみ",
+          "meaning": "lunch break"
+        },
+        {
+          "word": "休校",
+          "reading": "きゅうこう",
+          "meaning": "school closure"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "休日に山へ行きます。",
+          "highlight": "休",
+          "reading": "きゅうじつに やまへ いきます",
+          "en": "I go to the mountains on my day off."
+        },
+        {
+          "jp": "昼休みに水を飲みます。",
+          "highlight": "休",
+          "reading": "ひるやすみに みずを のみます",
+          "en": "I drink water during lunch break."
+        },
+        {
+          "jp": "今日は早く休みます。",
+          "highlight": "休",
+          "reading": "きょうは はやく やすみます",
+          "en": "I rest early today."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "何",
+      "meaning": "what",
+      "memoryHook": "何 visually anchors what.",
+      "jlpt": "N5",
+      "strokeCount": 7,
+      "components": [
+        {
+          "shape": "何",
+          "note": "Use the whole shape as a visual anchor for what; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "カ",
+            "romaji": "ka",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 何月.",
+            "anchorExampleWord": "何月"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "なに",
+            "romaji": "nani"
+          }
+        ]
+      },
+      "mnemonic": "Connect 何 to what; practise カ in 何月 and compare it with なに in 何.",
+      "confusables": [
+        {
+          "kanji": "火",
+          "meaning": "fire",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "天",
+          "meaning": "heaven / sky",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "何月",
+          "reading": "なんがつ",
+          "meaning": "what month"
+        },
+        {
+          "word": "何",
+          "reading": "なに",
+          "meaning": "what"
+        },
+        {
+          "word": "何時",
+          "reading": "なんじ",
+          "meaning": "what time"
+        },
+        {
+          "word": "何人",
+          "reading": "なんにん",
+          "meaning": "how many people"
+        },
+        {
+          "word": "何日",
+          "reading": "なんにち",
+          "meaning": "what day of the month"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "何月に来ますか。",
+          "highlight": "何",
+          "reading": "なんがつに きますか",
+          "en": "What month will you come?"
+        },
+        {
+          "jp": "これは何ですか。",
+          "highlight": "何",
+          "reading": "これは なんですか",
+          "en": "What is this?"
+        },
+        {
+          "jp": "何時に会いますか。",
+          "highlight": "何",
+          "reading": "なんじに あいますか",
+          "en": "What time shall we meet?"
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "午",
+      "meaning": "noon",
+      "memoryHook": "午 visually anchors noon.",
+      "jlpt": "N5",
+      "strokeCount": 4,
+      "components": [
+        {
+          "shape": "午",
+          "note": "Use the whole shape as a visual anchor for noon; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ゴ",
+            "romaji": "go",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 午後.",
+            "anchorExampleWord": "午後"
+          }
+        ],
+        "kun": []
+      },
+      "mnemonic": "Connect 午 to noon; practise ゴ in 午後 and compare it with ごぜん in 午前.",
+      "confusables": [
+        {
+          "kanji": "火",
+          "meaning": "fire",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "天",
+          "meaning": "heaven / sky",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "午後",
+          "reading": "ごご",
+          "meaning": "afternoon / p.m."
+        },
+        {
+          "word": "午前",
+          "reading": "ごぜん",
+          "meaning": "morning / a.m."
+        },
+        {
+          "word": "正午",
+          "reading": "しょうご",
+          "meaning": "noon"
+        },
+        {
+          "word": "午前中",
+          "reading": "ごぜんちゅう",
+          "meaning": "during the morning"
+        },
+        {
+          "word": "午後三時",
+          "reading": "ごごさんじ",
+          "meaning": "3 p.m."
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "午後に授業を受けます。",
+          "highlight": "午",
+          "reading": "ごごに じゅぎょうを うけます",
+          "en": "I take class in the afternoon."
+        },
+        {
+          "jp": "午前中に勉強します。",
+          "highlight": "午",
+          "reading": "ごぜんちゅうに べんきょうします",
+          "en": "I study during the morning."
+        },
+        {
+          "jp": "正午に昼ごはんを食べます。",
+          "highlight": "午",
+          "reading": "しょうごに ひるごはんを たべます",
+          "en": "I eat lunch at noon."
+        }
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "右",
+          "back": "right - ウ",
+          "speakText": "右"
+        },
+        {
+          "front": "左",
+          "back": "left - サ",
+          "speakText": "左"
+        },
+        {
+          "front": "休",
+          "back": "rest - キュウ",
+          "speakText": "休"
+        },
+        {
+          "front": "何",
+          "back": "what - カ",
+          "speakText": "何"
+        },
+        {
+          "front": "午",
+          "back": "noon - ゴ",
+          "speakText": "午"
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 右 (kana or romaji):",
+      "question": "右",
+      "speakText": "右",
+      "answer": "ウ",
+      "acceptAlternatives": [
+        "u",
+        "ウ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 左 (kana or romaji):",
+      "question": "左",
+      "speakText": "左",
+      "answer": "サ",
+      "acceptAlternatives": [
+        "sa",
+        "サ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 休 (kana or romaji):",
+      "question": "休",
+      "speakText": "休",
+      "answer": "キュウ",
+      "acceptAlternatives": [
+        "kyu",
+        "kyuu",
+        "キュウ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 何 (kana or romaji):",
+      "question": "何",
+      "speakText": "何",
+      "answer": "カ",
+      "acceptAlternatives": [
+        "ka",
+        "カ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 午 (kana or romaji):",
+      "question": "午",
+      "speakText": "午",
+      "answer": "ゴ",
+      "acceptAlternatives": [
+        "go",
+        "ゴ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 右手 in hiragana or romaji:",
+      "question": "右手",
+      "speakText": "右手",
+      "answer": "みぎて",
+      "acceptAlternatives": [
+        "migite",
+        "みぎて"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "右"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 左手 in hiragana or romaji:",
+      "question": "左手",
+      "speakText": "左手",
+      "answer": "ひだりて",
+      "acceptAlternatives": [
+        "hidarite",
+        "ひだりて"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "左"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 休日 in hiragana or romaji:",
+      "question": "休日",
+      "speakText": "休日",
+      "answer": "きゅうじつ",
+      "acceptAlternatives": [
+        "kyujitsu",
+        "kyuujitsu",
+        "きゅうじつ"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "休"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 何月 in hiragana or romaji:",
+      "question": "何月",
+      "speakText": "何月",
+      "answer": "なんがつ",
+      "acceptAlternatives": [
+        "nangatsu",
+        "なんがつ"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "何"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 午後 in hiragana or romaji:",
+      "question": "午後",
+      "speakText": "午後",
+      "answer": "ごご",
+      "acceptAlternatives": [
+        "gogo",
+        "ごご"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "午"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 休み in hiragana or romaji:",
+      "question": "休み",
+      "speakText": "休み",
+      "answer": "やすみ",
+      "acceptAlternatives": [
+        "yasumi",
+        "やすみ"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "休"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "手で名前を書きます。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "右",
+        "answerRomaji": "u",
+        "hint": "Choose the kanji for right.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "右",
+            "correct": true
+          },
+          {
+            "text": "左",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "左 means “left,” so it does not fit this prompt."
+          },
+          {
+            "text": "休",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "休 means “rest,” so it does not fit this prompt."
+          },
+          {
+            "text": "何",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "何 means “what,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I write my name with my right hand.",
+      "speakText": "右手で名前を書きます。",
+      "targetKanji": "右",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "日に山へ行きます。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "休",
+        "answerRomaji": "kyuu",
+        "hint": "Choose the kanji for rest.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "休",
+            "correct": true
+          },
+          {
+            "text": "右",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "右 means “right,” so it does not fit this prompt."
+          },
+          {
+            "text": "左",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "左 means “left,” so it does not fit this prompt."
+          },
+          {
+            "text": "何",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "何 means “what,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I go to the mountains on my day off.",
+      "speakText": "休日に山へ行きます。",
+      "targetKanji": "休",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "後に授業を受けます。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "午",
+        "answerRomaji": "go",
+        "hint": "Choose the kanji for noon.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "午",
+            "correct": true
+          },
+          {
+            "text": "右",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "右 means “right,” so it does not fit this prompt."
+          },
+          {
+            "text": "左",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "左 means “left,” so it does not fit this prompt."
+          },
+          {
+            "text": "休",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "休 means “rest,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I take class in the afternoon.",
+      "speakText": "午後に授業を受けます。",
+      "targetKanji": "午",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 右 read in 右手?",
+      "word": "右手",
+      "targetKanji": "右",
+      "options": [
+        {
+          "kana": "みぎて",
+          "romaji": "migite",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "右手 is read みぎて in this vocabulary item."
+        },
+        {
+          "kana": "ウ",
+          "romaji": "u",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "ウ is useful for 右, but not the full reading of 右手."
+        },
+        {
+          "kana": "みぎ",
+          "romaji": "migi",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "みぎ is another reading connected to 右, not the reading used in 右手."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 休 read in 休日?",
+      "word": "休日",
+      "targetKanji": "休",
+      "options": [
+        {
+          "kana": "きゅうじつ",
+          "romaji": "kyujitsu",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "休日 is read きゅうじつ in this vocabulary item."
+        },
+        {
+          "kana": "キュウ",
+          "romaji": "kyuu",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "キュウ is useful for 休, but not the full reading of 休日."
+        },
+        {
+          "kana": "やすむ",
+          "romaji": "yasumi",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "やすむ is another reading connected to 休, not the reading used in 休日."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 午 read in 午後?",
+      "word": "午後",
+      "targetKanji": "午",
+      "options": [
+        {
+          "kana": "ごご",
+          "romaji": "gogo",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "午後 is read ごご in this vocabulary item."
+        },
+        {
+          "kana": "ゴ",
+          "romaji": "go",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "ゴ is useful for 午, but not the full reading of 午後."
+        },
+        {
+          "kana": "みぎて",
+          "romaji": "migite",
+          "readingType": "word",
+          "correct": false,
+          "distractorReason": "wrongWordReading",
+          "confusionFeature": "neighborKanji",
+          "wrongExplanation": "みぎて is the reading of 右手, not 午後."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji means 'left'?",
+      "options": [
+        {
+          "text": "左",
+          "correct": true
+        },
+        {
+          "text": "右",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "右 means “right,” so it does not fit this prompt."
+        },
+        {
+          "text": "休",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "休 means “rest,” so it does not fit this prompt."
+        },
+        {
+          "text": "何",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "何 means “what,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the kanji you hear:",
+      "speakText": "何",
+      "options": [
+        {
+          "text": "何",
+          "correct": true
+        },
+        {
+          "text": "右",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "右 means “right,” so it does not fit this prompt."
+        },
+        {
+          "text": "左",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "左 means “left,” so it does not fit this prompt."
+        },
+        {
+          "text": "休",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "休 means “rest,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji in 午後 (afternoon / p.m.) means 'noon'?",
+      "options": [
+        {
+          "text": "午",
+          "correct": true
+        },
+        {
+          "text": "右",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "右 means “right,” so it does not fit this prompt."
+        },
+        {
+          "text": "左",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "左 means “left,” so it does not fit this prompt."
+        },
+        {
+          "text": "休",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "休 means “rest,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Review: which older kanji means 'fire'?",
+      "reviewFrom": "kanji-batch-09",
+      "options": [
+        {
+          "text": "火",
+          "correct": true
+        },
+        {
+          "text": "木",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "木 means “tree / wood,” so it does not fit this prompt."
+        },
+        {
+          "text": "車",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "車 means “car,” so it does not fit this prompt."
+        },
+        {
+          "text": "白",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "白 means “white,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Review: match older kanji to their meanings:",
+      "reviewFrom": [
+        "kanji-batch-08",
+        "kanji-batch-09"
+      ],
+      "pairs": [
+        {
+          "left": "車",
+          "right": "car",
+          "reviewFrom": "kanji-batch-09"
+        },
+        {
+          "left": "白",
+          "right": "white",
+          "reviewFrom": "kanji-batch-09"
+        },
+        {
+          "left": "天",
+          "right": "heaven / sky",
+          "reviewFrom": "kanji-batch-09"
+        },
+        {
+          "left": "火",
+          "right": "fire",
+          "reviewFrom": "kanji-batch-09"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each kanji to its meaning:",
+      "pairs": [
+        {
+          "left": "右",
+          "right": "right"
+        },
+        {
+          "left": "左",
+          "right": "left"
+        },
+        {
+          "left": "休",
+          "right": "rest"
+        },
+        {
+          "left": "何",
+          "right": "what"
+        },
+        {
+          "left": "午",
+          "right": "noon"
+        }
+      ]
+    }
+  ]
+}

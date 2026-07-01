@@ -1,0 +1,364 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "H-row — は行",
+      "rows": [
+        [
+          "は ha",
+          "ひ hi",
+          "ふ fu",
+          "へ he",
+          "ほ ho"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ふ",
+          "back": "fu",
+          "speakText": "ふ"
+        },
+        {
+          "front": "ほ",
+          "back": "ho",
+          "speakText": "ほ"
+        },
+        {
+          "front": "ひ",
+          "back": "hi",
+          "speakText": "ひ"
+        },
+        {
+          "front": "は",
+          "back": "ha",
+          "speakText": "は"
+        },
+        {
+          "front": "へ",
+          "back": "he",
+          "speakText": "へ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is He?",
+      "options": [
+        "へ",
+        "ひ",
+        "は",
+        "ほ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ha?",
+      "options": [
+        "ほ",
+        "は",
+        "へ",
+        "ひ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "は",
+      "answer": "ha"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "へ",
+      "answer": "he"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ひ",
+          "hi"
+        ],
+        [
+          "ふ",
+          "fu"
+        ],
+        [
+          "は",
+          "ha"
+        ],
+        [
+          "へ",
+          "he"
+        ],
+        [
+          "ほ",
+          "ho"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "は",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ほ",
+        "は",
+        "へ",
+        "ひ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ふ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "は",
+        "ふ",
+        "へ",
+        "ほ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Fu?",
+      "options": [
+        "ひ",
+        "は",
+        "ふ",
+        "へ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ふ",
+      "answer": "fu",
+      "acceptAlternatives": [
+        "hu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ひ",
+      "answer": "hi"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ho?",
+      "options": [
+        "け",
+        "は",
+        "ほ",
+        "へ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is He?",
+      "options": [
+        "く",
+        "ひ",
+        "へ",
+        "ふ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "ひ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "は",
+        "ひ",
+        "ふ",
+        "へ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "へ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ひ",
+        "へ",
+        "は",
+        "ほ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ほ",
+      "answer": "ho"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Fu?",
+      "options": [
+        "う",
+        "ひ",
+        "ふ",
+        "は"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "花 [はな] (hana)",
+          "flower"
+        ],
+        [
+          "人 [ひと] (hito)",
+          "person"
+        ],
+        [
+          "船 [ふね] (fune)",
+          "ship"
+        ],
+        [
+          "へそ (heso)",
+          "navel"
+        ],
+        [
+          "星 [ほし] (hoshi)",
+          "star"
+        ],
+        [
+          "はなが すきです",
+          "I like flowers"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "flower",
+      "answer": [
+        "は",
+        "な"
+      ],
+      "bank": [
+        "は",
+        "ひ",
+        "ふ",
+        "へ",
+        "ほ",
+        "な"
+      ],
+      "speakText": "はな"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "person",
+      "answer": [
+        "ひ",
+        "と"
+      ],
+      "bank": [
+        "は",
+        "ひ",
+        "ふ",
+        "へ",
+        "ほ",
+        "と"
+      ],
+      "speakText": "ひと"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "star",
+      "answer": [
+        "ほ",
+        "し"
+      ],
+      "bank": [
+        "は",
+        "ひ",
+        "ふ",
+        "へ",
+        "ほ",
+        "し"
+      ],
+      "speakText": "ほし"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "はな",
+      "answer": "hana"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ほし",
+      "answer": "hoshi"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "はな",
+          "flower"
+        ],
+        [
+          "ひと",
+          "person"
+        ],
+        [
+          "ふね",
+          "ship"
+        ],
+        [
+          "へそ",
+          "navel"
+        ],
+        [
+          "ほし",
+          "star"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ほ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "は",
+        "ひ",
+        "ほ",
+        "へ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "ship",
+      "answer": [
+        "ふ",
+        "ね"
+      ],
+      "bank": [
+        "は",
+        "ひ",
+        "ふ",
+        "へ",
+        "ほ",
+        "ね"
+      ],
+      "speakText": "ふね"
+    }
+  ],
+  "id": "hiragana-row-h"
+}

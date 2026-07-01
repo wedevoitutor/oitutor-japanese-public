@@ -1,0 +1,113 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "The Small ッ (Sokuon) — Rule",
+      "rows": [
+        ["Sokuon = small ッ", "Doubles the consonant that follows"],
+        ["Common in loanwords for emphasis and foreign sounds.", ""],
+        ["ベ + ッド", "→ ベッド (beddo) — bed"],
+        ["コ + ップ", "→ コップ (koppu) — cup"],
+        ["キ + ック", "→ キック (kikku) — kick"]
+      ]
+    },
+    {
+      "type": "reference-chart",
+      "title": "Single vs Double Consonant",
+      "rows": [
+        ["カット (katto)", "cut"],
+        ["マット (matto)", "mat"],
+        ["サッカー (sakkaa)", "soccer"],
+        ["ロケット (roketto)", "rocket"],
+        ["Listen for the tiny pause before the doubled consonant.", ""]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ベッド",
+      "prompt": "Which word did you hear?",
+      "options": ["ベド", "ベッド", "ペット", "ヘッド"],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "コップ",
+      "prompt": "Which word did you hear?",
+      "options": ["コプ", "コップ", "コツプ", "カップ"],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "サッカー",
+      "prompt": "Which word did you hear?",
+      "options": ["サカー", "サッカー", "サツカー", "ザッカー"],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ベッド",
+      "answer": "beddo"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "コップ",
+      "answer": "koppu"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "キック",
+      "answer": "kikku"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["ベッド", "bed"],
+        ["コップ", "cup"],
+        ["キック", "kick"],
+        ["サッカー", "soccer"],
+        ["ロケット", "rocket"]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "bed",
+      "answer": ["ベ", "ッ", "ド"],
+      "bank": ["ベ", "ッ", "ド", "ツ", "ト", "デ"],
+      "speakText": "ベッド"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "cup",
+      "answer": ["コ", "ッ", "プ"],
+      "bank": ["コ", "ッ", "プ", "ツ", "ブ", "フ"],
+      "speakText": "コップ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "soccer",
+      "answer": ["サ", "ッ", "カ", "ー"],
+      "bank": ["サ", "ッ", "カ", "ツ", "キ", "ー"],
+      "speakText": "サッカー"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which is the correct spelling of 'koppu' (cup)?",
+      "options": ["コツプ", "コップ", "コッブ", "カップ"],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which is the correct spelling of 'beddo' (bed)?",
+      "options": ["ベド", "ベッド", "ペット", "ベツド"],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ロケット",
+      "prompt": "Which word did you hear?",
+      "options": ["ロケト", "ロケット", "ロケツト", "ロッケト"],
+      "correctIndex": 1
+    }
+  ],
+  "id": "katakana-sokuon"
+}

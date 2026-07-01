@@ -1,0 +1,361 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "M-row — ま行",
+      "rows": [
+        [
+          "ま ma",
+          "み mi",
+          "む mu",
+          "め me",
+          "も mo"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "む",
+          "back": "mu",
+          "speakText": "む"
+        },
+        {
+          "front": "め",
+          "back": "me",
+          "speakText": "め"
+        },
+        {
+          "front": "ま",
+          "back": "ma",
+          "speakText": "ま"
+        },
+        {
+          "front": "み",
+          "back": "mi",
+          "speakText": "み"
+        },
+        {
+          "front": "も",
+          "back": "mo",
+          "speakText": "も"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ma?",
+      "options": [
+        "も",
+        "ま",
+        "む",
+        "み"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Mo?",
+      "options": [
+        "め",
+        "も",
+        "ま",
+        "む"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "も",
+      "answer": "mo"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ま",
+      "answer": "ma"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "む",
+          "mu"
+        ],
+        [
+          "め",
+          "me"
+        ],
+        [
+          "も",
+          "mo"
+        ],
+        [
+          "み",
+          "mi"
+        ],
+        [
+          "ま",
+          "ma"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ま",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "も",
+        "ま",
+        "む",
+        "み"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "み",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ま",
+        "み",
+        "め",
+        "も"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Mi?",
+      "options": [
+        "む",
+        "ま",
+        "み",
+        "め"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "み",
+      "answer": "mi"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "む",
+      "answer": "mu"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Mi?",
+      "options": [
+        "す",
+        "ま",
+        "み",
+        "め"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Me?",
+      "options": [
+        "ぬ",
+        "む",
+        "め",
+        "ね"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "み",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ま",
+        "み",
+        "む",
+        "め"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "め",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "む",
+        "め",
+        "ま",
+        "も"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "め",
+      "answer": "me"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Mu?",
+      "options": [
+        "す",
+        "ま",
+        "む",
+        "み"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "町 [まち] (machi)",
+          "town"
+        ],
+        [
+          "店 [みせ] (mise)",
+          "shop"
+        ],
+        [
+          "虫 [むし] (mushi)",
+          "insect"
+        ],
+        [
+          "飯 [めし] (meshi)",
+          "meal"
+        ],
+        [
+          "物 [もの] (mono)",
+          "thing"
+        ],
+        [
+          "まちが すきです",
+          "I like the town"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "town",
+      "answer": [
+        "ま",
+        "ち"
+      ],
+      "bank": [
+        "ま",
+        "み",
+        "む",
+        "め",
+        "も",
+        "ち"
+      ],
+      "speakText": "まち"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "shop",
+      "answer": [
+        "み",
+        "せ"
+      ],
+      "bank": [
+        "ま",
+        "み",
+        "む",
+        "め",
+        "も",
+        "せ"
+      ],
+      "speakText": "みせ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "insect",
+      "answer": [
+        "む",
+        "し"
+      ],
+      "bank": [
+        "ま",
+        "み",
+        "む",
+        "め",
+        "も",
+        "し"
+      ],
+      "speakText": "むし"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "まち",
+      "answer": "machi"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "むし",
+      "answer": "mushi"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "まち",
+          "town"
+        ],
+        [
+          "みせ",
+          "shop"
+        ],
+        [
+          "むし",
+          "insect"
+        ],
+        [
+          "めし",
+          "meal"
+        ],
+        [
+          "もの",
+          "thing"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "も",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ま",
+        "む",
+        "め",
+        "も"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "thing",
+      "answer": [
+        "も",
+        "の"
+      ],
+      "bank": [
+        "ま",
+        "み",
+        "む",
+        "め",
+        "も",
+        "の"
+      ],
+      "speakText": "もの"
+    }
+  ],
+  "id": "hiragana-row-m"
+}

@@ -1,0 +1,1196 @@
+{
+  "id": "kanji-batch-05",
+  "misconceptions": [
+    {
+      "kanji": "学",
+      "error": "Confuses 学 with 子-like roof characters or misses the small っ in 学校.",
+      "mitigation": "Anchor reading, compound reading, sentence fill, and recognition drills target this mistake."
+    },
+    {
+      "kanji": "円",
+      "error": "Reads 円 as a shape word and forgets the currency reading エン in prices.",
+      "mitigation": "Anchor reading, compound reading, sentence fill, and recognition drills target this mistake."
+    },
+    {
+      "kanji": "子",
+      "error": "Reads every 子 word as こ and misses compound シ in 女子.",
+      "mitigation": "Anchor reading, compound reading, sentence fill, and recognition drills target this mistake."
+    },
+    {
+      "kanji": "八",
+      "error": "Confuses 八 with 人 / 入 because all use two simple strokes.",
+      "mitigation": "Anchor reading, compound reading, sentence fill, and recognition drills target this mistake."
+    },
+    {
+      "kanji": "六",
+      "error": "Confuses 六 with 八 or forgets native むっつ / むいか readings.",
+      "mitigation": "Anchor reading, compound reading, sentence fill, and recognition drills target this mistake."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Batch 05 - 学 円 子 八 六",
+      "intro": "This batch teaches 学 円 子 八 六. Learn the anchor reading first, then practise it inside common N5 words and short sentences.",
+      "rows": [
+        [
+          "Kanji",
+          "Meaning",
+          "Anchor reading",
+          "Other readings",
+          "Memory hook"
+        ],
+        [
+          "学",
+          "study / learning",
+          "ガク",
+          "まなぶ",
+          "Child under a learning roof"
+        ],
+        [
+          "円",
+          "yen / circle",
+          "エン",
+          "まるい",
+          "Round money inside a frame"
+        ],
+        [
+          "子",
+          "child",
+          "シ",
+          "こ",
+          "Small child with arms out"
+        ],
+        [
+          "八",
+          "eight",
+          "ハチ",
+          "や · やつ · やっつ",
+          "Two strokes spreading apart"
+        ],
+        [
+          "六",
+          "six",
+          "ロク",
+          "む · むつ · むっつ",
+          "Lid with two legs below"
+        ]
+      ],
+      "takeaway": "Anchor one core reading first; context then explains the alternate readings."
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "学",
+      "meaning": "study / learning",
+      "memoryHook": "Child under a learning roof",
+      "jlpt": "N5",
+      "strokeCount": 8,
+      "components": [
+        {
+          "shape": "⺍",
+          "note": "Top marks as a memory roof for school."
+        },
+        {
+          "shape": "子",
+          "note": "Child shape below; memory cue for a learner."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ガク",
+            "romaji": "gaku",
+            "anchor": true,
+            "anchorReason": "Dominant N5 compound reading in 学生 and 学校.",
+            "anchorExampleWord": "学生"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "まなぶ",
+            "romaji": "manabu"
+          }
+        ]
+      },
+      "mnemonic": "Picture a child sitting under a roof of study marks. 学 points to study, school, and learning. The common N5 reading is ガク in 学生 and 学校.",
+      "confusables": [
+        {
+          "kanji": "字",
+          "meaning": "character",
+          "note": "字 also has 子 below a roof, but its top is simpler."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "学ぶ",
+          "reading": "まなぶ",
+          "meaning": "to learn"
+        },
+        {
+          "word": "学生",
+          "reading": "がくせい",
+          "meaning": "student"
+        },
+        {
+          "word": "学校",
+          "reading": "がっこう",
+          "meaning": "school"
+        },
+        {
+          "word": "大学",
+          "reading": "だいがく",
+          "meaning": "university"
+        },
+        {
+          "word": "入学",
+          "reading": "にゅうがく",
+          "meaning": "school entrance"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "学校へ行きます。",
+          "highlight": "学",
+          "reading": "がっこうへ いきます",
+          "romaji": "Gakkou e ikimasu.",
+          "gloss": "School toward go.",
+          "en": "I go to school.",
+          "readingWord": "gakkou"
+        },
+        {
+          "jp": "私は学生です。",
+          "highlight": "学",
+          "reading": "わたしは がくせい です",
+          "romaji": "Watashi wa gakusei desu.",
+          "gloss": "I as-for student is.",
+          "en": "I am a student."
+        },
+        {
+          "jp": "日本語を学びます。",
+          "highlight": "学",
+          "reading": "にほんごを まなびます",
+          "romaji": "Nihongo wo manabimasu.",
+          "gloss": "Japanese (obj) learn.",
+          "en": "I learn Japanese."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "円",
+      "meaning": "yen / circle",
+      "memoryHook": "Round money inside a frame",
+      "jlpt": "N5",
+      "strokeCount": 4,
+      "components": [
+        {
+          "shape": "冂",
+          "note": "Outer frame as a memory cue for a coin edge."
+        },
+        {
+          "shape": "一",
+          "note": "Inner line marks the coin face."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "エン",
+            "romaji": "en",
+            "anchor": true,
+            "anchorReason": "Currency and circle words use エン.",
+            "anchorExampleWord": "百円"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "まるい",
+            "romaji": "marui"
+          }
+        ]
+      },
+      "mnemonic": "Imagine a round coin simplified into a framed shape. 円 means yen and also circle/roundness. In prices it is always エン.",
+      "confusables": [
+        {
+          "kanji": "内",
+          "meaning": "inside",
+          "note": "内 has a person-like mark inside the frame."
+        },
+        {
+          "kanji": "月",
+          "meaning": "moon / month",
+          "note": "月 has two inner lines and a different meaning."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "円",
+          "reading": "えん",
+          "meaning": "yen; circle"
+        },
+        {
+          "word": "百円",
+          "reading": "ひゃくえん",
+          "meaning": "100 yen"
+        },
+        {
+          "word": "千円",
+          "reading": "せんえん",
+          "meaning": "1000 yen"
+        },
+        {
+          "word": "円い",
+          "reading": "まるい",
+          "meaning": "round"
+        },
+        {
+          "word": "円高",
+          "reading": "えんだか",
+          "meaning": "strong yen"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "これは百円です。",
+          "highlight": "円",
+          "reading": "これは ひゃくえん です",
+          "romaji": "Kore wa hyaku-en desu.",
+          "gloss": "This as-for 100 yen is.",
+          "en": "This is 100 yen."
+        },
+        {
+          "jp": "千円を払います。",
+          "highlight": "円",
+          "reading": "せんえんを はらいます",
+          "romaji": "Sen-en wo haraimasu.",
+          "gloss": "1000 yen (obj) pay.",
+          "en": "I pay 1000 yen."
+        },
+        {
+          "jp": "円い時計を買います。",
+          "highlight": "円",
+          "reading": "まるい とけいを かいます",
+          "romaji": "Marui tokei wo kaimasu.",
+          "gloss": "Round clock (obj) buy.",
+          "en": "I buy a round clock."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "子",
+      "meaning": "child",
+      "memoryHook": "Small child with arms out",
+      "jlpt": "N5",
+      "strokeCount": 3,
+      "components": [
+        {
+          "shape": "了",
+          "note": "Curved child-like body as memory cue."
+        },
+        {
+          "shape": "一",
+          "note": "Crossbar like arms stretched out."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "シ",
+            "romaji": "shi",
+            "anchor": true,
+            "anchorReason": "Common in compounds like 子供-related words and 女子.",
+            "anchorExampleWord": "女子"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "こ",
+            "romaji": "ko"
+          }
+        ]
+      },
+      "mnemonic": "子 looks like a small child with a body and arms. The everyday reading こ appears in 子ども, while シ appears in compounds such as 女子.",
+      "confusables": [
+        {
+          "kanji": "了",
+          "meaning": "finish",
+          "note": "了 lacks the crossbar/arms."
+        },
+        {
+          "kanji": "字",
+          "meaning": "character",
+          "note": "字 adds a roof over 子."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "子",
+          "reading": "こ",
+          "meaning": "child"
+        },
+        {
+          "word": "子ども",
+          "reading": "こども",
+          "meaning": "child; children"
+        },
+        {
+          "word": "女子",
+          "reading": "じょし",
+          "meaning": "girl; woman"
+        },
+        {
+          "word": "男子",
+          "reading": "だんし",
+          "meaning": "boy; man"
+        },
+        {
+          "word": "親子",
+          "reading": "おやこ",
+          "meaning": "parent and child"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "子どもが遊んでいます。",
+          "highlight": "子",
+          "reading": "こどもが あそんでいます",
+          "romaji": "Kodomo ga asonde imasu.",
+          "gloss": "Child (subj) playing is.",
+          "en": "A child is playing.",
+          "readingWord": "kodomo"
+        },
+        {
+          "jp": "女子学生がいます。",
+          "highlight": "子",
+          "reading": "じょしがくせいが います",
+          "romaji": "Joshi-gakusei ga imasu.",
+          "gloss": "Female student (subj) exists.",
+          "en": "There is a female student."
+        },
+        {
+          "jp": "親子で来ました。",
+          "highlight": "子",
+          "reading": "おやこで きました",
+          "romaji": "Oyako de kimashita.",
+          "gloss": "Parent-and-child together came.",
+          "en": "A parent and child came together."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "八",
+      "meaning": "eight",
+      "memoryHook": "Two strokes spreading apart",
+      "jlpt": "N5",
+      "strokeCount": 2,
+      "components": [
+        {
+          "shape": "八",
+          "note": "Two spreading strokes; memory cue for the number eight."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ハチ",
+            "romaji": "hachi",
+            "anchor": true,
+            "anchorReason": "Default reading in numbers and date compounds.",
+            "anchorExampleWord": "八月"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "や",
+            "romaji": "ya"
+          },
+          {
+            "kana": "やつ",
+            "romaji": "yatsu"
+          },
+          {
+            "kana": "やっつ",
+            "romaji": "yattsu"
+          }
+        ]
+      },
+      "mnemonic": "八 opens outward with two simple strokes. It looks a little like 人, but the strokes separate instead of meeting. The anchor reading is ハチ, while native counting gives やっつ.",
+      "confusables": [
+        {
+          "kanji": "人",
+          "meaning": "person",
+          "note": "人 strokes meet at the top; 八 spreads apart."
+        },
+        {
+          "kanji": "入",
+          "meaning": "enter",
+          "note": "入 crosses inward; 八 opens outward."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "八",
+          "reading": "はち",
+          "meaning": "eight"
+        },
+        {
+          "word": "八つ",
+          "reading": "やっつ",
+          "meaning": "eight things"
+        },
+        {
+          "word": "八月",
+          "reading": "はちがつ",
+          "meaning": "August"
+        },
+        {
+          "word": "八日",
+          "reading": "ようか",
+          "meaning": "the eighth day; eight days"
+        },
+        {
+          "word": "八人",
+          "reading": "はちにん",
+          "meaning": "eight people"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "八月は暑いです。",
+          "highlight": "八月",
+          "reading": "はちがつは あつい です",
+          "romaji": "Hachigatsu wa atsui desu.",
+          "gloss": "August as-for hot is.",
+          "en": "August is hot."
+        },
+        {
+          "jp": "八つの箱を運びます。",
+          "highlight": "八",
+          "reading": "やっつの はこを はこびます",
+          "romaji": "Yattsu no hako wo hakobimasu.",
+          "gloss": "Eight boxes (obj) carry.",
+          "en": "I carry eight boxes."
+        },
+        {
+          "jp": "八人で食べます。",
+          "highlight": "八",
+          "reading": "はちにんで たべます",
+          "romaji": "Hachi-nin de tabemasu.",
+          "gloss": "Eight people together eat.",
+          "en": "Eight people eat together."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "六",
+      "meaning": "six",
+      "memoryHook": "Lid with two legs below",
+      "jlpt": "N5",
+      "strokeCount": 4,
+      "components": [
+        {
+          "shape": "亠",
+          "note": "Top lid shape; memory cue only."
+        },
+        {
+          "shape": "八",
+          "note": "Spreading lower strokes as a memory anchor."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ロク",
+            "romaji": "roku",
+            "anchor": true,
+            "anchorReason": "Default number reading in 六 and 六月.",
+            "anchorExampleWord": "六月"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "む",
+            "romaji": "mu"
+          },
+          {
+            "kana": "むつ",
+            "romaji": "mutsu"
+          },
+          {
+            "kana": "むっつ",
+            "romaji": "muttsu"
+          }
+        ]
+      },
+      "mnemonic": "六 has a lid above two spreading legs. Use the top lid to distinguish it from 八. The regular reading is ロク, with native むっつ for six things.",
+      "confusables": [
+        {
+          "kanji": "八",
+          "meaning": "eight",
+          "note": "八 has only the lower spreading strokes; 六 adds a top lid."
+        },
+        {
+          "kanji": "穴",
+          "meaning": "hole",
+          "note": "穴 adds a roof-like top and is a different character."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "六",
+          "reading": "ろく",
+          "meaning": "six"
+        },
+        {
+          "word": "六つ",
+          "reading": "むっつ",
+          "meaning": "six things"
+        },
+        {
+          "word": "六月",
+          "reading": "ろくがつ",
+          "meaning": "June"
+        },
+        {
+          "word": "六日",
+          "reading": "むいか",
+          "meaning": "the sixth day; six days"
+        },
+        {
+          "word": "六人",
+          "reading": "ろくにん",
+          "meaning": "six people"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "六月に雨が多いです。",
+          "highlight": "六月",
+          "reading": "ろくがつに あめが おおい です",
+          "romaji": "Rokugatsu ni ame ga ooi desu.",
+          "gloss": "June in rain (subj) much is.",
+          "en": "There is a lot of rain in June."
+        },
+        {
+          "jp": "卵が六つあります。",
+          "highlight": "六",
+          "reading": "たまごが むっつ あります",
+          "romaji": "Tamago ga muttsu arimasu.",
+          "gloss": "Eggs (subj) six exist.",
+          "en": "There are six eggs."
+        },
+        {
+          "jp": "六人で歌います。",
+          "highlight": "六",
+          "reading": "ろくにんで うたいます",
+          "romaji": "Roku-nin de utaimasu.",
+          "gloss": "Six people together sing.",
+          "en": "Six people sing together."
+        }
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "学",
+          "back": "study / learning - ガク",
+          "speakText": "学"
+        },
+        {
+          "front": "円",
+          "back": "yen / circle - エン",
+          "speakText": "円"
+        },
+        {
+          "front": "子",
+          "back": "child - シ",
+          "speakText": "子"
+        },
+        {
+          "front": "八",
+          "back": "eight - ハチ",
+          "speakText": "八"
+        },
+        {
+          "front": "六",
+          "back": "six - ロク",
+          "speakText": "六"
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 学 (kana or romaji):",
+      "question": "学",
+      "speakText": "学",
+      "answer": "ガク",
+      "acceptAlternatives": [
+        "gaku",
+        "がく"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 円 (kana or romaji):",
+      "question": "円",
+      "speakText": "円",
+      "answer": "エン",
+      "acceptAlternatives": [
+        "en",
+        "えん"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 子 (kana or romaji):",
+      "question": "子",
+      "speakText": "子",
+      "answer": "シ",
+      "acceptAlternatives": [
+        "shi",
+        "し"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 八 (kana or romaji):",
+      "question": "八",
+      "speakText": "八",
+      "answer": "ハチ",
+      "acceptAlternatives": [
+        "hachi",
+        "はち"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 六 (kana or romaji):",
+      "question": "六",
+      "speakText": "六",
+      "answer": "ロク",
+      "acceptAlternatives": [
+        "roku",
+        "ろく"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 学生 in hiragana or romaji:",
+      "question": "学生",
+      "speakText": "学生",
+      "answer": "がくせい",
+      "acceptAlternatives": [
+        "gakusei"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "学"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 百円 in hiragana or romaji:",
+      "question": "百円",
+      "speakText": "百円",
+      "answer": "ひゃくえん",
+      "acceptAlternatives": [
+        "hyakuen",
+        "hyaku-en"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "円"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 子ども in hiragana or romaji:",
+      "question": "子ども",
+      "speakText": "子ども",
+      "answer": "こども",
+      "acceptAlternatives": [
+        "kodomo"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "子"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 八月 in hiragana or romaji:",
+      "question": "八月",
+      "speakText": "八月",
+      "answer": "はちがつ",
+      "acceptAlternatives": [
+        "hachigatsu"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "八"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 六月 in hiragana or romaji:",
+      "question": "六月",
+      "speakText": "六月",
+      "answer": "ろくがつ",
+      "acceptAlternatives": [
+        "rokugatsu"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "六"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 女子 in hiragana or romaji:",
+      "question": "女子",
+      "speakText": "女子",
+      "answer": "じょし",
+      "acceptAlternatives": [
+        "joshi"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "子"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "校へ行きます。"
+      ],
+      "patternRom": [
+        "gak",
+        "[SLOT]",
+        "kou e ikimasu."
+      ],
+      "slot": {
+        "answer": "学",
+        "answerRomaji": "gakkou",
+        "hint": "Choose the kanji for study / learning.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "学",
+            "correct": true
+          },
+          {
+            "text": "字",
+            "correct": false,
+            "distractorReason": "visualConfusion",
+            "confusionFeature": "roofChild",
+            "wrongExplanation": "This also has a child shape, but means character."
+          },
+          {
+            "text": "子",
+            "correct": false,
+            "distractorReason": "componentShare",
+            "confusionFeature": "childOnly",
+            "wrongExplanation": "This is only child, not study."
+          },
+          {
+            "text": "校",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "schoolPartner",
+            "wrongExplanation": "This often pairs with study but is not the target."
+          }
+        ]
+      },
+      "translation": "I go to school.",
+      "speakText": "学校へ行きます。",
+      "targetKanji": "学",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "どもが遊んでいます。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        "domo ga asonde imasu."
+      ],
+      "slot": {
+        "answer": "子",
+        "answerRomaji": "kodomo",
+        "hint": "Choose the kanji for child.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "子",
+            "correct": true
+          },
+          {
+            "text": "了",
+            "correct": false,
+            "distractorReason": "visualConfusion",
+            "confusionFeature": "missingCrossbar",
+            "wrongExplanation": "This lacks the child crossbar."
+          },
+          {
+            "text": "字",
+            "correct": false,
+            "distractorReason": "componentShare",
+            "confusionFeature": "roofAdded",
+            "wrongExplanation": "This adds a roof and means character."
+          },
+          {
+            "text": "学",
+            "correct": false,
+            "distractorReason": "componentShare",
+            "confusionFeature": "studyChild",
+            "wrongExplanation": "This is study/learning."
+          }
+        ]
+      },
+      "translation": "A child is playing.",
+      "speakText": "子どもが遊んでいます。",
+      "targetKanji": "子",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "月に雨が多いです。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        "gatsu ni ame ga ooi desu."
+      ],
+      "slot": {
+        "answer": "六",
+        "answerRomaji": "",
+        "hint": "Choose the kanji for six.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "六",
+            "correct": true
+          },
+          {
+            "text": "八",
+            "correct": false,
+            "distractorReason": "visualConfusion",
+            "confusionFeature": "missingTop",
+            "wrongExplanation": "This lacks the top lid."
+          },
+          {
+            "text": "穴",
+            "correct": false,
+            "distractorReason": "visualConfusion",
+            "confusionFeature": "roofShape",
+            "wrongExplanation": "This is a different roofed character."
+          },
+          {
+            "text": "五",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "nearNumber",
+            "wrongExplanation": "This is five, not six."
+          }
+        ]
+      },
+      "translation": "There is a lot of rain in June.",
+      "speakText": "六月に雨が多いです。",
+      "targetKanji": "六",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 学 pronounced in 学校 (school)?",
+      "word": "学校",
+      "targetKanji": "学",
+      "options": [
+        {
+          "kana": "がっ",
+          "romaji": "ga",
+          "readingType": "on",
+          "correct": true,
+          "explanation": "In 学校, ガク compresses before the next consonant, producing a small っ."
+        },
+        {
+          "kana": "がく",
+          "romaji": "gaku",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "missedGemination",
+          "wrongExplanation": "This is the anchor reading, but this word compresses the sound."
+        },
+        {
+          "kana": "まな",
+          "romaji": "mana",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "standaloneVerb",
+          "wrongExplanation": "This belongs to the verb 学ぶ, not this compound."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 子 pronounced in 女子 (girl / woman)?",
+      "word": "女子",
+      "targetKanji": "子",
+      "options": [
+        {
+          "kana": "し",
+          "romaji": "shi",
+          "readingType": "on",
+          "correct": true,
+          "explanation": "女子 is a compound, and 子 uses the on-yomi シ here."
+        },
+        {
+          "kana": "こ",
+          "romaji": "ko",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "standaloneChild",
+          "wrongExplanation": "This is common in 子ども, but not this compound."
+        },
+        {
+          "kana": "じ",
+          "romaji": "ji",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "soundConfusion",
+          "confusionFeature": "voicing",
+          "wrongExplanation": "This is a tempting voiced sound, but not this word."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 六 pronounced in 六日 (the sixth day / six days)?",
+      "word": "六日",
+      "targetKanji": "六",
+      "options": [
+        {
+          "kana": "むい",
+          "romaji": "mui",
+          "readingType": "kun",
+          "correct": true,
+          "explanation": "六日 is a special date word read むいか."
+        },
+        {
+          "kana": "ろく",
+          "romaji": "roku",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "confusionFeature": "regularNumberReading",
+          "wrongExplanation": "This is the regular number reading, but dates often use special native readings."
+        },
+        {
+          "kana": "むっ",
+          "romaji": "mu",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "counterForm",
+          "wrongExplanation": "This belongs to 六つ, not this date word."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji means 'yen / circle'?",
+      "options": [
+        {
+          "text": "円",
+          "correct": true
+        },
+        {
+          "text": "月",
+          "correct": false,
+          "distractorReason": "visualConfusion",
+          "confusionFeature": "innerLines",
+          "wrongExplanation": "This is moon/month."
+        },
+        {
+          "text": "内",
+          "correct": false,
+          "distractorReason": "visualConfusion",
+          "confusionFeature": "insideMark",
+          "wrongExplanation": "This means inside."
+        },
+        {
+          "text": "金",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "moneyRelated",
+          "wrongExplanation": "This is money/gold, not yen/circle."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the kanji you hear:",
+      "speakText": "八",
+      "options": [
+        {
+          "text": "八",
+          "correct": true
+        },
+        {
+          "text": "人",
+          "correct": false,
+          "distractorReason": "visualConfusion",
+          "confusionFeature": "meetingStrokes",
+          "wrongExplanation": "This means person."
+        },
+        {
+          "text": "入",
+          "correct": false,
+          "distractorReason": "visualConfusion",
+          "confusionFeature": "crossingStrokes",
+          "wrongExplanation": "This means enter."
+        },
+        {
+          "text": "六",
+          "correct": false,
+          "distractorReason": "componentShare",
+          "confusionFeature": "topAdded",
+          "wrongExplanation": "This adds a top lid and means six."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji completes __月 (June)?",
+      "options": [
+        {
+          "text": "六",
+          "correct": true
+        },
+        {
+          "text": "八",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "nearNumber",
+          "wrongExplanation": "This would make August, not June."
+        },
+        {
+          "text": "五",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "nearNumber",
+          "wrongExplanation": "This would make May."
+        },
+        {
+          "text": "円",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "shapeCurrency",
+          "wrongExplanation": "This is yen/circle, not a number."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Review: which kanji means 'enter / put in'?",
+      "reviewFrom": "kanji-batch-04",
+      "options": [
+        {
+          "text": "入",
+          "correct": true
+        },
+        {
+          "text": "人",
+          "correct": false,
+          "distractorReason": "visualConfusion",
+          "confusionFeature": "strokeCrossing",
+          "wrongExplanation": "This is person, not entering."
+        },
+        {
+          "text": "八",
+          "correct": false,
+          "distractorReason": "visualConfusion",
+          "confusionFeature": "openStrokes",
+          "wrongExplanation": "This means eight."
+        },
+        {
+          "text": "出",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "oppositeMovement",
+          "wrongExplanation": "This points out, not in."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Review: match older kanji to their meanings:",
+      "reviewFrom": [
+        "kanji-batch-03",
+        "kanji-batch-04"
+      ],
+      "pairs": [
+        {
+          "left": "三",
+          "right": "three",
+          "reviewFrom": "kanji-batch-03"
+        },
+        {
+          "left": "月",
+          "right": "moon / month",
+          "reviewFrom": "kanji-batch-03"
+        },
+        {
+          "left": "上",
+          "right": "up / above",
+          "reviewFrom": "kanji-batch-04"
+        },
+        {
+          "left": "金",
+          "right": "gold / money",
+          "reviewFrom": "kanji-batch-04"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each kanji to its meaning:",
+      "pairs": [
+        {
+          "left": "学",
+          "right": "study / learning"
+        },
+        {
+          "left": "円",
+          "right": "yen / circle"
+        },
+        {
+          "left": "子",
+          "right": "child"
+        },
+        {
+          "left": "八",
+          "right": "eight"
+        },
+        {
+          "left": "六",
+          "right": "six"
+        }
+      ]
+    }
+  ]
+}

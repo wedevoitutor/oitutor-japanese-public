@@ -1,0 +1,800 @@
+{
+  "id": "grammar-lesson-11",
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Group 1 ta-Form - う / つ / る",
+      "intro": "The plain past tense is called the ta-form. For Group 1 verbs ending in う, つ, or る, the ending changes to った with a small pause before た.",
+      "rows": [
+        [
+          "Ending",
+          "ta-Form",
+          "Example"
+        ],
+        [
+          "う",
+          "った",
+          "かう -> かった"
+        ],
+        [
+          "つ",
+          "った",
+          "まつ -> まった"
+        ],
+        [
+          "る",
+          "った",
+          "のる -> のった"
+        ]
+      ],
+      "takeaway": "Group 1 う, つ, and る endings become った."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which is the correct ta-form pattern for a Group 1 verb ending in る, as in のる?",
+      "options": [
+        "のった",
+        "のるた",
+        "のいた",
+        "のんだ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I got on the train' using the ta-form of のる:",
+      "patternJp": [
+        "でんしゃに ",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "densha ni ",
+        "[SLOT]",
+        "."
+      ],
+      "slot": {
+        "answer": "のった",
+        "answerRomaji": "notta",
+        "hint": "The plain past form of 'to get on'.",
+        "acceptAlternatives": [
+          "Notta"
+        ]
+      },
+      "translation": "I got on the train.",
+      "speakText": "でんしゃに のった。"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I ate sushi yesterday' using the Group 2 ta-form:",
+      "patternJp": [
+        "きのう すしを ",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "kinou sushi o ",
+        "[SLOT]",
+        "."
+      ],
+      "slot": {
+        "answer": "たべた",
+        "answerRomaji": "tabeta",
+        "hint": "The plain past form of 'to eat'.",
+        "acceptAlternatives": [
+          "Tabeta"
+        ]
+      },
+      "translation": "I ate sushi yesterday.",
+      "speakText": "きのう すしを たべた。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Group 1 ta-Form - む / ぶ / ぬ",
+      "intro": "Group 1 verbs ending in む, ぶ, or ぬ use んだ in the past. This is a voiced ending, so the past form ends with だ instead of た.",
+      "rows": [
+        [
+          "Ending",
+          "ta-Form",
+          "Example"
+        ],
+        [
+          "む",
+          "んだ",
+          "のむ -> のんだ"
+        ],
+        [
+          "ぶ",
+          "んだ",
+          "あそぶ -> あそんだ"
+        ],
+        [
+          "ぬ",
+          "んだ",
+          "しぬ -> しんだ"
+        ]
+      ],
+      "takeaway": "Group 1 む, ぶ, and ぬ endings become んだ."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which ta-form correctly follows the む / ぶ / ぬ sound-change pattern?",
+      "options": [
+        "よんだ",
+        "よむた",
+        "よった",
+        "よみた"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I read a book' using the ta-form of よむ:",
+      "patternJp": [
+        "ほんを ",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "hon o ",
+        "[SLOT]",
+        "."
+      ],
+      "slot": {
+        "answer": "よんだ",
+        "answerRomaji": "yonda",
+        "hint": "The plain past form of 'to read'.",
+        "acceptAlternatives": [
+          "Yonda"
+        ]
+      },
+      "translation": "I read a book.",
+      "speakText": "ほんを よんだ。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Group 1 ta-Form - く / ぐ / す",
+      "intro": "The く, ぐ, and す endings each have their own ta-form sound change. Remember that ぐ keeps voicing and becomes いだ.",
+      "rows": [
+        [
+          "Ending",
+          "ta-Form",
+          "Example"
+        ],
+        [
+          "く",
+          "いた",
+          "かく -> かいた"
+        ],
+        [
+          "ぐ",
+          "いだ",
+          "およぐ -> およいだ"
+        ],
+        [
+          "す",
+          "した",
+          "はなす -> はなした"
+        ]
+      ],
+      "takeaway": "Use いた for く, いだ for ぐ, and した for す."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which is the correct ta-form of はなす?",
+      "options": [
+        "はなした",
+        "はなすた",
+        "はなった",
+        "はなだ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I lost my wallet' using the ta-form of なくす:",
+      "patternJp": [
+        "さいふを ",
+        "[SLOT]",
+        "！"
+      ],
+      "patternRom": [
+        "saifu o ",
+        "[SLOT]",
+        "!"
+      ],
+      "slot": {
+        "answer": "なくした",
+        "answerRomaji": "nakushita",
+        "hint": "The plain past form of 'to lose'.",
+        "acceptAlternatives": [
+          "Nakushita"
+        ]
+      },
+      "translation": "I lost my wallet!",
+      "speakText": "さいふを なくした！"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Group 2 and Irregular ta-Forms",
+      "intro": "Group 2 verbs are simpler: drop る and add た. The irregular verbs する and くる must be memorized, and いく has the special ta-form いった.",
+      "rows": [
+        [
+          "Dictionary Form",
+          "ta-Form",
+          "Meaning"
+        ],
+        [
+          "たべる",
+          "たべた",
+          "ate"
+        ],
+        [
+          "みる",
+          "みた",
+          "saw / watched"
+        ],
+        [
+          "する",
+          "した",
+          "did"
+        ],
+        [
+          "くる",
+          "きた",
+          "came"
+        ],
+        [
+          "いく",
+          "いった",
+          "went"
+        ]
+      ],
+      "takeaway": "Group 2 drops る; memorize する -> した, くる -> きた, and いく -> いった."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which pair gives the correct ta-forms for する and くる?",
+      "options": [
+        "した / きた",
+        "するた / くるた",
+        "すった / くった",
+        "しました / きました"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I watched a movie' using the ta-form of みる:",
+      "patternJp": [
+        "えいがを ",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "eiga o ",
+        "[SLOT]",
+        "."
+      ],
+      "slot": {
+        "answer": "みた",
+        "answerRomaji": "mita",
+        "hint": "The plain past form of 'to see or watch'.",
+        "acceptAlternatives": [
+          "Mita"
+        ]
+      },
+      "translation": "I watched a movie.",
+      "speakText": "えいがを みた。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "ta-Form Grammar Patterns",
+      "intro": "The ta-form is not only for past tense. It also builds common patterns like life experience, after doing something, and non-exhaustive action lists.",
+      "rows": [
+        [
+          "Pattern",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "た-form + ことが ある",
+          "ta-form + koto ga aru",
+          "have done before"
+        ],
+        [
+          "た-form + あとで",
+          "ta-form + ato de",
+          "after doing"
+        ],
+        [
+          "た-form + り",
+          "ta-form + ri",
+          "do things like"
+        ],
+        [
+          "たべたり のんだりした",
+          "tabetari nondari shita",
+          "did things like eating and drinking"
+        ]
+      ],
+      "takeaway": "Once you know the ta-form, you can build experience, after, and tari patterns."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which pattern means 'have done before'?",
+      "options": [
+        "た-form + ことが ある",
+        "dictionary form + ください",
+        "ない-form + で",
+        "ます-stem + たい"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I have been to Japan' using the experience pattern:",
+      "patternJp": [
+        "にほんに ",
+        "[SLOT]",
+        " ことが ある。"
+      ],
+      "patternRom": [
+        "nihon ni ",
+        "[SLOT]",
+        " koto ga aru."
+      ],
+      "slot": {
+        "answer": "いった",
+        "answerRomaji": "itta",
+        "hint": "The special plain past form of 'to go'.",
+        "acceptAlternatives": [
+          "Itta"
+        ]
+      },
+      "translation": "I have been to Japan.",
+      "speakText": "にほんに いった ことが ある。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which form is the plain past ta-form of のむ?",
+      "title": "ta-form and te-form share sound changes",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "のんだ",
+          "romaji": "nonda.",
+          "en": "Drank.",
+          "note": "む ending becomes んだ in the ta-form.",
+          "correct": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "のんで",
+          "romaji": "nonde.",
+          "en": "Drink / drinking / and drink.",
+          "note": "This is the matching te-form, not the past ta-form.",
+          "correct": false
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "のむた",
+          "romaji": "nomuta.",
+          "en": "(intended: drank)",
+          "note": "Do not attach た directly to the dictionary form.",
+          "correct": false
+        }
+      ],
+      "takeaway": "The sound change is shared with te-form, but ta-form ends in た or だ.",
+      "speakText": "のんだ"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly says 'went'?",
+      "title": "いく is irregular",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "いった",
+          "romaji": "itta.",
+          "en": "Went.",
+          "note": "いく is an exception and uses いった.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "いいた",
+          "romaji": "iita.",
+          "en": "(intended: went)",
+          "note": "Regular く verbs use いた, but いく is irregular.",
+          "correct": false
+        },
+        {
+          "label": "POLITE",
+          "jp": "いきました",
+          "romaji": "ikimashita.",
+          "en": "Went. (polite)",
+          "note": "This is polite past, but not the plain ta-form.",
+          "correct": false
+        }
+      ],
+      "takeaway": "The plain past of いく is always いった.",
+      "speakText": "いった"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence correctly uses たことがある for life experience?",
+      "title": "Experience with たことがある",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "にほんに いった ことが ある。",
+          "romaji": "nihon ni itta koto ga aru.",
+          "en": "I have been to Japan.",
+          "note": "ta-form + ことがある expresses life experience.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "にほんに いく ことが ある。",
+          "romaji": "nihon ni iku koto ga aru.",
+          "en": "I sometimes go to Japan.",
+          "note": "Dictionary form changes the meaning to an occasional habit.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "にほんに いった ことです。",
+          "romaji": "nihon ni itta koto desu.",
+          "en": "(intended: I have been to Japan.)",
+          "note": "The experience pattern needs ことが ある.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use ta-form + ことがある for things you have experienced.",
+      "speakText": "にほんに いった ことが ある。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly says 'I did things like eating and drinking'?",
+      "title": "たり for non-exhaustive action lists",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "たべたり のんだりした。",
+          "romaji": "tabetari nondari shita.",
+          "en": "I did things like eating and drinking.",
+          "note": "Build each たり from the ta-form, then finish with する.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "たべるり のむりした。",
+          "romaji": "taberuri nomuri shita.",
+          "en": "(intended: did things like eating and drinking)",
+          "note": "たり is built from the ta-form, not the dictionary form.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "たべた のんだりした。",
+          "romaji": "tabeta nondari shita.",
+          "en": "(intended: did things like eating and drinking)",
+          "note": "Each listed action needs り.",
+          "correct": false
+        }
+      ],
+      "takeaway": "For non-exhaustive lists, repeat ta-form + り and end with する.",
+      "speakText": "たべたり のんだりした。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "ta-Form in Context",
+      "intro": "These sentences show the ta-form in plain past actions and common patterns. Listen for the final sound change before the sentence ending.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "English"
+        ],
+        [
+          "きのう すしを たべた。",
+          "kinou sushi o tabeta.",
+          "I ate sushi yesterday."
+        ],
+        [
+          "でんしゃに のった。",
+          "densha ni notta.",
+          "I got on the train."
+        ],
+        [
+          "ともだちと あそんだ。",
+          "tomodachi to asonda.",
+          "I hung out with friends."
+        ],
+        [
+          "ほんを よんだ。",
+          "hon o yonda.",
+          "I read a book."
+        ],
+        [
+          "えいがを みた。",
+          "eiga o mita.",
+          "I watched a movie."
+        ],
+        [
+          "にほんに いった ことが ある。",
+          "nihon ni itta koto ga aru.",
+          "I have been to Japan."
+        ],
+        [
+          "さいふを なくした！",
+          "saifu o nakushita!",
+          "I lost my wallet!"
+        ],
+        [
+          "きのう あめが ふった。",
+          "kinou ame ga futta.",
+          "It rained yesterday."
+        ]
+      ],
+      "takeaway": "Identify the verb group first, then listen for the ta-form sound change."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "きのう すしを たべた。",
+      "options": [
+        "I ate sushi yesterday.",
+        "I will eat sushi tomorrow.",
+        "I like sushi.",
+        "I am eating sushi."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "でんしゃに のった。",
+      "options": [
+        "I missed the train.",
+        "I am on the train.",
+        "I got on the train.",
+        "I got off the train."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ほんを よんだ。",
+      "options": [
+        "I want to read a book.",
+        "I bought a book.",
+        "I am reading a book.",
+        "I read a book."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "えいがを みた。",
+      "options": [
+        "I watched a movie.",
+        "I want to see a movie.",
+        "I like movies.",
+        "I am watching a movie."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "にほんに いった ことが ある。",
+      "options": [
+        "I want to go to Japan.",
+        "I am going to Japan.",
+        "I have been to Japan.",
+        "I will go to Japan."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "さいふを なくした！",
+      "options": [
+        "I found my wallet!",
+        "I bought a wallet.",
+        "I forgot my wallet.",
+        "I lost my wallet!"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "きのう あめが ふった。",
+      "options": [
+        "It will rain today.",
+        "It is raining now.",
+        "It rained yesterday.",
+        "I like rain."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ともだちと あそんだ。",
+      "options": [
+        "I will meet a friend.",
+        "I hung out with friends.",
+        "I called a friend.",
+        "I am with a friend."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "きのう すしを たべた",
+      "answer": "kinou sushi o tabeta",
+      "acceptAlternatives": [
+        "kino sushi wo tabeta",
+        "kinou sushi o tabeta"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "でんしゃに のった",
+      "answer": "densha ni notta",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "ともだちと あそんだ",
+      "answer": "tomodachi to asonda",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "ほんを よんだ",
+      "answer": "hon o yonda",
+      "acceptAlternatives": [
+        "hon o yonda"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "えいがを みた",
+      "answer": "eiga o mita",
+      "acceptAlternatives": [
+        "eiga o mita"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "にほんに いった ことが ある",
+      "answer": "nihon ni itta koto ga aru",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "さいふを なくした",
+      "answer": "saifu o nakushita",
+      "acceptAlternatives": [
+        "saifu o nakushita"
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning:",
+      "pairs": [
+        {
+          "left": "すし",
+          "right": "sushi"
+        },
+        {
+          "left": "でんしゃ",
+          "right": "train"
+        },
+        {
+          "left": "ほん",
+          "right": "book"
+        },
+        {
+          "left": "えいが",
+          "right": "movie / film"
+        },
+        {
+          "left": "にほん",
+          "right": "Japan"
+        },
+        {
+          "left": "さいふ",
+          "right": "wallet / purse"
+        },
+        {
+          "left": "あめ",
+          "right": "rain"
+        },
+        {
+          "left": "きのう",
+          "right": "yesterday"
+        },
+        {
+          "left": "ことがある",
+          "right": "have experienced"
+        },
+        {
+          "left": "あとで",
+          "right": "after doing"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice - ta-form",
+      "cards": [
+        {
+          "jp": "きのう すしを たべた。",
+          "romaji": "kinou sushi o tabeta.",
+          "en": "I ate sushi yesterday."
+        },
+        {
+          "jp": "でんしゃに のった。",
+          "romaji": "densha ni notta.",
+          "en": "I got on the train."
+        },
+        {
+          "jp": "ともだちと あそんだ。",
+          "romaji": "tomodachi to asonda.",
+          "en": "I hung out with friends."
+        },
+        {
+          "jp": "ほんを よんだ。",
+          "romaji": "hon o yonda.",
+          "en": "I read a book."
+        },
+        {
+          "jp": "えいがを みた。",
+          "romaji": "eiga o mita.",
+          "en": "I watched a movie."
+        },
+        {
+          "jp": "にほんに いった ことが ある。",
+          "romaji": "nihon ni itta koto ga aru.",
+          "en": "I have been to Japan."
+        },
+        {
+          "jp": "さいふを なくした！",
+          "romaji": "saifu o nakushita!",
+          "en": "I lost my wallet!"
+        },
+        {
+          "jp": "きのう あめが ふった。",
+          "romaji": "kinou ame ga futta.",
+          "en": "It rained yesterday."
+        },
+        {
+          "jp": "たべた あとで、歯を みがく。",
+          "romaji": "tabeta ato de, ha o migaku.",
+          "en": "After eating, I brush my teeth."
+        },
+        {
+          "jp": "たべたり のんだりした。",
+          "romaji": "tabetari nondari shita.",
+          "en": "I did things like eating and drinking."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1333 @@
+{
+  "id": "dialogues-lesson-11",
+  "misconceptions": [
+    {
+      "target": "negative-verb-form",
+      "error": "Uses affirmative verbs when the answer should be negative.",
+      "mitigation": "MC and formula-fill drills contrast いきます with いきません-style answers."
+    },
+    {
+      "target": "chigaimasu-vs-iie",
+      "error": "Treats ちがいます as a generic no for every question.",
+      "mitigation": "Response-selection drills separate disagreement from declining an action."
+    },
+    {
+      "target": "past-negative",
+      "error": "Confuses いきません with いきませんでした.",
+      "mitigation": "Listening checks and typed drills include present/future negative and past negative."
+    },
+    {
+      "target": "casual-negative-register",
+      "error": "Uses casual ううん or ない forms in formal contexts.",
+      "mitigation": "Comparison cards and response metadata mark casual negatives as friend-only."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Negations & Affirmations - Formal · Standard · Casual",
+      "intro": "Saying yes, no, not, not yet, and of course, while keeping verb negation and register natural.",
+      "rows": [
+        [
+          "Register",
+          "Japanese",
+          "Romaji",
+          "Typical Response",
+          "Context"
+        ],
+        [
+          "FORMAL",
+          "はい、さようでございます",
+          "Hai, sayou de gozaimasu",
+          "Yes, that is correct",
+          "Strongest formal affirmation; used in business/service"
+        ],
+        [
+          "FORMAL",
+          "いいえ、さようではございません",
+          "Iie, sayou dewa gozaimasen",
+          "No, that is not the case",
+          "Formal denial; very polite correction"
+        ],
+        [
+          "FORMAL",
+          "～て おりません",
+          "~te orimasen",
+          "I have not [done]…",
+          "Humble negative of ～ている; used when correcting a misunderstanding"
+        ],
+        [
+          "STANDARD",
+          "はい、そうです",
+          "Hai, sou desu",
+          "Yes, that's right",
+          "Standard polite affirmation; everyday use"
+        ],
+        [
+          "STANDARD",
+          "いいえ、ちがいます",
+          "Iie, chigaimasu",
+          "No, that's different / wrong",
+          "Polite denial; softer than saying いいえ alone"
+        ],
+        [
+          "STANDARD",
+          "～ません",
+          "~masen",
+          "don't / won't [do]",
+          "Polite present negative of verbs"
+        ],
+        [
+          "STANDARD",
+          "～ませんでした",
+          "~masen deshita",
+          "didn't [do]",
+          "Polite past negative of verbs"
+        ],
+        [
+          "STANDARD",
+          "もちろんです",
+          "Mochiron desu",
+          "Of course!",
+          "Strong affirmation; signals certainty"
+        ],
+        [
+          "CASUAL",
+          "うん、そう / そうだよ",
+          "Un, sou / Sou da yo",
+          "Yeah, right / Yep!",
+          "Casual affirmation; うん = casual \"yes\""
+        ],
+        [
+          "CASUAL",
+          "ううん、ちがう / そうじゃないよ",
+          "Uun, chigau / Sou ja nai yo",
+          "Nah, that's wrong / not right",
+          "Casual denial; ううん = casual \"no\""
+        ],
+        [
+          "CASUAL",
+          "～ない / ～ないよ",
+          "~nai / ~nai yo",
+          "don't / won't [do]",
+          "Plain negative of verbs; core casual form"
+        ],
+        [
+          "CASUAL",
+          "～くない / ～じゃない",
+          "~ku nai / ~ja nai",
+          "not [adj] / not [noun]",
+          "Negative of い-adj (くない) and nouns/な-adj (じゃない)"
+        ]
+      ],
+      "takeaway": "Japanese yes/no replies track the question context. Use polite ～ません for safe negation and casual ない forms only with close people."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "A - FORMAL · Office: Correcting a Misunderstanding",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "田中",
+          "jp": "このしょるいは あなたが さくせいしましたか？",
+          "romaji": "Kono shorui wa anata ga sakusei shimashita ka?",
+          "en": "Did you prepare these documents?"
+        },
+        {
+          "speaker": "鈴木",
+          "jp": "いいえ、わたしは さくせいして おりません。やまださんが さくせいいたしました。",
+          "romaji": "Iie, watashi wa sakusei shite orimasen. Yamada-san ga sakusei itashimashita.",
+          "en": "No, I did not prepare them. Yamada-san prepared them."
+        },
+        {
+          "speaker": "田中",
+          "jp": "そうでしたか。しつれいいたしました。",
+          "romaji": "Sou deshita ka. Shitsurei itashimashita.",
+          "en": "Is that so? My apologies."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "B - STANDARD · Café: Drink Preferences",
+      "register": "polite",
+      "lines": [
+        {
+          "speaker": "みどり",
+          "jp": "コーヒーは のみますか？",
+          "romaji": "Koohii wa nomimasu ka?",
+          "en": "Do you drink coffee?"
+        },
+        {
+          "speaker": "ケビン",
+          "jp": "いいえ、コーヒーは のみません。こうちゃが すきです。",
+          "romaji": "Iie, koohii wa nomimasen. Koucha ga suki desu.",
+          "en": "No, I don't drink coffee. I like tea."
+        },
+        {
+          "speaker": "みどり",
+          "jp": "そうですか。わたしも こうちゃが すきですよ！",
+          "romaji": "Sou desu ka. Watashi mo koucha ga suki desu yo!",
+          "en": "Oh really? I also like tea!"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "C - CASUAL · Friends: Homework Check",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "ゆうと",
+          "jp": "しゅくだい もう おわった？",
+          "romaji": "Shukudai mou owatta?",
+          "en": "Did you finish your homework yet?"
+        },
+        {
+          "speaker": "はな",
+          "jp": "ううん、まだ おわってないよ。むずかしくて。",
+          "romaji": "Uun, mada owatte nai yo. Muzukashikute.",
+          "en": "Nah, I haven't finished yet. It's too hard."
+        },
+        {
+          "speaker": "ゆうと",
+          "jp": "だよね〜。ぼくも まだ やってないや。",
+          "romaji": "Da yo ne~. Boku mo mada yatte nai ya.",
+          "en": "Right?! I haven't done mine either."
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which source phrase matches: \"I don't go / won't go\"?",
+      "title": "Contrast 1: いきません",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "いきません",
+          "romaji": "Ikimasen",
+          "en": "I don't go / won't go",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "たべません",
+          "romaji": "Tabemasen",
+          "en": "I don't eat",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "のみません",
+          "romaji": "Nomimasen",
+          "en": "I don't drink",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "いきません"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which source phrase matches: \"I don't drink\"?",
+      "title": "Contrast 3: のみません",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "のみません",
+          "romaji": "Nomimasen",
+          "en": "I don't drink",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "わかりません",
+          "romaji": "Wakarimasen",
+          "en": "I don't understand",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "ちがいます",
+          "romaji": "Chigaimasu",
+          "en": "That's different / wrong",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "のみません"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which source phrase matches: \"That's different / wrong\"?",
+      "title": "Contrast 5: ちがいます",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "ちがいます",
+          "romaji": "Chigaimasu",
+          "en": "That's different / wrong",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "はい、そうです",
+          "romaji": "Hai, sou desu",
+          "en": "Yes, that's right",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "ううん、ちがう",
+          "romaji": "Uun, chigau",
+          "en": "Nah, that's wrong (casual)",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongRegister",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "casual",
+          "relationship": "friends",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "ちがいます"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which source phrase matches: \"Nah, that's wrong (casual)\"?",
+      "title": "Contrast 7: ううん、ちがう",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "ううん、ちがう",
+          "romaji": "Uun, chigau",
+          "en": "Nah, that's wrong (casual)",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "casual",
+          "relationship": "friends",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "たかくない",
+          "romaji": "Takaku nai",
+          "en": "Not expensive",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "いきませんでした",
+          "romaji": "Ikimasen deshita",
+          "en": "I didn't go",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongRegister",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "ううん、ちがう"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the key phrase from the source lesson:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "コーヒーは のみますか",
+        "answerRomaji": "koohii wa nomimasu ka",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "koohii wo nomimasu ka",
+          "koohii wa nomimasu ka"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "コーヒーは のみますか？",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the whole source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "いいえ、コーヒーは のみません",
+        "answerRomaji": "iie, koohii wa nomimasen",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "iie koohii wa nomimasen",
+          "iie, koohii wa nomimasen"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "いいえ、コーヒーは のみません",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the whole source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "こうちゃが すきです",
+        "answerRomaji": "koucha ga suki desu",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "koucha ga suki desu"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "こうちゃが すきです",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "いきません",
+          "romaji": "Ikimasen",
+          "en": "I don't go / won't go"
+        },
+        {
+          "jp": "たべません",
+          "romaji": "Tabemasen",
+          "en": "I don't eat"
+        },
+        {
+          "jp": "のみません",
+          "romaji": "Nomimasen",
+          "en": "I don't drink"
+        },
+        {
+          "jp": "わかりません",
+          "romaji": "Wakarimasen",
+          "en": "I don't understand"
+        },
+        {
+          "jp": "ちがいます",
+          "romaji": "Chigaimasu",
+          "en": "That's different / wrong"
+        },
+        {
+          "jp": "はい、そうです",
+          "romaji": "Hai, sou desu",
+          "en": "Yes, that's right"
+        },
+        {
+          "jp": "ううん、ちがう",
+          "romaji": "Uun, chigau",
+          "en": "Nah, that's wrong (casual)"
+        },
+        {
+          "jp": "たかくない",
+          "romaji": "Takaku nai",
+          "en": "Not expensive"
+        },
+        {
+          "jp": "いきませんでした",
+          "romaji": "Ikimasen deshita",
+          "en": "I didn't go"
+        },
+        {
+          "jp": "もちろんです",
+          "romaji": "Mochiron desu",
+          "en": "Of course!"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いきません",
+      "options": [
+        {
+          "text": "I don't go",
+          "correct": true
+        },
+        {
+          "text": "I went",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I'm going",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Let's go",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "わかりません",
+      "options": [
+        {
+          "text": "I understand",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I know",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I don't understand",
+          "correct": true
+        },
+        {
+          "text": "Say it again",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "はい、そうです",
+      "options": [
+        {
+          "text": "No, that's wrong",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Is that right?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Yes, that's right",
+          "correct": true
+        },
+        {
+          "text": "Me too",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "たかくない",
+      "options": [
+        {
+          "text": "Very expensive",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Not expensive",
+          "correct": true
+        },
+        {
+          "text": "It's expensive",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "So cheap",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ちがいます",
+      "options": [
+        {
+          "text": "You're right",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Of course",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "That's wrong / different",
+          "correct": true
+        },
+        {
+          "text": "I don't know",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ううん、ちがう",
+      "options": [
+        {
+          "text": "Yes, that's right",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Nah, that's wrong",
+          "correct": true
+        },
+        {
+          "text": "Of course",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I don't understand",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いきませんでした",
+      "options": [
+        {
+          "text": "I will go",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I'm not going",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I didn't go",
+          "correct": true
+        },
+        {
+          "text": "I go every day",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "もちろんです",
+      "options": [
+        {
+          "text": "Maybe",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I don't know",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "That's wrong",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Of course",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "にほんごが わかりますか？",
+        "romaji": "Nihongo ga wakarimasu ka?",
+        "speakText": "にほんごが わかりますか？"
+      },
+      "options": [
+        {
+          "jp": "はい、すこし わかります。",
+          "romaji": "Hai, sukoshi wakarimasu.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いいえ、いきません。",
+          "romaji": "Iie, ikimasen.",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This is a familiar phrase, but it does not answer this prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "うん、たかいよ。",
+          "romaji": "Un, takai yo.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "コーヒーを のみますか？",
+        "romaji": "Koohii wo nomimasu ka?",
+        "speakText": "コーヒーを のみますか？"
+      },
+      "options": [
+        {
+          "jp": "いいえ、のみません。",
+          "romaji": "Iie, nomimasen.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はい、よみます。",
+          "romaji": "Hai, yomimasu.",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This is a familiar phrase, but it does not answer this prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "そうじゃないです。",
+          "romaji": "Sou ja nai desu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "casual",
+          "relationship": "friends",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "これは あなたの ほんですか？",
+        "romaji": "Kore wa anata no hon desu ka?",
+        "speakText": "これは あなたの ほんですか？"
+      },
+      "options": [
+        {
+          "jp": "はい、わかりません。",
+          "romaji": "Hai, wakarimasen.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption0",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いいえ、ちがいます。やまださんのです。",
+          "romaji": "Iie, chigaimasu. Yamada-san no desu.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "friends",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "うん、たかくない。",
+          "romaji": "Un, takaku nai.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "しゅくだい もう おわった？",
+        "romaji": "Shukudai mou owatta?",
+        "speakText": "しゅくだい もう おわった？"
+      },
+      "options": [
+        {
+          "jp": "うん、いきません。",
+          "romaji": "Un, ikimasen.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption0",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はい、ちがいます。",
+          "romaji": "Hai, chigaimasu.",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This is a familiar phrase, but it does not answer this prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "ううん、まだ おわってないよ。",
+          "romaji": "Uun, mada owatte nai yo.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "friends",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Review from dialogues-lesson-09: choose the best response:",
+      "reviewFrom": "dialogues-lesson-09",
+      "question": {
+        "jp": "しゅうまつ なにするの？",
+        "romaji": "Shuumatsu nani suru no?",
+        "speakText": "しゅうまつ なにするの？"
+      },
+      "options": [
+        {
+          "jp": "えいがを みるよ。",
+          "romaji": "Eiga wo miru yo.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はじめまして、よろしく！",
+          "romaji": "Hajimemashite, yoroshiku!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor0",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "おはようございます！",
+          "romaji": "Ohayou gozaimasu!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor1",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "formal",
+          "relationship": "junior-to-senior",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Review from dialogues-lesson-10: choose the best response:",
+      "reviewFrom": "dialogues-lesson-10",
+      "question": {
+        "jp": "このりんごは いくらですか？",
+        "romaji": "Kono ringo wa ikura desu ka?",
+        "speakText": "このりんごはいくらですか"
+      },
+      "options": [
+        {
+          "jp": "ひとつ ひゃくえんです。",
+          "romaji": "Hitotsu hyaku en desu.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はじめまして、よろしく！",
+          "romaji": "Hajimemashite, yoroshiku!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor0",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "おはようございます！",
+          "romaji": "Ohayou gozaimasu!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor1",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "formal",
+          "relationship": "junior-to-senior",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "コーヒーは のみますか？",
+      "answer": "koohii wa nomimasu ka",
+      "acceptAlternatives": [
+        "koohii wo nomimasu ka"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "いいえ、コーヒーは のみません",
+      "answer": "iie, koohii wa nomimasen",
+      "acceptAlternatives": [
+        "iie koohii wa nomimasen"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "こうちゃが すきです",
+      "answer": "koucha ga suki desu",
+      "acceptAlternatives": [],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "しゅくだい もう おわった？",
+      "answer": "shukudai mou owatta",
+      "acceptAlternatives": [],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "まだ おわってないよ",
+      "answer": "mada owatte nai yo",
+      "acceptAlternatives": [
+        "mada owattenai yo"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "だよね。ぼくも まだ やってないや",
+      "answer": "da yo ne, boku mo mada yatte nai ya",
+      "acceptAlternatives": [
+        "da yo ne boku mo mada yatte nai ya"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "そうでしたか。しつれいいたしました",
+      "answer": "sou deshita ka, shitsurei itashimashita",
+      "acceptAlternatives": [
+        "sou deshita ka shitsurei itashimashita"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "このしょるいは あなたが さくせいしましたか",
+      "answer": "kono shorui wa anata ga sakusei shimashita ka",
+      "acceptAlternatives": [],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "このしょるいは あなたが さくせいしましたか？",
+      "romaji": "Kono shorui wa anata ga sakusei shimashita ka?",
+      "en": "Did you prepare these documents?",
+      "speakText": "このしょるいは あなたが さくせいしましたか？",
+      "register": "formal",
+      "dialogueContext": "A - Formal · Office",
+      "speaker": "田中"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いいえ、わたしは さくせいして おりません。やまださんが さくせいいたしました。",
+      "romaji": "Iie, watashi wa sakusei shite orimasen. Yamada-san ga sakusei itashimashita.",
+      "en": "No, I did not prepare them. Yamada-san prepared them.",
+      "speakText": "いいえ、わたしは さくせいして おりません。やまださんが さくせいいたしました。",
+      "register": "formal",
+      "dialogueContext": "A - Formal · Office",
+      "speaker": "鈴木"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "そうでしたか。しつれいいたしました。",
+      "romaji": "Sou deshita ka. Shitsurei itashimashita.",
+      "en": "Is that so? My apologies.",
+      "speakText": "そうでしたか。しつれいいたしました。",
+      "register": "formal",
+      "dialogueContext": "A - Formal · Office",
+      "speaker": "田中"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "コーヒーは のみますか？",
+      "romaji": "Koohii wa nomimasu ka?",
+      "en": "Do you drink coffee?",
+      "speakText": "コーヒーは のみますか？",
+      "register": "polite",
+      "dialogueContext": "B - Standard · Café",
+      "speaker": "みどり"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いいえ、コーヒーは のみません。こうちゃが すきです。",
+      "romaji": "Iie, koohii wa nomimasen. Koucha ga suki desu.",
+      "en": "No, I don't drink coffee. I like tea.",
+      "speakText": "いいえ、コーヒーは のみません。こうちゃが すきです。",
+      "register": "polite",
+      "dialogueContext": "B - Standard · Café",
+      "speaker": "ケビン"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "そうですか。わたしも こうちゃが すきですよ！",
+      "romaji": "Sou desu ka. Watashi mo koucha ga suki desu yo!",
+      "en": "Oh really? I also like tea!",
+      "speakText": "そうですか。わたしも こうちゃが すきですよ！",
+      "register": "polite",
+      "dialogueContext": "B - Standard · Café",
+      "speaker": "みどり"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "しゅくだい もう おわった？",
+      "romaji": "Shukudai mou owatta?",
+      "en": "Did you finish your homework yet?",
+      "speakText": "しゅくだい もう おわった？",
+      "register": "casual",
+      "dialogueContext": "C - Casual · Friends",
+      "speaker": "ゆうと"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ううん、まだ おわってないよ。むずかしくて。",
+      "romaji": "Uun, mada owatte nai yo. Muzukashikute.",
+      "en": "Nah, I haven't finished yet. It's too hard.",
+      "speakText": "ううん、まだ おわってないよ。むずかしくて。",
+      "register": "casual",
+      "dialogueContext": "C - Casual · Friends",
+      "speaker": "はな"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "だよね〜。ぼくも まだ やってないや。",
+      "romaji": "Da yo ne~. Boku mo mada yatte nai ya.",
+      "en": "Right?! I haven't done mine either.",
+      "speakText": "だよね〜。ぼくも まだ やってないや。",
+      "register": "casual",
+      "dialogueContext": "C - Casual · Friends",
+      "speaker": "ゆうと"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "いきません",
+          "right": "I don't go / won't go"
+        },
+        {
+          "left": "たべません",
+          "right": "I don't eat"
+        },
+        {
+          "left": "のみません",
+          "right": "I don't drink"
+        },
+        {
+          "left": "わかりません",
+          "right": "I don't understand"
+        },
+        {
+          "left": "ちがいます",
+          "right": "That's different / wrong"
+        },
+        {
+          "left": "はい、そうです",
+          "right": "Yes, that's right"
+        },
+        {
+          "left": "にほんごが できます。",
+          "right": "I can speak Japanese.",
+          "reviewFrom": "dialogues-lesson-07"
+        },
+        {
+          "left": "これは わたしの かばんです。",
+          "right": "This is my bag.",
+          "reviewFrom": "dialogues-lesson-08"
+        },
+        {
+          "left": "どこに いきますか？",
+          "right": "Where are you going?",
+          "reviewFrom": "dialogues-lesson-09"
+        },
+        {
+          "left": "さん",
+          "right": "3 — Sino-Japanese",
+          "reviewFrom": "dialogues-lesson-10"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "このしょるいは あなたが さくせいしましたか？",
+          "romaji": "Kono shorui wa anata ga sakusei shimashita ka?",
+          "en": "Did you prepare these documents?"
+        },
+        {
+          "jp": "いいえ、わたしは さくせいして おりません。やまださんが さくせいいたしました。",
+          "romaji": "Iie, watashi wa sakusei shite orimasen. Yamada-san ga sakusei itashimashita.",
+          "en": "No, I did not prepare them. Yamada-san prepared them.",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "A - Formal · Office; register is formal."
+          }
+        },
+        {
+          "jp": "そうでしたか。しつれいいたしました。",
+          "romaji": "Sou deshita ka. Shitsurei itashimashita.",
+          "en": "Is that so? My apologies."
+        },
+        {
+          "jp": "コーヒーは のみますか？",
+          "romaji": "Koohii wa nomimasu ka?",
+          "en": "Do you drink coffee?"
+        },
+        {
+          "jp": "いいえ、コーヒーは のみません。こうちゃが すきです。",
+          "romaji": "Iie, koohii wa nomimasen. Koucha ga suki desu.",
+          "en": "No, I don't drink coffee. I like tea.",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "B - Standard · Café; register is polite."
+          }
+        },
+        {
+          "jp": "そうですか。わたしも こうちゃが すきですよ！",
+          "romaji": "Sou desu ka. Watashi mo koucha ga suki desu yo!",
+          "en": "Oh really? I also like tea!"
+        },
+        {
+          "jp": "しゅくだい もう おわった？",
+          "romaji": "Shukudai mou owatta?",
+          "en": "Did you finish your homework yet?"
+        },
+        {
+          "jp": "ううん、まだ おわってないよ。むずかしくて。",
+          "romaji": "Uun, mada owatte nai yo. Muzukashikute.",
+          "en": "Nah, I haven't finished yet. It's too hard.",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "C - Casual · Friends; register is casual."
+          }
+        },
+        {
+          "jp": "だよね〜。ぼくも まだ やってないや。",
+          "romaji": "Da yo ne~. Boku mo mada yatte nai ya.",
+          "en": "Right?! I haven't done mine either."
+        },
+        {
+          "jp": "いきません",
+          "romaji": "Ikimasen",
+          "en": "I don't go / won't go"
+        }
+      ]
+    }
+  ]
+}

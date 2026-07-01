@@ -1,0 +1,1289 @@
+{
+  "id": "dialogues-lesson-32",
+  "misconceptions": [
+    {
+      "target": "clothes-prices-single-word-answer",
+      "error": "Answers with isolated vocabulary instead of a complete conversational turn.",
+      "mitigation": "Reference rows and response-selection drills keep prompts and natural replies together."
+    },
+    {
+      "target": "clothes-prices-register-mismatch",
+      "error": "Uses casual language with teachers, staff, or strangers.",
+      "mitigation": "Formal, casual, and slang scenes are separated and labeled."
+    },
+    {
+      "target": "clothes-prices-listening-drift",
+      "error": "Chooses a familiar phrase that does not match the audio.",
+      "mitigation": "Listening MC and type-the-answer reuse the exact dialogue speakText."
+    },
+    {
+      "target": "clothes-prices-particle-confusion",
+      "error": "Confuses は, へ, or を in written Japanese source phrases.",
+      "mitigation": "Formula-fill keeps the Japanese particles visible and accepts romaji as support."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Clothes & Prices - Formal · Casual · Slang",
+      "intro": "Practice clothes & prices as prompt-and-response dialogue, not as loose vocabulary.",
+      "rows": [
+        [
+          "Register",
+          "Japanese",
+          "Romaji",
+          "Typical Response",
+          "Context"
+        ],
+        [
+          "FORMAL",
+          "この シャツは いくらですか？",
+          "kono shatsuha ikuradesuka?",
+          "さんぜんえんです。",
+          "It is 3,000 yen."
+        ],
+        [
+          "FORMAL",
+          "さんぜんえんです。",
+          "sanzen'endesu.",
+          "そうです。ありがとうございます。",
+          "That is right. Thank you."
+        ],
+        [
+          "CASUAL",
+          "この くつ、どう？",
+          "kono kutsu,dou?",
+          "いいけど、ちょっと たかいね。",
+          "They are good, but a little expensive."
+        ],
+        [
+          "CASUAL",
+          "いいけど、ちょっと たかいね。",
+          "iikedo,chotto takaine.",
+          "いいね。あとで かくにんしよう。",
+          "Nice. Let us check later."
+        ],
+        [
+          "SLANG",
+          "この ジャケット、かわいいじゃん。",
+          "kono jaketto,kawaiijan.",
+          "でも サイズ、ちょっと おおきくない？",
+          "But isn’t the size a little big?"
+        ],
+        [
+          "SLANG",
+          "でも サイズ、ちょっと おおきくない？",
+          "demo saizu,chotto ookikunai?",
+          "まじか。いいじゃん。",
+          "Really? Nice."
+        ]
+      ],
+      "takeaway": "First choose the right meaning, then choose the right relationship tone."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "A - FORMAL · Clothes & Prices",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "先生",
+          "jp": "この シャツは いくらですか？",
+          "romaji": "kono shatsuha ikuradesuka?",
+          "en": "How much is this shirt?"
+        },
+        {
+          "speaker": "学生",
+          "jp": "さんぜんえんです。",
+          "romaji": "sanzen'endesu.",
+          "en": "It is 3,000 yen."
+        },
+        {
+          "speaker": "先生",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "B - CASUAL · Clothes & Prices",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "ゆい",
+          "jp": "この くつ、どう？",
+          "romaji": "kono kutsu,dou?",
+          "en": "How are these shoes?"
+        },
+        {
+          "speaker": "たく",
+          "jp": "いいけど、ちょっと たかいね。",
+          "romaji": "iikedo,chotto takaine.",
+          "en": "They are good, but a little expensive."
+        },
+        {
+          "speaker": "ゆい",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "C - SLANG · Clothes & Prices",
+      "register": "slang",
+      "lines": [
+        {
+          "speaker": "りく",
+          "jp": "この ジャケット、かわいいじゃん。",
+          "romaji": "kono jaketto,kawaiijan.",
+          "en": "This jacket is cute."
+        },
+        {
+          "speaker": "まい",
+          "jp": "でも サイズ、ちょっと おおきくない？",
+          "romaji": "demo saizu,chotto ookikunai?",
+          "en": "But isn’t the size a little big?"
+        },
+        {
+          "speaker": "りく",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 1: この シャツは いくらですか？",
+      "prompt": "Which source phrase means: “How much is this shirt?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "この シャツは いくらですか？",
+          "romaji": "kono shatsuha ikuradesuka?",
+          "en": "How much is this shirt?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "この シャツは いくらですか？"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 2: さんぜんえんです。",
+      "prompt": "Which source phrase means: “It is 3,000 yen.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "さんぜんえんです。",
+          "romaji": "sanzen'endesu.",
+          "en": "It is 3,000 yen.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "この ジャケット、かわいいじゃん。",
+          "romaji": "kono jaketto,kawaiijan.",
+          "en": "This jacket is cute.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "いくらですか？",
+          "romaji": "ikuradesuka?",
+          "en": "How much is it?",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "さんぜんえんです。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 3: そうです。ありがとうございます。",
+      "prompt": "Which source phrase means: “That is right. Thank you.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "でも サイズ、ちょっと おおきくない？",
+          "romaji": "demo saizu,chotto ookikunai?",
+          "en": "But isn’t the size a little big?",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "さんぜんえんです",
+          "romaji": "sanzen'endesu",
+          "en": "It is 3,000 yen",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "そうです。ありがとうございます。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 4: この くつ、どう？",
+      "prompt": "Which source phrase means: “How are these shoes?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "この くつ、どう？",
+          "romaji": "kono kutsu,dou?",
+          "en": "How are these shoes?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "サイズは ありますか？",
+          "romaji": "saizuha arimasuka?",
+          "en": "Do you have the size?",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "この くつ、どう？"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "この シャツは いくらですか",
+        "answerRomaji": "kono shatsuha ikuradesuka?",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "konoshatsuhaikuradesuka?"
+        ]
+      },
+      "translation": "How much is this shirt?",
+      "speakText": "この シャツは いくらですか？",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "さんぜんえんです",
+        "answerRomaji": "sanzen'endesu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "sanzen'endesu."
+        ]
+      },
+      "translation": "It is 3,000 yen.",
+      "speakText": "さんぜんえんです。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "そうです。ありがとうございます",
+        "answerRomaji": "soudesu.arigatougozaimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "soudesu.arigatougozaimasu."
+        ]
+      },
+      "translation": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "この シャツは いくらですか？",
+          "romaji": "kono shatsuha ikuradesuka?",
+          "en": "How much is this shirt?"
+        },
+        {
+          "jp": "さんぜんえんです。",
+          "romaji": "sanzen'endesu.",
+          "en": "It is 3,000 yen."
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "この くつ、どう？",
+          "romaji": "kono kutsu,dou?",
+          "en": "How are these shoes?"
+        },
+        {
+          "jp": "いいけど、ちょっと たかいね。",
+          "romaji": "iikedo,chotto takaine.",
+          "en": "They are good, but a little expensive."
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "この ジャケット、かわいいじゃん。",
+          "romaji": "kono jaketto,kawaiijan.",
+          "en": "This jacket is cute."
+        },
+        {
+          "jp": "でも サイズ、ちょっと おおきくない？",
+          "romaji": "demo saizu,chotto ookikunai?",
+          "en": "But isn’t the size a little big?"
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "いくらですか？",
+          "romaji": "ikuradesuka?",
+          "en": "How much is it?"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "この シャツは いくらですか？",
+      "options": [
+        {
+          "text": "How much is this shirt?",
+          "correct": true
+        },
+        {
+          "text": "How are these shoes?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "This jacket is cute.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "How much is it?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "さんぜんえんです。",
+      "options": [
+        {
+          "text": "It is 3,000 yen.",
+          "correct": true
+        },
+        {
+          "text": "They are good, but a little expensive.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "But isn’t the size a little big?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "It is 3,000 yen",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "そうです。ありがとうございます。",
+      "options": [
+        {
+          "text": "That is right. Thank you.",
+          "correct": true
+        },
+        {
+          "text": "Nice. Let us check later.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "Do you have the size?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "この くつ、どう？",
+      "options": [
+        {
+          "text": "How are these shoes?",
+          "correct": true
+        },
+        {
+          "text": "This jacket is cute.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "How much is it?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "it is expensive",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いいけど、ちょっと たかいね。",
+      "options": [
+        {
+          "text": "They are good, but a little expensive.",
+          "correct": true
+        },
+        {
+          "text": "But isn’t the size a little big?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "It is 3,000 yen",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "it is cheap",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "options": [
+        {
+          "text": "Nice. Let us check later.",
+          "correct": true
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Do you have the size?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "these shoes",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "この ジャケット、かわいいじゃん。",
+      "options": [
+        {
+          "text": "This jacket is cute.",
+          "correct": true
+        },
+        {
+          "text": "How much is it?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "it is expensive",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "How much is this shirt?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "でも サイズ、ちょっと おおきくない？",
+      "options": [
+        {
+          "text": "But isn’t the size a little big?",
+          "correct": true
+        },
+        {
+          "text": "It is 3,000 yen",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "it is cheap",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "It is 3,000 yen.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "この シャツは いくらですか？",
+        "romaji": "kono shatsuha ikuradesuka?",
+        "speakText": "この シャツは いくらですか？"
+      },
+      "options": [
+        {
+          "jp": "さんぜんえんです。",
+          "romaji": "sanzen'endesu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いいけど、ちょっと たかいね。",
+          "romaji": "iikedo,chotto takaine.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "でも サイズ、ちょっと おおきくない？",
+          "romaji": "demo saizu,chotto ookikunai?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "さんぜんえんです。",
+        "romaji": "sanzen'endesu.",
+        "speakText": "さんぜんえんです。"
+      },
+      "options": [
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "この くつ、どう？",
+        "romaji": "kono kutsu,dou?",
+        "speakText": "この くつ、どう？"
+      },
+      "options": [
+        {
+          "jp": "いいけど、ちょっと たかいね。",
+          "romaji": "iikedo,chotto takaine.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "この ジャケット、かわいいじゃん。",
+          "romaji": "kono jaketto,kawaiijan.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いくらですか？",
+          "romaji": "ikuradesuka?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "いいけど、ちょっと たかいね。",
+        "romaji": "iikedo,chotto takaine.",
+        "speakText": "いいけど、ちょっと たかいね。"
+      },
+      "options": [
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "でも サイズ、ちょっと おおきくない？",
+          "romaji": "demo saizu,chotto ookikunai?",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "さんぜんえんです",
+          "romaji": "sanzen'endesu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "この ジャケット、かわいいじゃん。",
+        "romaji": "kono jaketto,kawaiijan.",
+        "speakText": "この ジャケット、かわいいじゃん。"
+      },
+      "options": [
+        {
+          "jp": "でも サイズ、ちょっと おおきくない？",
+          "romaji": "demo saizu,chotto ookikunai?",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "サイズは ありますか？",
+          "romaji": "saizuha arimasuka?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "でも サイズ、ちょっと おおきくない？",
+        "romaji": "demo saizu,chotto ookikunai?",
+        "speakText": "でも サイズ、ちょっと おおきくない？"
+      },
+      "options": [
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いくらですか？",
+          "romaji": "ikuradesuka?",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "たかいです",
+          "romaji": "takaidesu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "この シャツは いくらですか？",
+      "answer": "kono shatsuha ikuradesuka?",
+      "acceptAlternatives": [
+        "konoshatsuhaikuradesuka?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "さんぜんえんです。",
+      "answer": "sanzen'endesu.",
+      "acceptAlternatives": [
+        "sanzen'endesu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "そうです。ありがとうございます。",
+      "answer": "soudesu.arigatougozaimasu.",
+      "acceptAlternatives": [
+        "soudesu.arigatougozaimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "この くつ、どう？",
+      "answer": "kono kutsu,dou?",
+      "acceptAlternatives": [
+        "konokutsu,dou?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "いいけど、ちょっと たかいね。",
+      "answer": "iikedo,chotto takaine.",
+      "acceptAlternatives": [
+        "iikedo,chottotakaine."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "answer": "iine.atode kakuninshiyou.",
+      "acceptAlternatives": [
+        "iine.atodekakuninshiyou."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "この ジャケット、かわいいじゃん。",
+      "answer": "kono jaketto,kawaiijan.",
+      "acceptAlternatives": [
+        "konojaketto,kawaiijan."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "でも サイズ、ちょっと おおきくない？",
+      "answer": "demo saizu,chotto ookikunai?",
+      "acceptAlternatives": [
+        "demosaizu,chottoookikunai?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "この シャツは いくらですか？",
+      "romaji": "kono shatsuha ikuradesuka?",
+      "en": "How much is this shirt?",
+      "speakText": "この シャツは いくらですか？",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Clothes & Prices",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "さんぜんえんです。",
+      "romaji": "sanzen'endesu.",
+      "en": "It is 3,000 yen.",
+      "speakText": "さんぜんえんです。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Clothes & Prices",
+      "speaker": "学生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "そうです。ありがとうございます。",
+      "romaji": "soudesu.arigatougozaimasu.",
+      "en": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Clothes & Prices",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "この くつ、どう？",
+      "romaji": "kono kutsu,dou?",
+      "en": "How are these shoes?",
+      "speakText": "この くつ、どう？",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Clothes & Prices",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いいけど、ちょっと たかいね。",
+      "romaji": "iikedo,chotto takaine.",
+      "en": "They are good, but a little expensive.",
+      "speakText": "いいけど、ちょっと たかいね。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Clothes & Prices",
+      "speaker": "たく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いいね。あとで かくにんしよう。",
+      "romaji": "iine.atode kakuninshiyou.",
+      "en": "Nice. Let us check later.",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Clothes & Prices",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "この ジャケット、かわいいじゃん。",
+      "romaji": "kono jaketto,kawaiijan.",
+      "en": "This jacket is cute.",
+      "speakText": "この ジャケット、かわいいじゃん。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Clothes & Prices",
+      "speaker": "りく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "でも サイズ、ちょっと おおきくない？",
+      "romaji": "demo saizu,chotto ookikunai?",
+      "en": "But isn’t the size a little big?",
+      "speakText": "でも サイズ、ちょっと おおきくない？",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Clothes & Prices",
+      "speaker": "まい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "まじか。いいじゃん。",
+      "romaji": "majika.iijan.",
+      "en": "Really? Nice.",
+      "speakText": "まじか。いいじゃん。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Clothes & Prices",
+      "speaker": "りく"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "この シャツは いくらですか？",
+          "right": "How much is this shirt?"
+        },
+        {
+          "left": "さんぜんえんです。",
+          "right": "It is 3,000 yen."
+        },
+        {
+          "left": "そうです。ありがとうございます。",
+          "right": "That is right. Thank you."
+        },
+        {
+          "left": "この くつ、どう？",
+          "right": "How are these shoes?"
+        },
+        {
+          "left": "いいけど、ちょっと たかいね。",
+          "right": "They are good, but a little expensive."
+        },
+        {
+          "left": "いいね。あとで かくにんしよう。",
+          "right": "Nice. Let us check later."
+        },
+        {
+          "left": "この ジャケット、かわいいじゃん。",
+          "right": "This jacket is cute."
+        },
+        {
+          "left": "でも サイズ、ちょっと おおきくない？",
+          "right": "But isn’t the size a little big?"
+        },
+        {
+          "left": "まじか。いいじゃん。",
+          "right": "Really? Nice."
+        },
+        {
+          "left": "いくらですか？",
+          "right": "How much is it?"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "この シャツは いくらですか？",
+          "romaji": "kono shatsuha ikuradesuka?",
+          "en": "How much is this shirt?"
+        },
+        {
+          "jp": "さんぜんえんです。",
+          "romaji": "sanzen'endesu.",
+          "en": "It is 3,000 yen.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "この くつ、どう？",
+          "romaji": "kono kutsu,dou?",
+          "en": "How are these shoes?"
+        },
+        {
+          "jp": "いいけど、ちょっと たかいね。",
+          "romaji": "iikedo,chotto takaine.",
+          "en": "They are good, but a little expensive.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "この ジャケット、かわいいじゃん。",
+          "romaji": "kono jaketto,kawaiijan.",
+          "en": "This jacket is cute."
+        },
+        {
+          "jp": "でも サイズ、ちょっと おおきくない？",
+          "romaji": "demo saizu,chotto ookikunai?",
+          "en": "But isn’t the size a little big?",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "いくらですか？",
+          "romaji": "ikuradesuka?",
+          "en": "How much is it?"
+        }
+      ]
+    }
+  ]
+}

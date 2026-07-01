@@ -1,0 +1,1318 @@
+{
+  "id": "dialogues-lesson-06",
+  "misconceptions": [
+    {
+      "target": "country-nationality-language",
+      "error": "Uses a country name when the prompt asks for a person or language.",
+      "mitigation": "Meaning checks and matching separate country, nationality, and language."
+    },
+    {
+      "target": "kara-kimashita",
+      "error": "Drops から来ました and gives only a country name in full-sentence contexts.",
+      "mitigation": "Formula-fill and response drills practice the complete origin frame."
+    },
+    {
+      "target": "nihon-vs-nihongo",
+      "error": "Confuses 日本, 日本人, and 日本語.",
+      "mitigation": "Comparison cards and MC items contrast place, person, and language forms."
+    },
+    {
+      "target": "formal-country-intro",
+      "error": "Uses casual origin phrases at conferences or with teachers.",
+      "mitigation": "Register variants and response options mark formal identity introductions."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Countries & Nationalities - Formal · Standard · Casual",
+      "intro": "Talking about country, nationality, and languages with safe N5 identity patterns.",
+      "rows": [
+        [
+          "Register",
+          "Japanese",
+          "Romaji",
+          "Typical Response",
+          "Context"
+        ],
+        [
+          "FORMAL",
+          "どちらの ご出身で いらっしゃいますか？",
+          "Dochira no go-shusshin de irasshaimasu ka?",
+          "オーストラリアから まいりました。Oosutoraria kara mairimashita.",
+          "Where are you from? — いらっしゃる is honorific; ご出身 is the polite form of 出身; まいる is humble for くる/いく"
+        ],
+        [
+          "FORMAL",
+          "おくにの ことばを おはなしに なりますか？",
+          "Okuni no kotoba wo ohanashi ni narimasu ka?",
+          "えいごを はなします。Eigo wo hanashimasu.",
+          "Do you speak your country's language? — おくに is the polite form of くに; おはなしになる is honorific for はなす"
+        ],
+        [
+          "FORMAL",
+          "にほんごを おべんきょうに なって いますか？",
+          "Nihongo wo obenkyou ni natte imasu ka?",
+          "はい、すこし べんきょうして おります。Hai, sukoshi benkyou shite orimasu.",
+          "Are you studying Japanese? — おべんきょうになる is honorific; おります is humble for います"
+        ],
+        [
+          "STANDARD",
+          "どこの くにから きましたか？",
+          "Doko no kuni kara kimashita ka?",
+          "[COUNTRY]から きました。[COUNTRY] kara kimashita.",
+          "Which country are you from? — の here means \"of\" (どこの くに = which country); から = from"
+        ],
+        [
+          "STANDARD",
+          "どの ことばを はなしますか？",
+          "Dono kotoba wo hanashimasu ka?",
+          "[LANGUAGE]語を はなします。[LANGUAGE]-go wo hanashimasu.",
+          "Which language do you speak? — ことば = language/word (colloquial); more formal: げんご"
+        ],
+        [
+          "STANDARD",
+          "[LANGUAGE]語が わかりますか？",
+          "[LANGUAGE]-go ga wakarimasu ka?",
+          "はい、すこし わかります。Hai, sukoshi wakarimasu.",
+          "Do you understand ~? — わかる uses が (not を): the language is the subject of understanding, not an object you act on"
+        ],
+        [
+          "STANDARD",
+          "にほんごを べんきょうして いますか？",
+          "Nihongo wo benkyou shite imasu ka?",
+          "はい、まだ べんきょうして います。Hai, mada benkyou shite imasu.",
+          "Are you studying Japanese? — まだ = \"still\"; べんきょうしています = te-iru expressing ongoing activity"
+        ],
+        [
+          "CASUAL",
+          "どこ出身？",
+          "Doko shusshin?",
+          "[COUNTRY]出身だよ。[COUNTRY] shusshin da yo.",
+          "Where are you from? — です dropped entirely; だよ adds casual assertion"
+        ],
+        [
+          "CASUAL",
+          "なに語 はなすの？",
+          "Nani-go hanasu no?",
+          "[LANG]と [LANG]、はなせるよ。[lang] to [lang], hanaseru yo.",
+          "What language(s) do you speak? — の at the end makes it a soft question; はなせる = casual potential form"
+        ],
+        [
+          "CASUAL",
+          "にほんご わかる？",
+          "Nihongo wakaru?",
+          "すこし わかるよ。Sukoshi wakaru yo.",
+          "Do you understand Japanese? — dictionary form (わかる) used as casual question; よ adds light assertion"
+        ]
+      ],
+      "takeaway": "Country, nationality, and language are related but different: ～から来ました, ～人, and ～語."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "A - FORMAL · International Academic Conference",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "エマ",
+          "jp": "はじめまして。わたくしは エマと もうします。オーストラリアの シドニーから まいりました。",
+          "romaji": "Hajimemashite. Watakushi wa Ema to moushimasu. Oosutoraria no Shidonii kara mairimashita.",
+          "en": "How do you do. My name is Emma. I have come from Sydney, Australia."
+        },
+        {
+          "speaker": "やまだ",
+          "jp": "おくにの ことばを おはなしに なりますか？",
+          "romaji": "Okuni no kotoba wo ohanashi ni narimasu ka?",
+          "en": "Do you speak your country's language?"
+        },
+        {
+          "speaker": "エマ",
+          "jp": "えいごを はなします。にほんごも すこし べんきょうして おります。",
+          "romaji": "Eigo wo hanashimasu. Nihongo mo sukoshi benkyou shite orimasu.",
+          "en": "I speak English. I'm also studying a little Japanese."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "B - STANDARD · Language School Introduction",
+      "register": "polite",
+      "lines": [
+        {
+          "speaker": "アレックス",
+          "jp": "はじめまして！アレックスです。ポーランドから きました。",
+          "romaji": "Hajimemashite! Arekkusu desu. Poorando kara kimashita.",
+          "en": "Nice to meet you! I'm Alex. I came from Poland."
+        },
+        {
+          "speaker": "みどり",
+          "jp": "そうですか！どの ことばを はなしますか？",
+          "romaji": "Sou desu ka! Dono kotoba wo hanashimasu ka?",
+          "en": "Oh really! Which language do you speak?"
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "ポーランド語と えいごを はなします。いま にほんごを べんきょうして います。",
+          "romaji": "Poorando-go to eigo wo hanashimasu. Ima nihongo wo benkyou shite imasu.",
+          "en": "I speak Polish and English. I'm studying Japanese now."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "C - CASUAL · Friends at a Language Meetup",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "ゆき",
+          "jp": "ルーカスって、どこ出身だっけ？",
+          "romaji": "Ruukasu tte, doko shusshin dakke?",
+          "en": "Hey Lukas, where are you from again?"
+        },
+        {
+          "speaker": "ルーカス",
+          "jp": "ブラジル出身だよ！ポルトガル語と えいごと すこし にほんごが はなせるよ。",
+          "romaji": "Burajiru shusshin da yo! Porutogaru-go to eigo to sukoshi nihongo ga hanaseru yo.",
+          "en": "I'm from Brazil! I can speak Portuguese, English, and a little Japanese."
+        },
+        {
+          "speaker": "ゆき",
+          "jp": "すごい！じゃあ いっしょに にほんご はなそうよ！",
+          "romaji": "Sugoi! Jaa issho ni nihongo hanasou yo!",
+          "en": "Wow! Then let's speak Japanese together!"
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase matches: \"Which country are you from?\"?",
+      "title": "Contrast 1: どこの くにから きましたか？",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "どこの くにから きましたか？",
+          "romaji": "Doko no kuni kara kimashita ka?",
+          "en": "Which country are you from?",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "[COUNTRY]から きました。",
+          "romaji": "[COUNTRY] kara kimashita.",
+          "en": "I came from [COUNTRY].",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "どの ことばを はなしますか？",
+          "romaji": "Dono kotoba wo hanashimasu ka?",
+          "en": "Which language do you speak?",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "どこの くにから きましたか？"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase matches: \"Which language do you speak?\"?",
+      "title": "Contrast 3: どの ことばを はなしますか？",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "どの ことばを はなしますか？",
+          "romaji": "Dono kotoba wo hanashimasu ka?",
+          "en": "Which language do you speak?",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "[LANGUAGE]語を はなします。",
+          "romaji": "[LANGUAGE]-go wo hanashimasu.",
+          "en": "I speak [LANGUAGE].",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "[LANGUAGE]語が わかります。",
+          "romaji": "[LANGUAGE]-go ga wakarimasu.",
+          "en": "I understand [LANGUAGE].",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "どの ことばを はなしますか？"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase matches: \"I understand [LANGUAGE].\"?",
+      "title": "Contrast 5: [LANGUAGE]語が わかります。",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "[LANGUAGE]語が わかります。",
+          "romaji": "[LANGUAGE]-go ga wakarimasu.",
+          "en": "I understand [LANGUAGE].",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "[COUNTRY]人です。",
+          "romaji": "[COUNTRY]-jin desu.",
+          "en": "I am [COUNTRY] (nationality).",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "にほんごが すこし はなせます。",
+          "romaji": "Nihongo ga sukoshi hanasemasu.",
+          "en": "I can speak a little Japanese.",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "[LANGUAGE]語が わかります。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase matches: \"I can speak a little Japanese.\"?",
+      "title": "Contrast 7: にほんごが すこし はなせます。",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "にほんごが すこし はなせます。",
+          "romaji": "Nihongo ga sukoshi hanasemasu.",
+          "en": "I can speak a little Japanese.",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "にほんごを べんきょうして います。",
+          "romaji": "Nihongo wo benkyou shite imasu.",
+          "en": "I'm studying Japanese.",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "どこ出身？",
+          "romaji": "Doko shusshin?",
+          "en": "Where are you from? (casual)",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "にほんごが すこし はなせます。"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the key phrase from the source lesson:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "どこの くにから きましたか",
+        "answerRomaji": "doko no kuni kara kimashita ka",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "doko no kuni kara kimashita ka"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "どこの くにから きましたか？",
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the whole source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "ポーランドから きました",
+        "answerRomaji": "poorando kara kimashita",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "po-rando kara kimashita",
+          "poorando kara kimashita"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "ポーランドから きました。",
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the whole source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "えいごを はなします",
+        "answerRomaji": "eigo wo hanashimasu",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "eigo o hanashimasu",
+          "eigo wo hanashimasu"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "えいごを はなします。",
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "どこの くにから きましたか？",
+          "romaji": "Doko no kuni kara kimashita ka?",
+          "en": "Which country are you from?"
+        },
+        {
+          "jp": "[COUNTRY]から きました。",
+          "romaji": "[COUNTRY] kara kimashita.",
+          "en": "I came from [COUNTRY]."
+        },
+        {
+          "jp": "どの ことばを はなしますか？",
+          "romaji": "Dono kotoba wo hanashimasu ka?",
+          "en": "Which language do you speak?"
+        },
+        {
+          "jp": "[LANGUAGE]語を はなします。",
+          "romaji": "[LANGUAGE]-go wo hanashimasu.",
+          "en": "I speak [LANGUAGE]."
+        },
+        {
+          "jp": "[LANGUAGE]語が わかります。",
+          "romaji": "[LANGUAGE]-go ga wakarimasu.",
+          "en": "I understand [LANGUAGE]."
+        },
+        {
+          "jp": "[COUNTRY]人です。",
+          "romaji": "[COUNTRY]-jin desu.",
+          "en": "I am [COUNTRY] (nationality)."
+        },
+        {
+          "jp": "にほんごが すこし はなせます。",
+          "romaji": "Nihongo ga sukoshi hanasemasu.",
+          "en": "I can speak a little Japanese."
+        },
+        {
+          "jp": "にほんごを べんきょうして います。",
+          "romaji": "Nihongo wo benkyou shite imasu.",
+          "en": "I'm studying Japanese."
+        },
+        {
+          "jp": "どこ出身？",
+          "romaji": "Doko shusshin?",
+          "en": "Where are you from? (casual)"
+        },
+        {
+          "jp": "すこし わかります。",
+          "romaji": "Sukoshi wakarimasu.",
+          "en": "I understand a little."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ポーランドから きました。",
+      "options": [
+        {
+          "text": "I came from Poland.",
+          "correct": true
+        },
+        {
+          "text": "I live in Poland.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I like Poland.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I am Polish.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "えいごを はなします。",
+      "options": [
+        {
+          "text": "I study English.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I speak English.",
+          "correct": true
+        },
+        {
+          "text": "I don't speak English.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I like English.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "かんこく人です。",
+      "options": [
+        {
+          "text": "I am Chinese.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I am Japanese.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I am Korean.",
+          "correct": true
+        },
+        {
+          "text": "I am Thai.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "にほんごが すこし わかります。",
+      "options": [
+        {
+          "text": "I don't understand Japanese.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I am learning Japanese.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I love Japanese.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I understand a little Japanese.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "どの ことばを はなしますか？",
+      "options": [
+        {
+          "text": "Where are you from?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Do you speak Japanese?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Which language do you speak?",
+          "correct": true
+        },
+        {
+          "text": "What is your name?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "フランスから まいりました。",
+      "options": [
+        {
+          "text": "I live in France.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I came from France. (casual)",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I am French.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I came from France. (formal)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "にほんごを べんきょうして います。",
+      "options": [
+        {
+          "text": "I can speak Japanese.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I finished studying Japanese.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I'm studying Japanese.",
+          "correct": true
+        },
+        {
+          "text": "I like Japanese.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ブラジル出身だよ。",
+      "options": [
+        {
+          "text": "I'm going to Brazil.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I'm from Brazil. (formal)",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I live in Brazil.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I'm from Brazil. (casual)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "どこの くにから きましたか？",
+        "romaji": "Doko no kuni kara kimashita ka?",
+        "speakText": "どこの くにから きましたか？"
+      },
+      "options": [
+        {
+          "jp": "ポーランドから きました。",
+          "romaji": "Poorando kara kimashita.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "えいごを はなします。",
+          "romaji": "Eigo wo hanashimasu.",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This is a familiar earlier phrase, but it does not answer this prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "にじゅうさんさいです。",
+          "romaji": "Nijuusan-sai desu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "どの ことばを はなしますか？",
+        "romaji": "Dono kotoba wo hanashimasu ka?",
+        "speakText": "どの ことばを はなしますか？"
+      },
+      "options": [
+        {
+          "jp": "オーストラリアです。",
+          "romaji": "Oosutoraria desu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption0",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "ポーランド語と えいごを はなします。",
+          "romaji": "Poorando-go to eigo wo hanashimasu.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いま べんきょうして います。",
+          "romaji": "Ima benkyou shite imasu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "にほんごが わかりますか？",
+        "romaji": "Nihongo ga wakarimasu ka?",
+        "speakText": "にほんごが わかりますか？"
+      },
+      "options": [
+        {
+          "jp": "かんこく人です。",
+          "romaji": "Kankokujin desu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption0",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "フランスから きました。",
+          "romaji": "Furansu kara kimashita.",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This is a familiar earlier phrase, but it does not answer this prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はい、すこし わかります。",
+          "romaji": "Hai, sukoshi wakarimasu.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "どこ出身？",
+        "romaji": "Doko shusshin?",
+        "speakText": "どこ出身？"
+      },
+      "options": [
+        {
+          "jp": "ブラジル出身だよ。",
+          "romaji": "Burajiru shusshin da yo.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "friends",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "にほんごを はなすよ。",
+          "romaji": "Nihongo wo hanasu yo.",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This is a familiar earlier phrase, but it does not answer this prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いま とうきょうに すんでる。",
+          "romaji": "Ima Toukyou ni sunden.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Review from dialogues-lesson-04: choose the best response:",
+      "reviewFrom": "dialogues-lesson-04",
+      "question": {
+        "jp": "あるいて どのくらい かかりますか？",
+        "romaji": "Aruite dono kurai kakarimasu ka?",
+        "speakText": "あるいて どのくらい かかりますか？"
+      },
+      "options": [
+        {
+          "jp": "あるいて ５ふんです。",
+          "romaji": "Aruite go-fun desu.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はじめまして、よろしく！",
+          "romaji": "Hajimemashite, yoroshiku!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor0",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "おはようございます！",
+          "romaji": "Ohayou gozaimasu!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor1",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "formal",
+          "relationship": "junior-to-senior",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Review from dialogues-lesson-05: choose the best response:",
+      "reviewFrom": "dialogues-lesson-05",
+      "question": {
+        "jp": "しごとは なんですか？",
+        "romaji": "Shigoto wa nan desu ka?",
+        "speakText": "しごとは なんですか？"
+      },
+      "options": [
+        {
+          "jp": "エンジニアです。",
+          "romaji": "Enjinia desu.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はじめまして、よろしく！",
+          "romaji": "Hajimemashite, yoroshiku!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor0",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "おはようございます！",
+          "romaji": "Ohayou gozaimasu!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor1",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "formal",
+          "relationship": "junior-to-senior",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "どこの くにから きましたか？",
+      "answer": "doko no kuni kara kimashita ka",
+      "acceptAlternatives": [],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "ポーランドから きました。",
+      "answer": "poorando kara kimashita",
+      "acceptAlternatives": [
+        "po-rando kara kimashita"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "えいごを はなします。",
+      "answer": "eigo wo hanashimasu",
+      "acceptAlternatives": [
+        "eigo o hanashimasu"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "にほんごが すこし わかります。",
+      "answer": "nihongo ga sukoshi wakarimasu",
+      "acceptAlternatives": [],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "かんこく人です。",
+      "answer": "kankokujin desu",
+      "acceptAlternatives": [],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "にほんごを べんきょうして います。",
+      "answer": "nihongo wo benkyou shite imasu",
+      "acceptAlternatives": [
+        "nihongo o benkyou shite imasu",
+        "nihongo wo benkyoushite imasu"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "フランスから まいりました。",
+      "answer": "furansu kara mairimashita",
+      "acceptAlternatives": [],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "どの ことばを はなしますか？",
+      "answer": "dono kotoba wo hanashimasu ka",
+      "acceptAlternatives": [
+        "dono kotoba o hanashimasu ka"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "はじめまして。わたくしは エマと もうします。オーストラリアの シドニーから まいりました。",
+      "romaji": "Hajimemashite. Watakushi wa Ema to moushimasu. Oosutoraria no Shidonii kara mairimashita.",
+      "en": "How do you do. My name is Emma. I have come from Sydney, Australia.",
+      "speakText": "はじめまして。わたくしは エマと もうします。オーストラリアの シドニーから まいりました。",
+      "register": "formal",
+      "dialogueContext": "A - Formal · International Academic Conference",
+      "speaker": "エマ"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "おくにの ことばを おはなしに なりますか？",
+      "romaji": "Okuni no kotoba wo ohanashi ni narimasu ka?",
+      "en": "Do you speak your country's language?",
+      "speakText": "おくにの ことばを おはなしに なりますか？",
+      "register": "formal",
+      "dialogueContext": "A - Formal · International Academic Conference",
+      "speaker": "やまだ"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "えいごを はなします。にほんごも すこし べんきょうして おります。",
+      "romaji": "Eigo wo hanashimasu. Nihongo mo sukoshi benkyou shite orimasu.",
+      "en": "I speak English. I'm also studying a little Japanese.",
+      "speakText": "えいごを はなします。にほんごも すこし べんきょうして おります。",
+      "register": "formal",
+      "dialogueContext": "A - Formal · International Academic Conference",
+      "speaker": "エマ"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "はじめまして！アレックスです。ポーランドから きました。",
+      "romaji": "Hajimemashite! Arekkusu desu. Poorando kara kimashita.",
+      "en": "Nice to meet you! I'm Alex. I came from Poland.",
+      "speakText": "はじめまして！アレックスです。ポーランドから きました。",
+      "register": "polite",
+      "dialogueContext": "B - Standard · Language School Introduction",
+      "speaker": "アレックス"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "そうですか！どの ことばを はなしますか？",
+      "romaji": "Sou desu ka! Dono kotoba wo hanashimasu ka?",
+      "en": "Oh really! Which language do you speak?",
+      "speakText": "そうですか！どの ことばを はなしますか？",
+      "register": "polite",
+      "dialogueContext": "B - Standard · Language School Introduction",
+      "speaker": "みどり"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ポーランド語と えいごを はなします。いま にほんごを べんきょうして います。",
+      "romaji": "Poorando-go to eigo wo hanashimasu. Ima nihongo wo benkyou shite imasu.",
+      "en": "I speak Polish and English. I'm studying Japanese now.",
+      "speakText": "ポーランド語と えいごを はなします。いま にほんごを べんきょうして います。",
+      "register": "polite",
+      "dialogueContext": "B - Standard · Language School Introduction",
+      "speaker": "アレックス"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ルーカスって、どこ出身だっけ？",
+      "romaji": "Ruukasu tte, doko shusshin dakke?",
+      "en": "Hey Lukas, where are you from again?",
+      "speakText": "ルーカスって、どこ出身だっけ？",
+      "register": "casual",
+      "dialogueContext": "C - Casual · Friends at a Language Meetup",
+      "speaker": "ゆき"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ブラジル出身だよ！ポルトガル語と えいごと すこし にほんごが はなせるよ。",
+      "romaji": "Burajiru shusshin da yo! Porutogaru-go to eigo to sukoshi nihongo ga hanaseru yo.",
+      "en": "I'm from Brazil! I can speak Portuguese, English, and a little Japanese.",
+      "speakText": "ブラジル出身だよ！ポルトガル語と えいごと すこし にほんごが はなせるよ。",
+      "register": "casual",
+      "dialogueContext": "C - Casual · Friends at a Language Meetup",
+      "speaker": "ルーカス"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "すごい！じゃあ いっしょに にほんご はなそうよ！",
+      "romaji": "Sugoi! Jaa issho ni nihongo hanasou yo!",
+      "en": "Wow! Then let's speak Japanese together!",
+      "speakText": "すごい！じゃあ いっしょに にほんご はなそうよ！",
+      "register": "casual",
+      "dialogueContext": "C - Casual · Friends at a Language Meetup",
+      "speaker": "ゆき"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "どこの くにから きましたか？",
+          "right": "Which country are you from?"
+        },
+        {
+          "left": "[COUNTRY]から きました。",
+          "right": "I came from [COUNTRY]."
+        },
+        {
+          "left": "どの ことばを はなしますか？",
+          "right": "Which language do you speak?"
+        },
+        {
+          "left": "[LANGUAGE]語を はなします。",
+          "right": "I speak [LANGUAGE]."
+        },
+        {
+          "left": "[LANGUAGE]語が わかります。",
+          "right": "I understand [LANGUAGE]."
+        },
+        {
+          "left": "[COUNTRY]人です。",
+          "right": "I am [COUNTRY] (nationality)."
+        },
+        {
+          "left": "手伝ってください",
+          "right": "Please help me",
+          "reviewFrom": "dialogues-lesson-02"
+        },
+        {
+          "left": "みぎに まがってください。",
+          "right": "Please turn right.",
+          "reviewFrom": "dialogues-lesson-04"
+        },
+        {
+          "left": "はじめまして",
+          "right": "Nice to meet you (first meeting)",
+          "reviewFrom": "dialogues-lesson-01"
+        },
+        {
+          "left": "わかりません",
+          "right": "I don't understand",
+          "reviewFrom": "dialogues-lesson-03"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "はじめまして。わたくしは エマと もうします。オーストラリアの シドニーから まいりました。",
+          "romaji": "Hajimemashite. Watakushi wa Ema to moushimasu. Oosutoraria no Shidonii kara mairimashita.",
+          "en": "How do you do. My name is Emma. I have come from Sydney, Australia."
+        },
+        {
+          "jp": "おくにの ことばを おはなしに なりますか？",
+          "romaji": "Okuni no kotoba wo ohanashi ni narimasu ka?",
+          "en": "Do you speak your country's language?",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "A - Formal · International Academic Conference; register is formal."
+          }
+        },
+        {
+          "jp": "えいごを はなします。にほんごも すこし べんきょうして おります。",
+          "romaji": "Eigo wo hanashimasu. Nihongo mo sukoshi benkyou shite orimasu.",
+          "en": "I speak English. I'm also studying a little Japanese."
+        },
+        {
+          "jp": "はじめまして！アレックスです。ポーランドから きました。",
+          "romaji": "Hajimemashite! Arekkusu desu. Poorando kara kimashita.",
+          "en": "Nice to meet you! I'm Alex. I came from Poland."
+        },
+        {
+          "jp": "そうですか！どの ことばを はなしますか？",
+          "romaji": "Sou desu ka! Dono kotoba wo hanashimasu ka?",
+          "en": "Oh really! Which language do you speak?",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "B - Standard · Language School Introduction; register is polite."
+          }
+        },
+        {
+          "jp": "ポーランド語と えいごを はなします。いま にほんごを べんきょうして います。",
+          "romaji": "Poorando-go to eigo wo hanashimasu. Ima nihongo wo benkyou shite imasu.",
+          "en": "I speak Polish and English. I'm studying Japanese now."
+        },
+        {
+          "jp": "ルーカスって、どこ出身だっけ？",
+          "romaji": "Ruukasu tte, doko shusshin dakke?",
+          "en": "Hey Lukas, where are you from again?"
+        },
+        {
+          "jp": "ブラジル出身だよ！ポルトガル語と えいごと すこし にほんごが はなせるよ。",
+          "romaji": "Burajiru shusshin da yo! Porutogaru-go to eigo to sukoshi nihongo ga hanaseru yo.",
+          "en": "I'm from Brazil! I can speak Portuguese, English, and a little Japanese.",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "C - Casual · Friends at a Language Meetup; register is casual."
+          }
+        },
+        {
+          "jp": "すごい！じゃあ いっしょに にほんご はなそうよ！",
+          "romaji": "Sugoi! Jaa issho ni nihongo hanasou yo!",
+          "en": "Wow! Then let's speak Japanese together!"
+        },
+        {
+          "jp": "どこの くにから きましたか？",
+          "romaji": "Doko no kuni kara kimashita ka?",
+          "en": "Which country are you from?"
+        }
+      ]
+    }
+  ]
+}

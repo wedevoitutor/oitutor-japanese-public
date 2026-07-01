@@ -1,0 +1,1289 @@
+{
+  "id": "dialogues-lesson-23",
+  "misconceptions": [
+    {
+      "target": "school-subjects-single-word-answer",
+      "error": "Answers with isolated vocabulary instead of a complete conversational turn.",
+      "mitigation": "Reference rows and response-selection drills keep prompts and natural replies together."
+    },
+    {
+      "target": "school-subjects-register-mismatch",
+      "error": "Uses casual language with teachers, staff, or strangers.",
+      "mitigation": "Formal, casual, and slang scenes are separated and labeled."
+    },
+    {
+      "target": "school-subjects-listening-drift",
+      "error": "Chooses a familiar phrase that does not match the audio.",
+      "mitigation": "Listening MC and type-the-answer reuse the exact dialogue speakText."
+    },
+    {
+      "target": "school-subjects-particle-confusion",
+      "error": "Confuses は, へ, or を in written Japanese source phrases.",
+      "mitigation": "Formula-fill keeps the Japanese particles visible and accepts romaji as support."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "School Subjects - Formal · Casual · Slang",
+      "intro": "Practice school subjects as prompt-and-response dialogue, not as loose vocabulary.",
+      "rows": [
+        [
+          "Register",
+          "Japanese",
+          "Romaji",
+          "Typical Response",
+          "Context"
+        ],
+        [
+          "FORMAL",
+          "どの きょうかが すきですか？",
+          "dono kyoukaga sukidesuka?",
+          "えいごが すきです。すうがくは すこし むずかしいです。",
+          "I like English. Math is a little difficult."
+        ],
+        [
+          "FORMAL",
+          "えいごが すきです。すうがくは すこし むずかしいです。",
+          "eigoga sukidesu.suugakuha sukoshi muzukashiidesu.",
+          "そうです。ありがとうございます。",
+          "That is right. Thank you."
+        ],
+        [
+          "CASUAL",
+          "きょうの しゅくだい、なに？",
+          "kyouno shukudai,nani?",
+          "れきしの レポートだよ。",
+          "It is a history report."
+        ],
+        [
+          "CASUAL",
+          "れきしの レポートだよ。",
+          "rekishino repootodayo.",
+          "いいね。あとで かくにんしよう。",
+          "Nice. Let us check later."
+        ],
+        [
+          "SLANG",
+          "あした、なんの テスト？",
+          "ashita,nanno tesuto?",
+          "りか。まじで べんきょうしないと。",
+          "Science. I seriously have to study."
+        ],
+        [
+          "SLANG",
+          "りか。まじで べんきょうしないと。",
+          "rika.majide benkyoushinaito.",
+          "まじか。いいじゃん。",
+          "Really? Nice."
+        ]
+      ],
+      "takeaway": "First choose the right meaning, then choose the right relationship tone."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "A - FORMAL · School Subjects",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "先生",
+          "jp": "どの きょうかが すきですか？",
+          "romaji": "dono kyoukaga sukidesuka?",
+          "en": "Which school subject do you like?"
+        },
+        {
+          "speaker": "学生",
+          "jp": "えいごが すきです。すうがくは すこし むずかしいです。",
+          "romaji": "eigoga sukidesu.suugakuha sukoshi muzukashiidesu.",
+          "en": "I like English. Math is a little difficult."
+        },
+        {
+          "speaker": "先生",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "B - CASUAL · School Subjects",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "ゆい",
+          "jp": "きょうの しゅくだい、なに？",
+          "romaji": "kyouno shukudai,nani?",
+          "en": "What is today’s homework?"
+        },
+        {
+          "speaker": "たく",
+          "jp": "れきしの レポートだよ。",
+          "romaji": "rekishino repootodayo.",
+          "en": "It is a history report."
+        },
+        {
+          "speaker": "ゆい",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "C - SLANG · School Subjects",
+      "register": "slang",
+      "lines": [
+        {
+          "speaker": "りく",
+          "jp": "あした、なんの テスト？",
+          "romaji": "ashita,nanno tesuto?",
+          "en": "What test is tomorrow?"
+        },
+        {
+          "speaker": "まい",
+          "jp": "りか。まじで べんきょうしないと。",
+          "romaji": "rika.majide benkyoushinaito.",
+          "en": "Science. I seriously have to study."
+        },
+        {
+          "speaker": "りく",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 1: どの きょうかが すきですか？",
+      "prompt": "Which source phrase means: “Which school subject do you like?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "どの きょうかが すきですか？",
+          "romaji": "dono kyoukaga sukidesuka?",
+          "en": "Which school subject do you like?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "どの きょうかが すきですか？"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 2: えいごが すきです。すうがくは すこし むずかしいです。",
+      "prompt": "Which source phrase means: “I like English. Math is a little difficult.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "えいごが すきです。すうがくは すこし むずかしいです。",
+          "romaji": "eigoga sukidesu.suugakuha sukoshi muzukashiidesu.",
+          "en": "I like English. Math is a little difficult.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "あした、なんの テスト？",
+          "romaji": "ashita,nanno tesuto?",
+          "en": "What test is tomorrow?",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "えいご",
+          "romaji": "eigo",
+          "en": "English",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "えいごが すきです。すうがくは すこし むずかしいです。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 3: そうです。ありがとうございます。",
+      "prompt": "Which source phrase means: “That is right. Thank you.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "りか。まじで べんきょうしないと。",
+          "romaji": "rika.majide benkyoushinaito.",
+          "en": "Science. I seriously have to study.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "すうがく",
+          "romaji": "suugaku",
+          "en": "math",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "そうです。ありがとうございます。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 4: きょうの しゅくだい、なに？",
+      "prompt": "Which source phrase means: “What is today’s homework?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "きょうの しゅくだい、なに？",
+          "romaji": "kyouno shukudai,nani?",
+          "en": "What is today’s homework?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "れきし",
+          "romaji": "rekishi",
+          "en": "history",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "きょうの しゅくだい、なに？"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "どの きょうかが すきですか",
+        "answerRomaji": "dono kyoukaga sukidesuka?",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "donokyoukagasukidesuka?"
+        ]
+      },
+      "translation": "Which school subject do you like?",
+      "speakText": "どの きょうかが すきですか？",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "えいごが すきです。すうがくは すこし むずかしいです",
+        "answerRomaji": "eigoga sukidesu.suugakuha sukoshi muzukashiidesu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "eigogasukidesu.suugakuhasukoshimuzukashiidesu."
+        ]
+      },
+      "translation": "I like English. Math is a little difficult.",
+      "speakText": "えいごが すきです。すうがくは すこし むずかしいです。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "そうです。ありがとうございます",
+        "answerRomaji": "soudesu.arigatougozaimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "soudesu.arigatougozaimasu."
+        ]
+      },
+      "translation": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "どの きょうかが すきですか？",
+          "romaji": "dono kyoukaga sukidesuka?",
+          "en": "Which school subject do you like?"
+        },
+        {
+          "jp": "えいごが すきです。すうがくは すこし むずかしいです。",
+          "romaji": "eigoga sukidesu.suugakuha sukoshi muzukashiidesu.",
+          "en": "I like English. Math is a little difficult."
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "きょうの しゅくだい、なに？",
+          "romaji": "kyouno shukudai,nani?",
+          "en": "What is today’s homework?"
+        },
+        {
+          "jp": "れきしの レポートだよ。",
+          "romaji": "rekishino repootodayo.",
+          "en": "It is a history report."
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "あした、なんの テスト？",
+          "romaji": "ashita,nanno tesuto?",
+          "en": "What test is tomorrow?"
+        },
+        {
+          "jp": "りか。まじで べんきょうしないと。",
+          "romaji": "rika.majide benkyoushinaito.",
+          "en": "Science. I seriously have to study."
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "えいご",
+          "romaji": "eigo",
+          "en": "English"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "どの きょうかが すきですか？",
+      "options": [
+        {
+          "text": "Which school subject do you like?",
+          "correct": true
+        },
+        {
+          "text": "What is today’s homework?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "What test is tomorrow?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "English",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "えいごが すきです。すうがくは すこし むずかしいです。",
+      "options": [
+        {
+          "text": "I like English. Math is a little difficult.",
+          "correct": true
+        },
+        {
+          "text": "It is a history report.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Science. I seriously have to study.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "math",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "そうです。ありがとうございます。",
+      "options": [
+        {
+          "text": "That is right. Thank you.",
+          "correct": true
+        },
+        {
+          "text": "Nice. Let us check later.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "history",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "きょうの しゅくだい、なに？",
+      "options": [
+        {
+          "text": "What is today’s homework?",
+          "correct": true
+        },
+        {
+          "text": "What test is tomorrow?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "English",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "science",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "れきしの レポートだよ。",
+      "options": [
+        {
+          "text": "It is a history report.",
+          "correct": true
+        },
+        {
+          "text": "Science. I seriously have to study.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "math",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "art",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "options": [
+        {
+          "text": "Nice. Let us check later.",
+          "correct": true
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "history",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "music",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "あした、なんの テスト？",
+      "options": [
+        {
+          "text": "What test is tomorrow?",
+          "correct": true
+        },
+        {
+          "text": "English",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "science",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "Which school subject do you like?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "りか。まじで べんきょうしないと。",
+      "options": [
+        {
+          "text": "Science. I seriously have to study.",
+          "correct": true
+        },
+        {
+          "text": "math",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "art",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "I like English. Math is a little difficult.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "どの きょうかが すきですか？",
+        "romaji": "dono kyoukaga sukidesuka?",
+        "speakText": "どの きょうかが すきですか？"
+      },
+      "options": [
+        {
+          "jp": "えいごが すきです。すうがくは すこし むずかしいです。",
+          "romaji": "eigoga sukidesu.suugakuha sukoshi muzukashiidesu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "れきしの レポートだよ。",
+          "romaji": "rekishino repootodayo.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "りか。まじで べんきょうしないと。",
+          "romaji": "rika.majide benkyoushinaito.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "えいごが すきです。すうがくは すこし むずかしいです。",
+        "romaji": "eigoga sukidesu.suugakuha sukoshi muzukashiidesu.",
+        "speakText": "えいごが すきです。すうがくは すこし むずかしいです。"
+      },
+      "options": [
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "きょうの しゅくだい、なに？",
+        "romaji": "kyouno shukudai,nani?",
+        "speakText": "きょうの しゅくだい、なに？"
+      },
+      "options": [
+        {
+          "jp": "れきしの レポートだよ。",
+          "romaji": "rekishino repootodayo.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "あした、なんの テスト？",
+          "romaji": "ashita,nanno tesuto?",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "えいご",
+          "romaji": "eigo",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "れきしの レポートだよ。",
+        "romaji": "rekishino repootodayo.",
+        "speakText": "れきしの レポートだよ。"
+      },
+      "options": [
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "りか。まじで べんきょうしないと。",
+          "romaji": "rika.majide benkyoushinaito.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "すうがく",
+          "romaji": "suugaku",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "あした、なんの テスト？",
+        "romaji": "ashita,nanno tesuto?",
+        "speakText": "あした、なんの テスト？"
+      },
+      "options": [
+        {
+          "jp": "りか。まじで べんきょうしないと。",
+          "romaji": "rika.majide benkyoushinaito.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "れきし",
+          "romaji": "rekishi",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "りか。まじで べんきょうしないと。",
+        "romaji": "rika.majide benkyoushinaito.",
+        "speakText": "りか。まじで べんきょうしないと。"
+      },
+      "options": [
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "えいご",
+          "romaji": "eigo",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "りか",
+          "romaji": "rika",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "どの きょうかが すきですか？",
+      "answer": "dono kyoukaga sukidesuka?",
+      "acceptAlternatives": [
+        "donokyoukagasukidesuka?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "えいごが すきです。すうがくは すこし むずかしいです。",
+      "answer": "eigoga sukidesu.suugakuha sukoshi muzukashiidesu.",
+      "acceptAlternatives": [
+        "eigogasukidesu.suugakuhasukoshimuzukashiidesu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "そうです。ありがとうございます。",
+      "answer": "soudesu.arigatougozaimasu.",
+      "acceptAlternatives": [
+        "soudesu.arigatougozaimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "きょうの しゅくだい、なに？",
+      "answer": "kyouno shukudai,nani?",
+      "acceptAlternatives": [
+        "kyounoshukudai,nani?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "れきしの レポートだよ。",
+      "answer": "rekishino repootodayo.",
+      "acceptAlternatives": [
+        "rekishinorepootodayo."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "answer": "iine.atode kakuninshiyou.",
+      "acceptAlternatives": [
+        "iine.atodekakuninshiyou."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "あした、なんの テスト？",
+      "answer": "ashita,nanno tesuto?",
+      "acceptAlternatives": [
+        "ashita,nannotesuto?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "りか。まじで べんきょうしないと。",
+      "answer": "rika.majide benkyoushinaito.",
+      "acceptAlternatives": [
+        "rika.majidebenkyoushinaito."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "どの きょうかが すきですか？",
+      "romaji": "dono kyoukaga sukidesuka?",
+      "en": "Which school subject do you like?",
+      "speakText": "どの きょうかが すきですか？",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · School Subjects",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "えいごが すきです。すうがくは すこし むずかしいです。",
+      "romaji": "eigoga sukidesu.suugakuha sukoshi muzukashiidesu.",
+      "en": "I like English. Math is a little difficult.",
+      "speakText": "えいごが すきです。すうがくは すこし むずかしいです。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · School Subjects",
+      "speaker": "学生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "そうです。ありがとうございます。",
+      "romaji": "soudesu.arigatougozaimasu.",
+      "en": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · School Subjects",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "きょうの しゅくだい、なに？",
+      "romaji": "kyouno shukudai,nani?",
+      "en": "What is today’s homework?",
+      "speakText": "きょうの しゅくだい、なに？",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · School Subjects",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "れきしの レポートだよ。",
+      "romaji": "rekishino repootodayo.",
+      "en": "It is a history report.",
+      "speakText": "れきしの レポートだよ。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · School Subjects",
+      "speaker": "たく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いいね。あとで かくにんしよう。",
+      "romaji": "iine.atode kakuninshiyou.",
+      "en": "Nice. Let us check later.",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · School Subjects",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "あした、なんの テスト？",
+      "romaji": "ashita,nanno tesuto?",
+      "en": "What test is tomorrow?",
+      "speakText": "あした、なんの テスト？",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · School Subjects",
+      "speaker": "りく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "りか。まじで べんきょうしないと。",
+      "romaji": "rika.majide benkyoushinaito.",
+      "en": "Science. I seriously have to study.",
+      "speakText": "りか。まじで べんきょうしないと。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · School Subjects",
+      "speaker": "まい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "まじか。いいじゃん。",
+      "romaji": "majika.iijan.",
+      "en": "Really? Nice.",
+      "speakText": "まじか。いいじゃん。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · School Subjects",
+      "speaker": "りく"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "どの きょうかが すきですか？",
+          "right": "Which school subject do you like?"
+        },
+        {
+          "left": "えいごが すきです。すうがくは すこし むずかしいです。",
+          "right": "I like English. Math is a little difficult."
+        },
+        {
+          "left": "そうです。ありがとうございます。",
+          "right": "That is right. Thank you."
+        },
+        {
+          "left": "きょうの しゅくだい、なに？",
+          "right": "What is today’s homework?"
+        },
+        {
+          "left": "れきしの レポートだよ。",
+          "right": "It is a history report."
+        },
+        {
+          "left": "いいね。あとで かくにんしよう。",
+          "right": "Nice. Let us check later."
+        },
+        {
+          "left": "あした、なんの テスト？",
+          "right": "What test is tomorrow?"
+        },
+        {
+          "left": "りか。まじで べんきょうしないと。",
+          "right": "Science. I seriously have to study."
+        },
+        {
+          "left": "まじか。いいじゃん。",
+          "right": "Really? Nice."
+        },
+        {
+          "left": "えいご",
+          "right": "English"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "どの きょうかが すきですか？",
+          "romaji": "dono kyoukaga sukidesuka?",
+          "en": "Which school subject do you like?"
+        },
+        {
+          "jp": "えいごが すきです。すうがくは すこし むずかしいです。",
+          "romaji": "eigoga sukidesu.suugakuha sukoshi muzukashiidesu.",
+          "en": "I like English. Math is a little difficult.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "きょうの しゅくだい、なに？",
+          "romaji": "kyouno shukudai,nani?",
+          "en": "What is today’s homework?"
+        },
+        {
+          "jp": "れきしの レポートだよ。",
+          "romaji": "rekishino repootodayo.",
+          "en": "It is a history report.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "あした、なんの テスト？",
+          "romaji": "ashita,nanno tesuto?",
+          "en": "What test is tomorrow?"
+        },
+        {
+          "jp": "りか。まじで べんきょうしないと。",
+          "romaji": "rika.majide benkyoushinaito.",
+          "en": "Science. I seriously have to study.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "えいご",
+          "romaji": "eigo",
+          "en": "English"
+        }
+      ]
+    }
+  ]
+}

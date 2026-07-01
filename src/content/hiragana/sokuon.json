@@ -1,0 +1,120 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "The Small っ (Sokuon) — Rule",
+      "rows": [
+        ["Sokuon = small っ", "Doubles the consonant that follows"],
+        ["き + って", "→ きって (kitte) — stamp"],
+        ["ま + って", "→ まって (matte) — wait!"],
+        ["き + っぷ", "→ きっぷ (kippu) — ticket"],
+        ["Before し the doubled sound is written ssh (e.g. ざっし → zasshi).", ""]
+      ]
+    },
+
+    {
+      "type": "reference-chart",
+      "title": "Single vs Double Consonant",
+      "rows": [
+        ["きて (kite)", "come (te-form)"],
+        ["きって (kitte)", "stamp"],
+        ["まて (mate)", "wait (plain)"],
+        ["まって (matte)", "wait! (te-form)"],
+        ["Listen for the tiny pause before the doubled consonant.", ""]
+      ]
+    },
+
+    {
+      "type": "listening",
+      "speakText": "きって",
+      "prompt": "Which word did you hear?",
+      "options": ["きて", "きって", "きつて", "いって"],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "まって",
+      "prompt": "Which word did you hear?",
+      "options": ["まて", "まって", "まつて", "かって"],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "いっぱい",
+      "prompt": "Which word did you hear?",
+      "options": ["いぱい", "いっぱい", "いつぱい", "いっぱん"],
+      "correctIndex": 1
+    },
+
+    {
+      "type": "type-the-answer",
+      "prompt": "きって",
+      "answer": "kitte"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "まって",
+      "answer": "matte"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ざっし",
+      "answer": "zasshi"
+    },
+
+    {
+      "type": "matching",
+      "pairs": [
+        ["きって", "stamp"],
+        ["きっぷ", "ticket"],
+        ["まって", "wait!"],
+        ["いっぱい", "a lot / full"],
+        ["ざっし", "magazine"]
+      ]
+    },
+
+    {
+      "type": "hiragana-build",
+      "hint": "stamp",
+      "answer": ["き", "っ", "て"],
+      "bank": ["き", "っ", "て", "つ", "ち", "し"],
+      "speakText": "きって"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "wait!",
+      "answer": ["ま", "っ", "て"],
+      "bank": ["ま", "っ", "て", "つ", "な", "も"],
+      "speakText": "まって"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "ticket",
+      "answer": ["き", "っ", "ぷ"],
+      "bank": ["き", "っ", "ぷ", "つ", "ふ", "ぶ"],
+      "speakText": "きっぷ"
+    },
+
+    {
+      "type": "multiple-choice",
+      "prompt": "Which is the correct spelling of 'kitte' (stamp)?",
+      "options": ["きつて", "きって", "きつで", "きぃて"],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which is the correct spelling of 'matte' (wait!)?",
+      "options": ["まつて", "まって", "まっで", "まつで"],
+      "correctIndex": 1
+    },
+
+    {
+      "type": "listening",
+      "speakText": "ざっし",
+      "prompt": "Which word did you hear?",
+      "options": ["ざし", "ざっし", "ざつし", "ぞっし"],
+      "correctIndex": 1
+    }
+  ],
+  "id": "hiragana-sokuon"
+}

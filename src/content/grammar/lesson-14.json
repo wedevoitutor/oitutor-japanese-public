@@ -1,0 +1,739 @@
+{
+  "id": "grammar-lesson-14",
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "i-Adjectives as Predicates",
+      "intro": "i-adjectives can end a sentence by themselves, or politely with です. The final い is part of the adjective, so keep it in the present affirmative form.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "おいしい",
+          "oishii",
+          "delicious"
+        ],
+        [
+          "あつい",
+          "atsui",
+          "hot"
+        ],
+        [
+          "さむい",
+          "samui",
+          "cold"
+        ],
+        [
+          "たかい",
+          "takai",
+          "expensive / tall"
+        ],
+        [
+          "やすい",
+          "yasui",
+          "cheap / easy"
+        ],
+        [
+          "おもしろい",
+          "omoshiroi",
+          "interesting"
+        ],
+        [
+          "かわいい",
+          "kawaii",
+          "cute"
+        ]
+      ],
+      "takeaway": "Use i-adjective + です for a polite description."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which sentence politely means 'It is delicious'?",
+      "options": [
+        "おいしいです。",
+        "おいしいなです。",
+        "おいしいだ。",
+        "おいしくです。"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'This ramen is delicious' using an i-adjective predicate:",
+      "patternJp": [
+        "この ラーメンは ",
+        "[SLOT]",
+        "です。"
+      ],
+      "patternRom": [
+        "kono raamen wa ",
+        "[SLOT]",
+        " desu."
+      ],
+      "slot": {
+        "answer": "おいしい",
+        "answerRomaji": "oishii",
+        "hint": "The i-adjective meaning delicious.",
+        "acceptAlternatives": [
+          "Oishii"
+        ]
+      },
+      "translation": "This ramen is delicious.",
+      "speakText": "この ラーメンは おいしいです。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "i-Adjectives Before Nouns",
+      "intro": "Place an i-adjective directly before a noun to describe it. Do not add な or の between a regular i-adjective and the noun.",
+      "rows": [
+        [
+          "Pattern",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "おいしい りょうり",
+          "oishii ryouri",
+          "delicious food"
+        ],
+        [
+          "あたらしい くつ",
+          "atarashii kutsu",
+          "new shoes"
+        ],
+        [
+          "ふるい いえ",
+          "furui ie",
+          "old house"
+        ],
+        [
+          "おもしろい ほん",
+          "omoshiroi hon",
+          "interesting book"
+        ],
+        [
+          "かわいい ねこ",
+          "kawaii neko",
+          "cute cat"
+        ]
+      ],
+      "takeaway": "i-adjective + noun needs no extra particle."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which phrase correctly means 'new shoes'?",
+      "options": [
+        "あたらしい くつ",
+        "あたらしいな くつ",
+        "あたらしく くつ",
+        "あたらしいの くつ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'This is an interesting book' with the i-adjective before the noun:",
+      "patternJp": [
+        "これは ",
+        "[SLOT]",
+        " ほんです。"
+      ],
+      "patternRom": [
+        "kore wa ",
+        "[SLOT]",
+        " hon desu."
+      ],
+      "slot": {
+        "answer": "おもしろい",
+        "answerRomaji": "omoshiroi",
+        "hint": "The i-adjective meaning interesting.",
+        "acceptAlternatives": [
+          "Omoshiroi"
+        ]
+      },
+      "translation": "This is an interesting book.",
+      "speakText": "これは おもしろい ほんです。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Negative and Past i-Adjectives",
+      "intro": "To conjugate an i-adjective, replace the final い. This gives the negative, past, and past-negative forms used in everyday descriptions.",
+      "rows": [
+        [
+          "Form",
+          "Japanese",
+          "Romaji"
+        ],
+        [
+          "present",
+          "たかい",
+          "takai"
+        ],
+        [
+          "negative",
+          "たかくない",
+          "takakunai"
+        ],
+        [
+          "past",
+          "たかかった",
+          "takakatta"
+        ],
+        [
+          "past negative",
+          "たかくなかった",
+          "takakunakatta"
+        ],
+        [
+          "polite negative",
+          "たかくないです",
+          "takakunai desu"
+        ]
+      ],
+      "takeaway": "Drop final い, then add くない, かった, or くなかった."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which form means 'was expensive'?",
+      "options": [
+        "たかかった",
+        "たかくない",
+        "たかいでした",
+        "たかくなかった"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'It is not expensive' using the negative i-adjective form:",
+      "patternJp": [
+        "たか",
+        "[SLOT]",
+        "です。"
+      ],
+      "patternRom": [
+        "taka",
+        "[SLOT]",
+        " desu."
+      ],
+      "slot": {
+        "answer": "くない",
+        "answerRomaji": "kunai",
+        "hint": "The negative ending for an i-adjective.",
+        "acceptAlternatives": [
+          "Kunai"
+        ]
+      },
+      "translation": "It is not expensive.",
+      "speakText": "たかくないです。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "The Special Adjective いい",
+      "intro": "いい means good, but its changed forms use よい as the base. Memorize よくない, よかった, and よくなかった.",
+      "rows": [
+        [
+          "Form",
+          "Japanese",
+          "Romaji"
+        ],
+        [
+          "present",
+          "いい",
+          "ii"
+        ],
+        [
+          "negative",
+          "よくない",
+          "yokunai"
+        ],
+        [
+          "past",
+          "よかった",
+          "yokatta"
+        ],
+        [
+          "past negative",
+          "よくなかった",
+          "yokunakatta"
+        ],
+        [
+          "polite",
+          "いいです",
+          "ii desu"
+        ]
+      ],
+      "takeaway": "いい changes from the よ- base after the present form."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which form means 'was good'?",
+      "options": [
+        "よかった",
+        "いいかった",
+        "いくない",
+        "よいでした"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'The weather was good' using the special past form of いい:",
+      "patternJp": [
+        "てんきは ",
+        "[SLOT]",
+        "です。"
+      ],
+      "patternRom": [
+        "tenki wa ",
+        "[SLOT]",
+        " desu."
+      ],
+      "slot": {
+        "answer": "よかった",
+        "answerRomaji": "yokatta",
+        "hint": "The past form of good.",
+        "acceptAlternatives": [
+          "Yokatta"
+        ]
+      },
+      "translation": "The weather was good.",
+      "speakText": "てんきは よかったです。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence uses an i-adjective correctly before a noun?",
+      "title": "i-adjective + noun",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "おいしい りょうりです。",
+          "romaji": "oishii ryouri desu.",
+          "en": "It is delicious food.",
+          "note": "The i-adjective goes directly before the noun.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "おいしいな りょうりです。",
+          "romaji": "oishii na ryouri desu.",
+          "en": "(intended: delicious food)",
+          "note": "Regular i-adjectives do not take な before nouns.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "おいしく りょうりです。",
+          "romaji": "oishiku ryouri desu.",
+          "en": "(intended: delicious food)",
+          "note": "おいしく is the adverb/connecting form, not the noun-modifying form.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Put regular i-adjectives directly before nouns.",
+      "speakText": "おいしい りょうりです。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly says 'It is not cold'?",
+      "title": "negative i-adjectives",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "さむくないです。",
+          "romaji": "samukunai desu.",
+          "en": "It is not cold.",
+          "note": "Replace final い with くない.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "さむいじゃないです。",
+          "romaji": "samui ja nai desu.",
+          "en": "(intended: not cold)",
+          "note": "じゃない is for nouns and na-adjectives, not regular i-adjectives.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "さむいないです。",
+          "romaji": "samui nai desu.",
+          "en": "(intended: not cold)",
+          "note": "Do not attach ない after the full present form.",
+          "correct": false
+        }
+      ],
+      "takeaway": "For i-adjectives, final い becomes くない.",
+      "speakText": "さむくないです。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly says 'It was fun'?",
+      "title": "past i-adjectives",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "たのしかったです。",
+          "romaji": "tanoshikatta desu.",
+          "en": "It was fun.",
+          "note": "Replace final い with かった.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "たのしいでした。",
+          "romaji": "tanoshii deshita.",
+          "en": "(intended: it was fun)",
+          "note": "Do not put でした after a regular i-adjective to make the past.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "たのしくないです。",
+          "romaji": "tanoshikunai desu.",
+          "en": "It is not fun.",
+          "note": "This is negative, not past.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use かった for past i-adjectives.",
+      "speakText": "たのしかったです。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which is the correct negative of いい?",
+      "title": "special いい forms",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "よくないです。",
+          "romaji": "yokunai desu.",
+          "en": "It is not good.",
+          "note": "いい uses よ- in changed forms.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "いくないです。",
+          "romaji": "ikunai desu.",
+          "en": "(intended: not good)",
+          "note": "Do not conjugate いい as いくない.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "いいじゃないです。",
+          "romaji": "ii ja nai desu.",
+          "en": "(intended: not good)",
+          "note": "This is not the standard i-adjective negative pattern.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Memorize いい, よくない, よかった, よくなかった.",
+      "speakText": "よくないです。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "i-Adjectives in Context",
+      "intro": "These examples show i-adjectives as predicates, before nouns, and in negative or past forms. Listen for the final adjective ending.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "English"
+        ],
+        [
+          "この ラーメンは おいしいです。",
+          "kono raamen wa oishii desu.",
+          "This ramen is delicious."
+        ],
+        [
+          "あたらしい くつが ほしいです。",
+          "atarashii kutsu ga hoshii desu.",
+          "I want new shoes."
+        ],
+        [
+          "この ほんは おもしろいです。",
+          "kono hon wa omoshiroi desu.",
+          "This book is interesting."
+        ],
+        [
+          "きょうは あついです。",
+          "kyou wa atsui desu.",
+          "Today is hot."
+        ],
+        [
+          "この へやは さむくないです。",
+          "kono heya wa samukunai desu.",
+          "This room is not cold."
+        ],
+        [
+          "えいがは たのしかったです。",
+          "eiga wa tanoshikatta desu.",
+          "The movie was fun."
+        ],
+        [
+          "てんきは よかったです。",
+          "tenki wa yokatta desu.",
+          "The weather was good."
+        ],
+        [
+          "この かばんは たかくなかったです。",
+          "kono kaban wa takakunakatta desu.",
+          "This bag was not expensive."
+        ]
+      ],
+      "takeaway": "i-adjectives describe nouns and conjugate by changing the final い."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "This ramen is delicious.",
+        "This ramen is cheap.",
+        "This ramen was delicious.",
+        "This ramen is not delicious."
+      ],
+      "correctIndex": 0,
+      "speakText": "この ラーメンは おいしいです。"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "I want old shoes.",
+        "I want new shoes.",
+        "The shoes are cheap.",
+        "These shoes were good."
+      ],
+      "correctIndex": 1,
+      "speakText": "あたらしい くつが ほしいです。"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "This book is boring.",
+        "This book is interesting.",
+        "This book is expensive.",
+        "Where is this book?"
+      ],
+      "correctIndex": 1,
+      "speakText": "この ほんは おもしろいです。"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "Today is cold.",
+        "Today was rainy.",
+        "Today is hot.",
+        "Today is not hot."
+      ],
+      "correctIndex": 2,
+      "speakText": "きょうは あついです。"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "This room is not cold.",
+        "This room is cold.",
+        "This room was cold.",
+        "This room is new."
+      ],
+      "correctIndex": 0,
+      "speakText": "この へやは さむくないです。"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "The movie is fun.",
+        "The movie was fun.",
+        "The movie is not fun.",
+        "The movie was long."
+      ],
+      "correctIndex": 1,
+      "speakText": "えいがは たのしかったです。"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "The weather is bad.",
+        "The weather is good.",
+        "The weather was good.",
+        "The weather was not good."
+      ],
+      "correctIndex": 2,
+      "speakText": "てんきは よかったです。"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "This bag was expensive.",
+        "This bag is cheap.",
+        "This bag was not expensive.",
+        "This bag is not new."
+      ],
+      "correctIndex": 2,
+      "speakText": "この かばんは たかくなかったです。"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "おいしいです",
+      "answer": "oishii desu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "あたらしい くつ",
+      "answer": "atarashii kutsu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "おもしろい ほん",
+      "answer": "omoshiroi hon",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "さむくないです",
+      "answer": "samukunai desu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "たのしかったです",
+      "answer": "tanoshikatta desu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "よかったです",
+      "answer": "yokatta desu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "たかくなかったです",
+      "answer": "takakunakatta desu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning:",
+      "pairs": [
+        {
+          "left": "おいしい",
+          "right": "delicious"
+        },
+        {
+          "left": "あたらしい",
+          "right": "new"
+        },
+        {
+          "left": "ふるい",
+          "right": "old"
+        },
+        {
+          "left": "おもしろい",
+          "right": "interesting"
+        },
+        {
+          "left": "かわいい",
+          "right": "cute"
+        },
+        {
+          "left": "あつい",
+          "right": "hot"
+        },
+        {
+          "left": "さむい",
+          "right": "cold"
+        },
+        {
+          "left": "たかい",
+          "right": "expensive / tall"
+        },
+        {
+          "left": "やすい",
+          "right": "cheap / easy"
+        },
+        {
+          "left": "いい",
+          "right": "good"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice - i-adjectives",
+      "cards": [
+        {
+          "jp": "この ラーメンは おいしいです。",
+          "romaji": "kono raamen wa oishii desu.",
+          "en": "This ramen is delicious."
+        },
+        {
+          "jp": "あたらしい くつが ほしいです。",
+          "romaji": "atarashii kutsu ga hoshii desu.",
+          "en": "I want new shoes."
+        },
+        {
+          "jp": "これは おもしろい ほんです。",
+          "romaji": "kore wa omoshiroi hon desu.",
+          "en": "This is an interesting book."
+        },
+        {
+          "jp": "きょうは あついです。",
+          "romaji": "kyou wa atsui desu.",
+          "en": "Today is hot."
+        },
+        {
+          "jp": "この へやは さむくないです。",
+          "romaji": "kono heya wa samukunai desu.",
+          "en": "This room is not cold."
+        },
+        {
+          "jp": "えいがは たのしかったです。",
+          "romaji": "eiga wa tanoshikatta desu.",
+          "en": "The movie was fun."
+        },
+        {
+          "jp": "てんきは よかったです。",
+          "romaji": "tenki wa yokatta desu.",
+          "en": "The weather was good."
+        },
+        {
+          "jp": "この かばんは たかくなかったです。",
+          "romaji": "kono kaban wa takakunakatta desu.",
+          "en": "This bag was not expensive."
+        },
+        {
+          "jp": "この ねこは かわいいです。",
+          "romaji": "kono neko wa kawaii desu.",
+          "en": "This cat is cute."
+        },
+        {
+          "jp": "この みせは やすいです。",
+          "romaji": "kono mise wa yasui desu.",
+          "en": "This shop is cheap."
+        }
+      ]
+    }
+  ]
+}

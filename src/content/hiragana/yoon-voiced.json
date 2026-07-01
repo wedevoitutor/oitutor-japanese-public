@@ -1,0 +1,362 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Yōon — Voiced & Plosive Rows",
+      "rows": [
+        [
+          "ぎゃ gya",
+          "ぎゅ gyu",
+          "ぎょ gyo"
+        ],
+        [
+          "じゃ ja",
+          "じゅ ju",
+          "じょ jo"
+        ],
+        [
+          "びゃ bya",
+          "びゅ byu",
+          "びょ byo"
+        ],
+        [
+          "ぴゃ pya",
+          "ぴゅ pyu",
+          "ぴょ pyo"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ぎゃ",
+          "back": "gya",
+          "speakText": "ぎゃ"
+        },
+        {
+          "front": "ぎゅ",
+          "back": "gyu",
+          "speakText": "ぎゅ"
+        },
+        {
+          "front": "ぎょ",
+          "back": "gyo",
+          "speakText": "ぎょ"
+        },
+        {
+          "front": "じゃ",
+          "back": "ja",
+          "speakText": "じゃ"
+        },
+        {
+          "front": "じゅ",
+          "back": "ju",
+          "speakText": "じゅ"
+        },
+        {
+          "front": "じょ",
+          "back": "jo",
+          "speakText": "じょ"
+        },
+        {
+          "front": "びゃ",
+          "back": "bya",
+          "speakText": "びゃ"
+        },
+        {
+          "front": "びょ",
+          "back": "byo",
+          "speakText": "びょ"
+        },
+        {
+          "front": "ぴゃ",
+          "back": "pya",
+          "speakText": "ぴゃ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ja?",
+      "options": [
+        "じや",
+        "じゃ",
+        "じゅ",
+        "じょ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Gyu?",
+      "options": [
+        "ぎゆ",
+        "ぎゃ",
+        "ぎゅ",
+        "ぎょ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Byo?",
+      "options": [
+        "びよ",
+        "びゃ",
+        "びゅ",
+        "びょ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "じゃ",
+      "answer": "ja",
+      "acceptAlternatives": [
+        "jya",
+        "zya"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "じゅ",
+      "answer": "ju",
+      "acceptAlternatives": [
+        "jyu",
+        "zyu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ぎょ",
+      "answer": "gyo"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ぎゅ",
+          "gyu"
+        ],
+        [
+          "じゃ",
+          "ja"
+        ],
+        [
+          "じょ",
+          "jo"
+        ],
+        [
+          "びょ",
+          "byo"
+        ],
+        [
+          "ぴゃ",
+          "pya"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ぎゃ",
+      "prompt": "Which one did you hear?",
+      "options": [
+        "ぎや",
+        "ぎゃ",
+        "ぎゅ",
+        "ぎょ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "じゅ",
+      "prompt": "Which one did you hear?",
+      "options": [
+        "じゆ",
+        "じゃ",
+        "じゅ",
+        "じょ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "ぴょ",
+      "prompt": "Which one did you hear?",
+      "options": [
+        "ぴゃ",
+        "ぴゅ",
+        "ぴょ",
+        "ぴよ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Gyo?",
+      "options": [
+        "ぎよ",
+        "ぎゃ",
+        "ぎょ",
+        "ぎゅ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Byu?",
+      "options": [
+        "びゆ",
+        "びゃ",
+        "びゅ",
+        "びょ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Yōon Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "十 [じゅう] (juu)",
+          "ten"
+        ],
+        [
+          "牛乳 [ぎゅうにゅう] (gyuunyuu)",
+          "milk"
+        ],
+        [
+          "病院 [びょういん] (byouin)",
+          "hospital"
+        ],
+        [
+          "授業 [じゅぎょう] (jugyou)",
+          "class / lesson"
+        ],
+        [
+          "近所 [きんじょ] (kinjo)",
+          "neighbourhood"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "ten",
+      "answer": [
+        "じ",
+        "ゅ",
+        "う"
+      ],
+      "bank": [
+        "じ",
+        "ゅ",
+        "う",
+        "ゆ",
+        "ょ",
+        "ず"
+      ],
+      "speakText": "じゅう"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "neighbourhood",
+      "answer": [
+        "き",
+        "ん",
+        "じ",
+        "ょ"
+      ],
+      "bank": [
+        "き",
+        "ん",
+        "じ",
+        "ょ",
+        "よ",
+        "し"
+      ],
+      "speakText": "きんじょ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "hospital",
+      "answer": [
+        "び",
+        "ょ",
+        "う",
+        "い",
+        "ん"
+      ],
+      "bank": [
+        "び",
+        "ょ",
+        "う",
+        "い",
+        "ん",
+        "よ"
+      ],
+      "speakText": "びょういん"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "じゅう",
+      "answer": "juu",
+      "acceptAlternatives": [
+        "jyuu",
+        "zyuu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "きんじょ",
+      "answer": "kinjo",
+      "acceptAlternatives": [
+        "kinjyo",
+        "kinzyo"
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "じゅう",
+          "ten"
+        ],
+        [
+          "ぎゅうにゅう",
+          "milk"
+        ],
+        [
+          "びょういん",
+          "hospital"
+        ],
+        [
+          "じゅぎょう",
+          "class"
+        ],
+        [
+          "きんじょ",
+          "neighbourhood"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ぎゅうにゅう",
+      "prompt": "Which word did you hear?",
+      "options": [
+        "ぎゅにゅ",
+        "ぎゅうにゅう",
+        "ぎゆうにゆう",
+        "ぎょうにょう"
+      ],
+      "correctIndex": 1
+    }
+  ],
+  "id": "hiragana-yoon-voiced"
+}

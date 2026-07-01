@@ -1,0 +1,363 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "S-row — さ行",
+      "rows": [
+        [
+          "さ sa",
+          "し shi",
+          "す su",
+          "せ se",
+          "そ so"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "さ",
+          "back": "sa",
+          "speakText": "さ"
+        },
+        {
+          "front": "そ",
+          "back": "so",
+          "speakText": "そ"
+        },
+        {
+          "front": "し",
+          "back": "shi",
+          "speakText": "し"
+        },
+        {
+          "front": "せ",
+          "back": "se",
+          "speakText": "せ"
+        },
+        {
+          "front": "す",
+          "back": "su",
+          "speakText": "す"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Sa?",
+      "options": [
+        "し",
+        "さ",
+        "す",
+        "そ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Shi?",
+      "options": [
+        "す",
+        "せ",
+        "そ",
+        "し"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "そ",
+      "answer": "so"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "し",
+      "answer": "shi",
+      "acceptAlternatives": [
+        "si"
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "す",
+          "su"
+        ],
+        [
+          "せ",
+          "se"
+        ],
+        [
+          "さ",
+          "sa"
+        ],
+        [
+          "そ",
+          "so"
+        ],
+        [
+          "し",
+          "shi"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "さ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "し",
+        "さ",
+        "す",
+        "そ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "す",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "さ",
+        "せ",
+        "す",
+        "し"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Su?",
+      "options": [
+        "さ",
+        "そ",
+        "す",
+        "せ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "す",
+      "answer": "su"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "せ",
+      "answer": "se"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Sa?",
+      "options": [
+        "き",
+        "さ",
+        "ち",
+        "せ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Se?",
+      "options": [
+        "さ",
+        "そ",
+        "せ",
+        "ぜ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "し",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "す",
+        "し",
+        "せ",
+        "さ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "そ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "さ",
+        "す",
+        "せ",
+        "そ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "さ",
+      "answer": "sa"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Shi?",
+      "options": [
+        "つ",
+        "す",
+        "し",
+        "せ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "寿司 [すし] (sushi)",
+          "sushi"
+        ],
+        [
+          "塩 [しお] (shio)",
+          "salt"
+        ],
+        [
+          "傘 [かさ] (kasa)",
+          "umbrella"
+        ],
+        [
+          "好き [すき] (suki)",
+          "like"
+        ],
+        [
+          "そこ (soko)",
+          "there"
+        ],
+        [
+          "すしが すきです",
+          "I like sushi"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "sushi",
+      "answer": [
+        "す",
+        "し"
+      ],
+      "bank": [
+        "さ",
+        "し",
+        "す",
+        "せ",
+        "そ"
+      ],
+      "speakText": "すし"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "salt",
+      "answer": [
+        "し",
+        "お"
+      ],
+      "bank": [
+        "さ",
+        "し",
+        "す",
+        "せ",
+        "そ",
+        "お"
+      ],
+      "speakText": "しお"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "umbrella",
+      "answer": [
+        "か",
+        "さ"
+      ],
+      "bank": [
+        "さ",
+        "し",
+        "す",
+        "せ",
+        "そ",
+        "か"
+      ],
+      "speakText": "かさ"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "すし",
+      "answer": "sushi"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "かさ",
+      "answer": "kasa"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "すし",
+          "sushi"
+        ],
+        [
+          "しお",
+          "salt"
+        ],
+        [
+          "かさ",
+          "umbrella"
+        ],
+        [
+          "すき",
+          "like"
+        ],
+        [
+          "そこ",
+          "there"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "せ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "さ",
+        "せ",
+        "す",
+        "そ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "like",
+      "answer": [
+        "す",
+        "き"
+      ],
+      "bank": [
+        "さ",
+        "し",
+        "す",
+        "せ",
+        "そ",
+        "き"
+      ],
+      "speakText": "すき"
+    }
+  ],
+  "id": "hiragana-row-s"
+}

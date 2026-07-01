@@ -1,0 +1,330 @@
+{
+  "exercises": [
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "マ",
+          "back": "ma",
+          "speakText": "マ"
+        },
+        {
+          "front": "ユ",
+          "back": "yu",
+          "speakText": "ユ"
+        },
+        {
+          "front": "モ",
+          "back": "mo",
+          "speakText": "モ"
+        },
+        {
+          "front": "ヤ",
+          "back": "ya",
+          "speakText": "ヤ"
+        },
+        {
+          "front": "ミ",
+          "back": "mi",
+          "speakText": "ミ"
+        },
+        {
+          "front": "ヨ",
+          "back": "yo",
+          "speakText": "ヨ"
+        },
+        {
+          "front": "ム",
+          "back": "mu",
+          "speakText": "ム"
+        },
+        {
+          "front": "メ",
+          "back": "me",
+          "speakText": "メ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Me?",
+      "options": [
+        "ナ",
+        "ヌ",
+        "メ",
+        "モ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Yu?",
+      "options": [
+        "エ",
+        "ユ",
+        "ヨ",
+        "コ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ma?",
+      "options": [
+        "マ",
+        "ム",
+        "ア",
+        "ヤ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "モ",
+      "answer": "mo"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ヤ",
+      "answer": "ya"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ミ",
+      "answer": "mi"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "マ",
+          "ma"
+        ],
+        [
+          "ム",
+          "mu"
+        ],
+        [
+          "ヤ",
+          "ya"
+        ],
+        [
+          "ユ",
+          "yu"
+        ],
+        [
+          "ヨ",
+          "yo"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "メ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "マ",
+        "ミ",
+        "ム",
+        "メ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "listening",
+      "speakText": "ユ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ヤ",
+        "ユ",
+        "ヨ",
+        "エ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Mi? (watch for look-alikes)",
+      "options": [
+        "ニ",
+        "シ",
+        "ミ",
+        "サ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Yo?",
+      "options": [
+        "ヲ",
+        "ヨ",
+        "ラ",
+        "ム"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ム",
+      "answer": "mu"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "マスク (masuku)",
+          "mask"
+        ],
+        [
+          "メモ (memo)",
+          "memo"
+        ],
+        [
+          "ユーモア (yuumoa)",
+          "humor"
+        ],
+        [
+          "タイヤ (taiya)",
+          "tire"
+        ],
+        [
+          "ヤマト (yamato)",
+          "Yamato"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "memo",
+      "answer": [
+        "メ",
+        "モ"
+      ],
+      "bank": [
+        "マ",
+        "ミ",
+        "ム",
+        "メ",
+        "モ",
+        "ヤ",
+        "ユ",
+        "ヨ"
+      ],
+      "speakText": "メモ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "tire",
+      "answer": [
+        "タ",
+        "イ",
+        "ヤ"
+      ],
+      "bank": [
+        "ヤ",
+        "ユ",
+        "ヨ",
+        "マ",
+        "タ",
+        "テ",
+        "イ"
+      ],
+      "speakText": "タイヤ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "humor",
+      "answer": [
+        "ユ",
+        "ー",
+        "モ",
+        "ア"
+      ],
+      "bank": [
+        "ヤ",
+        "ユ",
+        "ヨ",
+        "マ",
+        "ミ",
+        "モ",
+        "ア",
+        "ー"
+      ],
+      "speakText": "ユーモア"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "マスク",
+      "answer": "masuku"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ヤマト",
+      "answer": "yamato"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "マスク",
+          "mask"
+        ],
+        [
+          "メモ",
+          "memo"
+        ],
+        [
+          "ユーモア",
+          "humor"
+        ],
+        [
+          "タイヤ",
+          "tire"
+        ],
+        [
+          "ヤマト",
+          "Yamato"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "タイヤ",
+      "prompt": "What did you hear?",
+      "options": [
+        "tire",
+        "mask",
+        "humor",
+        "Yamato"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "mask",
+      "answer": [
+        "マ",
+        "ス",
+        "ク"
+      ],
+      "bank": [
+        "マ",
+        "ミ",
+        "ム",
+        "メ",
+        "モ",
+        "ス",
+        "ク",
+        "ケ"
+      ],
+      "speakText": "マスク"
+    }
+  ],
+  "id": "katakana-cumulative-m-y"
+}

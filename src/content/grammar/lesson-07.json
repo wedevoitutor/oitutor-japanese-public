@@ -1,0 +1,763 @@
+{
+  "id": "grammar-lesson-07",
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Core Question Words",
+      "intro": "Japanese question words stay where the missing information belongs. Add か at the end of the sentence, and the word order stays the same.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning",
+          "Example"
+        ],
+        [
+          "なに / なん",
+          "nani / nan",
+          "what",
+          "これは なんですか"
+        ],
+        [
+          "だれ",
+          "dare",
+          "who",
+          "あのひとは だれですか"
+        ],
+        [
+          "どこ",
+          "doko",
+          "where",
+          "トイレは どこですか"
+        ],
+        [
+          "いつ",
+          "itsu",
+          "when",
+          "たんじょうびは いつですか"
+        ]
+      ],
+      "takeaway": "Put the question word in the unknown spot, then add か."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which question word asks 'where'?",
+      "options": [
+        "だれ (dare)",
+        "いつ (itsu)",
+        "どこ (doko)",
+        "なん (nan)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Ask 'Where is the station?' using the place question word:",
+      "patternJp": [
+        "えきは ",
+        "[SLOT]",
+        "ですか。"
+      ],
+      "patternRom": [
+        "eki wa ",
+        "[SLOT]",
+        " desu ka"
+      ],
+      "slot": {
+        "answer": "どこ",
+        "answerRomaji": "doko",
+        "hint": "The question word for a place.",
+        "acceptAlternatives": [
+          "Doko",
+          "ドコ"
+        ]
+      },
+      "translation": "Where is the station?",
+      "speakText": "えきは どこですか。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "How, What Kind, Why",
+      "intro": "どう asks for an impression, while どんな must attach to a noun and asks for a type or category. For 'why', choose the register that fits the situation.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning",
+          "Example"
+        ],
+        [
+          "どう",
+          "dou",
+          "how / what do you think",
+          "にほんは どうですか"
+        ],
+        [
+          "どんな",
+          "donna",
+          "what kind of",
+          "どんな おんがくが すきですか"
+        ],
+        [
+          "なぜ",
+          "naze",
+          "why (formal)",
+          "なぜ にほんごを べんきょうしますか"
+        ],
+        [
+          "どうして",
+          "doushite",
+          "why (neutral)",
+          "どうしてですか"
+        ],
+        [
+          "なんで",
+          "nande",
+          "why (casual)",
+          "なんで にほんに きましたか"
+        ]
+      ],
+      "takeaway": "どう stands alone for impressions. どんな needs a noun after it."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which word asks 'what kind of' before a noun?",
+      "options": [
+        "どう (dou)",
+        "どんな (donna)",
+        "どこ (doko)",
+        "いつ (itsu)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Ask 'What kind of food do you like?' using the category question word:",
+      "patternJp": [
+        "[SLOT]",
+        " りょうりが すきですか。"
+      ],
+      "patternRom": [
+        "[SLOT]",
+        " ryouri ga suki desu ka"
+      ],
+      "slot": {
+        "answer": "どんな",
+        "answerRomaji": "donna",
+        "hint": "The question word that means 'what kind of' before a noun.",
+        "acceptAlternatives": [
+          "Donna",
+          "ドンナ"
+        ]
+      },
+      "translation": "What kind of food do you like?",
+      "speakText": "どんな りょうりが すきですか。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Price, Count, Which",
+      "intro": "Some question words ask for a price, an amount, or a choice. どれ stands alone as 'which one', while どの must come before a noun.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning",
+          "Example"
+        ],
+        [
+          "いくら",
+          "ikura",
+          "how much (price)",
+          "これは いくらですか"
+        ],
+        [
+          "いくつ",
+          "ikutsu",
+          "how many / how old",
+          "おいくつですか"
+        ],
+        [
+          "どれ",
+          "dore",
+          "which one",
+          "どれが いいですか"
+        ],
+        [
+          "どの",
+          "dono",
+          "which + noun",
+          "どの いろが すきですか"
+        ]
+      ],
+      "takeaway": "Use どれ alone. Use どの directly before a noun."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which form means 'which + noun', as in 'which colour'?",
+      "options": [
+        "どれ (dore)",
+        "どの (dono)",
+        "どこ (doko)",
+        "どう (dou)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Ask 'How much is this apple?' using the price question word:",
+      "patternJp": [
+        "この りんごは ",
+        "[SLOT]",
+        "ですか。"
+      ],
+      "patternRom": [
+        "kono ringo wa ",
+        "[SLOT]",
+        " desu ka"
+      ],
+      "slot": {
+        "answer": "いくら",
+        "answerRomaji": "ikura",
+        "hint": "The question word for price.",
+        "acceptAlternatives": [
+          "Ikura",
+          "イクラ"
+        ]
+      },
+      "translation": "How much is this apple?",
+      "speakText": "この りんごは いくらですか。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "なに vs なん",
+      "intro": "なに and なん both mean 'what', but the following word decides which form sounds natural. Use なん before です, で, の, and counters; use なに before particles like を, が, and も.",
+      "rows": [
+        [
+          "Use",
+          "Form",
+          "Rule",
+          "Example"
+        ],
+        [
+          "Before です, で, の, counters",
+          "なん (nan)",
+          "Use before d/n sounds and counters",
+          "なんですか / なんにん"
+        ],
+        [
+          "Before を, が, も, most particles",
+          "なに (nani)",
+          "Default form before particles",
+          "なにを / なにが"
+        ]
+      ],
+      "takeaway": "Use なん before です and counters. Use なに before を, が, and も."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which form is natural before です in 'What is this?'",
+      "options": [
+        "なにですか",
+        "なんですか",
+        "なにをですか",
+        "なんをですか"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Ask 'What is your name?' using the natural form before です:",
+      "patternJp": [
+        "おなまえは ",
+        "[SLOT]",
+        "ですか。"
+      ],
+      "patternRom": [
+        "onamae wa ",
+        "[SLOT]",
+        " desu ka"
+      ],
+      "slot": {
+        "answer": "なん",
+        "answerRomaji": "nan",
+        "hint": "The 'what' form used before desu.",
+        "acceptAlternatives": [
+          "Nan",
+          "ナン"
+        ]
+      },
+      "translation": "What is your name?",
+      "speakText": "おなまえは なんですか。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence correctly says 'I didn't eat anything'?",
+      "title": "Question word + も + negative",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "なにも たべませんでした。",
+          "romaji": "nani mo tabemasen deshita.",
+          "en": "I didn't eat anything.",
+          "note": "Question word + も pairs with a negative verb for total negation.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "なにも たべました。",
+          "romaji": "nani mo tabemashita.",
+          "en": "(Intended: I didn't eat anything.)",
+          "note": "The も pattern needs a negative verb here.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "なにを たべましたか。",
+          "romaji": "nani o tabemashita ka.",
+          "en": "What did you eat?",
+          "note": "This is a normal question, not total negation.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "なんでも たべませんでした。",
+          "romaji": "nandemo tabemasen deshita.",
+          "en": "(Unnatural for 'I didn't eat anything.')",
+          "note": "なんでも means 'anything'; for 'nothing', use なにも with the negative.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Question word + も needs a negative verb to mean nothing, nobody, or nowhere.",
+      "speakText": "なにも たべませんでした。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence correctly says 'Anything is fine'?",
+      "title": "Question word + でも",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "なんでも いいです。",
+          "romaji": "nandemo ii desu.",
+          "en": "Anything is fine.",
+          "note": "Question word + でも gives an inclusive 'any-' meaning.",
+          "correct": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "なにも いいです。",
+          "romaji": "nani mo ii desu.",
+          "en": "(Unnatural for 'anything is fine.')",
+          "note": "なにも normally pairs with a negative, not いいです.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "どこでも いきます。",
+          "romaji": "dokodemo ikimasu.",
+          "en": "I'll go anywhere.",
+          "note": "This is the same でも pattern, but it means 'anywhere', not 'anything is fine'.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "なんで いいです。",
+          "romaji": "nande ii desu.",
+          "en": "(Unnatural for 'anything is fine.')",
+          "note": "なんで means 'why' or 'how come', not 'anything'.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Question word + でも means anyone, anything, anywhere, or anytime.",
+      "speakText": "なんでも いいです。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence asks for someone's impression of Japan?",
+      "title": "どう vs どんな",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "にほんは どうですか。",
+          "romaji": "nihon wa dou desu ka.",
+          "en": "How is Japan? / What do you think of Japan?",
+          "note": "どう stands alone and asks for an impression or opinion.",
+          "correct": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "どんな おんがくが すきですか。",
+          "romaji": "donna ongaku ga suki desu ka.",
+          "en": "What kind of music do you like?",
+          "note": "どんな asks for a type or category and must come before a noun.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "にほんは どんなですか。",
+          "romaji": "nihon wa donna desu ka.",
+          "en": "(Unnatural for this meaning.)",
+          "note": "どんな needs a noun after it.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "なんで にほんに きましたか。",
+          "romaji": "nande nihon ni kimashita ka.",
+          "en": "Why did you come to Japan?",
+          "note": "なんで asks why, not for an impression.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use どう for impressions. Use どんな before a noun for type or category.",
+      "speakText": "にほんは どうですか。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence naturally asks 'What is this?'",
+      "title": "なに vs なん",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "これは なんですか。",
+          "romaji": "kore wa nan desu ka.",
+          "en": "What is this?",
+          "note": "Use なん before です.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "これは なにですか。",
+          "romaji": "kore wa nani desu ka.",
+          "en": "(Less natural for this beginner pattern.)",
+          "note": "The source rule teaches なん before です.",
+          "correct": false
+        },
+        {
+          "label": "NATURAL",
+          "jp": "なにを かいますか。",
+          "romaji": "nani o kaimasu ka.",
+          "en": "What will you buy?",
+          "note": "なに is natural before を, but this asks a different question.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "なんを かいますか。",
+          "romaji": "nan o kaimasu ka.",
+          "en": "(Unnatural.)",
+          "note": "Use なに before を.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use なん before です and counters; use なに before particles like を, が, and も.",
+      "speakText": "これは なんですか。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Question Words in Context",
+      "intro": "Learn each question word inside a full sentence, not as an isolated vocabulary item. These examples show where the question word sits in natural Japanese word order.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "English"
+        ],
+        [
+          "おなまえは なんですか。",
+          "onamae wa nan desu ka.",
+          "What is your name?"
+        ],
+        [
+          "だれと いきますか。",
+          "dare to ikimasu ka.",
+          "Who are you going with?"
+        ],
+        [
+          "えきは どこですか。",
+          "eki wa doko desu ka.",
+          "Where is the station?"
+        ],
+        [
+          "たんじょうびは いつですか。",
+          "tanjoubi wa itsu desu ka.",
+          "When is your birthday?"
+        ],
+        [
+          "にほんは どうですか。",
+          "nihon wa dou desu ka.",
+          "How is Japan? / What do you think of Japan?"
+        ],
+        [
+          "どんな りょうりが すきですか。",
+          "donna ryouri ga suki desu ka.",
+          "What kind of food do you like?"
+        ],
+        [
+          "なんで にほんに きましたか。",
+          "nande nihon ni kimashita ka.",
+          "Why did you come to Japan?"
+        ],
+        [
+          "この りんごは いくらですか。",
+          "kono ringo wa ikura desu ka.",
+          "How much is this apple?"
+        ]
+      ],
+      "takeaway": "The question word sits in the answer slot; か marks the sentence as a question."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "トイレは どこですか。",
+      "options": [
+        "Where is the bathroom?",
+        "When does the toilet close?",
+        "Who is in the bathroom?",
+        "What is that room?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "だれが きましたか。",
+      "options": [
+        "Where did they go?",
+        "When did they arrive?",
+        "Who came?",
+        "How did they get here?"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "たんじょうびは いつですか。",
+      "options": [
+        "What is your birthday present?",
+        "Where is the birthday party?",
+        "Who is having a birthday?",
+        "When is your birthday?"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "どんな おんがくが すきですか。",
+      "options": [
+        "Do you like music?",
+        "What kind of music do you like?",
+        "How much does the music cost?",
+        "Where do you listen to music?"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "これは いくらですか。",
+      "options": [
+        "What is this called?",
+        "Where is this from?",
+        "Who made this?",
+        "How much is this?"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "なぜ にほんごを べんきょうしますか。",
+      "options": [
+        "Why do you study Japanese?",
+        "Where do you study Japanese?",
+        "How long have you studied Japanese?",
+        "Who taught you Japanese?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "どの いろが すきですか。",
+      "options": [
+        "How many colours are there?",
+        "Which colour do you like?",
+        "What colour is that?",
+        "Why do you like that colour?"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "なんでも いいです。",
+      "options": [
+        "Nothing is good.",
+        "Something is good.",
+        "Anything is fine.",
+        "Everything is bad."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "おなまえは なんですか",
+      "answer": "onamae wa nan desu ka",
+      "acceptAlternatives": [
+        "onamae wa nani desu ka"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "えきは どこですか",
+      "answer": "eki wa doko desu ka",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "だれと いきますか",
+      "answer": "dare to ikimasu ka",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "にほんは どうですか",
+      "answer": "nihon wa dou desu ka",
+      "acceptAlternatives": [
+        "nihon wa do desu ka"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "どんな りょうりが すきですか",
+      "answer": "donna ryouri ga suki desu ka",
+      "acceptAlternatives": [
+        "donna ryori ga suki desu ka"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "この りんごは いくらですか",
+      "answer": "kono ringo wa ikura desu ka",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "なにも たべませんでした",
+      "answer": "nani mo tabemasen deshita",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning:",
+      "pairs": [
+        {
+          "left": "なまえ",
+          "right": "name"
+        },
+        {
+          "left": "えき",
+          "right": "station"
+        },
+        {
+          "left": "たんじょうび",
+          "right": "birthday"
+        },
+        {
+          "left": "りょうり",
+          "right": "cooking / food / dish"
+        },
+        {
+          "left": "いろ",
+          "right": "colour"
+        },
+        {
+          "left": "トイレ",
+          "right": "toilet / bathroom"
+        },
+        {
+          "left": "おんがく",
+          "right": "music"
+        },
+        {
+          "left": "りんご",
+          "right": "apple"
+        },
+        {
+          "left": "ひと",
+          "right": "person"
+        },
+        {
+          "left": "にほん",
+          "right": "Japan"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice — question words",
+      "cards": [
+        {
+          "jp": "おなまえは なんですか。",
+          "romaji": "onamae wa nan desu ka.",
+          "en": "What is your name?"
+        },
+        {
+          "jp": "だれと いきますか。",
+          "romaji": "dare to ikimasu ka.",
+          "en": "Who are you going with?"
+        },
+        {
+          "jp": "えきは どこですか。",
+          "romaji": "eki wa doko desu ka.",
+          "en": "Where is the station?"
+        },
+        {
+          "jp": "たんじょうびは いつですか。",
+          "romaji": "tanjoubi wa itsu desu ka.",
+          "en": "When is your birthday?"
+        },
+        {
+          "jp": "にほんは どうですか。",
+          "romaji": "nihon wa dou desu ka.",
+          "en": "How is Japan? / What do you think of Japan?"
+        },
+        {
+          "jp": "どんな りょうりが すきですか。",
+          "romaji": "donna ryouri ga suki desu ka.",
+          "en": "What kind of food do you like?"
+        },
+        {
+          "jp": "なんで にほんに きましたか。",
+          "romaji": "nande nihon ni kimashita ka.",
+          "en": "Why did you come to Japan?"
+        },
+        {
+          "jp": "この りんごは いくらですか。",
+          "romaji": "kono ringo wa ikura desu ka.",
+          "en": "How much is this apple?"
+        },
+        {
+          "jp": "どれが いいですか。",
+          "romaji": "dore ga ii desu ka.",
+          "en": "Which one is good?"
+        },
+        {
+          "jp": "なにも たべませんでした。",
+          "romaji": "nani mo tabemasen deshita.",
+          "en": "I didn't eat anything."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "T-row — た行",
+      "rows": [
+        [
+          "た ta",
+          "ち chi",
+          "つ tsu",
+          "て te",
+          "と to"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "と",
+          "back": "to",
+          "speakText": "と"
+        },
+        {
+          "front": "た",
+          "back": "ta",
+          "speakText": "た"
+        },
+        {
+          "front": "つ",
+          "back": "tsu",
+          "speakText": "つ"
+        },
+        {
+          "front": "ち",
+          "back": "chi",
+          "speakText": "ち"
+        },
+        {
+          "front": "て",
+          "back": "te",
+          "speakText": "て"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ta?",
+      "options": [
+        "つ",
+        "た",
+        "て",
+        "と"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Te?",
+      "options": [
+        "ち",
+        "て",
+        "た",
+        "つ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "と",
+      "answer": "to"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ち",
+      "answer": "chi",
+      "acceptAlternatives": [
+        "ti"
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "て",
+          "te"
+        ],
+        [
+          "た",
+          "ta"
+        ],
+        [
+          "ち",
+          "chi"
+        ],
+        [
+          "つ",
+          "tsu"
+        ],
+        [
+          "と",
+          "to"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "た",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ち",
+        "た",
+        "て",
+        "と"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "つ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "た",
+        "つ",
+        "て",
+        "と"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Tsu?",
+      "options": [
+        "と",
+        "た",
+        "つ",
+        "ち"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "つ",
+      "answer": "tsu",
+      "acceptAlternatives": [
+        "tu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "た",
+      "answer": "ta"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Chi?",
+      "options": [
+        "さ",
+        "き",
+        "ち",
+        "こ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Tsu?",
+      "options": [
+        "し",
+        "す",
+        "つ",
+        "せ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "ち",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "た",
+        "て",
+        "ち",
+        "と"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "て",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "つ",
+        "て",
+        "ち",
+        "と"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "て",
+      "answer": "te"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is To?",
+      "options": [
+        "て",
+        "い",
+        "と",
+        "た"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "蛸 [たこ] (tako)",
+          "octopus"
+        ],
+        [
+          "月 [つき] (tsuki)",
+          "moon"
+        ],
+        [
+          "敵 [てき] (teki)",
+          "enemy"
+        ],
+        [
+          "時 [とき] (toki)",
+          "time"
+        ],
+        [
+          "近い [ちかい] (chikai)",
+          "near"
+        ],
+        [
+          "たこが すきです",
+          "I like octopus"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "octopus",
+      "answer": [
+        "た",
+        "こ"
+      ],
+      "bank": [
+        "た",
+        "ち",
+        "つ",
+        "て",
+        "と",
+        "こ"
+      ],
+      "speakText": "たこ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "moon",
+      "answer": [
+        "つ",
+        "き"
+      ],
+      "bank": [
+        "た",
+        "ち",
+        "つ",
+        "て",
+        "と",
+        "き"
+      ],
+      "speakText": "つき"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "enemy",
+      "answer": [
+        "て",
+        "き"
+      ],
+      "bank": [
+        "た",
+        "ち",
+        "つ",
+        "て",
+        "と",
+        "き"
+      ],
+      "speakText": "てき"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "たこ",
+      "answer": "tako"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "つき",
+      "answer": "tsuki"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "たこ",
+          "octopus"
+        ],
+        [
+          "つき",
+          "moon"
+        ],
+        [
+          "てき",
+          "enemy"
+        ],
+        [
+          "とき",
+          "time"
+        ],
+        [
+          "ちかい",
+          "near"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "と",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ち",
+        "て",
+        "と",
+        "つ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "time",
+      "answer": [
+        "と",
+        "き"
+      ],
+      "bank": [
+        "た",
+        "ち",
+        "つ",
+        "て",
+        "と",
+        "き"
+      ],
+      "speakText": "とき"
+    }
+  ],
+  "id": "hiragana-row-t"
+}

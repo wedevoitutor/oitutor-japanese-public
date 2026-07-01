@@ -1,0 +1,336 @@
+{
+  "exercises": [
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "イ",
+          "back": "i",
+          "speakText": "イ"
+        },
+        {
+          "front": "オ",
+          "back": "o",
+          "speakText": "オ"
+        },
+        {
+          "front": "ケ",
+          "back": "ke",
+          "speakText": "ケ"
+        },
+        {
+          "front": "ア",
+          "back": "a",
+          "speakText": "ア"
+        },
+        {
+          "front": "ウ",
+          "back": "u",
+          "speakText": "ウ"
+        },
+        {
+          "front": "ク",
+          "back": "ku",
+          "speakText": "ク"
+        },
+        {
+          "front": "カ",
+          "back": "ka",
+          "speakText": "カ"
+        },
+        {
+          "front": "コ",
+          "back": "ko",
+          "speakText": "コ"
+        },
+        {
+          "front": "エ",
+          "back": "e",
+          "speakText": "エ"
+        },
+        {
+          "front": "キ",
+          "back": "ki",
+          "speakText": "キ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ko?",
+      "options": [
+        "カ",
+        "コ",
+        "ク",
+        "ウ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is U?",
+      "options": [
+        "ウ",
+        "ア",
+        "オ",
+        "エ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ki?",
+      "options": [
+        "ケ",
+        "キ",
+        "コ",
+        "ク"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "エ",
+      "answer": "e"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "カ",
+      "answer": "ka"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "オ",
+      "answer": "o"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ア",
+          "a"
+        ],
+        [
+          "キ",
+          "ki"
+        ],
+        [
+          "ケ",
+          "ke"
+        ],
+        [
+          "エ",
+          "e"
+        ],
+        [
+          "ウ",
+          "u"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "イ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ク",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ケ",
+        "カ",
+        "コ",
+        "ク"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is O? (watch for look-alikes)",
+      "options": [
+        "ホ",
+        "オ",
+        "ヌ",
+        "コ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ku? (watch for look-alikes)",
+      "options": [
+        "ワ",
+        "タ",
+        "ク",
+        "ケ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "キ",
+      "answer": "ki"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "エア (ea)",
+          "air"
+        ],
+        [
+          "アオ (ao)",
+          "blue"
+        ],
+        [
+          "ケーキ (keeki)",
+          "cake"
+        ],
+        [
+          "カカオ (kakao)",
+          "cacao"
+        ],
+        [
+          "オーケー (ookee)",
+          "OK"
+        ],
+        [
+          "コア (koa)",
+          "core"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "blue",
+      "answer": [
+        "ア",
+        "オ"
+      ],
+      "bank": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ",
+        "オ"
+      ],
+      "speakText": "アオ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "cake",
+      "answer": [
+        "ケ",
+        "ー",
+        "キ"
+      ],
+      "bank": [
+        "カ",
+        "キ",
+        "ク",
+        "ケ",
+        "コ",
+        "ー"
+      ],
+      "speakText": "ケーキ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "cacao",
+      "answer": [
+        "カ",
+        "カ",
+        "オ"
+      ],
+      "bank": [
+        "ア",
+        "カ",
+        "キ",
+        "ク",
+        "コ",
+        "オ"
+      ],
+      "speakText": "カカオ"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "エア",
+      "answer": "ea"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ケーキ",
+      "answer": "keeki"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "エア",
+          "air"
+        ],
+        [
+          "アオ",
+          "blue"
+        ],
+        [
+          "ケーキ",
+          "cake"
+        ],
+        [
+          "カカオ",
+          "cacao"
+        ],
+        [
+          "コア",
+          "core"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "オーケー",
+      "prompt": "What did you hear?",
+      "options": [
+        "OK",
+        "cake",
+        "cacao",
+        "core"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "OK",
+      "answer": [
+        "オ",
+        "ー",
+        "ケ",
+        "ー"
+      ],
+      "bank": [
+        "ア",
+        "オ",
+        "ケ",
+        "コ",
+        "ク",
+        "ー"
+      ],
+      "speakText": "オーケー"
+    }
+  ],
+  "id": "katakana-cumulative-vowels-k"
+}

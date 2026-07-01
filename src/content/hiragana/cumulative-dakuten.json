@@ -1,0 +1,313 @@
+{
+  "exercises": [
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "が",
+          "back": "ga",
+          "speakText": "が"
+        },
+        {
+          "front": "ご",
+          "back": "go",
+          "speakText": "ご"
+        },
+        {
+          "front": "ぎ",
+          "back": "gi",
+          "speakText": "ぎ"
+        },
+        {
+          "front": "ざ",
+          "back": "za",
+          "speakText": "ざ"
+        },
+        {
+          "front": "じ",
+          "back": "ji",
+          "speakText": "じ"
+        },
+        {
+          "front": "ぞ",
+          "back": "zo",
+          "speakText": "ぞ"
+        },
+        {
+          "front": "だ",
+          "back": "da",
+          "speakText": "だ"
+        },
+        {
+          "front": "ど",
+          "back": "do",
+          "speakText": "ど"
+        },
+        {
+          "front": "ば",
+          "back": "ba",
+          "speakText": "ば"
+        },
+        {
+          "front": "ぼ",
+          "back": "bo",
+          "speakText": "ぼ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Gu?",
+      "options": [
+        "く",
+        "ぐ",
+        "ご",
+        "げ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Za?",
+      "options": [
+        "さ",
+        "ざ",
+        "だ",
+        "ぞ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Bo?",
+      "options": [
+        "ほ",
+        "ぼ",
+        "ご",
+        "ど"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ぐ",
+      "answer": "gu"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "じ",
+      "answer": "ji",
+      "acceptAlternatives": [
+        "zi"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "づ",
+      "answer": "zu",
+      "acceptAlternatives": [
+        "du"
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "が",
+          "ga"
+        ],
+        [
+          "ざ",
+          "za"
+        ],
+        [
+          "で",
+          "de"
+        ],
+        [
+          "ば",
+          "ba"
+        ],
+        [
+          "ご",
+          "go"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ぎ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "き",
+        "ぎ",
+        "じ",
+        "ち"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ど",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "と",
+        "ど",
+        "ぞ",
+        "だ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ze?",
+      "options": [
+        "せ",
+        "ぜ",
+        "で",
+        "ぞ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Bi?",
+      "options": [
+        "ひ",
+        "び",
+        "ぼ",
+        "ぶ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "reference-chart",
+      "title": "Vocabulary Review — All Dakuten",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "鍵 [かぎ] (kagi)",
+          "key"
+        ],
+        [
+          "家族 [かぞく] (kazoku)",
+          "family"
+        ],
+        [
+          "電話 [でんわ] (denwa)",
+          "telephone"
+        ],
+        [
+          "そば (soba)",
+          "soba / next to"
+        ],
+        [
+          "豚 [ぶた] (buta)",
+          "pig"
+        ]
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "かぎ",
+      "answer": "kagi"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "でんわ",
+      "answer": "denwa"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "かぎ",
+          "key"
+        ],
+        [
+          "かぞく",
+          "family"
+        ],
+        [
+          "でんわ",
+          "telephone"
+        ],
+        [
+          "そば",
+          "soba"
+        ],
+        [
+          "ぶた",
+          "pig"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "family",
+      "answer": [
+        "か",
+        "ぞ",
+        "く"
+      ],
+      "bank": [
+        "か",
+        "ぞ",
+        "く",
+        "ご",
+        "ざ",
+        "こ"
+      ],
+      "speakText": "かぞく"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "telephone",
+      "answer": [
+        "で",
+        "ん",
+        "わ"
+      ],
+      "bank": [
+        "で",
+        "ん",
+        "わ",
+        "だ",
+        "て"
+      ],
+      "speakText": "でんわ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "knee",
+      "answer": [
+        "ひ",
+        "ざ"
+      ],
+      "bank": [
+        "ひ",
+        "ざ",
+        "び",
+        "さ",
+        "じ"
+      ],
+      "speakText": "ひざ"
+    },
+    {
+      "type": "listening",
+      "speakText": "そば",
+      "prompt": "Which word did you hear?",
+      "options": [
+        "そは",
+        "そば",
+        "ぞば",
+        "ぞは"
+      ],
+      "correctIndex": 1
+    }
+  ],
+  "id": "hiragana-cumulative-dakuten"
+}

@@ -1,0 +1,750 @@
+{
+  "id": "grammar-lesson-20",
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "ても いいです - Permission",
+      "intro": "Use te-form + も いいです to say that an action is allowed. Keep a space in the pattern — ても いい — so learners see te-form + も + good.",
+      "rows": [
+        [
+          "Pattern",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "ても いいです",
+          "te mo ii desu",
+          "it is okay to do"
+        ],
+        [
+          "ても いいですか",
+          "te mo ii desu ka",
+          "may I do?"
+        ],
+        [
+          "しゃしんを とっても いいです",
+          "shashin o totte mo ii desu",
+          "It is okay to take photos."
+        ],
+        [
+          "ここで たべても いいですか",
+          "koko de tabete mo ii desu ka",
+          "May I eat here?"
+        ],
+        [
+          "はい、いいですよ",
+          "hai, ii desu yo",
+          "Yes, that's okay."
+        ]
+      ],
+      "takeaway": "te-form + もいいです asks or gives permission."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which pattern asks 'May I do ~?'",
+      "options": [
+        "te-form + もいいですか",
+        "te-form + はいけません",
+        "dictionary form + でしょう",
+        "noun + とおもいます"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Ask 'May I take a photo?' using ても いいですか:",
+      "patternJp": [
+        "しゃしんを とって",
+        "[SLOT]",
+        "いいですか。"
+      ],
+      "patternRom": [
+        "shashin o totte",
+        "[SLOT]",
+        " ii desu ka."
+      ],
+      "slot": {
+        "answer": "も",
+        "answerRomaji": "mo",
+        "hint": "The particle that appears between the te-form and 'good' in the permission pattern.",
+        "acceptAlternatives": [
+          "Mo"
+        ]
+      },
+      "translation": "May I take a photo?",
+      "speakText": "しゃしんを とっても いいですか。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "てはいけません - Prohibition",
+      "intro": "Use te-form + はいけません to say that an action is not allowed. It is a firm rule phrase, so use it for signs, instructions, and clear prohibitions.",
+      "rows": [
+        [
+          "Pattern",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "てはいけません",
+          "te wa ikemasen",
+          "must not do"
+        ],
+        [
+          "ここで たばこを すってはいけません",
+          "koko de tabako o sutte wa ikemasen",
+          "You must not smoke here."
+        ],
+        [
+          "はいってはいけません",
+          "haitte wa ikemasen",
+          "You must not enter."
+        ],
+        [
+          "さわってはいけません",
+          "sawatte wa ikemasen",
+          "You must not touch."
+        ],
+        [
+          "およいではいけません",
+          "oyoide wa ikemasen",
+          "You must not swim."
+        ]
+      ],
+      "takeaway": "te-form + はいけません means 'must not do'."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which sentence means 'You must not enter'?",
+      "options": [
+        "はいってはいけません。",
+        "はいっても いいです。",
+        "はいりたいです。",
+        "はいりましょう。"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'You must not smoke here' using てはいけません:",
+      "patternJp": [
+        "ここで たばこを すって",
+        "[SLOT]",
+        "いけません。"
+      ],
+      "patternRom": [
+        "koko de tabako o sutte",
+        "[SLOT]",
+        " ikemasen."
+      ],
+      "slot": {
+        "answer": "は",
+        "answerRomaji": "wa",
+        "hint": "The written particle between the te-form and the prohibition word.",
+        "acceptAlternatives": [
+          "wa",
+          "ha",
+          "ハ"
+        ]
+      },
+      "translation": "You must not smoke here.",
+      "speakText": "ここで たばこを すってはいけません。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "でしょう - Probability and Guessing",
+      "intro": "This is a light N5-bridge pattern: use でしょう after a simple sentence to make a polite guess, “probably / I suppose.”",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "あしたは あめでしょう",
+          "ashita wa ame deshou",
+          "It will probably rain tomorrow."
+        ],
+        [
+          "だいじょうぶでしょう",
+          "daijoubu deshou",
+          "It will probably be okay."
+        ],
+        [
+          "あの ひとは せんせいでしょう",
+          "ano hito wa sensei deshou",
+          "That person is probably a teacher."
+        ],
+        [
+          "もう くるでしょう",
+          "mou kuru deshou",
+          "They will probably come soon."
+        ],
+        [
+          "たかいでしょう",
+          "takai deshou",
+          "It is probably expensive."
+        ]
+      ],
+      "takeaway": "Add でしょう to make a polite guess or probability statement."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which sentence means 'It will probably rain tomorrow'?",
+      "options": [
+        "あしたは あめでしょう。",
+        "あしたは あめでした。",
+        "あしたは あめではありません。",
+        "あしたは あめても いいです。"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'It will probably be okay' using でしょう:",
+      "patternJp": [
+        "だいじょうぶ",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "daijoubu",
+        "[SLOT]",
+        "."
+      ],
+      "slot": {
+        "answer": "でしょう",
+        "answerRomaji": "deshou",
+        "hint": "The polite probability ending.",
+        "acceptAlternatives": [
+          "desho",
+          "Deshou"
+        ]
+      },
+      "translation": "It will probably be okay.",
+      "speakText": "だいじょうぶでしょう。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "とおもいます - I Think",
+      "intro": "This is a light N5-bridge pattern. Use とおもいます after a plain-form sentence; review the plain form before using it.",
+      "rows": [
+        [
+          "Plain thought",
+          "With とおもいます",
+          "Meaning"
+        ],
+        [
+          "あめが ふる",
+          "あめが ふるとおもいます",
+          "I think it will rain."
+        ],
+        [
+          "だいじょうぶだ",
+          "だいじょうぶだとおもいます",
+          "I think it is okay."
+        ],
+        [
+          "たかい",
+          "たかいとおもいます",
+          "I think it is expensive."
+        ],
+        [
+          "こない",
+          "こないとおもいます",
+          "I think they won't come."
+        ],
+        [
+          "せんせいだ",
+          "せんせいだとおもいます",
+          "I think they are a teacher."
+        ]
+      ],
+      "takeaway": "Use plain form + とおもいます for 'I think ...'."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which sentence means 'I think it will rain'?",
+      "options": [
+        "あめが ふるとおもいます。",
+        "あめが ふりますとおもいます。",
+        "あめを おもいます。",
+        "あめが ふるでしょうと。"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I think it is expensive' using とおもいます:",
+      "patternJp": [
+        "たかい",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "takai",
+        "[SLOT]",
+        "."
+      ],
+      "slot": {
+        "answer": "とおもいます",
+        "answerRomaji": "to omoimasu",
+        "hint": "The phrase that means 'I think' after a plain sentence.",
+        "acceptAlternatives": [
+          "to omoimasu",
+          "と思います",
+          "と 思います"
+        ]
+      },
+      "translation": "I think it is expensive.",
+      "speakText": "たかいとおもいます。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly asks 'May I eat here?'",
+      "title": "Permission with ても いいですか",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "ここで たべても いいですか。",
+          "romaji": "koko de tabete mo ii desu ka.",
+          "en": "May I eat here?",
+          "note": "Use te-form + もいいですか for asking permission.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "ここで たべますもいいですか。",
+          "romaji": "koko de tabemasu mo ii desu ka.",
+          "en": "(intended: may I eat here?)",
+          "note": "Use the te-form before もいい, not the ます-form.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "ここで たべてはいけません。",
+          "romaji": "koko de tabete wa ikemasen.",
+          "en": "You must not eat here.",
+          "note": "This is prohibition, the opposite of permission.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Permission uses te-form + もいいですか.",
+      "speakText": "ここで たべても いいですか。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly says 'You must not touch'?",
+      "title": "Prohibition with てはいけません",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "さわってはいけません。",
+          "romaji": "sawatte wa ikemasen.",
+          "en": "You must not touch.",
+          "note": "te-form + はいけません gives a firm prohibition.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "さわるはいけません。",
+          "romaji": "sawaru wa ikemasen.",
+          "en": "(intended: you must not touch)",
+          "note": "Use te-form before はいけません, not dictionary form.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "さわっても いいです。",
+          "romaji": "sawatte mo ii desu.",
+          "en": "It is okay to touch.",
+          "note": "This gives permission, not prohibition.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Prohibition uses te-form + はいけません.",
+      "speakText": "さわってはいけません。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sounds like a probability statement?",
+      "title": "でしょう for probably",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "あしたは あめでしょう。",
+          "romaji": "ashita wa ame deshou.",
+          "en": "It will probably rain tomorrow.",
+          "note": "でしょう marks a polite guess or probability.",
+          "correct": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "あしたは あめです。",
+          "romaji": "ashita wa ame desu.",
+          "en": "It will rain tomorrow.",
+          "note": "This states the forecast more directly, without the probability tone.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "あしたは あめても いいです。",
+          "romaji": "ashita wa ame te mo ii desu.",
+          "en": "(ungrammatical)",
+          "note": "Permission patterns need a verb te-form, not the noun あめ.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use でしょう when you mean 'probably' or 'I suppose'.",
+      "speakText": "あしたは あめでしょう。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly says 'I think they won't come'?",
+      "title": "Plain form before とおもいます",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "こないとおもいます。",
+          "romaji": "konai to omoimasu.",
+          "en": "I think they won't come.",
+          "note": "Use the plain negative form before とおもいます.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "きませんとおもいます。",
+          "romaji": "kimasen to omoimasu.",
+          "en": "(intended: I think they won't come)",
+          "note": "At this level, use the plain form before とおもいます, not ます-form negative.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "くるでしょう。",
+          "romaji": "kuru deshou.",
+          "en": "They will probably come.",
+          "note": "This is probability and positive, not 'I think they won't come'.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Put a plain-form thought before とおもいます.",
+      "speakText": "こないとおもいます。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Permission and Probability in Context",
+      "intro": "These examples combine permission, prohibition, probability, and 'I think' statements in simple everyday contexts.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "English"
+        ],
+        [
+          "しゃしんを とっても いいですか。",
+          "shashin o totte mo ii desu ka.",
+          "May I take a photo?"
+        ],
+        [
+          "はい、いいですよ。",
+          "hai, ii desu yo.",
+          "Yes, that's okay."
+        ],
+        [
+          "ここで たべても いいです。",
+          "koko de tabete mo ii desu.",
+          "It is okay to eat here."
+        ],
+        [
+          "ここで たばこを すってはいけません。",
+          "koko de tabako o sutte wa ikemasen.",
+          "You must not smoke here."
+        ],
+        [
+          "はいってはいけません。",
+          "haitte wa ikemasen.",
+          "You must not enter."
+        ],
+        [
+          "あしたは あめでしょう。",
+          "ashita wa ame deshou.",
+          "It will probably rain tomorrow."
+        ],
+        [
+          "だいじょうぶでしょう。",
+          "daijoubu deshou.",
+          "It will probably be okay."
+        ],
+        [
+          "たかいとおもいます。",
+          "takai to omoimasu.",
+          "I think it is expensive."
+        ]
+      ],
+      "takeaway": "Use ても いい for permission, てはいけません for prohibition, でしょう for probably, and とおもいます for I think."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "しゃしんを とっても いいですか。",
+      "options": [
+        "May I take a photo?",
+        "Please take a photo.",
+        "You must not take photos.",
+        "Did you take a photo?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "はい、いいですよ。",
+      "options": [
+        "No, that is not allowed.",
+        "Yes, that's okay.",
+        "Please hurry.",
+        "It will probably be good."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ここで たべても いいです。",
+      "options": [
+        "It is okay to eat here.",
+        "You must not eat here.",
+        "I want to eat here.",
+        "I think this is food."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ここで たばこを すってはいけません。",
+      "options": [
+        "It is okay to smoke here.",
+        "May I smoke here?",
+        "You must not smoke here.",
+        "I think this is tobacco."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "はいってはいけません。",
+      "options": [
+        "You must not enter.",
+        "Please enter.",
+        "May I enter?",
+        "It is probably inside."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "あしたは あめでしょう。",
+      "options": [
+        "It will probably rain tomorrow.",
+        "It rained yesterday.",
+        "Tomorrow is sunny.",
+        "May I go out tomorrow?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "だいじょうぶでしょう。",
+      "options": [
+        "It is not okay.",
+        "It will probably be okay.",
+        "Please be careful.",
+        "I think it is expensive."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "たかいとおもいます。",
+      "options": [
+        "I think it is expensive.",
+        "It is probably cheap.",
+        "May I buy it?",
+        "You must not touch it."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "しゃしんを とっても いいですか",
+      "answer": "shashin o totte mo ii desu ka",
+      "acceptAlternatives": [
+        "shashin wo tottemo ii desu ka"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "ここで たべても いいです",
+      "answer": "koko de tabete mo ii desu",
+      "acceptAlternatives": [
+        "koko de tabetemo ii desu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "ここで たばこを すってはいけません",
+      "answer": "koko de tabako o sutte wa ikemasen",
+      "acceptAlternatives": [
+        "koko de tabako wo suttewa ikemasen"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "はいってはいけません",
+      "answer": "haitte wa ikemasen",
+      "acceptAlternatives": [
+        "haittewa ikemasen"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "あしたは あめでしょう",
+      "answer": "ashita wa ame deshou",
+      "acceptAlternatives": [
+        "ashita wa ame desho"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "だいじょうぶでしょう",
+      "answer": "daijoubu deshou",
+      "acceptAlternatives": [
+        "daijobu deshou",
+        "daijoubu desho"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "たかいとおもいます",
+      "answer": "takai to omoimasu",
+      "acceptAlternatives": [
+        "takai to omouimasu",
+        "takaito omoimasu"
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning:",
+      "pairs": [
+        {
+          "left": "ても いいです",
+          "right": "it is okay to do"
+        },
+        {
+          "left": "てはいけません",
+          "right": "must not do"
+        },
+        {
+          "left": "でしょう",
+          "right": "probably / I suppose"
+        },
+        {
+          "left": "とおもいます",
+          "right": "I think"
+        },
+        {
+          "left": "しゃしん",
+          "right": "photo"
+        },
+        {
+          "left": "たばこ",
+          "right": "tobacco / cigarette"
+        },
+        {
+          "left": "あした",
+          "right": "tomorrow"
+        },
+        {
+          "left": "あめ",
+          "right": "rain"
+        },
+        {
+          "left": "だいじょうぶ",
+          "right": "okay / all right"
+        },
+        {
+          "left": "たかい",
+          "right": "expensive / high"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice - permission and probability",
+      "cards": [
+        {
+          "jp": "しゃしんを とっても いいですか。",
+          "romaji": "shashin o totte mo ii desu ka.",
+          "en": "May I take a photo?"
+        },
+        {
+          "jp": "はい、いいですよ。",
+          "romaji": "hai, ii desu yo.",
+          "en": "Yes, that's okay."
+        },
+        {
+          "jp": "ここで たべても いいです。",
+          "romaji": "koko de tabete mo ii desu.",
+          "en": "It is okay to eat here."
+        },
+        {
+          "jp": "ここで たばこを すってはいけません。",
+          "romaji": "koko de tabako o sutte wa ikemasen.",
+          "en": "You must not smoke here."
+        },
+        {
+          "jp": "はいってはいけません。",
+          "romaji": "haitte wa ikemasen.",
+          "en": "You must not enter."
+        },
+        {
+          "jp": "さわってはいけません。",
+          "romaji": "sawatte wa ikemasen.",
+          "en": "You must not touch."
+        },
+        {
+          "jp": "あしたは あめでしょう。",
+          "romaji": "ashita wa ame deshou.",
+          "en": "It will probably rain tomorrow."
+        },
+        {
+          "jp": "だいじょうぶでしょう。",
+          "romaji": "daijoubu deshou.",
+          "en": "It will probably be okay."
+        },
+        {
+          "jp": "たかいとおもいます。",
+          "romaji": "takai to omoimasu.",
+          "en": "I think it is expensive."
+        },
+        {
+          "jp": "こないとおもいます。",
+          "romaji": "konai to omoimasu.",
+          "en": "I think they won't come."
+        }
+      ]
+    }
+  ]
+}

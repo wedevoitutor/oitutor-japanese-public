@@ -1,0 +1,762 @@
+{
+  "id": "grammar-lesson-06",
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "の — Possession and Noun Connection",
+      "intro": "Use の to connect two nouns. The word before の describes or owns the word after it, so the modifier always comes first.",
+      "rows": [
+        [
+          "Pattern",
+          "Example",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "A の B (possession)",
+          "わたしの ほん",
+          "watashi no hon",
+          "my book"
+        ],
+        [
+          "A の B (noun + noun)",
+          "にほんの たべもの",
+          "nihon no tabemono",
+          "Japanese food"
+        ],
+        [
+          "A の B (possession)",
+          "わたしの かばん",
+          "watashi no kaban",
+          "my bag"
+        ],
+        [
+          "A の B (noun + noun)",
+          "にほんの えいが",
+          "nihon no eiga",
+          "Japanese movie"
+        ]
+      ],
+      "takeaway": "Put the owner or modifier to the left of の."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which phrase means 'my bag'?",
+      "options": [
+        "わたしの かばん (watashi no kaban)",
+        "かばんの わたし (kaban no watashi)",
+        "にほんの かばん (nihon no kaban)",
+        "わたしと かばん (watashi to kaban)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'This is my bag' using the possession particle:",
+      "patternJp": [
+        "これは わたし",
+        "[SLOT]",
+        "かばんです。"
+      ],
+      "patternRom": [
+        "kore wa watashi ",
+        "[SLOT]",
+        " kaban desu"
+      ],
+      "slot": {
+        "answer": "の",
+        "answerRomaji": "no",
+        "hint": "The particle that links an owner or modifier to a noun.",
+        "acceptAlternatives": [
+          "No",
+          "ノ"
+        ]
+      },
+      "translation": "This is my bag.",
+      "speakText": "これは わたしの かばんです。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "と — Complete List and Together With",
+      "intro": "Use と between nouns when the list is complete, or after a person/group to mean 'with'. It sounds like you are naming the exact items or companion.",
+      "rows": [
+        [
+          "Usage",
+          "Example",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "and (full list)",
+          "パンと ぎゅうにゅう",
+          "pan to gyuunyuu",
+          "bread and milk"
+        ],
+        [
+          "together with",
+          "ともだちと いきます",
+          "tomodachi to ikimasu",
+          "go with a friend"
+        ],
+        [
+          "and (full list)",
+          "りんごと バナナ",
+          "ringo to banana",
+          "apples and bananas"
+        ],
+        [
+          "together with",
+          "かぞくと しょくじ",
+          "kazoku to shokuji",
+          "a meal with family"
+        ]
+      ],
+      "takeaway": "Use と for a complete noun list, or for doing something with someone."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which particle makes a complete list, as in 'apples and bananas'?",
+      "options": [
+        "の (no)",
+        "と (to)",
+        "や (ya)",
+        "まで (made)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I bought apples and bananas' with a complete list:",
+      "patternJp": [
+        "りんご",
+        "[SLOT]",
+        "バナナを かいました。"
+      ],
+      "patternRom": [
+        "ringo ",
+        "[SLOT]",
+        " banana o kaimashita"
+      ],
+      "slot": {
+        "answer": "と",
+        "answerRomaji": "to",
+        "hint": "The particle for a complete list or together with.",
+        "acceptAlternatives": [
+          "To",
+          "ト"
+        ]
+      },
+      "translation": "I bought apples and bananas.",
+      "speakText": "りんごと バナナを かいました。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "や — Partial List",
+      "intro": "Use や between nouns when you are giving examples, not the full list. It often feels like 'things like A and B'.",
+      "rows": [
+        [
+          "Pattern",
+          "Example",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "A や B",
+          "すしや てんぷら",
+          "sushi ya tenpura",
+          "sushi, tempura, etc."
+        ],
+        [
+          "A や B が すきです",
+          "すしや てんぷらが すきです",
+          "sushi ya tenpura ga suki desu",
+          "I like things like sushi and tempura."
+        ]
+      ],
+      "takeaway": "Use や when the list is partial and there may be other examples too."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which particle means the list is partial, like 'sushi, tempura, and so on'?",
+      "options": [
+        "と (to)",
+        "の (no)",
+        "や (ya)",
+        "から (kara)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I like things like sushi and tempura' with a partial list:",
+      "patternJp": [
+        "すし",
+        "[SLOT]",
+        "てんぷらが すきです。"
+      ],
+      "patternRom": [
+        "sushi ",
+        "[SLOT]",
+        " tenpura ga suki desu"
+      ],
+      "slot": {
+        "answer": "や",
+        "answerRomaji": "ya",
+        "hint": "The particle for a partial list of examples.",
+        "acceptAlternatives": [
+          "Ya",
+          "ヤ"
+        ]
+      },
+      "translation": "I like things like sushi and tempura.",
+      "speakText": "すしや てんぷらが すきです。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "から・まで — From and Until",
+      "intro": "Use から for the start point and まで for the end point. The same pair works for time, places, pages, and other ranges.",
+      "rows": [
+        [
+          "Pattern",
+          "Example",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "START から END まで",
+          "くじから ごじまで",
+          "kuji kara goji made",
+          "from 9 o'clock until 5 o'clock"
+        ],
+        [
+          "place から place まで",
+          "うちから がっこうまで",
+          "uchi kara gakkou made",
+          "from home to school"
+        ],
+        [
+          "day から day まで",
+          "げつようびから きんようびまで",
+          "getsuyoubi kara kin'youbi made",
+          "from Monday to Friday"
+        ],
+        [
+          "place から place まで",
+          "とうきょうから おおさかまで",
+          "toukyou kara oosaka made",
+          "from Tokyo to Osaka"
+        ]
+      ],
+      "takeaway": "Use から for the starting edge and まで for the ending edge of a range."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which pair means 'from home to school'?",
+      "options": [
+        "うちの がっこう (uchi no gakkou)",
+        "うちと がっこう (uchi to gakkou)",
+        "うちや がっこう (uchi ya gakkou)",
+        "うちから がっこうまで (uchi kara gakkou made)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'from home to school' by filling the end-point particle:",
+      "patternJp": [
+        "うちから がっこう",
+        "[SLOT]"
+      ],
+      "patternRom": [
+        "uchi kara gakkou ",
+        "[SLOT]"
+      ],
+      "slot": {
+        "answer": "まで",
+        "answerRomaji": "made",
+        "hint": "The particle that marks the end point of a range.",
+        "acceptAlternatives": [
+          "Made",
+          "マデ"
+        ]
+      },
+      "translation": "from home to school",
+      "speakText": "うちから がっこうまで"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase correctly means 'my school's teacher'?",
+      "title": "の chains — modifier left of の",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "わたしの がっこうの せんせい",
+          "romaji": "watashi no gakkou no sensei",
+          "en": "my school's teacher",
+          "note": "The chain moves left to right: I -> school -> teacher.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "せんせいの がっこうの わたし",
+          "romaji": "sensei no gakkou no watashi",
+          "en": "(intended: my school's teacher)",
+          "note": "Reversing the order changes the meaning completely.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "わたしと がっこうの せんせい",
+          "romaji": "watashi to gakkou no sensei",
+          "en": "me and the school's teacher",
+          "note": "と connects nouns as a list; it does not show possession here.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "にほんの がっこうの せんせい",
+          "romaji": "nihon no gakkou no sensei",
+          "en": "a teacher at a Japanese school",
+          "note": "This is grammatical, but the first modifier is Japan, not me.",
+          "correct": false
+        }
+      ],
+      "takeaway": "In a の chain, put each modifier before the thing it describes.",
+      "speakText": "わたしの がっこうの せんせい"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence says you bought apples and bananas as a complete list?",
+      "title": "と vs や — complete vs partial list",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "りんごと バナナを かいました。",
+          "romaji": "ringo to banana o kaimashita.",
+          "en": "I bought apples and bananas.",
+          "note": "と implies that apples and bananas are the complete list.",
+          "correct": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "りんごや バナナを かいました。",
+          "romaji": "ringo ya banana o kaimashita.",
+          "en": "I bought apples, bananas, and other things.",
+          "note": "や makes the list partial, so there were probably other items too.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "りんごの バナナを かいました。",
+          "romaji": "ringo no banana o kaimashita.",
+          "en": "(unnatural)",
+          "note": "の connects nouns as a modifier; it does not mean 'and'.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "りんごから バナナまで かいました。",
+          "romaji": "ringo kara banana made kaimashita.",
+          "en": "(unnatural range)",
+          "note": "から and まで mark a range, not a shopping list.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use と for a complete list. Use や when the list is only examples.",
+      "speakText": "りんごと バナナを かいました。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence correctly uses から and まで for a time range?",
+      "title": "から～まで pairs any range",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "くじから じゅういちじまで べんきょうします。",
+          "romaji": "kuji kara juuichi-ji made benkyou shimasu.",
+          "en": "I study from 9 until 11 o'clock.",
+          "note": "から marks the start; まで marks the end.",
+          "correct": true
+        },
+        {
+          "label": "WRONG",
+          "jp": "くじまで じゅういちじから べんきょうします。",
+          "romaji": "kuji made juuichi-ji kara benkyou shimasu.",
+          "en": "(reversed range)",
+          "note": "The start point should come before から and the end point before まで.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "くじと じゅういちじを べんきょうします。",
+          "romaji": "kuji to juuichi-ji o benkyou shimasu.",
+          "en": "(ungrammatical)",
+          "note": "と lists nouns; it does not create a time range here.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "えきから うちまで あるきます。",
+          "romaji": "eki kara uchi made arukimasu.",
+          "en": "I walk from the station to home.",
+          "note": "This is a correct place range, but the prompt asks for a time range.",
+          "correct": false
+        }
+      ],
+      "takeaway": "から and まで can pair around time, place, or other ranges.",
+      "speakText": "くじから じゅういちじまで べんきょうします。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence means the action continues until 5 o'clock?",
+      "title": "まで vs までに — continuous vs deadline",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "ごじまで はたらきます。",
+          "romaji": "goji made hatarakimasu.",
+          "en": "I work until 5 o'clock.",
+          "note": "まで marks an ongoing action that continues up to that point.",
+          "correct": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "ごじまでに かえります。",
+          "romaji": "goji made ni kaerimasu.",
+          "en": "I will return by 5 o'clock.",
+          "note": "までに marks a deadline for completing the action.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "ごじから はたらきます。",
+          "romaji": "goji kara hatarakimasu.",
+          "en": "I work from 5 o'clock.",
+          "note": "から marks the start point, not the end point.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "ごじと はたらきます。",
+          "romaji": "goji to hatarakimasu.",
+          "en": "(ungrammatical)",
+          "note": "と does not mark an ending time.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use まで for ongoing 'until'; use までに for a deadline.",
+      "speakText": "ごじまで はたらきます。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Connecting Particles in Context",
+      "intro": "These examples show the particles inside full phrases and sentences. Notice whether the particle links ownership, lists nouns, gives examples, or marks a range.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "English"
+        ],
+        [
+          "これは わたしの かばんです。",
+          "kore wa watashi no kaban desu.",
+          "This is my bag."
+        ],
+        [
+          "にほんの えいがを みました。",
+          "nihon no eiga o mimashita.",
+          "I watched a Japanese movie."
+        ],
+        [
+          "りんごと バナナを かいました。",
+          "ringo to banana o kaimashita.",
+          "I bought apples and bananas."
+        ],
+        [
+          "かぞくと しょくじを しました。",
+          "kazoku to shokuji o shimashita.",
+          "I had a meal with my family."
+        ],
+        [
+          "すしや てんぷらが すきです。",
+          "sushi ya tenpura ga suki desu.",
+          "I like things like sushi and tempura."
+        ],
+        [
+          "うちから がっこうまで じゅっぷんです。",
+          "uchi kara gakkou made juppun desu.",
+          "It's 10 minutes from home to school."
+        ],
+        [
+          "げつようびから きんようびまで はたらきます。",
+          "getsuyoubi kara kin'youbi made hatarakimasu.",
+          "I work from Monday to Friday."
+        ],
+        [
+          "とうきょうから おおさかまで しんかんせんで いきます。",
+          "toukyou kara oosaka made shinkansen de ikimasu.",
+          "I go from Tokyo to Osaka by bullet train."
+        ]
+      ],
+      "takeaway": "Particles are small, but they decide how the nouns relate."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "わたしの かばんです。",
+      "options": [
+        "It is my bag.",
+        "It is your bag.",
+        "Where is the bag?",
+        "I bought a bag."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "りんごと バナナを かいました。",
+      "options": [
+        "I like apples and bananas.",
+        "I ate apples and bananas.",
+        "I bought apples and bananas.",
+        "I have apples or bananas."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "すしや てんぷらが すきです。",
+      "options": [
+        "I only like sushi and tempura.",
+        "I like things like sushi and tempura.",
+        "I ate sushi and tempura.",
+        "I don't like sushi or tempura."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "げつようびから きんようびまで はたらきます。",
+      "options": [
+        "I work on Monday and Friday.",
+        "I rest from Monday to Friday.",
+        "I work from Monday to Friday.",
+        "I work until Monday."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "うちから がっこうまで じゅっぷんです。",
+      "options": [
+        "It takes 10 minutes from school to the station.",
+        "It is 10 minutes from home to school.",
+        "School starts at 10 o'clock.",
+        "The school is 10 minutes away from the station."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "かぞくと しょくじを しました。",
+      "options": [
+        "I cooked for my family.",
+        "My family went shopping.",
+        "I had a meal with my family.",
+        "My family is eating now."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "にほんの えいがを みました。",
+      "options": [
+        "I watched a Korean movie.",
+        "I watched a Japanese movie.",
+        "I want to watch a movie.",
+        "I am a Japanese actor."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "くじから じゅういちじまで べんきょうします。",
+      "options": [
+        "I study at 9 o'clock.",
+        "I study from 9 until 11 o'clock.",
+        "I finish studying at 11 o'clock.",
+        "I study for 9 to 11 hours."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "わたしの かばんです",
+      "answer": "watashi no kaban desu",
+      "acceptAlternatives": [
+        "watashi no kaban desu."
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "にほんの えいが",
+      "answer": "nihon no eiga",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "りんごと バナナ",
+      "answer": "ringo to banana",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "かぞくと しょくじを しました",
+      "answer": "kazoku to shokuji o shimashita",
+      "acceptAlternatives": [
+        "kazoku to shokuji o shimashita"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "すしや てんぷらが すきです",
+      "answer": "sushi ya tenpura ga suki desu",
+      "acceptAlternatives": [
+        "sushi ya tenpura ga suki desu."
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "うちから がっこうまで",
+      "answer": "uchi kara gakkou made",
+      "acceptAlternatives": [
+        "uchi kara gakko made"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "げつようびから きんようびまで",
+      "answer": "getsuyoubi kara kin'youbi made",
+      "acceptAlternatives": [
+        "getsuyoubi kara kinyoubi made",
+        "getsuyobi kara kinyobi made"
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning:",
+      "pairs": [
+        {
+          "left": "かばん",
+          "right": "bag"
+        },
+        {
+          "left": "えいが",
+          "right": "movie / film"
+        },
+        {
+          "left": "りんご",
+          "right": "apple"
+        },
+        {
+          "left": "バナナ",
+          "right": "banana"
+        },
+        {
+          "left": "かぞく",
+          "right": "family"
+        },
+        {
+          "left": "しょくじ",
+          "right": "meal"
+        },
+        {
+          "left": "すし",
+          "right": "sushi"
+        },
+        {
+          "left": "てんぷら",
+          "right": "tempura"
+        },
+        {
+          "left": "しんかんせん",
+          "right": "bullet train"
+        },
+        {
+          "left": "ページ",
+          "right": "page"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice — connecting particles",
+      "cards": [
+        {
+          "jp": "これは わたしの かばんです。",
+          "romaji": "kore wa watashi no kaban desu.",
+          "en": "This is my bag."
+        },
+        {
+          "jp": "にほんの えいがを みました。",
+          "romaji": "nihon no eiga o mimashita.",
+          "en": "I watched a Japanese movie."
+        },
+        {
+          "jp": "りんごと バナナを かいました。",
+          "romaji": "ringo to banana o kaimashita.",
+          "en": "I bought apples and bananas."
+        },
+        {
+          "jp": "かぞくと しょくじを しました。",
+          "romaji": "kazoku to shokuji o shimashita.",
+          "en": "I had a meal with my family."
+        },
+        {
+          "jp": "すしや てんぷらが すきです。",
+          "romaji": "sushi ya tenpura ga suki desu.",
+          "en": "I like things like sushi and tempura."
+        },
+        {
+          "jp": "うちから がっこうまで じゅっぷんです。",
+          "romaji": "uchi kara gakkou made juppun desu.",
+          "en": "It's 10 minutes from home to school."
+        },
+        {
+          "jp": "げつようびから きんようびまで はたらきます。",
+          "romaji": "getsuyoubi kara kin'youbi made hatarakimasu.",
+          "en": "I work from Monday to Friday."
+        },
+        {
+          "jp": "とうきょうから おおさかまで しんかんせんで いきます。",
+          "romaji": "toukyou kara oosaka made shinkansen de ikimasu.",
+          "en": "I go from Tokyo to Osaka by bullet train."
+        },
+        {
+          "jp": "わたしの がっこうの せんせい",
+          "romaji": "watashi no gakkou no sensei",
+          "en": "My school's teacher"
+        },
+        {
+          "jp": "いちページから じゅうページまで よみます。",
+          "romaji": "ichi peeji kara juu peeji made yomimasu.",
+          "en": "I read from page 1 to page 10."
+        }
+      ]
+    }
+  ]
+}

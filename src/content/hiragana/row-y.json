@@ -1,0 +1,307 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Y-row — や行",
+      "rows": [
+        [
+          "や ya",
+          "ゆ yu",
+          "よ yo"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "や",
+          "back": "ya",
+          "speakText": "や"
+        },
+        {
+          "front": "ゆ",
+          "back": "yu",
+          "speakText": "ゆ"
+        },
+        {
+          "front": "よ",
+          "back": "yo",
+          "speakText": "よ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ya?",
+      "options": [
+        "ゆ",
+        "や",
+        "よ",
+        "か"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Yo?",
+      "options": [
+        "ゆ",
+        "も",
+        "よ",
+        "ま"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "よ",
+      "answer": "yo"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "や",
+      "answer": "ya"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "や",
+          "ya"
+        ],
+        [
+          "ゆ",
+          "yu"
+        ],
+        [
+          "よ",
+          "yo"
+        ],
+        [
+          "ま",
+          "ma"
+        ],
+        [
+          "も",
+          "mo"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "や",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ゆ",
+        "や",
+        "よ",
+        "ま"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ゆ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "や",
+        "ゆ",
+        "よ",
+        "む"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Yu?",
+      "options": [
+        "み",
+        "も",
+        "ゆ",
+        "ま"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ゆ",
+      "answer": "yu"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ya?",
+      "options": [
+        "か",
+        "ゆ",
+        "や",
+        "よ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Yo?",
+      "options": [
+        "ゆ",
+        "ま",
+        "よ",
+        "や"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "よ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "や",
+        "よ",
+        "ゆ",
+        "も"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "山 [やま] (yama)",
+          "mountain"
+        ],
+        [
+          "雪 [ゆき] (yuki)",
+          "snow"
+        ],
+        [
+          "夜 [よる] (yoru)",
+          "night"
+        ],
+        [
+          "夢 [ゆめ] (yume)",
+          "dream"
+        ],
+        [
+          "屋根 [やね] (yane)",
+          "roof"
+        ],
+        [
+          "ゆきが すきです",
+          "I like snow"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "mountain",
+      "answer": [
+        "や",
+        "ま"
+      ],
+      "bank": [
+        "や",
+        "ゆ",
+        "よ",
+        "ま"
+      ],
+      "speakText": "やま"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "snow",
+      "answer": [
+        "ゆ",
+        "き"
+      ],
+      "bank": [
+        "や",
+        "ゆ",
+        "よ",
+        "き"
+      ],
+      "speakText": "ゆき"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "night",
+      "answer": [
+        "よ"
+      ],
+      "suffix": "る",
+      "bank": [
+        "や",
+        "ゆ",
+        "よ"
+      ],
+      "speakText": "よる"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "やま",
+      "answer": "yama"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ゆき",
+      "answer": "yuki"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "やま",
+          "mountain"
+        ],
+        [
+          "ゆき",
+          "snow"
+        ],
+        [
+          "よる",
+          "night"
+        ],
+        [
+          "ゆめ",
+          "dream"
+        ],
+        [
+          "やね",
+          "roof"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ゆ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "よ",
+        "ゆ",
+        "や",
+        "み"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "dream",
+      "answer": [
+        "ゆ",
+        "め"
+      ],
+      "bank": [
+        "や",
+        "ゆ",
+        "よ",
+        "め"
+      ],
+      "speakText": "ゆめ"
+    }
+  ],
+  "id": "hiragana-row-y"
+}

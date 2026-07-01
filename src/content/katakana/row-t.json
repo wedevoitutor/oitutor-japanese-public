@@ -1,0 +1,373 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "T-row — タ行",
+      "rows": [
+        [
+          "タ ta",
+          "チ chi",
+          "ツ tsu",
+          "テ te",
+          "ト to"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ツ",
+          "back": "tsu",
+          "speakText": "ツ"
+        },
+        {
+          "front": "テ",
+          "back": "te",
+          "speakText": "テ"
+        },
+        {
+          "front": "タ",
+          "back": "ta",
+          "speakText": "タ"
+        },
+        {
+          "front": "ト",
+          "back": "to",
+          "speakText": "ト"
+        },
+        {
+          "front": "チ",
+          "back": "chi",
+          "speakText": "チ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ta?",
+      "options": [
+        "テ",
+        "タ",
+        "ト",
+        "チ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is To?",
+      "options": [
+        "ツ",
+        "タ",
+        "ト",
+        "テ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "チ",
+      "answer": "chi",
+      "acceptAlternatives": [
+        "ti"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ツ",
+      "answer": "tsu",
+      "acceptAlternatives": [
+        "tu"
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "タ",
+          "ta"
+        ],
+        [
+          "チ",
+          "chi"
+        ],
+        [
+          "ツ",
+          "tsu"
+        ],
+        [
+          "テ",
+          "te"
+        ],
+        [
+          "ト",
+          "to"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "タ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "タ",
+        "テ",
+        "ト",
+        "ツ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "listening",
+      "speakText": "チ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ツ",
+        "チ",
+        "テ",
+        "ト"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Te?",
+      "options": [
+        "テ",
+        "チ",
+        "ト",
+        "タ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "テ",
+      "answer": "te"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ト",
+      "answer": "to"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Tsu? (watch for look-alikes — シ is shi)",
+      "options": [
+        "シ",
+        "ツ",
+        "ン",
+        "ソ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Chi? (watch for look-alikes — テ is te, ラ is ra)",
+      "options": [
+        "テ",
+        "ラ",
+        "チ",
+        "キ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "ツ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "シ",
+        "ツ",
+        "チ",
+        "ト"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "テ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "タ",
+        "チ",
+        "ツ",
+        "テ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "タ",
+      "answer": "ta"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ta? (watch for look-alikes)",
+      "options": [
+        "ナ",
+        "ク",
+        "タ",
+        "ツ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "タクシー (takushii)",
+          "taxi"
+        ],
+        [
+          "テスト (tesuto)",
+          "test"
+        ],
+        [
+          "トースト (toosuto)",
+          "toast"
+        ],
+        [
+          "スーツ (suutsu)",
+          "suit"
+        ],
+        [
+          "コースト (koosuto)",
+          "coast"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "taxi",
+      "answer": [
+        "タ",
+        "ク",
+        "シ",
+        "ー"
+      ],
+      "bank": [
+        "タ",
+        "チ",
+        "ツ",
+        "テ",
+        "ト",
+        "ク",
+        "シ",
+        "ー"
+      ],
+      "speakText": "タクシー"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "test",
+      "answer": [
+        "テ",
+        "ス",
+        "ト"
+      ],
+      "bank": [
+        "タ",
+        "チ",
+        "ツ",
+        "テ",
+        "ト",
+        "ス"
+      ],
+      "speakText": "テスト"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "toast",
+      "answer": [
+        "ト",
+        "ー",
+        "ス",
+        "ト"
+      ],
+      "bank": [
+        "タ",
+        "チ",
+        "ツ",
+        "テ",
+        "ト",
+        "ス",
+        "ー"
+      ],
+      "speakText": "トースト"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "テスト",
+      "answer": "tesuto"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "タクシー",
+      "answer": "takushii"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "タクシー",
+          "taxi"
+        ],
+        [
+          "テスト",
+          "test"
+        ],
+        [
+          "トースト",
+          "toast"
+        ],
+        [
+          "スーツ",
+          "suit"
+        ],
+        [
+          "コースト",
+          "coast"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ト",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "タ",
+        "チ",
+        "ツ",
+        "ト"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "suit",
+      "answer": [
+        "ス",
+        "ー",
+        "ツ"
+      ],
+      "bank": [
+        "タ",
+        "チ",
+        "ツ",
+        "テ",
+        "ト",
+        "ス",
+        "ー"
+      ],
+      "speakText": "スーツ"
+    }
+  ],
+  "id": "katakana-row-t"
+}

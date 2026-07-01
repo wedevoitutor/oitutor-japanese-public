@@ -1,0 +1,1141 @@
+{
+  "id": "kanji-batch-08",
+  "misconceptions": [
+    {
+      "kanji": "千",
+      "error": "Overuses one reading of 千 and misses the reading in 千円.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "水",
+      "error": "Overuses one reading of 水 and misses the reading in 水曜日.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "男",
+      "error": "Overuses one reading of 男 and misses the reading in 男子.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "校",
+      "error": "Overuses one reading of 校 and misses the reading in 学校.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "土",
+      "error": "Overuses one reading of 土 and misses the reading in 土曜日.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Batch 08 - 千 水 男 校 土",
+      "intro": "This batch teaches 千 水 男 校 土 with anchor readings, N5 words, and short sentence practice.",
+      "rows": [
+        [
+          "Kanji",
+          "Meaning",
+          "Anchor reading",
+          "Other reading",
+          "Memory hook"
+        ],
+        [
+          "千",
+          "thousand",
+          "セン",
+          "ち",
+          "千 → thousand"
+        ],
+        [
+          "水",
+          "water",
+          "スイ",
+          "みず",
+          "水 → water"
+        ],
+        [
+          "男",
+          "man / male",
+          "ダン",
+          "おとこ",
+          "男 → man / male"
+        ],
+        [
+          "校",
+          "school",
+          "コウ",
+          "—",
+          "校 → school"
+        ],
+        [
+          "土",
+          "earth / soil",
+          "ド",
+          "つち",
+          "土 → earth / soil"
+        ]
+      ],
+      "takeaway": "Recognise the kanji first, then confirm the reading from the word around it."
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "千",
+      "meaning": "thousand",
+      "memoryHook": "千 visually anchors thousand.",
+      "jlpt": "N5",
+      "strokeCount": 3,
+      "components": [
+        {
+          "shape": "千",
+          "note": "Use the whole shape as a visual anchor for thousand; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "セン",
+            "romaji": "sen",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 千円.",
+            "anchorExampleWord": "千円"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "ち",
+            "romaji": "chi"
+          }
+        ]
+      },
+      "mnemonic": "Connect 千 to thousand; practise セン in 千円 and compare it with せん in 千.",
+      "confusables": [
+        {
+          "kanji": "川",
+          "meaning": "river",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "名",
+          "meaning": "name",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "千円",
+          "reading": "せんえん",
+          "meaning": "1000 yen"
+        },
+        {
+          "word": "千",
+          "reading": "せん",
+          "meaning": "thousand"
+        },
+        {
+          "word": "二千",
+          "reading": "にせん",
+          "meaning": "two thousand"
+        },
+        {
+          "word": "三千",
+          "reading": "さんぜん",
+          "meaning": "three thousand"
+        },
+        {
+          "word": "千人",
+          "reading": "せんにん",
+          "meaning": "one thousand people"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "千円を払います。",
+          "highlight": "千",
+          "reading": "せんえんを はらいます",
+          "en": "I pay 1000 yen."
+        },
+        {
+          "jp": "二千円の本です。",
+          "highlight": "千",
+          "reading": "にせんえんの ほんです",
+          "en": "It is a 2000-yen book."
+        },
+        {
+          "jp": "千人が駅に来ます。",
+          "highlight": "千",
+          "reading": "せんにんが えきに きます",
+          "en": "One thousand people come to the station."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "水",
+      "meaning": "water",
+      "memoryHook": "水 visually anchors water.",
+      "jlpt": "N5",
+      "strokeCount": 4,
+      "components": [
+        {
+          "shape": "水",
+          "note": "Use the whole shape as a visual anchor for water; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "スイ",
+            "romaji": "sui",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 水曜日.",
+            "anchorExampleWord": "水曜日"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "みず",
+            "romaji": "mizu"
+          }
+        ]
+      },
+      "mnemonic": "Connect 水 to water; practise スイ in 水曜日 and compare it with みず in 水.",
+      "confusables": [
+        {
+          "kanji": "川",
+          "meaning": "river",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "名",
+          "meaning": "name",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "水曜日",
+          "reading": "すいようび",
+          "meaning": "Wednesday"
+        },
+        {
+          "word": "水",
+          "reading": "みず",
+          "meaning": "water"
+        },
+        {
+          "word": "水道",
+          "reading": "すいどう",
+          "meaning": "water supply / tap water"
+        },
+        {
+          "word": "水泳",
+          "reading": "すいえい",
+          "meaning": "swimming"
+        },
+        {
+          "word": "水着",
+          "reading": "みずぎ",
+          "meaning": "swimsuit"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "水を飲みます。",
+          "highlight": "水",
+          "reading": "みずを のみます",
+          "en": "I drink water."
+        },
+        {
+          "jp": "水曜日に休みます。",
+          "highlight": "水",
+          "reading": "すいようびに やすみます",
+          "en": "I rest on Wednesday."
+        },
+        {
+          "jp": "水道の水は冷たいです。",
+          "highlight": "水",
+          "reading": "すいどうの みずは つめたいです",
+          "en": "The tap water is cold."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "男",
+      "meaning": "man / male",
+      "memoryHook": "男 visually anchors man / male.",
+      "jlpt": "N5",
+      "strokeCount": 7,
+      "components": [
+        {
+          "shape": "男",
+          "note": "Use the whole shape as a visual anchor for man / male; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ダン",
+            "romaji": "dan",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 男子.",
+            "anchorExampleWord": "男子"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "おとこ",
+            "romaji": "otoko"
+          }
+        ]
+      },
+      "mnemonic": "Connect 男 to man / male; practise ダン in 男子 and compare it with おとこ in 男.",
+      "confusables": [
+        {
+          "kanji": "川",
+          "meaning": "river",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "名",
+          "meaning": "name",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "男子",
+          "reading": "だんし",
+          "meaning": "boy / male student"
+        },
+        {
+          "word": "男",
+          "reading": "おとこ",
+          "meaning": "man"
+        },
+        {
+          "word": "男の子",
+          "reading": "おとこのこ",
+          "meaning": "boy"
+        },
+        {
+          "word": "男性",
+          "reading": "だんせい",
+          "meaning": "man / male"
+        },
+        {
+          "word": "男女",
+          "reading": "だんじょ",
+          "meaning": "men and women"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "男の子が走ります。",
+          "highlight": "男",
+          "reading": "おとこのこが はしります",
+          "en": "The boy runs."
+        },
+        {
+          "jp": "男子学生が教室に入ります。",
+          "highlight": "男",
+          "reading": "だんしがくせいが きょうしつに はいります",
+          "en": "A male student enters the classroom."
+        },
+        {
+          "jp": "男女で話します。",
+          "highlight": "男",
+          "reading": "だんじょで はなします",
+          "en": "Men and women talk together."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "校",
+      "meaning": "school",
+      "memoryHook": "校 visually anchors school.",
+      "jlpt": "N5",
+      "strokeCount": 10,
+      "components": [
+        {
+          "shape": "校",
+          "note": "Use the whole shape as a visual anchor for school; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "コウ",
+            "romaji": "kou",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 学校.",
+            "anchorExampleWord": "学校"
+          }
+        ],
+        "kun": []
+      },
+      "mnemonic": "Connect 校 to school; practise コウ in 学校 and compare it with しょうがっこう in 小学校.",
+      "confusables": [
+        {
+          "kanji": "川",
+          "meaning": "river",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "名",
+          "meaning": "name",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "学校",
+          "reading": "がっこう",
+          "meaning": "school"
+        },
+        {
+          "word": "小学校",
+          "reading": "しょうがっこう",
+          "meaning": "elementary school"
+        },
+        {
+          "word": "高校",
+          "reading": "こうこう",
+          "meaning": "high school"
+        },
+        {
+          "word": "校長",
+          "reading": "こうちょう",
+          "meaning": "principal"
+        },
+        {
+          "word": "校門",
+          "reading": "こうもん",
+          "meaning": "school gate"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "学校へ行きます。",
+          "highlight": "校",
+          "reading": "がっこうへ いきます",
+          "en": "I go to school."
+        },
+        {
+          "jp": "小学校で日本語を習います。",
+          "highlight": "校",
+          "reading": "しょうがっこうで にほんごを ならいます",
+          "en": "I learn Japanese at elementary school."
+        },
+        {
+          "jp": "校長先生が話します。",
+          "highlight": "校",
+          "reading": "こうちょうせんせいが はなします",
+          "en": "The principal speaks."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "土",
+      "meaning": "earth / soil",
+      "memoryHook": "土 visually anchors earth / soil.",
+      "jlpt": "N5",
+      "strokeCount": 3,
+      "components": [
+        {
+          "shape": "土",
+          "note": "Use the whole shape as a visual anchor for earth / soil; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ド",
+            "romaji": "do",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 土曜日.",
+            "anchorExampleWord": "土曜日"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "つち",
+            "romaji": "tsuchi"
+          }
+        ]
+      },
+      "mnemonic": "Connect 土 to earth / soil; practise ド in 土曜日 and compare it with つち in 土.",
+      "confusables": [
+        {
+          "kanji": "川",
+          "meaning": "river",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "名",
+          "meaning": "name",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "土曜日",
+          "reading": "どようび",
+          "meaning": "Saturday"
+        },
+        {
+          "word": "土",
+          "reading": "つち",
+          "meaning": "soil"
+        },
+        {
+          "word": "土日",
+          "reading": "どにち",
+          "meaning": "Saturday and Sunday / weekend"
+        },
+        {
+          "word": "土地",
+          "reading": "とち",
+          "meaning": "land"
+        },
+        {
+          "word": "土木",
+          "reading": "どぼく",
+          "meaning": "civil engineering"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "土曜日に友だちと会います。",
+          "highlight": "土",
+          "reading": "どようびに ともだちと あいます",
+          "en": "I meet a friend on Saturday."
+        },
+        {
+          "jp": "土を手でさわります。",
+          "highlight": "土",
+          "reading": "つちを てで さわります",
+          "en": "I touch the soil with my hand."
+        },
+        {
+          "jp": "土日は休みです。",
+          "highlight": "土",
+          "reading": "どにちは やすみです",
+          "en": "Saturday and Sunday are days off."
+        }
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "千",
+          "back": "thousand - セン",
+          "speakText": "千"
+        },
+        {
+          "front": "水",
+          "back": "water - スイ",
+          "speakText": "水"
+        },
+        {
+          "front": "男",
+          "back": "man / male - ダン",
+          "speakText": "男"
+        },
+        {
+          "front": "校",
+          "back": "school - コウ",
+          "speakText": "校"
+        },
+        {
+          "front": "土",
+          "back": "earth / soil - ド",
+          "speakText": "土"
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 千 (kana or romaji):",
+      "question": "千",
+      "speakText": "千",
+      "answer": "セン",
+      "acceptAlternatives": [
+        "sen",
+        "セン"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 水 (kana or romaji):",
+      "question": "水",
+      "speakText": "水",
+      "answer": "スイ",
+      "acceptAlternatives": [
+        "sui",
+        "スイ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 男 (kana or romaji):",
+      "question": "男",
+      "speakText": "男",
+      "answer": "ダン",
+      "acceptAlternatives": [
+        "dan",
+        "ダン"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 校 (kana or romaji):",
+      "question": "校",
+      "speakText": "校",
+      "answer": "コウ",
+      "acceptAlternatives": [
+        "ko",
+        "kou",
+        "コウ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 土 (kana or romaji):",
+      "question": "土",
+      "speakText": "土",
+      "answer": "ド",
+      "acceptAlternatives": [
+        "do",
+        "ド"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 千円 in hiragana or romaji:",
+      "question": "千円",
+      "speakText": "千円",
+      "answer": "せんえん",
+      "acceptAlternatives": [
+        "senen",
+        "せんえん"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "千"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 水曜日 in hiragana or romaji:",
+      "question": "水曜日",
+      "speakText": "水曜日",
+      "answer": "すいようび",
+      "acceptAlternatives": [
+        "suiyobi",
+        "suiyoubi",
+        "すいようび"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "水"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 男子 in hiragana or romaji:",
+      "question": "男子",
+      "speakText": "男子",
+      "answer": "だんし",
+      "acceptAlternatives": [
+        "danshi",
+        "だんし"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "男"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 学校 in hiragana or romaji:",
+      "question": "学校",
+      "speakText": "学校",
+      "answer": "がっこう",
+      "acceptAlternatives": [
+        "gakko",
+        "gakkou",
+        "がっこう"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "校"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 土曜日 in hiragana or romaji:",
+      "question": "土曜日",
+      "speakText": "土曜日",
+      "answer": "どようび",
+      "acceptAlternatives": [
+        "doyobi",
+        "doyoubi",
+        "どようび"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "土"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 男 in hiragana or romaji:",
+      "question": "男",
+      "speakText": "男",
+      "answer": "おとこ",
+      "acceptAlternatives": [
+        "otoko",
+        "おとこ"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "男"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "円を払います。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "千",
+        "answerRomaji": "sen",
+        "hint": "Choose the kanji for thousand.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "千",
+            "correct": true
+          },
+          {
+            "text": "水",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "水 means “water,” so it does not fit this prompt."
+          },
+          {
+            "text": "男",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "男 means “man / male,” so it does not fit this prompt."
+          },
+          {
+            "text": "校",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "校 means “school,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I pay 1000 yen.",
+      "speakText": "千円を払います。",
+      "targetKanji": "千",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "の子が走ります。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "男",
+        "answerRomaji": "dan",
+        "hint": "Choose the kanji for man / male.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "男",
+            "correct": true
+          },
+          {
+            "text": "千",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "千 means “thousand,” so it does not fit this prompt."
+          },
+          {
+            "text": "水",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "水 means “water,” so it does not fit this prompt."
+          },
+          {
+            "text": "校",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "校 means “school,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "The boy runs.",
+      "speakText": "男の子が走ります。",
+      "targetKanji": "男",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "曜日に友だちと会います。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "土",
+        "answerRomaji": "do",
+        "hint": "Choose the kanji for earth / soil.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "土",
+            "correct": true
+          },
+          {
+            "text": "千",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "千 means “thousand,” so it does not fit this prompt."
+          },
+          {
+            "text": "水",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "水 means “water,” so it does not fit this prompt."
+          },
+          {
+            "text": "男",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "男 means “man / male,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I meet a friend on Saturday.",
+      "speakText": "土曜日に友だちと会います。",
+      "targetKanji": "土",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 千 read in 千円?",
+      "word": "千円",
+      "targetKanji": "千",
+      "options": [
+        {
+          "kana": "せんえん",
+          "romaji": "senen",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "千円 is read せんえん in this vocabulary item."
+        },
+        {
+          "kana": "セン",
+          "romaji": "sen",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "セン is useful for 千, but not the full reading of 千円."
+        },
+        {
+          "kana": "ち",
+          "romaji": "chi",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "ち is another reading connected to 千, not the reading used in 千円."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 男 read in 男子?",
+      "word": "男子",
+      "targetKanji": "男",
+      "options": [
+        {
+          "kana": "だんし",
+          "romaji": "danshi",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "男子 is read だんし in this vocabulary item."
+        },
+        {
+          "kana": "ダン",
+          "romaji": "dan",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "ダン is useful for 男, but not the full reading of 男子."
+        },
+        {
+          "kana": "おとこ",
+          "romaji": "otoko",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "おとこ is another reading connected to 男, not the reading used in 男子."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 土 read in 土曜日?",
+      "word": "土曜日",
+      "targetKanji": "土",
+      "options": [
+        {
+          "kana": "どようび",
+          "romaji": "doyobi",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "土曜日 is read どようび in this vocabulary item."
+        },
+        {
+          "kana": "ド",
+          "romaji": "do",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "ド is useful for 土, but not the full reading of 土曜日."
+        },
+        {
+          "kana": "つち",
+          "romaji": "tsuchi",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "つち is another reading connected to 土, not the reading used in 土曜日."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji means 'water'?",
+      "options": [
+        {
+          "text": "水",
+          "correct": true
+        },
+        {
+          "text": "千",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "千 means “thousand,” so it does not fit this prompt."
+        },
+        {
+          "text": "男",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "男 means “man / male,” so it does not fit this prompt."
+        },
+        {
+          "text": "校",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "校 means “school,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the kanji you hear:",
+      "speakText": "校",
+      "options": [
+        {
+          "text": "校",
+          "correct": true
+        },
+        {
+          "text": "千",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "千 means “thousand,” so it does not fit this prompt."
+        },
+        {
+          "text": "水",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "水 means “water,” so it does not fit this prompt."
+        },
+        {
+          "text": "男",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "男 means “man / male,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji in 土曜日 (Saturday) means 'earth / soil'?",
+      "options": [
+        {
+          "text": "土",
+          "correct": true
+        },
+        {
+          "text": "千",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "千 means “thousand,” so it does not fit this prompt."
+        },
+        {
+          "text": "水",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "水 means “water,” so it does not fit this prompt."
+        },
+        {
+          "text": "男",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "男 means “man / male,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Review: which older kanji means 'river'?",
+      "reviewFrom": "kanji-batch-07",
+      "options": [
+        {
+          "text": "川",
+          "correct": true
+        },
+        {
+          "text": "女",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "女 means “woman / female,” so it does not fit this prompt."
+        },
+        {
+          "text": "百",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "百 means “hundred,” so it does not fit this prompt."
+        },
+        {
+          "text": "先",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "先 means “before / ahead,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Review: match older kanji to their meanings:",
+      "reviewFrom": [
+        "kanji-batch-06",
+        "kanji-batch-07"
+      ],
+      "pairs": [
+        {
+          "left": "百",
+          "right": "hundred",
+          "reviewFrom": "kanji-batch-07"
+        },
+        {
+          "left": "先",
+          "right": "before / ahead",
+          "reviewFrom": "kanji-batch-07"
+        },
+        {
+          "left": "名",
+          "right": "name",
+          "reviewFrom": "kanji-batch-07"
+        },
+        {
+          "left": "川",
+          "right": "river",
+          "reviewFrom": "kanji-batch-07"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each kanji to its meaning:",
+      "pairs": [
+        {
+          "left": "千",
+          "right": "thousand"
+        },
+        {
+          "left": "水",
+          "right": "water"
+        },
+        {
+          "left": "男",
+          "right": "man / male"
+        },
+        {
+          "left": "校",
+          "right": "school"
+        },
+        {
+          "left": "土",
+          "right": "earth / soil"
+        }
+      ]
+    }
+  ]
+}

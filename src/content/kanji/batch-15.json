@@ -1,0 +1,1144 @@
+{
+  "id": "kanji-batch-15",
+  "misconceptions": [
+    {
+      "kanji": "安",
+      "error": "Overuses one reading of 安 and misses the reading in 安全.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "新",
+      "error": "Overuses one reading of 新 and misses the reading in 新聞.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "古",
+      "error": "Overuses one reading of 古 and misses the reading in 中古.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "多",
+      "error": "Overuses one reading of 多 and misses the reading in 多分.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "少",
+      "error": "Overuses one reading of 少 and misses the reading in 少し.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Batch 15 - 安 新 古 多 少",
+      "intro": "This batch teaches 安 新 古 多 少 with anchor readings, N5 words, and short sentence practice.",
+      "rows": [
+        [
+          "Kanji",
+          "Meaning",
+          "Anchor reading",
+          "Other reading",
+          "Memory hook"
+        ],
+        [
+          "安",
+          "cheap / peaceful",
+          "アン",
+          "やすい",
+          "安 → cheap / peaceful"
+        ],
+        [
+          "新",
+          "new",
+          "シン",
+          "あたらしい",
+          "新 → new"
+        ],
+        [
+          "古",
+          "old",
+          "コ",
+          "ふるい",
+          "古 → old"
+        ],
+        [
+          "多",
+          "many / much",
+          "タ",
+          "おおい",
+          "多 → many / much"
+        ],
+        [
+          "少",
+          "few / little",
+          "ショウ",
+          "すくない",
+          "少 → few / little"
+        ]
+      ],
+      "takeaway": "Recognise the kanji first, then confirm the reading from the word around it."
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "安",
+      "meaning": "cheap / peaceful",
+      "memoryHook": "安 visually anchors cheap / peaceful.",
+      "jlpt": "N5",
+      "strokeCount": 6,
+      "components": [
+        {
+          "shape": "安",
+          "note": "Use the whole shape as a visual anchor for cheap / peaceful; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "アン",
+            "romaji": "an",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 安全.",
+            "anchorExampleWord": "安全"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "やすい",
+            "romaji": "yasui"
+          }
+        ]
+      },
+      "mnemonic": "Connect 安 to cheap / peaceful; practise アン in 安全 and compare it with やすい in 安い.",
+      "confusables": [
+        {
+          "kanji": "高",
+          "meaning": "high / expensive",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "文",
+          "meaning": "sentence / writing",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "安全",
+          "reading": "あんぜん",
+          "meaning": "safety"
+        },
+        {
+          "word": "安い",
+          "reading": "やすい",
+          "meaning": "cheap"
+        },
+        {
+          "word": "安心",
+          "reading": "あんしん",
+          "meaning": "relief / peace of mind"
+        },
+        {
+          "word": "安売り",
+          "reading": "やすうり",
+          "meaning": "sale / bargain"
+        },
+        {
+          "word": "不安",
+          "reading": "ふあん",
+          "meaning": "anxiety"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "安全に気をつけます。",
+          "highlight": "安",
+          "reading": "あんぜんに きを つけます",
+          "en": "I pay attention to safety."
+        },
+        {
+          "jp": "安い店で買います。",
+          "highlight": "安",
+          "reading": "やすい みせで かいます",
+          "en": "I buy it at a cheap shop."
+        },
+        {
+          "jp": "安心してください。",
+          "highlight": "安",
+          "reading": "あんしんしてください",
+          "en": "Please do not worry."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "新",
+      "meaning": "new",
+      "memoryHook": "新 visually anchors new.",
+      "jlpt": "N5",
+      "strokeCount": 13,
+      "components": [
+        {
+          "shape": "新",
+          "note": "Use the whole shape as a visual anchor for new; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "シン",
+            "romaji": "shin",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 新聞.",
+            "anchorExampleWord": "新聞"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "あたらしい",
+            "romaji": "atarashii"
+          }
+        ]
+      },
+      "mnemonic": "Connect 新 to new; practise シン in 新聞 and compare it with あたらしい in 新しい.",
+      "confusables": [
+        {
+          "kanji": "高",
+          "meaning": "high / expensive",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "文",
+          "meaning": "sentence / writing",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "新聞",
+          "reading": "しんぶん",
+          "meaning": "newspaper"
+        },
+        {
+          "word": "新しい",
+          "reading": "あたらしい",
+          "meaning": "new"
+        },
+        {
+          "word": "新年",
+          "reading": "しんねん",
+          "meaning": "New Year"
+        },
+        {
+          "word": "新入生",
+          "reading": "しんにゅうせい",
+          "meaning": "new student"
+        },
+        {
+          "word": "最新",
+          "reading": "さいしん",
+          "meaning": "latest"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "新聞を読みます。",
+          "highlight": "新",
+          "reading": "しんぶんを よみます",
+          "en": "I read the newspaper."
+        },
+        {
+          "jp": "新しい本を買います。",
+          "highlight": "新",
+          "reading": "あたらしい ほんを かいます",
+          "en": "I buy a new book."
+        },
+        {
+          "jp": "新年に家族と会います。",
+          "highlight": "新",
+          "reading": "しんねんに かぞくと あいます",
+          "en": "I meet my family at New Year."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "古",
+      "meaning": "old",
+      "memoryHook": "古 visually anchors old.",
+      "jlpt": "N5",
+      "strokeCount": 5,
+      "components": [
+        {
+          "shape": "古",
+          "note": "Use the whole shape as a visual anchor for old; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "コ",
+            "romaji": "ko",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 中古.",
+            "anchorExampleWord": "中古"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "ふるい",
+            "romaji": "furui"
+          }
+        ]
+      },
+      "mnemonic": "Connect 古 to old; practise コ in 中古 and compare it with ふるい in 古い.",
+      "confusables": [
+        {
+          "kanji": "高",
+          "meaning": "high / expensive",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "文",
+          "meaning": "sentence / writing",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "中古",
+          "reading": "ちゅうこ",
+          "meaning": "used / secondhand"
+        },
+        {
+          "word": "古い",
+          "reading": "ふるい",
+          "meaning": "old"
+        },
+        {
+          "word": "古本",
+          "reading": "ふるほん",
+          "meaning": "used book"
+        },
+        {
+          "word": "古語",
+          "reading": "こご",
+          "meaning": "old word / classical term"
+        },
+        {
+          "word": "古着",
+          "reading": "ふるぎ",
+          "meaning": "used clothes"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "中古の車を買います。",
+          "highlight": "古",
+          "reading": "ちゅうこの くるまを かいます",
+          "en": "I buy a used car."
+        },
+        {
+          "jp": "古い本を読みます。",
+          "highlight": "古",
+          "reading": "ふるい ほんを よみます",
+          "en": "I read an old book."
+        },
+        {
+          "jp": "古着を店で探します。",
+          "highlight": "古",
+          "reading": "ふるぎを みせで さがします",
+          "en": "I look for used clothes at a shop."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "多",
+      "meaning": "many / much",
+      "memoryHook": "多 visually anchors many / much.",
+      "jlpt": "N5",
+      "strokeCount": 6,
+      "components": [
+        {
+          "shape": "多",
+          "note": "Use the whole shape as a visual anchor for many / much; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "タ",
+            "romaji": "ta",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 多分.",
+            "anchorExampleWord": "多分"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "おおい",
+            "romaji": "ooi"
+          }
+        ]
+      },
+      "mnemonic": "Connect 多 to many / much; practise タ in 多分 and compare it with おおい in 多い.",
+      "confusables": [
+        {
+          "kanji": "高",
+          "meaning": "high / expensive",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "文",
+          "meaning": "sentence / writing",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "多分",
+          "reading": "たぶん",
+          "meaning": "probably"
+        },
+        {
+          "word": "多い",
+          "reading": "おおい",
+          "meaning": "many / much"
+        },
+        {
+          "word": "多く",
+          "reading": "おおく",
+          "meaning": "many / much"
+        },
+        {
+          "word": "多数",
+          "reading": "たすう",
+          "meaning": "large number"
+        },
+        {
+          "word": "多読",
+          "reading": "たどく",
+          "meaning": "extensive reading"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "多分、明日は雨です。",
+          "highlight": "多",
+          "reading": "たぶん あしたは あめです",
+          "en": "It will probably rain tomorrow."
+        },
+        {
+          "jp": "人が多いです。",
+          "highlight": "多",
+          "reading": "ひとが おおいです",
+          "en": "There are many people."
+        },
+        {
+          "jp": "多くの学生が来ます。",
+          "highlight": "多",
+          "reading": "おおくの がくせいが きます",
+          "en": "Many students come."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "少",
+      "meaning": "few / little",
+      "memoryHook": "少 visually anchors few / little.",
+      "jlpt": "N5",
+      "strokeCount": 4,
+      "components": [
+        {
+          "shape": "少",
+          "note": "Use the whole shape as a visual anchor for few / little; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ショウ",
+            "romaji": "shou",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 少し.",
+            "anchorExampleWord": "少し"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "すくない",
+            "romaji": "sukunai"
+          }
+        ]
+      },
+      "mnemonic": "Connect 少 to few / little; practise ショウ in 少し and compare it with すくない in 少ない.",
+      "confusables": [
+        {
+          "kanji": "高",
+          "meaning": "high / expensive",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "文",
+          "meaning": "sentence / writing",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "少し",
+          "reading": "すこし",
+          "meaning": "a little"
+        },
+        {
+          "word": "少ない",
+          "reading": "すくない",
+          "meaning": "few / little"
+        },
+        {
+          "word": "少年",
+          "reading": "しょうねん",
+          "meaning": "boy"
+        },
+        {
+          "word": "少女",
+          "reading": "しょうじょ",
+          "meaning": "girl"
+        },
+        {
+          "word": "少数",
+          "reading": "しょうすう",
+          "meaning": "small number"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "少し休みます。",
+          "highlight": "少",
+          "reading": "すこし やすみます",
+          "en": "I rest a little."
+        },
+        {
+          "jp": "水が少ないです。",
+          "highlight": "少",
+          "reading": "みずが すくないです",
+          "en": "There is little water."
+        },
+        {
+          "jp": "少女が本を読みます。",
+          "highlight": "少",
+          "reading": "しょうじょが ほんを よみます",
+          "en": "The girl reads a book."
+        }
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "安",
+          "back": "cheap / peaceful - アン",
+          "speakText": "安"
+        },
+        {
+          "front": "新",
+          "back": "new - シン",
+          "speakText": "新"
+        },
+        {
+          "front": "古",
+          "back": "old - コ",
+          "speakText": "古"
+        },
+        {
+          "front": "多",
+          "back": "many / much - タ",
+          "speakText": "多"
+        },
+        {
+          "front": "少",
+          "back": "few / little - ショウ",
+          "speakText": "少"
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 安 (kana or romaji):",
+      "question": "安",
+      "speakText": "安",
+      "answer": "アン",
+      "acceptAlternatives": [
+        "an",
+        "アン"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 新 (kana or romaji):",
+      "question": "新",
+      "speakText": "新",
+      "answer": "シン",
+      "acceptAlternatives": [
+        "shin",
+        "シン"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 古 (kana or romaji):",
+      "question": "古",
+      "speakText": "古",
+      "answer": "コ",
+      "acceptAlternatives": [
+        "ko",
+        "コ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 多 (kana or romaji):",
+      "question": "多",
+      "speakText": "多",
+      "answer": "タ",
+      "acceptAlternatives": [
+        "ta",
+        "タ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 少 (kana or romaji):",
+      "question": "少",
+      "speakText": "少",
+      "answer": "ショウ",
+      "acceptAlternatives": [
+        "sho",
+        "shou",
+        "ショウ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 安全 in hiragana or romaji:",
+      "question": "安全",
+      "speakText": "安全",
+      "answer": "あんぜん",
+      "acceptAlternatives": [
+        "anzen",
+        "あんぜん"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "安"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 新聞 in hiragana or romaji:",
+      "question": "新聞",
+      "speakText": "新聞",
+      "answer": "しんぶん",
+      "acceptAlternatives": [
+        "shinbun",
+        "しんぶん"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "新"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 中古 in hiragana or romaji:",
+      "question": "中古",
+      "speakText": "中古",
+      "answer": "ちゅうこ",
+      "acceptAlternatives": [
+        "chuko",
+        "chuuko",
+        "ちゅうこ"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "古"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 多分 in hiragana or romaji:",
+      "question": "多分",
+      "speakText": "多分",
+      "answer": "たぶん",
+      "acceptAlternatives": [
+        "tabun",
+        "たぶん"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "多"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 少し in hiragana or romaji:",
+      "question": "少し",
+      "speakText": "少し",
+      "answer": "すこし",
+      "acceptAlternatives": [
+        "sukoshi",
+        "すこし"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "少"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 古い in hiragana or romaji:",
+      "question": "古い",
+      "speakText": "古い",
+      "answer": "ふるい",
+      "acceptAlternatives": [
+        "furui",
+        "ふるい"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "古"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "全に気をつけます。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "安",
+        "answerRomaji": "an",
+        "hint": "Choose the kanji for cheap / peaceful.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "安",
+            "correct": true
+          },
+          {
+            "text": "新",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "新 means “new,” so it does not fit this prompt."
+          },
+          {
+            "text": "古",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "古 means “old,” so it does not fit this prompt."
+          },
+          {
+            "text": "多",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "多 means “many / much,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I pay attention to safety.",
+      "speakText": "安全に気をつけます。",
+      "targetKanji": "安",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "中",
+        "[SLOT]",
+        "の車を買います。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "古",
+        "answerRomaji": "ko",
+        "hint": "Choose the kanji for old.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "古",
+            "correct": true
+          },
+          {
+            "text": "安",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "安 means “cheap / peaceful,” so it does not fit this prompt."
+          },
+          {
+            "text": "新",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "新 means “new,” so it does not fit this prompt."
+          },
+          {
+            "text": "多",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "多 means “many / much,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I buy a used car.",
+      "speakText": "中古の車を買います。",
+      "targetKanji": "古",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "し休みます。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "少",
+        "answerRomaji": "shou",
+        "hint": "Choose the kanji for few / little.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "少",
+            "correct": true
+          },
+          {
+            "text": "安",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "安 means “cheap / peaceful,” so it does not fit this prompt."
+          },
+          {
+            "text": "新",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "新 means “new,” so it does not fit this prompt."
+          },
+          {
+            "text": "古",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "古 means “old,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I rest a little.",
+      "speakText": "少し休みます。",
+      "targetKanji": "少",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 安 read in 安全?",
+      "word": "安全",
+      "targetKanji": "安",
+      "options": [
+        {
+          "kana": "あんぜん",
+          "romaji": "anzen",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "安全 is read あんぜん in this vocabulary item."
+        },
+        {
+          "kana": "アン",
+          "romaji": "an",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "アン is useful for 安, but not the full reading of 安全."
+        },
+        {
+          "kana": "やすい",
+          "romaji": "yasui",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "やすい is another reading connected to 安, not the reading used in 安全."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 古 read in 中古?",
+      "word": "中古",
+      "targetKanji": "古",
+      "options": [
+        {
+          "kana": "ちゅうこ",
+          "romaji": "chuko",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "中古 is read ちゅうこ in this vocabulary item."
+        },
+        {
+          "kana": "コ",
+          "romaji": "ko",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "コ is useful for 古, but not the full reading of 中古."
+        },
+        {
+          "kana": "ふるい",
+          "romaji": "furui",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "ふるい is another reading connected to 古, not the reading used in 中古."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 少 read in 少し?",
+      "word": "少し",
+      "targetKanji": "少",
+      "options": [
+        {
+          "kana": "すこし",
+          "romaji": "sukoshi",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "少し is read すこし in this vocabulary item."
+        },
+        {
+          "kana": "ショウ",
+          "romaji": "shou",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "ショウ is useful for 少, but not the full reading of 少し."
+        },
+        {
+          "kana": "すくない",
+          "romaji": "sukunai",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "すくない is another reading connected to 少, not the reading used in 少し."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji means 'new'?",
+      "options": [
+        {
+          "text": "新",
+          "correct": true
+        },
+        {
+          "text": "安",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "安 means “cheap / peaceful,” so it does not fit this prompt."
+        },
+        {
+          "text": "古",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "古 means “old,” so it does not fit this prompt."
+        },
+        {
+          "text": "多",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "多 means “many / much,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the kanji you hear:",
+      "speakText": "多",
+      "options": [
+        {
+          "text": "多",
+          "correct": true
+        },
+        {
+          "text": "安",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "安 means “cheap / peaceful,” so it does not fit this prompt."
+        },
+        {
+          "text": "新",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "新 means “new,” so it does not fit this prompt."
+        },
+        {
+          "text": "古",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "古 means “old,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji in 少し (a little) means 'few / little'?",
+      "options": [
+        {
+          "text": "少",
+          "correct": true
+        },
+        {
+          "text": "安",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "安 means “cheap / peaceful,” so it does not fit this prompt."
+        },
+        {
+          "text": "新",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "新 means “new,” so it does not fit this prompt."
+        },
+        {
+          "text": "古",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "古 means “old,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Review: which older kanji means 'high / expensive'?",
+      "reviewFrom": "kanji-batch-14",
+      "options": [
+        {
+          "text": "高",
+          "correct": true
+        },
+        {
+          "text": "妹",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "妹 means “younger sister,” so it does not fit this prompt."
+        },
+        {
+          "text": "毎",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "毎 means “every,” so it does not fit this prompt."
+        },
+        {
+          "text": "語",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "語 means “language / word,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Review: match older kanji to their meanings:",
+      "reviewFrom": [
+        "kanji-batch-13",
+        "kanji-batch-14"
+      ],
+      "pairs": [
+        {
+          "left": "毎",
+          "right": "every",
+          "reviewFrom": "kanji-batch-14"
+        },
+        {
+          "left": "語",
+          "right": "language / word",
+          "reviewFrom": "kanji-batch-14"
+        },
+        {
+          "left": "文",
+          "right": "sentence / writing",
+          "reviewFrom": "kanji-batch-14"
+        },
+        {
+          "left": "高",
+          "right": "high / expensive",
+          "reviewFrom": "kanji-batch-14"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each kanji to its meaning:",
+      "pairs": [
+        {
+          "left": "安",
+          "right": "cheap / peaceful"
+        },
+        {
+          "left": "新",
+          "right": "new"
+        },
+        {
+          "left": "古",
+          "right": "old"
+        },
+        {
+          "left": "多",
+          "right": "many / much"
+        },
+        {
+          "left": "少",
+          "right": "few / little"
+        }
+      ]
+    }
+  ]
+}

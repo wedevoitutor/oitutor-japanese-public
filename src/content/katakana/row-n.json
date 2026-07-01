@@ -1,0 +1,367 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "N-row — ナ行",
+      "rows": [
+        [
+          "ナ na",
+          "ニ ni",
+          "ヌ nu",
+          "ネ ne",
+          "ノ no"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ニ",
+          "back": "ni",
+          "speakText": "ニ"
+        },
+        {
+          "front": "ヌ",
+          "back": "nu",
+          "speakText": "ヌ"
+        },
+        {
+          "front": "ナ",
+          "back": "na",
+          "speakText": "ナ"
+        },
+        {
+          "front": "ノ",
+          "back": "no",
+          "speakText": "ノ"
+        },
+        {
+          "front": "ネ",
+          "back": "ne",
+          "speakText": "ネ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Na?",
+      "options": [
+        "ノ",
+        "ナ",
+        "ヌ",
+        "ニ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ne?",
+      "options": [
+        "ネ",
+        "ヌ",
+        "ノ",
+        "ナ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ニ",
+      "answer": "ni"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ノ",
+      "answer": "no"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ナ",
+          "na"
+        ],
+        [
+          "ニ",
+          "ni"
+        ],
+        [
+          "ヌ",
+          "nu"
+        ],
+        [
+          "ネ",
+          "ne"
+        ],
+        [
+          "ノ",
+          "no"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ナ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ナ",
+        "ニ",
+        "ヌ",
+        "ノ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "listening",
+      "speakText": "ヌ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ネ",
+        "ノ",
+        "ヌ",
+        "ナ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ni?",
+      "options": [
+        "ヌ",
+        "ノ",
+        "ニ",
+        "ナ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ヌ",
+      "answer": "nu"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ネ",
+      "answer": "ne"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Na? (watch for look-alikes)",
+      "options": [
+        "メ",
+        "ナ",
+        "ト",
+        "チ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Nu? (watch for look-alikes)",
+      "options": [
+        "ス",
+        "ク",
+        "ヌ",
+        "ヲ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "ニ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ナ",
+        "ニ",
+        "ヌ",
+        "ネ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ノ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ヌ",
+        "ネ",
+        "ノ",
+        "ナ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ナ",
+      "answer": "na"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is No? (watch for look-alikes)",
+      "options": [
+        "ノ",
+        "ソ",
+        "ン",
+        "リ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "ノート (nooto)",
+          "notebook"
+        ],
+        [
+          "ナイス (naisu)",
+          "nice"
+        ],
+        [
+          "テニス (tenisu)",
+          "tennis"
+        ],
+        [
+          "ネクタイ (nekutai)",
+          "necktie"
+        ],
+        [
+          "カヌー (kanuu)",
+          "canoe"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "notebook",
+      "answer": [
+        "ノ",
+        "ー",
+        "ト"
+      ],
+      "bank": [
+        "ナ",
+        "ニ",
+        "ヌ",
+        "ネ",
+        "ノ",
+        "ト",
+        "ー"
+      ],
+      "speakText": "ノート"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "nice",
+      "answer": [
+        "ナ",
+        "イ",
+        "ス"
+      ],
+      "bank": [
+        "ナ",
+        "ニ",
+        "ヌ",
+        "ネ",
+        "ノ",
+        "イ",
+        "ス"
+      ],
+      "speakText": "ナイス"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "tennis",
+      "answer": [
+        "テ",
+        "ニ",
+        "ス"
+      ],
+      "bank": [
+        "ナ",
+        "ニ",
+        "ヌ",
+        "ネ",
+        "ノ",
+        "テ",
+        "ス",
+        "タ"
+      ],
+      "speakText": "テニス"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ノート",
+      "answer": "nooto"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ナイス",
+      "answer": "naisu"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ノート",
+          "notebook"
+        ],
+        [
+          "ナイス",
+          "nice"
+        ],
+        [
+          "テニス",
+          "tennis"
+        ],
+        [
+          "ネクタイ",
+          "necktie"
+        ],
+        [
+          "カヌー",
+          "canoe"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ネ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ナ",
+        "ヌ",
+        "ノ",
+        "ネ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "canoe",
+      "answer": [
+        "カ",
+        "ヌ",
+        "ー"
+      ],
+      "bank": [
+        "ナ",
+        "ニ",
+        "ヌ",
+        "ネ",
+        "ノ",
+        "カ",
+        "キ",
+        "ー"
+      ],
+      "speakText": "カヌー"
+    }
+  ],
+  "id": "katakana-row-n"
+}

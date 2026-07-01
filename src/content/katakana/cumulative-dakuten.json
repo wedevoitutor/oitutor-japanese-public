@@ -1,0 +1,312 @@
+{
+  "exercises": [
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ガ",
+          "back": "ga",
+          "speakText": "ガ"
+        },
+        {
+          "front": "ゴ",
+          "back": "go",
+          "speakText": "ゴ"
+        },
+        {
+          "front": "ギ",
+          "back": "gi",
+          "speakText": "ギ"
+        },
+        {
+          "front": "ザ",
+          "back": "za",
+          "speakText": "ザ"
+        },
+        {
+          "front": "ジ",
+          "back": "ji",
+          "speakText": "ジ"
+        },
+        {
+          "front": "ゾ",
+          "back": "zo",
+          "speakText": "ゾ"
+        },
+        {
+          "front": "ダ",
+          "back": "da",
+          "speakText": "ダ"
+        },
+        {
+          "front": "ド",
+          "back": "do",
+          "speakText": "ド"
+        },
+        {
+          "front": "バ",
+          "back": "ba",
+          "speakText": "バ"
+        },
+        {
+          "front": "ボ",
+          "back": "bo",
+          "speakText": "ボ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Gu?",
+      "options": [
+        "ク",
+        "グ",
+        "ゴ",
+        "ゲ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Za?",
+      "options": [
+        "サ",
+        "ザ",
+        "ダ",
+        "ゾ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Bo?",
+      "options": [
+        "ホ",
+        "ボ",
+        "ゴ",
+        "ド"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "グ",
+      "answer": "gu"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ジ",
+      "answer": "ji",
+      "acceptAlternatives": [
+        "zi"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ヅ",
+      "answer": "zu"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ガ",
+          "ga"
+        ],
+        [
+          "ザ",
+          "za"
+        ],
+        [
+          "デ",
+          "de"
+        ],
+        [
+          "バ",
+          "ba"
+        ],
+        [
+          "ゴ",
+          "go"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ギ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "キ",
+        "ギ",
+        "ジ",
+        "チ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ド",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ト",
+        "ド",
+        "ゾ",
+        "ダ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ze?",
+      "options": [
+        "セ",
+        "ゼ",
+        "デ",
+        "ゾ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Bi?",
+      "options": [
+        "ヒ",
+        "ビ",
+        "ボ",
+        "ブ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "reference-chart",
+      "title": "Vocabulary Review — All Dakuten",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "ギター (gitaa)",
+          "guitar"
+        ],
+        [
+          "ジュース (juusu)",
+          "juice"
+        ],
+        [
+          "テレビ (terebi)",
+          "TV"
+        ],
+        [
+          "バス (basu)",
+          "bus"
+        ],
+        [
+          "ゲーム (geemu)",
+          "game"
+        ]
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ギター",
+      "answer": "gitaa"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "テレビ",
+      "answer": "terebi"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ギター",
+          "guitar"
+        ],
+        [
+          "ジュース",
+          "juice"
+        ],
+        [
+          "テレビ",
+          "TV"
+        ],
+        [
+          "バス",
+          "bus"
+        ],
+        [
+          "ゲーム",
+          "game"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "game",
+      "answer": [
+        "ゲ",
+        "ー",
+        "ム"
+      ],
+      "bank": [
+        "ガ",
+        "ゲ",
+        "ゴ",
+        "ム",
+        "マ",
+        "ー"
+      ],
+      "speakText": "ゲーム"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "TV",
+      "answer": [
+        "テ",
+        "レ",
+        "ビ"
+      ],
+      "bank": [
+        "テ",
+        "デ",
+        "レ",
+        "ビ",
+        "バ",
+        "ボ"
+      ],
+      "speakText": "テレビ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "bus",
+      "answer": [
+        "バ",
+        "ス"
+      ],
+      "bank": [
+        "バ",
+        "ビ",
+        "ブ",
+        "ス",
+        "ソ",
+        "サ"
+      ],
+      "speakText": "バス"
+    },
+    {
+      "type": "listening",
+      "speakText": "ジュース",
+      "prompt": "Which word did you hear?",
+      "options": [
+        "juice",
+        "TV",
+        "bus",
+        "game"
+      ],
+      "correctIndex": 0
+    }
+  ],
+  "id": "katakana-cumulative-dakuten"
+}

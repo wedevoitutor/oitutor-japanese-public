@@ -1,0 +1,1338 @@
+{
+  "id": "dialogues-lesson-09",
+  "misconceptions": [
+    {
+      "target": "question-word-answer-type",
+      "error": "Answers a いつ question with a place or person.",
+      "mitigation": "Meaning checks and response-selection drills pair each question word with its answer type."
+    },
+    {
+      "target": "dare-vs-donata",
+      "error": "Uses casual だれ in formal reception or office contexts.",
+      "mitigation": "Reference rows and review options contrast だれ, どなた, and どちらさま."
+    },
+    {
+      "target": "naze-vs-doushite-vs-nande",
+      "error": "Treats all why-forms as the same register.",
+      "mitigation": "Comparison cards contrast formal なぜ with casual なんで-style questions."
+    },
+    {
+      "target": "casual-no-question",
+      "error": "Uses casual の-ending questions with strangers or staff.",
+      "mitigation": "Response-selection metadata marks casual question forms as friend-only."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Question Forms - Formal · Standard · Casual",
+      "intro": "Question words and question endings for when, where, what, who, why, and how across formal, standard, and casual situations.",
+      "rows": [
+        [
+          "Register",
+          "Japanese",
+          "Romaji",
+          "Typical Response",
+          "Context"
+        ],
+        [
+          "FORMAL",
+          "～は どちらに ございますか？",
+          "~ wa dochira ni gozaimasu ka?",
+          "こちらに ございます。Kochira ni gozaimasu.",
+          "Where is ~? (keigo)"
+        ],
+        [
+          "FORMAL",
+          "どなたに ごようですか？",
+          "Donata ni go-you desu ka?",
+          "たなかせんせいに ならっております。Tanaka-sensei ni naratte orimasu.",
+          "Who are you here to see?"
+        ],
+        [
+          "FORMAL",
+          "いつ ごらんに なりましたか？",
+          "Itsu goran ni narimashita ka?",
+          "きのう はいけんしました。Kinou haiken shimashita.",
+          "When did you view/see it? (keigo)"
+        ],
+        [
+          "STANDARD",
+          "～は どこですか？",
+          "~ wa doko desu ka?",
+          "さんかいの きょうしつです。Sankai no kyoushitsu desu.",
+          "Asking location"
+        ],
+        [
+          "STANDARD",
+          "なにを していますか？",
+          "Nani wo shite imasu ka?",
+          "べんきょうを しています。Benkyou wo shite imasu.",
+          "What are you doing?"
+        ],
+        [
+          "STANDARD",
+          "いつ いきますか？",
+          "Itsu ikimasu ka?",
+          "らいしゅう いきます。Raishuu ikimasu.",
+          "When are you going?"
+        ],
+        [
+          "STANDARD",
+          "だれが きましたか？",
+          "Dare ga kimashita ka?",
+          "やまださんが きました。Yamada-san ga kimashita.",
+          "Who came?"
+        ],
+        [
+          "STANDARD",
+          "なぜ／どうして ～ますか？",
+          "Naze / doushite ~ masu ka?",
+          "～だからです。~ dakara desu.",
+          "Why? (standard)"
+        ],
+        [
+          "CASUAL",
+          "なにするの？",
+          "Nani suru no?",
+          "えいが みるよ。Eiga miru yo.",
+          "What are you doing?"
+        ],
+        [
+          "CASUAL",
+          "どこ いくの？",
+          "Doko iku no?",
+          "コンビニ。Konbini.",
+          "Where are you going?"
+        ],
+        [
+          "CASUAL",
+          "いつ？",
+          "Itsu?",
+          "あした。Ashita.",
+          "When? (bare word)"
+        ],
+        [
+          "CASUAL",
+          "だれと？",
+          "Dare to?",
+          "ともだちと。Tomodachi to.",
+          "Who with?"
+        ],
+        [
+          "CASUAL",
+          "なんで？",
+          "Nande?",
+          "すきだから。Suki dakara.",
+          "Why? (casual)"
+        ]
+      ],
+      "takeaway": "Match the question word to the answer type: いつ asks time, どこ asks place, だれ asks person, なぜ asks reason, and どう asks state or opinion."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "A - FORMAL · School Admin Office",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "エマ",
+          "jp": "すみません、にほんごの じゅぎょうは どこですか？",
+          "romaji": "Sumimasen, nihongo no jugyou wa doko desu ka?",
+          "en": "Excuse me, where is the Japanese class?"
+        },
+        {
+          "speaker": "じむいん",
+          "jp": "さんかいの きょうしつです。どなたに ごようですか？",
+          "romaji": "Sankai no kyoushitsu desu. Donata ni go-you desu ka?",
+          "en": "It's the classroom on the third floor. Who are you here to see?"
+        },
+        {
+          "speaker": "エマ",
+          "jp": "たなかせんせいに にほんごを ならっています。ありがとうございます。",
+          "romaji": "Tanaka-sensei ni nihongo wo naratte imasu. Arigatou gozaimasu.",
+          "en": "I'm studying Japanese with Tanaka-sensei. Thank you very much."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "B - STANDARD · Café, Getting Acquainted",
+      "register": "polite",
+      "lines": [
+        {
+          "speaker": "みどり",
+          "jp": "ケビンさんは どこから きましたか？",
+          "romaji": "Kevin-san wa doko kara kimashita ka?",
+          "en": "Kevin, where are you from?"
+        },
+        {
+          "speaker": "ケビン",
+          "jp": "カナダから きました。みどりさんは なぜ にほんごを べんきょうしていますか？",
+          "romaji": "Kanada kara kimashita. Midori-san wa naze nihongo wo benkyou shite imasu ka?",
+          "en": "I'm from Canada. Midori, why are you studying Japanese?"
+        },
+        {
+          "speaker": "みどり",
+          "jp": "にほんの ぶんかが すきだからです。あなたは どうですか？",
+          "romaji": "Nihon no bunka ga suki dakara desu. Anata wa dou desu ka?",
+          "en": "Because I like Japanese culture. What about you?"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "C - CASUAL · Friends, Weekend Plans",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "ゆうと",
+          "jp": "ねえ、しゅうまつ なにするの？",
+          "romaji": "Nee, shuumatsu nani suru no?",
+          "en": "Hey, what are you doing this weekend?"
+        },
+        {
+          "speaker": "はな",
+          "jp": "えいがを みるよ。いつ あう？",
+          "romaji": "Eiga wo miru yo. Itsu au?",
+          "en": "I'm watching a movie. When shall we meet?"
+        },
+        {
+          "speaker": "ゆうと",
+          "jp": "どこで みる？ ちかくの えいがかんって どう？",
+          "romaji": "Doko de miru? Chikaku no eigakan tte dou?",
+          "en": "Where will you see it? How about the cinema nearby?"
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which source phrase matches: \"When is it?\"?",
+      "title": "Contrast 1: いつですか？",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "いつですか？",
+          "romaji": "Itsu desu ka?",
+          "en": "When is it?",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "どこに いきますか？",
+          "romaji": "Doko ni ikimasu ka?",
+          "en": "Where are you going?",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "なにを していますか？",
+          "romaji": "Nani wo shite imasu ka?",
+          "en": "What are you doing?",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "いつですか？"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which source phrase matches: \"What are you doing?\"?",
+      "title": "Contrast 3: なにを していますか？",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "なにを していますか？",
+          "romaji": "Nani wo shite imasu ka?",
+          "en": "What are you doing?",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "だれが きましたか？",
+          "romaji": "Dare ga kimashita ka?",
+          "en": "Who came?",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "なぜ べんきょうしますか？",
+          "romaji": "Naze benkyou shimasu ka?",
+          "en": "Why do you study?",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "なにを していますか？"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which source phrase matches: \"Why do you study?\"?",
+      "title": "Contrast 5: なぜ べんきょうしますか？",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "なぜ べんきょうしますか？",
+          "romaji": "Naze benkyou shimasu ka?",
+          "en": "Why do you study?",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "どうしましたか？",
+          "romaji": "Dou shimashita ka?",
+          "en": "What happened?",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "なにするの？",
+          "romaji": "Nani suru no?",
+          "en": "What are you doing? (casual)",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongRegister",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "casual",
+          "relationship": "friends",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "なぜ べんきょうしますか？"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which source phrase matches: \"What are you doing? (casual)\"?",
+      "title": "Contrast 7: なにするの？",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "なにするの？",
+          "romaji": "Nani suru no?",
+          "en": "What are you doing? (casual)",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "casual",
+          "relationship": "friends",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "どこ いくの？",
+          "romaji": "Doko iku no?",
+          "en": "Where ya going? (casual)",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "casual",
+          "relationship": "friends",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "～でしょうか？",
+          "romaji": "~ deshou ka?",
+          "en": "Might it be ~? / May I ask if ~? (formal)",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongRegister",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "formal",
+          "relationship": "junior-to-senior",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "なにするの？"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the key phrase from the source lesson:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "にほんごの じゅぎょうは どこですか",
+        "answerRomaji": "nihongo no jugyou wa doko desu ka",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "nihongo no jugyou wa doko desu ka"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "にほんごの じゅぎょうは どこですか？",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the whole source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "ケビンさんは どこから きましたか",
+        "answerRomaji": "kevin-san wa doko kara kimashita ka",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "kevinson wa doko kara kimashita ka",
+          "kevin-san wa doko kara kimashita ka"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "ケビンさんは どこから きましたか？",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the whole source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "なぜ にほんごを べんきょうしていますか",
+        "answerRomaji": "naze nihongo wo benkyou shite imasu ka",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "naze nihongo o benkyou shite imasu ka",
+          "naze nihongo wo benkyou shite imasu ka"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "なぜ にほんごを べんきょうしていますか？",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "いつですか？",
+          "romaji": "Itsu desu ka?",
+          "en": "When is it?"
+        },
+        {
+          "jp": "どこに いきますか？",
+          "romaji": "Doko ni ikimasu ka?",
+          "en": "Where are you going?"
+        },
+        {
+          "jp": "なにを していますか？",
+          "romaji": "Nani wo shite imasu ka?",
+          "en": "What are you doing?"
+        },
+        {
+          "jp": "だれが きましたか？",
+          "romaji": "Dare ga kimashita ka?",
+          "en": "Who came?"
+        },
+        {
+          "jp": "なぜ べんきょうしますか？",
+          "romaji": "Naze benkyou shimasu ka?",
+          "en": "Why do you study?"
+        },
+        {
+          "jp": "どうしましたか？",
+          "romaji": "Dou shimashita ka?",
+          "en": "What happened?"
+        },
+        {
+          "jp": "なにするの？",
+          "romaji": "Nani suru no?",
+          "en": "What are you doing? (casual)"
+        },
+        {
+          "jp": "どこ いくの？",
+          "romaji": "Doko iku no?",
+          "en": "Where ya going? (casual)"
+        },
+        {
+          "jp": "～でしょうか？",
+          "romaji": "~ deshou ka?",
+          "en": "Might it be ~? / May I ask if ~? (formal)"
+        },
+        {
+          "jp": "どなたに ごようですか？",
+          "romaji": "Donata ni go-you desu ka?",
+          "en": "Who are you here to see? (formal)"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いつですか？",
+      "options": [
+        {
+          "text": "What is it?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "When is it?",
+          "correct": true
+        },
+        {
+          "text": "Who is it?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Where is it?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "なにを していますか？",
+      "options": [
+        {
+          "text": "Where are you going?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "What are you doing?",
+          "correct": true
+        },
+        {
+          "text": "Who is coming?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Why are you here?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "だれが きましたか？",
+      "options": [
+        {
+          "text": "When did they come?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Where did they go?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Who came?",
+          "correct": true
+        },
+        {
+          "text": "Did anyone come?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "どこに いきますか？",
+      "options": [
+        {
+          "text": "When are you going?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Why are you going?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Who are you with?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Where are you going?",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "なぜ にほんごを べんきょうしますか？",
+      "options": [
+        {
+          "text": "How do you study Japanese?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "When do you study Japanese?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Where do you study Japanese?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Why do you study Japanese?",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "どうしましたか？",
+      "options": [
+        {
+          "text": "How did it happen?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "What happened?",
+          "correct": true
+        },
+        {
+          "text": "Who did it?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "When did it happen?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "なにするの？",
+      "options": [
+        {
+          "text": "What are you doing?",
+          "correct": true
+        },
+        {
+          "text": "Where are you going?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Who are you with?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "When are you free?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "どちらに ございますか？",
+      "options": [
+        {
+          "text": "Whose is it?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "How much is it?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Where is it?",
+          "correct": true
+        },
+        {
+          "text": "When is it available?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "いつ かいぎが ありますか？",
+        "romaji": "Itsu kaigi ga arimasu ka?",
+        "speakText": "いつ かいぎが ありますか？"
+      },
+      "options": [
+        {
+          "jp": "あしたの ごごです。",
+          "romaji": "Ashita no gogo desu.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "かいぎしつです。",
+          "romaji": "Kaigishitsu desu.",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This is a familiar phrase, but it does not answer this prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "やまださんです。",
+          "romaji": "Yamada-san desu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "casual",
+          "relationship": "friends",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "どこから きましたか？",
+        "romaji": "Doko kara kimashita ka?",
+        "speakText": "どこから きましたか？"
+      },
+      "options": [
+        {
+          "jp": "コーヒーが すきです。",
+          "romaji": "Koohii ga suki desu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption0",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "カナダから きました。",
+          "romaji": "Kanada kara kimashita.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "あした いきます。",
+          "romaji": "Ashita ikimasu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "なぜ そこに いきましたか？",
+        "romaji": "Naze soko ni ikimashita ka?",
+        "speakText": "なぜ そこに いきましたか？"
+      },
+      "options": [
+        {
+          "jp": "でんしゃで いきました。",
+          "romaji": "Densha de ikimashita.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption0",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はい、そうです。",
+          "romaji": "Hai, sou desu.",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This is a familiar phrase, but it does not answer this prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "ともだちに あいたかったからです。",
+          "romaji": "Tomodachi ni aitakatta kara desu.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "しゅうまつ なにするの？",
+        "romaji": "Shuumatsu nani suru no?",
+        "speakText": "しゅうまつ なにするの？"
+      },
+      "options": [
+        {
+          "jp": "えいがを みるよ。",
+          "romaji": "Eiga wo miru yo.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "あした。",
+          "romaji": "Ashita.",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This is a familiar phrase, but it does not answer this prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "ともだちです。",
+          "romaji": "Tomodachi desu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Review from dialogues-lesson-07: choose the best response:",
+      "reviewFrom": "dialogues-lesson-07",
+      "question": {
+        "jp": "えいがを みに いきますか？",
+        "romaji": "Eiga wo mi ni ikimasu ka?",
+        "speakText": "えいがを みに いきますか？"
+      },
+      "options": [
+        {
+          "jp": "はい、いきたいです！なんじに でますか？",
+          "romaji": "Hai, ikitai desu! Nanji ni demasu ka?",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はじめまして、よろしく！",
+          "romaji": "Hajimemashite, yoroshiku!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor0",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "おはようございます！",
+          "romaji": "Ohayou gozaimasu!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor1",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "formal",
+          "relationship": "junior-to-senior",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Review from dialogues-lesson-08: choose the best response:",
+      "reviewFrom": "dialogues-lesson-08",
+      "question": {
+        "jp": "このほん、きみの？",
+        "romaji": "Kono hon, kimi no?",
+        "speakText": "このほん、きみの？"
+      },
+      "options": [
+        {
+          "jp": "うん、ぼくのだよ。",
+          "romaji": "Un, boku no da yo.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "friends",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はじめまして、よろしく！",
+          "romaji": "Hajimemashite, yoroshiku!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor0",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "おはようございます！",
+          "romaji": "Ohayou gozaimasu!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor1",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "formal",
+          "relationship": "junior-to-senior",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "にほんごの じゅぎょうは どこですか？",
+      "answer": "nihongo no jugyou wa doko desu ka",
+      "acceptAlternatives": [],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "ケビンさんは どこから きましたか？",
+      "answer": "kevin-san wa doko kara kimashita ka",
+      "acceptAlternatives": [
+        "kevinson wa doko kara kimashita ka"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "なぜ にほんごを べんきょうしていますか？",
+      "answer": "naze nihongo wo benkyou shite imasu ka",
+      "acceptAlternatives": [
+        "naze nihongo o benkyou shite imasu ka"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "ねえ、しゅうまつ なにするの？",
+      "answer": "nee, shuumatsu nani suru no",
+      "acceptAlternatives": [
+        "nee shuumatsu nani suru no"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "いつ あう？",
+      "answer": "itsu au",
+      "acceptAlternatives": [],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "どこで みる？",
+      "answer": "doko de miru",
+      "acceptAlternatives": [],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "カナダから きました。",
+      "answer": "kanada kara kimashita",
+      "acceptAlternatives": [],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "どなたに ごようですか？",
+      "answer": "donata ni go-you desu ka",
+      "acceptAlternatives": [
+        "donata ni goyou desu ka"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "すみません、にほんごの じゅぎょうは どこですか？",
+      "romaji": "Sumimasen, nihongo no jugyou wa doko desu ka?",
+      "en": "Excuse me, where is the Japanese class?",
+      "speakText": "すみません、にほんごの じゅぎょうは どこですか？",
+      "register": "formal",
+      "dialogueContext": "A - Formal · School Admin Office",
+      "speaker": "エマ"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "さんかいの きょうしつです。どなたに ごようですか？",
+      "romaji": "Sankai no kyoushitsu desu. Donata ni go-you desu ka?",
+      "en": "It's the classroom on the third floor. Who are you here to see?",
+      "speakText": "さんかいの きょうしつです。どなたに ごようですか？",
+      "register": "formal",
+      "dialogueContext": "A - Formal · School Admin Office",
+      "speaker": "じむいん"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "たなかせんせいに にほんごを ならっています。ありがとうございます。",
+      "romaji": "Tanaka-sensei ni nihongo wo naratte imasu. Arigatou gozaimasu.",
+      "en": "I'm studying Japanese with Tanaka-sensei. Thank you very much.",
+      "speakText": "たなかせんせいに にほんごを ならっています。ありがとうございます。",
+      "register": "formal",
+      "dialogueContext": "A - Formal · School Admin Office",
+      "speaker": "エマ"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ケビンさんは どこから きましたか？",
+      "romaji": "Kevin-san wa doko kara kimashita ka?",
+      "en": "Kevin, where are you from?",
+      "speakText": "ケビンさんは どこから きましたか？",
+      "register": "polite",
+      "dialogueContext": "B - Standard · Café, Getting Acquainted",
+      "speaker": "みどり"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "カナダから きました。みどりさんは なぜ にほんごを べんきょうしていますか？",
+      "romaji": "Kanada kara kimashita. Midori-san wa naze nihongo wo benkyou shite imasu ka?",
+      "en": "I'm from Canada. Midori, why are you studying Japanese?",
+      "speakText": "カナダから きました。みどりさんは なぜ にほんごを べんきょうしていますか？",
+      "register": "polite",
+      "dialogueContext": "B - Standard · Café, Getting Acquainted",
+      "speaker": "ケビン"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "にほんの ぶんかが すきだからです。あなたは どうですか？",
+      "romaji": "Nihon no bunka ga suki dakara desu. Anata wa dou desu ka?",
+      "en": "Because I like Japanese culture. What about you?",
+      "speakText": "にほんの ぶんかが すきだからです。あなたは どうですか？",
+      "register": "polite",
+      "dialogueContext": "B - Standard · Café, Getting Acquainted",
+      "speaker": "みどり"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ねえ、しゅうまつ なにするの？",
+      "romaji": "Nee, shuumatsu nani suru no?",
+      "en": "Hey, what are you doing this weekend?",
+      "speakText": "ねえ、しゅうまつ なにするの？",
+      "register": "casual",
+      "dialogueContext": "C - Casual · Friends, Weekend Plans",
+      "speaker": "ゆうと"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "えいがを みるよ。いつ あう？",
+      "romaji": "Eiga wo miru yo. Itsu au?",
+      "en": "I'm watching a movie. When shall we meet?",
+      "speakText": "えいがを みるよ。いつ あう？",
+      "register": "casual",
+      "dialogueContext": "C - Casual · Friends, Weekend Plans",
+      "speaker": "はな"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "どこで みる？ ちかくの えいがかんって どう？",
+      "romaji": "Doko de miru? Chikaku no eigakan tte dou?",
+      "en": "Where will you see it? How about the cinema nearby?",
+      "speakText": "どこで みる？ ちかくの えいがかんって どう？",
+      "register": "casual",
+      "dialogueContext": "C - Casual · Friends, Weekend Plans",
+      "speaker": "ゆうと"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "いつですか？",
+          "right": "When is it?"
+        },
+        {
+          "left": "どこに いきますか？",
+          "right": "Where are you going?"
+        },
+        {
+          "left": "なにを していますか？",
+          "right": "What are you doing?"
+        },
+        {
+          "left": "だれが きましたか？",
+          "right": "Who came?"
+        },
+        {
+          "left": "なぜ べんきょうしますか？",
+          "right": "Why do you study?"
+        },
+        {
+          "left": "どうしましたか？",
+          "right": "What happened?"
+        },
+        {
+          "left": "[CITY]に すんでいます。",
+          "right": "I live in [CITY].",
+          "reviewFrom": "dialogues-lesson-05"
+        },
+        {
+          "left": "[LANGUAGE]語が わかります。",
+          "right": "I understand [LANGUAGE].",
+          "reviewFrom": "dialogues-lesson-06"
+        },
+        {
+          "left": "にほんごが できます。",
+          "right": "I can speak Japanese.",
+          "reviewFrom": "dialogues-lesson-07"
+        },
+        {
+          "left": "これは わたしの かばんです。",
+          "right": "This is my bag.",
+          "reviewFrom": "dialogues-lesson-08"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "すみません、にほんごの じゅぎょうは どこですか？",
+          "romaji": "Sumimasen, nihongo no jugyou wa doko desu ka?",
+          "en": "Excuse me, where is the Japanese class?"
+        },
+        {
+          "jp": "さんかいの きょうしつです。どなたに ごようですか？",
+          "romaji": "Sankai no kyoushitsu desu. Donata ni go-you desu ka?",
+          "en": "It's the classroom on the third floor. Who are you here to see?",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "A - Formal · School Admin Office; register is formal."
+          }
+        },
+        {
+          "jp": "たなかせんせいに にほんごを ならっています。ありがとうございます。",
+          "romaji": "Tanaka-sensei ni nihongo wo naratte imasu. Arigatou gozaimasu.",
+          "en": "I'm studying Japanese with Tanaka-sensei. Thank you very much."
+        },
+        {
+          "jp": "ケビンさんは どこから きましたか？",
+          "romaji": "Kevin-san wa doko kara kimashita ka?",
+          "en": "Kevin, where are you from?"
+        },
+        {
+          "jp": "カナダから きました。みどりさんは なぜ にほんごを べんきょうしていますか？",
+          "romaji": "Kanada kara kimashita. Midori-san wa naze nihongo wo benkyou shite imasu ka?",
+          "en": "I'm from Canada. Midori, why are you studying Japanese?",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "B - Standard · Café, Getting Acquainted; register is polite."
+          }
+        },
+        {
+          "jp": "にほんの ぶんかが すきだからです。あなたは どうですか？",
+          "romaji": "Nihon no bunka ga suki dakara desu. Anata wa dou desu ka?",
+          "en": "Because I like Japanese culture. What about you?"
+        },
+        {
+          "jp": "ねえ、しゅうまつ なにするの？",
+          "romaji": "Nee, shuumatsu nani suru no?",
+          "en": "Hey, what are you doing this weekend?"
+        },
+        {
+          "jp": "えいがを みるよ。いつ あう？",
+          "romaji": "Eiga wo miru yo. Itsu au?",
+          "en": "I'm watching a movie. When shall we meet?",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "C - Casual · Friends, Weekend Plans; register is casual."
+          }
+        },
+        {
+          "jp": "どこで みる？ ちかくの えいがかんって どう？",
+          "romaji": "Doko de miru? Chikaku no eigakan tte dou?",
+          "en": "Where will you see it? How about the cinema nearby?"
+        },
+        {
+          "jp": "いつですか？",
+          "romaji": "Itsu desu ka?",
+          "en": "When is it?"
+        }
+      ]
+    }
+  ]
+}

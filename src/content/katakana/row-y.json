@@ -1,0 +1,333 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Y-row — ヤ行",
+      "rows": [
+        [
+          "ヤ ya",
+          "ユ yu",
+          "ヨ yo"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ユ",
+          "back": "yu",
+          "speakText": "ユ"
+        },
+        {
+          "front": "ヤ",
+          "back": "ya",
+          "speakText": "ヤ"
+        },
+        {
+          "front": "ヨ",
+          "back": "yo",
+          "speakText": "ヨ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ya?",
+      "options": [
+        "ユ",
+        "ヤ",
+        "ヨ",
+        "ネ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Yo?",
+      "options": [
+        "ヨ",
+        "ユ",
+        "ヤ",
+        "ラ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ユ",
+      "answer": "yu"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ヤ",
+      "answer": "ya"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ヤ",
+          "ya"
+        ],
+        [
+          "ユ",
+          "yu"
+        ],
+        [
+          "ヨ",
+          "yo"
+        ],
+        [
+          "マ",
+          "ma"
+        ],
+        [
+          "ネ",
+          "ne"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ヤ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ヤ",
+        "ユ",
+        "ヨ",
+        "マ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "listening",
+      "speakText": "ヨ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ユ",
+        "ヤ",
+        "ヨ",
+        "ラ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Yu?",
+      "options": [
+        "ヨ",
+        "ユ",
+        "ヤ",
+        "コ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ヨ",
+      "answer": "yo"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ya? (watch for look-alikes)",
+      "options": [
+        "セ",
+        "ネ",
+        "ヤ",
+        "マ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Yu? (watch for look-alikes)",
+      "options": [
+        "エ",
+        "コ",
+        "ユ",
+        "ヨ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "ユ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ヤ",
+        "ユ",
+        "ヨ",
+        "エ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Yo? (watch for look-alikes)",
+      "options": [
+        "ヲ",
+        "ラ",
+        "ヨ",
+        "ム"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "ユーモア (yuumoa)",
+          "humor"
+        ],
+        [
+          "タイヤ (taiya)",
+          "tire"
+        ],
+        [
+          "ユニーク (yuniiku)",
+          "unique"
+        ],
+        [
+          "ヤフー (yafuu)",
+          "Yahoo"
+        ],
+        [
+          "ヤマト (yamato)",
+          "Yamato"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "tire",
+      "answer": [
+        "タ",
+        "イ",
+        "ヤ"
+      ],
+      "bank": [
+        "ヤ",
+        "ユ",
+        "ヨ",
+        "タ",
+        "テ",
+        "イ"
+      ],
+      "speakText": "タイヤ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "humor",
+      "answer": [
+        "ユ",
+        "ー",
+        "モ",
+        "ア"
+      ],
+      "bank": [
+        "ヤ",
+        "ユ",
+        "ヨ",
+        "モ",
+        "マ",
+        "ア",
+        "ー"
+      ],
+      "speakText": "ユーモア"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "Yahoo",
+      "answer": [
+        "ヤ",
+        "フ",
+        "ー"
+      ],
+      "bank": [
+        "ヤ",
+        "ユ",
+        "ヨ",
+        "フ",
+        "ホ",
+        "ハ",
+        "ー"
+      ],
+      "speakText": "ヤフー"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "タイヤ",
+      "answer": "taiya"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ヤフー",
+      "answer": "yafuu"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ユーモア",
+          "humor"
+        ],
+        [
+          "タイヤ",
+          "tire"
+        ],
+        [
+          "ユニーク",
+          "unique"
+        ],
+        [
+          "ヤフー",
+          "Yahoo"
+        ],
+        [
+          "ヤマト",
+          "Yamato"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ヤマト",
+      "prompt": "What did you hear?",
+      "options": [
+        "tire",
+        "Yamato",
+        "humor",
+        "unique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "unique",
+      "answer": [
+        "ユ",
+        "ニ",
+        "ー",
+        "ク"
+      ],
+      "bank": [
+        "ヤ",
+        "ユ",
+        "ヨ",
+        "ニ",
+        "ナ",
+        "ク",
+        "カ",
+        "ー"
+      ],
+      "speakText": "ユニーク"
+    }
+  ],
+  "id": "katakana-row-y"
+}

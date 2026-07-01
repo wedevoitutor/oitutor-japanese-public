@@ -1,0 +1,846 @@
+{
+  "id": "kanji-batch-01",
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Batch 01 — 日 一 人 年 大",
+      "intro": "Your first five kanji cover time (日, 年), the most fundamental number (一), people (人), and size (大). Most carry multiple readings — on-yomi (Chinese-derived, usually in compounds) and kun-yomi (native Japanese, usually alone).",
+      "rows": [
+        [
+          "Kanji",
+          "Meaning",
+          "On-yomi",
+          "Kun-yomi",
+          "Memory hook"
+        ],
+        [
+          "日",
+          "sun / day",
+          "ニチ · ジツ",
+          "ひ · び · か",
+          "sun in a window frame"
+        ],
+        [
+          "一",
+          "one",
+          "イチ · イツ",
+          "ひと- · ひとつ",
+          "one horizontal stroke = one"
+        ],
+        [
+          "人",
+          "person",
+          "ジン · ニン",
+          "ひと · り",
+          "two legs — a person walking"
+        ],
+        [
+          "年",
+          "year",
+          "ネン",
+          "とし",
+          "farmer bent under the harvest"
+        ],
+        [
+          "大",
+          "big / great",
+          "ダイ · タイ",
+          "おお- · おおきい",
+          "person with arms stretched wide"
+        ]
+      ],
+      "takeaway": "Each kanji = one character, many readings. Context picks the reading."
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "日",
+      "meaning": "sun / day",
+      "memoryHook": "Sun in a window frame",
+      "jlpt": "N5",
+      "readings": {
+        "on": [
+          {
+            "kana": "ニチ",
+            "romaji": "nichi"
+          },
+          {
+            "kana": "ジツ",
+            "romaji": "jitsu"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "ひ",
+            "romaji": "hi"
+          },
+          {
+            "kana": "び",
+            "romaji": "bi"
+          },
+          {
+            "kana": "か",
+            "romaji": "ka"
+          }
+        ]
+      },
+      "mnemonic": "The oracle bone script for 日 was a circle with a dot in the middle — literally the sun. Over centuries the circle became a rectangle and the dot became a horizontal stroke. Picture a window framing the sun in the sky: the rectangle is the frame, the horizontal line is the sun's glare. If there's a sun, there's a day — so 日 means both.",
+      "compounds": [
+        {
+          "word": "日",
+          "reading": "ひ",
+          "meaning": "the sun; a day"
+        },
+        {
+          "word": "同日",
+          "reading": "どうじつ",
+          "meaning": "the same day"
+        },
+        {
+          "word": "日米",
+          "reading": "にちべい",
+          "meaning": "Japan–US (relations)"
+        },
+        {
+          "word": "日本人",
+          "reading": "にほんじん",
+          "meaning": "a Japanese person"
+        },
+        {
+          "word": "毎日",
+          "reading": "まいにち",
+          "meaning": "every day"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "今日はいい日です。",
+          "highlight": "日",
+          "reading": "きょうは いい ひ です",
+          "romaji": "Kyou wa ii hi desu.",
+          "gloss": "Today as-for good day is.",
+          "en": "Today is a good day."
+        },
+        {
+          "jp": "毎日日本語を勉強します。",
+          "highlight": "毎日",
+          "reading": "まいにち にほんごを べんきょうします",
+          "romaji": "Mainichi Nihongo wo benkyou shimasu.",
+          "gloss": "Every-day Japanese (obj) study do.",
+          "en": "I study Japanese every day."
+        },
+        {
+          "jp": "日本人はやさしいです。",
+          "highlight": "日",
+          "reading": "にほんじんは やさしい です",
+          "romaji": "Nihonjin wa yasashii desu.",
+          "gloss": "Japan-person as-for kind is.",
+          "en": "Japanese people are kind."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "一",
+      "meaning": "one",
+      "memoryHook": "One horizontal stroke = one",
+      "jlpt": "N5",
+      "readings": {
+        "on": [
+          {
+            "kana": "イチ",
+            "romaji": "ichi"
+          },
+          {
+            "kana": "イツ",
+            "romaji": "itsu"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "ひと",
+            "romaji": "hito"
+          },
+          {
+            "kana": "ひとつ",
+            "romaji": "hitotsu"
+          }
+        ]
+      },
+      "mnemonic": "The simplest kanji possible — just one horizontal stroke. The count of strokes IS the number: one line = one. 一 is the same tally mark a shopkeeper would scratch on a wall. Compare with 二 (two lines) and 三 (three lines) — the pattern holds. Watch out for gemination: before p, k, t, s sounds, イチ compresses to イッ (一般 = いっぱん, 一個 = いっこ, 一歩 = いっぽ).",
+      "compounds": [
+        {
+          "word": "一つ",
+          "reading": "ひとつ",
+          "meaning": "one thing"
+        },
+        {
+          "word": "一月",
+          "reading": "いちがつ",
+          "meaning": "January"
+        },
+        {
+          "word": "一般",
+          "reading": "いっぱん",
+          "meaning": "general; in general"
+        },
+        {
+          "word": "一番",
+          "reading": "いちばん",
+          "meaning": "number one; most; first"
+        },
+        {
+          "word": "一部",
+          "reading": "いちぶ",
+          "meaning": "a part; one portion"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "りんごを一つください。",
+          "highlight": "一",
+          "reading": "りんごを ひとつ ください",
+          "romaji": "Ringo wo hitotsu kudasai.",
+          "gloss": "Apple (obj) one please-give.",
+          "en": "Please give me one apple."
+        },
+        {
+          "jp": "一番すきな食べ物はすしです。",
+          "highlight": "一",
+          "reading": "いちばん すきな たべものは すし です",
+          "romaji": "Ichiban suki na tabemono wa sushi desu.",
+          "gloss": "Number-one liked food as-for sushi is.",
+          "en": "My favourite food is sushi."
+        },
+        {
+          "jp": "一月はさむいです。",
+          "highlight": "一",
+          "reading": "いちがつは さむい です",
+          "romaji": "Ichigatsu wa samui desu.",
+          "gloss": "January as-for cold is.",
+          "en": "January is cold."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "人",
+      "meaning": "person",
+      "memoryHook": "Two legs — a person walking",
+      "jlpt": "N5",
+      "readings": {
+        "on": [
+          {
+            "kana": "ジン",
+            "romaji": "jin"
+          },
+          {
+            "kana": "ニン",
+            "romaji": "nin"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "ひと",
+            "romaji": "hito"
+          },
+          {
+            "kana": "り",
+            "romaji": "ri"
+          }
+        ]
+      },
+      "mnemonic": "Look at 人 from the side — it is a person walking: the long stroke is the body leaning forward, the short stroke is the trailing leg. Two strokes, two legs, one person. ジン attaches to groups and nationalities (日本人 nihonjin, 外国人 gaikokujin). ニン is used for counting and roles (三人 sannin, 人気 ninki).",
+      "confusables": [
+        {
+          "kanji": "入",
+          "meaning": "enter",
+          "note": "入 has the two strokes crossing at the top; 人 has them meeting at the top."
+        },
+        {
+          "kanji": "八",
+          "meaning": "eight",
+          "note": "八 is symmetric and both strokes slant away; 人 is asymmetric."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "外国人",
+          "reading": "がいこくじん",
+          "meaning": "foreigner"
+        },
+        {
+          "word": "個人",
+          "reading": "こじん",
+          "meaning": "individual; private person"
+        },
+        {
+          "word": "三人",
+          "reading": "さんにん",
+          "meaning": "three people"
+        },
+        {
+          "word": "人間",
+          "reading": "にんげん",
+          "meaning": "human being; humanity"
+        },
+        {
+          "word": "人気",
+          "reading": "にんき",
+          "meaning": "popularity"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "あの人はだれですか。",
+          "highlight": "人",
+          "reading": "あの ひとは だれ ですか",
+          "romaji": "Ano hito wa dare desu ka.",
+          "gloss": "That person as-for who is (question)?",
+          "en": "Who is that person?"
+        },
+        {
+          "jp": "日本人のともだちがいます。",
+          "highlight": "人",
+          "reading": "にほんじんの ともだちが います",
+          "romaji": "Nihonjin no tomodachi ga imasu.",
+          "gloss": "Japanese-person 's friend (subj) exists.",
+          "en": "I have a Japanese friend."
+        },
+        {
+          "jp": "三人家族です。",
+          "highlight": "人",
+          "reading": "さんにん かぞく です",
+          "romaji": "San-nin kazoku desu.",
+          "gloss": "Three-people family is.",
+          "en": "We are a family of three."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "年",
+      "meaning": "year",
+      "memoryHook": "Farmer bent under the harvest",
+      "jlpt": "N5",
+      "readings": {
+        "on": [
+          {
+            "kana": "ネン",
+            "romaji": "nen"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "とし",
+            "romaji": "toshi"
+          }
+        ]
+      },
+      "mnemonic": "Ancient Japan counted years by harvests — one crop cycle = one year. The original form of 年 depicted a person carrying a bundle of grain stalks on their back: the strokes at the top are the heavy grain bowing under its own weight. Think of a farmer bent under a year's worth of crops. ネン dominates in formal and written Japanese (昨年 sakunen, 来年 rainen). とし appears in everyday speech (今年 kotoshi, 年を取る toshi wo toru).",
+      "compounds": [
+        {
+          "word": "年",
+          "reading": "とし",
+          "meaning": "year; age"
+        },
+        {
+          "word": "昨年",
+          "reading": "さくねん",
+          "meaning": "last year"
+        },
+        {
+          "word": "前年",
+          "reading": "ぜんねん",
+          "meaning": "the previous year"
+        },
+        {
+          "word": "年間",
+          "reading": "ねんかん",
+          "meaning": "yearly; annual period"
+        },
+        {
+          "word": "来年",
+          "reading": "らいねん",
+          "meaning": "next year"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "来年日本に行きます。",
+          "highlight": "来年",
+          "reading": "らいねん にほんに いきます",
+          "romaji": "Rainen Nihon ni ikimasu.",
+          "gloss": "Next-year Japan to go.",
+          "en": "I will go to Japan next year."
+        },
+        {
+          "jp": "昨年日本語を始めました。",
+          "highlight": "昨年",
+          "reading": "さくねん にほんごを はじめました",
+          "romaji": "Sakunen Nihongo wo hajimemashita.",
+          "gloss": "Last-year Japanese (obj) began.",
+          "en": "I started Japanese last year."
+        },
+        {
+          "jp": "毎年たんじょうびにケーキを食べます。",
+          "highlight": "年",
+          "reading": "まいとし たんじょうびに けーきを たべます",
+          "romaji": "Maitoshi tanjoubi ni keeki wo tabemasu.",
+          "gloss": "Every-year birthday on cake (obj) eat.",
+          "en": "Every year I eat cake on my birthday."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "大",
+      "meaning": "big / great",
+      "memoryHook": "Person with arms stretched wide",
+      "jlpt": "N5",
+      "readings": {
+        "on": [
+          {
+            "kana": "ダイ",
+            "romaji": "dai"
+          },
+          {
+            "kana": "タイ",
+            "romaji": "tai"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "おお",
+            "romaji": "oo"
+          },
+          {
+            "kana": "おおきい",
+            "romaji": "ookii"
+          },
+          {
+            "kana": "おおいに",
+            "romaji": "ooini"
+          }
+        ]
+      },
+      "mnemonic": "大 is 人 (person) with arms stretched wide — like someone showing how big something is: 'the fish was this big!' 人 has two strokes (body + trailing leg, arms down); 大 adds one horizontal stroke through the middle — the outstretched arms. More strokes, bigger meaning.",
+      "confusables": [
+        {
+          "kanji": "太",
+          "meaning": "fat / thick",
+          "note": "太 adds a small dot below the horizontal bar of 大 — remember the dot is a belly button, that's the fat person's tummy."
+        },
+        {
+          "kanji": "犬",
+          "meaning": "dog",
+          "note": "犬 adds a small dot above-right of 大 — the dot is the dog's ear."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "大きな",
+          "reading": "おおきな",
+          "meaning": "big; large (attributive)"
+        },
+        {
+          "word": "拡大",
+          "reading": "かくだい",
+          "meaning": "enlargement; expansion"
+        },
+        {
+          "word": "最大",
+          "reading": "さいだい",
+          "meaning": "maximum; largest"
+        },
+        {
+          "word": "大いに",
+          "reading": "おおいに",
+          "meaning": "greatly; very much"
+        },
+        {
+          "word": "大会",
+          "reading": "たいかい",
+          "meaning": "tournament; large event"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "このかばんは大きいです。",
+          "highlight": "大",
+          "reading": "この かばんは おおきい です",
+          "romaji": "Kono kaban wa ookii desu.",
+          "gloss": "This bag as-for big is.",
+          "en": "This bag is big."
+        },
+        {
+          "jp": "大学に行きたいです。",
+          "highlight": "大",
+          "reading": "だいがくに いきたい です",
+          "romaji": "Daigaku ni ikitai desu.",
+          "gloss": "University to want-to-go is.",
+          "en": "I want to go to university."
+        },
+        {
+          "jp": "日本は大きい国です。",
+          "highlight": "大",
+          "reading": "にほんは おおきい くに です",
+          "romaji": "Nihon wa ookii kuni desu.",
+          "gloss": "Japan as-for big country is.",
+          "en": "Japan is a large country."
+        }
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "日",
+          "back": "sun / day — ニチ · ひ",
+          "speakText": "日"
+        },
+        {
+          "front": "一",
+          "back": "one — イチ · ひと",
+          "speakText": "一"
+        },
+        {
+          "front": "人",
+          "back": "person — ジン · ひと",
+          "speakText": "人"
+        },
+        {
+          "front": "年",
+          "back": "year — ネン · とし",
+          "speakText": "年"
+        },
+        {
+          "front": "大",
+          "back": "big / great — ダイ · おお",
+          "speakText": "大"
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the on-yomi (katakana or romaji):",
+      "question": "日",
+      "answer": "ニチ",
+      "acceptAlternatives": [
+        "nichi",
+        "ジツ",
+        "jitsu",
+        "にち",
+        "じつ"
+      ],
+      "reveal": "日 — sun / day · ニチ · ひ"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the on-yomi (katakana or romaji):",
+      "question": "一",
+      "answer": "イチ",
+      "acceptAlternatives": [
+        "ichi",
+        "イツ",
+        "itsu",
+        "いち",
+        "いつ"
+      ],
+      "reveal": "一 — one · イチ · ひと"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the on-yomi (katakana or romaji):",
+      "question": "人",
+      "answer": "ジン",
+      "acceptAlternatives": [
+        "jin",
+        "ニン",
+        "nin",
+        "じん",
+        "にん"
+      ],
+      "reveal": "人 — person · ジン · ひと"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the on-yomi (katakana or romaji):",
+      "question": "年",
+      "answer": "ネン",
+      "acceptAlternatives": [
+        "nen",
+        "ねん"
+      ],
+      "reveal": "年 — year · ネン · とし"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the on-yomi (katakana or romaji):",
+      "question": "大",
+      "answer": "ダイ",
+      "acceptAlternatives": [
+        "dai",
+        "タイ",
+        "tai",
+        "だい",
+        "たい"
+      ],
+      "reveal": "大 — big / great · ダイ · おお"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the kun-yomi (hiragana or romaji):",
+      "question": "日",
+      "answer": "ひ",
+      "acceptAlternatives": [
+        "hi",
+        "び",
+        "bi",
+        "か",
+        "ka"
+      ],
+      "reveal": "日 — sun / day · ニチ · ひ"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the kun-yomi (hiragana or romaji):",
+      "question": "一",
+      "answer": "ひと",
+      "acceptAlternatives": [
+        "hito",
+        "ひとつ",
+        "hitotsu"
+      ],
+      "reveal": "一 — one · イチ · ひと"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the kun-yomi (hiragana or romaji):",
+      "question": "人",
+      "answer": "ひと",
+      "acceptAlternatives": [
+        "hito",
+        "り",
+        "ri"
+      ],
+      "reveal": "人 — person · ジン · ひと"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the kun-yomi (hiragana or romaji):",
+      "question": "年",
+      "answer": "とし",
+      "acceptAlternatives": [
+        "toshi"
+      ],
+      "reveal": "年 — year · ネン · とし"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the kun-yomi (hiragana or romaji):",
+      "question": "大",
+      "answer": "おお",
+      "acceptAlternatives": [
+        "oo",
+        "おおきい",
+        "ookii",
+        "おおいに",
+        "ooini"
+      ],
+      "reveal": "大 — big / great · ダイ · おお"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the English meaning:",
+      "question": "日",
+      "answer": "sun",
+      "acceptAlternatives": [
+        "day",
+        "sun/day",
+        "sun / day"
+      ],
+      "reveal": "日 — sun / day · ニチ · ひ"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the English meaning:",
+      "question": "一",
+      "answer": "one",
+      "acceptAlternatives": [
+        "1"
+      ],
+      "reveal": "一 — one · イチ · ひと"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the English meaning:",
+      "question": "人",
+      "answer": "person",
+      "acceptAlternatives": [
+        "people",
+        "human"
+      ],
+      "reveal": "人 — person · ジン · ひと"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the English meaning:",
+      "question": "年",
+      "answer": "year",
+      "acceptAlternatives": [
+        "age"
+      ],
+      "reveal": "年 — year · ネン · とし"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the English meaning:",
+      "question": "大",
+      "answer": "big",
+      "acceptAlternatives": [
+        "large",
+        "great",
+        "big/large",
+        "big / great"
+      ],
+      "reveal": "大 — big / great · ダイ · おお"
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 人 pronounced in 日本人 (a Japanese person)?",
+      "word": "日本人",
+      "targetKanji": "人",
+      "options": [
+        {
+          "kana": "じん",
+          "readingType": "on",
+          "correct": true,
+          "explanation": "On-yomi ジン is the default for nationality and group words — the dominant reading when 人 attaches to an on-yomi compound: 日本人 (nihonjin), 外国人 (gaikokujin — foreigner), 個人 (kojin — individual)."
+        },
+        {
+          "kana": "にん",
+          "readingType": "on",
+          "correct": false,
+          "explanation": "ニン is also on-yomi but reserved for counting people and roles: 三人 (sannin — 3 people), 人気 (ninki — popularity), 犯人 (hannin — culprit)."
+        },
+        {
+          "kana": "ひと",
+          "readingType": "kun",
+          "correct": false,
+          "explanation": "Kun-yomi ひと is used when 人 stands alone or follows hiragana: あの人 (ano hito — that person), 人々 (hitobito — people)."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 日 pronounced in 毎日 (every day)?",
+      "word": "毎日",
+      "targetKanji": "日",
+      "options": [
+        {
+          "kana": "にち",
+          "readingType": "on",
+          "correct": true,
+          "explanation": "On-yomi ニチ is the default reading for 日 in compounds — ~70% of cases: 毎日 (mainichi — every day), 日曜日 (nichiyoubi — Sunday), 日米 (nichibei — Japan-US). If unsure, guess ニチ."
+        },
+        {
+          "kana": "じつ",
+          "readingType": "on",
+          "correct": false,
+          "explanation": "On-yomi ジツ appears in fewer compounds and usually refers to specific formal days: 同日 (doujitsu — the same day), 本日 (honjitsu — today)."
+        },
+        {
+          "kana": "ひ",
+          "readingType": "kun",
+          "correct": false,
+          "explanation": "Kun-yomi ひ is used when 日 stands alone or pairs with kun: いい日 (ii hi — a good day), 朝日 (asahi — morning sun)."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 大 pronounced in 大学 (university)?",
+      "word": "大学",
+      "targetKanji": "大",
+      "options": [
+        {
+          "kana": "だい",
+          "readingType": "on",
+          "correct": true,
+          "explanation": "On-yomi ダイ is the reading in 大学 (daigaku) and most compounds — the default: 拡大 (kakudai — expansion), 最大 (saidai — maximum). ~70% of 大 compounds."
+        },
+        {
+          "kana": "たい",
+          "readingType": "on",
+          "correct": false,
+          "explanation": "On-yomi タイ appears in specific compounds: 大会 (taikai — tournament), 大切 (taisetsu — important). Less common than ダイ."
+        },
+        {
+          "kana": "おお",
+          "readingType": "kun",
+          "correct": false,
+          "explanation": "Kun-yomi おお is used in native Japanese words: 大きい (ookii — big), 大いに (ooini — greatly). Never before another on-reading kanji."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji means 'big'?",
+      "options": [
+        "人",
+        "大",
+        "太",
+        "犬"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji is read ひと as kun-yomi?",
+      "options": [
+        "日",
+        "一",
+        "人",
+        "大"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji completes 日本__ (a Japanese person)?",
+      "options": [
+        "日",
+        "年",
+        "人",
+        "大"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each kanji to its meaning:",
+      "pairs": [
+        {
+          "left": "日",
+          "right": "sun / day"
+        },
+        {
+          "left": "一",
+          "right": "one"
+        },
+        {
+          "left": "人",
+          "right": "person"
+        },
+        {
+          "left": "年",
+          "right": "year"
+        },
+        {
+          "left": "大",
+          "right": "big / great"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,747 @@
+{
+  "id": "grammar-lesson-19",
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "から - Direct Reasons",
+      "intro": "Use から after a sentence to give a clear reason. It is direct and common in everyday speech, so it works well for simple explanations and casual answers.",
+      "rows": [
+        [
+          "Pattern",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "[reason] から",
+          "[reason] kara",
+          "because [reason]"
+        ],
+        [
+          "いそがしいから",
+          "isogashii kara",
+          "because I am busy"
+        ],
+        [
+          "あめが ふっていますから",
+          "ame ga futte imasu kara",
+          "because it is raining"
+        ],
+        [
+          "ねますから",
+          "nemasu kara",
+          "because I will sleep"
+        ],
+        [
+          "すきだから",
+          "suki da kara",
+          "because I like it"
+        ]
+      ],
+      "takeaway": "Put から after the reason: reason + から. For nouns/na-adjectives, use だ + から."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which ending gives a direct everyday reason, like 'because I am busy'?",
+      "options": [
+        "いそがしいから",
+        "いそがしいまで",
+        "いそがしいのに",
+        "いそがしいだけ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I will rest because I am busy' using から:",
+      "patternJp": [
+        "いそがしい",
+        "[SLOT]",
+        "、やすみます。"
+      ],
+      "patternRom": [
+        "isogashii",
+        "[SLOT]",
+        ", yasumimasu."
+      ],
+      "slot": {
+        "answer": "から",
+        "answerRomaji": "kara",
+        "hint": "The direct because marker.",
+        "acceptAlternatives": [
+          "Kara"
+        ]
+      },
+      "translation": "I will rest because I am busy.",
+      "speakText": "いそがしいから、やすみます。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Connecting Reason to Result",
+      "intro": "A reason can come before the result, or you can put the result first and add the reason after. At N5, keep the reason sentence simple and make the connection clear.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "あめが ふっていますから、いきません。",
+          "ame ga futte imasu kara, ikimasen",
+          "Because it is raining, I won't go."
+        ],
+        [
+          "いきません。あめが ふっていますから。",
+          "ikimasen. ame ga futte imasu kara",
+          "I won't go. Because it is raining."
+        ],
+        [
+          "テストが ありますから、べんきょうします。",
+          "tesuto ga arimasu kara, benkyou shimasu",
+          "Because there is a test, I will study."
+        ],
+        [
+          "つかれましたから、ねます。",
+          "tsukaremashita kara, nemasu",
+          "Because I am tired, I will sleep."
+        ],
+        [
+          "やすいですから、かいます。",
+          "yasui desu kara, kaimasu",
+          "Because it is cheap, I will buy it."
+        ]
+      ],
+      "takeaway": "Reason + から can explain the result before or after it."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which sentence means 'Because there is a test, I will study'?",
+      "options": [
+        "テストが ありますから、べんきょうします。",
+        "テストが ありますが、べんきょうします。",
+        "テストが ありますね、べんきょうしました。",
+        "テストを ありますから、べんきょうします。"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'Because there is a test, I will study' using から:",
+      "patternJp": [
+        "テストが あります",
+        "[SLOT]",
+        "、べんきょうします。"
+      ],
+      "patternRom": [
+        "tesuto ga arimasu",
+        "[SLOT]",
+        ", benkyou shimasu."
+      ],
+      "slot": {
+        "answer": "から",
+        "answerRomaji": "kara",
+        "hint": "The marker that attaches to the reason before the result.",
+        "acceptAlternatives": [
+          "Kara"
+        ]
+      },
+      "translation": "Because there is a test, I will study.",
+      "speakText": "テストが ありますから、べんきょうします。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "だから - Reasons with Nouns and na-Adjectives",
+      "intro": "When the reason is a noun or na-adjective, add だ before から. This keeps the reason sentence complete before you connect it to the result.",
+      "rows": [
+        [
+          "Reason",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "あめだから",
+          "ame da kara",
+          "because of the rain / because it is rainy"
+        ],
+        [
+          "びょうきだから",
+          "byouki da kara",
+          "because I am sick"
+        ],
+        [
+          "しずかだから",
+          "shizuka da kara",
+          "because it is quiet"
+        ],
+        [
+          "すきだから",
+          "suki da kara",
+          "because I like it"
+        ],
+        [
+          "テストだから",
+          "tesuto da kara",
+          "because it is a test"
+        ]
+      ],
+      "takeaway": "Nouns and na-adjectives need だ before から: noun/na-adj + だから."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which reason correctly uses だから with a noun?",
+      "options": [
+        "あめだから",
+        "あめから",
+        "あめがから",
+        "あめをから"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say “Because I am sick, I will rest” using だから:",
+      "patternJp": [
+        "びょうき",
+        "[SLOT]",
+        "、やすみます。"
+      ],
+      "patternRom": [
+        "byouki",
+        "[SLOT]",
+        ", yasumimasu."
+      ],
+      "slot": {
+        "answer": "だから",
+        "answerRomaji": "da kara",
+        "hint": "The noun/na-adjective reason connector: copula + because.",
+        "acceptAlternatives": [
+          "dakara",
+          "だ から"
+        ]
+      },
+      "translation": "Because I am sick, I will rest.",
+      "speakText": "びょうきだから、やすみます。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "ので - Softer Reasons",
+      "intro": "Use ので after a reason when you want the explanation to sound softer or more polite. It is common for excuses, notices, and careful explanations.",
+      "rows": [
+        [
+          "Pattern",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "[reason] ので",
+          "[reason] node",
+          "because [reason] (softer)"
+        ],
+        [
+          "いそがしいので",
+          "isogashii node",
+          "because I am busy"
+        ],
+        [
+          "あめが ふっているので",
+          "ame ga futte iru node",
+          "because it is raining"
+        ],
+        [
+          "びょうきなので",
+          "byouki na node",
+          "because I am sick"
+        ],
+        [
+          "じかんが ないので",
+          "jikan ga nai node",
+          "because there is no time"
+        ]
+      ],
+      "takeaway": "ので gives a reason more softly; nouns and na-adjectives use な before ので."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which is the softer reason form for 'because I am sick'?",
+      "options": [
+        "びょうきなので",
+        "びょうきので",
+        "びょうきからので",
+        "びょうきを ので"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'Because I am sick, I will rest' using the softer ので:",
+      "patternJp": [
+        "びょうきな",
+        "[SLOT]",
+        "、やすみます。"
+      ],
+      "patternRom": [
+        "byouki na",
+        "[SLOT]",
+        ", yasumimasu."
+      ],
+      "slot": {
+        "answer": "ので",
+        "answerRomaji": "node",
+        "hint": "The softer because marker.",
+        "acceptAlternatives": [
+          "Node"
+        ]
+      },
+      "translation": "Because I am sick, I will rest.",
+      "speakText": "びょうきなので、やすみます。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which gives a direct reason naturally?",
+      "title": "から for direct because",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "いそがしいから、いきません。",
+          "romaji": "isogashii kara, ikimasen.",
+          "en": "Because I am busy, I won't go.",
+          "note": "から attaches after the reason and directly explains the result.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "いそがしいに、いきません。",
+          "romaji": "isogashii ni, ikimasen.",
+          "en": "(intended: because I am busy, I won't go)",
+          "note": "に does not mark a reason this way.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "いそがしいを、いきません。",
+          "romaji": "isogashii o, ikimasen.",
+          "en": "(ungrammatical)",
+          "note": "を marks objects, not reasons.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use reason + から for a direct everyday reason.",
+      "speakText": "いそがしいから、いきません。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly uses ので after a noun reason?",
+      "title": "Nouns and na-adjectives need な before ので",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "びょうきなので、やすみます。",
+          "romaji": "byouki na node, yasumimasu.",
+          "en": "Because I am sick, I will rest.",
+          "note": "A noun-like reason uses な before ので.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "びょうきので、やすみます。",
+          "romaji": "byouki node, yasumimasu.",
+          "en": "(intended: because I am sick, I will rest)",
+          "note": "Add な before ので after nouns and na-adjectives.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "びょうきだから、やすみます。",
+          "romaji": "byouki da kara, yasumimasu.",
+          "en": "Because I am sick, I will rest.",
+          "note": "This is grammatical, but it uses the more direct から pattern.",
+          "correct": false
+        }
+      ],
+      "takeaway": "For noun or na-adjective reasons, use な + ので.",
+      "speakText": "びょうきなので、やすみます。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sounds like a softer explanation or excuse?",
+      "title": "ので is softer than から",
+      "variants": [
+        {
+          "label": "POLITE",
+          "jp": "じかんが ないので、しつれいします。",
+          "romaji": "jikan ga nai node, shitsurei shimasu.",
+          "en": "Because I don't have time, I will excuse myself.",
+          "note": "ので makes the explanation sound softer and more careful.",
+          "correct": true
+        },
+        {
+          "label": "NATURAL",
+          "jp": "じかんが ないから、しつれいします。",
+          "romaji": "jikan ga nai kara, shitsurei shimasu.",
+          "en": "Because I don't have time, I will excuse myself.",
+          "note": "Grammatical, but more direct than the prompt asks for.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "じかんが ないを、しつれいします。",
+          "romaji": "jikan ga nai o, shitsurei shimasu.",
+          "en": "(ungrammatical)",
+          "note": "を cannot connect a reason to a result.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use ので for softer reasons, especially when giving an excuse politely.",
+      "speakText": "じかんが ないので、しつれいします。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence correctly gives a noun reason with だから?",
+      "title": "だから for noun reasons",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "あめだから、タクシーで いきます。",
+          "romaji": "ame da kara, takushii de ikimasu.",
+          "en": "Because of the rain, I will go by taxi.",
+          "note": "あめ is a noun, so use だから before the result.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "あめから、タクシーで いきます。",
+          "romaji": "ame kara, takushii de ikimasu.",
+          "en": "(intended: because of the rain)",
+          "note": "A noun reason needs だ before から.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "あめを、タクシーで いきます。",
+          "romaji": "ame o, takushii de ikimasu.",
+          "en": "(ungrammatical)",
+          "note": "を cannot connect a reason to a result.",
+          "correct": false
+        }
+      ],
+      "takeaway": "For noun reasons, use noun + だから before the result.",
+      "speakText": "あめだから、タクシーで いきます。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reasons in Context",
+      "intro": "These examples show direct から reasons, noun/na-adjective だから reasons, and softer ので reasons in everyday beginner situations.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "English"
+        ],
+        [
+          "いそがしいから、いきません。",
+          "isogashii kara, ikimasen.",
+          "Because I am busy, I won't go."
+        ],
+        [
+          "テストが ありますから、べんきょうします。",
+          "tesuto ga arimasu kara, benkyou shimasu.",
+          "Because there is a test, I will study."
+        ],
+        [
+          "あめが ふっていますから、かさを もっていきます。",
+          "ame ga futte imasu kara, kasa o motte ikimasu.",
+          "Because it is raining, I will take an umbrella."
+        ],
+        [
+          "つかれましたから、ねます。",
+          "tsukaremashita kara, nemasu.",
+          "Because I am tired, I will sleep."
+        ],
+        [
+          "びょうきなので、やすみます。",
+          "byouki na node, yasumimasu.",
+          "Because I am sick, I will rest."
+        ],
+        [
+          "じかんが ないので、しつれいします。",
+          "jikan ga nai node, shitsurei shimasu.",
+          "Because I don't have time, I will excuse myself."
+        ],
+        [
+          "あめだから、タクシーで いきます。",
+          "ame da kara, takushii de ikimasu.",
+          "Because of the rain, I will go by taxi."
+        ],
+        [
+          "やすいですから、かいます。",
+          "yasui desu kara, kaimasu.",
+          "Because it is cheap, I will buy it."
+        ]
+      ],
+      "takeaway": "Choose から for direct reasons, だから for noun/na-adjective reasons, and ので for softer reasons."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いそがしいから、いきません。",
+      "options": [
+        "Because I am busy, I won't go.",
+        "Because I am free, I will go.",
+        "I am busy after I go.",
+        "I went because I was busy."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "テストが ありますから、べんきょうします。",
+      "options": [
+        "I studied, so there is a test.",
+        "Because there is a test, I will study.",
+        "There is no test today.",
+        "I don't study for tests."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "あめが ふっていますから、かさを もっていきます。",
+      "options": [
+        "Because it is raining, I will take an umbrella.",
+        "Because it is sunny, I will leave my umbrella.",
+        "I bought an umbrella because it was cheap.",
+        "The umbrella is raining."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "つかれましたから、ねます。",
+      "options": [
+        "Because I am tired, I will sleep.",
+        "I slept, so I am not tired.",
+        "Please sleep because you are tired.",
+        "I am tired because I slept."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "びょうきなので、やすみます。",
+      "options": [
+        "Because I am healthy, I will work.",
+        "Because I am sick, I will rest.",
+        "I rested, so I became sick.",
+        "Please visit the hospital."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "じかんが ないので、しつれいします。",
+      "options": [
+        "Because I don't have time, I will excuse myself.",
+        "I have a lot of free time.",
+        "What time is it?",
+        "Please wait for a long time."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "あめだから、タクシーで いきます。",
+      "options": [
+        "Because of the rain, I will go by taxi.",
+        "I will walk because it is sunny.",
+        "The taxi is raining.",
+        "I will buy an umbrella tomorrow."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "やすいですから、かいます。",
+      "options": [
+        "Because it is cheap, I will buy it.",
+        "Because it is expensive, I won't buy it.",
+        "I bought it yesterday.",
+        "Please make it cheaper."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "いそがしいから、いきません",
+      "answer": "isogashii kara ikimasen",
+      "acceptAlternatives": [
+        "isogashii kara, ikimasen"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "テストが ありますから、べんきょうします",
+      "answer": "tesuto ga arimasu kara benkyou shimasu",
+      "acceptAlternatives": [
+        "tesuto ga arimasu kara, benkyou shimasu",
+        "tesuto ga arimasu kara benkyo shimasu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "あめが ふっていますから、かさを もっていきます",
+      "answer": "ame ga futte imasu kara kasa o motte ikimasu",
+      "acceptAlternatives": [
+        "ame ga futte imasu kara, kasa wo motte ikimasu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "つかれましたから、ねます",
+      "answer": "tsukaremashita kara nemasu",
+      "acceptAlternatives": [
+        "tsukaremashita kara, nemasu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "びょうきなので、やすみます",
+      "answer": "byouki na node yasumimasu",
+      "acceptAlternatives": [
+        "byouki na node, yasumimasu",
+        "byoki na node yasumimasu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "じかんが ないので、しつれいします",
+      "answer": "jikan ga nai node shitsurei shimasu",
+      "acceptAlternatives": [
+        "jikan ga nai node, shitsurei shimasu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "あめだから、タクシーで いきます",
+      "answer": "ame da kara takushii de ikimasu",
+      "acceptAlternatives": [
+        "jikan ga nain desu",
+        "jikan ga nai no desu"
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning:",
+      "pairs": [
+        {
+          "left": "から",
+          "right": "because (direct)"
+        },
+        {
+          "left": "ので",
+          "right": "because (softer)"
+        },
+        {
+          "left": "んです",
+          "right": "explanatory ending"
+        },
+        {
+          "left": "いそがしい",
+          "right": "busy"
+        },
+        {
+          "left": "あめ",
+          "right": "rain"
+        },
+        {
+          "left": "かさ",
+          "right": "umbrella"
+        },
+        {
+          "left": "びょうき",
+          "right": "sickness / sick"
+        },
+        {
+          "left": "時間",
+          "right": "time"
+        },
+        {
+          "left": "つかれました",
+          "right": "became tired"
+        },
+        {
+          "left": "やすい",
+          "right": "cheap"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice - reasons",
+      "cards": [
+        {
+          "jp": "いそがしいから、いきません。",
+          "romaji": "isogashii kara, ikimasen.",
+          "en": "Because I am busy, I won't go."
+        },
+        {
+          "jp": "テストが ありますから、べんきょうします。",
+          "romaji": "tesuto ga arimasu kara, benkyou shimasu.",
+          "en": "Because there is a test, I will study."
+        },
+        {
+          "jp": "あめが ふっていますから、かさを もっていきます。",
+          "romaji": "ame ga futte imasu kara, kasa o motte ikimasu.",
+          "en": "Because it is raining, I will take an umbrella."
+        },
+        {
+          "jp": "つかれましたから、ねます。",
+          "romaji": "tsukaremashita kara, nemasu.",
+          "en": "Because I am tired, I will sleep."
+        },
+        {
+          "jp": "びょうきなので、やすみます。",
+          "romaji": "byouki na node, yasumimasu.",
+          "en": "Because I am sick, I will rest."
+        },
+        {
+          "jp": "じかんが ないので、しつれいします。",
+          "romaji": "jikan ga nai node, shitsurei shimasu.",
+          "en": "Because I don't have time, I will excuse myself."
+        },
+        {
+          "jp": "あめだから、タクシーで いきます。",
+          "romaji": "ame da kara, takushii de ikimasu.",
+          "en": "Because of the rain, I will go by taxi."
+        },
+        {
+          "jp": "やすいですから、かいます。",
+          "romaji": "yasui desu kara, kaimasu.",
+          "en": "Because it is cheap, I will buy it."
+        },
+        {
+          "jp": "すきだから、まいにち たべます。",
+          "romaji": "suki da kara, mainichi tabemasu.",
+          "en": "Because I like it, I eat it every day."
+        },
+        {
+          "jp": "あめが ふっているので、タクシーで いきます。",
+          "romaji": "ame ga futte iru node, takushii de ikimasu.",
+          "en": "Because it is raining, I will go by taxi."
+        }
+      ]
+    }
+  ]
+}

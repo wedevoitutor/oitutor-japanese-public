@@ -1,0 +1,1009 @@
+{
+  "id": "grammar-lesson-08",
+  "dictionaryVocabulary": [
+    {
+      "word": "ある",
+      "kana": "ある",
+      "romaji": "aru",
+      "partOfSpeech": "verb",
+      "meaning": "to exist / there is",
+      "description": "Used for the existence of inanimate things, plants, events, or abstract things.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "机の上に本がある。",
+        "kana": "つくえのうえにほんがある。",
+        "romaji": "tsukue no ue ni hon ga aru.",
+        "english": "There is a book on the desk.",
+        "highlight": "ある"
+      },
+      "tags": [
+        "existence",
+        "verbs",
+        "grammar-08"
+      ]
+    },
+    {
+      "word": "いる",
+      "kana": "いる",
+      "romaji": "iru",
+      "partOfSpeech": "verb",
+      "meaning": "to exist / to be there",
+      "description": "Used for the existence of people and animals.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "庭に猫がいる。",
+        "kana": "にわにねこがいる。",
+        "romaji": "niwa ni neko ga iru.",
+        "english": "There is a cat in the garden.",
+        "highlight": "いる"
+      },
+      "tags": [
+        "existence",
+        "verbs",
+        "grammar-08"
+      ]
+    },
+    {
+      "word": "猫",
+      "kana": "ねこ",
+      "romaji": "neko",
+      "partOfSpeech": "noun",
+      "meaning": "cat",
+      "description": "The everyday word for a cat.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "庭に猫がいます。",
+        "kana": "にわにねこがいます。",
+        "romaji": "niwa ni neko ga imasu.",
+        "english": "There is a cat in the garden.",
+        "highlight": "猫"
+      },
+      "tags": [
+        "animals",
+        "grammar-08"
+      ]
+    },
+    {
+      "word": "庭",
+      "kana": "にわ",
+      "romaji": "niwa",
+      "partOfSpeech": "noun",
+      "meaning": "garden / yard",
+      "description": "A garden or yard around a house or building.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "庭に猫がいます。",
+        "kana": "にわにねこがいます。",
+        "romaji": "niwa ni neko ga imasu.",
+        "english": "There is a cat in the garden.",
+        "highlight": "庭"
+      },
+      "tags": [
+        "places",
+        "grammar-08"
+      ]
+    },
+    {
+      "word": "机",
+      "kana": "つくえ",
+      "romaji": "tsukue",
+      "partOfSpeech": "noun",
+      "meaning": "desk",
+      "description": "A desk or writing table.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "机の上に本があります。",
+        "kana": "つくえのうえにほんがあります。",
+        "romaji": "tsukue no ue ni hon ga arimasu.",
+        "english": "There is a book on the desk.",
+        "highlight": "机"
+      },
+      "tags": [
+        "objects",
+        "grammar-08"
+      ]
+    },
+    {
+      "word": "上",
+      "kana": "うえ",
+      "romaji": "ue",
+      "partOfSpeech": "noun",
+      "meaning": "above / top",
+      "description": "A position word meaning above or on top.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "机の上に本があります。",
+        "kana": "つくえのうえにほんがあります。",
+        "romaji": "tsukue no ue ni hon ga arimasu.",
+        "english": "There is a book on the desk.",
+        "highlight": "上"
+      },
+      "tags": [
+        "position",
+        "grammar-08"
+      ]
+    },
+    {
+      "word": "時間",
+      "kana": "じかん",
+      "romaji": "jikan",
+      "partOfSpeech": "noun",
+      "meaning": "time",
+      "description": "Time as something you have, need, or spend.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "時間がありません。",
+        "kana": "じかんがありません。",
+        "romaji": "jikan ga arimasen.",
+        "english": "I don't have time.",
+        "highlight": "時間"
+      },
+      "tags": [
+        "time",
+        "grammar-08"
+      ]
+    },
+    {
+      "word": "会議",
+      "kana": "かいぎ",
+      "romaji": "kaigi",
+      "partOfSpeech": "noun",
+      "meaning": "meeting",
+      "description": "A meeting where people discuss work, school, or plans.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "明日会議があります。",
+        "kana": "あしたかいぎがあります。",
+        "romaji": "ashita kaigi ga arimasu.",
+        "english": "There is a meeting tomorrow.",
+        "highlight": "会議"
+      },
+      "tags": [
+        "events",
+        "grammar-08"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "あります vs います — Core Forms",
+      "intro": "Japanese uses two different existence verbs depending on what exists. Use あります for objects, plants, places, events, and abstract things; use います for people, animals, insects, and other beings that move on their own.",
+      "rows": [
+        [
+          "Form",
+          "Inanimate",
+          "Animate",
+          "Meaning"
+        ],
+        [
+          "Present positive",
+          "あります",
+          "います",
+          "there is / have"
+        ],
+        [
+          "Present negative",
+          "ありません",
+          "いません",
+          "there is not / do not have"
+        ],
+        [
+          "Past positive",
+          "ありました",
+          "いました",
+          "there was / had"
+        ],
+        [
+          "Past negative",
+          "ありませんでした",
+          "いませんでした",
+          "there was not / did not have"
+        ],
+        [
+          "Plain positive",
+          "ある",
+          "いる",
+          "there is / have"
+        ],
+        [
+          "Plain negative",
+          "ない",
+          "いない",
+          "there is not / do not have"
+        ]
+      ],
+      "takeaway": "Choose あります for inanimate things and います for living beings that move on their own."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which verb fits a cat in the garden?",
+      "options": [
+        "あります",
+        "います",
+        "ありません",
+        "ありました"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'There is a cat in the garden' using the animate existence verb:",
+      "patternJp": [
+        "にわに ねこが ",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "niwa ni neko ga ",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "います",
+        "answerRomaji": "imasu",
+        "hint": "The polite existence verb for people and animals.",
+        "acceptAlternatives": [
+          "Imasu",
+          "居ます"
+        ]
+      },
+      "translation": "There is a cat in the garden.",
+      "speakText": "にわに ねこが います。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Existence at a Location",
+      "intro": "To introduce something new at a location, put the place first with に, then the thing or person with が. This pattern answers 'What is there?'",
+      "rows": [
+        [
+          "Pattern",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "[PLACE]に [THING]が あります。",
+          "[place] ni [thing] ga arimasu.",
+          "There is [thing] at [place]."
+        ],
+        [
+          "[PLACE]に [PERSON/ANIMAL]が います。",
+          "[place] ni [person/animal] ga imasu.",
+          "There is [person/animal] at [place]."
+        ],
+        [
+          "つくえの うえに ほんが あります。",
+          "tsukue no ue ni hon ga arimasu.",
+          "There is a book on the desk."
+        ],
+        [
+          "この まちに びょういんが みっつ あります。",
+          "kono machi ni byouin ga mittsu arimasu.",
+          "There are three hospitals in this town."
+        ],
+        [
+          "となりの へやに ひとが います。",
+          "tonari no heya ni hito ga imasu.",
+          "There is a person in the next room."
+        ]
+      ],
+      "takeaway": "Use PLACE に + THING/PERSON が + あります/います to introduce what exists there."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which pattern introduces a new thing at a place?",
+      "options": [
+        "[THING]は [PLACE]に あります",
+        "[PLACE]に [THING]が あります",
+        "[THING]の [PLACE]が あります",
+        "[PLACE]は [THING]に あります"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'There is a book on the desk' by filling the object:",
+      "patternJp": [
+        "つくえの うえに ",
+        "[SLOT]",
+        "が あります。"
+      ],
+      "patternRom": [
+        "tsukue no ue ni ",
+        "[SLOT]",
+        " ga arimasu"
+      ],
+      "slot": {
+        "answer": "ほん",
+        "answerRomaji": "hon",
+        "hint": "The object that you read.",
+        "acceptAlternatives": [
+          "Hon",
+          "本"
+        ]
+      },
+      "translation": "There is a book on the desk.",
+      "speakText": "つくえの うえに ほんが あります。"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'The toilet is on the second floor' using the known-topic order:",
+      "patternJp": [
+        "トイレは ",
+        "[SLOT]",
+        "に あります。"
+      ],
+      "patternRom": [
+        "toire wa ",
+        "[SLOT]",
+        " ni arimasu"
+      ],
+      "slot": {
+        "answer": "にかい",
+        "answerRomaji": "nikai",
+        "hint": "The floor above the first floor.",
+        "acceptAlternatives": [
+          "Nikai",
+          "二階",
+          "2階"
+        ]
+      },
+      "translation": "The toilet is on the second floor.",
+      "speakText": "トイレは にかいに あります。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Possession, Events, and Abstract Things",
+      "intro": "あります can also mean 'have' when the thing you have is inanimate or abstract. Events and plans also use あります because they are treated as occurrences, not living beings.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "English"
+        ],
+        [
+          "きょうだいが います。",
+          "kyoudai ga imasu.",
+          "I have siblings."
+        ],
+        [
+          "じかんが ありません。",
+          "jikan ga arimasen.",
+          "I don't have time."
+        ],
+        [
+          "あした かいぎが あります。",
+          "ashita kaigi ga arimasu.",
+          "There is a meeting tomorrow."
+        ],
+        [
+          "おかねが ない！",
+          "okane ga nai!",
+          "I don't have money!"
+        ],
+        [
+          "パーティーが あります。",
+          "paatii ga arimasu.",
+          "There is a party."
+        ],
+        [
+          "よていが あります。",
+          "yotei ga arimasu.",
+          "I have plans."
+        ]
+      ],
+      "takeaway": "Use います for living people in your life, but use あります for objects, money, time, plans, and events."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which phrase means 'I don't have time'?",
+      "options": [
+        "じかんが ありません。",
+        "じかんが いません。",
+        "きょうだいが あります。",
+        "おかねが います。"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'There is a meeting tomorrow' by filling the event word:",
+      "patternJp": [
+        "あした ",
+        "[SLOT]",
+        "が あります。"
+      ],
+      "patternRom": [
+        "ashita ",
+        "[SLOT]",
+        " ga arimasu"
+      ],
+      "slot": {
+        "answer": "かいぎ",
+        "answerRomaji": "kaigi",
+        "hint": "A work or school event where people discuss something.",
+        "acceptAlternatives": [
+          "Kaigi",
+          "会議"
+        ]
+      },
+      "translation": "There is a meeting tomorrow.",
+      "speakText": "あした かいぎが あります。"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I have siblings' using the animate possession verb:",
+      "patternJp": [
+        "きょうだいが ",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "kyoudai ga ",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "います",
+        "answerRomaji": "imasu",
+        "hint": "The polite existence verb for living people.",
+        "acceptAlternatives": [
+          "Imasu",
+          "居ます"
+        ]
+      },
+      "translation": "I have siblings.",
+      "speakText": "きょうだいが います。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Location Words with の",
+      "intro": "Japanese position words behave like nouns, so they need の after the thing they relate to. Say NOUN の POSITION に before the existence verb.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "つくえの うえに",
+          "tsukue no ue ni",
+          "on top of the desk"
+        ],
+        [
+          "いすの したに",
+          "isu no shita ni",
+          "under the chair"
+        ],
+        [
+          "へやの なかに",
+          "heya no naka ni",
+          "inside the room"
+        ],
+        [
+          "へやの そとに",
+          "heya no soto ni",
+          "outside the room"
+        ],
+        [
+          "いえの まえに",
+          "ie no mae ni",
+          "in front of the house"
+        ],
+        [
+          "いえの うしろに",
+          "ie no ushiro ni",
+          "behind the house"
+        ],
+        [
+          "となりの へやに",
+          "tonari no heya ni",
+          "in the next room"
+        ]
+      ],
+      "takeaway": "Link a noun to a position word with の: つくえの うえに, not つくえ うえに."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which phrase correctly means 'under the chair'?",
+      "options": [
+        "いす したに",
+        "いすの したに",
+        "したの いすに",
+        "いすが したに"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'There is a cat under the chair' by filling the position word:",
+      "patternJp": [
+        "いすの ",
+        "[SLOT]",
+        "に ねこが います。"
+      ],
+      "patternRom": [
+        "isu no ",
+        "[SLOT]",
+        " ni neko ga imasu"
+      ],
+      "slot": {
+        "answer": "した",
+        "answerRomaji": "shita",
+        "hint": "The position word meaning below or under.",
+        "acceptAlternatives": [
+          "Shita",
+          "下"
+        ]
+      },
+      "translation": "There is a cat under the chair.",
+      "speakText": "いすの したに ねこが います。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence correctly says 'There is a cat in the garden'?",
+      "title": "あります vs います — the core rule",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "にわに ねこが います。",
+          "romaji": "niwa ni neko ga imasu.",
+          "en": "There is a cat in the garden.",
+          "note": "Cats move on their own, so the animate existence verb is correct.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "にわに ねこが あります。",
+          "romaji": "niwa ni neko ga arimasu.",
+          "en": "(intended: There is a cat in the garden.)",
+          "note": "あります is for inanimate things, not living creatures.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "にわが ねこに います。",
+          "romaji": "niwa ga neko ni imasu.",
+          "en": "(ungrammatical)",
+          "note": "The location takes に, and the existing being takes が.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "にわに ほんが あります。",
+          "romaji": "niwa ni hon ga arimasu.",
+          "en": "There is a book in the garden.",
+          "note": "This sentence is grammatical, but it talks about a book, not a cat.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use います for people and animals; use あります for inanimate things.",
+      "speakText": "にわに ねこが います。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence introduces a new book on the desk?",
+      "title": "Two sentence orders — same meaning, different focus",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "つくえの うえに ほんが あります。",
+          "romaji": "tsukue no ue ni hon ga arimasu.",
+          "en": "There is a book on the desk.",
+          "note": "PLACE に THING が introduces the thing as new information.",
+          "correct": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "ほんは つくえの うえに あります。",
+          "romaji": "hon wa tsukue no ue ni arimasu.",
+          "en": "The book is on the desk.",
+          "note": "This answers where a known book is, rather than introducing a new book.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "つくえは ほんに あります。",
+          "romaji": "tsukue wa hon ni arimasu.",
+          "en": "(ungrammatical)",
+          "note": "This reverses the location and the thing that exists.",
+          "correct": false
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "つくえの うえに ほんは あります。",
+          "romaji": "tsukue no ue ni hon wa arimasu.",
+          "en": "(awkward for this meaning)",
+          "note": "Use が when introducing the book as new information.",
+          "correct": false
+        }
+      ],
+      "takeaway": "PLACE に THING が introduces what exists; THING は PLACE に tells where a known thing is.",
+      "speakText": "つくえの うえに ほんが あります。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence correctly uses あります for an event?",
+      "title": "あります for events and abstract possession",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "パーティーが あります。",
+          "romaji": "paatii ga arimasu.",
+          "en": "There is a party.",
+          "note": "Events use あります because they are inanimate occurrences.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "パーティーが います。",
+          "romaji": "paatii ga imasu.",
+          "en": "(intended: There is a party.)",
+          "note": "います is for people and animals, not events.",
+          "correct": false
+        },
+        {
+          "label": "NATURAL",
+          "jp": "くるまが あります。",
+          "romaji": "kuruma ga arimasu.",
+          "en": "I have a car.",
+          "note": "This is natural possession with an inanimate object, but it is not the event sentence asked for.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "かいぎに あります。",
+          "romaji": "kaigi ni arimasu.",
+          "en": "(incomplete)",
+          "note": "The event should be marked with が: かいぎが あります.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Events, schedules, money, time, and plans use あります.",
+      "speakText": "パーティーが あります。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase correctly says 'It is on top of the desk'?",
+      "title": "Location words (NOUN の + position word)",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "つくえの うえに あります。",
+          "romaji": "tsukue no ue ni arimasu.",
+          "en": "It is on top of the desk.",
+          "note": "Use の to link the noun to the position word.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "つくえ うえに あります。",
+          "romaji": "tsukue ue ni arimasu.",
+          "en": "(intended: It is on the desk.)",
+          "note": "Position words need の after the noun: つくえの うえ.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "つくえの したに あります。",
+          "romaji": "tsukue no shita ni arimasu.",
+          "en": "It is under the desk.",
+          "note": "This is grammatical, but した means under, not on top.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "つくえの うえが あります。",
+          "romaji": "tsukue no ue ga arimasu.",
+          "en": "(unnatural for this meaning)",
+          "note": "The location phrase needs に when saying where something exists.",
+          "correct": false
+        }
+      ],
+      "takeaway": "For position words, use NOUN の POSITION に before あります or います.",
+      "speakText": "つくえの うえに あります。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Sentences in Context",
+      "intro": "These are the main existence sentences from the lesson. Notice how が introduces what exists, は marks a known topic, and に marks the location.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "English"
+        ],
+        [
+          "つくえの うえに ほんが あります。",
+          "tsukue no ue ni hon ga arimasu.",
+          "There is a book on the desk."
+        ],
+        [
+          "トイレは にかいに あります。",
+          "toire wa nikai ni arimasu.",
+          "The toilet is on the second floor."
+        ],
+        [
+          "この まちに びょういんが みっつ あります。",
+          "kono machi ni byouin ga mittsu arimasu.",
+          "There are three hospitals in this town."
+        ],
+        [
+          "にわに ねこが います。",
+          "niwa ni neko ga imasu.",
+          "There is a cat in the garden."
+        ],
+        [
+          "きょうだいが います。",
+          "kyoudai ga imasu.",
+          "I have siblings."
+        ],
+        [
+          "じかんが ありません。",
+          "jikan ga arimasen.",
+          "I don't have time."
+        ],
+        [
+          "あした かいぎが あります。",
+          "ashita kaigi ga arimasu.",
+          "There is a meeting tomorrow."
+        ],
+        [
+          "おかねが ない！",
+          "okane ga nai!",
+          "I don't have money!"
+        ]
+      ],
+      "takeaway": "Existence grammar also covers possession, events, and everyday location sentences."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "つくえの うえに ほんが あります。",
+      "options": [
+        "There is a book on the desk.",
+        "There is a desk in the book.",
+        "I bought a book.",
+        "The book fell."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "にわに ねこが います。",
+      "options": [
+        "The cat is eating.",
+        "I like cats.",
+        "There is a cat in the garden.",
+        "The cat left the garden."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "じかんが ありません。",
+      "options": [
+        "I have a lot of time.",
+        "Do you have time?",
+        "Time passed quickly.",
+        "I don't have time."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "あした かいぎが あります。",
+      "options": [
+        "The meeting was yesterday.",
+        "There is a meeting tomorrow.",
+        "I cancelled the meeting.",
+        "The meeting ended."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "となりの へやに ひとが います。",
+      "options": [
+        "Nobody is in the next room.",
+        "There is a person in the next room.",
+        "I went to the next room.",
+        "The next room is empty."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "おかねが ない！",
+      "options": [
+        "I have lots of money!",
+        "I found some money.",
+        "I don't have money!",
+        "Can I borrow money?"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "きょうだいが います。",
+      "options": [
+        "I am an only child.",
+        "I have siblings.",
+        "My sibling is a student.",
+        "Where are your siblings?"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "この まちに びょういんが みっつ あります。",
+      "options": [
+        "There is one hospital in this town.",
+        "There are three hospitals in this town.",
+        "The hospital is far from here.",
+        "This town has no hospital."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "つくえの うえに ほんが あります",
+      "answer": "tsukue no ue ni hon ga arimasu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "にわに ねこが います",
+      "answer": "niwa ni neko ga imasu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "じかんが ありません",
+      "answer": "jikan ga arimasen",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "あした かいぎが あります",
+      "answer": "ashita kaigi ga arimasu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "きょうだいが います",
+      "answer": "kyoudai ga imasu",
+      "acceptAlternatives": [
+        "kyodai ga imasu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "トイレは にかいに あります",
+      "answer": "toire wa nikai ni arimasu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "おかねが ない",
+      "answer": "okane ga nai",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning:",
+      "pairs": [
+        {
+          "left": "つくえ",
+          "right": "desk"
+        },
+        {
+          "left": "にわ",
+          "right": "garden / yard"
+        },
+        {
+          "left": "にかい",
+          "right": "second floor"
+        },
+        {
+          "left": "きょうだい",
+          "right": "siblings"
+        },
+        {
+          "left": "じかん",
+          "right": "time"
+        },
+        {
+          "left": "かいぎ",
+          "right": "meeting"
+        },
+        {
+          "left": "おかね",
+          "right": "money"
+        },
+        {
+          "left": "うえ",
+          "right": "above / on top"
+        },
+        {
+          "left": "した",
+          "right": "below / under"
+        },
+        {
+          "left": "となり",
+          "right": "next to / neighbouring"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice — existence sentences",
+      "cards": [
+        {
+          "jp": "つくえの うえに ほんが あります。",
+          "romaji": "tsukue no ue ni hon ga arimasu.",
+          "en": "There is a book on the desk."
+        },
+        {
+          "jp": "にわに ねこが います。",
+          "romaji": "niwa ni neko ga imasu.",
+          "en": "There is a cat in the garden."
+        },
+        {
+          "jp": "トイレは にかいに あります。",
+          "romaji": "toire wa nikai ni arimasu.",
+          "en": "The toilet is on the second floor."
+        },
+        {
+          "jp": "きょうだいが います。",
+          "romaji": "kyoudai ga imasu.",
+          "en": "I have siblings."
+        },
+        {
+          "jp": "じかんが ありません。",
+          "romaji": "jikan ga arimasen.",
+          "en": "I don't have time."
+        },
+        {
+          "jp": "あした かいぎが あります。",
+          "romaji": "ashita kaigi ga arimasu.",
+          "en": "There is a meeting tomorrow."
+        },
+        {
+          "jp": "おかねが ない！",
+          "romaji": "okane ga nai!",
+          "en": "I don't have money! (plain)"
+        },
+        {
+          "jp": "いすの したに ねこが います。",
+          "romaji": "isu no shita ni neko ga imasu.",
+          "en": "There is a cat under the chair."
+        },
+        {
+          "jp": "この まちに びょういんが みっつ あります。",
+          "romaji": "kono machi ni byouin ga mittsu arimasu.",
+          "en": "There are three hospitals in this town."
+        },
+        {
+          "jp": "となりの へやに ひとが います。",
+          "romaji": "tonari no heya ni hito ga imasu.",
+          "en": "There is a person in the next room."
+        }
+      ]
+    }
+  ]
+}

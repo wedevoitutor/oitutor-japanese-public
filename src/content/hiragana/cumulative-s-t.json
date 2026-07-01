@@ -1,0 +1,313 @@
+{
+  "exercises": [
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ち",
+          "back": "chi",
+          "speakText": "ち"
+        },
+        {
+          "front": "さ",
+          "back": "sa",
+          "speakText": "さ"
+        },
+        {
+          "front": "つ",
+          "back": "tsu",
+          "speakText": "つ"
+        },
+        {
+          "front": "せ",
+          "back": "se",
+          "speakText": "せ"
+        },
+        {
+          "front": "す",
+          "back": "su",
+          "speakText": "す"
+        },
+        {
+          "front": "た",
+          "back": "ta",
+          "speakText": "た"
+        },
+        {
+          "front": "て",
+          "back": "te",
+          "speakText": "て"
+        },
+        {
+          "front": "と",
+          "back": "to",
+          "speakText": "と"
+        },
+        {
+          "front": "し",
+          "back": "shi",
+          "speakText": "し"
+        },
+        {
+          "front": "そ",
+          "back": "so",
+          "speakText": "そ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Tsu?",
+      "options": [
+        "せ",
+        "そ",
+        "す",
+        "つ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ta?",
+      "options": [
+        "さ",
+        "す",
+        "た",
+        "そ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is So?",
+      "options": [
+        "て",
+        "と",
+        "そ",
+        "た"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "て",
+      "answer": "te"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "せ",
+      "answer": "se"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "つ",
+      "answer": "tsu",
+      "acceptAlternatives": [
+        "tu"
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "さ",
+          "sa"
+        ],
+        [
+          "て",
+          "te"
+        ],
+        [
+          "し",
+          "shi"
+        ],
+        [
+          "と",
+          "to"
+        ],
+        [
+          "す",
+          "su"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "さ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "た",
+        "さ",
+        "し",
+        "て"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "と",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "そ",
+        "す",
+        "と",
+        "し"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Chi?",
+      "options": [
+        "さ",
+        "き",
+        "ち",
+        "こ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Shi?",
+      "options": [
+        "つ",
+        "す",
+        "し",
+        "せ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "reference-chart",
+      "title": "Vocabulary Review — S & T Rows",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "寿司 [すし] (sushi)",
+          "sushi"
+        ],
+        [
+          "塩 [しお] (shio)",
+          "salt"
+        ],
+        [
+          "蛸 [たこ] (tako)",
+          "octopus"
+        ],
+        [
+          "月 [つき] (tsuki)",
+          "moon"
+        ],
+        [
+          "そこ (soko)",
+          "there"
+        ],
+        [
+          "たこが すきです",
+          "I like octopus"
+        ]
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "すし",
+      "answer": "sushi"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "たこ",
+      "answer": "tako"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "すし",
+          "sushi"
+        ],
+        [
+          "しお",
+          "salt"
+        ],
+        [
+          "たこ",
+          "octopus"
+        ],
+        [
+          "つき",
+          "moon"
+        ],
+        [
+          "そこ",
+          "there"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "sushi",
+      "answer": [
+        "す",
+        "し"
+      ],
+      "bank": [
+        "さ",
+        "し",
+        "す",
+        "せ",
+        "そ"
+      ],
+      "speakText": "すし"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "octopus",
+      "answer": [
+        "た",
+        "こ"
+      ],
+      "bank": [
+        "た",
+        "ち",
+        "つ",
+        "て",
+        "と",
+        "こ"
+      ],
+      "speakText": "たこ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "moon",
+      "answer": [
+        "つ",
+        "き"
+      ],
+      "bank": [
+        "た",
+        "ち",
+        "つ",
+        "て",
+        "と",
+        "き"
+      ],
+      "speakText": "つき"
+    },
+    {
+      "type": "listening",
+      "speakText": "ち",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "さ",
+        "し",
+        "ち",
+        "つ"
+      ],
+      "correctIndex": 2
+    }
+  ],
+  "id": "hiragana-cumulative-s-t"
+}

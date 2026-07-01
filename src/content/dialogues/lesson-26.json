@@ -1,0 +1,1289 @@
+{
+  "id": "dialogues-lesson-26",
+  "misconceptions": [
+    {
+      "target": "sports-exercise-single-word-answer",
+      "error": "Answers with isolated vocabulary instead of a complete conversational turn.",
+      "mitigation": "Reference rows and response-selection drills keep prompts and natural replies together."
+    },
+    {
+      "target": "sports-exercise-register-mismatch",
+      "error": "Uses casual language with teachers, staff, or strangers.",
+      "mitigation": "Formal, casual, and slang scenes are separated and labeled."
+    },
+    {
+      "target": "sports-exercise-listening-drift",
+      "error": "Chooses a familiar phrase that does not match the audio.",
+      "mitigation": "Listening MC and type-the-answer reuse the exact dialogue speakText."
+    },
+    {
+      "target": "sports-exercise-particle-confusion",
+      "error": "Confuses は, へ, or を in written Japanese source phrases.",
+      "mitigation": "Formula-fill keeps the Japanese particles visible and accepts romaji as support."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Sports & Exercise - Formal · Casual · Slang",
+      "intro": "Practice sports & exercise as prompt-and-response dialogue, not as loose vocabulary.",
+      "rows": [
+        [
+          "Register",
+          "Japanese",
+          "Romaji",
+          "Typical Response",
+          "Context"
+        ],
+        [
+          "FORMAL",
+          "スポーツを しますか？",
+          "supootsuwo shimasuka?",
+          "はい、しゅうに にかい テニスを します。",
+          "Yes, I play tennis twice a week."
+        ],
+        [
+          "FORMAL",
+          "はい、しゅうに にかい テニスを します。",
+          "hai,shuuni nikai tenisuwo shimasu.",
+          "そうです。ありがとうございます。",
+          "That is right. Thank you."
+        ],
+        [
+          "CASUAL",
+          "きょう、ジムに いく？",
+          "kyou,jimuni iku?",
+          "しごとの あとで いくよ。",
+          "I will go after work."
+        ],
+        [
+          "CASUAL",
+          "しごとの あとで いくよ。",
+          "shigotono atode ikuyo.",
+          "いいね。あとで かくにんしよう。",
+          "Nice. Let us check later."
+        ],
+        [
+          "SLANG",
+          "きのうの サッカー、みた？",
+          "kinouno sakkaa,mita?",
+          "みた。さいごの ゴール、すごかった。",
+          "I did. The last goal was amazing."
+        ],
+        [
+          "SLANG",
+          "みた。さいごの ゴール、すごかった。",
+          "mita.saigono gooru,sugokatta.",
+          "まじか。いいじゃん。",
+          "Really? Nice."
+        ]
+      ],
+      "takeaway": "First choose the right meaning, then choose the right relationship tone."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "A - FORMAL · Sports & Exercise",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "先生",
+          "jp": "スポーツを しますか？",
+          "romaji": "supootsuwo shimasuka?",
+          "en": "Do you play sports?"
+        },
+        {
+          "speaker": "学生",
+          "jp": "はい、しゅうに にかい テニスを します。",
+          "romaji": "hai,shuuni nikai tenisuwo shimasu.",
+          "en": "Yes, I play tennis twice a week."
+        },
+        {
+          "speaker": "先生",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "B - CASUAL · Sports & Exercise",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "ゆい",
+          "jp": "きょう、ジムに いく？",
+          "romaji": "kyou,jimuni iku?",
+          "en": "Are you going to the gym today?"
+        },
+        {
+          "speaker": "たく",
+          "jp": "しごとの あとで いくよ。",
+          "romaji": "shigotono atode ikuyo.",
+          "en": "I will go after work."
+        },
+        {
+          "speaker": "ゆい",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "C - SLANG · Sports & Exercise",
+      "register": "slang",
+      "lines": [
+        {
+          "speaker": "りく",
+          "jp": "きのうの サッカー、みた？",
+          "romaji": "kinouno sakkaa,mita?",
+          "en": "Did you watch yesterday’s soccer?"
+        },
+        {
+          "speaker": "まい",
+          "jp": "みた。さいごの ゴール、すごかった。",
+          "romaji": "mita.saigono gooru,sugokatta.",
+          "en": "I did. The last goal was amazing."
+        },
+        {
+          "speaker": "りく",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 1: スポーツを しますか？",
+      "prompt": "Which source phrase means: “Do you play sports?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "スポーツを しますか？",
+          "romaji": "supootsuwo shimasuka?",
+          "en": "Do you play sports?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "スポーツを しますか？"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 2: はい、しゅうに にかい テニスを します。",
+      "prompt": "Which source phrase means: “Yes, I play tennis twice a week.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "はい、しゅうに にかい テニスを します。",
+          "romaji": "hai,shuuni nikai tenisuwo shimasu.",
+          "en": "Yes, I play tennis twice a week.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "きのうの サッカー、みた？",
+          "romaji": "kinouno sakkaa,mita?",
+          "en": "Did you watch yesterday’s soccer?",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "テニスを します",
+          "romaji": "tenisuwo shimasu",
+          "en": "play tennis",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "はい、しゅうに にかい テニスを します。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 3: そうです。ありがとうございます。",
+      "prompt": "Which source phrase means: “That is right. Thank you.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "みた。さいごの ゴール、すごかった。",
+          "romaji": "mita.saigono gooru,sugokatta.",
+          "en": "I did. The last goal was amazing.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "サッカーを します",
+          "romaji": "sakkaawo shimasu",
+          "en": "play soccer",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "そうです。ありがとうございます。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 4: きょう、ジムに いく？",
+      "prompt": "Which source phrase means: “Are you going to the gym today?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "きょう、ジムに いく？",
+          "romaji": "kyou,jimuni iku?",
+          "en": "Are you going to the gym today?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "ジムに いきます",
+          "romaji": "jimuni ikimasu",
+          "en": "go to the gym",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "きょう、ジムに いく？"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "スポーツを しますか",
+        "answerRomaji": "supootsuwo shimasuka?",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "supootsuwoshimasuka?"
+        ]
+      },
+      "translation": "Do you play sports?",
+      "speakText": "スポーツを しますか？",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "はい、しゅうに にかい テニスを します",
+        "answerRomaji": "hai,shuuni nikai tenisuwo shimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "hai,shuuninikaitenisuwoshimasu."
+        ]
+      },
+      "translation": "Yes, I play tennis twice a week.",
+      "speakText": "はい、しゅうに にかい テニスを します。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "そうです。ありがとうございます",
+        "answerRomaji": "soudesu.arigatougozaimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "soudesu.arigatougozaimasu."
+        ]
+      },
+      "translation": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "スポーツを しますか？",
+          "romaji": "supootsuwo shimasuka?",
+          "en": "Do you play sports?"
+        },
+        {
+          "jp": "はい、しゅうに にかい テニスを します。",
+          "romaji": "hai,shuuni nikai tenisuwo shimasu.",
+          "en": "Yes, I play tennis twice a week."
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "きょう、ジムに いく？",
+          "romaji": "kyou,jimuni iku?",
+          "en": "Are you going to the gym today?"
+        },
+        {
+          "jp": "しごとの あとで いくよ。",
+          "romaji": "shigotono atode ikuyo.",
+          "en": "I will go after work."
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "きのうの サッカー、みた？",
+          "romaji": "kinouno sakkaa,mita?",
+          "en": "Did you watch yesterday’s soccer?"
+        },
+        {
+          "jp": "みた。さいごの ゴール、すごかった。",
+          "romaji": "mita.saigono gooru,sugokatta.",
+          "en": "I did. The last goal was amazing."
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "テニスを します",
+          "romaji": "tenisuwo shimasu",
+          "en": "play tennis"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "スポーツを しますか？",
+      "options": [
+        {
+          "text": "Do you play sports?",
+          "correct": true
+        },
+        {
+          "text": "Are you going to the gym today?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Did you watch yesterday’s soccer?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "play tennis",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "はい、しゅうに にかい テニスを します。",
+      "options": [
+        {
+          "text": "Yes, I play tennis twice a week.",
+          "correct": true
+        },
+        {
+          "text": "I will go after work.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "I did. The last goal was amazing.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "play soccer",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "そうです。ありがとうございます。",
+      "options": [
+        {
+          "text": "That is right. Thank you.",
+          "correct": true
+        },
+        {
+          "text": "Nice. Let us check later.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "go to the gym",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "きょう、ジムに いく？",
+      "options": [
+        {
+          "text": "Are you going to the gym today?",
+          "correct": true
+        },
+        {
+          "text": "Did you watch yesterday’s soccer?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "play tennis",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "run",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "しごとの あとで いくよ。",
+      "options": [
+        {
+          "text": "I will go after work.",
+          "correct": true
+        },
+        {
+          "text": "I did. The last goal was amazing.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "play soccer",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "swim",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "options": [
+        {
+          "text": "Nice. Let us check later.",
+          "correct": true
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "go to the gym",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "exercise",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "きのうの サッカー、みた？",
+      "options": [
+        {
+          "text": "Did you watch yesterday’s soccer?",
+          "correct": true
+        },
+        {
+          "text": "play tennis",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "run",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "Do you play sports?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "みた。さいごの ゴール、すごかった。",
+      "options": [
+        {
+          "text": "I did. The last goal was amazing.",
+          "correct": true
+        },
+        {
+          "text": "play soccer",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "swim",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "Yes, I play tennis twice a week.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "スポーツを しますか？",
+        "romaji": "supootsuwo shimasuka?",
+        "speakText": "スポーツを しますか？"
+      },
+      "options": [
+        {
+          "jp": "はい、しゅうに にかい テニスを します。",
+          "romaji": "hai,shuuni nikai tenisuwo shimasu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "しごとの あとで いくよ。",
+          "romaji": "shigotono atode ikuyo.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "みた。さいごの ゴール、すごかった。",
+          "romaji": "mita.saigono gooru,sugokatta.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "はい、しゅうに にかい テニスを します。",
+        "romaji": "hai,shuuni nikai tenisuwo shimasu.",
+        "speakText": "はい、しゅうに にかい テニスを します。"
+      },
+      "options": [
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "きょう、ジムに いく？",
+        "romaji": "kyou,jimuni iku?",
+        "speakText": "きょう、ジムに いく？"
+      },
+      "options": [
+        {
+          "jp": "しごとの あとで いくよ。",
+          "romaji": "shigotono atode ikuyo.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "きのうの サッカー、みた？",
+          "romaji": "kinouno sakkaa,mita?",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "テニスを します",
+          "romaji": "tenisuwo shimasu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "しごとの あとで いくよ。",
+        "romaji": "shigotono atode ikuyo.",
+        "speakText": "しごとの あとで いくよ。"
+      },
+      "options": [
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "みた。さいごの ゴール、すごかった。",
+          "romaji": "mita.saigono gooru,sugokatta.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "サッカーを します",
+          "romaji": "sakkaawo shimasu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "きのうの サッカー、みた？",
+        "romaji": "kinouno sakkaa,mita?",
+        "speakText": "きのうの サッカー、みた？"
+      },
+      "options": [
+        {
+          "jp": "みた。さいごの ゴール、すごかった。",
+          "romaji": "mita.saigono gooru,sugokatta.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "ジムに いきます",
+          "romaji": "jimuni ikimasu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "みた。さいごの ゴール、すごかった。",
+        "romaji": "mita.saigono gooru,sugokatta.",
+        "speakText": "みた。さいごの ゴール、すごかった。"
+      },
+      "options": [
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "テニスを します",
+          "romaji": "tenisuwo shimasu",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はしります",
+          "romaji": "hashirimasu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "スポーツを しますか？",
+      "answer": "supootsuwo shimasuka?",
+      "acceptAlternatives": [
+        "supootsuwoshimasuka?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "はい、しゅうに にかい テニスを します。",
+      "answer": "hai,shuuni nikai tenisuwo shimasu.",
+      "acceptAlternatives": [
+        "hai,shuuninikaitenisuwoshimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "そうです。ありがとうございます。",
+      "answer": "soudesu.arigatougozaimasu.",
+      "acceptAlternatives": [
+        "soudesu.arigatougozaimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "きょう、ジムに いく？",
+      "answer": "kyou,jimuni iku?",
+      "acceptAlternatives": [
+        "kyou,jimuniiku?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "しごとの あとで いくよ。",
+      "answer": "shigotono atode ikuyo.",
+      "acceptAlternatives": [
+        "shigotonoatodeikuyo."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "answer": "iine.atode kakuninshiyou.",
+      "acceptAlternatives": [
+        "iine.atodekakuninshiyou."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "きのうの サッカー、みた？",
+      "answer": "kinouno sakkaa,mita?",
+      "acceptAlternatives": [
+        "kinounosakkaa,mita?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "みた。さいごの ゴール、すごかった。",
+      "answer": "mita.saigono gooru,sugokatta.",
+      "acceptAlternatives": [
+        "mita.saigonogooru,sugokatta."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "スポーツを しますか？",
+      "romaji": "supootsuwo shimasuka?",
+      "en": "Do you play sports?",
+      "speakText": "スポーツを しますか？",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Sports & Exercise",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "はい、しゅうに にかい テニスを します。",
+      "romaji": "hai,shuuni nikai tenisuwo shimasu.",
+      "en": "Yes, I play tennis twice a week.",
+      "speakText": "はい、しゅうに にかい テニスを します。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Sports & Exercise",
+      "speaker": "学生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "そうです。ありがとうございます。",
+      "romaji": "soudesu.arigatougozaimasu.",
+      "en": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Sports & Exercise",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "きょう、ジムに いく？",
+      "romaji": "kyou,jimuni iku?",
+      "en": "Are you going to the gym today?",
+      "speakText": "きょう、ジムに いく？",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Sports & Exercise",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "しごとの あとで いくよ。",
+      "romaji": "shigotono atode ikuyo.",
+      "en": "I will go after work.",
+      "speakText": "しごとの あとで いくよ。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Sports & Exercise",
+      "speaker": "たく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いいね。あとで かくにんしよう。",
+      "romaji": "iine.atode kakuninshiyou.",
+      "en": "Nice. Let us check later.",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Sports & Exercise",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "きのうの サッカー、みた？",
+      "romaji": "kinouno sakkaa,mita?",
+      "en": "Did you watch yesterday’s soccer?",
+      "speakText": "きのうの サッカー、みた？",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Sports & Exercise",
+      "speaker": "りく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "みた。さいごの ゴール、すごかった。",
+      "romaji": "mita.saigono gooru,sugokatta.",
+      "en": "I did. The last goal was amazing.",
+      "speakText": "みた。さいごの ゴール、すごかった。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Sports & Exercise",
+      "speaker": "まい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "まじか。いいじゃん。",
+      "romaji": "majika.iijan.",
+      "en": "Really? Nice.",
+      "speakText": "まじか。いいじゃん。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Sports & Exercise",
+      "speaker": "りく"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "スポーツを しますか？",
+          "right": "Do you play sports?"
+        },
+        {
+          "left": "はい、しゅうに にかい テニスを します。",
+          "right": "Yes, I play tennis twice a week."
+        },
+        {
+          "left": "そうです。ありがとうございます。",
+          "right": "That is right. Thank you."
+        },
+        {
+          "left": "きょう、ジムに いく？",
+          "right": "Are you going to the gym today?"
+        },
+        {
+          "left": "しごとの あとで いくよ。",
+          "right": "I will go after work."
+        },
+        {
+          "left": "いいね。あとで かくにんしよう。",
+          "right": "Nice. Let us check later."
+        },
+        {
+          "left": "きのうの サッカー、みた？",
+          "right": "Did you watch yesterday’s soccer?"
+        },
+        {
+          "left": "みた。さいごの ゴール、すごかった。",
+          "right": "I did. The last goal was amazing."
+        },
+        {
+          "left": "まじか。いいじゃん。",
+          "right": "Really? Nice."
+        },
+        {
+          "left": "テニスを します",
+          "right": "play tennis"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "スポーツを しますか？",
+          "romaji": "supootsuwo shimasuka?",
+          "en": "Do you play sports?"
+        },
+        {
+          "jp": "はい、しゅうに にかい テニスを します。",
+          "romaji": "hai,shuuni nikai tenisuwo shimasu.",
+          "en": "Yes, I play tennis twice a week.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "きょう、ジムに いく？",
+          "romaji": "kyou,jimuni iku?",
+          "en": "Are you going to the gym today?"
+        },
+        {
+          "jp": "しごとの あとで いくよ。",
+          "romaji": "shigotono atode ikuyo.",
+          "en": "I will go after work.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "きのうの サッカー、みた？",
+          "romaji": "kinouno sakkaa,mita?",
+          "en": "Did you watch yesterday’s soccer?"
+        },
+        {
+          "jp": "みた。さいごの ゴール、すごかった。",
+          "romaji": "mita.saigono gooru,sugokatta.",
+          "en": "I did. The last goal was amazing.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "テニスを します",
+          "romaji": "tenisuwo shimasu",
+          "en": "play tennis"
+        }
+      ]
+    }
+  ]
+}

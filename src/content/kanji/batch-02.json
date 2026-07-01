@@ -1,0 +1,1228 @@
+{
+  "id": "kanji-batch-02",
+  "misconceptions": [
+    {
+      "kanji": "十",
+      "error": "Reads 十 only as じゅう and misses shortened じっ / じゅっ in counters.",
+      "mitigation": "Phase 5 drills 十個 and 十分; Phase 7 contrasts the shortened readings."
+    },
+    {
+      "kanji": "二",
+      "error": "Uses に for 二人 instead of the special reading ふたり.",
+      "mitigation": "Phase 5 drills 二人 and Phase 7 explains special person-count readings."
+    },
+    {
+      "kanji": "本",
+      "error": "Treats 本 only as book and misses origin / main in 日本 and 基本.",
+      "mitigation": "Phase 5 drills 日本 and 基本; Phase 8 asks for origin in compound context."
+    },
+    {
+      "kanji": "中",
+      "error": "Confuses 中 with the visually similar shape used in 申.",
+      "mitigation": "Phase 6 and Phase 8 place 中 beside visual distractors with rationale."
+    },
+    {
+      "kanji": "出",
+      "error": "Confuses 出る and 出す agency, or reads 出身 as です.",
+      "mitigation": "Phase 5 drills 出身 and 出す; Phase 7 contrasts kun and on readings."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Batch 02 - 十 二 本 中 出",
+      "intro": "This batch adds numbers, origin, inside, and movement outward. You will see old kanji reused inside new compounds like 日本 and 二月.",
+      "rows": [
+        [
+          "Kanji",
+          "Meaning",
+          "On-yomi",
+          "Kun-yomi",
+          "Memory hook"
+        ],
+        [
+          "十",
+          "ten",
+          "ジュウ · ジッ · ジュッ",
+          "とお · と",
+          "plus sign crossing the count of ten"
+        ],
+        [
+          "二",
+          "two",
+          "ニ · ジ",
+          "ふた · ふたつ",
+          "two horizontal strokes = two"
+        ],
+        [
+          "本",
+          "book / origin / main",
+          "ホン",
+          "もと",
+          "tree with its root marked"
+        ],
+        [
+          "中",
+          "middle / inside",
+          "チュウ",
+          "なか · うち",
+          "line through the center"
+        ],
+        [
+          "出",
+          "go out / exit",
+          "シュツ · スイ",
+          "でる · だす",
+          "sprouts pushing up and out"
+        ]
+      ],
+      "takeaway": "Numbers combine predictably, but a few high-frequency words have special readings."
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "十",
+      "meaning": "ten",
+      "memoryHook": "Plus sign crossing the count of ten",
+      "jlpt": "N5",
+      "strokeCount": 2,
+      "components": [
+        {
+          "shape": "十",
+          "note": "A cross shape. Use as a visual anchor for ten directions or ten fingers meeting at the palm."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ジュウ",
+            "romaji": "juu",
+            "anchor": true,
+            "anchorReason": "Default N5 reading for ten and teen numbers.",
+            "anchorExampleWord": "十一"
+          },
+          {
+            "kana": "ジッ",
+            "romaji": "ji"
+          },
+          {
+            "kana": "ジュッ",
+            "romaji": "ju"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "とお",
+            "romaji": "too"
+          },
+          {
+            "kana": "と",
+            "romaji": "to"
+          }
+        ]
+      },
+      "mnemonic": "Picture a plus sign where the count comes together: one vertical and one horizontal stroke crossing at the center.",
+      "confusables": [
+        {
+          "kanji": "千",
+          "meaning": "thousand",
+          "note": "千 has a slanted top stroke; 十 is only the clean cross."
+        },
+        {
+          "kanji": "土",
+          "meaning": "earth",
+          "note": "土 adds a base line under the cross."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "十",
+          "reading": "じゅう",
+          "meaning": "ten"
+        },
+        {
+          "word": "十一",
+          "reading": "じゅういち",
+          "meaning": "eleven"
+        },
+        {
+          "word": "十一月",
+          "reading": "じゅういちがつ",
+          "meaning": "November"
+        },
+        {
+          "word": "十九",
+          "reading": "じゅうきゅう",
+          "meaning": "nineteen"
+        },
+        {
+          "word": "十月",
+          "reading": "じゅうがつ",
+          "meaning": "October"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "十月はすずしいです。",
+          "highlight": "十",
+          "reading": "じゅうがつは すずしい です",
+          "romaji": "Juugatsu wa suzushii desu.",
+          "gloss": "October as-for cool is.",
+          "en": "October is cool."
+        },
+        {
+          "jp": "りんごを十ください。",
+          "highlight": "十",
+          "reading": "りんごを とお ください",
+          "romaji": "Ringo wo too kudasai.",
+          "gloss": "Apples (obj) ten please-give.",
+          "en": "Please give me ten apples."
+        },
+        {
+          "jp": "十一時に会いましょう。",
+          "highlight": "十",
+          "reading": "じゅういちじに あいましょう",
+          "romaji": "Juuichi-ji ni aimashou.",
+          "gloss": "Eleven o'clock at let's-meet.",
+          "en": "Let's meet at eleven o'clock."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "二",
+      "meaning": "two",
+      "memoryHook": "Two horizontal strokes = two",
+      "jlpt": "N5",
+      "strokeCount": 2,
+      "components": [
+        {
+          "shape": "二",
+          "note": "Two parallel lines. Use the stroke count itself as the memory cue."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ニ",
+            "romaji": "ni",
+            "anchor": true,
+            "anchorReason": "Default reading in months and number compounds.",
+            "anchorExampleWord": "二月"
+          },
+          {
+            "kana": "ジ",
+            "romaji": "ji"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "ふた",
+            "romaji": "futa"
+          },
+          {
+            "kana": "ふたつ",
+            "romaji": "futatsu"
+          },
+          {
+            "kana": "ふたたび",
+            "romaji": "futatabi"
+          }
+        ]
+      },
+      "mnemonic": "One line is 一; add a second line and the count becomes 二.",
+      "confusables": [
+        {
+          "kanji": "三",
+          "meaning": "three",
+          "note": "三 has three lines; 二 has exactly two."
+        },
+        {
+          "kanji": "工",
+          "meaning": "craft",
+          "note": "工 connects the two lines with a vertical center stroke."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "二",
+          "reading": "に",
+          "meaning": "two"
+        },
+        {
+          "word": "二つ",
+          "reading": "ふたつ",
+          "meaning": "two things"
+        },
+        {
+          "word": "十二",
+          "reading": "じゅうに",
+          "meaning": "twelve"
+        },
+        {
+          "word": "十二月",
+          "reading": "じゅうにがつ",
+          "meaning": "December"
+        },
+        {
+          "word": "二月",
+          "reading": "にがつ",
+          "meaning": "February"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "りんごが二つあります。",
+          "highlight": "二",
+          "reading": "りんごが ふたつ あります",
+          "romaji": "Ringo ga futatsu arimasu.",
+          "gloss": "Apples (subj) two exist.",
+          "en": "There are two apples."
+        },
+        {
+          "jp": "二月はさむいです。",
+          "highlight": "二",
+          "reading": "にがつは さむい です",
+          "romaji": "Nigatsu wa samui desu.",
+          "gloss": "February as-for cold is.",
+          "en": "February is cold."
+        },
+        {
+          "jp": "二人で食べました。",
+          "highlight": "二",
+          "reading": "ふたりで たべました",
+          "romaji": "Futari de tabemashita.",
+          "gloss": "Two-people together ate.",
+          "en": "The two of us ate together."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "本",
+      "meaning": "book / origin / main",
+      "memoryHook": "Tree with its root marked",
+      "jlpt": "N5",
+      "strokeCount": 5,
+      "components": [
+        {
+          "shape": "木",
+          "note": "Tree shape. Use as a visual anchor; the extra base stroke points to the root."
+        },
+        {
+          "shape": "一",
+          "note": "Short mark at the base. Memory cue for root or starting point."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ホン",
+            "romaji": "hon",
+            "anchor": true,
+            "anchorReason": "Dominant N5 reading in book, Japan, and basics words.",
+            "anchorExampleWord": "日本"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "もと",
+            "romaji": "moto"
+          }
+        ]
+      },
+      "mnemonic": "A tree with a mark at its base points to the root: origin, main source, and by extension book.",
+      "confusables": [
+        {
+          "kanji": "木",
+          "meaning": "tree",
+          "note": "木 lacks the short base stroke."
+        },
+        {
+          "kanji": "未",
+          "meaning": "not yet",
+          "note": "未 has a longer upper horizontal line."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "基本",
+          "reading": "きほん",
+          "meaning": "basics; foundation"
+        },
+        {
+          "word": "日本人",
+          "reading": "にほんじん",
+          "meaning": "Japanese person"
+        },
+        {
+          "word": "本社",
+          "reading": "ほんしゃ",
+          "meaning": "head office"
+        },
+        {
+          "word": "本部",
+          "reading": "ほんぶ",
+          "meaning": "headquarters"
+        },
+        {
+          "word": "本の",
+          "reading": "ほんの",
+          "meaning": "mere; only"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "この本はおもしろいです。",
+          "highlight": "本",
+          "reading": "この ほんは おもしろい です",
+          "romaji": "Kono hon wa omoshiroi desu.",
+          "gloss": "This book as-for interesting is.",
+          "en": "This book is interesting."
+        },
+        {
+          "jp": "日本に住んでいます。",
+          "highlight": "本",
+          "reading": "にほんに すんでいます",
+          "romaji": "Nihon ni sunde imasu.",
+          "gloss": "Japan in living am.",
+          "en": "I live in Japan."
+        },
+        {
+          "jp": "基本がたいせつです。",
+          "highlight": "本",
+          "reading": "きほんが たいせつ です",
+          "romaji": "Kihon ga taisetsu desu.",
+          "gloss": "Basics (subj) important is.",
+          "en": "Basics are important."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "中",
+      "meaning": "middle / inside",
+      "memoryHook": "Line through the center",
+      "jlpt": "N5",
+      "strokeCount": 4,
+      "components": [
+        {
+          "shape": "口",
+          "note": "Box shape. Use as a space or container memory cue."
+        },
+        {
+          "shape": "丨",
+          "note": "Vertical center line. Memory cue for passing through the middle."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "チュウ",
+            "romaji": "chuu",
+            "anchor": true,
+            "anchorReason": "Default reading in N5 compounds for middle and China.",
+            "anchorExampleWord": "中国"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "なか",
+            "romaji": "naka"
+          },
+          {
+            "kana": "うち",
+            "romaji": "uchi"
+          }
+        ]
+      },
+      "mnemonic": "A line pierces the center of a box: the middle, inside, or center point.",
+      "confusables": [
+        {
+          "kanji": "申",
+          "meaning": "say / report",
+          "note": "申 has the center line extending above and below the box."
+        },
+        {
+          "kanji": "田",
+          "meaning": "rice field",
+          "note": "田 has both vertical and horizontal internal lines."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "中央",
+          "reading": "ちゅうおう",
+          "meaning": "center; central"
+        },
+        {
+          "word": "中国",
+          "reading": "ちゅうごく",
+          "meaning": "China"
+        },
+        {
+          "word": "中心",
+          "reading": "ちゅうしん",
+          "meaning": "center; focus"
+        },
+        {
+          "word": "中でも",
+          "reading": "なかでも",
+          "meaning": "among these; especially"
+        },
+        {
+          "word": "中間",
+          "reading": "ちゅうかん",
+          "meaning": "middle; halfway"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "かばんの中にあります。",
+          "highlight": "中",
+          "reading": "かばんの なかに あります",
+          "romaji": "Kaban no naka ni arimasu.",
+          "gloss": "Bag's inside in exists.",
+          "en": "It is inside the bag."
+        },
+        {
+          "jp": "中国に行きたいです。",
+          "highlight": "中",
+          "reading": "ちゅうごくに いきたい です",
+          "romaji": "Chuugoku ni ikitai desu.",
+          "gloss": "China to want-to-go is.",
+          "en": "I want to go to China."
+        },
+        {
+          "jp": "教室の中にいます。",
+          "highlight": "中",
+          "reading": "きょうしつの なかに います",
+          "romaji": "Kyoushitsu no naka ni imasu.",
+          "gloss": "Classroom's inside in am.",
+          "en": "I am inside the classroom."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "出",
+      "meaning": "go out / exit / produce",
+      "memoryHook": "Sprouts pushing up and out",
+      "jlpt": "N5",
+      "strokeCount": 5,
+      "components": [
+        {
+          "shape": "山",
+          "note": "Stacked peak-like shapes. Use as a memory cue for something emerging upward."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "シュツ",
+            "romaji": "shutsu",
+            "anchor": true,
+            "anchorReason": "Common compound reading, often shortened before another consonant.",
+            "anchorExampleWord": "出身"
+          },
+          {
+            "kana": "スイ",
+            "romaji": "sui"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "でる",
+            "romaji": "deru"
+          },
+          {
+            "kana": "だす",
+            "romaji": "dasu"
+          }
+        ]
+      },
+      "mnemonic": "Two shoots push through the ground: movement up and out, like leaving or producing something.",
+      "confusables": [
+        {
+          "kanji": "山",
+          "meaning": "mountain",
+          "note": "山 has one peak group; 出 looks like two stacked emerging shapes."
+        },
+        {
+          "kanji": "凸",
+          "meaning": "convex",
+          "note": "凸 is boxier and uncommon for N5 learners."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "出す",
+          "reading": "だす",
+          "meaning": "to take out; submit; send"
+        },
+        {
+          "word": "出身",
+          "reading": "しゅっしん",
+          "meaning": "hometown; origin"
+        },
+        {
+          "word": "輸出",
+          "reading": "ゆしゅつ",
+          "meaning": "export"
+        },
+        {
+          "word": "出場",
+          "reading": "しゅつじょう",
+          "meaning": "participation; entry"
+        },
+        {
+          "word": "進出",
+          "reading": "しんしゅつ",
+          "meaning": "advance; expansion into"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "学校を出ました。",
+          "highlight": "出",
+          "reading": "がっこうを でました",
+          "romaji": "Gakkou wo demashita.",
+          "gloss": "School (obj) left.",
+          "en": "I left school."
+        },
+        {
+          "jp": "手紙を出してください。",
+          "highlight": "出",
+          "reading": "てがみを だして ください",
+          "romaji": "Tegami wo dashite kudasai.",
+          "gloss": "Letter (obj) send please.",
+          "en": "Please send the letter."
+        },
+        {
+          "jp": "出身はどこですか。",
+          "highlight": "出",
+          "reading": "しゅっしんは どこ ですか",
+          "romaji": "Shusshin wa doko desu ka.",
+          "gloss": "Origin as-for where is?",
+          "en": "Where are you from?"
+        }
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "十",
+          "back": "ten - ジュウ",
+          "speakText": "十"
+        },
+        {
+          "front": "二",
+          "back": "two - ニ",
+          "speakText": "二"
+        },
+        {
+          "front": "本",
+          "back": "book / origin - ホン",
+          "speakText": "本"
+        },
+        {
+          "front": "中",
+          "back": "middle / inside - チュウ",
+          "speakText": "中"
+        },
+        {
+          "front": "出",
+          "back": "go out / exit - シュツ",
+          "speakText": "出"
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 十 (kana or romaji):",
+      "question": "十",
+      "speakText": "十",
+      "answer": "ジュウ",
+      "acceptAlternatives": [
+        "juu",
+        "じゅう"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 二 (kana or romaji):",
+      "question": "二",
+      "speakText": "二",
+      "answer": "ニ",
+      "acceptAlternatives": [
+        "ni",
+        "に"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 本 (kana or romaji):",
+      "question": "本",
+      "speakText": "本",
+      "answer": "ホン",
+      "acceptAlternatives": [
+        "hon",
+        "ほん"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 中 (kana or romaji):",
+      "question": "中",
+      "speakText": "中",
+      "answer": "チュウ",
+      "acceptAlternatives": [
+        "chuu",
+        "chu",
+        "ちゅう"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 出 (kana or romaji):",
+      "question": "出",
+      "speakText": "出",
+      "answer": "シュツ",
+      "acceptAlternatives": [
+        "shutsu",
+        "しゅつ"
+      ],
+      "strictness": "romaji-accepted",
+      "wrongPatterns": [
+        {
+          "input": "です",
+          "distractorReason": "soundConfusion",
+          "confusionFeature": "copulaSound",
+          "wrongExplanation": "This sounds familiar from grammar, but this is a kanji reading task."
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 十一:",
+      "question": "十一",
+      "speakText": "十一",
+      "answer": "じゅういち",
+      "acceptAlternatives": [
+        "juuichi",
+        "juichi"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "十"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 二月:",
+      "question": "二月",
+      "speakText": "二月",
+      "answer": "にがつ",
+      "acceptAlternatives": [
+        "nigatsu"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "二"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 日本:",
+      "question": "日本",
+      "speakText": "日本",
+      "answer": "にほん",
+      "acceptAlternatives": [
+        "nihon",
+        "nippon"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "本"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 中国:",
+      "question": "中国",
+      "speakText": "中国",
+      "answer": "ちゅうごく",
+      "acceptAlternatives": [
+        "chuugoku",
+        "chugoku"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "中"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 出身:",
+      "question": "出身",
+      "speakText": "出身",
+      "answer": "しゅっしん",
+      "acceptAlternatives": [
+        "shusshin"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "出",
+      "wrongPatterns": [
+        {
+          "input": "しゅつしん",
+          "distractorReason": "wrongReading",
+          "confusionFeature": "missedGemination",
+          "wrongExplanation": "The compound compresses the middle sound; listen for a held consonant."
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 基本:",
+      "question": "基本",
+      "speakText": "基本",
+      "answer": "きほん",
+      "acceptAlternatives": [
+        "kihon"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "本"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji:",
+      "patternJp": [
+        "りんごが",
+        "[SLOT]",
+        "つあります。"
+      ],
+      "patternRom": [
+        "ringo ga ",
+        "[SLOT]",
+        "tsu arimasu"
+      ],
+      "slot": {
+        "answer": "二",
+        "answerRomaji": "futatsu",
+        "hint": "Choose the kanji for two.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "二",
+            "correct": true
+          },
+          {
+            "text": "一",
+            "correct": false,
+            "distractorReason": "learnerOvergeneralization",
+            "confusionFeature": "priorNumber",
+            "wrongExplanation": "This is a prior number, but the sentence asks for a different count."
+          },
+          {
+            "text": "三",
+            "correct": false,
+            "distractorReason": "visualConfusion",
+            "confusionFeature": "extraLine",
+            "wrongExplanation": "This has one line too many for the target count."
+          },
+          {
+            "text": "工",
+            "correct": false,
+            "distractorReason": "visualConfusion",
+            "confusionFeature": "centerStroke",
+            "wrongExplanation": "This connects the two lines with a center stroke."
+          }
+        ]
+      },
+      "translation": "There are two apples.",
+      "speakText": "りんごが二つあります。",
+      "targetKanji": "二",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji:",
+      "patternJp": [
+        "かばんの",
+        "[SLOT]",
+        "にあります。"
+      ],
+      "patternRom": [
+        "kaban no ",
+        "[SLOT]",
+        " ni arimasu"
+      ],
+      "slot": {
+        "answer": "中",
+        "answerRomaji": "naka",
+        "hint": "Choose the kanji for inside.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "中",
+            "correct": true
+          },
+          {
+            "text": "日",
+            "correct": false,
+            "distractorReason": "componentShare",
+            "confusionFeature": "boxShape",
+            "wrongExplanation": "This shares a box-like shape but lacks the center stroke."
+          },
+          {
+            "text": "申",
+            "correct": false,
+            "distractorReason": "visualConfusion",
+            "confusionFeature": "extendedCenterStroke",
+            "wrongExplanation": "The center stroke extends too far for this kanji."
+          },
+          {
+            "text": "田",
+            "correct": false,
+            "distractorReason": "visualConfusion",
+            "confusionFeature": "extraInsideLine",
+            "wrongExplanation": "This has an extra inside line crossing the box."
+          }
+        ]
+      },
+      "translation": "It is inside the bag.",
+      "speakText": "かばんの中にあります。",
+      "targetKanji": "中",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji:",
+      "patternJp": [
+        "手紙を",
+        "[SLOT]",
+        "してください。"
+      ],
+      "patternRom": [
+        "tegami wo ",
+        "[SLOT]",
+        "shite kudasai"
+      ],
+      "slot": {
+        "answer": "出",
+        "answerRomaji": "dashite",
+        "hint": "Choose the kanji for sending or taking out.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "出",
+            "correct": true
+          },
+          {
+            "text": "山",
+            "correct": false,
+            "distractorReason": "visualConfusion",
+            "confusionFeature": "singlePeakGroup",
+            "wrongExplanation": "This looks like one peak group, not the emerging-out shape."
+          },
+          {
+            "text": "本",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "objectNoun",
+            "wrongExplanation": "This is a noun meaning book or origin, not an action kanji."
+          },
+          {
+            "text": "大",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "adjectiveMeaning",
+            "wrongExplanation": "This meaning is about size, not movement outward."
+          }
+        ]
+      },
+      "translation": "Please send the letter.",
+      "speakText": "手紙を出してください。",
+      "targetKanji": "出",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 二 pronounced in 二人 (two people)?",
+      "word": "二人",
+      "targetKanji": "二",
+      "options": [
+        {
+          "kana": "ふたり",
+          "romaji": "futari",
+          "readingType": "kun",
+          "correct": true,
+          "explanation": "二人 is a special native person-count reading learned as a fixed word."
+        },
+        {
+          "kana": "ににん",
+          "romaji": "ninin",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "confusionFeature": "regularCounterRule",
+          "wrongExplanation": "This over-applies the regular person-count pattern used after two."
+        },
+        {
+          "kana": "にじん",
+          "romaji": "nijin",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "nationalitySuffix",
+          "wrongExplanation": "This borrows a people suffix pattern from nationality words."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 出 pronounced in 出身 (hometown / origin)?",
+      "word": "出身",
+      "targetKanji": "出",
+      "options": [
+        {
+          "kana": "しゅっ",
+          "romaji": "shu",
+          "readingType": "on",
+          "correct": true,
+          "explanation": "In this compound, シュツ compresses before the next sound."
+        },
+        {
+          "kana": "で",
+          "romaji": "de",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "standaloneVerbStem",
+          "wrongExplanation": "This is a verb-stem style reading, not the compound reading."
+        },
+        {
+          "kana": "だ",
+          "romaji": "da",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "transitiveVerbStem",
+          "wrongExplanation": "This belongs to the take-out verb family, not this noun compound."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 十 pronounced in 十個 (ten items)?",
+      "word": "十個",
+      "targetKanji": "十",
+      "options": [
+        {
+          "kana": "じっ",
+          "romaji": "ji",
+          "readingType": "on",
+          "correct": true,
+          "explanation": "Before some counter sounds, the reading shortens and doubles the consonant."
+        },
+        {
+          "kana": "じゅう",
+          "romaji": "juu",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "unshortenedAnchor",
+          "wrongExplanation": "This is the anchor reading, but counters can compress it."
+        },
+        {
+          "kana": "とお",
+          "romaji": "too",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "nativeStandalone",
+          "wrongExplanation": "This native reading is not the counter-compound pattern here."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji means 'middle / inside'?",
+      "options": [
+        {
+          "text": "中",
+          "correct": true
+        },
+        {
+          "text": "本",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "wrongExplanation": "This points to book or origin, not position inside."
+        },
+        {
+          "text": "申",
+          "correct": false,
+          "distractorReason": "visualConfusion",
+          "confusionFeature": "extendedCenterStroke",
+          "wrongExplanation": "The center stroke extends beyond the box."
+        },
+        {
+          "text": "日",
+          "correct": false,
+          "distractorReason": "componentShare",
+          "confusionFeature": "boxShape",
+          "wrongExplanation": "This shares the box shape but has no center line."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the kanji you hear:",
+      "speakText": "本",
+      "options": [
+        {
+          "text": "本",
+          "correct": true
+        },
+        {
+          "text": "木",
+          "correct": false,
+          "distractorReason": "visualConfusion",
+          "confusionFeature": "missingBaseMark",
+          "wrongExplanation": "This lacks the short base mark."
+        },
+        {
+          "text": "大",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "wrongExplanation": "This means big, not book or origin."
+        },
+        {
+          "text": "日",
+          "correct": false,
+          "distractorReason": "soundConfusion",
+          "confusionFeature": "nihonCompoundPart",
+          "wrongExplanation": "This appears in Japan compounds but is a different kanji."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji completes 日__ (Japan / origin of the sun)?",
+      "options": [
+        {
+          "text": "本",
+          "correct": true
+        },
+        {
+          "text": "十",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "wrongExplanation": "This makes a number compound, not the country name."
+        },
+        {
+          "text": "中",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "wrongExplanation": "This points to middle or inside, not origin."
+        },
+        {
+          "text": "出",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "wrongExplanation": "This means going out or producing, not origin."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Review: which kanji means 'person'?",
+      "reviewFrom": "kanji-batch-01",
+      "options": [
+        {
+          "text": "人",
+          "correct": true
+        },
+        {
+          "text": "入",
+          "correct": false,
+          "distractorReason": "visualConfusion",
+          "confusionFeature": "strokeCrossing",
+          "wrongExplanation": "The strokes cross differently; this means enter."
+        },
+        {
+          "text": "大",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "wrongExplanation": "This means big or great."
+        },
+        {
+          "text": "八",
+          "correct": false,
+          "distractorReason": "visualConfusion",
+          "confusionFeature": "separatedStrokes",
+          "wrongExplanation": "These strokes separate like the number eight."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Review: match older kanji to their meanings:",
+      "reviewFrom": [
+        "kanji-batch-01"
+      ],
+      "pairs": [
+        {
+          "left": "日",
+          "right": "sun / day",
+          "reviewFrom": "kanji-batch-01"
+        },
+        {
+          "left": "一",
+          "right": "one",
+          "reviewFrom": "kanji-batch-01"
+        },
+        {
+          "left": "人",
+          "right": "person",
+          "reviewFrom": "kanji-batch-01"
+        },
+        {
+          "left": "年",
+          "right": "year",
+          "reviewFrom": "kanji-batch-01"
+        },
+        {
+          "left": "大",
+          "right": "big / great",
+          "reviewFrom": "kanji-batch-01"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each kanji to its meaning:",
+      "pairs": [
+        {
+          "left": "十",
+          "right": "ten"
+        },
+        {
+          "left": "二",
+          "right": "two"
+        },
+        {
+          "left": "本",
+          "right": "book / origin"
+        },
+        {
+          "left": "中",
+          "right": "middle / inside"
+        },
+        {
+          "left": "出",
+          "right": "go out / exit"
+        }
+      ]
+    }
+  ]
+}

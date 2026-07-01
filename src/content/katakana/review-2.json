@@ -1,0 +1,411 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Review — ナ行 to ヤ行",
+      "rows": [
+        [
+          "ナ na",
+          "ニ ni",
+          "ヌ nu",
+          "ネ ne",
+          "ノ no"
+        ],
+        [
+          "ハ ha",
+          "ヒ hi",
+          "フ fu",
+          "ヘ he",
+          "ホ ho"
+        ],
+        [
+          "マ ma",
+          "ミ mi",
+          "ム mu",
+          "メ me",
+          "モ mo"
+        ],
+        [
+          "ヤ ya",
+          "ユ yu",
+          "ヨ yo"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ナ",
+          "back": "na",
+          "speakText": "ナ"
+        },
+        {
+          "front": "ヒ",
+          "back": "hi",
+          "speakText": "ヒ"
+        },
+        {
+          "front": "モ",
+          "back": "mo",
+          "speakText": "モ"
+        },
+        {
+          "front": "ユ",
+          "back": "yu",
+          "speakText": "ユ"
+        },
+        {
+          "front": "ノ",
+          "back": "no",
+          "speakText": "ノ"
+        },
+        {
+          "front": "フ",
+          "back": "fu",
+          "speakText": "フ"
+        },
+        {
+          "front": "メ",
+          "back": "me",
+          "speakText": "メ"
+        },
+        {
+          "front": "ヤ",
+          "back": "ya",
+          "speakText": "ヤ"
+        },
+        {
+          "front": "ヌ",
+          "back": "nu",
+          "speakText": "ヌ"
+        },
+        {
+          "front": "マ",
+          "back": "ma",
+          "speakText": "マ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ho?",
+      "options": [
+        "オ",
+        "ホ",
+        "ネ",
+        "ハ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Me?",
+      "options": [
+        "ナ",
+        "ヌ",
+        "メ",
+        "ノ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ya?",
+      "options": [
+        "セ",
+        "ヤ",
+        "ネ",
+        "マ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "フ",
+      "answer": "fu",
+      "acceptAlternatives": [
+        "hu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ミ",
+      "answer": "mi"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ヨ",
+      "answer": "yo"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ネ",
+          "ne"
+        ],
+        [
+          "ホ",
+          "ho"
+        ],
+        [
+          "ム",
+          "mu"
+        ],
+        [
+          "ユ",
+          "yu"
+        ],
+        [
+          "ニ",
+          "ni"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ハ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ヘ",
+        "ハ",
+        "ヒ",
+        "ホ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ヌ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ヌ",
+        "ス",
+        "ク",
+        "ヲ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Mu?",
+      "options": [
+        "ム",
+        "マ",
+        "ヨ",
+        "モ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ne?",
+      "options": [
+        "ネ",
+        "ヤ",
+        "ホ",
+        "ヌ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ヘ",
+      "answer": "he"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "マ",
+      "answer": "ma"
+    },
+    {
+      "type": "listening",
+      "speakText": "フ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ハ",
+        "ヒ",
+        "フ",
+        "ホ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "ノート (nooto)",
+          "notebook"
+        ],
+        [
+          "ハート (haato)",
+          "heart"
+        ],
+        [
+          "ユーモア (yuumoa)",
+          "humor"
+        ],
+        [
+          "マスク (masuku)",
+          "mask"
+        ],
+        [
+          "ヒーター (hiitaa)",
+          "heater"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "notebook",
+      "answer": [
+        "ノ",
+        "ー",
+        "ト"
+      ],
+      "bank": [
+        "ナ",
+        "ニ",
+        "ヌ",
+        "ネ",
+        "ノ",
+        "ト",
+        "ー"
+      ],
+      "speakText": "ノート"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "heart",
+      "answer": [
+        "ハ",
+        "ー",
+        "ト"
+      ],
+      "bank": [
+        "ハ",
+        "ヒ",
+        "フ",
+        "ヘ",
+        "ホ",
+        "ト",
+        "ー"
+      ],
+      "speakText": "ハート"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "humor",
+      "answer": [
+        "ユ",
+        "ー",
+        "モ",
+        "ア"
+      ],
+      "bank": [
+        "ヤ",
+        "ユ",
+        "ヨ",
+        "マ",
+        "ミ",
+        "モ",
+        "ア",
+        "ー"
+      ],
+      "speakText": "ユーモア"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ハート",
+      "answer": "haato"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "マスク",
+      "answer": "masuku"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ノート",
+          "notebook"
+        ],
+        [
+          "ハート",
+          "heart"
+        ],
+        [
+          "ユーモア",
+          "humor"
+        ],
+        [
+          "マスク",
+          "mask"
+        ],
+        [
+          "ヒーター",
+          "heater"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ヒーター",
+      "prompt": "What did you hear?",
+      "options": [
+        "heater",
+        "heart",
+        "notebook",
+        "humor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "memo",
+      "answer": [
+        "メ",
+        "モ"
+      ],
+      "bank": [
+        "マ",
+        "ミ",
+        "ム",
+        "メ",
+        "モ",
+        "ヤ",
+        "ユ",
+        "ヨ"
+      ],
+      "speakText": "メモ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "tennis",
+      "answer": [
+        "テ",
+        "ニ",
+        "ス"
+      ],
+      "bank": [
+        "ナ",
+        "ニ",
+        "ヌ",
+        "ネ",
+        "ノ",
+        "テ",
+        "タ",
+        "ス"
+      ],
+      "speakText": "テニス"
+    }
+  ],
+  "id": "katakana-review-2"
+}

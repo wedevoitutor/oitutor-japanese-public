@@ -1,0 +1,357 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Vowels — あ行",
+      "rows": [
+        [
+          "あ a",
+          "い i",
+          "う u",
+          "え e",
+          "お o"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "あ",
+          "back": "a",
+          "speakText": "あ"
+        },
+        {
+          "front": "お",
+          "back": "o",
+          "speakText": "お"
+        },
+        {
+          "front": "え",
+          "back": "e",
+          "speakText": "え"
+        },
+        {
+          "front": "い",
+          "back": "i",
+          "speakText": "い"
+        },
+        {
+          "front": "う",
+          "back": "u",
+          "speakText": "う"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is A?",
+      "options": [
+        "い",
+        "あ",
+        "う",
+        "お"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is O?",
+      "options": [
+        "え",
+        "お",
+        "あ",
+        "う"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "お",
+      "answer": "o"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "い",
+      "answer": "i"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "お",
+          "o"
+        ],
+        [
+          "あ",
+          "a"
+        ],
+        [
+          "え",
+          "e"
+        ],
+        [
+          "う",
+          "u"
+        ],
+        [
+          "い",
+          "i"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "あ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "い",
+        "あ",
+        "う",
+        "お"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "う",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "え",
+        "お",
+        "う",
+        "あ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is E?",
+      "options": [
+        "う",
+        "い",
+        "え",
+        "お"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "え",
+      "answer": "e"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "う",
+      "answer": "u"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is I?",
+      "options": [
+        "え",
+        "い",
+        "う",
+        "お"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is U?",
+      "options": [
+        "あ",
+        "お",
+        "え",
+        "う"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "listening",
+      "speakText": "え",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "い",
+        "う",
+        "え",
+        "お"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "お",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "あ",
+        "お",
+        "え",
+        "う"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "あ",
+      "answer": "a"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is O?",
+      "options": [
+        "う",
+        "え",
+        "お",
+        "あ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "青 [あお] (ao)",
+          "blue"
+        ],
+        [
+          "上 [うえ] (ue)",
+          "above"
+        ],
+        [
+          "家 [いえ] (ie)",
+          "house"
+        ],
+        [
+          "愛 [あい] (ai)",
+          "love"
+        ],
+        [
+          "おい (oi)",
+          "hey / nephew"
+        ],
+        [
+          "あおい うみ",
+          "Blue sea"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "blue",
+      "answer": [
+        "あ",
+        "お"
+      ],
+      "bank": [
+        "あ",
+        "い",
+        "う",
+        "え",
+        "お"
+      ],
+      "speakText": "あお"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "above",
+      "answer": [
+        "う",
+        "え"
+      ],
+      "bank": [
+        "あ",
+        "い",
+        "う",
+        "え",
+        "お"
+      ],
+      "speakText": "うえ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "house",
+      "answer": [
+        "い",
+        "え"
+      ],
+      "bank": [
+        "あ",
+        "い",
+        "う",
+        "え",
+        "お"
+      ],
+      "speakText": "いえ"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "あお",
+      "answer": "ao"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "うえ",
+      "answer": "ue"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "あお",
+          "blue"
+        ],
+        [
+          "うえ",
+          "above"
+        ],
+        [
+          "いえ",
+          "house"
+        ],
+        [
+          "あい",
+          "love"
+        ],
+        [
+          "おい",
+          "hey / nephew"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "い",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "え",
+        "あ",
+        "い",
+        "お"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "love",
+      "answer": [
+        "あ",
+        "い"
+      ],
+      "bank": [
+        "あ",
+        "い",
+        "う",
+        "え",
+        "お"
+      ],
+      "speakText": "あい"
+    }
+  ],
+  "id": "hiragana-row-vowels"
+}

@@ -1,0 +1,365 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Yōon — Voiced & Plosive Rows",
+      "rows": [
+        [
+          "ギャ gya",
+          "ギュ gyu",
+          "ギョ gyo"
+        ],
+        [
+          "ジャ ja",
+          "ジュ ju",
+          "ジョ jo"
+        ],
+        [
+          "ビャ bya",
+          "ビュ byu",
+          "ビョ byo"
+        ],
+        [
+          "ピャ pya",
+          "ピュ pyu",
+          "ピョ pyo"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ギャ",
+          "back": "gya",
+          "speakText": "ギャ"
+        },
+        {
+          "front": "ギュ",
+          "back": "gyu",
+          "speakText": "ギュ"
+        },
+        {
+          "front": "ギョ",
+          "back": "gyo",
+          "speakText": "ギョ"
+        },
+        {
+          "front": "ジャ",
+          "back": "ja",
+          "speakText": "ジャ"
+        },
+        {
+          "front": "ジュ",
+          "back": "ju",
+          "speakText": "ジュ"
+        },
+        {
+          "front": "ジョ",
+          "back": "jo",
+          "speakText": "ジョ"
+        },
+        {
+          "front": "ビャ",
+          "back": "bya",
+          "speakText": "ビャ"
+        },
+        {
+          "front": "ビョ",
+          "back": "byo",
+          "speakText": "ビョ"
+        },
+        {
+          "front": "ピャ",
+          "back": "pya",
+          "speakText": "ピャ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ja?",
+      "options": [
+        "ジヤ",
+        "ジャ",
+        "ジュ",
+        "ジョ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Gyu?",
+      "options": [
+        "ギユ",
+        "ギャ",
+        "ギュ",
+        "ギョ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Byo?",
+      "options": [
+        "ビヨ",
+        "ビャ",
+        "ビュ",
+        "ビョ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ジャ",
+      "answer": "ja",
+      "acceptAlternatives": [
+        "jya",
+        "zya"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ジュ",
+      "answer": "ju",
+      "acceptAlternatives": [
+        "jyu",
+        "zyu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ギョ",
+      "answer": "gyo"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ギュ",
+          "gyu"
+        ],
+        [
+          "ジャ",
+          "ja"
+        ],
+        [
+          "ジョ",
+          "jo"
+        ],
+        [
+          "ビョ",
+          "byo"
+        ],
+        [
+          "ピャ",
+          "pya"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ギャ",
+      "prompt": "Which one did you hear?",
+      "options": [
+        "ギヤ",
+        "ギャ",
+        "ギュ",
+        "ギョ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ジュ",
+      "prompt": "Which one did you hear?",
+      "options": [
+        "ジユ",
+        "ジャ",
+        "ジュ",
+        "ジョ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "ピョ",
+      "prompt": "Which one did you hear?",
+      "options": [
+        "ピャ",
+        "ピュ",
+        "ピョ",
+        "ピヨ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Gyo?",
+      "options": [
+        "ギヨ",
+        "ギャ",
+        "ギョ",
+        "ギュ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Byu?",
+      "options": [
+        "ビユ",
+        "ビャ",
+        "ビュ",
+        "ビョ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Yōon Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "ジュース (juusu)",
+          "juice"
+        ],
+        [
+          "ジャム (jamu)",
+          "jam"
+        ],
+        [
+          "ジョギング (jogingu)",
+          "jogging"
+        ],
+        [
+          "ギャング (gyangu)",
+          "gang"
+        ],
+        [
+          "コンピュータ (konpyuuta)",
+          "computer"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "juice",
+      "answer": [
+        "ジ",
+        "ュ",
+        "ー",
+        "ス"
+      ],
+      "bank": [
+        "ジ",
+        "ュ",
+        "ー",
+        "ス",
+        "ャ",
+        "ョ",
+        "ソ"
+      ],
+      "speakText": "ジュース"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "jam",
+      "answer": [
+        "ジ",
+        "ャ",
+        "ム"
+      ],
+      "bank": [
+        "ジ",
+        "ャ",
+        "ム",
+        "ュ",
+        "ョ",
+        "マ"
+      ],
+      "speakText": "ジャム"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "jogging",
+      "answer": [
+        "ジ",
+        "ョ",
+        "ギ",
+        "ン",
+        "グ"
+      ],
+      "bank": [
+        "ジ",
+        "ョ",
+        "ギ",
+        "ン",
+        "グ",
+        "ャ",
+        "ュ",
+        "ソ"
+      ],
+      "speakText": "ジョギング"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ジュース",
+      "answer": "juusu",
+      "acceptAlternatives": [
+        "jyuusu",
+        "zyuusu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ジャム",
+      "answer": "jamu",
+      "acceptAlternatives": [
+        "jyamu",
+        "zyamu"
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ジュース",
+          "juice"
+        ],
+        [
+          "ジャム",
+          "jam"
+        ],
+        [
+          "ジョギング",
+          "jogging"
+        ],
+        [
+          "ギャング",
+          "gang"
+        ],
+        [
+          "コンピュータ",
+          "computer"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ジョギング",
+      "prompt": "Which word did you hear?",
+      "options": [
+        "jogging",
+        "juice",
+        "jam",
+        "gang"
+      ],
+      "correctIndex": 0
+    }
+  ],
+  "id": "katakana-yoon-voiced"
+}

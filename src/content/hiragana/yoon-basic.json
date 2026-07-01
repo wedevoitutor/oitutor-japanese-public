@@ -1,0 +1,367 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Yōon — Basic (Unvoiced Rows)",
+      "rows": [
+        [
+          "きゃ kya",
+          "きゅ kyu",
+          "きょ kyo"
+        ],
+        [
+          "しゃ sha",
+          "しゅ shu",
+          "しょ sho"
+        ],
+        [
+          "ちゃ cha",
+          "ちゅ chu",
+          "ちょ cho"
+        ],
+        [
+          "にゃ nya",
+          "にゅ nyu",
+          "にょ nyo"
+        ],
+        [
+          "ひゃ hya",
+          "ひゅ hyu",
+          "ひょ hyo"
+        ],
+        [
+          "みゃ mya",
+          "みゅ myu",
+          "みょ myo"
+        ],
+        [
+          "りゃ rya",
+          "りゅ ryu",
+          "りょ ryo"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "きょ",
+          "back": "kyo",
+          "speakText": "きょ"
+        },
+        {
+          "front": "しゃ",
+          "back": "sha",
+          "speakText": "しゃ"
+        },
+        {
+          "front": "しゅ",
+          "back": "shu",
+          "speakText": "しゅ"
+        },
+        {
+          "front": "ちゃ",
+          "back": "cha",
+          "speakText": "ちゃ"
+        },
+        {
+          "front": "ちょ",
+          "back": "cho",
+          "speakText": "ちょ"
+        },
+        {
+          "front": "にゃ",
+          "back": "nya",
+          "speakText": "にゃ"
+        },
+        {
+          "front": "ひゃ",
+          "back": "hya",
+          "speakText": "ひゃ"
+        },
+        {
+          "front": "みょ",
+          "back": "myo",
+          "speakText": "みょ"
+        },
+        {
+          "front": "りょ",
+          "back": "ryo",
+          "speakText": "りょ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Kyo?",
+      "options": [
+        "きよ",
+        "きょ",
+        "きゃ",
+        "きゅ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Sha?",
+      "options": [
+        "しや",
+        "しゃ",
+        "しゅ",
+        "しょ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ryo?",
+      "options": [
+        "りよ",
+        "りょ",
+        "りゃ",
+        "りゅ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "しゃ",
+      "answer": "sha",
+      "acceptAlternatives": [
+        "sya"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ちゅ",
+      "answer": "chu",
+      "acceptAlternatives": [
+        "tyu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "きょ",
+      "answer": "kyo"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "きょ",
+          "kyo"
+        ],
+        [
+          "しゃ",
+          "sha"
+        ],
+        [
+          "ちゅ",
+          "chu"
+        ],
+        [
+          "ひゃ",
+          "hya"
+        ],
+        [
+          "りょ",
+          "ryo"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "きゃ",
+      "prompt": "Which one did you hear?",
+      "options": [
+        "きや",
+        "きゃ",
+        "きゅ",
+        "きょ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "しゅ",
+      "prompt": "Which one did you hear?",
+      "options": [
+        "しや",
+        "しゃ",
+        "しゅ",
+        "しょ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "ちょ",
+      "prompt": "Which one did you hear?",
+      "options": [
+        "ちゃ",
+        "ちゅ",
+        "ちょ",
+        "ちよ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Kya?",
+      "options": [
+        "きや",
+        "きゃ",
+        "きゅ",
+        "きょ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Shu?",
+      "options": [
+        "しゆ",
+        "しゅ",
+        "しゃ",
+        "しょ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Yōon Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "今日 [きょう] (kyou)",
+          "today"
+        ],
+        [
+          "写真 [しゃしん] (shashin)",
+          "photograph"
+        ],
+        [
+          "茶 [ちゃ] (cha)",
+          "tea"
+        ],
+        [
+          "百 [ひゃく] (hyaku)",
+          "hundred"
+        ],
+        [
+          "旅行 [りょこう] (ryokou)",
+          "trip / travel"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "today",
+      "answer": [
+        "き",
+        "ょ",
+        "う"
+      ],
+      "bank": [
+        "き",
+        "ょ",
+        "う",
+        "よ",
+        "ゅ",
+        "い"
+      ],
+      "speakText": "きょう"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "tea",
+      "answer": [
+        "ち",
+        "ゃ"
+      ],
+      "bank": [
+        "ち",
+        "ゃ",
+        "や",
+        "し",
+        "ゅ"
+      ],
+      "speakText": "ちゃ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "hundred",
+      "answer": [
+        "ひ",
+        "ゃ",
+        "く"
+      ],
+      "bank": [
+        "ひ",
+        "ゃ",
+        "く",
+        "や",
+        "ょ",
+        "ゅ"
+      ],
+      "speakText": "ひゃく"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "きょう",
+      "answer": "kyou"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "しゃしん",
+      "answer": "shashin",
+      "acceptAlternatives": [
+        "syasin",
+        "syashin",
+        "shasin"
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "きょう",
+          "today"
+        ],
+        [
+          "しゃしん",
+          "photograph"
+        ],
+        [
+          "ちゃ",
+          "tea"
+        ],
+        [
+          "ひゃく",
+          "hundred"
+        ],
+        [
+          "りょこう",
+          "trip"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "りょこう",
+      "prompt": "Which word did you hear?",
+      "options": [
+        "りよこう",
+        "りょこう",
+        "りゃこう",
+        "りゅこう"
+      ],
+      "correctIndex": 1
+    }
+  ],
+  "id": "hiragana-yoon-basic"
+}

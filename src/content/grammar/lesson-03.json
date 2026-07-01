@@ -1,0 +1,904 @@
+{
+  "id": "grammar-lesson-03",
+  "dictionaryVocabulary": [
+    {
+      "word": "は",
+      "kana": "は",
+      "romaji": "wa",
+      "partOfSpeech": "particle",
+      "meaning": "topic marker",
+      "description": "Marks the known topic of a sentence. Written は but pronounced wa as a particle.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "私は学生です。",
+        "kana": "わたしはがくせいです。",
+        "romaji": "watashi wa gakusei desu.",
+        "english": "I am a student.",
+        "highlight": "は"
+      },
+      "tags": [
+        "particles",
+        "grammar-03"
+      ]
+    },
+    {
+      "word": "が",
+      "kana": "が",
+      "romaji": "ga",
+      "partOfSpeech": "particle",
+      "meaning": "subject marker",
+      "description": "Marks the subject, new information, or the thing tied to feelings and abilities.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "誰が来ましたか。",
+        "kana": "だれがきましたか。",
+        "romaji": "dare ga kimashita ka.",
+        "english": "Who came?",
+        "highlight": "が"
+      },
+      "tags": [
+        "particles",
+        "grammar-03"
+      ]
+    },
+    {
+      "word": "も",
+      "kana": "も",
+      "romaji": "mo",
+      "partOfSpeech": "particle",
+      "meaning": "also / too",
+      "description": "Adds another item with the meaning also, too, or as well.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "僕も元気です。",
+        "kana": "ぼくもげんきです。",
+        "romaji": "boku mo genki desu.",
+        "english": "I am well too.",
+        "highlight": "も"
+      },
+      "tags": [
+        "particles",
+        "grammar-03"
+      ]
+    },
+    {
+      "word": "好き",
+      "kana": "すき",
+      "romaji": "suki",
+      "partOfSpeech": "na-adjective",
+      "meaning": "liked / favorite",
+      "description": "Used with が to say that someone likes something.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "日本語が好きです。",
+        "kana": "にほんごがすきです。",
+        "romaji": "nihongo ga suki desu.",
+        "english": "I like Japanese.",
+        "highlight": "好き"
+      },
+      "tags": [
+        "feelings",
+        "grammar-03"
+      ]
+    },
+    {
+      "word": "分かる",
+      "kana": "わかる",
+      "romaji": "wakaru",
+      "partOfSpeech": "verb",
+      "meaning": "to understand",
+      "description": "Used to say that someone understands something.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "日本語が分かります。",
+        "kana": "にほんごがわかります。",
+        "romaji": "nihongo ga wakarimasu.",
+        "english": "I understand Japanese.",
+        "highlight": "分か"
+      },
+      "tags": [
+        "verbs",
+        "ability",
+        "grammar-03"
+      ]
+    },
+    {
+      "word": "日本語",
+      "kana": "にほんご",
+      "romaji": "nihongo",
+      "partOfSpeech": "noun",
+      "meaning": "Japanese language",
+      "description": "The word for the Japanese language.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "日本語が好きです。",
+        "kana": "にほんごがすきです。",
+        "romaji": "nihongo ga suki desu.",
+        "english": "I like Japanese.",
+        "highlight": "日本語"
+      },
+      "tags": [
+        "languages",
+        "grammar-03"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "は (wa) — Topic Marker",
+      "intro": "は marks the TOPIC of a sentence — the thing already known to both speakers, the 'as for X' part. Think of it as introducing what you're about to comment on. The kana is written は (ha) but pronounced 'wa' when it acts as a particle.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "わたしは がくせいです。",
+          "watashi wa gakusei desu.",
+          "I am a student. (topic: I)"
+        ],
+        [
+          "わたしは たなかです。",
+          "watashi wa tanaka desu.",
+          "I am Tanaka. (topic: I)"
+        ],
+        [
+          "この まちは しずかです。",
+          "kono machi wa shizuka desu.",
+          "This town is quiet. (topic: this town)"
+        ],
+        [
+          "コーヒーは すきです。",
+          "koohii wa suki desu.",
+          "I like coffee. (topic: coffee)"
+        ],
+        [
+          "たなかさんは どこに いますか。",
+          "tanaka-san wa doko ni imasu ka.",
+          "Where is Tanaka? (known topic, asking where)"
+        ]
+      ],
+      "takeaway": "は = 'as for X' — marks the known topic. Written は, said 'wa' as a particle."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which particle marks the TOPIC — the 'as for X' part of the sentence?",
+      "options": [
+        "が (ga)",
+        "を (wo)",
+        "は (wa)",
+        "も (mo)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I am a student.' using the topic marker:",
+      "patternJp": [
+        "わたし",
+        "[SLOT]",
+        " がくせいです。"
+      ],
+      "patternRom": [
+        "watashi ",
+        "[SLOT]",
+        " gakusei desu"
+      ],
+      "slot": {
+        "answer": "は",
+        "answerRomaji": "wa",
+        "hint": "The topic-marker particle, written 'ha' but pronounced 'wa'.",
+        "acceptAlternatives": [
+          "Wa",
+          "ハ"
+        ]
+      },
+      "translation": "I am a student.",
+      "speakText": "わたしは がくせいです。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "が (ga) — Subject Marker / New Info",
+      "intro": "が marks the SUBJECT — usually new information, the answer to 'who/what?', or the existence of something. It also pairs with feeling/ability words like すき (like), わかる (understand), できる (can do) — never use を with these.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "だれが きましたか。",
+          "dare ga kimashita ka.",
+          "Who came? (asking the subject)"
+        ],
+        [
+          "たなかさんが きました。",
+          "tanaka-san ga kimashita.",
+          "Tanaka came. (new info answer)"
+        ],
+        [
+          "ねこが います。",
+          "neko ga imasu.",
+          "There is a cat. (existence)"
+        ],
+        [
+          "にほんごが すきです。",
+          "nihongo ga suki desu.",
+          "I like Japanese. (が with すき)"
+        ],
+        [
+          "えいごが できます。",
+          "eigo ga dekimasu.",
+          "I can speak English. (が with できる)"
+        ],
+        [
+          "にほんごが わかります。",
+          "nihongo ga wakarimasu.",
+          "I understand Japanese. (が with わかる)"
+        ]
+      ],
+      "takeaway": "が = the new/asked-about subject. Always が — not を — with すき, わかる, できる."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which particle should you use with すき (to like)?",
+      "options": [
+        "を (wo)",
+        "が (ga)",
+        "は (wa)",
+        "に (ni)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Ask 'Who came?' — use the subject marker for the question word:",
+      "patternJp": [
+        "だれ",
+        "[SLOT]",
+        " きましたか。"
+      ],
+      "patternRom": [
+        "dare ",
+        "[SLOT]",
+        " kimashita ka"
+      ],
+      "slot": {
+        "answer": "が",
+        "answerRomaji": "ga",
+        "hint": "The subject marker — used with question words about who/what.",
+        "acceptAlternatives": [
+          "Ga",
+          "ガ"
+        ]
+      },
+      "translation": "Who came?",
+      "speakText": "だれが きましたか。"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I like Japanese.' — pick the right particle for すき:",
+      "patternJp": [
+        "にほんご",
+        "[SLOT]",
+        " すきです。"
+      ],
+      "patternRom": [
+        "nihongo ",
+        "[SLOT]",
+        " suki desu"
+      ],
+      "slot": {
+        "answer": "が",
+        "answerRomaji": "ga",
+        "hint": "Feeling and ability words (like, dislike, understand, can-do) take this particle — never the object marker.",
+        "acceptAlternatives": [
+          "Ga",
+          "ガ"
+        ]
+      },
+      "translation": "I like Japanese.",
+      "speakText": "にほんごが すきです。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "は vs が — Old vs New Information",
+      "intro": "The core distinction: は marks what's already known (the topic), が introduces or asks about new information (the subject). When the question word is the subject (who/what came?), you must use が. Once the topic is established, switch to は.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "When to use"
+        ],
+        [
+          "だれが きましたか。",
+          "dare ga kimashita ka.",
+          "が — asking WHO (new info question)"
+        ],
+        [
+          "たなかさんが きました。",
+          "tanaka-san ga kimashita.",
+          "が — answering WHO (new info answer)"
+        ],
+        [
+          "たなかさんは どこに いますか。",
+          "tanaka-san wa doko ni imasu ka.",
+          "は — Tanaka is known, asking WHERE"
+        ],
+        [
+          "にほんには おてらが たくさん あります。",
+          "nihon ni wa otera ga takusan arimasu.",
+          "は for known topic, が for new subject"
+        ],
+        [
+          "コーヒーは すきですが、おちゃは すきじゃないです。",
+          "koohii wa suki desu ga, ocha wa suki ja nai desu.",
+          "は ... は = contrastive (A vs B)"
+        ]
+      ],
+      "takeaway": "Question about who/what → が. Question about where/when → topic with は."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Question word is the SUBJECT — 'Who came?'. Which particle is correct?",
+      "options": [
+        "だれは (dare wa)",
+        "だれが (dare ga)",
+        "だれを (dare wo)",
+        "だれも (dare mo)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Tanaka is known — ask 'Where is Tanaka?' using the topic marker:",
+      "patternJp": [
+        "たなかさん",
+        "[SLOT]",
+        " どこに いますか。"
+      ],
+      "patternRom": [
+        "tanaka-san ",
+        "[SLOT]",
+        " doko ni imasu ka"
+      ],
+      "slot": {
+        "answer": "は",
+        "answerRomaji": "wa",
+        "hint": "The topic marker — Tanaka is the known topic, the new info is the location.",
+        "acceptAlternatives": [
+          "Wa",
+          "ハ"
+        ]
+      },
+      "translation": "Where is Tanaka?",
+      "speakText": "たなかさんは どこに いますか。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "も (mo) — Also / Too (and Negative 'nothing/nobody')",
+      "intro": "も means 'also/too' in positive sentences and replaces は or が — never stack them. With question words + a negative verb, も means 'nothing/nobody/nowhere': なにも ありません, だれも いません. After other particles like に, も follows: ここにも.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "わたしも がくせいです。",
+          "watashi mo gakusei desu.",
+          "I am also a student. (replaces は)"
+        ],
+        [
+          "わたしも いきます。",
+          "watashi mo ikimasu.",
+          "I will also go."
+        ],
+        [
+          "かのじょも にほんじんです。",
+          "kanojo mo nihonjin desu.",
+          "She is also Japanese."
+        ],
+        [
+          "なにも ありません。",
+          "nani mo arimasen.",
+          "There is nothing."
+        ],
+        [
+          "だれも いません。",
+          "dare mo imasen.",
+          "Nobody is here."
+        ],
+        [
+          "ここにも あります。",
+          "koko ni mo arimasu.",
+          "There is one here too. (に + も)"
+        ]
+      ],
+      "takeaway": "も replaces は/が, but follows other particles. With なに/だれ + negative = nothing/nobody."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which sentence correctly says 'I am also a student.'?",
+      "options": [
+        "わたしはも がくせいです。",
+        "わたしがも がくせいです。",
+        "わたしも がくせいです。",
+        "わたしを がくせいです。"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I will also go.' — use the inclusive particle:",
+      "patternJp": [
+        "わたし",
+        "[SLOT]",
+        " いきます。"
+      ],
+      "patternRom": [
+        "watashi ",
+        "[SLOT]",
+        " ikimasu"
+      ],
+      "slot": {
+        "answer": "も",
+        "answerRomaji": "mo",
+        "hint": "The 'also/too' particle — replaces the topic marker entirely, never stacks with it.",
+        "acceptAlternatives": [
+          "Mo",
+          "モ"
+        ]
+      },
+      "translation": "I will also go.",
+      "speakText": "わたしも いきます。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Someone asks だれが きましたか (Who came?). Which answer is correct?",
+      "title": "が for new information answers",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "たなかさんが きました。",
+          "romaji": "tanaka-san ga kimashita.",
+          "en": "Tanaka came.",
+          "note": "が marks the NEW information — the answer to 'who'.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "たなかさんは きました。",
+          "romaji": "tanaka-san wa kimashita.",
+          "en": "(unnatural answer)",
+          "note": "は treats Tanaka as already-known topic — wrong for a 'who came?' answer.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "たなかさんを きました。",
+          "romaji": "tanaka-san o kimashita.",
+          "en": "(ungrammatical)",
+          "note": "を marks an object — きました doesn't take an object.",
+          "correct": false
+        }
+      ],
+      "takeaway": "When the answer IS the new info (who/what), use が — not は.",
+      "speakText": "たなかさんが きました。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence correctly says 'I like cats.'?",
+      "title": "が — not を — with すき",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "ねこが すきです。",
+          "romaji": "neko ga suki desu.",
+          "en": "I like cats.",
+          "note": "すき, きらい, わかる, できる, ほしい all take が — never を.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "ねこを すきです。",
+          "romaji": "neko o suki desu.",
+          "en": "(ungrammatical)",
+          "note": "Wrong particle — feelings/abilities never use を in Japanese.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "ねこに すきです。",
+          "romaji": "neko ni suki desu.",
+          "en": "(ungrammatical)",
+          "note": "に doesn't fit here — the thing liked is the subject (が).",
+          "correct": false
+        }
+      ],
+      "takeaway": "すき/きらい/わかる/できる/ほしい always pair with が.",
+      "speakText": "ねこが すきです。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence correctly says 'I am also a student.'?",
+      "title": "も replaces は — never stacks",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "わたしも がくせいです。",
+          "romaji": "watashi mo gakusei desu.",
+          "en": "I am also a student.",
+          "note": "も replaces は entirely — one particle, not two.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "わたしはも がくせいです。",
+          "romaji": "watashi wa mo gakusei desu.",
+          "en": "(ungrammatical)",
+          "note": "Cannot stack は + も — も takes the place of は.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "わたしがも がくせいです。",
+          "romaji": "watashi ga mo gakusei desu.",
+          "en": "(ungrammatical)",
+          "note": "Same problem — も replaces が too. Just わたしも.",
+          "correct": false
+        }
+      ],
+      "takeaway": "も replaces は and が. Never write はも or がも.",
+      "speakText": "わたしも がくせいです。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence correctly says 'There is one here too.'?",
+      "title": "も follows other particles like に",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "ここにも あります。",
+          "romaji": "koko ni mo arimasu.",
+          "en": "There is one here too.",
+          "note": "に stays — も attaches AFTER it.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "ここもに あります。",
+          "romaji": "koko mo ni arimasu.",
+          "en": "(wrong order)",
+          "note": "Wrong order — も always comes after に, not before.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "ここに あります も。",
+          "romaji": "koko ni arimasu mo.",
+          "en": "(ungrammatical)",
+          "note": "も attaches to the noun phrase (ここに), not to the verb.",
+          "correct": false
+        }
+      ],
+      "takeaway": "も replaces は/が, but follows に, で, から, etc. Order: noun + に + も.",
+      "speakText": "ここにも あります。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Particles in Context — は, が, も",
+      "intro": "Hear the three particles working together in real sentences. Notice how the same noun changes meaning when you switch the particle. Tap the speaker on each row.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "English"
+        ],
+        [
+          "わたしは たなかです。",
+          "watashi wa tanaka desu.",
+          "I am Tanaka. (topic)"
+        ],
+        [
+          "だれが きましたか。",
+          "dare ga kimashita ka.",
+          "Q: Who came?"
+        ],
+        [
+          "たなかさんが きました。",
+          "tanaka-san ga kimashita.",
+          "A: Tanaka came."
+        ],
+        [
+          "この へやに ねこが います。",
+          "kono heya ni neko ga imasu.",
+          "There is a cat in this room."
+        ],
+        [
+          "にほんごが すきです。",
+          "nihongo ga suki desu.",
+          "I like Japanese."
+        ],
+        [
+          "コーヒーは すきですが、おちゃは すきじゃないです。",
+          "koohii wa suki desu ga, ocha wa suki ja nai desu.",
+          "I like coffee, but I don't like tea."
+        ],
+        [
+          "わたしも にほんごを べんきょうしています。",
+          "watashi mo nihongo o benkyou shite imasu.",
+          "I also study Japanese."
+        ],
+        [
+          "なにも ありません。",
+          "nani mo arimasen.",
+          "There is nothing."
+        ]
+      ],
+      "takeaway": "Same noun, different particle = different meaning. Pick deliberately."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "わたしは せんせいです。",
+      "options": [
+        "I am a teacher.",
+        "You are a teacher.",
+        "He is a teacher.",
+        "She is a teacher."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "だれが きましたか。",
+      "options": [
+        "Where did they come from?",
+        "Who came?",
+        "When did they come?",
+        "Why did they come?"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "なにも たべませんでした。",
+      "options": [
+        "I ate something.",
+        "I ate everything.",
+        "I didn't eat anything.",
+        "I want to eat something."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "かのじょも にほんじんです。",
+      "options": [
+        "She is not Japanese.",
+        "Only she is Japanese.",
+        "Is she Japanese?",
+        "She is also Japanese."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "この まちは しずかです。",
+      "options": [
+        "This town is quiet.",
+        "This town is noisy.",
+        "That town is quiet.",
+        "Where is this town?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "にほんごが わかります。",
+      "options": [
+        "I don't understand Japanese.",
+        "I understand Japanese.",
+        "I study Japanese.",
+        "I speak Japanese."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "どこにも いきませんでした。",
+      "options": [
+        "I went everywhere.",
+        "I went somewhere.",
+        "I didn't go anywhere.",
+        "Where did you go?"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "おとうとも がくせいです。",
+      "options": [
+        "My brother is not a student.",
+        "Only my brother is a student.",
+        "Is my brother a student?",
+        "My younger brother is also a student."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "わたしは がくせいです",
+      "answer": "watashi wa gakusei desu",
+      "acceptAlternatives": [
+        "watasi wa gakusei desu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji (Q):",
+      "speakText": "だれが きましたか",
+      "answer": "dare ga kimashita ka",
+      "acceptAlternatives": [
+        "dare ga kimasitaka",
+        "dare ga kimashitaka"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "ねこが います",
+      "answer": "neko ga imasu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "わたしも いきます",
+      "answer": "watashi mo ikimasu",
+      "acceptAlternatives": [
+        "watasi mo ikimasu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "なにも ありません",
+      "answer": "nani mo arimasen",
+      "acceptAlternatives": [
+        "nanimo arimasen"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "にほんごが すきです",
+      "answer": "nihongo ga suki desu",
+      "acceptAlternatives": [
+        "nihongo ga sukidesu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "だれも いません",
+      "answer": "dare mo imasen",
+      "acceptAlternatives": [
+        "daremo imasen"
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning:",
+      "pairs": [
+        {
+          "left": "ねこ",
+          "right": "cat"
+        },
+        {
+          "left": "いぬ",
+          "right": "dog"
+        },
+        {
+          "left": "へや",
+          "right": "room"
+        },
+        {
+          "left": "レストラン",
+          "right": "restaurant"
+        },
+        {
+          "left": "コーヒー",
+          "right": "coffee"
+        },
+        {
+          "left": "おちゃ",
+          "right": "tea"
+        },
+        {
+          "left": "だれ",
+          "right": "who"
+        },
+        {
+          "left": "なに",
+          "right": "what"
+        },
+        {
+          "left": "すき",
+          "right": "like, fond of"
+        },
+        {
+          "left": "べんきょう",
+          "right": "study"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice — は, が, も in action",
+      "cards": [
+        {
+          "jp": "わたしは がくせいです。",
+          "romaji": "watashi wa gakusei desu.",
+          "en": "I am a student. (topic: I)"
+        },
+        {
+          "jp": "だれが きましたか。",
+          "romaji": "dare ga kimashita ka.",
+          "en": "Who came? (subject: who)"
+        },
+        {
+          "jp": "ねこが います。",
+          "romaji": "neko ga imasu.",
+          "en": "There is a cat. (subject: cat)"
+        },
+        {
+          "jp": "わたしも いきます。",
+          "romaji": "watashi mo ikimasu.",
+          "en": "I will also go."
+        },
+        {
+          "jp": "コーヒーは すきですが、おちゃは すきじゃないです。",
+          "romaji": "koohii wa suki desu ga, ocha wa suki ja nai desu.",
+          "en": "I like coffee, but I don't like tea. (contrast)"
+        },
+        {
+          "jp": "にほんごが すきです。",
+          "romaji": "nihongo ga suki desu.",
+          "en": "I like Japanese. (が with すき)"
+        },
+        {
+          "jp": "なにも ありません。",
+          "romaji": "nani mo arimasen.",
+          "en": "There is nothing."
+        },
+        {
+          "jp": "だれも いません。",
+          "romaji": "dare mo imasen.",
+          "en": "Nobody is here."
+        },
+        {
+          "jp": "ここにも あります。",
+          "romaji": "koko ni mo arimasu.",
+          "en": "There is one here too."
+        },
+        {
+          "jp": "たなかさんが きました。",
+          "romaji": "tanaka-san ga kimashita.",
+          "en": "Tanaka came. (new information)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1335 @@
+{
+  "id": "dialogues-lesson-05",
+  "misconceptions": [
+    {
+      "target": "name-origin-job",
+      "error": "Answers a name question with origin or job information.",
+      "mitigation": "Meaning checks and response-selection drills isolate each question type."
+    },
+    {
+      "target": "oikutsu-age",
+      "error": "Uses casual 何歳 with senior or formal contexts.",
+      "mitigation": "Comparison cards contrast おいくつですか with casual age questions."
+    },
+    {
+      "target": "shusshin-vs-kuni",
+      "error": "Confuses 出身 with nationality or language.",
+      "mitigation": "MC items and matching distinguish origin from other identity facts."
+    },
+    {
+      "target": "casual-self-intro",
+      "error": "Uses casual だよ forms in formal introductions.",
+      "mitigation": "Register comparison cards label casual self-introductions as unsafe in formal contexts."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Personal Information - Formal · Standard · Casual",
+      "intro": "Core prompts and replies for names, origin, jobs, and age across registers.",
+      "rows": [
+        [
+          "Register",
+          "Japanese",
+          "Romaji",
+          "Typical Response",
+          "Context"
+        ],
+        [
+          "FORMAL",
+          "わたくしは [NAME]と もうします。",
+          "Watakushi wa [NAME] to moushimasu.",
+          "はじめまして。よろしくおねがいいたします。Hajimemashite. Yoroshiku onegai itashimasu.",
+          "My name is [NAME] — most formal self-introduction; わたくし and もうします (humble form of いう) are used in business/formal settings"
+        ],
+        [
+          "FORMAL",
+          "どちらから いらっしゃいましたか？",
+          "Dochira kara irasshaimashita ka?",
+          "イギリスから まいりました。Igirisu kara mairimashita.",
+          "Where have you come from? — いらっしゃる is honorific for くる/いる; まいる is the humble form of いく/くる"
+        ],
+        [
+          "FORMAL",
+          "おしごとは なんでいらっしゃいますか？",
+          "Oshigoto wa nan de irasshaimasu ka?",
+          "エンジニアを しております。Enjinia wo shite orimasu.",
+          "What do you do for work? — おしごと is the polite form of しごと; しております is humble for しています"
+        ],
+        [
+          "FORMAL",
+          "おいくつでいらっしゃいますか？",
+          "Oikutsu de irasshaimasu ka?",
+          "にじゅうさんさいで ございます。Nijuusan-sai de gozaimasu.",
+          "How old are you? — おいくつ is the polite form of なんさい; avoid asking a superior's age directly"
+        ],
+        [
+          "STANDARD",
+          "わたしは [NAME]です。",
+          "Watashi wa [NAME] desu.",
+          "はじめまして。[NAME]です。Hajimemashite. [NAME] desu.",
+          "I am [NAME] — the everyday self-introduction; わたし is neutral and works in almost any situation"
+        ],
+        [
+          "STANDARD",
+          "どこから きましたか？",
+          "Doko kara kimashita ka?",
+          "[COUNTRY]から きました。[COUNTRY] kara kimashita.",
+          "Where are you from? — から = from; きました = came (past tense of くる)"
+        ],
+        [
+          "STANDARD",
+          "[CITY]に すんでいます。",
+          "[CITY] ni sunde imasu.",
+          "そうですか！わたしも [CITY]です。Sou desu ka! Watashi mo [CITY] desu.",
+          "I live in [CITY] — すんでいます (te-iru form of すむ) describes an ongoing state of living somewhere"
+        ],
+        [
+          "STANDARD",
+          "しごとは なんですか？",
+          "Shigoto wa nan desu ka?",
+          "[JOB]です。[JOB] desu.",
+          "What do you do? — direct and natural; swap しごと (work) for せんもん (speciality) or がっか (faculty)"
+        ],
+        [
+          "STANDARD",
+          "なんさいですか？",
+          "Nan-sai desu ka?",
+          "～さいです。[NUMBER]-sai desu.",
+          "How old are you? — fine with peers; use おいくつ with older people or strangers to be safe"
+        ],
+        [
+          "CASUAL",
+          "[NAME]だよ。よろしく！",
+          "[NAME] da yo. Yoroshiku!",
+          "[NAME]だよ。こちらこそ！[NAME] da yo. Kochira koso!",
+          "I'm [NAME]. Nice to meet you! — だよ is casual だ + よ (assertive); よろしく is casual よろしくおねがいします"
+        ],
+        [
+          "CASUAL",
+          "どこ出身？",
+          "Doko shusshin?",
+          "[PLACE]出身だよ。[PLACE] shusshin da yo.",
+          "Where are you from originally? — 出身 (shusshin) means \"hometown / place of origin\"; です dropped entirely"
+        ],
+        [
+          "CASUAL",
+          "いまどこ すんでる？",
+          "Ima doko sunden?",
+          "[CITY]に すんでる。[CITY] ni sunden.",
+          "Where do you live now? — すんでいる contracts to すんでる in casual speech; very natural among peers"
+        ],
+        [
+          "CASUAL",
+          "なんさい？",
+          "Nan-sai?",
+          "～さいだよ。[NUMBER]-sai da yo.",
+          "How old are you? — ですか dropped; only use with friends of similar age"
+        ]
+      ],
+      "takeaway": "Personal information questions need the right register and the right answer category: name, country, job, or age."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "A - FORMAL · Business Introduction at a Conference",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "エマ",
+          "jp": "はじめまして。わたくしは エマ・スミスと もうします。",
+          "romaji": "Hajimemashite. Watakushi wa Ema Sumisu to moushimasu.",
+          "en": "How do you do. My name is Emma Smith."
+        },
+        {
+          "speaker": "やまだ",
+          "jp": "はじめまして。やまだ けんじと もうします。どちらから いらっしゃいましたか？",
+          "romaji": "Hajimemashite. Yamada Kenji to moushimasu. Dochira kara irasshaimashita ka?",
+          "en": "How do you do. My name is Kenji Yamada. Where have you come from?"
+        },
+        {
+          "speaker": "エマ",
+          "jp": "イギリスの ロンドンから まいりました。よろしくおねがいいたします。",
+          "romaji": "Igirisu no Rondon kara mairimashita. Yoroshiku onegai itashimasu.",
+          "en": "I have come from London in the UK. I look forward to working with you."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "B - STANDARD · New Students Getting Acquainted",
+      "register": "polite",
+      "lines": [
+        {
+          "speaker": "みどり",
+          "jp": "はじめまして。わたしは みどりです。どこから きましたか？",
+          "romaji": "Hajimemashite. Watashi wa Midori desu. Doko kara kimashita ka?",
+          "en": "Nice to meet you. I'm Midori. Where are you from?"
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "ドイツの ベルリンから きました。いま とうきょうに すんでいます。",
+          "romaji": "Doitsu no Berurin kara kimashita. Ima Toukyou ni sunde imasu.",
+          "en": "I came from Berlin in Germany. I live in Tokyo now."
+        },
+        {
+          "speaker": "みどり",
+          "jp": "そうですか！わたしも とうきょうです。よろしくおねがいします。",
+          "romaji": "Sou desu ka! Watashi mo Toukyou desu. Yoroshiku onegaishimasu.",
+          "en": "Oh really! I'm also in Tokyo. Pleased to meet you."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "C - CASUAL · New Friends at a Party",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "ゆき",
+          "jp": "ゆきだよ。よろしく！どこ出身？",
+          "romaji": "Yuki da yo. Yoroshiku! Doko shusshin?",
+          "en": "I'm Yuki. Nice to meet you! Where are you from?"
+        },
+        {
+          "speaker": "ルーカス",
+          "jp": "ルーカスだよ。ブラジル出身で、いま ここに すんでる。ゆきは？",
+          "romaji": "Ruukasu da yo. Burajiru shusshin de, ima koko ni sunden. Yuki wa?",
+          "en": "I'm Lukas. Originally from Brazil, living here now. What about you, Yuki?"
+        },
+        {
+          "speaker": "ゆき",
+          "jp": "わたしは とうきょう出身！よろしくね！",
+          "romaji": "Watashi wa Toukyou shusshin! Yoroshiku ne!",
+          "en": "I'm originally from Tokyo! Nice to meet you!"
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase matches: \"I am [NAME].\"?",
+      "title": "Contrast 1: わたしは [NAME]です。",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "わたしは [NAME]です。",
+          "romaji": "Watashi wa [NAME] desu.",
+          "en": "I am [NAME].",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "どこから きましたか？",
+          "romaji": "Doko kara kimashita ka?",
+          "en": "Where are you from?",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "[COUNTRY]から きました。",
+          "romaji": "[COUNTRY] kara kimashita.",
+          "en": "I came from [COUNTRY].",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "わたしは [NAME]です。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase matches: \"I came from [COUNTRY].\"?",
+      "title": "Contrast 3: [COUNTRY]から きました。",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "[COUNTRY]から きました。",
+          "romaji": "[COUNTRY] kara kimashita.",
+          "en": "I came from [COUNTRY].",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "[CITY]に すんでいます。",
+          "romaji": "[CITY] ni sunde imasu.",
+          "en": "I live in [CITY].",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "しごとは なんですか？",
+          "romaji": "Shigoto wa nan desu ka?",
+          "en": "What do you do for work?",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "[COUNTRY]から きました。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase matches: \"What do you do for work?\"?",
+      "title": "Contrast 5: しごとは なんですか？",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "しごとは なんですか？",
+          "romaji": "Shigoto wa nan desu ka?",
+          "en": "What do you do for work?",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "なんさいですか？",
+          "romaji": "Nan-sai desu ka?",
+          "en": "How old are you?",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "どこ出身ですか？",
+          "romaji": "Doko shusshin desu ka?",
+          "en": "Where are you originally from?",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "しごとは なんですか？"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase matches: \"Where are you originally from?\"?",
+      "title": "Contrast 7: どこ出身ですか？",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "どこ出身ですか？",
+          "romaji": "Doko shusshin desu ka?",
+          "en": "Where are you originally from?",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "わたくしは [NAME]と もうします。",
+          "romaji": "Watakushi wa [NAME] to moushimasu.",
+          "en": "My name is [NAME]. (formal)",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "はじめまして。",
+          "romaji": "Hajimemashite.",
+          "en": "How do you do / Nice to meet you.",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "どこ出身ですか？"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the key phrase from the source lesson:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "わたしは みどりです",
+        "answerRomaji": "watashi wa midori desu",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "watashi wa midori desu"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "わたしは みどりです。",
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the whole source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "どこから きましたか",
+        "answerRomaji": "doko kara kimashita ka",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "doko kara kimashita ka"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "どこから きましたか？",
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the whole source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "ドイツから きました",
+        "answerRomaji": "doitsu kara kimashita",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "doitsu kara kimashita"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "ドイツから きました。",
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "わたしは [NAME]です。",
+          "romaji": "Watashi wa [NAME] desu.",
+          "en": "I am [NAME]."
+        },
+        {
+          "jp": "どこから きましたか？",
+          "romaji": "Doko kara kimashita ka?",
+          "en": "Where are you from?"
+        },
+        {
+          "jp": "[COUNTRY]から きました。",
+          "romaji": "[COUNTRY] kara kimashita.",
+          "en": "I came from [COUNTRY]."
+        },
+        {
+          "jp": "[CITY]に すんでいます。",
+          "romaji": "[CITY] ni sunde imasu.",
+          "en": "I live in [CITY]."
+        },
+        {
+          "jp": "しごとは なんですか？",
+          "romaji": "Shigoto wa nan desu ka?",
+          "en": "What do you do for work?"
+        },
+        {
+          "jp": "なんさいですか？",
+          "romaji": "Nan-sai desu ka?",
+          "en": "How old are you?"
+        },
+        {
+          "jp": "どこ出身ですか？",
+          "romaji": "Doko shusshin desu ka?",
+          "en": "Where are you originally from?"
+        },
+        {
+          "jp": "わたくしは [NAME]と もうします。",
+          "romaji": "Watakushi wa [NAME] to moushimasu.",
+          "en": "My name is [NAME]. (formal)"
+        },
+        {
+          "jp": "はじめまして。",
+          "romaji": "Hajimemashite.",
+          "en": "How do you do / Nice to meet you."
+        },
+        {
+          "jp": "よろしくおねがいします。",
+          "romaji": "Yoroshiku onegaishimasu.",
+          "en": "Pleased to meet you / I look forward to it."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "わたしは みどりです。",
+      "options": [
+        {
+          "text": "My name is Midori.",
+          "correct": true
+        },
+        {
+          "text": "I like Midori.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Where is Midori?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Midori is here.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "どこから きましたか？",
+      "options": [
+        {
+          "text": "Where do you live?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Where are you going?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Where are you from?",
+          "correct": true
+        },
+        {
+          "text": "Where were you born?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ドイツから きました。",
+      "options": [
+        {
+          "text": "I'm going to Germany.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I live in Germany.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Germany is far.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I came from Germany.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "とうきょうに すんでいます。",
+      "options": [
+        {
+          "text": "I'm going to Tokyo.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I'm from Tokyo.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I live in Tokyo.",
+          "correct": true
+        },
+        {
+          "text": "I like Tokyo.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "しごとは なんですか？",
+      "options": [
+        {
+          "text": "How old are you?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "What is your hobby?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Where do you work?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "What do you do for work?",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "なんさいですか？",
+      "options": [
+        {
+          "text": "What is your name?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "How old are you?",
+          "correct": true
+        },
+        {
+          "text": "Where are you from?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "What do you do?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "どこ出身ですか？",
+      "options": [
+        {
+          "text": "Where are you going?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Where do you live?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Where are you originally from?",
+          "correct": true
+        },
+        {
+          "text": "Where do you work?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "わたくしは エマと もうします。",
+      "options": [
+        {
+          "text": "My name is Emma. (casual)",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I know Emma.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Emma is here.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "My name is Emma. (formal)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "はじめまして。わたしは みどりです。",
+        "romaji": "Hajimemashite. Watashi wa Midori desu.",
+        "speakText": "はじめまして。わたしは みどりです。"
+      },
+      "options": [
+        {
+          "jp": "はじめまして。アレックスです。よろしくおねがいします。",
+          "romaji": "Hajimemashite. Arekkusu desu. Yoroshiku onegaishimasu.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "さようなら。",
+          "romaji": "Sayounara.",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This is a familiar earlier phrase, but it does not answer this prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "えきはどこですか？",
+          "romaji": "Eki wa doko desu ka?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "どこから きましたか？",
+        "romaji": "Doko kara kimashita ka?",
+        "speakText": "どこから きましたか？"
+      },
+      "options": [
+        {
+          "jp": "とうきょうに すんでいます。",
+          "romaji": "Toukyou ni sunde imasu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption0",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "ドイツから きました。",
+          "romaji": "Doitsu kara kimashita.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "わかりません。",
+          "romaji": "Wakarimasen.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "いま どこに すんでいますか？",
+        "romaji": "Ima doko ni sunde imasu ka?",
+        "speakText": "いま どこに すんでいますか？"
+      },
+      "options": [
+        {
+          "jp": "にほんから きました。",
+          "romaji": "Nihon kara kimashita.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption0",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "とうきょうに すんでいます。",
+          "romaji": "Toukyou ni sunde imasu.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "がくせいです。",
+          "romaji": "Gakusei desu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "しごとは なんですか？",
+        "romaji": "Shigoto wa nan desu ka?",
+        "speakText": "しごとは なんですか？"
+      },
+      "options": [
+        {
+          "jp": "にじゅうさんさいです。",
+          "romaji": "Nijuusan-sai desu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption0",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "とうきょうです。",
+          "romaji": "Toukyou desu.",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This is a familiar earlier phrase, but it does not answer this prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "エンジニアです。",
+          "romaji": "Enjinia desu.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Review from dialogues-lesson-03: choose the best response:",
+      "reviewFrom": "dialogues-lesson-03",
+      "question": {
+        "jp": "もう一度 いってください。",
+        "romaji": "Mou ichido itte kudasai.",
+        "speakText": "もう一度 いってください。"
+      },
+      "options": [
+        {
+          "jp": "はい、もちろん。",
+          "romaji": "Hai, mochiron.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はじめまして、よろしく！",
+          "romaji": "Hajimemashite, yoroshiku!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor0",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "おはようございます！",
+          "romaji": "Ohayou gozaimasu!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor1",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "formal",
+          "relationship": "junior-to-senior",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Review from dialogues-lesson-04: choose the best response:",
+      "reviewFrom": "dialogues-lesson-04",
+      "question": {
+        "jp": "あるいて どのくらい かかりますか？",
+        "romaji": "Aruite dono kurai kakarimasu ka?",
+        "speakText": "あるいて どのくらい かかりますか？"
+      },
+      "options": [
+        {
+          "jp": "あるいて ５ふんです。",
+          "romaji": "Aruite go-fun desu.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はじめまして、よろしく！",
+          "romaji": "Hajimemashite, yoroshiku!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor0",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "おはようございます！",
+          "romaji": "Ohayou gozaimasu!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor1",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "formal",
+          "relationship": "junior-to-senior",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "わたしは みどりです。",
+      "answer": "watashi wa midori desu",
+      "acceptAlternatives": [],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "どこから きましたか？",
+      "answer": "doko kara kimashita ka",
+      "acceptAlternatives": [],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "ドイツから きました。",
+      "answer": "doitsu kara kimashita",
+      "acceptAlternatives": [],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "とうきょうに すんでいます。",
+      "answer": "toukyou ni sunde imasu",
+      "acceptAlternatives": [
+        "tokyo ni sunde imasu",
+        "toukyou ni sundeimasu"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "しごとは なんですか？",
+      "answer": "shigoto wa nan desu ka",
+      "acceptAlternatives": [],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "なんさいですか？",
+      "answer": "nan sai desu ka",
+      "acceptAlternatives": [
+        "nansai desu ka"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "どこ出身ですか？",
+      "answer": "doko shusshin desu ka",
+      "acceptAlternatives": [],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "わたくしは エマと もうします。",
+      "answer": "watakushi wa ema to moushimasu",
+      "acceptAlternatives": [
+        "watakushi wa ema to moushimasu."
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "はじめまして。わたくしは エマ・スミスと もうします。",
+      "romaji": "Hajimemashite. Watakushi wa Ema Sumisu to moushimasu.",
+      "en": "How do you do. My name is Emma Smith.",
+      "speakText": "はじめまして。わたくしは エマ・スミスと もうします。",
+      "register": "formal",
+      "dialogueContext": "A - Formal · Business Introduction at a Conference",
+      "speaker": "エマ"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "どちらから いらっしゃいましたか？",
+      "romaji": "Dochira kara irasshaimashita ka?",
+      "en": "Source dialogue line.",
+      "speakText": "どちらから いらっしゃいましたか？",
+      "register": "formal",
+      "dialogueContext": "A - Formal · Business Introduction at a Conference",
+      "speaker": "やまだ"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "イギリスの ロンドンから まいりました。よろしくおねがいいたします。",
+      "romaji": "Igirisu no Rondon kara mairimashita. Yoroshiku onegai itashimasu.",
+      "en": "I have come from London in the UK. I look forward to working with you.",
+      "speakText": "イギリスの ロンドンから まいりました。よろしくおねがいいたします。",
+      "register": "formal",
+      "dialogueContext": "A - Formal · Business Introduction at a Conference",
+      "speaker": "エマ"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "はじめまして。わたしは みどりです。どこから きましたか？",
+      "romaji": "Hajimemashite. Watashi wa Midori desu. Doko kara kimashita ka?",
+      "en": "Nice to meet you. I'm Midori. Where are you from?",
+      "speakText": "はじめまして。わたしは みどりです。どこから きましたか？",
+      "register": "polite",
+      "dialogueContext": "B - Standard · New Students Getting Acquainted",
+      "speaker": "みどり"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ドイツの ベルリンから きました。いま とうきょうに すんでいます。",
+      "romaji": "Doitsu no Berurin kara kimashita. Ima Toukyou ni sunde imasu.",
+      "en": "I came from Berlin in Germany. I live in Tokyo now.",
+      "speakText": "ドイツの ベルリンから きました。いま とうきょうに すんでいます。",
+      "register": "polite",
+      "dialogueContext": "B - Standard · New Students Getting Acquainted",
+      "speaker": "アレックス"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "そうですか！わたしも とうきょうです。よろしくおねがいします。",
+      "romaji": "Sou desu ka! Watashi mo Toukyou desu. Yoroshiku onegaishimasu.",
+      "en": "Oh really! I'm also in Tokyo. Pleased to meet you.",
+      "speakText": "そうですか！わたしも とうきょうです。よろしくおねがいします。",
+      "register": "polite",
+      "dialogueContext": "B - Standard · New Students Getting Acquainted",
+      "speaker": "みどり"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ゆきだよ。よろしく！どこ出身？",
+      "romaji": "Yuki da yo. Yoroshiku! Doko shusshin?",
+      "en": "I'm Yuki. Nice to meet you! Where are you from?",
+      "speakText": "ゆきだよ。よろしく！どこ出身？",
+      "register": "casual",
+      "dialogueContext": "C - Casual · New Friends at a Party",
+      "speaker": "ゆき"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ルーカスだよ。ブラジル出身で、いま ここに すんでる。ゆきは？",
+      "romaji": "Ruukasu da yo. Burajiru shusshin de, ima koko ni sunden. Yuki wa?",
+      "en": "I'm Lukas. Originally from Brazil, living here now. What about you, Yuki?",
+      "speakText": "ルーカスだよ。ブラジル出身で、いま ここに すんでる。ゆきは？",
+      "register": "casual",
+      "dialogueContext": "C - Casual · New Friends at a Party",
+      "speaker": "ルーカス"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "わたしは とうきょう出身！よろしくね！",
+      "romaji": "Watashi wa Toukyou shusshin! Yoroshiku ne!",
+      "en": "I'm originally from Tokyo! Nice to meet you!",
+      "speakText": "わたしは とうきょう出身！よろしくね！",
+      "register": "casual",
+      "dialogueContext": "C - Casual · New Friends at a Party",
+      "speaker": "ゆき"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "わたしは [NAME]です。",
+          "right": "I am [NAME]."
+        },
+        {
+          "left": "どこから きましたか？",
+          "right": "Where are you from?"
+        },
+        {
+          "left": "[COUNTRY]から きました。",
+          "right": "I came from [COUNTRY]."
+        },
+        {
+          "left": "[CITY]に すんでいます。",
+          "right": "I live in [CITY]."
+        },
+        {
+          "left": "しごとは なんですか？",
+          "right": "What do you do for work?"
+        },
+        {
+          "left": "なんさいですか？",
+          "right": "How old are you?"
+        },
+        {
+          "left": "どうしましたか",
+          "right": "What happened?",
+          "reviewFrom": "dialogues-lesson-02"
+        },
+        {
+          "left": "まっすぐ いってください。",
+          "right": "Please go straight.",
+          "reviewFrom": "dialogues-lesson-04"
+        },
+        {
+          "left": "もう一度お願いします",
+          "right": "One more time, please",
+          "reviewFrom": "dialogues-lesson-02"
+        },
+        {
+          "left": "あるいて ５ふんです。",
+          "right": "It's 5 minutes on foot.",
+          "reviewFrom": "dialogues-lesson-04"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "はじめまして。わたくしは エマ・スミスと もうします。",
+          "romaji": "Hajimemashite. Watakushi wa Ema Sumisu to moushimasu.",
+          "en": "How do you do. My name is Emma Smith."
+        },
+        {
+          "jp": "どちらから いらっしゃいましたか？",
+          "romaji": "Dochira kara irasshaimashita ka?",
+          "en": "Source dialogue line.",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "A - Formal · Business Introduction at a Conference; register is formal."
+          }
+        },
+        {
+          "jp": "イギリスの ロンドンから まいりました。よろしくおねがいいたします。",
+          "romaji": "Igirisu no Rondon kara mairimashita. Yoroshiku onegai itashimasu.",
+          "en": "I have come from London in the UK. I look forward to working with you."
+        },
+        {
+          "jp": "はじめまして。わたしは みどりです。どこから きましたか？",
+          "romaji": "Hajimemashite. Watashi wa Midori desu. Doko kara kimashita ka?",
+          "en": "Nice to meet you. I'm Midori. Where are you from?"
+        },
+        {
+          "jp": "ドイツの ベルリンから きました。いま とうきょうに すんでいます。",
+          "romaji": "Doitsu no Berurin kara kimashita. Ima Toukyou ni sunde imasu.",
+          "en": "I came from Berlin in Germany. I live in Tokyo now.",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "B - Standard · New Students Getting Acquainted; register is polite."
+          }
+        },
+        {
+          "jp": "そうですか！わたしも とうきょうです。よろしくおねがいします。",
+          "romaji": "Sou desu ka! Watashi mo Toukyou desu. Yoroshiku onegaishimasu.",
+          "en": "Oh really! I'm also in Tokyo. Pleased to meet you."
+        },
+        {
+          "jp": "ゆきだよ。よろしく！どこ出身？",
+          "romaji": "Yuki da yo. Yoroshiku! Doko shusshin?",
+          "en": "I'm Yuki. Nice to meet you! Where are you from?"
+        },
+        {
+          "jp": "ルーカスだよ。ブラジル出身で、いま ここに すんでる。ゆきは？",
+          "romaji": "Ruukasu da yo. Burajiru shusshin de, ima koko ni sunden. Yuki wa?",
+          "en": "I'm Lukas. Originally from Brazil, living here now. What about you, Yuki?",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "C - Casual · New Friends at a Party; register is casual."
+          }
+        },
+        {
+          "jp": "わたしは とうきょう出身！よろしくね！",
+          "romaji": "Watashi wa Toukyou shusshin! Yoroshiku ne!",
+          "en": "I'm originally from Tokyo! Nice to meet you!"
+        },
+        {
+          "jp": "わたしは [NAME]です。",
+          "romaji": "Watashi wa [NAME] desu.",
+          "en": "I am [NAME]."
+        }
+      ]
+    }
+  ]
+}

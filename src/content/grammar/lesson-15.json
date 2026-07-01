@@ -1,0 +1,744 @@
+{
+  "id": "grammar-lesson-15",
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "na-Adjectives as Predicates",
+      "intro": "na-adjectives describe things, but they behave more like nouns at the end of a sentence. In polite speech, use adjective + です, without な before です.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "しずか",
+          "shizuka",
+          "quiet"
+        ],
+        [
+          "にぎやか",
+          "nigiyaka",
+          "lively"
+        ],
+        [
+          "きれい",
+          "kirei",
+          "beautiful / clean"
+        ],
+        [
+          "ゆうめい",
+          "yuumei",
+          "famous"
+        ],
+        [
+          "べんり",
+          "benri",
+          "convenient"
+        ],
+        [
+          "げんき",
+          "genki",
+          "healthy / energetic"
+        ],
+        [
+          "ひま",
+          "hima",
+          "free / not busy"
+        ]
+      ],
+      "takeaway": "At the end of a sentence: na-adjective + です."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which sentence correctly means 'It is quiet'?",
+      "options": [
+        "しずかです。",
+        "しずかなです。",
+        "しずかいです。",
+        "しずかだです。"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'This town is quiet' using a na-adjective predicate:",
+      "patternJp": [
+        "この まちは ",
+        "[SLOT]",
+        "です。"
+      ],
+      "patternRom": [
+        "kono machi wa ",
+        "[SLOT]",
+        " desu."
+      ],
+      "slot": {
+        "answer": "しずか",
+        "answerRomaji": "shizuka",
+        "hint": "The na-adjective meaning quiet.",
+        "acceptAlternatives": [
+          "Shizuka"
+        ]
+      },
+      "translation": "This town is quiet.",
+      "speakText": "この まちは しずかです。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "na-Adjectives Before Nouns",
+      "intro": "Use な when a na-adjective directly modifies a noun. This な is the name of the category: しずかな まち means a quiet town.",
+      "rows": [
+        [
+          "Pattern",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "しずかな まち",
+          "shizuka na machi",
+          "quiet town"
+        ],
+        [
+          "きれいな へや",
+          "kirei na heya",
+          "clean room"
+        ],
+        [
+          "べんりな アプリ",
+          "benri na apuri",
+          "convenient app"
+        ],
+        [
+          "ゆうめいな ひと",
+          "yuumei na hito",
+          "famous person"
+        ],
+        [
+          "げんきな こども",
+          "genki na kodomo",
+          "energetic child"
+        ]
+      ],
+      "takeaway": "Before a noun, add な after a na-adjective."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which phrase correctly means 'clean room'?",
+      "options": [
+        "きれいな へや",
+        "きれい へや",
+        "きれいの へや",
+        "きれいい へや"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'It is a convenient app' with the na-adjective before the noun:",
+      "patternJp": [
+        "これは ",
+        "[SLOT]",
+        " アプリです。"
+      ],
+      "patternRom": [
+        "kore wa ",
+        "[SLOT]",
+        " apuri desu."
+      ],
+      "slot": {
+        "answer": "べんりな",
+        "answerRomaji": "benri na",
+        "hint": "The noun-modifying form meaning convenient.",
+        "acceptAlternatives": [
+          "Benri na"
+        ]
+      },
+      "translation": "It is a convenient app.",
+      "speakText": "これは べんりな アプリです。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Negative and Past na-Adjectives",
+      "intro": "na-adjectives use noun-like endings for negative and past forms. In beginner polite speech, じゃないです and でした are common and useful.",
+      "rows": [
+        [
+          "Form",
+          "Japanese",
+          "Romaji"
+        ],
+        [
+          "present",
+          "しずかです",
+          "shizuka desu"
+        ],
+        [
+          "negative",
+          "しずかじゃないです",
+          "shizuka ja nai desu"
+        ],
+        [
+          "formal negative",
+          "しずかでは ありません",
+          "shizuka dewa arimasen"
+        ],
+        [
+          "past",
+          "しずかでした",
+          "shizuka deshita"
+        ],
+        [
+          "past negative",
+          "しずかじゃなかったです",
+          "shizuka ja nakatta desu"
+        ]
+      ],
+      "takeaway": "Use じゃないです for negative and でした for past."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which form means 'was lively'?",
+      "options": [
+        "にぎやかでした",
+        "にぎやかった",
+        "にぎやかくない",
+        "にぎやかなです"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'It is not convenient' using the common negative form:",
+      "patternJp": [
+        "べんり",
+        "[SLOT]",
+        "です。"
+      ],
+      "patternRom": [
+        "benri",
+        "[SLOT]",
+        " desu."
+      ],
+      "slot": {
+        "answer": "じゃない",
+        "answerRomaji": "ja nai",
+        "hint": "The common negative ending for na-adjectives.",
+        "acceptAlternatives": [
+          "janai",
+          "ja nai"
+        ]
+      },
+      "translation": "It is not convenient.",
+      "speakText": "べんりじゃないです。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Adverbial に with na-Adjectives",
+      "intro": "Many na-adjectives turn into adverbs with に. This describes how an action happens: しずかに はなします means speak quietly.",
+      "rows": [
+        [
+          "na-Adjective",
+          "Adverb",
+          "Meaning"
+        ],
+        [
+          "しずか",
+          "しずかに",
+          "quietly"
+        ],
+        [
+          "きれい",
+          "きれいに",
+          "cleanly / neatly"
+        ],
+        [
+          "じょうず",
+          "じょうずに",
+          "skillfully"
+        ],
+        [
+          "かんたん",
+          "かんたんに",
+          "easily"
+        ],
+        [
+          "たいせつ",
+          "たいせつに",
+          "carefully / with care"
+        ]
+      ],
+      "takeaway": "na-adjective + に describes how an action is done."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which phrase means 'speak quietly'?",
+      "options": [
+        "しずかに はなします",
+        "しずかな はなします",
+        "しずかを はなします",
+        "しずかです はなします"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'Please write neatly' using the adverbial に form:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        " かいてください。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        " kaite kudasai."
+      ],
+      "slot": {
+        "answer": "きれいに",
+        "answerRomaji": "kirei ni",
+        "hint": "The adverbial form meaning neatly.",
+        "acceptAlternatives": [
+          "Kirei ni"
+        ]
+      },
+      "translation": "Please write neatly.",
+      "speakText": "きれいに かいてください。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly says 'a quiet town'?",
+      "title": "na before a noun",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "しずかな まちです。",
+          "romaji": "shizuka na machi desu.",
+          "en": "It is a quiet town.",
+          "note": "Add な before the noun.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "しずか まちです。",
+          "romaji": "shizuka machi desu.",
+          "en": "(intended: quiet town)",
+          "note": "A na-adjective needs な before a noun.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "しずかに まちです。",
+          "romaji": "shizuka ni machi desu.",
+          "en": "(intended: quiet town)",
+          "note": "に makes an adverb, not a noun modifier.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Before nouns, na-adjectives need な.",
+      "speakText": "しずかな まちです。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly says 'This room is clean'?",
+      "title": "no な before です",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "この へやは きれいです。",
+          "romaji": "kono heya wa kirei desu.",
+          "en": "This room is clean.",
+          "note": "At sentence end, use the adjective directly before です.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "この へやは きれいなです。",
+          "romaji": "kono heya wa kirei na desu.",
+          "en": "(intended: this room is clean)",
+          "note": "Do not use な before です.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "この へやは きれいいです。",
+          "romaji": "kono heya wa kireii desu.",
+          "en": "(intended: this room is clean)",
+          "note": "きれい ends in い but is a na-adjective.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use な before nouns, not before です.",
+      "speakText": "この へやは きれいです。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly says 'It is not famous'?",
+      "title": "negative na-adjectives",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "ゆうめいじゃないです。",
+          "romaji": "yuumei ja nai desu.",
+          "en": "It is not famous.",
+          "note": "じゃないです is the common polite negative.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "ゆうめいくないです。",
+          "romaji": "yuumeikunai desu.",
+          "en": "(intended: not famous)",
+          "note": "くない is for i-adjectives, not na-adjectives.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "ゆうめいないです。",
+          "romaji": "yuumei nai desu.",
+          "en": "(intended: not famous)",
+          "note": "Use じゃない or ではありません after the adjective.",
+          "correct": false
+        }
+      ],
+      "takeaway": "na-adjectives take じゃないです for the common negative.",
+      "speakText": "ゆうめいじゃないです。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which uses the adverbial に form correctly?",
+      "title": "na-adjective + に",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "しずかに はなしてください。",
+          "romaji": "shizuka ni hanashite kudasai.",
+          "en": "Please speak quietly.",
+          "note": "に turns the adjective into an adverb.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "しずかな はなしてください。",
+          "romaji": "shizuka na hanashite kudasai.",
+          "en": "(intended: speak quietly)",
+          "note": "な modifies nouns, not verbs.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "しずかで はなしてください。",
+          "romaji": "shizuka de hanashite kudasai.",
+          "en": "(intended: speak quietly)",
+          "note": "Use に to describe how the action happens.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use に when a na-adjective describes a verb.",
+      "speakText": "しずかに はなしてください。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "na-Adjectives in Context",
+      "intro": "These examples contrast sentence-final na-adjectives, noun-modifying な, negative and past forms, and adverbial に.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "English"
+        ],
+        [
+          "この まちは しずかです。",
+          "kono machi wa shizuka desu.",
+          "This town is quiet."
+        ],
+        [
+          "ここは にぎやかです。",
+          "koko wa nigiyaka desu.",
+          "This place is lively."
+        ],
+        [
+          "きれいな へやですね。",
+          "kirei na heya desu ne.",
+          "It is a clean room, isn't it?"
+        ],
+        [
+          "これは べんりな アプリです。",
+          "kore wa benri na apuri desu.",
+          "This is a convenient app."
+        ],
+        [
+          "あの ひとは ゆうめいです。",
+          "ano hito wa yuumei desu.",
+          "That person is famous."
+        ],
+        [
+          "きょうは ひまじゃないです。",
+          "kyou wa hima ja nai desu.",
+          "I am not free today."
+        ],
+        [
+          "きのうは げんきでした。",
+          "kinou wa genki deshita.",
+          "I was well yesterday."
+        ],
+        [
+          "きれいに かいてください。",
+          "kirei ni kaite kudasai.",
+          "Please write neatly."
+        ]
+      ],
+      "takeaway": "na-adjectives use な before nouns and noun-like endings in predicates."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "This town is lively.",
+        "This town is quiet.",
+        "This town was quiet.",
+        "This town is convenient."
+      ],
+      "correctIndex": 1,
+      "speakText": "この まちは しずかです。"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "This place is quiet.",
+        "This place is famous.",
+        "This place is lively.",
+        "This place is clean."
+      ],
+      "correctIndex": 2,
+      "speakText": "ここは にぎやかです。"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "It is a clean room, isn't it?",
+        "It is a famous room.",
+        "The room is not clean.",
+        "Please clean the room."
+      ],
+      "correctIndex": 0,
+      "speakText": "きれいな へやですね。"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "This is an inconvenient app.",
+        "This is a convenient app.",
+        "This app was famous.",
+        "This app is expensive."
+      ],
+      "correctIndex": 1,
+      "speakText": "これは べんりな アプリです。"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "That person is healthy.",
+        "That person is famous.",
+        "That person is free.",
+        "Who is that person?"
+      ],
+      "correctIndex": 1,
+      "speakText": "あの ひとは ゆうめいです。"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "I am free today.",
+        "I was free yesterday.",
+        "I am not free today.",
+        "Today is quiet."
+      ],
+      "correctIndex": 2,
+      "speakText": "きょうは ひまじゃないです。"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "I am well today.",
+        "I was well yesterday.",
+        "I was not well yesterday.",
+        "Yesterday was lively."
+      ],
+      "correctIndex": 1,
+      "speakText": "きのうは げんきでした。"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "Please write neatly.",
+        "Please read quietly.",
+        "Please clean the room.",
+        "Please write quickly."
+      ],
+      "correctIndex": 0,
+      "speakText": "きれいに かいてください。"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "しずかです",
+      "answer": "shizuka desu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "きれいな へや",
+      "answer": "kirei na heya",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "べんりな アプリ",
+      "answer": "benri na apuri",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "ひまじゃないです",
+      "answer": "hima ja nai desu",
+      "acceptAlternatives": [
+        "hima janai desu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "げんきでした",
+      "answer": "genki deshita",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "ゆうめいじゃないです",
+      "answer": "yuumei ja nai desu",
+      "acceptAlternatives": [
+        "yuumei janai desu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "きれいに かいてください",
+      "answer": "kirei ni kaite kudasai",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning:",
+      "pairs": [
+        {
+          "left": "しずか",
+          "right": "quiet"
+        },
+        {
+          "left": "にぎやか",
+          "right": "lively"
+        },
+        {
+          "left": "きれい",
+          "right": "beautiful / clean"
+        },
+        {
+          "left": "ゆうめい",
+          "right": "famous"
+        },
+        {
+          "left": "べんり",
+          "right": "convenient"
+        },
+        {
+          "left": "げんき",
+          "right": "healthy / energetic"
+        },
+        {
+          "left": "ひま",
+          "right": "free / not busy"
+        },
+        {
+          "left": "じょうず",
+          "right": "skillful"
+        },
+        {
+          "left": "かんたん",
+          "right": "easy / simple"
+        },
+        {
+          "left": "たいせつ",
+          "right": "important"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice - na-adjectives",
+      "cards": [
+        {
+          "jp": "この まちは しずかです。",
+          "romaji": "kono machi wa shizuka desu.",
+          "en": "This town is quiet."
+        },
+        {
+          "jp": "ここは にぎやかです。",
+          "romaji": "koko wa nigiyaka desu.",
+          "en": "This place is lively."
+        },
+        {
+          "jp": "きれいな へやですね。",
+          "romaji": "kirei na heya desu ne.",
+          "en": "It is a clean room, isn't it?"
+        },
+        {
+          "jp": "これは べんりな アプリです。",
+          "romaji": "kore wa benri na apuri desu.",
+          "en": "This is a convenient app."
+        },
+        {
+          "jp": "あの ひとは ゆうめいです。",
+          "romaji": "ano hito wa yuumei desu.",
+          "en": "That person is famous."
+        },
+        {
+          "jp": "きょうは ひまじゃないです。",
+          "romaji": "kyou wa hima ja nai desu.",
+          "en": "I am not free today."
+        },
+        {
+          "jp": "きのうは げんきでした。",
+          "romaji": "kinou wa genki deshita.",
+          "en": "I was well yesterday."
+        },
+        {
+          "jp": "しずかに はなしてください。",
+          "romaji": "shizuka ni hanashite kudasai.",
+          "en": "Please speak quietly."
+        },
+        {
+          "jp": "きれいに かいてください。",
+          "romaji": "kirei ni kaite kudasai.",
+          "en": "Please write neatly."
+        },
+        {
+          "jp": "たいせつに つかってください。",
+          "romaji": "taisetsu ni tsukatte kudasai.",
+          "en": "Please use it carefully."
+        }
+      ]
+    }
+  ]
+}

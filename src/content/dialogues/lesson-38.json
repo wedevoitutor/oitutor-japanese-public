@@ -1,0 +1,1289 @@
+{
+  "id": "dialogues-lesson-38",
+  "misconceptions": [
+    {
+      "target": "transport-tickets-single-word-answer",
+      "error": "Answers with isolated vocabulary instead of a complete conversational turn.",
+      "mitigation": "Reference rows and response-selection drills keep prompts and natural replies together."
+    },
+    {
+      "target": "transport-tickets-register-mismatch",
+      "error": "Uses casual language with teachers, staff, or strangers.",
+      "mitigation": "Formal, casual, and slang scenes are separated and labeled."
+    },
+    {
+      "target": "transport-tickets-listening-drift",
+      "error": "Chooses a familiar phrase that does not match the audio.",
+      "mitigation": "Listening MC and type-the-answer reuse the exact dialogue speakText."
+    },
+    {
+      "target": "transport-tickets-particle-confusion",
+      "error": "Confuses は, へ, or を in written Japanese source phrases.",
+      "mitigation": "Formula-fill keeps the Japanese particles visible and accepts romaji as support."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Transport Tickets - Formal · Casual · Slang",
+      "intro": "Practice transport tickets as prompt-and-response dialogue, not as loose vocabulary.",
+      "rows": [
+        [
+          "Register",
+          "Japanese",
+          "Romaji",
+          "Typical Response",
+          "Context"
+        ],
+        [
+          "FORMAL",
+          "しんじゅくまで きっぷを いちまい おねがいします。",
+          "shinjukumade kippuwo ichimai onegaishimasu.",
+          "かたみちですか、おうふくですか？",
+          "One-way or round-trip?"
+        ],
+        [
+          "FORMAL",
+          "かたみちですか、おうふくですか？",
+          "katamichidesuka,oufukudesuka?",
+          "そうです。ありがとうございます。",
+          "That is right. Thank you."
+        ],
+        [
+          "CASUAL",
+          "バスと でんしゃ、どっちで いく？",
+          "basuto densha,dotchide iku?",
+          "でんしゃが はやいよ。",
+          "The train is faster."
+        ],
+        [
+          "CASUAL",
+          "でんしゃが はやいよ。",
+          "denshaga hayaiyo.",
+          "いいね。あとで かくにんしよう。",
+          "Nice. Let us check later."
+        ],
+        [
+          "SLANG",
+          "カードに お金、はいってる？",
+          "kaadoni o金,haitteru?",
+          "たぶん ない。チャージしないと。",
+          "Probably not. I need to charge it."
+        ],
+        [
+          "SLANG",
+          "たぶん ない。チャージしないと。",
+          "tabun nai.chaajishinaito.",
+          "まじか。いいじゃん。",
+          "Really? Nice."
+        ]
+      ],
+      "takeaway": "First choose the right meaning, then choose the right relationship tone."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "A - FORMAL · Transport Tickets",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "先生",
+          "jp": "しんじゅくまで きっぷを いちまい おねがいします。",
+          "romaji": "shinjukumade kippuwo ichimai onegaishimasu.",
+          "en": "One ticket to Shinjuku, please."
+        },
+        {
+          "speaker": "学生",
+          "jp": "かたみちですか、おうふくですか？",
+          "romaji": "katamichidesuka,oufukudesuka?",
+          "en": "One-way or round-trip?"
+        },
+        {
+          "speaker": "先生",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "B - CASUAL · Transport Tickets",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "ゆい",
+          "jp": "バスと でんしゃ、どっちで いく？",
+          "romaji": "basuto densha,dotchide iku?",
+          "en": "Are we going by bus or train?"
+        },
+        {
+          "speaker": "たく",
+          "jp": "でんしゃが はやいよ。",
+          "romaji": "denshaga hayaiyo.",
+          "en": "The train is faster."
+        },
+        {
+          "speaker": "ゆい",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "C - SLANG · Transport Tickets",
+      "register": "slang",
+      "lines": [
+        {
+          "speaker": "りく",
+          "jp": "カードに お金、はいってる？",
+          "romaji": "kaadoni o金,haitteru?",
+          "en": "Is there money on your card?"
+        },
+        {
+          "speaker": "まい",
+          "jp": "たぶん ない。チャージしないと。",
+          "romaji": "tabun nai.chaajishinaito.",
+          "en": "Probably not. I need to charge it."
+        },
+        {
+          "speaker": "りく",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 1: しんじゅくまで きっぷを いちまい おねがいします。",
+      "prompt": "Which source phrase means: “One ticket to Shinjuku, please.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "しんじゅくまで きっぷを いちまい おねがいします。",
+          "romaji": "shinjukumade kippuwo ichimai onegaishimasu.",
+          "en": "One ticket to Shinjuku, please.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "しんじゅくまで きっぷを いちまい おねがいします。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 2: かたみちですか、おうふくですか？",
+      "prompt": "Which source phrase means: “One-way or round-trip?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "かたみちですか、おうふくですか？",
+          "romaji": "katamichidesuka,oufukudesuka?",
+          "en": "One-way or round-trip?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "カードに お金、はいってる？",
+          "romaji": "kaadoni o金,haitteru?",
+          "en": "Is there money on your card?",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "きっぷ",
+          "romaji": "kippu",
+          "en": "ticket",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "かたみちですか、おうふくですか？"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 3: そうです。ありがとうございます。",
+      "prompt": "Which source phrase means: “That is right. Thank you.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "たぶん ない。チャージしないと。",
+          "romaji": "tabun nai.chaajishinaito.",
+          "en": "Probably not. I need to charge it.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "いちまい",
+          "romaji": "ichimai",
+          "en": "one ticket",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "そうです。ありがとうございます。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 4: バスと でんしゃ、どっちで いく？",
+      "prompt": "Which source phrase means: “Are we going by bus or train?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "バスと でんしゃ、どっちで いく？",
+          "romaji": "basuto densha,dotchide iku?",
+          "en": "Are we going by bus or train?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "かたみち",
+          "romaji": "katamichi",
+          "en": "one-way",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "バスと でんしゃ、どっちで いく？"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "しんじゅくまで きっぷを いちまい おねがいします",
+        "answerRomaji": "shinjukumade kippuwo ichimai onegaishimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "shinjukumadekippuwoichimaionegaishimasu."
+        ]
+      },
+      "translation": "One ticket to Shinjuku, please.",
+      "speakText": "しんじゅくまで きっぷを いちまい おねがいします。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "かたみちですか、おうふくですか",
+        "answerRomaji": "katamichidesuka,oufukudesuka?",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "katamichidesuka,oufukudesuka?"
+        ]
+      },
+      "translation": "One-way or round-trip?",
+      "speakText": "かたみちですか、おうふくですか？",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "そうです。ありがとうございます",
+        "answerRomaji": "soudesu.arigatougozaimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "soudesu.arigatougozaimasu."
+        ]
+      },
+      "translation": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "しんじゅくまで きっぷを いちまい おねがいします。",
+          "romaji": "shinjukumade kippuwo ichimai onegaishimasu.",
+          "en": "One ticket to Shinjuku, please."
+        },
+        {
+          "jp": "かたみちですか、おうふくですか？",
+          "romaji": "katamichidesuka,oufukudesuka?",
+          "en": "One-way or round-trip?"
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "バスと でんしゃ、どっちで いく？",
+          "romaji": "basuto densha,dotchide iku?",
+          "en": "Are we going by bus or train?"
+        },
+        {
+          "jp": "でんしゃが はやいよ。",
+          "romaji": "denshaga hayaiyo.",
+          "en": "The train is faster."
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "カードに お金、はいってる？",
+          "romaji": "kaadoni o金,haitteru?",
+          "en": "Is there money on your card?"
+        },
+        {
+          "jp": "たぶん ない。チャージしないと。",
+          "romaji": "tabun nai.chaajishinaito.",
+          "en": "Probably not. I need to charge it."
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "きっぷ",
+          "romaji": "kippu",
+          "en": "ticket"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "しんじゅくまで きっぷを いちまい おねがいします。",
+      "options": [
+        {
+          "text": "One ticket to Shinjuku, please.",
+          "correct": true
+        },
+        {
+          "text": "Are we going by bus or train?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Is there money on your card?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "ticket",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "かたみちですか、おうふくですか？",
+      "options": [
+        {
+          "text": "One-way or round-trip?",
+          "correct": true
+        },
+        {
+          "text": "The train is faster.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Probably not. I need to charge it.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "one ticket",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "そうです。ありがとうございます。",
+      "options": [
+        {
+          "text": "That is right. Thank you.",
+          "correct": true
+        },
+        {
+          "text": "Nice. Let us check later.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "one-way",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "バスと でんしゃ、どっちで いく？",
+      "options": [
+        {
+          "text": "Are we going by bus or train?",
+          "correct": true
+        },
+        {
+          "text": "Is there money on your card?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "ticket",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "round-trip",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "でんしゃが はやいよ。",
+      "options": [
+        {
+          "text": "The train is faster.",
+          "correct": true
+        },
+        {
+          "text": "Probably not. I need to charge it.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "one ticket",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "train",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "options": [
+        {
+          "text": "Nice. Let us check later.",
+          "correct": true
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "one-way",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "bus",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "カードに お金、はいってる？",
+      "options": [
+        {
+          "text": "Is there money on your card?",
+          "correct": true
+        },
+        {
+          "text": "ticket",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "round-trip",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "One ticket to Shinjuku, please.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "たぶん ない。チャージしないと。",
+      "options": [
+        {
+          "text": "Probably not. I need to charge it.",
+          "correct": true
+        },
+        {
+          "text": "one ticket",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "train",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "One-way or round-trip?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "しんじゅくまで きっぷを いちまい おねがいします。",
+        "romaji": "shinjukumade kippuwo ichimai onegaishimasu.",
+        "speakText": "しんじゅくまで きっぷを いちまい おねがいします。"
+      },
+      "options": [
+        {
+          "jp": "かたみちですか、おうふくですか？",
+          "romaji": "katamichidesuka,oufukudesuka?",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "でんしゃが はやいよ。",
+          "romaji": "denshaga hayaiyo.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "たぶん ない。チャージしないと。",
+          "romaji": "tabun nai.chaajishinaito.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "かたみちですか、おうふくですか？",
+        "romaji": "katamichidesuka,oufukudesuka?",
+        "speakText": "かたみちですか、おうふくですか？"
+      },
+      "options": [
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "バスと でんしゃ、どっちで いく？",
+        "romaji": "basuto densha,dotchide iku?",
+        "speakText": "バスと でんしゃ、どっちで いく？"
+      },
+      "options": [
+        {
+          "jp": "でんしゃが はやいよ。",
+          "romaji": "denshaga hayaiyo.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "カードに お金、はいってる？",
+          "romaji": "kaadoni o金,haitteru?",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "きっぷ",
+          "romaji": "kippu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "でんしゃが はやいよ。",
+        "romaji": "denshaga hayaiyo.",
+        "speakText": "でんしゃが はやいよ。"
+      },
+      "options": [
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "たぶん ない。チャージしないと。",
+          "romaji": "tabun nai.chaajishinaito.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いちまい",
+          "romaji": "ichimai",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "カードに お金、はいってる？",
+        "romaji": "kaadoni o金,haitteru?",
+        "speakText": "カードに お金、はいってる？"
+      },
+      "options": [
+        {
+          "jp": "たぶん ない。チャージしないと。",
+          "romaji": "tabun nai.chaajishinaito.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "かたみち",
+          "romaji": "katamichi",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "たぶん ない。チャージしないと。",
+        "romaji": "tabun nai.chaajishinaito.",
+        "speakText": "たぶん ない。チャージしないと。"
+      },
+      "options": [
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "きっぷ",
+          "romaji": "kippu",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "おうふく",
+          "romaji": "oufuku",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "しんじゅくまで きっぷを いちまい おねがいします。",
+      "answer": "shinjukumade kippuwo ichimai onegaishimasu.",
+      "acceptAlternatives": [
+        "shinjukumadekippuwoichimaionegaishimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "かたみちですか、おうふくですか？",
+      "answer": "katamichidesuka,oufukudesuka?",
+      "acceptAlternatives": [
+        "katamichidesuka,oufukudesuka?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "そうです。ありがとうございます。",
+      "answer": "soudesu.arigatougozaimasu.",
+      "acceptAlternatives": [
+        "soudesu.arigatougozaimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "バスと でんしゃ、どっちで いく？",
+      "answer": "basuto densha,dotchide iku?",
+      "acceptAlternatives": [
+        "basutodensha,dotchideiku?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "でんしゃが はやいよ。",
+      "answer": "denshaga hayaiyo.",
+      "acceptAlternatives": [
+        "denshagahayaiyo."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "answer": "iine.atode kakuninshiyou.",
+      "acceptAlternatives": [
+        "iine.atodekakuninshiyou."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "カードに お金、はいってる？",
+      "answer": "kaadoni o金,haitteru?",
+      "acceptAlternatives": [
+        "kaadonio金,haitteru?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "たぶん ない。チャージしないと。",
+      "answer": "tabun nai.chaajishinaito.",
+      "acceptAlternatives": [
+        "tabunnai.chaajishinaito."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "しんじゅくまで きっぷを いちまい おねがいします。",
+      "romaji": "shinjukumade kippuwo ichimai onegaishimasu.",
+      "en": "One ticket to Shinjuku, please.",
+      "speakText": "しんじゅくまで きっぷを いちまい おねがいします。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Transport Tickets",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "かたみちですか、おうふくですか？",
+      "romaji": "katamichidesuka,oufukudesuka?",
+      "en": "One-way or round-trip?",
+      "speakText": "かたみちですか、おうふくですか？",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Transport Tickets",
+      "speaker": "学生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "そうです。ありがとうございます。",
+      "romaji": "soudesu.arigatougozaimasu.",
+      "en": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Transport Tickets",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "バスと でんしゃ、どっちで いく？",
+      "romaji": "basuto densha,dotchide iku?",
+      "en": "Are we going by bus or train?",
+      "speakText": "バスと でんしゃ、どっちで いく？",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Transport Tickets",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "でんしゃが はやいよ。",
+      "romaji": "denshaga hayaiyo.",
+      "en": "The train is faster.",
+      "speakText": "でんしゃが はやいよ。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Transport Tickets",
+      "speaker": "たく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いいね。あとで かくにんしよう。",
+      "romaji": "iine.atode kakuninshiyou.",
+      "en": "Nice. Let us check later.",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Transport Tickets",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "カードに お金、はいってる？",
+      "romaji": "kaadoni o金,haitteru?",
+      "en": "Is there money on your card?",
+      "speakText": "カードに お金、はいってる？",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Transport Tickets",
+      "speaker": "りく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "たぶん ない。チャージしないと。",
+      "romaji": "tabun nai.chaajishinaito.",
+      "en": "Probably not. I need to charge it.",
+      "speakText": "たぶん ない。チャージしないと。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Transport Tickets",
+      "speaker": "まい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "まじか。いいじゃん。",
+      "romaji": "majika.iijan.",
+      "en": "Really? Nice.",
+      "speakText": "まじか。いいじゃん。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Transport Tickets",
+      "speaker": "りく"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "しんじゅくまで きっぷを いちまい おねがいします。",
+          "right": "One ticket to Shinjuku, please."
+        },
+        {
+          "left": "かたみちですか、おうふくですか？",
+          "right": "One-way or round-trip?"
+        },
+        {
+          "left": "そうです。ありがとうございます。",
+          "right": "That is right. Thank you."
+        },
+        {
+          "left": "バスと でんしゃ、どっちで いく？",
+          "right": "Are we going by bus or train?"
+        },
+        {
+          "left": "でんしゃが はやいよ。",
+          "right": "The train is faster."
+        },
+        {
+          "left": "いいね。あとで かくにんしよう。",
+          "right": "Nice. Let us check later."
+        },
+        {
+          "left": "カードに お金、はいってる？",
+          "right": "Is there money on your card?"
+        },
+        {
+          "left": "たぶん ない。チャージしないと。",
+          "right": "Probably not. I need to charge it."
+        },
+        {
+          "left": "まじか。いいじゃん。",
+          "right": "Really? Nice."
+        },
+        {
+          "left": "きっぷ",
+          "right": "ticket"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "しんじゅくまで きっぷを いちまい おねがいします。",
+          "romaji": "shinjukumade kippuwo ichimai onegaishimasu.",
+          "en": "One ticket to Shinjuku, please."
+        },
+        {
+          "jp": "かたみちですか、おうふくですか？",
+          "romaji": "katamichidesuka,oufukudesuka?",
+          "en": "One-way or round-trip?",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "バスと でんしゃ、どっちで いく？",
+          "romaji": "basuto densha,dotchide iku?",
+          "en": "Are we going by bus or train?"
+        },
+        {
+          "jp": "でんしゃが はやいよ。",
+          "romaji": "denshaga hayaiyo.",
+          "en": "The train is faster.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "カードに お金、はいってる？",
+          "romaji": "kaadoni o金,haitteru?",
+          "en": "Is there money on your card?"
+        },
+        {
+          "jp": "たぶん ない。チャージしないと。",
+          "romaji": "tabun nai.chaajishinaito.",
+          "en": "Probably not. I need to charge it.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "きっぷ",
+          "romaji": "kippu",
+          "en": "ticket"
+        }
+      ]
+    }
+  ]
+}

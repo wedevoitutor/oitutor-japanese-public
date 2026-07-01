@@ -1,0 +1,350 @@
+{
+  "exercises": [
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ス",
+          "back": "su",
+          "speakText": "ス"
+        },
+        {
+          "front": "チ",
+          "back": "chi",
+          "speakText": "チ"
+        },
+        {
+          "front": "ソ",
+          "back": "so",
+          "speakText": "ソ"
+        },
+        {
+          "front": "タ",
+          "back": "ta",
+          "speakText": "タ"
+        },
+        {
+          "front": "シ",
+          "back": "shi",
+          "speakText": "シ"
+        },
+        {
+          "front": "ト",
+          "back": "to",
+          "speakText": "ト"
+        },
+        {
+          "front": "サ",
+          "back": "sa",
+          "speakText": "サ"
+        },
+        {
+          "front": "テ",
+          "back": "te",
+          "speakText": "テ"
+        },
+        {
+          "front": "ツ",
+          "back": "tsu",
+          "speakText": "ツ"
+        },
+        {
+          "front": "セ",
+          "back": "se",
+          "speakText": "セ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Shi? (watch for look-alikes)",
+      "options": [
+        "ツ",
+        "シ",
+        "ン",
+        "ソ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Tsu? (watch for look-alikes)",
+      "options": [
+        "シ",
+        "ツ",
+        "ソ",
+        "ン"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Chi?",
+      "options": [
+        "テ",
+        "ラ",
+        "チ",
+        "タ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "セ",
+      "answer": "se"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ト",
+      "answer": "to"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "サ",
+      "answer": "sa"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "タ",
+          "ta"
+        ],
+        [
+          "シ",
+          "shi"
+        ],
+        [
+          "ツ",
+          "tsu"
+        ],
+        [
+          "ソ",
+          "so"
+        ],
+        [
+          "セ",
+          "se"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ス",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "シ",
+        "ス",
+        "ソ",
+        "セ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "テ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "タ",
+        "チ",
+        "ツ",
+        "テ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is So? (watch for look-alikes)",
+      "options": [
+        "ソ",
+        "ン",
+        "ノ",
+        "シ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ta?",
+      "options": [
+        "ナ",
+        "タ",
+        "ク",
+        "ツ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "チ",
+      "answer": "chi",
+      "acceptAlternatives": [
+        "ti"
+      ]
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "タクシー (takushii)",
+          "taxi"
+        ],
+        [
+          "テスト (tesuto)",
+          "test"
+        ],
+        [
+          "トースト (toosuto)",
+          "toast"
+        ],
+        [
+          "スーツ (suutsu)",
+          "suit"
+        ],
+        [
+          "ソース (soosu)",
+          "sauce"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "test",
+      "answer": [
+        "テ",
+        "ス",
+        "ト"
+      ],
+      "bank": [
+        "サ",
+        "シ",
+        "ス",
+        "セ",
+        "ソ",
+        "タ",
+        "チ",
+        "ツ",
+        "テ",
+        "ト"
+      ],
+      "speakText": "テスト"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "suit",
+      "answer": [
+        "ス",
+        "ー",
+        "ツ"
+      ],
+      "bank": [
+        "サ",
+        "シ",
+        "ス",
+        "セ",
+        "ソ",
+        "タ",
+        "チ",
+        "ツ",
+        "ー"
+      ],
+      "speakText": "スーツ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "sauce",
+      "answer": [
+        "ソ",
+        "ー",
+        "ス"
+      ],
+      "bank": [
+        "サ",
+        "シ",
+        "ス",
+        "セ",
+        "ソ",
+        "ン",
+        "ー"
+      ],
+      "speakText": "ソース"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "テスト",
+      "answer": "tesuto"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ソース",
+      "answer": "soosu"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "タクシー",
+          "taxi"
+        ],
+        [
+          "テスト",
+          "test"
+        ],
+        [
+          "トースト",
+          "toast"
+        ],
+        [
+          "スーツ",
+          "suit"
+        ],
+        [
+          "ソース",
+          "sauce"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "タクシー",
+      "prompt": "What did you hear?",
+      "options": [
+        "taxi",
+        "test",
+        "toast",
+        "sauce"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "toast",
+      "answer": [
+        "ト",
+        "ー",
+        "ス",
+        "ト"
+      ],
+      "bank": [
+        "サ",
+        "シ",
+        "ス",
+        "セ",
+        "ソ",
+        "タ",
+        "チ",
+        "ツ",
+        "テ",
+        "ト",
+        "ー"
+      ],
+      "speakText": "トースト"
+    }
+  ],
+  "id": "katakana-cumulative-s-t"
+}

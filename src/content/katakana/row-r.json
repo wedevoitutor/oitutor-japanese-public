@@ -1,0 +1,367 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "R-row — ラ行",
+      "rows": [
+        [
+          "ラ ra",
+          "リ ri",
+          "ル ru",
+          "レ re",
+          "ロ ro"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "リ",
+          "back": "ri",
+          "speakText": "リ"
+        },
+        {
+          "front": "ル",
+          "back": "ru",
+          "speakText": "ル"
+        },
+        {
+          "front": "ラ",
+          "back": "ra",
+          "speakText": "ラ"
+        },
+        {
+          "front": "ロ",
+          "back": "ro",
+          "speakText": "ロ"
+        },
+        {
+          "front": "レ",
+          "back": "re",
+          "speakText": "レ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ra?",
+      "options": [
+        "リ",
+        "ラ",
+        "ル",
+        "ロ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ro?",
+      "options": [
+        "ル",
+        "レ",
+        "ロ",
+        "ラ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "リ",
+      "answer": "ri"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ル",
+      "answer": "ru"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ラ",
+          "ra"
+        ],
+        [
+          "リ",
+          "ri"
+        ],
+        [
+          "ル",
+          "ru"
+        ],
+        [
+          "レ",
+          "re"
+        ],
+        [
+          "ロ",
+          "ro"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ラ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "リ",
+        "ラ",
+        "ル",
+        "ロ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ル",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "レ",
+        "ロ",
+        "ル",
+        "ラ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Re?",
+      "options": [
+        "ル",
+        "ロ",
+        "レ",
+        "ラ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ラ",
+      "answer": "ra"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "レ",
+      "answer": "re"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ri? (watch for look-alikes)",
+      "options": [
+        "ソ",
+        "ル",
+        "リ",
+        "イ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ra? (watch for look-alikes)",
+      "options": [
+        "テ",
+        "ラ",
+        "ヲ",
+        "チ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "リ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ラ",
+        "リ",
+        "ル",
+        "レ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ロ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ラ",
+        "リ",
+        "ル",
+        "ロ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ロ",
+      "answer": "ro"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ro? (watch for look-alikes)",
+      "options": [
+        "コ",
+        "ワ",
+        "ロ",
+        "ユ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "ルール (ruuru)",
+          "rule"
+        ],
+        [
+          "ライス (raisu)",
+          "rice"
+        ],
+        [
+          "カメラ (kamera)",
+          "camera"
+        ],
+        [
+          "リスト (risuto)",
+          "list"
+        ],
+        [
+          "レース (reesu)",
+          "race"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "rule",
+      "answer": [
+        "ル",
+        "ー",
+        "ル"
+      ],
+      "bank": [
+        "ラ",
+        "リ",
+        "ル",
+        "レ",
+        "ロ",
+        "ー"
+      ],
+      "speakText": "ルール"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "camera",
+      "answer": [
+        "カ",
+        "メ",
+        "ラ"
+      ],
+      "bank": [
+        "ラ",
+        "リ",
+        "ル",
+        "レ",
+        "ロ",
+        "カ",
+        "キ",
+        "メ"
+      ],
+      "speakText": "カメラ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "list",
+      "answer": [
+        "リ",
+        "ス",
+        "ト"
+      ],
+      "bank": [
+        "ラ",
+        "リ",
+        "ル",
+        "レ",
+        "ロ",
+        "ス",
+        "ソ",
+        "ト"
+      ],
+      "speakText": "リスト"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "カメラ",
+      "answer": "kamera"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ルール",
+      "answer": "ruuru"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ルール",
+          "rule"
+        ],
+        [
+          "ライス",
+          "rice"
+        ],
+        [
+          "カメラ",
+          "camera"
+        ],
+        [
+          "リスト",
+          "list"
+        ],
+        [
+          "レース",
+          "race"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "レ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ラ",
+        "リ",
+        "ル",
+        "レ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "race",
+      "answer": [
+        "レ",
+        "ー",
+        "ス"
+      ],
+      "bank": [
+        "ラ",
+        "リ",
+        "ル",
+        "レ",
+        "ロ",
+        "ス",
+        "ソ",
+        "ー"
+      ],
+      "speakText": "レース"
+    }
+  ],
+  "id": "katakana-row-r"
+}

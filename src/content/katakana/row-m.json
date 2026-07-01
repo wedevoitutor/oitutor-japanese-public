@@ -1,0 +1,365 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "M-row — マ行",
+      "rows": [
+        [
+          "マ ma",
+          "ミ mi",
+          "ム mu",
+          "メ me",
+          "モ mo"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ミ",
+          "back": "mi",
+          "speakText": "ミ"
+        },
+        {
+          "front": "マ",
+          "back": "ma",
+          "speakText": "マ"
+        },
+        {
+          "front": "モ",
+          "back": "mo",
+          "speakText": "モ"
+        },
+        {
+          "front": "ム",
+          "back": "mu",
+          "speakText": "ム"
+        },
+        {
+          "front": "メ",
+          "back": "me",
+          "speakText": "メ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ma?",
+      "options": [
+        "メ",
+        "ミ",
+        "マ",
+        "モ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Mo?",
+      "options": [
+        "モ",
+        "ム",
+        "マ",
+        "メ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ミ",
+      "answer": "mi"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "メ",
+      "answer": "me"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "マ",
+          "ma"
+        ],
+        [
+          "ミ",
+          "mi"
+        ],
+        [
+          "ム",
+          "mu"
+        ],
+        [
+          "メ",
+          "me"
+        ],
+        [
+          "モ",
+          "mo"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ミ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "マ",
+        "ミ",
+        "ム",
+        "メ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "モ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "メ",
+        "モ",
+        "マ",
+        "ム"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Mu?",
+      "options": [
+        "ム",
+        "マ",
+        "ミ",
+        "モ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "マ",
+      "answer": "ma"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "モ",
+      "answer": "mo"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ma? (watch for look-alikes)",
+      "options": [
+        "ム",
+        "マ",
+        "ア",
+        "ヤ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Me? (watch for look-alikes)",
+      "options": [
+        "ナ",
+        "ヌ",
+        "メ",
+        "ノ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "マ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ミ",
+        "マ",
+        "ム",
+        "メ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ム",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "マ",
+        "ム",
+        "モ",
+        "ミ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ム",
+      "answer": "mu"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Mi? (watch for look-alikes)",
+      "options": [
+        "ニ",
+        "シ",
+        "ミ",
+        "サ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "マスク (masuku)",
+          "mask"
+        ],
+        [
+          "ミス (misu)",
+          "miss / mistake"
+        ],
+        [
+          "メモ (memo)",
+          "memo"
+        ],
+        [
+          "ムース (muusu)",
+          "mousse"
+        ],
+        [
+          "マイク (maiku)",
+          "microphone"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "mask",
+      "answer": [
+        "マ",
+        "ス",
+        "ク"
+      ],
+      "bank": [
+        "マ",
+        "ミ",
+        "ム",
+        "メ",
+        "モ",
+        "ス",
+        "ク",
+        "ケ"
+      ],
+      "speakText": "マスク"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "memo",
+      "answer": [
+        "メ",
+        "モ"
+      ],
+      "bank": [
+        "マ",
+        "ミ",
+        "ム",
+        "メ",
+        "モ"
+      ],
+      "speakText": "メモ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "microphone",
+      "answer": [
+        "マ",
+        "イ",
+        "ク"
+      ],
+      "bank": [
+        "マ",
+        "ミ",
+        "ム",
+        "メ",
+        "モ",
+        "イ",
+        "ク",
+        "カ"
+      ],
+      "speakText": "マイク"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "マスク",
+      "answer": "masuku"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "メモ",
+      "answer": "memo"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "マスク",
+          "mask"
+        ],
+        [
+          "ミス",
+          "miss / mistake"
+        ],
+        [
+          "メモ",
+          "memo"
+        ],
+        [
+          "ムース",
+          "mousse"
+        ],
+        [
+          "マイク",
+          "microphone"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "メ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "マ",
+        "ミ",
+        "ム",
+        "メ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "mousse",
+      "answer": [
+        "ム",
+        "ー",
+        "ス"
+      ],
+      "bank": [
+        "マ",
+        "ミ",
+        "ム",
+        "メ",
+        "モ",
+        "ス",
+        "ソ",
+        "ー"
+      ],
+      "speakText": "ムース"
+    }
+  ],
+  "id": "katakana-row-m"
+}

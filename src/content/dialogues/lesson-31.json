@@ -1,0 +1,1289 @@
+{
+  "id": "dialogues-lesson-31",
+  "misconceptions": [
+    {
+      "target": "shopping-for-groceries-single-word-answer",
+      "error": "Answers with isolated vocabulary instead of a complete conversational turn.",
+      "mitigation": "Reference rows and response-selection drills keep prompts and natural replies together."
+    },
+    {
+      "target": "shopping-for-groceries-register-mismatch",
+      "error": "Uses casual language with teachers, staff, or strangers.",
+      "mitigation": "Formal, casual, and slang scenes are separated and labeled."
+    },
+    {
+      "target": "shopping-for-groceries-listening-drift",
+      "error": "Chooses a familiar phrase that does not match the audio.",
+      "mitigation": "Listening MC and type-the-answer reuse the exact dialogue speakText."
+    },
+    {
+      "target": "shopping-for-groceries-particle-confusion",
+      "error": "Confuses は, へ, or を in written Japanese source phrases.",
+      "mitigation": "Formula-fill keeps the Japanese particles visible and accepts romaji as support."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Shopping for Groceries - Formal · Casual · Slang",
+      "intro": "Practice shopping for groceries as prompt-and-response dialogue, not as loose vocabulary.",
+      "rows": [
+        [
+          "Register",
+          "Japanese",
+          "Romaji",
+          "Typical Response",
+          "Context"
+        ],
+        [
+          "FORMAL",
+          "すみません、りんごは どこですか？",
+          "sumimasen,ringoha dokodesuka?",
+          "くだものは あちらです。",
+          "Fruit is over there."
+        ],
+        [
+          "FORMAL",
+          "くだものは あちらです。",
+          "kudamonoha achiradesu.",
+          "そうです。ありがとうございます。",
+          "That is right. Thank you."
+        ],
+        [
+          "CASUAL",
+          "なにを かわないと いけない？",
+          "naniwo kawanaito ikenai?",
+          "たまごと ぎゅうにゅう。あと、にんじん。",
+          "Eggs and milk. Also carrots."
+        ],
+        [
+          "CASUAL",
+          "たまごと ぎゅうにゅう。あと、にんじん。",
+          "tamagoto gyuunyuu.ato,ninjin.",
+          "いいね。あとで かくにんしよう。",
+          "Nice. Let us check later."
+        ],
+        [
+          "SLANG",
+          "バナナ、やすくない？",
+          "banana,yasukunai?",
+          "ほんとだ。ふたつ かおう。",
+          "You are right. Let us buy two."
+        ],
+        [
+          "SLANG",
+          "ほんとだ。ふたつ かおう。",
+          "hontoda.futatsu kaou.",
+          "まじか。いいじゃん。",
+          "Really? Nice."
+        ]
+      ],
+      "takeaway": "First choose the right meaning, then choose the right relationship tone."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "A - FORMAL · Shopping for Groceries",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "先生",
+          "jp": "すみません、りんごは どこですか？",
+          "romaji": "sumimasen,ringoha dokodesuka?",
+          "en": "Excuse me, where are the apples?"
+        },
+        {
+          "speaker": "学生",
+          "jp": "くだものは あちらです。",
+          "romaji": "kudamonoha achiradesu.",
+          "en": "Fruit is over there."
+        },
+        {
+          "speaker": "先生",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "B - CASUAL · Shopping for Groceries",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "ゆい",
+          "jp": "なにを かわないと いけない？",
+          "romaji": "naniwo kawanaito ikenai?",
+          "en": "What do we need to buy?"
+        },
+        {
+          "speaker": "たく",
+          "jp": "たまごと ぎゅうにゅう。あと、にんじん。",
+          "romaji": "tamagoto gyuunyuu.ato,ninjin.",
+          "en": "Eggs and milk. Also carrots."
+        },
+        {
+          "speaker": "ゆい",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "C - SLANG · Shopping for Groceries",
+      "register": "slang",
+      "lines": [
+        {
+          "speaker": "りく",
+          "jp": "バナナ、やすくない？",
+          "romaji": "banana,yasukunai?",
+          "en": "Aren’t the bananas cheap?"
+        },
+        {
+          "speaker": "まい",
+          "jp": "ほんとだ。ふたつ かおう。",
+          "romaji": "hontoda.futatsu kaou.",
+          "en": "You are right. Let us buy two."
+        },
+        {
+          "speaker": "りく",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 1: すみません、りんごは どこですか？",
+      "prompt": "Which source phrase means: “Excuse me, where are the apples?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "すみません、りんごは どこですか？",
+          "romaji": "sumimasen,ringoha dokodesuka?",
+          "en": "Excuse me, where are the apples?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "すみません、りんごは どこですか？"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 2: くだものは あちらです。",
+      "prompt": "Which source phrase means: “Fruit is over there.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "くだものは あちらです。",
+          "romaji": "kudamonoha achiradesu.",
+          "en": "Fruit is over there.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "バナナ、やすくない？",
+          "romaji": "banana,yasukunai?",
+          "en": "Aren’t the bananas cheap?",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "りんご",
+          "romaji": "ringo",
+          "en": "apple",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "くだものは あちらです。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 3: そうです。ありがとうございます。",
+      "prompt": "Which source phrase means: “That is right. Thank you.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "ほんとだ。ふたつ かおう。",
+          "romaji": "hontoda.futatsu kaou.",
+          "en": "You are right. Let us buy two.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "たまご",
+          "romaji": "tamago",
+          "en": "egg",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "そうです。ありがとうございます。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 4: なにを かわないと いけない？",
+      "prompt": "Which source phrase means: “What do we need to buy?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "なにを かわないと いけない？",
+          "romaji": "naniwo kawanaito ikenai?",
+          "en": "What do we need to buy?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "ぎゅうにゅう",
+          "romaji": "gyuunyuu",
+          "en": "milk",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "なにを かわないと いけない？"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "すみません、りんごは どこですか",
+        "answerRomaji": "sumimasen,ringoha dokodesuka?",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "sumimasen,ringohadokodesuka?"
+        ]
+      },
+      "translation": "Excuse me, where are the apples?",
+      "speakText": "すみません、りんごは どこですか？",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "くだものは あちらです",
+        "answerRomaji": "kudamonoha achiradesu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "kudamonohaachiradesu."
+        ]
+      },
+      "translation": "Fruit is over there.",
+      "speakText": "くだものは あちらです。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "そうです。ありがとうございます",
+        "answerRomaji": "soudesu.arigatougozaimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "soudesu.arigatougozaimasu."
+        ]
+      },
+      "translation": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "すみません、りんごは どこですか？",
+          "romaji": "sumimasen,ringoha dokodesuka?",
+          "en": "Excuse me, where are the apples?"
+        },
+        {
+          "jp": "くだものは あちらです。",
+          "romaji": "kudamonoha achiradesu.",
+          "en": "Fruit is over there."
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "なにを かわないと いけない？",
+          "romaji": "naniwo kawanaito ikenai?",
+          "en": "What do we need to buy?"
+        },
+        {
+          "jp": "たまごと ぎゅうにゅう。あと、にんじん。",
+          "romaji": "tamagoto gyuunyuu.ato,ninjin.",
+          "en": "Eggs and milk. Also carrots."
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "バナナ、やすくない？",
+          "romaji": "banana,yasukunai?",
+          "en": "Aren’t the bananas cheap?"
+        },
+        {
+          "jp": "ほんとだ。ふたつ かおう。",
+          "romaji": "hontoda.futatsu kaou.",
+          "en": "You are right. Let us buy two."
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "りんご",
+          "romaji": "ringo",
+          "en": "apple"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "すみません、りんごは どこですか？",
+      "options": [
+        {
+          "text": "Excuse me, where are the apples?",
+          "correct": true
+        },
+        {
+          "text": "What do we need to buy?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Aren’t the bananas cheap?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "apple",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "くだものは あちらです。",
+      "options": [
+        {
+          "text": "Fruit is over there.",
+          "correct": true
+        },
+        {
+          "text": "Eggs and milk. Also carrots.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "You are right. Let us buy two.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "egg",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "そうです。ありがとうございます。",
+      "options": [
+        {
+          "text": "That is right. Thank you.",
+          "correct": true
+        },
+        {
+          "text": "Nice. Let us check later.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "milk",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "なにを かわないと いけない？",
+      "options": [
+        {
+          "text": "What do we need to buy?",
+          "correct": true
+        },
+        {
+          "text": "Aren’t the bananas cheap?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "apple",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "carrot",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "たまごと ぎゅうにゅう。あと、にんじん。",
+      "options": [
+        {
+          "text": "Eggs and milk. Also carrots.",
+          "correct": true
+        },
+        {
+          "text": "You are right. Let us buy two.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "egg",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "fruit",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "options": [
+        {
+          "text": "Nice. Let us check later.",
+          "correct": true
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "milk",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "vegetables",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "バナナ、やすくない？",
+      "options": [
+        {
+          "text": "Aren’t the bananas cheap?",
+          "correct": true
+        },
+        {
+          "text": "apple",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "carrot",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "Excuse me, where are the apples?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ほんとだ。ふたつ かおう。",
+      "options": [
+        {
+          "text": "You are right. Let us buy two.",
+          "correct": true
+        },
+        {
+          "text": "egg",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "fruit",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "Fruit is over there.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "すみません、りんごは どこですか？",
+        "romaji": "sumimasen,ringoha dokodesuka?",
+        "speakText": "すみません、りんごは どこですか？"
+      },
+      "options": [
+        {
+          "jp": "くだものは あちらです。",
+          "romaji": "kudamonoha achiradesu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "たまごと ぎゅうにゅう。あと、にんじん。",
+          "romaji": "tamagoto gyuunyuu.ato,ninjin.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "ほんとだ。ふたつ かおう。",
+          "romaji": "hontoda.futatsu kaou.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "くだものは あちらです。",
+        "romaji": "kudamonoha achiradesu.",
+        "speakText": "くだものは あちらです。"
+      },
+      "options": [
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "なにを かわないと いけない？",
+        "romaji": "naniwo kawanaito ikenai?",
+        "speakText": "なにを かわないと いけない？"
+      },
+      "options": [
+        {
+          "jp": "たまごと ぎゅうにゅう。あと、にんじん。",
+          "romaji": "tamagoto gyuunyuu.ato,ninjin.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "バナナ、やすくない？",
+          "romaji": "banana,yasukunai?",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "りんご",
+          "romaji": "ringo",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "たまごと ぎゅうにゅう。あと、にんじん。",
+        "romaji": "tamagoto gyuunyuu.ato,ninjin.",
+        "speakText": "たまごと ぎゅうにゅう。あと、にんじん。"
+      },
+      "options": [
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "ほんとだ。ふたつ かおう。",
+          "romaji": "hontoda.futatsu kaou.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "たまご",
+          "romaji": "tamago",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "バナナ、やすくない？",
+        "romaji": "banana,yasukunai?",
+        "speakText": "バナナ、やすくない？"
+      },
+      "options": [
+        {
+          "jp": "ほんとだ。ふたつ かおう。",
+          "romaji": "hontoda.futatsu kaou.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "ぎゅうにゅう",
+          "romaji": "gyuunyuu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "ほんとだ。ふたつ かおう。",
+        "romaji": "hontoda.futatsu kaou.",
+        "speakText": "ほんとだ。ふたつ かおう。"
+      },
+      "options": [
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "りんご",
+          "romaji": "ringo",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "にんじん",
+          "romaji": "ninjin",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "すみません、りんごは どこですか？",
+      "answer": "sumimasen,ringoha dokodesuka?",
+      "acceptAlternatives": [
+        "sumimasen,ringohadokodesuka?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "くだものは あちらです。",
+      "answer": "kudamonoha achiradesu.",
+      "acceptAlternatives": [
+        "kudamonohaachiradesu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "そうです。ありがとうございます。",
+      "answer": "soudesu.arigatougozaimasu.",
+      "acceptAlternatives": [
+        "soudesu.arigatougozaimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "なにを かわないと いけない？",
+      "answer": "naniwo kawanaito ikenai?",
+      "acceptAlternatives": [
+        "naniwokawanaitoikenai?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "たまごと ぎゅうにゅう。あと、にんじん。",
+      "answer": "tamagoto gyuunyuu.ato,ninjin.",
+      "acceptAlternatives": [
+        "tamagotogyuunyuu.ato,ninjin."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "answer": "iine.atode kakuninshiyou.",
+      "acceptAlternatives": [
+        "iine.atodekakuninshiyou."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "バナナ、やすくない？",
+      "answer": "banana,yasukunai?",
+      "acceptAlternatives": [
+        "banana,yasukunai?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "ほんとだ。ふたつ かおう。",
+      "answer": "hontoda.futatsu kaou.",
+      "acceptAlternatives": [
+        "hontoda.futatsukaou."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "すみません、りんごは どこですか？",
+      "romaji": "sumimasen,ringoha dokodesuka?",
+      "en": "Excuse me, where are the apples?",
+      "speakText": "すみません、りんごは どこですか？",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Shopping for Groceries",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "くだものは あちらです。",
+      "romaji": "kudamonoha achiradesu.",
+      "en": "Fruit is over there.",
+      "speakText": "くだものは あちらです。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Shopping for Groceries",
+      "speaker": "学生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "そうです。ありがとうございます。",
+      "romaji": "soudesu.arigatougozaimasu.",
+      "en": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Shopping for Groceries",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "なにを かわないと いけない？",
+      "romaji": "naniwo kawanaito ikenai?",
+      "en": "What do we need to buy?",
+      "speakText": "なにを かわないと いけない？",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Shopping for Groceries",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "たまごと ぎゅうにゅう。あと、にんじん。",
+      "romaji": "tamagoto gyuunyuu.ato,ninjin.",
+      "en": "Eggs and milk. Also carrots.",
+      "speakText": "たまごと ぎゅうにゅう。あと、にんじん。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Shopping for Groceries",
+      "speaker": "たく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いいね。あとで かくにんしよう。",
+      "romaji": "iine.atode kakuninshiyou.",
+      "en": "Nice. Let us check later.",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Shopping for Groceries",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "バナナ、やすくない？",
+      "romaji": "banana,yasukunai?",
+      "en": "Aren’t the bananas cheap?",
+      "speakText": "バナナ、やすくない？",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Shopping for Groceries",
+      "speaker": "りく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ほんとだ。ふたつ かおう。",
+      "romaji": "hontoda.futatsu kaou.",
+      "en": "You are right. Let us buy two.",
+      "speakText": "ほんとだ。ふたつ かおう。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Shopping for Groceries",
+      "speaker": "まい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "まじか。いいじゃん。",
+      "romaji": "majika.iijan.",
+      "en": "Really? Nice.",
+      "speakText": "まじか。いいじゃん。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Shopping for Groceries",
+      "speaker": "りく"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "すみません、りんごは どこですか？",
+          "right": "Excuse me, where are the apples?"
+        },
+        {
+          "left": "くだものは あちらです。",
+          "right": "Fruit is over there."
+        },
+        {
+          "left": "そうです。ありがとうございます。",
+          "right": "That is right. Thank you."
+        },
+        {
+          "left": "なにを かわないと いけない？",
+          "right": "What do we need to buy?"
+        },
+        {
+          "left": "たまごと ぎゅうにゅう。あと、にんじん。",
+          "right": "Eggs and milk. Also carrots."
+        },
+        {
+          "left": "いいね。あとで かくにんしよう。",
+          "right": "Nice. Let us check later."
+        },
+        {
+          "left": "バナナ、やすくない？",
+          "right": "Aren’t the bananas cheap?"
+        },
+        {
+          "left": "ほんとだ。ふたつ かおう。",
+          "right": "You are right. Let us buy two."
+        },
+        {
+          "left": "まじか。いいじゃん。",
+          "right": "Really? Nice."
+        },
+        {
+          "left": "りんご",
+          "right": "apple"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "すみません、りんごは どこですか？",
+          "romaji": "sumimasen,ringoha dokodesuka?",
+          "en": "Excuse me, where are the apples?"
+        },
+        {
+          "jp": "くだものは あちらです。",
+          "romaji": "kudamonoha achiradesu.",
+          "en": "Fruit is over there.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "なにを かわないと いけない？",
+          "romaji": "naniwo kawanaito ikenai?",
+          "en": "What do we need to buy?"
+        },
+        {
+          "jp": "たまごと ぎゅうにゅう。あと、にんじん。",
+          "romaji": "tamagoto gyuunyuu.ato,ninjin.",
+          "en": "Eggs and milk. Also carrots.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "バナナ、やすくない？",
+          "romaji": "banana,yasukunai?",
+          "en": "Aren’t the bananas cheap?"
+        },
+        {
+          "jp": "ほんとだ。ふたつ かおう。",
+          "romaji": "hontoda.futatsu kaou.",
+          "en": "You are right. Let us buy two.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "りんご",
+          "romaji": "ringo",
+          "en": "apple"
+        }
+      ]
+    }
+  ]
+}

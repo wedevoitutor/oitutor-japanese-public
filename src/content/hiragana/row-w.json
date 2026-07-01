@@ -1,0 +1,317 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "W-row + N — わ行",
+      "rows": [
+        [
+          "わ wa",
+          "を wo",
+          "ん n"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "わ",
+          "back": "wa",
+          "speakText": "わ"
+        },
+        {
+          "front": "ん",
+          "back": "n",
+          "speakText": "ん"
+        },
+        {
+          "front": "を",
+          "back": "wo",
+          "speakText": "を"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Wa?",
+      "options": [
+        "を",
+        "ん",
+        "わ",
+        "れ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Wo?",
+      "options": [
+        "わ",
+        "を",
+        "ん",
+        "お"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "わ",
+      "answer": "wa"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ん",
+      "answer": "n"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "わ",
+          "wa"
+        ],
+        [
+          "を",
+          "wo"
+        ],
+        [
+          "ん",
+          "n"
+        ],
+        [
+          "る",
+          "ru"
+        ],
+        [
+          "ら",
+          "ra"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "わ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "を",
+        "わ",
+        "ん",
+        "ね"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ん",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "わ",
+        "ん",
+        "を",
+        "む"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "を",
+      "answer": "wo",
+      "acceptAlternatives": [
+        "o"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is N?",
+      "options": [
+        "む",
+        "の",
+        "ん",
+        "に"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Wa?",
+      "options": [
+        "れ",
+        "ね",
+        "わ",
+        "を"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Wo?",
+      "options": [
+        "お",
+        "る",
+        "を",
+        "ん"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "を",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "わ",
+        "を",
+        "ん",
+        "お"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "私 [わたし] (watashi)",
+          "I / me"
+        ],
+        [
+          "川 [かわ] (kawa)",
+          "river"
+        ],
+        [
+          "日本 [にほん] (nihon)",
+          "Japan"
+        ],
+        [
+          "皆 [みんな] (minna)",
+          "everyone"
+        ],
+        [
+          "天気 [てんき] (tenki)",
+          "weather"
+        ],
+        [
+          "わたしは にほんが すきです",
+          "I like Japan"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "river",
+      "answer": [
+        "か",
+        "わ"
+      ],
+      "bank": [
+        "わ",
+        "を",
+        "ん",
+        "か"
+      ],
+      "speakText": "かわ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "Japan",
+      "answer": [
+        "に",
+        "ほ",
+        "ん"
+      ],
+      "bank": [
+        "わ",
+        "を",
+        "ん",
+        "に",
+        "ほ"
+      ],
+      "speakText": "にほん"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "I / me",
+      "answer": [
+        "わ",
+        "た",
+        "し"
+      ],
+      "bank": [
+        "わ",
+        "を",
+        "ん",
+        "た",
+        "し"
+      ],
+      "speakText": "わたし"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "わたし",
+      "answer": "watashi"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "にほん",
+      "answer": "nihon"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "わたし",
+          "I / me"
+        ],
+        [
+          "かわ",
+          "river"
+        ],
+        [
+          "にほん",
+          "Japan"
+        ],
+        [
+          "みんな",
+          "everyone"
+        ],
+        [
+          "てんき",
+          "weather"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "わ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "れ",
+        "わ",
+        "ね",
+        "ん"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "weather",
+      "answer": [
+        "て",
+        "ん",
+        "き"
+      ],
+      "bank": [
+        "わ",
+        "を",
+        "ん",
+        "て",
+        "き"
+      ],
+      "speakText": "てんき"
+    }
+  ],
+  "id": "hiragana-row-w"
+}

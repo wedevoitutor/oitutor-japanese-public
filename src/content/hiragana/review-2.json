@@ -1,0 +1,405 @@
+{
+  "exercises": [
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ぬ",
+          "back": "nu",
+          "speakText": "ぬ"
+        },
+        {
+          "front": "み",
+          "back": "mi",
+          "speakText": "み"
+        },
+        {
+          "front": "む",
+          "back": "mu",
+          "speakText": "む"
+        },
+        {
+          "front": "や",
+          "back": "ya",
+          "speakText": "や"
+        },
+        {
+          "front": "ひ",
+          "back": "hi",
+          "speakText": "ひ"
+        },
+        {
+          "front": "ゆ",
+          "back": "yu",
+          "speakText": "ゆ"
+        },
+        {
+          "front": "ふ",
+          "back": "fu",
+          "speakText": "ふ"
+        },
+        {
+          "front": "よ",
+          "back": "yo",
+          "speakText": "よ"
+        },
+        {
+          "front": "も",
+          "back": "mo",
+          "speakText": "も"
+        },
+        {
+          "front": "ほ",
+          "back": "ho",
+          "speakText": "ほ"
+        },
+        {
+          "front": "に",
+          "back": "ni",
+          "speakText": "に"
+        },
+        {
+          "front": "ね",
+          "back": "ne",
+          "speakText": "ね"
+        },
+        {
+          "front": "は",
+          "back": "ha",
+          "speakText": "は"
+        },
+        {
+          "front": "の",
+          "back": "no",
+          "speakText": "の"
+        },
+        {
+          "front": "め",
+          "back": "me",
+          "speakText": "め"
+        },
+        {
+          "front": "な",
+          "back": "na",
+          "speakText": "な"
+        },
+        {
+          "front": "ま",
+          "back": "ma",
+          "speakText": "ま"
+        },
+        {
+          "front": "へ",
+          "back": "he",
+          "speakText": "へ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is No?",
+      "options": [
+        "な",
+        "の",
+        "ぬ",
+        "も"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "よ",
+      "answer": "yo"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "に",
+          "ni"
+        ],
+        [
+          "の",
+          "no"
+        ],
+        [
+          "よ",
+          "yo"
+        ],
+        [
+          "ふ",
+          "fu"
+        ],
+        [
+          "み",
+          "mi"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ha?",
+      "options": [
+        "め",
+        "の",
+        "に",
+        "は"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "も",
+      "answer": "mo"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "む",
+      "answer": "mu"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Mi?",
+      "options": [
+        "な",
+        "に",
+        "み",
+        "や"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ぬ",
+          "nu"
+        ],
+        [
+          "や",
+          "ya"
+        ],
+        [
+          "ね",
+          "ne"
+        ],
+        [
+          "な",
+          "na"
+        ],
+        [
+          "ま",
+          "ma"
+        ]
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "め",
+      "answer": "me"
+    },
+    {
+      "type": "listening",
+      "speakText": "は",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ひ",
+        "は",
+        "ふ",
+        "ほ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "み",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ま",
+        "み",
+        "む",
+        "め"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "や",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ゆ",
+        "や",
+        "よ",
+        "ま"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ho?",
+      "options": [
+        "ふ",
+        "ほ",
+        "む",
+        "の"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is He?",
+      "options": [
+        "ほ",
+        "へ",
+        "ね",
+        "ぬ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ほ",
+      "answer": "ho"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ま",
+      "answer": "ma"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "猫 [ねこ] (neko)",
+          "cat"
+        ],
+        [
+          "花 [はな] (hana)",
+          "flower"
+        ],
+        [
+          "山 [やま] (yama)",
+          "mountain"
+        ],
+        [
+          "雪 [ゆき] (yuki)",
+          "snow"
+        ],
+        [
+          "虫 [むし] (mushi)",
+          "insect"
+        ],
+        [
+          "やまの ゆき",
+          "Mountain snow"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "cat",
+      "answer": [
+        "ね",
+        "こ"
+      ],
+      "bank": [
+        "な",
+        "に",
+        "ぬ",
+        "ね",
+        "の",
+        "こ"
+      ],
+      "speakText": "ねこ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "mountain",
+      "answer": [
+        "や",
+        "ま"
+      ],
+      "bank": [
+        "や",
+        "ゆ",
+        "よ",
+        "ま",
+        "も"
+      ],
+      "speakText": "やま"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "insect",
+      "answer": [
+        "む",
+        "し"
+      ],
+      "bank": [
+        "ま",
+        "み",
+        "む",
+        "め",
+        "も",
+        "し"
+      ],
+      "speakText": "むし"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ね",
+      "answer": "ne"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "の",
+      "answer": "no"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ぬ",
+      "answer": "nu"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "み",
+      "answer": "mi"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ねこ",
+          "cat"
+        ],
+        [
+          "はな",
+          "flower"
+        ],
+        [
+          "やま",
+          "mountain"
+        ],
+        [
+          "ゆき",
+          "snow"
+        ],
+        [
+          "むし",
+          "insect"
+        ]
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ゆき",
+      "answer": "yuki"
+    }
+  ],
+  "id": "hiragana-review-2"
+}

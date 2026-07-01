@@ -1,0 +1,1142 @@
+{
+  "id": "kanji-batch-16",
+  "misconceptions": [
+    {
+      "kanji": "長",
+      "error": "Overuses one reading of 長 and misses the reading in 校長.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "半",
+      "error": "Overuses one reading of 半 and misses the reading in 半分.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "分",
+      "error": "Overuses one reading of 分 and misses the reading in 半分.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "今",
+      "error": "Overuses one reading of 今 and misses the reading in 今週.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "週",
+      "error": "Overuses one reading of 週 and misses the reading in 今週.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Batch 16 - 長 半 分 今 週",
+      "intro": "This batch teaches 長 半 分 今 週 with anchor readings, N5 words, and short sentence practice.",
+      "rows": [
+        [
+          "Kanji",
+          "Meaning",
+          "Anchor reading",
+          "Other reading",
+          "Memory hook"
+        ],
+        [
+          "長",
+          "long / leader",
+          "チョウ",
+          "ながい",
+          "長 → long / leader"
+        ],
+        [
+          "半",
+          "half",
+          "ハン",
+          "なかば",
+          "半 → half"
+        ],
+        [
+          "分",
+          "minute / part",
+          "ブン",
+          "わかる",
+          "分 → minute / part"
+        ],
+        [
+          "今",
+          "now",
+          "コン",
+          "いま",
+          "今 → now"
+        ],
+        [
+          "週",
+          "week",
+          "シュウ",
+          "—",
+          "週 → week"
+        ]
+      ],
+      "takeaway": "Recognise the kanji first, then confirm the reading from the word around it."
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "長",
+      "meaning": "long / leader",
+      "memoryHook": "長 visually anchors long / leader.",
+      "jlpt": "N5",
+      "strokeCount": 8,
+      "components": [
+        {
+          "shape": "長",
+          "note": "Use the whole shape as a visual anchor for long / leader; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "チョウ",
+            "romaji": "chou",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 校長.",
+            "anchorExampleWord": "校長"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "ながい",
+            "romaji": "nagai"
+          }
+        ]
+      },
+      "mnemonic": "Connect 長 to long / leader; practise チョウ in 校長 and compare it with ながい in 長い.",
+      "confusables": [
+        {
+          "kanji": "少",
+          "meaning": "few / little",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "多",
+          "meaning": "many / much",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "校長",
+          "reading": "こうちょう",
+          "meaning": "principal"
+        },
+        {
+          "word": "長い",
+          "reading": "ながい",
+          "meaning": "long"
+        },
+        {
+          "word": "社長",
+          "reading": "しゃちょう",
+          "meaning": "company president"
+        },
+        {
+          "word": "長男",
+          "reading": "ちょうなん",
+          "meaning": "eldest son"
+        },
+        {
+          "word": "身長",
+          "reading": "しんちょう",
+          "meaning": "height"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "校長先生が話します。",
+          "highlight": "長",
+          "reading": "こうちょうせんせいが はなします",
+          "en": "The principal speaks."
+        },
+        {
+          "jp": "長い道を歩きます。",
+          "highlight": "長",
+          "reading": "ながい みちを あるきます",
+          "en": "I walk along a long road."
+        },
+        {
+          "jp": "身長を測ります。",
+          "highlight": "長",
+          "reading": "しんちょうを はかります",
+          "en": "I measure height."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "半",
+      "meaning": "half",
+      "memoryHook": "半 visually anchors half.",
+      "jlpt": "N5",
+      "strokeCount": 5,
+      "components": [
+        {
+          "shape": "半",
+          "note": "Use the whole shape as a visual anchor for half; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ハン",
+            "romaji": "han",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 半分.",
+            "anchorExampleWord": "半分"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "なかば",
+            "romaji": "nakaba"
+          }
+        ]
+      },
+      "mnemonic": "Connect 半 to half; practise ハン in 半分 and compare it with はん in 半.",
+      "confusables": [
+        {
+          "kanji": "少",
+          "meaning": "few / little",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "多",
+          "meaning": "many / much",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "半分",
+          "reading": "はんぶん",
+          "meaning": "half"
+        },
+        {
+          "word": "半",
+          "reading": "はん",
+          "meaning": "half"
+        },
+        {
+          "word": "半日",
+          "reading": "はんにち",
+          "meaning": "half a day"
+        },
+        {
+          "word": "半年",
+          "reading": "はんとし",
+          "meaning": "half a year"
+        },
+        {
+          "word": "一時半",
+          "reading": "いちじはん",
+          "meaning": "one thirty"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "半分を食べます。",
+          "highlight": "半",
+          "reading": "はんぶんを たべます",
+          "en": "I eat half."
+        },
+        {
+          "jp": "一時半に会います。",
+          "highlight": "半",
+          "reading": "いちじはんに あいます",
+          "en": "We meet at one thirty."
+        },
+        {
+          "jp": "半年、日本語を勉強します。",
+          "highlight": "半",
+          "reading": "はんとし にほんごを べんきょうします",
+          "en": "I study Japanese for half a year."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "分",
+      "meaning": "minute / part",
+      "memoryHook": "分 visually anchors minute / part.",
+      "jlpt": "N5",
+      "strokeCount": 4,
+      "components": [
+        {
+          "shape": "分",
+          "note": "Use the whole shape as a visual anchor for minute / part; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ブン",
+            "romaji": "bun",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 半分.",
+            "anchorExampleWord": "半分"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "わかる",
+            "romaji": "wakaru"
+          }
+        ]
+      },
+      "mnemonic": "Connect 分 to minute / part; practise ブン in 半分 and compare it with わかる in 分かる.",
+      "confusables": [
+        {
+          "kanji": "少",
+          "meaning": "few / little",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "多",
+          "meaning": "many / much",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "半分",
+          "reading": "はんぶん",
+          "meaning": "half"
+        },
+        {
+          "word": "分かる",
+          "reading": "わかる",
+          "meaning": "to understand"
+        },
+        {
+          "word": "三分",
+          "reading": "さんぷん",
+          "meaning": "three minutes"
+        },
+        {
+          "word": "自分",
+          "reading": "じぶん",
+          "meaning": "oneself"
+        },
+        {
+          "word": "十分",
+          "reading": "じゅうぶん",
+          "meaning": "enough"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "半分に切ります。",
+          "highlight": "分",
+          "reading": "はんぶんに きります",
+          "en": "I cut it in half."
+        },
+        {
+          "jp": "日本語が少し分かります。",
+          "highlight": "分",
+          "reading": "にほんごが すこし わかります",
+          "en": "I understand a little Japanese."
+        },
+        {
+          "jp": "三分待ちます。",
+          "highlight": "分",
+          "reading": "さんぷん まちます",
+          "en": "I wait three minutes."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "今",
+      "meaning": "now",
+      "memoryHook": "今 visually anchors now.",
+      "jlpt": "N5",
+      "strokeCount": 4,
+      "components": [
+        {
+          "shape": "今",
+          "note": "Use the whole shape as a visual anchor for now; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "コン",
+            "romaji": "kon",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 今週.",
+            "anchorExampleWord": "今週"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "いま",
+            "romaji": "ima"
+          }
+        ]
+      },
+      "mnemonic": "Connect 今 to now; practise コン in 今週 and compare it with いま in 今.",
+      "confusables": [
+        {
+          "kanji": "少",
+          "meaning": "few / little",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "多",
+          "meaning": "many / much",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "今週",
+          "reading": "こんしゅう",
+          "meaning": "this week"
+        },
+        {
+          "word": "今",
+          "reading": "いま",
+          "meaning": "now"
+        },
+        {
+          "word": "今日",
+          "reading": "きょう",
+          "meaning": "today"
+        },
+        {
+          "word": "今月",
+          "reading": "こんげつ",
+          "meaning": "this month"
+        },
+        {
+          "word": "今年",
+          "reading": "ことし",
+          "meaning": "this year"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "今週は忙しいです。",
+          "highlight": "今",
+          "reading": "こんしゅうは いそがしいです",
+          "en": "This week is busy."
+        },
+        {
+          "jp": "今、勉強しています。",
+          "highlight": "今",
+          "reading": "いま べんきょうしています",
+          "en": "I am studying now."
+        },
+        {
+          "jp": "今日、学校へ行きます。",
+          "highlight": "今",
+          "reading": "きょう がっこうへ いきます",
+          "en": "I go to school today."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "週",
+      "meaning": "week",
+      "memoryHook": "週 visually anchors week.",
+      "jlpt": "N5",
+      "strokeCount": 11,
+      "components": [
+        {
+          "shape": "週",
+          "note": "Use the whole shape as a visual anchor for week; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "シュウ",
+            "romaji": "shuu",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 今週.",
+            "anchorExampleWord": "今週"
+          }
+        ],
+        "kun": []
+      },
+      "mnemonic": "Connect 週 to week; practise シュウ in 今週 and compare it with まいしゅう in 毎週.",
+      "confusables": [
+        {
+          "kanji": "少",
+          "meaning": "few / little",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "多",
+          "meaning": "many / much",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "今週",
+          "reading": "こんしゅう",
+          "meaning": "this week"
+        },
+        {
+          "word": "毎週",
+          "reading": "まいしゅう",
+          "meaning": "every week"
+        },
+        {
+          "word": "週末",
+          "reading": "しゅうまつ",
+          "meaning": "weekend"
+        },
+        {
+          "word": "先週",
+          "reading": "せんしゅう",
+          "meaning": "last week"
+        },
+        {
+          "word": "来週",
+          "reading": "らいしゅう",
+          "meaning": "next week"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "今週、日本語を勉強します。",
+          "highlight": "週",
+          "reading": "こんしゅう にほんごを べんきょうします",
+          "en": "I study Japanese this week."
+        },
+        {
+          "jp": "毎週、山へ行きます。",
+          "highlight": "週",
+          "reading": "まいしゅう やまへ いきます",
+          "en": "I go to the mountains every week."
+        },
+        {
+          "jp": "週末に休みます。",
+          "highlight": "週",
+          "reading": "しゅうまつに やすみます",
+          "en": "I rest on the weekend."
+        }
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "長",
+          "back": "long / leader - チョウ",
+          "speakText": "長"
+        },
+        {
+          "front": "半",
+          "back": "half - ハン",
+          "speakText": "半"
+        },
+        {
+          "front": "分",
+          "back": "minute / part - ブン",
+          "speakText": "分"
+        },
+        {
+          "front": "今",
+          "back": "now - コン",
+          "speakText": "今"
+        },
+        {
+          "front": "週",
+          "back": "week - シュウ",
+          "speakText": "週"
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 長 (kana or romaji):",
+      "question": "長",
+      "speakText": "長",
+      "answer": "チョウ",
+      "acceptAlternatives": [
+        "cho",
+        "chou",
+        "チョウ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 半 (kana or romaji):",
+      "question": "半",
+      "speakText": "半",
+      "answer": "ハン",
+      "acceptAlternatives": [
+        "han",
+        "ハン"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 分 (kana or romaji):",
+      "question": "分",
+      "speakText": "分",
+      "answer": "ブン",
+      "acceptAlternatives": [
+        "bun",
+        "ブン"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 今 (kana or romaji):",
+      "question": "今",
+      "speakText": "今",
+      "answer": "コン",
+      "acceptAlternatives": [
+        "kon",
+        "コン"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 週 (kana or romaji):",
+      "question": "週",
+      "speakText": "週",
+      "answer": "シュウ",
+      "acceptAlternatives": [
+        "shu",
+        "shuu",
+        "シュウ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 校長 in hiragana or romaji:",
+      "question": "校長",
+      "speakText": "校長",
+      "answer": "こうちょう",
+      "acceptAlternatives": [
+        "kocho",
+        "kouchou",
+        "こうちょう"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "長"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 半分 in hiragana or romaji:",
+      "question": "半分",
+      "speakText": "半分",
+      "answer": "はんぶん",
+      "acceptAlternatives": [
+        "hanbun",
+        "はんぶん"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "半"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 半分 in hiragana or romaji:",
+      "question": "半分",
+      "speakText": "半分",
+      "answer": "はんぶん",
+      "acceptAlternatives": [
+        "hanbun",
+        "はんぶん"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "分"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 今週 in hiragana or romaji:",
+      "question": "今週",
+      "speakText": "今週",
+      "answer": "こんしゅう",
+      "acceptAlternatives": [
+        "konshu",
+        "konshuu",
+        "こんしゅう"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "今"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 今週 in hiragana or romaji:",
+      "question": "今週",
+      "speakText": "今週",
+      "answer": "こんしゅう",
+      "acceptAlternatives": [
+        "konshu",
+        "konshuu",
+        "こんしゅう"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "週"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 分かる in hiragana or romaji:",
+      "question": "分かる",
+      "speakText": "分かる",
+      "answer": "わかる",
+      "acceptAlternatives": [
+        "wakaru",
+        "わかる"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "分"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "校",
+        "[SLOT]",
+        "先生が話します。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "長",
+        "answerRomaji": "chou",
+        "hint": "Choose the kanji for long / leader.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "長",
+            "correct": true
+          },
+          {
+            "text": "半",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "半 means “half,” so it does not fit this prompt."
+          },
+          {
+            "text": "分",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "分 means “minute / part,” so it does not fit this prompt."
+          },
+          {
+            "text": "今",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "今 means “now,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "The principal speaks.",
+      "speakText": "校長先生が話します。",
+      "targetKanji": "長",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "半",
+        "[SLOT]",
+        "に切ります。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "分",
+        "answerRomaji": "bun",
+        "hint": "Choose the kanji for minute / part.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "分",
+            "correct": true
+          },
+          {
+            "text": "長",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "長 means “long / leader,” so it does not fit this prompt."
+          },
+          {
+            "text": "半",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "半 means “half,” so it does not fit this prompt."
+          },
+          {
+            "text": "今",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "今 means “now,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I cut it in half.",
+      "speakText": "半分に切ります。",
+      "targetKanji": "分",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "今",
+        "[SLOT]",
+        "、日本語を勉強します。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "週",
+        "answerRomaji": "shuu",
+        "hint": "Choose the kanji for week.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "週",
+            "correct": true
+          },
+          {
+            "text": "長",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "長 means “long / leader,” so it does not fit this prompt."
+          },
+          {
+            "text": "半",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "半 means “half,” so it does not fit this prompt."
+          },
+          {
+            "text": "分",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "分 means “minute / part,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I study Japanese this week.",
+      "speakText": "今週、日本語を勉強します。",
+      "targetKanji": "週",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 長 read in 校長?",
+      "word": "校長",
+      "targetKanji": "長",
+      "options": [
+        {
+          "kana": "こうちょう",
+          "romaji": "kocho",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "校長 is read こうちょう in this vocabulary item."
+        },
+        {
+          "kana": "チョウ",
+          "romaji": "chou",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "チョウ is useful for 長, but not the full reading of 校長."
+        },
+        {
+          "kana": "ながい",
+          "romaji": "nagai",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "ながい is another reading connected to 長, not the reading used in 校長."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 半 read in 半分?",
+      "word": "半分",
+      "targetKanji": "半",
+      "options": [
+        {
+          "kana": "はんぶん",
+          "romaji": "hanbun",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "半分 is read はんぶん in this vocabulary item."
+        },
+        {
+          "kana": "ハン",
+          "romaji": "han",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "ハン is useful for 半, but not the full reading of 半分."
+        },
+        {
+          "kana": "なかば",
+          "romaji": "nakaba",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "なかば is another reading connected to 半, not the reading used in 半分."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 今 read in 今週?",
+      "word": "今週",
+      "targetKanji": "今",
+      "options": [
+        {
+          "kana": "こんしゅう",
+          "romaji": "konshu",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "今週 is read こんしゅう in this vocabulary item."
+        },
+        {
+          "kana": "コン",
+          "romaji": "kon",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "コン is useful for 今, but not the full reading of 今週."
+        },
+        {
+          "kana": "いま",
+          "romaji": "ima",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "いま is another reading connected to 今, not the reading used in 今週."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji means 'half'?",
+      "options": [
+        {
+          "text": "半",
+          "correct": true
+        },
+        {
+          "text": "長",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "長 means “long / leader,” so it does not fit this prompt."
+        },
+        {
+          "text": "分",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "分 means “minute / part,” so it does not fit this prompt."
+        },
+        {
+          "text": "今",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "今 means “now,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the kanji you hear:",
+      "speakText": "今",
+      "options": [
+        {
+          "text": "今",
+          "correct": true
+        },
+        {
+          "text": "長",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "長 means “long / leader,” so it does not fit this prompt."
+        },
+        {
+          "text": "半",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "半 means “half,” so it does not fit this prompt."
+        },
+        {
+          "text": "分",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "分 means “minute / part,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji in 今週 (this week) means 'week'?",
+      "options": [
+        {
+          "text": "週",
+          "correct": true
+        },
+        {
+          "text": "長",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "長 means “long / leader,” so it does not fit this prompt."
+        },
+        {
+          "text": "半",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "半 means “half,” so it does not fit this prompt."
+        },
+        {
+          "text": "分",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "分 means “minute / part,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Review: which older kanji means 'few / little'?",
+      "reviewFrom": "kanji-batch-15",
+      "options": [
+        {
+          "text": "少",
+          "correct": true
+        },
+        {
+          "text": "安",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "安 means “cheap / peaceful,” so it does not fit this prompt."
+        },
+        {
+          "text": "新",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "新 means “new,” so it does not fit this prompt."
+        },
+        {
+          "text": "古",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "古 means “old,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Review: match older kanji to their meanings:",
+      "reviewFrom": [
+        "kanji-batch-14",
+        "kanji-batch-15"
+      ],
+      "pairs": [
+        {
+          "left": "新",
+          "right": "new",
+          "reviewFrom": "kanji-batch-15"
+        },
+        {
+          "left": "古",
+          "right": "old",
+          "reviewFrom": "kanji-batch-15"
+        },
+        {
+          "left": "多",
+          "right": "many / much",
+          "reviewFrom": "kanji-batch-15"
+        },
+        {
+          "left": "少",
+          "right": "few / little",
+          "reviewFrom": "kanji-batch-15"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each kanji to its meaning:",
+      "pairs": [
+        {
+          "left": "長",
+          "right": "long / leader"
+        },
+        {
+          "left": "半",
+          "right": "half"
+        },
+        {
+          "left": "分",
+          "right": "minute / part"
+        },
+        {
+          "left": "今",
+          "right": "now"
+        },
+        {
+          "left": "週",
+          "right": "week"
+        }
+      ]
+    }
+  ]
+}

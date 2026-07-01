@@ -1,0 +1,1131 @@
+{
+  "id": "kanji-batch-07",
+  "misconceptions": [
+    {
+      "kanji": "女",
+      "error": "Learner may overuse one reading of 女 and miss the reading used in 女子.",
+      "mitigation": "Addressed in anchor reading, compound, sentence fill, and recognition drills."
+    },
+    {
+      "kanji": "百",
+      "error": "Learner may overuse one reading of 百 and miss the reading used in 百円.",
+      "mitigation": "Addressed in anchor reading, compound, sentence fill, and recognition drills."
+    },
+    {
+      "kanji": "先",
+      "error": "Learner may overuse one reading of 先 and miss the reading used in 先生.",
+      "mitigation": "Addressed in anchor reading, compound, sentence fill, and recognition drills."
+    },
+    {
+      "kanji": "名",
+      "error": "Learner may overuse one reading of 名 and miss the reading used in 名前.",
+      "mitigation": "Addressed in anchor reading, compound, sentence fill, and recognition drills."
+    },
+    {
+      "kanji": "川",
+      "error": "Learner may overuse one reading of 川 and miss the reading used in 川.",
+      "mitigation": "Addressed in anchor reading, compound, sentence fill, and recognition drills."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Batch 07 - 女 百 先 名 川",
+      "intro": "This batch teaches 女 百 先 名 川. Focus on one anchor reading, then practise common N5 words.",
+      "rows": [
+        [
+          "Kanji",
+          "Meaning",
+          "Anchor reading",
+          "Other readings",
+          "Memory hook"
+        ],
+        [
+          "女",
+          "woman / female",
+          "ジョ",
+          "おんな",
+          "Use the shape of 女 as a visual anchor for woman / female."
+        ],
+        [
+          "百",
+          "hundred",
+          "ヒャク",
+          "—",
+          "Use the shape of 百 as a visual anchor for hundred."
+        ],
+        [
+          "先",
+          "before / ahead",
+          "セン",
+          "さき",
+          "Use the shape of 先 as a visual anchor for before / ahead."
+        ],
+        [
+          "名",
+          "name",
+          "メイ",
+          "な",
+          "Use the shape of 名 as a visual anchor for name."
+        ],
+        [
+          "川",
+          "river",
+          "セン",
+          "かわ",
+          "Use the shape of 川 as a visual anchor for river."
+        ]
+      ],
+      "takeaway": "Use the anchor reading as your first handle; compounds and sentences teach the variations."
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "女",
+      "meaning": "woman / female",
+      "memoryHook": "Use the shape of 女 as a visual anchor for woman / female.",
+      "jlpt": "N5",
+      "strokeCount": 3,
+      "components": [
+        {
+          "shape": "女",
+          "note": "The whole shape is used as a memory cue for woman / female; not an etymology claim."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ジョ",
+            "romaji": "jo",
+            "anchor": true,
+            "anchorReason": "Common N5 compound reading in 女子.",
+            "anchorExampleWord": "女子"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "おんな",
+            "romaji": "onna"
+          }
+        ]
+      },
+      "mnemonic": "When you see 女, first connect the shape to woman / female. Anchor the reading ジョ, then check real words because N5 kanji often change reading in compounds.",
+      "confusables": [
+        {
+          "kanji": "日",
+          "meaning": "sun / day",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "人",
+          "meaning": "person",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "女子",
+          "reading": "じょし",
+          "meaning": "girl; woman"
+        },
+        {
+          "word": "女",
+          "reading": "おんな",
+          "meaning": "woman"
+        },
+        {
+          "word": "女の子",
+          "reading": "おんなのこ",
+          "meaning": "girl"
+        },
+        {
+          "word": "女性",
+          "reading": "じょせい",
+          "meaning": "woman; female"
+        },
+        {
+          "word": "男女",
+          "reading": "だんじょ",
+          "meaning": "men and women"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "女の子が手を振ります。",
+          "highlight": "女",
+          "reading": "おんなのこが てを ふります",
+          "en": "The girl waves her hand."
+        },
+        {
+          "jp": "女子学生が本を読みます。",
+          "highlight": "女",
+          "reading": "じょしがくせいが ほんを よみます",
+          "en": "A female student reads a book."
+        },
+        {
+          "jp": "男女でチームを作ります。",
+          "highlight": "女",
+          "reading": "だんじょで チームを つくります",
+          "en": "Men and women make a team."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "百",
+      "meaning": "hundred",
+      "memoryHook": "Use the shape of 百 as a visual anchor for hundred.",
+      "jlpt": "N5",
+      "strokeCount": 6,
+      "components": [
+        {
+          "shape": "百",
+          "note": "The whole shape is used as a memory cue for hundred; not an etymology claim."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ヒャク",
+            "romaji": "hyaku",
+            "anchor": true,
+            "anchorReason": "Common N5 compound reading in 百円.",
+            "anchorExampleWord": "百円"
+          }
+        ],
+        "kun": []
+      },
+      "mnemonic": "When you see 百, first connect the shape to hundred. Anchor the reading ヒャク, then check real words because N5 kanji often change reading in compounds.",
+      "confusables": [
+        {
+          "kanji": "日",
+          "meaning": "sun / day",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "人",
+          "meaning": "person",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "百円",
+          "reading": "ひゃくえん",
+          "meaning": "100 yen"
+        },
+        {
+          "word": "三百",
+          "reading": "さんびゃく",
+          "meaning": "300"
+        },
+        {
+          "word": "百",
+          "reading": "ひゃく",
+          "meaning": "hundred"
+        },
+        {
+          "word": "六百",
+          "reading": "ろっぴゃく",
+          "meaning": "600"
+        },
+        {
+          "word": "八百",
+          "reading": "はっぴゃく",
+          "meaning": "800"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "百円の水を買います。",
+          "highlight": "百",
+          "reading": "ひゃくえんの みずを かいます",
+          "en": "I buy 100-yen water."
+        },
+        {
+          "jp": "三百ページの本です。",
+          "highlight": "百",
+          "reading": "さんびゃくページの ほんです",
+          "en": "It is a 300-page book."
+        },
+        {
+          "jp": "八百円を払います。",
+          "highlight": "百",
+          "reading": "はっぴゃくえんを はらいます",
+          "en": "I pay 800 yen."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "先",
+      "meaning": "before / ahead",
+      "memoryHook": "Use the shape of 先 as a visual anchor for before / ahead.",
+      "jlpt": "N5",
+      "strokeCount": 6,
+      "components": [
+        {
+          "shape": "先",
+          "note": "The whole shape is used as a memory cue for before / ahead; not an etymology claim."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "セン",
+            "romaji": "sen",
+            "anchor": true,
+            "anchorReason": "Common N5 compound reading in 先生.",
+            "anchorExampleWord": "先生"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "さき",
+            "romaji": "saki"
+          }
+        ]
+      },
+      "mnemonic": "When you see 先, first connect the shape to before / ahead. Anchor the reading セン, then check real words because N5 kanji often change reading in compounds.",
+      "confusables": [
+        {
+          "kanji": "日",
+          "meaning": "sun / day",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "人",
+          "meaning": "person",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "先生",
+          "reading": "せんせい",
+          "meaning": "teacher"
+        },
+        {
+          "word": "先",
+          "reading": "さき",
+          "meaning": "ahead"
+        },
+        {
+          "word": "先月",
+          "reading": "せんげつ",
+          "meaning": "last month"
+        },
+        {
+          "word": "先週",
+          "reading": "せんしゅう",
+          "meaning": "last week"
+        },
+        {
+          "word": "先に",
+          "reading": "さきに",
+          "meaning": "first; ahead"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "先生に質問します。",
+          "highlight": "先",
+          "reading": "せんせいに しつもんします",
+          "en": "I ask the teacher a question."
+        },
+        {
+          "jp": "先に行ってください。",
+          "highlight": "先",
+          "reading": "さきに いってください",
+          "en": "Please go ahead."
+        },
+        {
+          "jp": "先週は忙しかったです。",
+          "highlight": "先",
+          "reading": "せんしゅうは いそがしかったです",
+          "en": "Last week was busy."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "名",
+      "meaning": "name",
+      "memoryHook": "Use the shape of 名 as a visual anchor for name.",
+      "jlpt": "N5",
+      "strokeCount": 6,
+      "components": [
+        {
+          "shape": "名",
+          "note": "The whole shape is used as a memory cue for name; not an etymology claim."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "メイ",
+            "romaji": "mei",
+            "anchor": true,
+            "anchorReason": "Common N5 compound reading in 名前.",
+            "anchorExampleWord": "名前"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "な",
+            "romaji": "na"
+          }
+        ]
+      },
+      "mnemonic": "When you see 名, first connect the shape to name. Anchor the reading メイ, then check real words because N5 kanji often change reading in compounds.",
+      "confusables": [
+        {
+          "kanji": "日",
+          "meaning": "sun / day",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "人",
+          "meaning": "person",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "名前",
+          "reading": "なまえ",
+          "meaning": "name"
+        },
+        {
+          "word": "有名",
+          "reading": "ゆうめい",
+          "meaning": "famous"
+        },
+        {
+          "word": "名人",
+          "reading": "めいじん",
+          "meaning": "master"
+        },
+        {
+          "word": "名古屋",
+          "reading": "なごや",
+          "meaning": "Nagoya"
+        },
+        {
+          "word": "氏名",
+          "reading": "しめい",
+          "meaning": "full name"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "名前を書いてください。",
+          "highlight": "名",
+          "reading": "なまえを かいてください",
+          "en": "Please write your name."
+        },
+        {
+          "jp": "有名な山です。",
+          "highlight": "名",
+          "reading": "ゆうめいな やまです",
+          "en": "It is a famous mountain."
+        },
+        {
+          "jp": "氏名を確認します。",
+          "highlight": "名",
+          "reading": "しめいを かくにんします",
+          "en": "I confirm the full name."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "川",
+      "meaning": "river",
+      "memoryHook": "Use the shape of 川 as a visual anchor for river.",
+      "jlpt": "N5",
+      "strokeCount": 3,
+      "components": [
+        {
+          "shape": "川",
+          "note": "The whole shape is used as a memory cue for river; not an etymology claim."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "セン",
+            "romaji": "sen",
+            "anchor": true,
+            "anchorReason": "Common N5 compound reading in 川.",
+            "anchorExampleWord": "川"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "かわ",
+            "romaji": "kawa"
+          }
+        ]
+      },
+      "mnemonic": "When you see 川, first connect the shape to river. Anchor the reading セン, then check real words because N5 kanji often change reading in compounds.",
+      "confusables": [
+        {
+          "kanji": "日",
+          "meaning": "sun / day",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "人",
+          "meaning": "person",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "川",
+          "reading": "かわ",
+          "meaning": "river"
+        },
+        {
+          "word": "小川",
+          "reading": "おがわ",
+          "meaning": "stream"
+        },
+        {
+          "word": "山川",
+          "reading": "やまかわ",
+          "meaning": "mountains and rivers"
+        },
+        {
+          "word": "河川",
+          "reading": "かせん",
+          "meaning": "rivers"
+        },
+        {
+          "word": "川口",
+          "reading": "かわぐち",
+          "meaning": "river mouth"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "川の水は冷たいです。",
+          "highlight": "川",
+          "reading": "かわの みずは つめたいです",
+          "en": "The river water is cold."
+        },
+        {
+          "jp": "小川の音を聞きます。",
+          "highlight": "川",
+          "reading": "おがわの おとを ききます",
+          "en": "I listen to the stream."
+        },
+        {
+          "jp": "山川を地図で確認します。",
+          "highlight": "川",
+          "reading": "やまかわを ちずで かくにんします",
+          "en": "I check mountains and rivers on a map."
+        }
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "女",
+          "back": "woman / female - ジョ",
+          "speakText": "女"
+        },
+        {
+          "front": "百",
+          "back": "hundred - ヒャク",
+          "speakText": "百"
+        },
+        {
+          "front": "先",
+          "back": "before / ahead - セン",
+          "speakText": "先"
+        },
+        {
+          "front": "名",
+          "back": "name - メイ",
+          "speakText": "名"
+        },
+        {
+          "front": "川",
+          "back": "river - セン",
+          "speakText": "川"
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 女 (kana or romaji):",
+      "question": "女",
+      "speakText": "女",
+      "answer": "ジョ",
+      "acceptAlternatives": [
+        "jo",
+        "ジョ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 百 (kana or romaji):",
+      "question": "百",
+      "speakText": "百",
+      "answer": "ヒャク",
+      "acceptAlternatives": [
+        "hyaku",
+        "ヒャク"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 先 (kana or romaji):",
+      "question": "先",
+      "speakText": "先",
+      "answer": "セン",
+      "acceptAlternatives": [
+        "sen",
+        "セン"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 名 (kana or romaji):",
+      "question": "名",
+      "speakText": "名",
+      "answer": "メイ",
+      "acceptAlternatives": [
+        "mei",
+        "メイ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 川 (kana or romaji):",
+      "question": "川",
+      "speakText": "川",
+      "answer": "セン",
+      "acceptAlternatives": [
+        "sen",
+        "セン"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 女子 in hiragana or romaji:",
+      "question": "女子",
+      "speakText": "女子",
+      "answer": "じょし",
+      "acceptAlternatives": [
+        "joshi"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "女"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 百円 in hiragana or romaji:",
+      "question": "百円",
+      "speakText": "百円",
+      "answer": "ひゃくえん",
+      "acceptAlternatives": [
+        "hyakuen"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "百"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 先生 in hiragana or romaji:",
+      "question": "先生",
+      "speakText": "先生",
+      "answer": "せんせい",
+      "acceptAlternatives": [
+        "sensei"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "先"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 名前 in hiragana or romaji:",
+      "question": "名前",
+      "speakText": "名前",
+      "answer": "なまえ",
+      "acceptAlternatives": [
+        "namae"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "名"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 川 in hiragana or romaji:",
+      "question": "川",
+      "speakText": "川",
+      "answer": "かわ",
+      "acceptAlternatives": [
+        "kawa"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "川"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 先 in hiragana or romaji:",
+      "question": "先",
+      "speakText": "先",
+      "answer": "さき",
+      "acceptAlternatives": [
+        "saki"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "先"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "の子が手を振ります。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "女",
+        "answerRomaji": "jo",
+        "hint": "Choose the kanji for woman / female.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "女",
+            "correct": true
+          },
+          {
+            "text": "百",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "百 means “hundred,” so it does not fit this prompt."
+          },
+          {
+            "text": "先",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "先 means “before / ahead,” so it does not fit this prompt."
+          },
+          {
+            "text": "名",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "名 means “name,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "The girl waves her hand.",
+      "speakText": "女の子が手を振ります。",
+      "targetKanji": "女",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "生に質問します。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "先",
+        "answerRomaji": "sen",
+        "hint": "Choose the kanji for before / ahead.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "先",
+            "correct": true
+          },
+          {
+            "text": "女",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "女 means “woman / female,” so it does not fit this prompt."
+          },
+          {
+            "text": "百",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "百 means “hundred,” so it does not fit this prompt."
+          },
+          {
+            "text": "名",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "名 means “name,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I ask the teacher a question.",
+      "speakText": "先生に質問します。",
+      "targetKanji": "先",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "の水は冷たいです。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "川",
+        "answerRomaji": "sen",
+        "hint": "Choose the kanji for river.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "川",
+            "correct": true
+          },
+          {
+            "text": "女",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "女 means “woman / female,” so it does not fit this prompt."
+          },
+          {
+            "text": "百",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "百 means “hundred,” so it does not fit this prompt."
+          },
+          {
+            "text": "先",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "先 means “before / ahead,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "The river water is cold.",
+      "speakText": "川の水は冷たいです。",
+      "targetKanji": "川",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 女 read in 女子?",
+      "word": "女子",
+      "targetKanji": "女",
+      "options": [
+        {
+          "kana": "じょし",
+          "romaji": "joshi",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "女子 is read じょし in this vocabulary item."
+        },
+        {
+          "kana": "ジョ",
+          "romaji": "jo",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "ジョ is useful for 女, but not the full reading of 女子."
+        },
+        {
+          "kana": "おんな",
+          "romaji": "onna",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "おんな is another reading connected to 女, not the reading used in 女子."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 先 read in 先生?",
+      "word": "先生",
+      "targetKanji": "先",
+      "options": [
+        {
+          "kana": "せんせい",
+          "romaji": "sensei",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "先生 is read せんせい in this vocabulary item."
+        },
+        {
+          "kana": "セン",
+          "romaji": "sen",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "セン is useful for 先, but not the full reading of 先生."
+        },
+        {
+          "kana": "さき",
+          "romaji": "saki",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "さき is another reading connected to 先, not the reading used in 先生."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 川 read in 川?",
+      "word": "川",
+      "targetKanji": "川",
+      "options": [
+        {
+          "kana": "かわ",
+          "romaji": "kawa",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "川 is read かわ in this vocabulary item."
+        },
+        {
+          "kana": "セン",
+          "romaji": "sen",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "セン is useful for 川, but not the full reading of 川."
+        },
+        {
+          "kana": "じょし",
+          "romaji": "joshi",
+          "readingType": "word",
+          "correct": false,
+          "distractorReason": "wrongWordReading",
+          "confusionFeature": "neighborKanji",
+          "wrongExplanation": "じょし is the reading of 女子, not 川."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji means 'hundred'?",
+      "options": [
+        {
+          "text": "百",
+          "correct": true
+        },
+        {
+          "text": "女",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "女 means “woman / female,” so it does not fit this prompt."
+        },
+        {
+          "text": "先",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "先 means “before / ahead,” so it does not fit this prompt."
+        },
+        {
+          "text": "名",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "名 means “name,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the kanji you hear:",
+      "speakText": "名",
+      "options": [
+        {
+          "text": "名",
+          "correct": true
+        },
+        {
+          "text": "女",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "女 means “woman / female,” so it does not fit this prompt."
+        },
+        {
+          "text": "百",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "百 means “hundred,” so it does not fit this prompt."
+        },
+        {
+          "text": "先",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "先 means “before / ahead,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji in 川 (river) means 'river'?",
+      "options": [
+        {
+          "text": "川",
+          "correct": true
+        },
+        {
+          "text": "女",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "女 means “woman / female,” so it does not fit this prompt."
+        },
+        {
+          "text": "百",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "百 means “hundred,” so it does not fit this prompt."
+        },
+        {
+          "text": "先",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "先 means “before / ahead,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Review: which older kanji means 'mountain'?",
+      "reviewFrom": "kanji-batch-06",
+      "options": [
+        {
+          "text": "山",
+          "correct": true
+        },
+        {
+          "text": "下",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "下 means “down / below,” so it does not fit this prompt."
+        },
+        {
+          "text": "気",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "気 means “spirit / energy,” so it does not fit this prompt."
+        },
+        {
+          "text": "小",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "小 means “small,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Review: match older kanji to their meanings:",
+      "reviewFrom": [
+        "kanji-batch-05",
+        "kanji-batch-06"
+      ],
+      "pairs": [
+        {
+          "left": "気",
+          "right": "spirit / energy",
+          "reviewFrom": "kanji-batch-06"
+        },
+        {
+          "left": "小",
+          "right": "small",
+          "reviewFrom": "kanji-batch-06"
+        },
+        {
+          "left": "七",
+          "right": "seven",
+          "reviewFrom": "kanji-batch-06"
+        },
+        {
+          "left": "山",
+          "right": "mountain",
+          "reviewFrom": "kanji-batch-06"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each kanji to its meaning:",
+      "pairs": [
+        {
+          "left": "女",
+          "right": "woman / female"
+        },
+        {
+          "left": "百",
+          "right": "hundred"
+        },
+        {
+          "left": "先",
+          "right": "before / ahead"
+        },
+        {
+          "left": "名",
+          "right": "name"
+        },
+        {
+          "left": "川",
+          "right": "river"
+        }
+      ]
+    }
+  ]
+}

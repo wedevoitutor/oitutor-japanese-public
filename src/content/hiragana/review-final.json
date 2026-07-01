@@ -1,0 +1,426 @@
+{
+  "exercises": [
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ぬ",
+          "back": "nu",
+          "speakText": "ぬ"
+        },
+        {
+          "front": "そ",
+          "back": "so",
+          "speakText": "そ"
+        },
+        {
+          "front": "つ",
+          "back": "tsu",
+          "speakText": "つ"
+        },
+        {
+          "front": "く",
+          "back": "ku",
+          "speakText": "く"
+        },
+        {
+          "front": "い",
+          "back": "i",
+          "speakText": "い"
+        },
+        {
+          "front": "て",
+          "back": "te",
+          "speakText": "て"
+        },
+        {
+          "front": "は",
+          "back": "ha",
+          "speakText": "は"
+        },
+        {
+          "front": "る",
+          "back": "ru",
+          "speakText": "る"
+        },
+        {
+          "front": "れ",
+          "back": "re",
+          "speakText": "れ"
+        },
+        {
+          "front": "む",
+          "back": "mu",
+          "speakText": "む"
+        },
+        {
+          "front": "ゆ",
+          "back": "yu",
+          "speakText": "ゆ"
+        },
+        {
+          "front": "ん",
+          "back": "n",
+          "speakText": "ん"
+        },
+        {
+          "front": "ひ",
+          "back": "hi",
+          "speakText": "ひ"
+        },
+        {
+          "front": "す",
+          "back": "su",
+          "speakText": "す"
+        },
+        {
+          "front": "け",
+          "back": "ke",
+          "speakText": "け"
+        },
+        {
+          "front": "み",
+          "back": "mi",
+          "speakText": "み"
+        },
+        {
+          "front": "わ",
+          "back": "wa",
+          "speakText": "わ"
+        },
+        {
+          "front": "し",
+          "back": "shi",
+          "speakText": "し"
+        },
+        {
+          "front": "の",
+          "back": "no",
+          "speakText": "の"
+        },
+        {
+          "front": "ら",
+          "back": "ra",
+          "speakText": "ら"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Mu?",
+      "options": [
+        "と",
+        "せ",
+        "も",
+        "む"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ろ",
+      "answer": "ro"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "と",
+          "to"
+        ],
+        [
+          "え",
+          "e"
+        ],
+        [
+          "ぬ",
+          "nu"
+        ],
+        [
+          "い",
+          "i"
+        ],
+        [
+          "わ",
+          "wa"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Nu?",
+      "options": [
+        "く",
+        "あ",
+        "ぬ",
+        "す"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "あ",
+      "answer": "a"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "る",
+      "answer": "ru"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Yo?",
+      "options": [
+        "た",
+        "ね",
+        "り",
+        "よ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "な",
+          "na"
+        ],
+        [
+          "ま",
+          "ma"
+        ],
+        [
+          "ろ",
+          "ro"
+        ],
+        [
+          "ひ",
+          "hi"
+        ],
+        [
+          "け",
+          "ke"
+        ]
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "い",
+      "answer": "i"
+    },
+    {
+      "type": "listening",
+      "speakText": "ら",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "り",
+        "ら",
+        "る",
+        "れ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "わ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "を",
+        "わ",
+        "ん",
+        "ら"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "し",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "さ",
+        "し",
+        "す",
+        "そ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Tsu?",
+      "options": [
+        "そ",
+        "る",
+        "よ",
+        "つ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "は",
+      "answer": "ha"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "り",
+      "answer": "ri"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is I?",
+      "options": [
+        "ぬ",
+        "い",
+        "う",
+        "や"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ち",
+      "answer": "chi",
+      "acceptAlternatives": [
+        "ti"
+      ]
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "私 [わたし] (watashi)",
+          "I / me"
+        ],
+        [
+          "桜 [さくら] (sakura)",
+          "cherry blossom"
+        ],
+        [
+          "日本 [にほん] (nihon)",
+          "Japan"
+        ],
+        [
+          "天気 [てんき] (tenki)",
+          "weather"
+        ],
+        [
+          "車 [くるま] (kuruma)",
+          "car"
+        ],
+        [
+          "わたしは にほんが すきです",
+          "I like Japan"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "I / me",
+      "answer": [
+        "わ",
+        "た",
+        "し"
+      ],
+      "bank": [
+        "わ",
+        "を",
+        "ん",
+        "た",
+        "て",
+        "し",
+        "す"
+      ],
+      "speakText": "わたし"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "cherry blossom",
+      "answer": [
+        "さ",
+        "く",
+        "ら"
+      ],
+      "bank": [
+        "さ",
+        "し",
+        "す",
+        "く",
+        "け",
+        "ら",
+        "り",
+        "る"
+      ],
+      "speakText": "さくら"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "Japan",
+      "answer": [
+        "に",
+        "ほ",
+        "ん"
+      ],
+      "bank": [
+        "に",
+        "の",
+        "ぬ",
+        "ほ",
+        "は",
+        "ん",
+        "わ"
+      ],
+      "speakText": "にほん"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "き",
+      "answer": "ki"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "や",
+      "answer": "ya"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "か",
+      "answer": "ka"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "わたし",
+          "I / me"
+        ],
+        [
+          "さくら",
+          "cherry blossom"
+        ],
+        [
+          "にほん",
+          "Japan"
+        ],
+        [
+          "てんき",
+          "weather"
+        ],
+        [
+          "くるま",
+          "car"
+        ]
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "にほん",
+      "answer": "nihon"
+    }
+  ],
+  "id": "hiragana-review-final"
+}

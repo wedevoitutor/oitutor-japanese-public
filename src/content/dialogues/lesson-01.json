@@ -1,0 +1,726 @@
+{
+  "id": "dialogues-lesson-01",
+  "dictionaryVocabulary": [
+    {
+      "word": "おはようございます",
+      "kana": "おはようございます",
+      "romaji": "ohayou gozaimasu",
+      "partOfSpeech": "expression",
+      "meaning": "good morning",
+      "description": "Formal or polite morning greeting, especially with teachers, coworkers, or strangers.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "先生におはようございますと言います。",
+        "kana": "せんせいにおはようございますといいます。",
+        "romaji": "Sensei ni ohayou gozaimasu to iimasu.",
+        "english": "I say good morning to the teacher.",
+        "highlight": "おはようございます"
+      },
+      "tags": ["greetings", "formal", "dialogue-01"]
+    },
+    {
+      "word": "こんにちは",
+      "kana": "こんにちは",
+      "romaji": "konnichiwa",
+      "partOfSpeech": "expression",
+      "meaning": "hello / good afternoon",
+      "description": "A standard daytime greeting that is safe in many situations.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "友だちにこんにちはと言います。",
+        "kana": "ともだちにこんにちはといいます。",
+        "romaji": "Tomodachi ni konnichiwa to iimasu.",
+        "english": "I say hello to my friend.",
+        "highlight": "こんにちは"
+      },
+      "tags": ["greetings", "dialogue-01"]
+    },
+    {
+      "word": "こんばんは",
+      "kana": "こんばんは",
+      "romaji": "konbanwa",
+      "partOfSpeech": "expression",
+      "meaning": "good evening",
+      "description": "A greeting used after dark.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "夜にこんばんはと言います。",
+        "kana": "よるにこんばんはといいます。",
+        "romaji": "Yoru ni konbanwa to iimasu.",
+        "english": "At night, I say good evening.",
+        "highlight": "こんばんは"
+      },
+      "tags": ["greetings", "dialogue-01"]
+    },
+    {
+      "word": "はじめまして",
+      "kana": "はじめまして",
+      "romaji": "hajimemashite",
+      "partOfSpeech": "expression",
+      "meaning": "nice to meet you",
+      "description": "Used the first time you meet someone.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "はじめまして。キムです。",
+        "kana": "はじめまして。きむです。",
+        "romaji": "Hajimemashite. Kimu desu.",
+        "english": "Nice to meet you. I am Kim.",
+        "highlight": "はじめまして"
+      },
+      "tags": ["greetings", "self-introduction", "dialogue-01"]
+    },
+    {
+      "word": "さようなら",
+      "kana": "さようなら",
+      "romaji": "sayounara",
+      "partOfSpeech": "expression",
+      "meaning": "goodbye",
+      "description": "A formal goodbye that often suggests a longer separation.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "先生にさようならと言います。",
+        "kana": "せんせいにさようならといいます。",
+        "romaji": "Sensei ni sayounara to iimasu.",
+        "english": "I say goodbye to the teacher.",
+        "highlight": "さようなら"
+      },
+      "tags": ["greetings", "farewell", "dialogue-01"]
+    },
+    {
+      "word": "またね",
+      "kana": "またね",
+      "romaji": "mata ne",
+      "partOfSpeech": "expression",
+      "meaning": "see you",
+      "description": "A friendly casual goodbye used with people you know.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "友だちにまたねと言います。",
+        "kana": "ともだちにまたねといいます。",
+        "romaji": "Tomodachi ni mata ne to iimasu.",
+        "english": "I say see you to my friend.",
+        "highlight": "またね"
+      },
+      "tags": ["greetings", "casual", "dialogue-01"]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Greetings & Farewells — Formal · Casual · Slang",
+      "intro": "Japanese greetings change dramatically by register. The same 'good morning' is おはようございます at work, おはよう with friends, and おっす in youth slang. Learn the three side-by-side so your default becomes situational, not mechanical.",
+      "rows": [
+        ["Register", "Japanese", "Romaji", "Typical Response", "Context"],
+        ["FORMAL", "おはようございます", "Ohayou gozaimasu", "おはようございます", "Good morning — before ~10 am; to superiors or strangers"],
+        ["FORMAL", "こんにちは", "Konnichiwa", "こんにちは", "Hello / Good afternoon — midday greeting, all contexts"],
+        ["FORMAL", "こんばんは", "Konbanwa", "こんばんは", "Good evening — after dark"],
+        ["FORMAL", "はじめまして", "Hajimemashite", "はじめまして。よろしくおねがいします。", "Nice to meet you — first meeting only"],
+        ["FORMAL", "よろしくおねがいします", "Yoroshiku onegaishimasu", "こちらこそ、よろしくおねがいします。", "Please treat me well — requesting goodwill"],
+        ["FORMAL", "おげんきですか？", "Ogenki desu ka?", "はい、おかげさまで。", "How are you? (formal) — best when re-meeting after a gap"],
+        ["FORMAL", "さようなら", "Sayounara", "さようなら", "Goodbye — formal; implies longer separation"],
+        ["FORMAL", "おやすみなさい", "Oyasuminasai", "おやすみなさい", "Good night (formal) — parting at night or before sleep"],
+        ["CASUAL", "おはよう", "Ohayou", "おはよう！", "Morning — drop ございます with friends and classmates"],
+        ["CASUAL", "げんき？", "Genki?", "うん、げんき！", "You good? — rising intonation = question"],
+        ["CASUAL", "ひさしぶり！", "Hisashiburi!", "ほんとうだね！ひさしぶり！", "Long time no see! — for friends you haven't seen in a while"],
+        ["CASUAL", "よろしく", "Yoroshiku", "こちらこそ！", "Nice to meet you (casual) / Nice to have you on board"],
+        ["CASUAL", "またね", "Mata ne", "またね！", "See you — standard casual goodbye"],
+        ["CASUAL", "じゃあね", "Jaa ne", "じゃあ！", "Bye then — slightly warmer than またね"],
+        ["CASUAL", "おやすみ", "Oyasumi", "おやすみ", "Good night (casual) — drop なさい with close friends"],
+        ["SLANG", "おっす！", "Ossu!", "おっす！", "Yo! — very casual, mainly male youth"],
+        ["SLANG", "ちわ！", "Chiwa!", "ちわ！", "Hi! — short form of こんにちは; widely used online"],
+        ["SLANG", "ばいばい", "Bai bai", "ばいばい！", "Bye bye — borrowed from English, all ages"],
+        ["SLANG", "またな", "Mata na", "またな！", "See ya — very casual またね; mainly male"]
+      ],
+      "takeaway": "Start FORMAL when in doubt. Drop honorifics only once you know the relationship."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "Formal · Business Meeting",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "やまもと",
+          "jp": "はじめまして。やまもとと もうします。どうぞよろしくおねがいします。",
+          "romaji": "Hajimemashite. Yamamoto to moushimasu. Douzo yoroshiku onegaishimasu.",
+          "en": "Nice to meet you. My name is Yamamoto. Please treat me well."
+        },
+        {
+          "speaker": "キム",
+          "jp": "はじめまして。キムです。こちらこそ、どうぞよろしくおねがいします。",
+          "romaji": "Hajimemashite. Kimu desu. Kochira koso, douzo yoroshiku onegaishimasu.",
+          "en": "Nice to meet you. I'm Kim. Likewise, please treat me well."
+        },
+        {
+          "speaker": "やまもと",
+          "jp": "それでは、またあした。おげんきで。",
+          "romaji": "Soredewa, mata ashita. Ogenki de.",
+          "en": "Well then, see you tomorrow. Take care."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "Casual · Friends Reuniting",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "そうた",
+          "jp": "ひさしぶり！ げんき？",
+          "romaji": "Hisashiburi! Genki?",
+          "en": "Long time no see! You good?"
+        },
+        {
+          "speaker": "みか",
+          "jp": "うん、げんき！ そうたくんは？",
+          "romaji": "Un, genki! Souta-kun wa?",
+          "en": "Yeah, I'm good! And you, Souta?"
+        },
+        {
+          "speaker": "そうた",
+          "jp": "ぼくもげんき。またね！",
+          "romaji": "Boku mo genki. Mata ne!",
+          "en": "I'm good too. See you!"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "Slang · Online Chat",
+      "register": "slang",
+      "lines": [
+        {
+          "speaker": "ゆー",
+          "jp": "おっす、はる！ ちわ！",
+          "romaji": "Ossu, Haru! Chiwa!",
+          "en": "Hey, Haru! Hi!"
+        },
+        {
+          "speaker": "はる",
+          "jp": "よ！ ゆー、ひさしぶりじゃん！",
+          "romaji": "Yo! Yuu, hisashiburi jan!",
+          "en": "Yo! Yuu, it's been ages!"
+        },
+        {
+          "speaker": "ゆー",
+          "jp": "そうそう！ またな、ばいばい！",
+          "romaji": "Sou sou! Mata na, bai bai!",
+          "en": "Right?! See ya, bye bye!"
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which morning greeting fits a business meeting?",
+      "title": "Morning greeting",
+      "variants": [
+        {
+          "label": "FORMAL",
+          "jp": "おはようございます。",
+          "romaji": "Ohayou gozaimasu.",
+          "en": "Good morning.",
+          "note": "To teachers, bosses, strangers. Always safe in formal contexts.",
+          "correct": true
+        },
+        {
+          "label": "CASUAL",
+          "jp": "おはよう。",
+          "romaji": "Ohayou.",
+          "en": "Morning.",
+          "note": "Drop ございます with friends and family.",
+          "correct": false
+        },
+        {
+          "label": "SLANG",
+          "jp": "おっす。",
+          "romaji": "Ossu.",
+          "en": "Yo.",
+          "note": "Very compressed greeting; mainly used by males.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Formality in Japanese is word choice — pick the register that matches the situation.",
+      "speakText": "おはようございます。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which self-introduction is the standard N5 default?",
+      "title": "Introducing yourself for the first time",
+      "variants": [
+        {
+          "label": "FORMAL",
+          "jp": "わたしは やまもとと もうします。",
+          "romaji": "Watashi wa Yamamoto to moushimasu.",
+          "en": "My name is Yamamoto.",
+          "note": "Business / formal situations. Humble form of 'I am called'.",
+          "correct": false
+        },
+        {
+          "label": "STANDARD",
+          "jp": "わたしは やまもとです。",
+          "romaji": "Watashi wa Yamamoto desu.",
+          "en": "I am Yamamoto.",
+          "note": "The standard N5 introduction pattern — use this as your default.",
+          "correct": true
+        },
+        {
+          "label": "CASUAL",
+          "jp": "やまもとだよ。",
+          "romaji": "Yamamoto da yo.",
+          "en": "I'm Yamamoto.",
+          "note": "Drop わたしは and です with close friends.",
+          "correct": false
+        }
+      ],
+      "takeaway": "わたしは [NAME]です is the N5 default — [NAME]と もうします is formal; [NAME]だよ is casual.",
+      "speakText": "わたしは やまもとです。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "How would you ask a teacher 'how are you?'",
+      "title": "Asking 'how are you?'",
+      "variants": [
+        {
+          "label": "FORMAL",
+          "jp": "おげんきですか？",
+          "romaji": "Ogenki desu ka?",
+          "en": "How are you?",
+          "note": "Reply: はい、おかげさまで。 'Yes, I'm well, thank you.'",
+          "correct": true
+        },
+        {
+          "label": "CASUAL",
+          "jp": "げんき？",
+          "romaji": "Genki?",
+          "en": "You good?",
+          "note": "Reply: うん、げんき！ 'Yeah, I'm good!' — friends only.",
+          "correct": false
+        }
+      ],
+      "takeaway": "With teachers and superiors, use おげんきですか？ and reply with おかげさまで。",
+      "speakText": "おげんきですか？"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which goodbye fits saying bye to classmates?",
+      "title": "Saying goodbye",
+      "variants": [
+        {
+          "label": "FORMAL",
+          "jp": "さようなら。",
+          "romaji": "Sayounara.",
+          "en": "Goodbye.",
+          "note": "Formal; carries a sense of finality. Less common in daily life.",
+          "correct": false
+        },
+        {
+          "label": "CASUAL",
+          "jp": "またね。",
+          "romaji": "Mata ne.",
+          "en": "See you.",
+          "note": "The everyday casual goodbye — universally understood.",
+          "correct": true
+        },
+        {
+          "label": "SLANG",
+          "jp": "ばいばい。",
+          "romaji": "Bai bai.",
+          "en": "Bye bye.",
+          "note": "Borrowed from English; all ages informally — but too casual for class.",
+          "correct": false
+        }
+      ],
+      "takeaway": "さようなら sounds like a final farewell — use またね / じゃあね for everyday goodbyes.",
+      "speakText": "またね。"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Introduce yourself formally as Tanaka:",
+      "patternJp": ["はじめまして。", "[SLOT]", "と もうします。"],
+      "patternRom": ["Hajimemashite. ", "[SLOT]", " to moushimasu."],
+      "slot": {
+        "answer": "たなか",
+        "answerRomaji": "tanaka",
+        "hint": "The family name 'Tanaka' in Japanese script.",
+        "acceptAlternatives": ["タナカ", "Tanaka", "田中"]
+      },
+      "translation": "Nice to meet you. My name is Tanaka.",
+      "speakText": "はじめまして。たなかと もうします。"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Give the standard N5 self-introduction as Tanaka:",
+      "patternJp": ["わたしは ", "[SLOT]", "です。"],
+      "patternRom": ["Watashi wa ", "[SLOT]", " desu."],
+      "slot": {
+        "answer": "たなか",
+        "answerRomaji": "tanaka",
+        "hint": "The family name 'Tanaka' in Japanese script.",
+        "acceptAlternatives": ["タナカ", "Tanaka", "田中"]
+      },
+      "translation": "I am Tanaka.",
+      "speakText": "わたしは たなかです。"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Bounce the question back to Souta (casual):",
+      "patternJp": ["うん、げんき！ ", "[SLOT]", "は？"],
+      "patternRom": ["Un, genki! ", "[SLOT]", " wa?"],
+      "slot": {
+        "answer": "そうたくん",
+        "answerRomaji": "souta-kun",
+        "hint": "Souta's name plus the boy-friendly honorific -kun.",
+        "acceptAlternatives": ["soutakun", "souta kun", "Souta-kun"]
+      },
+      "translation": "Yeah, I'm good! And you, Souta?",
+      "speakText": "うん、げんき！ そうたくんは？"
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        { "front": "はじめまして", "back": "Hajimemashite — Nice to meet you (first meeting)", "speakText": "はじめまして" },
+        { "front": "よろしくおねがいします", "back": "Yoroshiku onegaishimasu — Please treat me well / Pleased to meet you", "speakText": "よろしくおねがいします" },
+        { "front": "おはようございます", "back": "Ohayou gozaimasu — Good morning (formal)", "speakText": "おはようございます" },
+        { "front": "おやすみなさい", "back": "Oyasuminasai — Good night (formal)", "speakText": "おやすみなさい" },
+        { "front": "おげんきですか？", "back": "Ogenki desu ka? — How are you? (formal)", "speakText": "おげんきですか？" },
+        { "front": "おかげさまで", "back": "Okage sama de — I'm well, thank you (set phrase)", "speakText": "おかげさまで" },
+        { "front": "さようなら", "back": "Sayounara — Goodbye (formal / final)", "speakText": "さようなら" },
+        { "front": "ひさしぶり！", "back": "Hisashiburi! — Long time no see!", "speakText": "ひさしぶり" },
+        { "front": "こちらこそ", "back": "Kochira koso — Likewise / Same to you", "speakText": "こちらこそ" },
+        { "front": "またね", "back": "Mata ne — See you / Bye (casual)", "speakText": "またね" }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "はじめまして",
+      "options": ["Goodbye", "Nice to meet you", "Good morning", "Long time no see"],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "おはようございます",
+      "options": ["Good evening", "Good night", "Good morning", "See you"],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "こんにちは",
+      "options": ["Good night", "Hello", "Thank you", "Good evening"],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "さようなら",
+      "options": ["See you soon", "See you later", "Goodbye", "Good night"],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "おやすみなさい",
+      "options": ["Good morning", "Good night", "Good afternoon", "See you"],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ひさしぶり",
+      "options": ["How are you?", "Nice to meet you", "Long time no see", "Good morning"],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "おげんきですか",
+      "options": ["What's your name?", "How are you?", "Where are you from?", "Nice to meet you"],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "よろしくおねがいします",
+      "options": ["Thank you very much", "Please treat me well", "I'm sorry", "You're welcome"],
+      "correctIndex": 1
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Listen to the greeting and choose the best response:",
+      "question": {
+        "jp": "はじめまして。",
+        "romaji": "Hajimemashite.",
+        "speakText": "はじめまして"
+      },
+      "options": [
+        { "jp": "はじめまして、よろしく！", "romaji": "Hajimemashite, yoroshiku!" },
+        { "jp": "おはようございます。", "romaji": "Ohayou gozaimasu." },
+        { "jp": "さようなら。", "romaji": "Sayounara." }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Listen to the greeting and choose the best response:",
+      "question": {
+        "jp": "おはようございます！",
+        "romaji": "Ohayou gozaimasu!",
+        "speakText": "おはようございます"
+      },
+      "options": [
+        { "jp": "おはようございます！", "romaji": "Ohayou gozaimasu!" },
+        { "jp": "こんばんは。", "romaji": "Konbanwa." },
+        { "jp": "おやすみなさい。", "romaji": "Oyasuminasai." }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Listen to the greeting and choose the best response:",
+      "question": {
+        "jp": "おげんきですか？",
+        "romaji": "Ogenki desu ka?",
+        "speakText": "おげんきですか"
+      },
+      "options": [
+        { "jp": "さようなら。", "romaji": "Sayounara." },
+        { "jp": "おかげさまで。", "romaji": "Okage sama de." },
+        { "jp": "はじめまして。", "romaji": "Hajimemashite." }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Listen to the greeting and choose the best response:",
+      "question": {
+        "jp": "さようなら！",
+        "romaji": "Sayounara!",
+        "speakText": "さようなら"
+      },
+      "options": [
+        { "jp": "こんにちは！", "romaji": "Konnichiwa!" },
+        { "jp": "おはよう！", "romaji": "Ohayou!" },
+        { "jp": "さようなら！", "romaji": "Sayounara!" }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Listen to the greeting and choose the best response:",
+      "question": {
+        "jp": "おやすみなさい。",
+        "romaji": "Oyasuminasai.",
+        "speakText": "おやすみなさい"
+      },
+      "options": [
+        { "jp": "おはようございます。", "romaji": "Ohayou gozaimasu." },
+        { "jp": "おやすみなさい。", "romaji": "Oyasuminasai." },
+        { "jp": "こんにちは。", "romaji": "Konnichiwa." }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Listen to the greeting and choose the best response:",
+      "question": {
+        "jp": "ひさしぶり！",
+        "romaji": "Hisashiburi!",
+        "speakText": "ひさしぶり"
+      },
+      "options": [
+        { "jp": "はじめまして！", "romaji": "Hajimemashite!" },
+        { "jp": "ほんとうだね！ひさしぶり！", "romaji": "Hontou da ne! Hisashiburi!" },
+        { "jp": "おやすみ。", "romaji": "Oyasumi." }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "はじめまして",
+      "answer": "hajimemashite",
+      "acceptAlternatives": ["hazimemasite", "hajimemasite"]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "おはようございます",
+      "answer": "ohayou gozaimasu",
+      "acceptAlternatives": ["ohayo gozaimasu"]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "こんにちは",
+      "answer": "konnichiwa",
+      "acceptAlternatives": ["konnichi wa", "konnitiwa"]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "さようなら",
+      "answer": "sayounara",
+      "acceptAlternatives": ["sayonara"]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "おやすみなさい",
+      "answer": "oyasuminasai",
+      "acceptAlternatives": ["oyasumi nasai"]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "ひさしぶり",
+      "answer": "hisashiburi",
+      "acceptAlternatives": ["hisasiburi"]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "よろしくおねがいします",
+      "answer": "yoroshiku onegaishimasu",
+      "acceptAlternatives": ["yorosiku onegaisimasu", "yoroshiku onegai shimasu"]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "おかげさまで",
+      "answer": "okage sama de",
+      "acceptAlternatives": ["okagesama de", "okage-sama de"]
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line — speak along with the audio:",
+      "jp": "はじめまして。やまもとと もうします。どうぞよろしくおねがいします。",
+      "romaji": "Hajimemashite. Yamamoto to moushimasu. Douzo yoroshiku onegaishimasu.",
+      "en": "Nice to meet you. My name is Yamamoto. Please treat me well.",
+      "speakText": "はじめまして。やまもとと もうします。どうぞよろしくおねがいします。",
+      "register": "formal",
+      "dialogueContext": "A — Formal · Business Meeting",
+      "speaker": "やまもと"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line — speak along with the audio:",
+      "jp": "はじめまして。キムです。こちらこそ、どうぞよろしくおねがいします。",
+      "romaji": "Hajimemashite. Kimu desu. Kochira koso, douzo yoroshiku onegaishimasu.",
+      "en": "Nice to meet you. I'm Kim. Likewise, please treat me well.",
+      "speakText": "はじめまして。キムです。こちらこそ、どうぞよろしくおねがいします。",
+      "register": "formal",
+      "dialogueContext": "A — Formal · Business Meeting",
+      "speaker": "キム"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line — speak along with the audio:",
+      "jp": "それでは、またあした。おげんきで。",
+      "romaji": "Soredewa, mata ashita. Ogenki de.",
+      "en": "Well then, see you tomorrow. Take care.",
+      "speakText": "それでは、またあした。おげんきで。",
+      "register": "formal",
+      "dialogueContext": "A — Formal · Business Meeting",
+      "speaker": "やまもと"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line — speak along with the audio:",
+      "jp": "ひさしぶり！ げんき？",
+      "romaji": "Hisashiburi! Genki?",
+      "en": "Long time no see! You good?",
+      "speakText": "ひさしぶり！ げんき？",
+      "register": "casual",
+      "dialogueContext": "B — Casual · Friends Reuniting",
+      "speaker": "そうた"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line — speak along with the audio:",
+      "jp": "うん、げんき！ そうたくんは？",
+      "romaji": "Un, genki! Souta-kun wa?",
+      "en": "Yeah, I'm good! And you, Souta?",
+      "speakText": "うん、げんき！ そうたくんは？",
+      "register": "casual",
+      "dialogueContext": "B — Casual · Friends Reuniting",
+      "speaker": "みか"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line — speak along with the audio:",
+      "jp": "ぼくもげんき。またね！",
+      "romaji": "Boku mo genki. Mata ne!",
+      "en": "I'm good too. See you!",
+      "speakText": "ぼくもげんき。またね。",
+      "register": "casual",
+      "dialogueContext": "B — Casual · Friends Reuniting",
+      "speaker": "そうた"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line — speak along with the audio:",
+      "jp": "おっす、はる！ ちわ！",
+      "romaji": "Ossu, Haru! Chiwa!",
+      "en": "Hey, Haru! Hi!",
+      "speakText": "おっす、はる！ ちわ！",
+      "register": "slang",
+      "dialogueContext": "C — Slang · Online Chat",
+      "speaker": "ゆー"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line — speak along with the audio:",
+      "jp": "よ！ ゆー、ひさしぶりじゃん！",
+      "romaji": "Yo! Yuu, hisashiburi jan!",
+      "en": "Yo! Yuu, it's been ages!",
+      "speakText": "よ！ ゆー、ひさしぶりじゃん！",
+      "register": "slang",
+      "dialogueContext": "C — Slang · Online Chat",
+      "speaker": "はる"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line — speak along with the audio:",
+      "jp": "そうそう！ またな、ばいばい！",
+      "romaji": "Sou sou! Mata na, bai bai!",
+      "en": "Right?! See ya, bye bye!",
+      "speakText": "そうそう！ またな、ばいばい！",
+      "register": "slang",
+      "dialogueContext": "C — Slang · Online Chat",
+      "speaker": "ゆー"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        { "left": "はじめまして", "right": "Nice to meet you (first meeting)" },
+        { "left": "おはようございます", "right": "Good morning (formal)" },
+        { "left": "こんにちは", "right": "Hello / Good afternoon" },
+        { "left": "さようなら", "right": "Goodbye (formal / final)" },
+        { "left": "またね", "right": "See you (casual)" },
+        { "left": "おやすみなさい", "right": "Good night (formal)" },
+        { "left": "よろしくおねがいします", "right": "Please treat me well" },
+        { "left": "ひさしぶり", "right": "Long time no see" },
+        { "left": "おっす", "right": "Hey! (very casual)" },
+        { "left": "おかげさまで", "right": "I'm well, thank you (set phrase)" }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        { "jp": "はじめまして。やまもとと もうします。どうぞよろしくおねがいします。", "romaji": "Hajimemashite. Yamamoto to moushimasu. Douzo yoroshiku onegaishimasu.", "en": "Nice to meet you. My name is Yamamoto. Please treat me well." },
+        { "jp": "はじめまして。キムです。こちらこそ、どうぞよろしくおねがいします。", "romaji": "Hajimemashite. Kimu desu. Kochira koso, douzo yoroshiku onegaishimasu.", "en": "Nice to meet you. I'm Kim. Likewise, please treat me well." },
+        { "jp": "それでは、またあした。おげんきで。", "romaji": "Soredewa, mata ashita. Ogenki de.", "en": "Well then, see you tomorrow. Take care." },
+        { "jp": "おー、そうたくん、ひさしぶり！げんき？", "romaji": "Oo, Souta-kun, hisashiburi! Genki?", "en": "Oh, Souta! Long time no see! How are you?" },
+        { "jp": "うん、げんき！ みかちゃんは？", "romaji": "Un, genki! Mika-chan wa?", "en": "Yeah, good! And you, Mika?" },
+        { "jp": "またね！じゃあ、あした！", "romaji": "Mata ne! Jaa, ashita!", "en": "See you! Well, tomorrow then!" },
+        { "jp": "おっす、はる！ひさしぶりやん！げんき？", "romaji": "Ossu, Haru! Hisashiburi yan! Genki?", "en": "Yo, Haru! It's been ages! You good?" },
+        { "jp": "おっす！めっちゃげんき、ゆーは？", "romaji": "Ossu! Meccha genki, Yuu wa?", "en": "Yo! Super good, and you?" },
+        { "jp": "そうそう！ またな、ばいばい！", "romaji": "Sou sou! Mata na, bai bai!", "en": "Right?! See ya, bye bye!" },
+        { "jp": "こちらこそ、よろしくおねがいします。", "romaji": "Kochira koso, yoroshiku onegaishimasu.", "en": "Likewise, please treat me well." }
+      ]
+    }
+  ]
+}

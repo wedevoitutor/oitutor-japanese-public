@@ -1,0 +1,1144 @@
+{
+  "id": "kanji-batch-13",
+  "misconceptions": [
+    {
+      "kanji": "父",
+      "error": "Overuses one reading of 父 and misses the reading in 父母.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "母",
+      "error": "Overuses one reading of 母 and misses the reading in 父母.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "兄",
+      "error": "Overuses one reading of 兄 and misses the reading in 兄弟.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "弟",
+      "error": "Overuses one reading of 弟 and misses the reading in 兄弟.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    },
+    {
+      "kanji": "姉",
+      "error": "Overuses one reading of 姉 and misses the reading in 姉妹.",
+      "mitigation": "Anchor drills, compound readings, and reading-explanation exercises contrast the forms."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Batch 13 - 父 母 兄 弟 姉",
+      "intro": "This batch teaches 父 母 兄 弟 姉 with anchor readings, N5 words, and short sentence practice.",
+      "rows": [
+        [
+          "Kanji",
+          "Meaning",
+          "Anchor reading",
+          "Other reading",
+          "Memory hook"
+        ],
+        [
+          "父",
+          "father",
+          "フ",
+          "ちち",
+          "父 → father"
+        ],
+        [
+          "母",
+          "mother",
+          "ボ",
+          "はは",
+          "母 → mother"
+        ],
+        [
+          "兄",
+          "older brother",
+          "ケイ",
+          "あに",
+          "兄 → older brother"
+        ],
+        [
+          "弟",
+          "younger brother",
+          "ダイ",
+          "おとうと",
+          "弟 → younger brother"
+        ],
+        [
+          "姉",
+          "older sister",
+          "シ",
+          "あね",
+          "姉 → older sister"
+        ]
+      ],
+      "takeaway": "Recognise the kanji first, then confirm the reading from the word around it."
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "父",
+      "meaning": "father",
+      "memoryHook": "父 visually anchors father.",
+      "jlpt": "N5",
+      "strokeCount": 4,
+      "components": [
+        {
+          "shape": "父",
+          "note": "Use the whole shape as a visual anchor for father; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "フ",
+            "romaji": "fu",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 父母.",
+            "anchorExampleWord": "父母"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "ちち",
+            "romaji": "chichi"
+          }
+        ]
+      },
+      "mnemonic": "Connect 父 to father; practise フ in 父母 and compare it with ちち in 父.",
+      "confusables": [
+        {
+          "kanji": "友",
+          "meaning": "friend",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "口",
+          "meaning": "mouth / opening",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "父母",
+          "reading": "ふぼ",
+          "meaning": "father and mother"
+        },
+        {
+          "word": "父",
+          "reading": "ちち",
+          "meaning": "my father"
+        },
+        {
+          "word": "お父さん",
+          "reading": "おとうさん",
+          "meaning": "father / dad"
+        },
+        {
+          "word": "祖父",
+          "reading": "そふ",
+          "meaning": "grandfather"
+        },
+        {
+          "word": "父の日",
+          "reading": "ちちのひ",
+          "meaning": "Father’s Day"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "父は会社へ行きます。",
+          "highlight": "父",
+          "reading": "ちちは かいしゃへ いきます",
+          "en": "My father goes to work."
+        },
+        {
+          "jp": "お父さんに電話します。",
+          "highlight": "父",
+          "reading": "おとうさんに でんわします",
+          "en": "I call my father."
+        },
+        {
+          "jp": "父の日に花を送ります。",
+          "highlight": "父",
+          "reading": "ちちのひに はなを おくります",
+          "en": "I send flowers on Father’s Day."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "母",
+      "meaning": "mother",
+      "memoryHook": "母 visually anchors mother.",
+      "jlpt": "N5",
+      "strokeCount": 5,
+      "components": [
+        {
+          "shape": "母",
+          "note": "Use the whole shape as a visual anchor for mother; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ボ",
+            "romaji": "bo",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 父母.",
+            "anchorExampleWord": "父母"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "はは",
+            "romaji": "haha"
+          }
+        ]
+      },
+      "mnemonic": "Connect 母 to mother; practise ボ in 父母 and compare it with はは in 母.",
+      "confusables": [
+        {
+          "kanji": "友",
+          "meaning": "friend",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "口",
+          "meaning": "mouth / opening",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "父母",
+          "reading": "ふぼ",
+          "meaning": "father and mother"
+        },
+        {
+          "word": "母",
+          "reading": "はは",
+          "meaning": "my mother"
+        },
+        {
+          "word": "お母さん",
+          "reading": "おかあさん",
+          "meaning": "mother / mom"
+        },
+        {
+          "word": "祖母",
+          "reading": "そぼ",
+          "meaning": "grandmother"
+        },
+        {
+          "word": "母の日",
+          "reading": "ははのひ",
+          "meaning": "Mother’s Day"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "母が料理を作ります。",
+          "highlight": "母",
+          "reading": "ははが りょうりを つくります",
+          "en": "My mother cooks."
+        },
+        {
+          "jp": "お母さんと買い物に行きます。",
+          "highlight": "母",
+          "reading": "おかあさんと かいものに いきます",
+          "en": "I go shopping with my mother."
+        },
+        {
+          "jp": "母の日に手紙を書きます。",
+          "highlight": "母",
+          "reading": "ははのひに てがみを かきます",
+          "en": "I write a letter on Mother’s Day."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "兄",
+      "meaning": "older brother",
+      "memoryHook": "兄 visually anchors older brother.",
+      "jlpt": "N5",
+      "strokeCount": 5,
+      "components": [
+        {
+          "shape": "兄",
+          "note": "Use the whole shape as a visual anchor for older brother; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ケイ",
+            "romaji": "kei",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 兄弟.",
+            "anchorExampleWord": "兄弟"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "あに",
+            "romaji": "ani"
+          }
+        ]
+      },
+      "mnemonic": "Connect 兄 to older brother; practise ケイ in 兄弟 and compare it with あに in 兄.",
+      "confusables": [
+        {
+          "kanji": "友",
+          "meaning": "friend",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "口",
+          "meaning": "mouth / opening",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "兄弟",
+          "reading": "きょうだい",
+          "meaning": "siblings / brothers"
+        },
+        {
+          "word": "兄",
+          "reading": "あに",
+          "meaning": "my older brother"
+        },
+        {
+          "word": "お兄さん",
+          "reading": "おにいさん",
+          "meaning": "older brother"
+        },
+        {
+          "word": "兄さん",
+          "reading": "にいさん",
+          "meaning": "older brother"
+        },
+        {
+          "word": "兄妹",
+          "reading": "けいまい",
+          "meaning": "older brother and younger sister"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "兄は大学生です。",
+          "highlight": "兄",
+          "reading": "あには だいがくせいです",
+          "en": "My older brother is a university student."
+        },
+        {
+          "jp": "お兄さんに道を聞きます。",
+          "highlight": "兄",
+          "reading": "おにいさんに みちを ききます",
+          "en": "I ask the older brother for directions."
+        },
+        {
+          "jp": "兄弟でゲームをします。",
+          "highlight": "兄",
+          "reading": "きょうだいで ゲームを します",
+          "en": "The siblings play a game together."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "弟",
+      "meaning": "younger brother",
+      "memoryHook": "弟 visually anchors younger brother.",
+      "jlpt": "N5",
+      "strokeCount": 7,
+      "components": [
+        {
+          "shape": "弟",
+          "note": "Use the whole shape as a visual anchor for younger brother; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ダイ",
+            "romaji": "dai",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 兄弟.",
+            "anchorExampleWord": "兄弟"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "おとうと",
+            "romaji": "otouto"
+          }
+        ]
+      },
+      "mnemonic": "Connect 弟 to younger brother; practise ダイ in 兄弟 and compare it with おとうと in 弟.",
+      "confusables": [
+        {
+          "kanji": "友",
+          "meaning": "friend",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "口",
+          "meaning": "mouth / opening",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "兄弟",
+          "reading": "きょうだい",
+          "meaning": "siblings / brothers"
+        },
+        {
+          "word": "弟",
+          "reading": "おとうと",
+          "meaning": "younger brother"
+        },
+        {
+          "word": "弟さん",
+          "reading": "おとうとさん",
+          "meaning": "younger brother"
+        },
+        {
+          "word": "弟たち",
+          "reading": "おとうとたち",
+          "meaning": "younger brothers"
+        },
+        {
+          "word": "弟妹",
+          "reading": "ていまい",
+          "meaning": "younger siblings"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "弟は小学生です。",
+          "highlight": "弟",
+          "reading": "おとうとは しょうがくせいです",
+          "en": "My younger brother is an elementary school student."
+        },
+        {
+          "jp": "弟と公園へ行きます。",
+          "highlight": "弟",
+          "reading": "おとうとと こうえんへ いきます",
+          "en": "I go to the park with my younger brother."
+        },
+        {
+          "jp": "兄弟で写真を撮ります。",
+          "highlight": "弟",
+          "reading": "きょうだいで しゃしんを とります",
+          "en": "The siblings take a photo together."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "姉",
+      "meaning": "older sister",
+      "memoryHook": "姉 visually anchors older sister.",
+      "jlpt": "N5",
+      "strokeCount": 8,
+      "components": [
+        {
+          "shape": "姉",
+          "note": "Use the whole shape as a visual anchor for older sister; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "シ",
+            "romaji": "shi",
+            "anchor": true,
+            "anchorReason": "Common N5 reading in 姉妹.",
+            "anchorExampleWord": "姉妹"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "あね",
+            "romaji": "ane"
+          }
+        ]
+      },
+      "mnemonic": "Connect 姉 to older sister; practise シ in 姉妹 and compare it with あね in 姉.",
+      "confusables": [
+        {
+          "kanji": "友",
+          "meaning": "friend",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "口",
+          "meaning": "mouth / opening",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "姉妹",
+          "reading": "しまい",
+          "meaning": "sisters"
+        },
+        {
+          "word": "姉",
+          "reading": "あね",
+          "meaning": "my older sister"
+        },
+        {
+          "word": "お姉さん",
+          "reading": "おねえさん",
+          "meaning": "older sister"
+        },
+        {
+          "word": "姉さん",
+          "reading": "ねえさん",
+          "meaning": "older sister"
+        },
+        {
+          "word": "姉弟",
+          "reading": "してい",
+          "meaning": "older sister and younger brother"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "姉は先生です。",
+          "highlight": "姉",
+          "reading": "あねは せんせいです",
+          "en": "My older sister is a teacher."
+        },
+        {
+          "jp": "お姉さんと話します。",
+          "highlight": "姉",
+          "reading": "おねえさんと はなします",
+          "en": "I talk with the older sister."
+        },
+        {
+          "jp": "姉妹で買い物に行きます。",
+          "highlight": "姉",
+          "reading": "しまいで かいものに いきます",
+          "en": "The sisters go shopping together."
+        }
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "父",
+          "back": "father - フ",
+          "speakText": "父"
+        },
+        {
+          "front": "母",
+          "back": "mother - ボ",
+          "speakText": "母"
+        },
+        {
+          "front": "兄",
+          "back": "older brother - ケイ",
+          "speakText": "兄"
+        },
+        {
+          "front": "弟",
+          "back": "younger brother - ダイ",
+          "speakText": "弟"
+        },
+        {
+          "front": "姉",
+          "back": "older sister - シ",
+          "speakText": "姉"
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 父 (kana or romaji):",
+      "question": "父",
+      "speakText": "父",
+      "answer": "フ",
+      "acceptAlternatives": [
+        "fu",
+        "フ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 母 (kana or romaji):",
+      "question": "母",
+      "speakText": "母",
+      "answer": "ボ",
+      "acceptAlternatives": [
+        "bo",
+        "ボ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 兄 (kana or romaji):",
+      "question": "兄",
+      "speakText": "兄",
+      "answer": "ケイ",
+      "acceptAlternatives": [
+        "kei",
+        "ケイ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 弟 (kana or romaji):",
+      "question": "弟",
+      "speakText": "弟",
+      "answer": "ダイ",
+      "acceptAlternatives": [
+        "dai",
+        "ダイ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 姉 (kana or romaji):",
+      "question": "姉",
+      "speakText": "姉",
+      "answer": "シ",
+      "acceptAlternatives": [
+        "shi",
+        "シ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 父母 in hiragana or romaji:",
+      "question": "父母",
+      "speakText": "父母",
+      "answer": "ふぼ",
+      "acceptAlternatives": [
+        "fubo",
+        "ふぼ"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "父"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 父母 in hiragana or romaji:",
+      "question": "父母",
+      "speakText": "父母",
+      "answer": "ふぼ",
+      "acceptAlternatives": [
+        "fubo",
+        "ふぼ"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "母"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 兄弟 in hiragana or romaji:",
+      "question": "兄弟",
+      "speakText": "兄弟",
+      "answer": "きょうだい",
+      "acceptAlternatives": [
+        "kyodai",
+        "kyoudai",
+        "きょうだい"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "兄"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 兄弟 in hiragana or romaji:",
+      "question": "兄弟",
+      "speakText": "兄弟",
+      "answer": "きょうだい",
+      "acceptAlternatives": [
+        "kyodai",
+        "kyoudai",
+        "きょうだい"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "弟"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 姉妹 in hiragana or romaji:",
+      "question": "姉妹",
+      "speakText": "姉妹",
+      "answer": "しまい",
+      "acceptAlternatives": [
+        "shimai",
+        "しまい"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "姉"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 兄 in hiragana or romaji:",
+      "question": "兄",
+      "speakText": "兄",
+      "answer": "あに",
+      "acceptAlternatives": [
+        "ani",
+        "あに"
+      ],
+      "strictness": "kana-preferred",
+      "targetKanji": "兄"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "は会社へ行きます。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "父",
+        "answerRomaji": "fu",
+        "hint": "Choose the kanji for father.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "父",
+            "correct": true
+          },
+          {
+            "text": "母",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "母 means “mother,” so it does not fit this prompt."
+          },
+          {
+            "text": "兄",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "兄 means “older brother,” so it does not fit this prompt."
+          },
+          {
+            "text": "弟",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "弟 means “younger brother,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "My father goes to work.",
+      "speakText": "父は会社へ行きます。",
+      "targetKanji": "父",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "は大学生です。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "兄",
+        "answerRomaji": "kei",
+        "hint": "Choose the kanji for older brother.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "兄",
+            "correct": true
+          },
+          {
+            "text": "父",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "父 means “father,” so it does not fit this prompt."
+          },
+          {
+            "text": "母",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "母 means “mother,” so it does not fit this prompt."
+          },
+          {
+            "text": "弟",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "弟 means “younger brother,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "My older brother is a university student.",
+      "speakText": "兄は大学生です。",
+      "targetKanji": "兄",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "は先生です。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "姉",
+        "answerRomaji": "shi",
+        "hint": "Choose the kanji for older sister.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "姉",
+            "correct": true
+          },
+          {
+            "text": "父",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "父 means “father,” so it does not fit this prompt."
+          },
+          {
+            "text": "母",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "母 means “mother,” so it does not fit this prompt."
+          },
+          {
+            "text": "兄",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "兄 means “older brother,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "My older sister is a teacher.",
+      "speakText": "姉は先生です。",
+      "targetKanji": "姉",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 父 read in 父母?",
+      "word": "父母",
+      "targetKanji": "父",
+      "options": [
+        {
+          "kana": "ふぼ",
+          "romaji": "fubo",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "父母 is read ふぼ in this vocabulary item."
+        },
+        {
+          "kana": "フ",
+          "romaji": "fu",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "フ is useful for 父, but not the full reading of 父母."
+        },
+        {
+          "kana": "ちち",
+          "romaji": "chichi",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "ちち is another reading connected to 父, not the reading used in 父母."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 兄 read in 兄弟?",
+      "word": "兄弟",
+      "targetKanji": "兄",
+      "options": [
+        {
+          "kana": "きょうだい",
+          "romaji": "kyodai",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "兄弟 is read きょうだい in this vocabulary item."
+        },
+        {
+          "kana": "ケイ",
+          "romaji": "kei",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "ケイ is useful for 兄, but not the full reading of 兄弟."
+        },
+        {
+          "kana": "あに",
+          "romaji": "ani",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "あに is another reading connected to 兄, not the reading used in 兄弟."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 姉 read in 姉妹?",
+      "word": "姉妹",
+      "targetKanji": "姉",
+      "options": [
+        {
+          "kana": "しまい",
+          "romaji": "shimai",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "姉妹 is read しまい in this vocabulary item."
+        },
+        {
+          "kana": "シ",
+          "romaji": "shi",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "シ is useful for 姉, but not the full reading of 姉妹."
+        },
+        {
+          "kana": "あね",
+          "romaji": "ane",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "あね is another reading connected to 姉, not the reading used in 姉妹."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji means 'mother'?",
+      "options": [
+        {
+          "text": "母",
+          "correct": true
+        },
+        {
+          "text": "父",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "父 means “father,” so it does not fit this prompt."
+        },
+        {
+          "text": "兄",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "兄 means “older brother,” so it does not fit this prompt."
+        },
+        {
+          "text": "弟",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "弟 means “younger brother,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the kanji you hear:",
+      "speakText": "弟",
+      "options": [
+        {
+          "text": "弟",
+          "correct": true
+        },
+        {
+          "text": "父",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "父 means “father,” so it does not fit this prompt."
+        },
+        {
+          "text": "母",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "母 means “mother,” so it does not fit this prompt."
+        },
+        {
+          "text": "兄",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "兄 means “older brother,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji in 姉妹 (sisters) means 'older sister'?",
+      "options": [
+        {
+          "text": "姉",
+          "correct": true
+        },
+        {
+          "text": "父",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "父 means “father,” so it does not fit this prompt."
+        },
+        {
+          "text": "母",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "母 means “mother,” so it does not fit this prompt."
+        },
+        {
+          "text": "兄",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "兄 means “older brother,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Review: which older kanji means 'friend'?",
+      "reviewFrom": "kanji-batch-12",
+      "options": [
+        {
+          "text": "友",
+          "correct": true
+        },
+        {
+          "text": "西",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "西 means “west,” so it does not fit this prompt."
+        },
+        {
+          "text": "南",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "南 means “south,” so it does not fit this prompt."
+        },
+        {
+          "text": "北",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "北 means “north,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Review: match older kanji to their meanings:",
+      "reviewFrom": [
+        "kanji-batch-11",
+        "kanji-batch-12"
+      ],
+      "pairs": [
+        {
+          "left": "南",
+          "right": "south",
+          "reviewFrom": "kanji-batch-12"
+        },
+        {
+          "left": "北",
+          "right": "north",
+          "reviewFrom": "kanji-batch-12"
+        },
+        {
+          "left": "口",
+          "right": "mouth / opening",
+          "reviewFrom": "kanji-batch-12"
+        },
+        {
+          "left": "友",
+          "right": "friend",
+          "reviewFrom": "kanji-batch-12"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each kanji to its meaning:",
+      "pairs": [
+        {
+          "left": "父",
+          "right": "father"
+        },
+        {
+          "left": "母",
+          "right": "mother"
+        },
+        {
+          "left": "兄",
+          "right": "older brother"
+        },
+        {
+          "left": "弟",
+          "right": "younger brother"
+        },
+        {
+          "left": "姉",
+          "right": "older sister"
+        }
+      ]
+    }
+  ]
+}

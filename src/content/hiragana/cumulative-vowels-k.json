@@ -1,0 +1,313 @@
+{
+  "exercises": [
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "う",
+          "back": "u",
+          "speakText": "う"
+        },
+        {
+          "front": "こ",
+          "back": "ko",
+          "speakText": "こ"
+        },
+        {
+          "front": "け",
+          "back": "ke",
+          "speakText": "け"
+        },
+        {
+          "front": "お",
+          "back": "o",
+          "speakText": "お"
+        },
+        {
+          "front": "か",
+          "back": "ka",
+          "speakText": "か"
+        },
+        {
+          "front": "き",
+          "back": "ki",
+          "speakText": "き"
+        },
+        {
+          "front": "い",
+          "back": "i",
+          "speakText": "い"
+        },
+        {
+          "front": "あ",
+          "back": "a",
+          "speakText": "あ"
+        },
+        {
+          "front": "え",
+          "back": "e",
+          "speakText": "え"
+        },
+        {
+          "front": "く",
+          "back": "ku",
+          "speakText": "く"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is A?",
+      "options": [
+        "く",
+        "お",
+        "え",
+        "あ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ke?",
+      "options": [
+        "え",
+        "い",
+        "け",
+        "こ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "い",
+      "answer": "i"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "く",
+          "ku"
+        ],
+        [
+          "あ",
+          "a"
+        ],
+        [
+          "き",
+          "ki"
+        ],
+        [
+          "お",
+          "o"
+        ],
+        [
+          "け",
+          "ke"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ka?",
+      "options": [
+        "き",
+        "か",
+        "お",
+        "こ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "う",
+      "answer": "u"
+    },
+    {
+      "type": "listening",
+      "speakText": "か",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "き",
+        "か",
+        "く",
+        "こ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "え",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "い",
+        "え",
+        "う",
+        "お"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ko?",
+      "options": [
+        "け",
+        "か",
+        "く",
+        "こ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ki?",
+      "options": [
+        "か",
+        "こ",
+        "き",
+        "く"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "か",
+      "answer": "ka"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "柿 [かき] (kaki)",
+          "persimmon"
+        ],
+        [
+          "青い [あおい] (aoi)",
+          "blue"
+        ],
+        [
+          "顔 [かお] (kao)",
+          "face"
+        ],
+        [
+          "声 [こえ] (koe)",
+          "voice"
+        ],
+        [
+          "池 [いけ] (ike)",
+          "pond"
+        ],
+        [
+          "あおい いけ",
+          "Blue pond"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "persimmon",
+      "answer": [
+        "か",
+        "き"
+      ],
+      "bank": [
+        "あ",
+        "い",
+        "う",
+        "か",
+        "き",
+        "く",
+        "け",
+        "こ"
+      ],
+      "speakText": "かき"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "face",
+      "answer": [
+        "か",
+        "お"
+      ],
+      "bank": [
+        "あ",
+        "い",
+        "う",
+        "え",
+        "お",
+        "か"
+      ],
+      "speakText": "かお"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "あおい",
+      "answer": "aoi"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "かき",
+      "answer": "kaki"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "かき",
+          "persimmon"
+        ],
+        [
+          "あおい",
+          "blue"
+        ],
+        [
+          "かお",
+          "face"
+        ],
+        [
+          "こえ",
+          "voice"
+        ],
+        [
+          "いけ",
+          "pond"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "こ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "か",
+        "こ",
+        "き",
+        "く"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "voice",
+      "answer": [
+        "こ",
+        "え"
+      ],
+      "bank": [
+        "あ",
+        "い",
+        "う",
+        "え",
+        "お",
+        "こ"
+      ],
+      "speakText": "こえ"
+    }
+  ],
+  "id": "hiragana-cumulative-vowels-k"
+}

@@ -1,0 +1,823 @@
+{
+  "id": "grammar-lesson-02",
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "です — Polite Present (\"is / am / are\")",
+      "intro": "です is the polite copula — it links a subject to a noun and means 'is / am / are'. It is not a verb; treat it as a politeness marker that ends the sentence. Use です as your safe default with strangers, at work, and with teachers.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "がくせいです",
+          "gakusei desu",
+          "(I) am a student"
+        ],
+        [
+          "せんせいです",
+          "sensei desu",
+          "(she/he) is a teacher"
+        ],
+        [
+          "にほんじんです",
+          "nihonjin desu",
+          "(I) am Japanese"
+        ],
+        [
+          "ほんです",
+          "hon desu",
+          "(it) is a book"
+        ],
+        [
+          "おちゃです",
+          "ocha desu",
+          "(it) is tea"
+        ]
+      ],
+      "takeaway": "です = polite 'is/am/are'. Stick it on the end of a noun — you're done."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which form is the POLITE present 'is / am / are' you'd use with a stranger?",
+      "options": [
+        "だ (da)",
+        "です (desu)",
+        "でした (deshita)",
+        "じゃない (ja nai)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Politely say 'I am a student.':",
+      "patternJp": [
+        "わたしは がくせい",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "watashi wa gakusei ",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "です",
+        "answerRomaji": "desu",
+        "hint": "The polite present copula meaning 'is / am / are'.",
+        "acceptAlternatives": [
+          "Desu",
+          "デス"
+        ]
+      },
+      "translation": "I am a student.",
+      "speakText": "わたしは がくせいです。"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Politely say 'This is a book.':",
+      "patternJp": [
+        "これは ほん",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "kore wa hon ",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "です",
+        "answerRomaji": "desu",
+        "hint": "The polite copula attached to the predicate noun.",
+        "acceptAlternatives": [
+          "Desu",
+          "デス"
+        ]
+      },
+      "translation": "This is a book.",
+      "speakText": "これは ほんです。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "だ — Plain Present (casual)",
+      "intro": "だ is the casual version of です. Use it only with close friends and family. In writing it's the dictionary/plain form. In casual speech だ is often dropped — especially in questions (がくせい？) — because it can sound blunt or even angry.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning / register"
+        ],
+        [
+          "がくせいだ",
+          "gakusei da",
+          "(I'm) a student (casual statement)"
+        ],
+        [
+          "がくせい",
+          "gakusei",
+          "Student? / Yeah, student. (だ dropped)"
+        ],
+        [
+          "そうだ",
+          "sou da",
+          "That's right. (casual)"
+        ],
+        [
+          "そうです",
+          "sou desu",
+          "That's right. (polite — for contrast)"
+        ]
+      ],
+      "takeaway": "だ = casual です. Drop it in casual questions; keep です as your default."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which form would you use with a close friend instead of です?",
+      "options": [
+        "でした (deshita)",
+        "だ (da)",
+        "じゃありません (ja arimasen)",
+        "ですか (desu ka)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Casually agree with a friend — 'Yeah, that's right.':",
+      "patternJp": [
+        "うん、そう",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "un, sou ",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "だ",
+        "answerRomaji": "da",
+        "hint": "The casual plain copula — used with close friends.",
+        "acceptAlternatives": [
+          "Da",
+          "ダ"
+        ]
+      },
+      "translation": "Yeah, that's right.",
+      "speakText": "うん、そうだ。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Negative — じゃない / じゃありません",
+      "intro": "To say 'is not', swap です for じゃありません (polite) or じゃない (casual). The じゃ part is a contraction of では — the longer ではありません is more formal and shows up in writing, news, and official speech.",
+      "rows": [
+        [
+          "Form",
+          "Japanese",
+          "Romaji",
+          "Register"
+        ],
+        [
+          "Polite negative",
+          "じゃありません",
+          "ja arimasen",
+          "polite, everyday"
+        ],
+        [
+          "Polite negative (formal)",
+          "ではありません",
+          "de wa arimasen",
+          "writing, news"
+        ],
+        [
+          "Casual negative",
+          "じゃない",
+          "ja nai",
+          "close friends, family"
+        ]
+      ],
+      "takeaway": "Replace です with じゃありません (polite) or じゃない (casual) to negate."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which is the POLITE negative of です — 'is not' in everyday polite speech?",
+      "options": [
+        "じゃない (ja nai)",
+        "じゃありません (ja arimasen)",
+        "でした (deshita)",
+        "ですか (desu ka)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Politely say 'That is not a hospital.':",
+      "patternJp": [
+        "あれは びょういん",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "are wa byouin ",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "じゃありません",
+        "answerRomaji": "ja arimasen",
+        "hint": "The polite negative copula — replaces 'desu' to mean 'is not'.",
+        "acceptAlternatives": [
+          "jya arimasen",
+          "Ja arimasen",
+          "じゃ ありません"
+        ]
+      },
+      "translation": "That is not a hospital.",
+      "speakText": "あれは びょういんじゃありません。"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Casually say 'This is not a school.':",
+      "patternJp": [
+        "ここは がっこう",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "koko wa gakkou ",
+        "[SLOT]",
+        "."
+      ],
+      "slot": {
+        "answer": "じゃない",
+        "answerRomaji": "ja nai",
+        "hint": "The casual negative — shorter contraction of the polite 'ja arimasen'.",
+        "acceptAlternatives": [
+          "jya nai",
+          "Ja nai",
+          "じゃ ない"
+        ]
+      },
+      "translation": "This is not a school. (casual)",
+      "speakText": "ここは がっこうじゃない。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Past — でした / だった / じゃなかった",
+      "intro": "Past tense changes the copula itself — there's no separate past particle. でした is the polite past ('was / were'); だった is the casual past. For 'was not', use じゃありませんでした (polite) or じゃなかった (casual).",
+      "rows": [
+        [
+          "Form",
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "Polite past",
+          "でした",
+          "deshita",
+          "was / were"
+        ],
+        [
+          "Casual past",
+          "だった",
+          "datta",
+          "was / were (casual)"
+        ],
+        [
+          "Polite past negative",
+          "じゃありませんでした",
+          "ja arimasen deshita",
+          "wasn't / weren't"
+        ],
+        [
+          "Casual past negative",
+          "じゃなかった",
+          "ja nakatta",
+          "wasn't / weren't (casual)"
+        ]
+      ],
+      "takeaway": "Past lives inside the copula: です→でした, だ→だった. Negate by adding じゃ + past-of-ない."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which form is the POLITE past — 'was / were'?",
+      "options": [
+        "です (desu)",
+        "だった (datta)",
+        "でした (deshita)",
+        "じゃない (ja nai)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Politely say 'Yesterday was Sunday.':",
+      "patternJp": [
+        "きのうは にちようび",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "kinou wa nichiyoubi ",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "でした",
+        "answerRomaji": "deshita",
+        "hint": "The polite past copula — past tense of 'desu'.",
+        "acceptAlternatives": [
+          "Deshita",
+          "desita",
+          "でし た"
+        ]
+      },
+      "translation": "Yesterday was Sunday.",
+      "speakText": "きのうは にちようびでした。"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Casually say 'She wasn't a teacher.':",
+      "patternJp": [
+        "かのじょは せんせい",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "kanojo wa sensei ",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "じゃなかった",
+        "answerRomaji": "ja nakatta",
+        "hint": "The casual past negative — 'was not'.",
+        "acceptAlternatives": [
+          "jya nakatta",
+          "Ja nakatta",
+          "じゃ なかった"
+        ]
+      },
+      "translation": "She wasn't a teacher.",
+      "speakText": "かのじょは せんせいじゃなかった。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "You're meeting your boss for the first time. Which form do you pick for 'I am a student.'?",
+      "title": "です vs だ — politeness register",
+      "variants": [
+        {
+          "label": "POLITE",
+          "jp": "わたしは がくせいです。",
+          "romaji": "watashi wa gakusei desu.",
+          "en": "I am a student.",
+          "note": "です is the safe default with strangers, work, and teachers.",
+          "correct": true
+        },
+        {
+          "label": "RUDE",
+          "jp": "わたしは がくせいだ。",
+          "romaji": "watashi wa gakusei da.",
+          "en": "I am a student. (blunt)",
+          "note": "だ to a boss sounds blunt, almost confrontational. Save it for friends.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "わたしは がくせい です か。",
+          "romaji": "watashi wa gakusei desu ka.",
+          "en": "Am I a student?",
+          "note": "Adding か turns the statement into a question — wrong meaning.",
+          "correct": false
+        }
+      ],
+      "takeaway": "です = polite default. だ = friends only. Don't だ at your boss.",
+      "speakText": "わたしは がくせいです。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly says 'That is not a hospital.' politely?",
+      "title": "じゃありません — polite negative",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "あれは びょういんじゃありません。",
+          "romaji": "are wa byouin ja arimasen.",
+          "en": "That is not a hospital.",
+          "note": "じゃありません replaces です for the polite negative.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "あれは びょういんじゃありませんです。",
+          "romaji": "are wa byouin ja arimasen desu.",
+          "en": "(ungrammatical)",
+          "note": "Don't add です after じゃありません — it already carries the politeness.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "あれは びょういんです。",
+          "romaji": "are wa byouin desu.",
+          "en": "That is a hospital.",
+          "note": "Grammatical, but says the OPPOSITE — affirmative, not negative.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "あれは びょういんないです。",
+          "romaji": "are wa byouin nai desu.",
+          "en": "(ungrammatical)",
+          "note": "ない alone doesn't negate a noun + copula — you need じゃない / じゃありません.",
+          "correct": false
+        }
+      ],
+      "takeaway": "じゃありません stands on its own. Never stack です on top of it.",
+      "speakText": "あれは びょういんじゃありません。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly asks 'Is that tea or coffee?'",
+      "title": "A or B questions — repeat ですか",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "それは おちゃですか、コーヒーですか。",
+          "romaji": "sore wa ocha desu ka, koohii desu ka.",
+          "en": "Is that tea or coffee?",
+          "note": "Repeating ですか after each option is the clearest beginner A-or-B pattern.",
+          "correct": true
+        },
+        {
+          "label": "NATURAL",
+          "jp": "それは おちゃか コーヒーですか。",
+          "romaji": "sore wa ocha ka koohii desu ka.",
+          "en": "Is that tea or coffee?",
+          "note": "This is grammatical too, but the lesson target is the clearer repeated-ですか pattern.",
+          "correct": false
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "それは おちゃと コーヒーですか。",
+          "romaji": "sore wa ocha to koohii desu ka.",
+          "en": "Is that tea and coffee?",
+          "note": "と means 'and', so it does not ask an either/or question.",
+          "correct": false
+        }
+      ],
+      "takeaway": "For beginners, build A-or-B clearly by repeating ですか; do not use と for “or”.",
+      "speakText": "それは おちゃですか、コーヒーですか。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "You want to ask a friend casually 'Student?'. Which sounds natural?",
+      "title": "Dropping だ in casual questions",
+      "variants": [
+        {
+          "label": "NATURAL",
+          "jp": "がくせい？",
+          "romaji": "gakusei?",
+          "en": "Student? (casual)",
+          "note": "Casual questions drop だ — rising tone alone carries the question.",
+          "correct": true
+        },
+        {
+          "label": "UNNATURAL",
+          "jp": "がくせいだ？",
+          "romaji": "gakusei da?",
+          "en": "(sounds like a surprised statement)",
+          "note": "Keeping だ in a question sounds blunt or like an exclamation, not a question.",
+          "correct": false
+        },
+        {
+          "label": "POLITE",
+          "jp": "がくせいですか。",
+          "romaji": "gakusei desu ka.",
+          "en": "Are you a student? (polite)",
+          "note": "Grammatical and polite — but overkill if you're talking to a close friend.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Casual questions: drop だ, rely on rising tone. Keep ですか for polite ones.",
+      "speakText": "がくせい？"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Sentences in Context",
+      "intro": "Eight copula sentences pulled from the lesson. Tap the speaker on each row to hear the natural rhythm of です / だ / でした / じゃありません in real sentences.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "English"
+        ],
+        [
+          "わたしは がくせいです。",
+          "watashi wa gakusei desu.",
+          "I am a student."
+        ],
+        [
+          "これは ほんです。",
+          "kore wa hon desu.",
+          "This is a book."
+        ],
+        [
+          "あれは びょういんじゃありません。",
+          "are wa byouin ja arimasen.",
+          "That is not a hospital."
+        ],
+        [
+          "きのうは にちようびでした。",
+          "kinou wa nichiyoubi deshita.",
+          "Yesterday was Sunday."
+        ],
+        [
+          "あなたは にほんじんですか。",
+          "anata wa nihonjin desu ka.",
+          "Are you Japanese?"
+        ],
+        [
+          "それは おちゃですか、コーヒーですか。",
+          "sore wa ocha desu ka, koohii desu ka.",
+          "Is that tea or coffee?"
+        ],
+        [
+          "かのじょは せんせいじゃなかった。",
+          "kanojo wa sensei ja nakatta.",
+          "She wasn't a teacher."
+        ],
+        [
+          "うん、そうだ。",
+          "un, sou da.",
+          "Yeah, that's right."
+        ]
+      ],
+      "takeaway": "Same nouns, different copula forms — that's how tense and politeness shift in Japanese."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "わたしは いしゃです。",
+      "options": [
+        "I am a doctor.",
+        "I am a teacher.",
+        "I am a student.",
+        "I am a nurse."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "きのうは どようびでした。",
+      "options": [
+        "Tomorrow is Saturday.",
+        "Yesterday was Saturday.",
+        "Today is Saturday.",
+        "Saturday is a holiday."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ここは こうえんじゃありません。",
+      "options": [
+        "This is a park.",
+        "Where is the park?",
+        "This is not a park.",
+        "Is this a park?"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "あのひとは がくせいですか。",
+      "options": [
+        "That person is a student.",
+        "I am a student.",
+        "Are you a student?",
+        "Is that person a student?"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "これは おちゃです。",
+      "options": [
+        "This is tea.",
+        "That is tea.",
+        "This is coffee.",
+        "I like tea."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "かれは にほんじんじゃなかった。",
+      "options": [
+        "He is Japanese.",
+        "He wasn't Japanese.",
+        "She wasn't Japanese.",
+        "They are Japanese."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "あしたは きんようびです。",
+      "options": [
+        "Yesterday was Friday.",
+        "Today is Friday.",
+        "Tomorrow is Friday.",
+        "Friday is fun."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "そうでしたか。",
+      "options": [
+        "That's right.",
+        "I see.",
+        "That's wrong.",
+        "Is that so? / Was it?"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "です",
+      "answer": "desu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "じゃありません",
+      "answer": "ja arimasen",
+      "acceptAlternatives": [
+        "jya arimasen",
+        "jaarimasen"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "でした",
+      "answer": "deshita",
+      "acceptAlternatives": [
+        "desita"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "じゃなかった",
+      "answer": "ja nakatta",
+      "acceptAlternatives": [
+        "jya nakatta",
+        "janakatta"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "がくせいです",
+      "answer": "gakusei desu",
+      "acceptAlternatives": [
+        "gakuseidesu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji (Q):",
+      "speakText": "にほんじんですか",
+      "answer": "nihonjin desu ka",
+      "acceptAlternatives": [
+        "nihonjindesuka"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "せんせいでした",
+      "answer": "sensei deshita",
+      "acceptAlternatives": [
+        "senseideshita"
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning:",
+      "pairs": [
+        {
+          "left": "がくせい",
+          "right": "student"
+        },
+        {
+          "left": "せんせい",
+          "right": "teacher"
+        },
+        {
+          "left": "にほんじん",
+          "right": "Japanese person"
+        },
+        {
+          "left": "ほん",
+          "right": "book"
+        },
+        {
+          "left": "びょういん",
+          "right": "hospital"
+        },
+        {
+          "left": "おちゃ",
+          "right": "tea"
+        },
+        {
+          "left": "コーヒー",
+          "right": "coffee"
+        },
+        {
+          "left": "きのう",
+          "right": "yesterday"
+        },
+        {
+          "left": "にちようび",
+          "right": "Sunday"
+        },
+        {
+          "left": "そう",
+          "right": "so / that's right"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice — the copula in action",
+      "cards": [
+        {
+          "jp": "わたしは がくせいです。",
+          "romaji": "watashi wa gakusei desu.",
+          "en": "I am a student."
+        },
+        {
+          "jp": "これは ほんです。",
+          "romaji": "kore wa hon desu.",
+          "en": "This is a book."
+        },
+        {
+          "jp": "あれは びょういんじゃありません。",
+          "romaji": "are wa byouin ja arimasen.",
+          "en": "That is not a hospital."
+        },
+        {
+          "jp": "きのうは にちようびでした。",
+          "romaji": "kinou wa nichiyoubi deshita.",
+          "en": "Yesterday was Sunday."
+        },
+        {
+          "jp": "かのじょは せんせいじゃなかった。",
+          "romaji": "kanojo wa sensei ja nakatta.",
+          "en": "She wasn't a teacher."
+        },
+        {
+          "jp": "あなたは にほんじんですか。",
+          "romaji": "anata wa nihonjin desu ka.",
+          "en": "Are you Japanese?"
+        },
+        {
+          "jp": "それは おちゃですか、コーヒーですか。",
+          "romaji": "sore wa ocha desu ka, koohii desu ka.",
+          "en": "Is that tea or coffee?"
+        },
+        {
+          "jp": "うん、そうだ。",
+          "romaji": "un, sou da.",
+          "en": "Yeah, that's right."
+        },
+        {
+          "jp": "あしたは げつようびです。",
+          "romaji": "ashita wa getsuyoubi desu.",
+          "en": "Tomorrow is Monday."
+        },
+        {
+          "jp": "ここは がっこうじゃない。",
+          "romaji": "koko wa gakkou ja nai.",
+          "en": "This is not a school. (casual)"
+        }
+      ]
+    }
+  ]
+}

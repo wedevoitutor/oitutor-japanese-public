@@ -1,0 +1,991 @@
+{
+  "id": "grammar-lesson-01",
+  "dictionaryVocabulary": [
+    {
+      "word": "わたし",
+      "kana": "わたし",
+      "romaji": "watashi",
+      "partOfSpeech": "pronoun",
+      "meaning": "I / me",
+      "description": "The neutral first-person pronoun and the safest beginner default for 'I'.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "わたしは学生です。",
+        "kana": "わたしはがくせいです。",
+        "romaji": "watashi wa gakusei desu.",
+        "english": "I am a student.",
+        "highlight": "わたし"
+      },
+      "tags": [
+        "pronouns",
+        "grammar-01"
+      ]
+    },
+    {
+      "word": "ぼく",
+      "kana": "ぼく",
+      "romaji": "boku",
+      "partOfSpeech": "pronoun",
+      "meaning": "I / me",
+      "description": "A casual first-person pronoun often used by men and boys.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "ぼくも元気です。",
+        "kana": "ぼくもげんきです。",
+        "romaji": "boku mo genki desu.",
+        "english": "I am well too.",
+        "highlight": "ぼく"
+      },
+      "tags": [
+        "pronouns",
+        "casual",
+        "grammar-01"
+      ]
+    },
+    {
+      "word": "あなた",
+      "kana": "あなた",
+      "romaji": "anata",
+      "partOfSpeech": "pronoun",
+      "meaning": "you",
+      "description": "A second-person pronoun. Use it sparingly; names are often more natural.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "あなたの本ですか。",
+        "kana": "あなたのほんですか。",
+        "romaji": "anata no hon desu ka.",
+        "english": "Is it your book?",
+        "highlight": "あなた"
+      },
+      "tags": [
+        "pronouns",
+        "grammar-01"
+      ]
+    },
+    {
+      "word": "これ",
+      "kana": "これ",
+      "romaji": "kore",
+      "partOfSpeech": "pronoun",
+      "meaning": "this",
+      "description": "A standalone demonstrative for a thing near the speaker.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "これはペンです。",
+        "kana": "これはぺんです。",
+        "romaji": "kore wa pen desu.",
+        "english": "This is a pen.",
+        "highlight": "これ"
+      },
+      "tags": [
+        "demonstratives",
+        "grammar-01"
+      ]
+    },
+    {
+      "word": "この",
+      "kana": "この",
+      "romaji": "kono",
+      "partOfSpeech": "pre-noun adjective",
+      "meaning": "this ___",
+      "description": "Used directly before a noun for something near the speaker.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "この本はおもしろいです。",
+        "kana": "このほんはおもしろいです。",
+        "romaji": "kono hon wa omoshiroi desu.",
+        "english": "This book is interesting.",
+        "highlight": "この"
+      },
+      "tags": [
+        "demonstratives",
+        "grammar-01"
+      ]
+    },
+    {
+      "word": "本",
+      "kana": "ほん",
+      "romaji": "hon",
+      "partOfSpeech": "noun",
+      "meaning": "book",
+      "description": "The everyday word for a book.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "この本はおもしろいです。",
+        "kana": "このほんはおもしろいです。",
+        "romaji": "kono hon wa omoshiroi desu.",
+        "english": "This book is interesting.",
+        "highlight": "本"
+      },
+      "tags": [
+        "school",
+        "grammar-01"
+      ]
+    },
+    {
+      "word": "ペン",
+      "kana": "ぺん",
+      "romaji": "pen",
+      "partOfSpeech": "noun",
+      "meaning": "pen",
+      "description": "A common writing tool, written in katakana.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "これはペンです。",
+        "kana": "これはぺんです。",
+        "romaji": "kore wa pen desu.",
+        "english": "This is a pen.",
+        "highlight": "ペン"
+      },
+      "tags": [
+        "school",
+        "katakana",
+        "grammar-01"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Personal Pronouns",
+      "intro": "Japanese has several words for 'I' depending on register. 'You' is used sparingly — it's more natural to say the person's name + さん instead. Third-person pronouns (he / she) also carry the meaning of 'boyfriend / girlfriend' in casual speech.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "わたし",
+          "watashi",
+          "I (neutral)"
+        ],
+        [
+          "ぼく",
+          "boku",
+          "I (male, casual)"
+        ],
+        [
+          "おれ",
+          "ore",
+          "I (male, very casual)"
+        ],
+        [
+          "あなた",
+          "anata",
+          "you (use sparingly)"
+        ],
+        [
+          "かれ",
+          "kare",
+          "he / boyfriend"
+        ],
+        [
+          "かのじょ",
+          "kanojo",
+          "she / girlfriend"
+        ],
+        [
+          "わたしたち",
+          "watashitachi",
+          "we"
+        ],
+        [
+          "かれら",
+          "karera",
+          "they"
+        ]
+      ],
+      "takeaway": "Pick your 'I' by register. Skip 'you' — call the person by name + さん."
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I am a student' using the neutral pronoun:",
+      "patternJp": [
+        "[SLOT]",
+        "は がくせいです。"
+      ],
+      "patternRom": [
+        "[SLOT]",
+        " wa gakusei desu"
+      ],
+      "slot": {
+        "answer": "わたし",
+        "answerRomaji": "watashi",
+        "hint": "The neutral first-person pronoun.",
+        "acceptAlternatives": [
+          "Watashi",
+          "ワタシ",
+          "私"
+        ]
+      },
+      "translation": "I am a student.",
+      "speakText": "わたしは がくせいです。"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "かのじょは せんせいです。",
+      "options": [
+        "He is a teacher.",
+        "She is a teacher.",
+        "I am a teacher.",
+        "They are teachers."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "reference-chart",
+      "title": "Demonstratives — Things (-れ)",
+      "intro": "Use the -れ forms when you point at a thing on its own, without naming it. これ / それ / あれ / どれ stand alone as 'this / that / that over there / which'. They never attach to another noun.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "これ",
+          "kore",
+          "this (near me)"
+        ],
+        [
+          "それ",
+          "sore",
+          "that (near you)"
+        ],
+        [
+          "あれ",
+          "are",
+          "that (far from both)"
+        ],
+        [
+          "どれ",
+          "dore",
+          "which?"
+        ]
+      ],
+      "takeaway": "-れ = 'this/that/which THING' — standalone, no noun after it."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which word means 'this (thing, near me)' — standalone, no noun after?",
+      "options": [
+        "この (kono)",
+        "これ (kore)",
+        "ここ (koko)",
+        "こちら (kochira)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Ask 'What is this?' using the near-speaker standalone demonstrative:",
+      "patternJp": [
+        "[SLOT]",
+        "は なんですか。"
+      ],
+      "patternRom": [
+        "[SLOT]",
+        " wa nan desu ka"
+      ],
+      "slot": {
+        "answer": "これ",
+        "answerRomaji": "kore",
+        "hint": "The 'thing near me' standalone demonstrative.",
+        "acceptAlternatives": [
+          "Kore",
+          "コレ"
+        ]
+      },
+      "translation": "What is this?",
+      "speakText": "これは なんですか。"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Now answer that question — 'This is a pen.':",
+      "patternJp": [
+        "これは ",
+        "[SLOT]",
+        "です。"
+      ],
+      "patternRom": [
+        "kore wa ",
+        "[SLOT]",
+        " desu"
+      ],
+      "slot": {
+        "answer": "ペン",
+        "answerRomaji": "pen",
+        "hint": "A common writing tool — written in katakana in Japanese.",
+        "acceptAlternatives": [
+          "pen",
+          "ぺん"
+        ]
+      },
+      "translation": "This is a pen.",
+      "speakText": "これは ペンです。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Demonstratives — + Noun (-の)",
+      "intro": "Use the -の forms when you place 'this/that/which' **directly in front of a noun**. 'This book' is この ほん — not これ ほん. Same spatial logic as -れ: こ = near me, そ = near you, あ = over there, ど = question.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "この",
+          "kono",
+          "this ___ (near me)"
+        ],
+        [
+          "その",
+          "sono",
+          "that ___ (near you)"
+        ],
+        [
+          "あの",
+          "ano",
+          "that ___ (over there)"
+        ],
+        [
+          "どの",
+          "dono",
+          "which ___?"
+        ]
+      ],
+      "takeaway": "-の goes *before* a noun. この ほん = 'this book'."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which form goes BEFORE a noun, as in 'this book'?",
+      "options": [
+        "これ (kore)",
+        "この (kono)",
+        "ここ (koko)",
+        "こちら (kochira)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'This book is interesting' — place the demonstrative before the noun:",
+      "patternJp": [
+        "[SLOT]",
+        " ほんは おもしろいです。"
+      ],
+      "patternRom": [
+        "[SLOT]",
+        " hon wa omoshiroi desu"
+      ],
+      "slot": {
+        "answer": "この",
+        "answerRomaji": "kono",
+        "hint": "The 'near me + noun' form — not the standalone one.",
+        "acceptAlternatives": [
+          "Kono",
+          "コノ"
+        ]
+      },
+      "translation": "This book is interesting.",
+      "speakText": "この ほんは おもしろいです。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Demonstratives — Places (-こ)",
+      "intro": "Use the -こ forms when you talk about a **place**. ここ / そこ / あそこ / どこ mean 'here / there / over there / where'. Note: 'over there' becomes あそこ (not あこ) — irregular, just memorise.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "ここ",
+          "koko",
+          "here"
+        ],
+        [
+          "そこ",
+          "soko",
+          "there (near you)"
+        ],
+        [
+          "あそこ",
+          "asoko",
+          "over there"
+        ],
+        [
+          "どこ",
+          "doko",
+          "where?"
+        ]
+      ],
+      "takeaway": "-こ = a PLACE. Remember the irregular あそこ for 'over there'."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which word means 'here' — a PLACE near me?",
+      "options": [
+        "こちら (kochira)",
+        "この (kono)",
+        "これ (kore)",
+        "ここ (koko)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'This is my house' using the place form:",
+      "patternJp": [
+        "[SLOT]",
+        "は わたしの いえです。"
+      ],
+      "patternRom": [
+        "[SLOT]",
+        " wa watashi no ie desu"
+      ],
+      "slot": {
+        "answer": "ここ",
+        "answerRomaji": "koko",
+        "hint": "The place form meaning 'here'.",
+        "acceptAlternatives": [
+          "Koko",
+          "ココ"
+        ]
+      },
+      "translation": "This is my house.",
+      "speakText": "ここは わたしの いえです。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Demonstratives — Direction & Polite (-ちら)",
+      "intro": "Use the -ちら forms for a **direction** ('this way / that way') or as a polite stand-in for a person or place. どちらさまですか — 'Who is this?' — is the polite way to ask someone's name on the phone or at the door.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "こちら",
+          "kochira",
+          "this way / this person (polite)"
+        ],
+        [
+          "そちら",
+          "sochira",
+          "that way / you / your side"
+        ],
+        [
+          "あちら",
+          "achira",
+          "that way / over there (polite)"
+        ],
+        [
+          "どちら",
+          "dochira",
+          "which way? / who? (polite)"
+        ]
+      ],
+      "takeaway": "-ちら = polite or directional. どちらさまですか is the polite 'who are you?'."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "On the phone, which word politely means 'who' — as in 'Who is this?'",
+      "options": [
+        "どれ (dore)",
+        "どの (dono)",
+        "どこ (doko)",
+        "どちら (dochira)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Politely introduce Mr Yamada — 'This is Mr Yamada':",
+      "patternJp": [
+        "[SLOT]",
+        "は やまださんです。"
+      ],
+      "patternRom": [
+        "[SLOT]",
+        " wa yamada-san desu"
+      ],
+      "slot": {
+        "answer": "こちら",
+        "answerRomaji": "kochira",
+        "hint": "The polite 'this person' form.",
+        "acceptAlternatives": [
+          "Kochira",
+          "コチラ"
+        ]
+      },
+      "translation": "This is Mr Yamada. (polite introduction)",
+      "speakText": "こちらは やまださんです。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly says 'This is a book.'?",
+      "title": "これ vs この — standalone vs pre-noun",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "これは ほんです。",
+          "romaji": "kore wa hon desu.",
+          "en": "This is a book.",
+          "note": "これ stands alone as 'this thing', followed by は + predicate.",
+          "correct": true
+        },
+        {
+          "label": "WRONG",
+          "jp": "この ほんです。",
+          "romaji": "kono hon desu.",
+          "en": "(incomplete)",
+          "note": "この attaches to a noun but the sentence has no topic marker は.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "これ ほんは おもしろいです。",
+          "romaji": "kore hon wa omoshiroi desu.",
+          "en": "(ungrammatical)",
+          "note": "Can't put これ directly before a noun — use この for 'this book'.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "あれは ほんです。",
+          "romaji": "are wa hon desu.",
+          "en": "That (over there) is a book.",
+          "note": "Grammatical but says 'that over there', not 'this'.",
+          "correct": false
+        }
+      ],
+      "takeaway": "これ stands alone. この needs a noun attached. Don't mix them.",
+      "speakText": "これは ほんです。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "You're introducing yourself at a meeting. Which sounds most natural?",
+      "title": "Drop pronouns when context is clear",
+      "variants": [
+        {
+          "label": "NATURAL",
+          "jp": "がくせいです。",
+          "romaji": "gakusei desu.",
+          "en": "(I) am a student.",
+          "note": "Context makes 'I' obvious — Japanese drops pronouns when clear.",
+          "correct": true
+        },
+        {
+          "label": "UNNATURAL",
+          "jp": "わたしは がくせいです、わたしは にほんじんです。",
+          "romaji": "watashi wa gakusei desu, watashi wa nihonjin desu.",
+          "en": "I am a student, I am Japanese.",
+          "note": "Repeating わたし sentence after sentence sounds robotic.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "ぼく がくせいです。",
+          "romaji": "boku gakusei desu.",
+          "en": "(ungrammatical)",
+          "note": "Missing the topic particle は — should be ぼくは.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Drop pronouns when context is clear. And don't drop the particle は.",
+      "speakText": "がくせいです。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "You're talking to Tanaka. Which is the polite way to ask 'Are you a teacher?'",
+      "title": "あなた warning — usually rude in Japanese",
+      "variants": [
+        {
+          "label": "POLITE",
+          "jp": "たなかさんは せんせいですか。",
+          "romaji": "tanaka-san wa sensei desu ka.",
+          "en": "Are you a teacher, Tanaka?",
+          "note": "Use the person's name + さん instead of あなた.",
+          "correct": true
+        },
+        {
+          "label": "RUDE",
+          "jp": "あなたは せんせいですか。",
+          "romaji": "anata wa sensei desu ka.",
+          "en": "Are you a teacher?",
+          "note": "あなた can sound confrontational — avoid with people you know.",
+          "correct": false
+        },
+        {
+          "label": "RUDE",
+          "jp": "きみは せんせいですか。",
+          "romaji": "kimi wa sensei desu ka.",
+          "en": "Are you (casual) a teacher?",
+          "note": "きみ talks down to the listener — only between close friends or from a senior.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "あなたさんは せんせいですか。",
+          "romaji": "anata-san wa sensei desu ka.",
+          "en": "(ungrammatical)",
+          "note": "You cannot attach さん to あなた — さん goes on names.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Skip あなた and きみ. Use the person's name + さん.",
+      "speakText": "たなかさんは せんせいですか。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly says 'We are students.'?",
+      "title": "～たち for plural pronouns",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "わたしたちは がくせいです。",
+          "romaji": "watashitachi wa gakusei desu.",
+          "en": "We are students.",
+          "note": "Attach ～たち to a singular pronoun to make it plural.",
+          "correct": true
+        },
+        {
+          "label": "WRONG",
+          "jp": "かれらたちは がくせいです。",
+          "romaji": "kareratachi wa gakusei desu.",
+          "en": "(ungrammatical)",
+          "note": "かれら already means 'they' — don't stack ～たち on top.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "わたしは がくせいたちです。",
+          "romaji": "watashi wa gakusei-tachi desu.",
+          "en": "(wrong attachment)",
+          "note": "～たち attaches to the SPEAKER pronoun, not to the predicate noun.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Attach ～たち to the pronoun. Don't double-pluralise かれら.",
+      "speakText": "わたしたちは がくせいです。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Questions & Answers in Context",
+      "intro": "Never learn a question without its answer — you'll freeze when it's asked back to you. Here are the core question forms from this lesson paired with natural replies. Tap the speaker next to each row to hear it.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "English"
+        ],
+        [
+          "わたしは がくせいです。",
+          "watashi wa gakusei desu.",
+          "I am a student."
+        ],
+        [
+          "これは なんですか。",
+          "kore wa nan desu ka.",
+          "Q: What is this?"
+        ],
+        [
+          "これは ペンです。",
+          "kore wa pen desu.",
+          "A: This is a pen."
+        ],
+        [
+          "あの ひとは だれですか。",
+          "ano hito wa dare desu ka.",
+          "Q: Who is that person over there?"
+        ],
+        [
+          "あの ひとは やまださんです。",
+          "ano hito wa yamada-san desu.",
+          "A: That is Mr Yamada."
+        ],
+        [
+          "ここは わたしの いえです。",
+          "koko wa watashi no ie desu.",
+          "This is my house."
+        ],
+        [
+          "どちらさまですか。",
+          "dochira-sama desu ka.",
+          "Q: Who is this? (polite)"
+        ],
+        [
+          "わたしは すずきと もうします。",
+          "watashi wa suzuki to moushimasu.",
+          "A: I am Suzuki. (polite self-intro)"
+        ]
+      ],
+      "takeaway": "Every question has a canonical answer — learn them together."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "これは なんですか。",
+      "options": [
+        "Where is this?",
+        "What is this?",
+        "Whose is this?",
+        "Is this yours?"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "これは ペンです。",
+      "options": [
+        "This is a book.",
+        "This is a pen.",
+        "Is this a pen?",
+        "That is a pen."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "あの ひとは だれですか。",
+      "options": [
+        "Where is that person?",
+        "What does that person do?",
+        "Who is that person over there?",
+        "Is that person a teacher?"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "あの ひとは やまださんです。",
+      "options": [
+        "That person is Mr Yamada.",
+        "Who is that person?",
+        "Is Mr Yamada over there?",
+        "That is my friend."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "わたしは がくせいです。",
+      "options": [
+        "I am a student.",
+        "You are a student.",
+        "He is a student.",
+        "We are students."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ここは わたしの いえです。",
+      "options": [
+        "This is my bag.",
+        "That is his house.",
+        "Where is my house?",
+        "This is my house."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "どちらさまですか。",
+      "options": [
+        "Where are you from?",
+        "How are you?",
+        "What is your job?",
+        "Who is this? (polite)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "わたしは すずきと もうします。",
+      "options": [
+        "My name is Suzuki.",
+        "Suzuki is my friend.",
+        "Who is Suzuki?",
+        "Are you Suzuki?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "わたしは がくせいです",
+      "answer": "watashi wa gakusei desu",
+      "acceptAlternatives": [
+        "watasi wa gakusei desu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji (Q):",
+      "speakText": "これは なんですか",
+      "answer": "kore wa nan desu ka",
+      "acceptAlternatives": [
+        "kore wa nandesuka"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji (A):",
+      "speakText": "これは ペンです",
+      "answer": "kore wa pen desu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji (Q):",
+      "speakText": "あの ひとは だれですか",
+      "answer": "ano hito wa dare desu ka",
+      "acceptAlternatives": [
+        "ano hito wa daredesuka"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji (A):",
+      "speakText": "あの ひとは やまださんです",
+      "answer": "ano hito wa yamada-san desu",
+      "acceptAlternatives": [
+        "ano hito wa yamadasan desu",
+        "ano hito wa yamada san desu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "ここは わたしの いえです",
+      "answer": "koko wa watashi no ie desu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "どちらさまですか",
+      "answer": "dochira-sama desu ka",
+      "acceptAlternatives": [
+        "dochirasama desu ka",
+        "dochira sama desu ka"
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning:",
+      "pairs": [
+        {
+          "left": "わたし",
+          "right": "I (neutral)"
+        },
+        {
+          "left": "あなた",
+          "right": "you"
+        },
+        {
+          "left": "かれ",
+          "right": "he / boyfriend"
+        },
+        {
+          "left": "かのじょ",
+          "right": "she / girlfriend"
+        },
+        {
+          "left": "これ",
+          "right": "this (thing)"
+        },
+        {
+          "left": "この",
+          "right": "this ___ (+ noun)"
+        },
+        {
+          "left": "ここ",
+          "right": "here"
+        },
+        {
+          "left": "こちら",
+          "right": "this way / this person (polite)"
+        },
+        {
+          "left": "いえ",
+          "right": "house / home"
+        },
+        {
+          "left": "ペン",
+          "right": "pen"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice — questions & answers",
+      "cards": [
+        {
+          "jp": "これは なんですか。",
+          "romaji": "kore wa nan desu ka.",
+          "en": "Q: What is this?"
+        },
+        {
+          "jp": "これは ペンです。",
+          "romaji": "kore wa pen desu.",
+          "en": "A: This is a pen."
+        },
+        {
+          "jp": "あの ひとは だれですか。",
+          "romaji": "ano hito wa dare desu ka.",
+          "en": "Q: Who is that person over there?"
+        },
+        {
+          "jp": "あの ひとは やまださんです。",
+          "romaji": "ano hito wa yamada-san desu.",
+          "en": "A: That is Mr Yamada."
+        },
+        {
+          "jp": "どちらさまですか。",
+          "romaji": "dochira-sama desu ka.",
+          "en": "Q: Who is this? (polite)"
+        },
+        {
+          "jp": "わたしは すずきと もうします。",
+          "romaji": "watashi wa suzuki to moushimasu.",
+          "en": "A: I am Suzuki. (polite self-intro)"
+        },
+        {
+          "jp": "どこに すんでいますか。",
+          "romaji": "doko ni sunde imasu ka.",
+          "en": "Q: Where do you live?"
+        },
+        {
+          "jp": "とうきょうに すんでいます。",
+          "romaji": "toukyou ni sunde imasu.",
+          "en": "A: I live in Tokyo."
+        },
+        {
+          "jp": "ここは わたしの いえです。",
+          "romaji": "koko wa watashi no ie desu.",
+          "en": "This is my house."
+        },
+        {
+          "jp": "この ほんは おもしろいです。",
+          "romaji": "kono hon wa omoshiroi desu.",
+          "en": "This book is interesting."
+        }
+      ]
+    }
+  ]
+}

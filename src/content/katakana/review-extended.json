@@ -1,0 +1,435 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Special Marks Review",
+      "rows": [
+        [
+          "Dakuten ゛",
+          "ガ ザ ダ バ rows"
+        ],
+        [
+          "Handakuten ゜",
+          "パ row"
+        ],
+        [
+          "Sokuon",
+          "small ッ doubles the next consonant"
+        ],
+        [
+          "Yōon",
+          "small ャ ュ ョ combine with i-kana"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ガ",
+          "back": "ga",
+          "speakText": "ガ"
+        },
+        {
+          "front": "ジ",
+          "back": "ji",
+          "speakText": "ジ"
+        },
+        {
+          "front": "ズ",
+          "back": "zu",
+          "speakText": "ズ"
+        },
+        {
+          "front": "デ",
+          "back": "de",
+          "speakText": "デ"
+        },
+        {
+          "front": "ボ",
+          "back": "bo",
+          "speakText": "ボ"
+        },
+        {
+          "front": "パ",
+          "back": "pa",
+          "speakText": "パ"
+        },
+        {
+          "front": "ピ",
+          "back": "pi",
+          "speakText": "ピ"
+        },
+        {
+          "front": "キャ",
+          "back": "kya",
+          "speakText": "キャ"
+        },
+        {
+          "front": "シュ",
+          "back": "shu",
+          "speakText": "シュ"
+        },
+        {
+          "front": "チョ",
+          "back": "cho",
+          "speakText": "チョ"
+        },
+        {
+          "front": "ジャ",
+          "back": "ja",
+          "speakText": "ジャ"
+        },
+        {
+          "front": "ビョ",
+          "back": "byo",
+          "speakText": "ビョ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one is Ga?",
+      "options": [
+        "カ",
+        "ガ",
+        "ギ",
+        "パ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one is Po?",
+      "options": [
+        "ボ",
+        "ホ",
+        "ポ",
+        "プ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one is Sha?",
+      "options": [
+        "シヤ",
+        "シャ",
+        "シュ",
+        "ジャ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one is Ja?",
+      "options": [
+        "ジヤ",
+        "ジャ",
+        "シャ",
+        "チャ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ギ",
+      "answer": "gi"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "プ",
+      "answer": "pu"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "シャ",
+      "answer": "sha",
+      "acceptAlternatives": [
+        "sya"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ジョ",
+      "answer": "jo",
+      "acceptAlternatives": [
+        "jyo",
+        "zyo"
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ガ",
+          "ga"
+        ],
+        [
+          "ピ",
+          "pi"
+        ],
+        [
+          "キャ",
+          "kya"
+        ],
+        [
+          "ジュ",
+          "ju"
+        ],
+        [
+          "ビョ",
+          "byo"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ダ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "タ",
+        "ダ",
+        "デ",
+        "ド"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "パ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ハ",
+        "バ",
+        "パ",
+        "ホ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "チョ",
+      "prompt": "Which did you hear?",
+      "options": [
+        "チャ",
+        "チュ",
+        "チョ",
+        "チヨ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Combined Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "ベッド (beddo)",
+          "bed — dakuten + sokuon"
+        ],
+        [
+          "コップ (koppu)",
+          "cup — sokuon + handakuten"
+        ],
+        [
+          "サッカー (sakkaa)",
+          "soccer — sokuon"
+        ],
+        [
+          "ジュース (juusu)",
+          "juice — yōon + dakuten"
+        ],
+        [
+          "チョコ (choko)",
+          "chocolate — yōon"
+        ],
+        [
+          "シャワー (shawaa)",
+          "shower — yōon"
+        ],
+        [
+          "テレビ (terebi)",
+          "TV — dakuten"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "bed",
+      "answer": [
+        "ベ",
+        "ッ",
+        "ド"
+      ],
+      "bank": [
+        "ベ",
+        "ッ",
+        "ド",
+        "ツ",
+        "ト",
+        "デ"
+      ],
+      "speakText": "ベッド"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "cup",
+      "answer": [
+        "コ",
+        "ッ",
+        "プ"
+      ],
+      "bank": [
+        "コ",
+        "ッ",
+        "プ",
+        "ツ",
+        "ブ",
+        "フ"
+      ],
+      "speakText": "コップ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "soccer",
+      "answer": [
+        "サ",
+        "ッ",
+        "カ",
+        "ー"
+      ],
+      "bank": [
+        "サ",
+        "ッ",
+        "カ",
+        "ツ",
+        "キ",
+        "ー"
+      ],
+      "speakText": "サッカー"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "juice",
+      "answer": [
+        "ジ",
+        "ュ",
+        "ー",
+        "ス"
+      ],
+      "bank": [
+        "ジ",
+        "ュ",
+        "ー",
+        "ス",
+        "ャ",
+        "ョ",
+        "ソ"
+      ],
+      "speakText": "ジュース"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "chocolate",
+      "answer": [
+        "チ",
+        "ョ",
+        "コ"
+      ],
+      "bank": [
+        "チ",
+        "ョ",
+        "コ",
+        "ャ",
+        "ュ",
+        "ロ"
+      ],
+      "speakText": "チョコ"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ベッド",
+      "answer": "beddo"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ジュース",
+      "answer": "juusu",
+      "acceptAlternatives": [
+        "jyuusu",
+        "zyuusu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "サッカー",
+      "answer": "sakkaa"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ベッド",
+          "bed"
+        ],
+        [
+          "コップ",
+          "cup"
+        ],
+        [
+          "サッカー",
+          "soccer"
+        ],
+        [
+          "ジュース",
+          "juice"
+        ],
+        [
+          "チョコ",
+          "chocolate"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ベッド",
+      "prompt": "Which word did you hear?",
+      "options": [
+        "bed",
+        "cup",
+        "TV",
+        "soccer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "listening",
+      "speakText": "ジュース",
+      "prompt": "Which word did you hear?",
+      "options": [
+        "chocolate",
+        "juice",
+        "shower",
+        "TV"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "シャワー",
+      "prompt": "Which word did you hear?",
+      "options": [
+        "shower",
+        "soccer",
+        "cup",
+        "bed"
+      ],
+      "correctIndex": 0
+    }
+  ],
+  "id": "katakana-review-extended"
+}

@@ -1,0 +1,1289 @@
+{
+  "id": "dialogues-lesson-28",
+  "misconceptions": [
+    {
+      "target": "cooking-verbs-single-word-answer",
+      "error": "Answers with isolated vocabulary instead of a complete conversational turn.",
+      "mitigation": "Reference rows and response-selection drills keep prompts and natural replies together."
+    },
+    {
+      "target": "cooking-verbs-register-mismatch",
+      "error": "Uses casual language with teachers, staff, or strangers.",
+      "mitigation": "Formal, casual, and slang scenes are separated and labeled."
+    },
+    {
+      "target": "cooking-verbs-listening-drift",
+      "error": "Chooses a familiar phrase that does not match the audio.",
+      "mitigation": "Listening MC and type-the-answer reuse the exact dialogue speakText."
+    },
+    {
+      "target": "cooking-verbs-particle-confusion",
+      "error": "Confuses は, へ, or を in written Japanese source phrases.",
+      "mitigation": "Formula-fill keeps the Japanese particles visible and accepts romaji as support."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Cooking Verbs - Formal · Casual · Slang",
+      "intro": "Practice cooking verbs as prompt-and-response dialogue, not as loose vocabulary.",
+      "rows": [
+        [
+          "Register",
+          "Japanese",
+          "Romaji",
+          "Typical Response",
+          "Context"
+        ],
+        [
+          "FORMAL",
+          "まず、やさいを きってください。",
+          "mazu,yasaiwo kittekudasai.",
+          "はい。つぎに なにを しますか？",
+          "Okay. What do we do next?"
+        ],
+        [
+          "FORMAL",
+          "はい。つぎに なにを しますか？",
+          "hai.tsugini naniwo shimasuka?",
+          "そうです。ありがとうございます。",
+          "That is right. Thank you."
+        ],
+        [
+          "CASUAL",
+          "ごはんを たく？",
+          "gohanwo taku?",
+          "うん。さかなを やくね。",
+          "Yes. I will grill the fish."
+        ],
+        [
+          "CASUAL",
+          "うん。さかなを やくね。",
+          "un.sakanawo yakune.",
+          "いいね。あとで かくにんしよう。",
+          "Nice. Let us check later."
+        ],
+        [
+          "SLANG",
+          "パスタ、もう ゆでた？",
+          "pasuta,mou yudeta?",
+          "まだ。おゆを わかしてる。",
+          "Not yet. I am boiling water."
+        ],
+        [
+          "SLANG",
+          "まだ。おゆを わかしてる。",
+          "mada.oyuwo wakashiteru.",
+          "まじか。いいじゃん。",
+          "Really? Nice."
+        ]
+      ],
+      "takeaway": "First choose the right meaning, then choose the right relationship tone."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "A - FORMAL · Cooking Verbs",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "先生",
+          "jp": "まず、やさいを きってください。",
+          "romaji": "mazu,yasaiwo kittekudasai.",
+          "en": "First, please cut the vegetables."
+        },
+        {
+          "speaker": "学生",
+          "jp": "はい。つぎに なにを しますか？",
+          "romaji": "hai.tsugini naniwo shimasuka?",
+          "en": "Okay. What do we do next?"
+        },
+        {
+          "speaker": "先生",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "B - CASUAL · Cooking Verbs",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "ゆい",
+          "jp": "ごはんを たく？",
+          "romaji": "gohanwo taku?",
+          "en": "Will you cook the rice?"
+        },
+        {
+          "speaker": "たく",
+          "jp": "うん。さかなを やくね。",
+          "romaji": "un.sakanawo yakune.",
+          "en": "Yes. I will grill the fish."
+        },
+        {
+          "speaker": "ゆい",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "C - SLANG · Cooking Verbs",
+      "register": "slang",
+      "lines": [
+        {
+          "speaker": "りく",
+          "jp": "パスタ、もう ゆでた？",
+          "romaji": "pasuta,mou yudeta?",
+          "en": "Did you boil the pasta yet?"
+        },
+        {
+          "speaker": "まい",
+          "jp": "まだ。おゆを わかしてる。",
+          "romaji": "mada.oyuwo wakashiteru.",
+          "en": "Not yet. I am boiling water."
+        },
+        {
+          "speaker": "りく",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 1: まず、やさいを きってください。",
+      "prompt": "Which source phrase means: “First, please cut the vegetables.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "まず、やさいを きってください。",
+          "romaji": "mazu,yasaiwo kittekudasai.",
+          "en": "First, please cut the vegetables.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "まず、やさいを きってください。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 2: はい。つぎに なにを しますか？",
+      "prompt": "Which source phrase means: “Okay. What do we do next?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "はい。つぎに なにを しますか？",
+          "romaji": "hai.tsugini naniwo shimasuka?",
+          "en": "Okay. What do we do next?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "パスタ、もう ゆでた？",
+          "romaji": "pasuta,mou yudeta?",
+          "en": "Did you boil the pasta yet?",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "きります",
+          "romaji": "kirimasu",
+          "en": "cut",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "はい。つぎに なにを しますか？"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 3: そうです。ありがとうございます。",
+      "prompt": "Which source phrase means: “That is right. Thank you.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "まだ。おゆを わかしてる。",
+          "romaji": "mada.oyuwo wakashiteru.",
+          "en": "Not yet. I am boiling water.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "にます",
+          "romaji": "nimasu",
+          "en": "simmer",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "そうです。ありがとうございます。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 4: ごはんを たく？",
+      "prompt": "Which source phrase means: “Will you cook the rice?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "ごはんを たく？",
+          "romaji": "gohanwo taku?",
+          "en": "Will you cook the rice?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "やきます",
+          "romaji": "yakimasu",
+          "en": "grill",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "ごはんを たく？"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "まず、やさいを きってください",
+        "answerRomaji": "mazu,yasaiwo kittekudasai.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "mazu,yasaiwokittekudasai."
+        ]
+      },
+      "translation": "First, please cut the vegetables.",
+      "speakText": "まず、やさいを きってください。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "はい。つぎに なにを しますか",
+        "answerRomaji": "hai.tsugini naniwo shimasuka?",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "hai.tsugininaniwoshimasuka?"
+        ]
+      },
+      "translation": "Okay. What do we do next?",
+      "speakText": "はい。つぎに なにを しますか？",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "そうです。ありがとうございます",
+        "answerRomaji": "soudesu.arigatougozaimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "soudesu.arigatougozaimasu."
+        ]
+      },
+      "translation": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "まず、やさいを きってください。",
+          "romaji": "mazu,yasaiwo kittekudasai.",
+          "en": "First, please cut the vegetables."
+        },
+        {
+          "jp": "はい。つぎに なにを しますか？",
+          "romaji": "hai.tsugini naniwo shimasuka?",
+          "en": "Okay. What do we do next?"
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "ごはんを たく？",
+          "romaji": "gohanwo taku?",
+          "en": "Will you cook the rice?"
+        },
+        {
+          "jp": "うん。さかなを やくね。",
+          "romaji": "un.sakanawo yakune.",
+          "en": "Yes. I will grill the fish."
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "パスタ、もう ゆでた？",
+          "romaji": "pasuta,mou yudeta?",
+          "en": "Did you boil the pasta yet?"
+        },
+        {
+          "jp": "まだ。おゆを わかしてる。",
+          "romaji": "mada.oyuwo wakashiteru.",
+          "en": "Not yet. I am boiling water."
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "きります",
+          "romaji": "kirimasu",
+          "en": "cut"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "まず、やさいを きってください。",
+      "options": [
+        {
+          "text": "First, please cut the vegetables.",
+          "correct": true
+        },
+        {
+          "text": "Will you cook the rice?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Did you boil the pasta yet?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "cut",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "はい。つぎに なにを しますか？",
+      "options": [
+        {
+          "text": "Okay. What do we do next?",
+          "correct": true
+        },
+        {
+          "text": "Yes. I will grill the fish.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Not yet. I am boiling water.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "simmer",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "そうです。ありがとうございます。",
+      "options": [
+        {
+          "text": "That is right. Thank you.",
+          "correct": true
+        },
+        {
+          "text": "Nice. Let us check later.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "grill",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ごはんを たく？",
+      "options": [
+        {
+          "text": "Will you cook the rice?",
+          "correct": true
+        },
+        {
+          "text": "Did you boil the pasta yet?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "cut",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "mix",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "うん。さかなを やくね。",
+      "options": [
+        {
+          "text": "Yes. I will grill the fish.",
+          "correct": true
+        },
+        {
+          "text": "Not yet. I am boiling water.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "simmer",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "boil",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "options": [
+        {
+          "text": "Nice. Let us check later.",
+          "correct": true
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "grill",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "cook rice",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "パスタ、もう ゆでた？",
+      "options": [
+        {
+          "text": "Did you boil the pasta yet?",
+          "correct": true
+        },
+        {
+          "text": "cut",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "mix",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "First, please cut the vegetables.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "まだ。おゆを わかしてる。",
+      "options": [
+        {
+          "text": "Not yet. I am boiling water.",
+          "correct": true
+        },
+        {
+          "text": "simmer",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "boil",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "Okay. What do we do next?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "まず、やさいを きってください。",
+        "romaji": "mazu,yasaiwo kittekudasai.",
+        "speakText": "まず、やさいを きってください。"
+      },
+      "options": [
+        {
+          "jp": "はい。つぎに なにを しますか？",
+          "romaji": "hai.tsugini naniwo shimasuka?",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "うん。さかなを やくね。",
+          "romaji": "un.sakanawo yakune.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まだ。おゆを わかしてる。",
+          "romaji": "mada.oyuwo wakashiteru.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "はい。つぎに なにを しますか？",
+        "romaji": "hai.tsugini naniwo shimasuka?",
+        "speakText": "はい。つぎに なにを しますか？"
+      },
+      "options": [
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "ごはんを たく？",
+        "romaji": "gohanwo taku?",
+        "speakText": "ごはんを たく？"
+      },
+      "options": [
+        {
+          "jp": "うん。さかなを やくね。",
+          "romaji": "un.sakanawo yakune.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "パスタ、もう ゆでた？",
+          "romaji": "pasuta,mou yudeta?",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "きります",
+          "romaji": "kirimasu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "うん。さかなを やくね。",
+        "romaji": "un.sakanawo yakune.",
+        "speakText": "うん。さかなを やくね。"
+      },
+      "options": [
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まだ。おゆを わかしてる。",
+          "romaji": "mada.oyuwo wakashiteru.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "にます",
+          "romaji": "nimasu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "パスタ、もう ゆでた？",
+        "romaji": "pasuta,mou yudeta?",
+        "speakText": "パスタ、もう ゆでた？"
+      },
+      "options": [
+        {
+          "jp": "まだ。おゆを わかしてる。",
+          "romaji": "mada.oyuwo wakashiteru.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "やきます",
+          "romaji": "yakimasu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "まだ。おゆを わかしてる。",
+        "romaji": "mada.oyuwo wakashiteru.",
+        "speakText": "まだ。おゆを わかしてる。"
+      },
+      "options": [
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "きります",
+          "romaji": "kirimasu",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まぜます",
+          "romaji": "mazemasu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "まず、やさいを きってください。",
+      "answer": "mazu,yasaiwo kittekudasai.",
+      "acceptAlternatives": [
+        "mazu,yasaiwokittekudasai."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "はい。つぎに なにを しますか？",
+      "answer": "hai.tsugini naniwo shimasuka?",
+      "acceptAlternatives": [
+        "hai.tsugininaniwoshimasuka?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "そうです。ありがとうございます。",
+      "answer": "soudesu.arigatougozaimasu.",
+      "acceptAlternatives": [
+        "soudesu.arigatougozaimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "ごはんを たく？",
+      "answer": "gohanwo taku?",
+      "acceptAlternatives": [
+        "gohanwotaku?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "うん。さかなを やくね。",
+      "answer": "un.sakanawo yakune.",
+      "acceptAlternatives": [
+        "un.sakanawoyakune."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "answer": "iine.atode kakuninshiyou.",
+      "acceptAlternatives": [
+        "iine.atodekakuninshiyou."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "パスタ、もう ゆでた？",
+      "answer": "pasuta,mou yudeta?",
+      "acceptAlternatives": [
+        "pasuta,mouyudeta?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "まだ。おゆを わかしてる。",
+      "answer": "mada.oyuwo wakashiteru.",
+      "acceptAlternatives": [
+        "mada.oyuwowakashiteru."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "まず、やさいを きってください。",
+      "romaji": "mazu,yasaiwo kittekudasai.",
+      "en": "First, please cut the vegetables.",
+      "speakText": "まず、やさいを きってください。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Cooking Verbs",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "はい。つぎに なにを しますか？",
+      "romaji": "hai.tsugini naniwo shimasuka?",
+      "en": "Okay. What do we do next?",
+      "speakText": "はい。つぎに なにを しますか？",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Cooking Verbs",
+      "speaker": "学生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "そうです。ありがとうございます。",
+      "romaji": "soudesu.arigatougozaimasu.",
+      "en": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Cooking Verbs",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ごはんを たく？",
+      "romaji": "gohanwo taku?",
+      "en": "Will you cook the rice?",
+      "speakText": "ごはんを たく？",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Cooking Verbs",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "うん。さかなを やくね。",
+      "romaji": "un.sakanawo yakune.",
+      "en": "Yes. I will grill the fish.",
+      "speakText": "うん。さかなを やくね。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Cooking Verbs",
+      "speaker": "たく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いいね。あとで かくにんしよう。",
+      "romaji": "iine.atode kakuninshiyou.",
+      "en": "Nice. Let us check later.",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Cooking Verbs",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "パスタ、もう ゆでた？",
+      "romaji": "pasuta,mou yudeta?",
+      "en": "Did you boil the pasta yet?",
+      "speakText": "パスタ、もう ゆでた？",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Cooking Verbs",
+      "speaker": "りく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "まだ。おゆを わかしてる。",
+      "romaji": "mada.oyuwo wakashiteru.",
+      "en": "Not yet. I am boiling water.",
+      "speakText": "まだ。おゆを わかしてる。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Cooking Verbs",
+      "speaker": "まい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "まじか。いいじゃん。",
+      "romaji": "majika.iijan.",
+      "en": "Really? Nice.",
+      "speakText": "まじか。いいじゃん。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Cooking Verbs",
+      "speaker": "りく"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "まず、やさいを きってください。",
+          "right": "First, please cut the vegetables."
+        },
+        {
+          "left": "はい。つぎに なにを しますか？",
+          "right": "Okay. What do we do next?"
+        },
+        {
+          "left": "そうです。ありがとうございます。",
+          "right": "That is right. Thank you."
+        },
+        {
+          "left": "ごはんを たく？",
+          "right": "Will you cook the rice?"
+        },
+        {
+          "left": "うん。さかなを やくね。",
+          "right": "Yes. I will grill the fish."
+        },
+        {
+          "left": "いいね。あとで かくにんしよう。",
+          "right": "Nice. Let us check later."
+        },
+        {
+          "left": "パスタ、もう ゆでた？",
+          "right": "Did you boil the pasta yet?"
+        },
+        {
+          "left": "まだ。おゆを わかしてる。",
+          "right": "Not yet. I am boiling water."
+        },
+        {
+          "left": "まじか。いいじゃん。",
+          "right": "Really? Nice."
+        },
+        {
+          "left": "きります",
+          "right": "cut"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "まず、やさいを きってください。",
+          "romaji": "mazu,yasaiwo kittekudasai.",
+          "en": "First, please cut the vegetables."
+        },
+        {
+          "jp": "はい。つぎに なにを しますか？",
+          "romaji": "hai.tsugini naniwo shimasuka?",
+          "en": "Okay. What do we do next?",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "ごはんを たく？",
+          "romaji": "gohanwo taku?",
+          "en": "Will you cook the rice?"
+        },
+        {
+          "jp": "うん。さかなを やくね。",
+          "romaji": "un.sakanawo yakune.",
+          "en": "Yes. I will grill the fish.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "パスタ、もう ゆでた？",
+          "romaji": "pasuta,mou yudeta?",
+          "en": "Did you boil the pasta yet?"
+        },
+        {
+          "jp": "まだ。おゆを わかしてる。",
+          "romaji": "mada.oyuwo wakashiteru.",
+          "en": "Not yet. I am boiling water.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "きります",
+          "romaji": "kirimasu",
+          "en": "cut"
+        }
+      ]
+    }
+  ]
+}

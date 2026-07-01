@@ -1,0 +1,377 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "W-row + N — ワ行",
+      "rows": [
+        [
+          "ワ wa",
+          "ヰ wi (archaic)",
+          "ヱ we (archaic)",
+          "ヲ wo",
+          "ン n"
+        ]
+      ]
+    },
+    {
+      "type": "reference-chart",
+      "title": "Notes",
+      "rows": [
+        [
+          "ヰ (wi) and ヱ (we)",
+          "archaic — rarely seen in modern text"
+        ],
+        [
+          "ヲ (wo)",
+          "mainly used as a particle; pronounced 'o'"
+        ],
+        [
+          "ン (n)",
+          "the only consonant that stands alone — essential for loanwords"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ワ",
+          "back": "wa",
+          "speakText": "ワ"
+        },
+        {
+          "front": "ン",
+          "back": "n",
+          "speakText": "ン"
+        },
+        {
+          "front": "ヲ",
+          "back": "wo",
+          "speakText": "ヲ"
+        },
+        {
+          "front": "ヰ",
+          "back": "wi",
+          "speakText": "ヰ"
+        },
+        {
+          "front": "ヱ",
+          "back": "we",
+          "speakText": "ヱ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Wa?",
+      "options": [
+        "ウ",
+        "ワ",
+        "フ",
+        "ク"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is N?",
+      "options": [
+        "ソ",
+        "ノ",
+        "ン",
+        "シ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ワ",
+      "answer": "wa"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ン",
+      "answer": "n"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ワ",
+          "wa"
+        ],
+        [
+          "ヰ",
+          "wi"
+        ],
+        [
+          "ヱ",
+          "we"
+        ],
+        [
+          "ヲ",
+          "wo"
+        ],
+        [
+          "ン",
+          "n"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ワ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ウ",
+        "ワ",
+        "フ",
+        "ロ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ン",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ン",
+        "ソ",
+        "ノ",
+        "ツ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Wo?",
+      "options": [
+        "ヌ",
+        "ラ",
+        "ヲ",
+        "モ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ヲ",
+      "answer": "wo",
+      "acceptAlternatives": [
+        "o"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ヰ",
+      "answer": "wi"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Wa? (watch for look-alikes)",
+      "options": [
+        "ワ",
+        "ウ",
+        "フ",
+        "ク"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is N? (watch for look-alikes)",
+      "options": [
+        "ソ",
+        "ツ",
+        "ン",
+        "ノ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "ヲ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ヌ",
+        "ヲ",
+        "ラ",
+        "モ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ヱ",
+      "answer": "we"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is We (archaic)?",
+      "options": [
+        "ヰ",
+        "ユ",
+        "ヱ",
+        "ヨ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "ワイン (wain)",
+          "wine"
+        ],
+        [
+          "レモン (remon)",
+          "lemon"
+        ],
+        [
+          "ラーメン (raamen)",
+          "ramen"
+        ],
+        [
+          "リモコン (rimokon)",
+          "remote control"
+        ],
+        [
+          "カメラマン (kameraman)",
+          "cameraman"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "wine",
+      "answer": [
+        "ワ",
+        "イ",
+        "ン"
+      ],
+      "bank": [
+        "ワ",
+        "ヰ",
+        "ヱ",
+        "ヲ",
+        "ン",
+        "イ",
+        "ウ"
+      ],
+      "speakText": "ワイン"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "lemon",
+      "answer": [
+        "レ",
+        "モ",
+        "ン"
+      ],
+      "bank": [
+        "ワ",
+        "ン",
+        "ヲ",
+        "レ",
+        "ラ",
+        "モ",
+        "メ"
+      ],
+      "speakText": "レモン"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "ramen",
+      "answer": [
+        "ラ",
+        "ー",
+        "メ",
+        "ン"
+      ],
+      "bank": [
+        "ワ",
+        "ン",
+        "ラ",
+        "リ",
+        "メ",
+        "マ",
+        "ー"
+      ],
+      "speakText": "ラーメン"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ワイン",
+      "answer": "wain"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "レモン",
+      "answer": "remon"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ワイン",
+          "wine"
+        ],
+        [
+          "レモン",
+          "lemon"
+        ],
+        [
+          "ラーメン",
+          "ramen"
+        ],
+        [
+          "リモコン",
+          "remote control"
+        ],
+        [
+          "カメラマン",
+          "cameraman"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ラーメン",
+      "prompt": "What did you hear?",
+      "options": [
+        "ramen",
+        "wine",
+        "lemon",
+        "cameraman"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "remote control",
+      "answer": [
+        "リ",
+        "モ",
+        "コ",
+        "ン"
+      ],
+      "bank": [
+        "ワ",
+        "ン",
+        "リ",
+        "ル",
+        "モ",
+        "メ",
+        "コ",
+        "カ"
+      ],
+      "speakText": "リモコン"
+    }
+  ],
+  "id": "katakana-row-w"
+}

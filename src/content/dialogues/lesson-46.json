@@ -1,0 +1,1289 @@
+{
+  "id": "dialogues-lesson-46",
+  "misconceptions": [
+    {
+      "target": "holiday-plans-single-word-answer",
+      "error": "Answers with isolated vocabulary instead of a complete conversational turn.",
+      "mitigation": "Reference rows and response-selection drills keep prompts and natural replies together."
+    },
+    {
+      "target": "holiday-plans-register-mismatch",
+      "error": "Uses casual language with teachers, staff, or strangers.",
+      "mitigation": "Formal, casual, and slang scenes are separated and labeled."
+    },
+    {
+      "target": "holiday-plans-listening-drift",
+      "error": "Chooses a familiar phrase that does not match the audio.",
+      "mitigation": "Listening MC and type-the-answer reuse the exact dialogue speakText."
+    },
+    {
+      "target": "holiday-plans-particle-confusion",
+      "error": "Confuses は, へ, or を in written Japanese source phrases.",
+      "mitigation": "Formula-fill keeps the Japanese particles visible and accepts romaji as support."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Holiday Plans - Formal · Casual · Slang",
+      "intro": "Practice holiday plans as prompt-and-response dialogue, not as loose vocabulary.",
+      "rows": [
+        [
+          "Register",
+          "Japanese",
+          "Romaji",
+          "Typical Response",
+          "Context"
+        ],
+        [
+          "FORMAL",
+          "やすみに なにを しますか？",
+          "yasumini naniwo shimasuka?",
+          "かぞくと きょうとへ いきます。",
+          "I will go to Kyoto with my family."
+        ],
+        [
+          "FORMAL",
+          "かぞくと きょうとへ いきます。",
+          "kazokuto kyoutohe ikimasu.",
+          "そうです。ありがとうございます。",
+          "That is right. Thank you."
+        ],
+        [
+          "CASUAL",
+          "なつやすみ、どこに いく？",
+          "natsuyasumi,dokoni iku?",
+          "うみに いくよ。ホテルも よやくした。",
+          "I will go to the sea. I also booked a hotel."
+        ],
+        [
+          "CASUAL",
+          "うみに いくよ。ホテルも よやくした。",
+          "umini ikuyo.hoterumo yoyakushita.",
+          "いいね。あとで かくにんしよう。",
+          "Nice. Let us check later."
+        ],
+        [
+          "SLANG",
+          "れんきゅう、よてい ある？",
+          "renkyuu,yotei aru?",
+          "まだ ない。うちで のんびり。",
+          "Not yet. I will relax at home."
+        ],
+        [
+          "SLANG",
+          "まだ ない。うちで のんびり。",
+          "mada nai.uchide nonbiri.",
+          "まじか。いいじゃん。",
+          "Really? Nice."
+        ]
+      ],
+      "takeaway": "First choose the right meaning, then choose the right relationship tone."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "A - FORMAL · Holiday Plans",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "先生",
+          "jp": "やすみに なにを しますか？",
+          "romaji": "yasumini naniwo shimasuka?",
+          "en": "What will you do on your holiday?"
+        },
+        {
+          "speaker": "学生",
+          "jp": "かぞくと きょうとへ いきます。",
+          "romaji": "kazokuto kyoutohe ikimasu.",
+          "en": "I will go to Kyoto with my family."
+        },
+        {
+          "speaker": "先生",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "B - CASUAL · Holiday Plans",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "ゆい",
+          "jp": "なつやすみ、どこに いく？",
+          "romaji": "natsuyasumi,dokoni iku?",
+          "en": "Where will you go for summer vacation?"
+        },
+        {
+          "speaker": "たく",
+          "jp": "うみに いくよ。ホテルも よやくした。",
+          "romaji": "umini ikuyo.hoterumo yoyakushita.",
+          "en": "I will go to the sea. I also booked a hotel."
+        },
+        {
+          "speaker": "ゆい",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "C - SLANG · Holiday Plans",
+      "register": "slang",
+      "lines": [
+        {
+          "speaker": "りく",
+          "jp": "れんきゅう、よてい ある？",
+          "romaji": "renkyuu,yotei aru?",
+          "en": "Do you have plans for the long weekend?"
+        },
+        {
+          "speaker": "まい",
+          "jp": "まだ ない。うちで のんびり。",
+          "romaji": "mada nai.uchide nonbiri.",
+          "en": "Not yet. I will relax at home."
+        },
+        {
+          "speaker": "りく",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 1: やすみに なにを しますか？",
+      "prompt": "Which source phrase means: “What will you do on your holiday?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "やすみに なにを しますか？",
+          "romaji": "yasumini naniwo shimasuka?",
+          "en": "What will you do on your holiday?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "やすみに なにを しますか？"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 2: かぞくと きょうとへ いきます。",
+      "prompt": "Which source phrase means: “I will go to Kyoto with my family.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "かぞくと きょうとへ いきます。",
+          "romaji": "kazokuto kyoutohe ikimasu.",
+          "en": "I will go to Kyoto with my family.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "れんきゅう、よてい ある？",
+          "romaji": "renkyuu,yotei aru?",
+          "en": "Do you have plans for the long weekend?",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "やすみ",
+          "romaji": "yasumi",
+          "en": "holiday",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "かぞくと きょうとへ いきます。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 3: そうです。ありがとうございます。",
+      "prompt": "Which source phrase means: “That is right. Thank you.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "まだ ない。うちで のんびり。",
+          "romaji": "mada nai.uchide nonbiri.",
+          "en": "Not yet. I will relax at home.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "りょこうします",
+          "romaji": "ryokoushimasu",
+          "en": "travel",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "そうです。ありがとうございます。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 4: なつやすみ、どこに いく？",
+      "prompt": "Which source phrase means: “Where will you go for summer vacation?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "なつやすみ、どこに いく？",
+          "romaji": "natsuyasumi,dokoni iku?",
+          "en": "Where will you go for summer vacation?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "うみに いきます",
+          "romaji": "umini ikimasu",
+          "en": "go to the sea",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "なつやすみ、どこに いく？"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "やすみに なにを しますか",
+        "answerRomaji": "yasumini naniwo shimasuka?",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "yasumininaniwoshimasuka?"
+        ]
+      },
+      "translation": "What will you do on your holiday?",
+      "speakText": "やすみに なにを しますか？",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "かぞくと きょうとへ いきます",
+        "answerRomaji": "kazokuto kyoutohe ikimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "kazokutokyoutoheikimasu."
+        ]
+      },
+      "translation": "I will go to Kyoto with my family.",
+      "speakText": "かぞくと きょうとへ いきます。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "そうです。ありがとうございます",
+        "answerRomaji": "soudesu.arigatougozaimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "soudesu.arigatougozaimasu."
+        ]
+      },
+      "translation": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "やすみに なにを しますか？",
+          "romaji": "yasumini naniwo shimasuka?",
+          "en": "What will you do on your holiday?"
+        },
+        {
+          "jp": "かぞくと きょうとへ いきます。",
+          "romaji": "kazokuto kyoutohe ikimasu.",
+          "en": "I will go to Kyoto with my family."
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "なつやすみ、どこに いく？",
+          "romaji": "natsuyasumi,dokoni iku?",
+          "en": "Where will you go for summer vacation?"
+        },
+        {
+          "jp": "うみに いくよ。ホテルも よやくした。",
+          "romaji": "umini ikuyo.hoterumo yoyakushita.",
+          "en": "I will go to the sea. I also booked a hotel."
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "れんきゅう、よてい ある？",
+          "romaji": "renkyuu,yotei aru?",
+          "en": "Do you have plans for the long weekend?"
+        },
+        {
+          "jp": "まだ ない。うちで のんびり。",
+          "romaji": "mada nai.uchide nonbiri.",
+          "en": "Not yet. I will relax at home."
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "やすみ",
+          "romaji": "yasumi",
+          "en": "holiday"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "やすみに なにを しますか？",
+      "options": [
+        {
+          "text": "What will you do on your holiday?",
+          "correct": true
+        },
+        {
+          "text": "Where will you go for summer vacation?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Do you have plans for the long weekend?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "holiday",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "かぞくと きょうとへ いきます。",
+      "options": [
+        {
+          "text": "I will go to Kyoto with my family.",
+          "correct": true
+        },
+        {
+          "text": "I will go to the sea. I also booked a hotel.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Not yet. I will relax at home.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "travel",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "そうです。ありがとうございます。",
+      "options": [
+        {
+          "text": "That is right. Thank you.",
+          "correct": true
+        },
+        {
+          "text": "Nice. Let us check later.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "go to the sea",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "なつやすみ、どこに いく？",
+      "options": [
+        {
+          "text": "Where will you go for summer vacation?",
+          "correct": true
+        },
+        {
+          "text": "Do you have plans for the long weekend?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "holiday",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "book a hotel",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "うみに いくよ。ホテルも よやくした。",
+      "options": [
+        {
+          "text": "I will go to the sea. I also booked a hotel.",
+          "correct": true
+        },
+        {
+          "text": "Not yet. I will relax at home.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "travel",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "take photos",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "options": [
+        {
+          "text": "Nice. Let us check later.",
+          "correct": true
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "go to the sea",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "relax",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "れんきゅう、よてい ある？",
+      "options": [
+        {
+          "text": "Do you have plans for the long weekend?",
+          "correct": true
+        },
+        {
+          "text": "holiday",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "book a hotel",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "What will you do on your holiday?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "まだ ない。うちで のんびり。",
+      "options": [
+        {
+          "text": "Not yet. I will relax at home.",
+          "correct": true
+        },
+        {
+          "text": "travel",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "take photos",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "I will go to Kyoto with my family.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "やすみに なにを しますか？",
+        "romaji": "yasumini naniwo shimasuka?",
+        "speakText": "やすみに なにを しますか？"
+      },
+      "options": [
+        {
+          "jp": "かぞくと きょうとへ いきます。",
+          "romaji": "kazokuto kyoutohe ikimasu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "うみに いくよ。ホテルも よやくした。",
+          "romaji": "umini ikuyo.hoterumo yoyakushita.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まだ ない。うちで のんびり。",
+          "romaji": "mada nai.uchide nonbiri.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "かぞくと きょうとへ いきます。",
+        "romaji": "kazokuto kyoutohe ikimasu.",
+        "speakText": "かぞくと きょうとへ いきます。"
+      },
+      "options": [
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "なつやすみ、どこに いく？",
+        "romaji": "natsuyasumi,dokoni iku?",
+        "speakText": "なつやすみ、どこに いく？"
+      },
+      "options": [
+        {
+          "jp": "うみに いくよ。ホテルも よやくした。",
+          "romaji": "umini ikuyo.hoterumo yoyakushita.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "れんきゅう、よてい ある？",
+          "romaji": "renkyuu,yotei aru?",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "やすみ",
+          "romaji": "yasumi",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "うみに いくよ。ホテルも よやくした。",
+        "romaji": "umini ikuyo.hoterumo yoyakushita.",
+        "speakText": "うみに いくよ。ホテルも よやくした。"
+      },
+      "options": [
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まだ ない。うちで のんびり。",
+          "romaji": "mada nai.uchide nonbiri.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "りょこうします",
+          "romaji": "ryokoushimasu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "れんきゅう、よてい ある？",
+        "romaji": "renkyuu,yotei aru?",
+        "speakText": "れんきゅう、よてい ある？"
+      },
+      "options": [
+        {
+          "jp": "まだ ない。うちで のんびり。",
+          "romaji": "mada nai.uchide nonbiri.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "うみに いきます",
+          "romaji": "umini ikimasu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "まだ ない。うちで のんびり。",
+        "romaji": "mada nai.uchide nonbiri.",
+        "speakText": "まだ ない。うちで のんびり。"
+      },
+      "options": [
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "やすみ",
+          "romaji": "yasumi",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "ホテルを よやくします",
+          "romaji": "hoteruwo yoyakushimasu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "やすみに なにを しますか？",
+      "answer": "yasumini naniwo shimasuka?",
+      "acceptAlternatives": [
+        "yasumininaniwoshimasuka?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "かぞくと きょうとへ いきます。",
+      "answer": "kazokuto kyoutohe ikimasu.",
+      "acceptAlternatives": [
+        "kazokutokyoutoheikimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "そうです。ありがとうございます。",
+      "answer": "soudesu.arigatougozaimasu.",
+      "acceptAlternatives": [
+        "soudesu.arigatougozaimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "なつやすみ、どこに いく？",
+      "answer": "natsuyasumi,dokoni iku?",
+      "acceptAlternatives": [
+        "natsuyasumi,dokoniiku?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "うみに いくよ。ホテルも よやくした。",
+      "answer": "umini ikuyo.hoterumo yoyakushita.",
+      "acceptAlternatives": [
+        "uminiikuyo.hoterumoyoyakushita."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "answer": "iine.atode kakuninshiyou.",
+      "acceptAlternatives": [
+        "iine.atodekakuninshiyou."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "れんきゅう、よてい ある？",
+      "answer": "renkyuu,yotei aru?",
+      "acceptAlternatives": [
+        "renkyuu,yoteiaru?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "まだ ない。うちで のんびり。",
+      "answer": "mada nai.uchide nonbiri.",
+      "acceptAlternatives": [
+        "madanai.uchidenonbiri."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "やすみに なにを しますか？",
+      "romaji": "yasumini naniwo shimasuka?",
+      "en": "What will you do on your holiday?",
+      "speakText": "やすみに なにを しますか？",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Holiday Plans",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "かぞくと きょうとへ いきます。",
+      "romaji": "kazokuto kyoutohe ikimasu.",
+      "en": "I will go to Kyoto with my family.",
+      "speakText": "かぞくと きょうとへ いきます。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Holiday Plans",
+      "speaker": "学生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "そうです。ありがとうございます。",
+      "romaji": "soudesu.arigatougozaimasu.",
+      "en": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Holiday Plans",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "なつやすみ、どこに いく？",
+      "romaji": "natsuyasumi,dokoni iku?",
+      "en": "Where will you go for summer vacation?",
+      "speakText": "なつやすみ、どこに いく？",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Holiday Plans",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "うみに いくよ。ホテルも よやくした。",
+      "romaji": "umini ikuyo.hoterumo yoyakushita.",
+      "en": "I will go to the sea. I also booked a hotel.",
+      "speakText": "うみに いくよ。ホテルも よやくした。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Holiday Plans",
+      "speaker": "たく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いいね。あとで かくにんしよう。",
+      "romaji": "iine.atode kakuninshiyou.",
+      "en": "Nice. Let us check later.",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Holiday Plans",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "れんきゅう、よてい ある？",
+      "romaji": "renkyuu,yotei aru?",
+      "en": "Do you have plans for the long weekend?",
+      "speakText": "れんきゅう、よてい ある？",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Holiday Plans",
+      "speaker": "りく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "まだ ない。うちで のんびり。",
+      "romaji": "mada nai.uchide nonbiri.",
+      "en": "Not yet. I will relax at home.",
+      "speakText": "まだ ない。うちで のんびり。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Holiday Plans",
+      "speaker": "まい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "まじか。いいじゃん。",
+      "romaji": "majika.iijan.",
+      "en": "Really? Nice.",
+      "speakText": "まじか。いいじゃん。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Holiday Plans",
+      "speaker": "りく"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "やすみに なにを しますか？",
+          "right": "What will you do on your holiday?"
+        },
+        {
+          "left": "かぞくと きょうとへ いきます。",
+          "right": "I will go to Kyoto with my family."
+        },
+        {
+          "left": "そうです。ありがとうございます。",
+          "right": "That is right. Thank you."
+        },
+        {
+          "left": "なつやすみ、どこに いく？",
+          "right": "Where will you go for summer vacation?"
+        },
+        {
+          "left": "うみに いくよ。ホテルも よやくした。",
+          "right": "I will go to the sea. I also booked a hotel."
+        },
+        {
+          "left": "いいね。あとで かくにんしよう。",
+          "right": "Nice. Let us check later."
+        },
+        {
+          "left": "れんきゅう、よてい ある？",
+          "right": "Do you have plans for the long weekend?"
+        },
+        {
+          "left": "まだ ない。うちで のんびり。",
+          "right": "Not yet. I will relax at home."
+        },
+        {
+          "left": "まじか。いいじゃん。",
+          "right": "Really? Nice."
+        },
+        {
+          "left": "やすみ",
+          "right": "holiday"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "やすみに なにを しますか？",
+          "romaji": "yasumini naniwo shimasuka?",
+          "en": "What will you do on your holiday?"
+        },
+        {
+          "jp": "かぞくと きょうとへ いきます。",
+          "romaji": "kazokuto kyoutohe ikimasu.",
+          "en": "I will go to Kyoto with my family.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "なつやすみ、どこに いく？",
+          "romaji": "natsuyasumi,dokoni iku?",
+          "en": "Where will you go for summer vacation?"
+        },
+        {
+          "jp": "うみに いくよ。ホテルも よやくした。",
+          "romaji": "umini ikuyo.hoterumo yoyakushita.",
+          "en": "I will go to the sea. I also booked a hotel.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "れんきゅう、よてい ある？",
+          "romaji": "renkyuu,yotei aru?",
+          "en": "Do you have plans for the long weekend?"
+        },
+        {
+          "jp": "まだ ない。うちで のんびり。",
+          "romaji": "mada nai.uchide nonbiri.",
+          "en": "Not yet. I will relax at home.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "やすみ",
+          "romaji": "yasumi",
+          "en": "holiday"
+        }
+      ]
+    }
+  ]
+}

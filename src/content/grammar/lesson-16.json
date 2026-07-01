@@ -1,0 +1,739 @@
+{
+  "id": "grammar-lesson-16",
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Frequency Adverbs",
+      "intro": "Frequency adverbs tell how often something happens. They usually come before the verb phrase, often near the time or topic.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "いつも",
+          "itsumo",
+          "always"
+        ],
+        [
+          "よく",
+          "yoku",
+          "often"
+        ],
+        [
+          "ときどき",
+          "tokidoki",
+          "sometimes"
+        ],
+        [
+          "たまに",
+          "tamani",
+          "occasionally"
+        ],
+        [
+          "まいにち",
+          "mainichi",
+          "every day"
+        ],
+        [
+          "あまり",
+          "amari",
+          "not very / not much"
+        ],
+        [
+          "ぜんぜん",
+          "zenzen",
+          "not at all"
+        ]
+      ],
+      "takeaway": "Use frequency adverbs before the action; あまり and ぜんぜん usually need a negative ending."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which adverb means 'sometimes'?",
+      "options": [
+        "ときどき",
+        "いつも",
+        "ぜんぜん",
+        "もう"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I sometimes watch TV' using the frequency adverb:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        " テレビを みます。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        " terebi o mimasu."
+      ],
+      "slot": {
+        "answer": "ときどき",
+        "answerRomaji": "tokidoki",
+        "hint": "The frequency adverb meaning sometimes.",
+        "acceptAlternatives": [
+          "Tokidoki"
+        ]
+      },
+      "translation": "I sometimes watch TV.",
+      "speakText": "ときどき テレビを みます。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Degree Adverbs Before Adjectives",
+      "intro": "Use degree adverbs before the adjective or adverb they modify. Keep post-position words like だけ and くらい separate because they come after nouns or amounts.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "とても",
+          "totemo",
+          "very"
+        ],
+        [
+          "すこし",
+          "sukoshi",
+          "a little"
+        ],
+        [
+          "ちょっと",
+          "chotto",
+          "a little / briefly"
+        ],
+        [
+          "もっと",
+          "motto",
+          "more"
+        ],
+        [
+          "いちばん",
+          "ichiban",
+          "the most / number one"
+        ]
+      ],
+      "takeaway": "These degree adverbs usually come before the adjective or phrase they modify."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which phrase means 'very delicious'?",
+      "options": [
+        "とても おいしい",
+        "ときどき おいしい",
+        "もう おいしい",
+        "まだ おいしい"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'This room is a little cold' using a degree word:",
+      "patternJp": [
+        "この へやは ",
+        "[SLOT]",
+        " さむいです。"
+      ],
+      "patternRom": [
+        "kono heya wa ",
+        "[SLOT]",
+        " samui desu."
+      ],
+      "slot": {
+        "answer": "すこし",
+        "answerRomaji": "sukoshi",
+        "hint": "The degree word meaning a little.",
+        "acceptAlternatives": [
+          "Sukoshi"
+        ]
+      },
+      "translation": "This room is a little cold.",
+      "speakText": "この へやは すこし さむいです。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Negative Polarity: あまり and ぜんぜん",
+      "intro": "あまり and ぜんぜん pair with a negative ending in beginner Japanese. あまり means not very; ぜんぜん means not at all.",
+      "rows": [
+        [
+          "Pattern",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "あまり + negative",
+          "amari + negative",
+          "not very / not much"
+        ],
+        [
+          "ぜんぜん + negative",
+          "zenzen + negative",
+          "not at all"
+        ],
+        [
+          "あまり たべません",
+          "amari tabemasen",
+          "I don't eat much"
+        ],
+        [
+          "ぜんぜん わかりません",
+          "zenzen wakarimasen",
+          "I don't understand at all"
+        ],
+        [
+          "あまり たかくない",
+          "amari takakunai",
+          "not very expensive"
+        ]
+      ],
+      "takeaway": "Pair あまり and ぜんぜん with negative forms."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which sentence naturally means 'I don't understand at all'?",
+      "options": [
+        "ぜんぜん わかりません。",
+        "ぜんぜん わかります。",
+        "とても わかりません。",
+        "もう わかりません。"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'It is not very expensive' with あまり:",
+      "patternJp": [
+        "あまり たか",
+        "[SLOT]",
+        "です。"
+      ],
+      "patternRom": [
+        "amari taka",
+        "[SLOT]",
+        " desu."
+      ],
+      "slot": {
+        "answer": "くない",
+        "answerRomaji": "kunai",
+        "hint": "The negative ending for an i-adjective.",
+        "acceptAlternatives": [
+          "Kunai"
+        ]
+      },
+      "translation": "It is not very expensive.",
+      "speakText": "あまり たかくないです。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Status Adverbs: もう and まだ",
+      "intro": "もう means already or no longer; まだ means still or not yet. The meaning depends on whether the sentence is affirmative or negative.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "もう たべました",
+          "mou tabemashita",
+          "already ate"
+        ],
+        [
+          "まだ たべていません",
+          "mada tabete imasen",
+          "have not eaten yet"
+        ],
+        [
+          "まだ あついです",
+          "mada atsui desu",
+          "it is still hot"
+        ],
+        [
+          "もう あつくないです",
+          "mou atsukunai desu",
+          "it is no longer hot"
+        ],
+        [
+          "もう いきます",
+          "mou ikimasu",
+          "I am leaving now / soon"
+        ]
+      ],
+      "takeaway": "もう = already/no longer; まだ = still/not yet."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which sentence means 'I have not eaten yet'?",
+      "options": [
+        "まだ たべていません。",
+        "もう たべました。",
+        "まだ たべました。",
+        "もう たべていません。"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'It is still hot' with まだ:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        " あついです。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        " atsui desu."
+      ],
+      "slot": {
+        "answer": "まだ",
+        "answerRomaji": "mada",
+        "hint": "The status adverb meaning still or not yet.",
+        "acceptAlternatives": [
+          "Mada"
+        ]
+      },
+      "translation": "It is still hot.",
+      "speakText": "まだ あついです。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence correctly uses あまり?",
+      "title": "あまり needs a negative",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "あまり たべません。",
+          "romaji": "amari tabemasen.",
+          "en": "I don't eat much.",
+          "note": "あまり pairs naturally with a negative verb.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "あまり たべます。",
+          "romaji": "amari tabemasu.",
+          "en": "(intended: I don't eat much)",
+          "note": "With an affirmative verb, this does not make the beginner pattern.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "よく たべます。",
+          "romaji": "yoku tabemasu.",
+          "en": "I often eat.",
+          "note": "よく is affirmative frequency, not negative degree.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use あまり with a negative form for 'not very/much'.",
+      "speakText": "あまり たべません。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly says 'very interesting'?",
+      "title": "degree before adjective",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "とても おもしろいです。",
+          "romaji": "totemo omoshiroi desu.",
+          "en": "It is very interesting.",
+          "note": "とても comes before the adjective.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "おもしろい とてもです。",
+          "romaji": "omoshiroi totemo desu.",
+          "en": "(intended: very interesting)",
+          "note": "Degree words normally come before what they modify.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "とても おもしろくないです。",
+          "romaji": "totemo omoshirokunai desu.",
+          "en": "It is very uninteresting / not interesting.",
+          "note": "The negative ending changes the meaning.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Put degree words before the adjective.",
+      "speakText": "とても おもしろいです。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which means 'not at all'?",
+      "title": "ぜんぜん with negative",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "ぜんぜん わかりません。",
+          "romaji": "zenzen wakarimasen.",
+          "en": "I don't understand at all.",
+          "note": "ぜんぜん strongly pairs with a negative.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "ぜんぜん わかります。",
+          "romaji": "zenzen wakarimasu.",
+          "en": "(intended: I understand completely)",
+          "note": "Beginner Japanese uses ぜんぜん with negative forms.",
+          "correct": false
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "すこし わかります。",
+          "romaji": "sukoshi wakarimasu.",
+          "en": "I understand a little.",
+          "note": "すこし is a small positive amount.",
+          "correct": false
+        }
+      ],
+      "takeaway": "ぜんぜん + negative = not at all.",
+      "speakText": "ぜんぜん わかりません。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly says 'I have not eaten yet'?",
+      "title": "もう vs まだ",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "まだ たべていません。",
+          "romaji": "mada tabete imasen.",
+          "en": "I have not eaten yet.",
+          "note": "まだ + negative means not yet.",
+          "correct": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "もう たべました。",
+          "romaji": "mou tabemashita.",
+          "en": "I already ate.",
+          "note": "もう + past affirmative means already.",
+          "correct": false
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "まだ たべました。",
+          "romaji": "mada tabemashita.",
+          "en": "(intended: already ate / still ate)",
+          "note": "Use もう for already; use まだ with negative for not yet.",
+          "correct": false
+        }
+      ],
+      "takeaway": "まだ + negative = not yet; もう + past = already.",
+      "speakText": "まだ たべていません。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Adverbs and Degree Words in Context",
+      "intro": "These examples show frequency, degree, negative polarity, and status adverbs in short N5 sentences. Listen for where the adverb sits before the phrase it modifies.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "English"
+        ],
+        [
+          "いつも あさごはんを たべます。",
+          "itsumo asagohan o tabemasu.",
+          "I always eat breakfast."
+        ],
+        [
+          "ときどき テレビを みます。",
+          "tokidoki terebi o mimasu.",
+          "I sometimes watch TV."
+        ],
+        [
+          "この へやは すこし さむいです。",
+          "kono heya wa sukoshi samui desu.",
+          "This room is a little cold."
+        ],
+        [
+          "この ほんは とても おもしろいです。",
+          "kono hon wa totemo omoshiroi desu.",
+          "This book is very interesting."
+        ],
+        [
+          "あまり たかくないです。",
+          "amari takakunai desu.",
+          "It is not very expensive."
+        ],
+        [
+          "ぜんぜん わかりません。",
+          "zenzen wakarimasen.",
+          "I don't understand at all."
+        ],
+        [
+          "もう たべました。",
+          "mou tabemashita.",
+          "I already ate."
+        ],
+        [
+          "まだ たべていません。",
+          "mada tabete imasen.",
+          "I have not eaten yet."
+        ]
+      ],
+      "takeaway": "Adverbs usually come before the word or phrase they change."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "I never eat breakfast.",
+        "I sometimes eat breakfast.",
+        "I always eat breakfast.",
+        "I already ate breakfast."
+      ],
+      "correctIndex": 2,
+      "speakText": "いつも あさごはんを たべます。"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "I sometimes watch TV.",
+        "I always watch TV.",
+        "I don't watch TV at all.",
+        "I watched TV already."
+      ],
+      "correctIndex": 0,
+      "speakText": "ときどき テレビを みます。"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "This room is very cold.",
+        "This room is a little cold.",
+        "This room is not cold.",
+        "This room is still hot."
+      ],
+      "correctIndex": 1,
+      "speakText": "この へやは すこし さむいです。"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "This book is very interesting.",
+        "This book is not interesting.",
+        "This book is a little old.",
+        "This book is sometimes interesting."
+      ],
+      "correctIndex": 0,
+      "speakText": "この ほんは とても おもしろいです。"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "It is very expensive.",
+        "It was expensive.",
+        "It is not very expensive.",
+        "It is the most expensive."
+      ],
+      "correctIndex": 2,
+      "speakText": "あまり たかくないです。"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "I understand well.",
+        "I understand a little.",
+        "I don't understand at all.",
+        "I sometimes understand."
+      ],
+      "correctIndex": 2,
+      "speakText": "ぜんぜん わかりません。"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "I already ate.",
+        "I have not eaten yet.",
+        "I am still eating.",
+        "I always eat."
+      ],
+      "correctIndex": 0,
+      "speakText": "もう たべました。"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "options": [
+        "I already ate.",
+        "I have not eaten yet.",
+        "I eat every day.",
+        "I don't eat much."
+      ],
+      "correctIndex": 1,
+      "speakText": "まだ たべていません。"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "いつも たべます",
+      "answer": "itsumo tabemasu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "ときどき みます",
+      "answer": "tokidoki mimasu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "すこし さむいです",
+      "answer": "sukoshi samui desu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "とても おもしろいです",
+      "answer": "totemo omoshiroi desu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "あまり たかくないです",
+      "answer": "amari takakunai desu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "ぜんぜん わかりません",
+      "answer": "zenzen wakarimasen",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "まだ たべていません",
+      "answer": "mada tabete imasen",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning:",
+      "pairs": [
+        {
+          "left": "いつも",
+          "right": "always"
+        },
+        {
+          "left": "よく",
+          "right": "often"
+        },
+        {
+          "left": "ときどき",
+          "right": "sometimes"
+        },
+        {
+          "left": "たまに",
+          "right": "occasionally"
+        },
+        {
+          "left": "とても",
+          "right": "very"
+        },
+        {
+          "left": "すこし",
+          "right": "a little"
+        },
+        {
+          "left": "もっと",
+          "right": "more"
+        },
+        {
+          "left": "あまり",
+          "right": "not very / not much"
+        },
+        {
+          "left": "ぜんぜん",
+          "right": "not at all"
+        },
+        {
+          "left": "まだ",
+          "right": "still / not yet"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice - adverbs and degree words",
+      "cards": [
+        {
+          "jp": "いつも あさごはんを たべます。",
+          "romaji": "itsumo asagohan o tabemasu.",
+          "en": "I always eat breakfast."
+        },
+        {
+          "jp": "ときどき テレビを みます。",
+          "romaji": "tokidoki terebi o mimasu.",
+          "en": "I sometimes watch TV."
+        },
+        {
+          "jp": "この へやは すこし さむいです。",
+          "romaji": "kono heya wa sukoshi samui desu.",
+          "en": "This room is a little cold."
+        },
+        {
+          "jp": "この ほんは とても おもしろいです。",
+          "romaji": "kono hon wa totemo omoshiroi desu.",
+          "en": "This book is very interesting."
+        },
+        {
+          "jp": "もっと みずが ほしいです。",
+          "romaji": "motto mizu ga hoshii desu.",
+          "en": "I want more water."
+        },
+        {
+          "jp": "あまり たかくないです。",
+          "romaji": "amari takakunai desu.",
+          "en": "It is not very expensive."
+        },
+        {
+          "jp": "ぜんぜん わかりません。",
+          "romaji": "zenzen wakarimasen.",
+          "en": "I don't understand at all."
+        },
+        {
+          "jp": "もう たべました。",
+          "romaji": "mou tabemashita.",
+          "en": "I already ate."
+        },
+        {
+          "jp": "まだ たべていません。",
+          "romaji": "mada tabete imasen.",
+          "en": "I have not eaten yet."
+        },
+        {
+          "jp": "これは いちばん おいしいです。",
+          "romaji": "kore wa ichiban oishii desu.",
+          "en": "This is the most delicious."
+        }
+      ]
+    }
+  ]
+}

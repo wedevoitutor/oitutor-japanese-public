@@ -1,0 +1,1336 @@
+{
+  "id": "dialogues-lesson-10",
+  "misconceptions": [
+    {
+      "target": "price-vs-quantity",
+      "error": "Answers いくら with a quantity instead of a price.",
+      "mitigation": "Meaning checks and response-selection drills separate いくら from いくつ."
+    },
+    {
+      "target": "native-counters",
+      "error": "Uses plain numbers where native counters like みっつ are needed for things.",
+      "mitigation": "Formula-fill and matching include native thing counters."
+    },
+    {
+      "target": "age-vs-count",
+      "error": "Confuses おいくつですか with asking how many items there are.",
+      "mitigation": "Comparison cards and MC items distinguish age from quantity."
+    },
+    {
+      "target": "sanbyaku-reading",
+      "error": "Misreads さんびゃくえん as 30 yen or 300 items.",
+      "mitigation": "Listening meaning checks contrast 300 yen with other number meanings."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Numbers 0-100 - Standard · Casual",
+      "intro": "Numbers for prices, quantities, ages, and sharing items, with the most useful N5 counters and casual shortcuts.",
+      "rows": [
+        [
+          "Number / Counter",
+          "Japanese",
+          "Romaji",
+          "Meaning",
+          "Context"
+        ],
+        [
+          "CORE NUMBER",
+          "いち",
+          "ichi",
+          "1 — Sino-Japanese",
+          "Source item from the lesson number, counter, and price practice arrays."
+        ],
+        [
+          "CORE NUMBER",
+          "に",
+          "ni",
+          "2 — Sino-Japanese",
+          "Source item from the lesson number, counter, and price practice arrays."
+        ],
+        [
+          "CORE NUMBER",
+          "さん",
+          "san",
+          "3 — Sino-Japanese",
+          "Source item from the lesson number, counter, and price practice arrays."
+        ],
+        [
+          "CORE NUMBER",
+          "じゅう",
+          "juu",
+          "10 — Sino-Japanese",
+          "Source item from the lesson number, counter, and price practice arrays."
+        ],
+        [
+          "CORE NUMBER",
+          "ひゃく",
+          "hyaku",
+          "100 — Sino-Japanese",
+          "Source item from the lesson number, counter, and price practice arrays."
+        ],
+        [
+          "CORE COUNTER",
+          "ひとつ",
+          "hitotsu",
+          "one thing — native counter",
+          "Source item from the lesson number, counter, and price practice arrays."
+        ],
+        [
+          "CORE COUNTER",
+          "ふたつ",
+          "futatsu",
+          "two things — native counter",
+          "Source item from the lesson number, counter, and price practice arrays."
+        ],
+        [
+          "CORE COUNTER",
+          "みっつ",
+          "mittsu",
+          "three things — native counter",
+          "Source item from the lesson number, counter, and price practice arrays."
+        ],
+        [
+          "CORE COUNTER",
+          "むっつ",
+          "muttsu",
+          "six things — native counter",
+          "Source item from the lesson number, counter, and price practice arrays."
+        ],
+        [
+          "CORE COUNTER",
+          "いくら",
+          "ikura",
+          "how much? (price)",
+          "Source item from the lesson number, counter, and price practice arrays."
+        ]
+      ],
+      "takeaway": "Use Sino-Japanese numbers for prices and many counts, native counters like ひとつ and みっつ for general things, and さい for age."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "STANDARD - At a market",
+      "register": "polite",
+      "lines": [
+        {
+          "speaker": "田中",
+          "jp": "このりんごは いくらですか？",
+          "romaji": "Kono ringo wa ikura desu ka?",
+          "en": "How much are these apples?"
+        },
+        {
+          "speaker": "鈴木",
+          "jp": "ひとつ ひゃくえんです。",
+          "romaji": "Hitotsu hyaku en desu.",
+          "en": "They're 100 yen each."
+        },
+        {
+          "speaker": "田中",
+          "jp": "では、みっつ おねがいします。",
+          "romaji": "Dewa, mittsu onegaishimasu.",
+          "en": "Then, three please."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "STANDARD - Asking age",
+      "register": "polite",
+      "lines": [
+        {
+          "speaker": "田中",
+          "jp": "おいくつですか？",
+          "romaji": "O-ikutsu desu ka?",
+          "en": "How old are you? (polite)"
+        },
+        {
+          "speaker": "鈴木",
+          "jp": "さんじゅうにさいです。あなたは？",
+          "romaji": "Sanjuu ni sai desu. Anata wa?",
+          "en": "I'm 32. And you?"
+        },
+        {
+          "speaker": "田中",
+          "jp": "にじゅうきゅうさいです。",
+          "romaji": "Nijuu kyuu sai desu.",
+          "en": "I'm 29."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "CASUAL - Counting with friends",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "田中",
+          "jp": "ねえ、これ いくつある？",
+          "romaji": "Nee, kore ikutsu aru?",
+          "en": "Hey, how many of these are there?"
+        },
+        {
+          "speaker": "鈴木",
+          "jp": "ええと、むっつかな。",
+          "romaji": "Eeto, muttsu kana.",
+          "en": "Hmm, about six I think."
+        },
+        {
+          "speaker": "田中",
+          "jp": "じゃ、みっつずつ わけよう！",
+          "romaji": "Ja, mittsu zutsu wakeyou!",
+          "en": "Then let's split them three each!"
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which source phrase matches: \"1 — Sino-Japanese\"?",
+      "title": "Contrast 1: いち",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "いち",
+          "romaji": "ichi",
+          "en": "1 — Sino-Japanese",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "に",
+          "romaji": "ni",
+          "en": "2 — Sino-Japanese",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "さん",
+          "romaji": "san",
+          "en": "3 — Sino-Japanese",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "いち"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which source phrase matches: \"3 — Sino-Japanese\"?",
+      "title": "Contrast 3: さん",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "さん",
+          "romaji": "san",
+          "en": "3 — Sino-Japanese",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "じゅう",
+          "romaji": "juu",
+          "en": "10 — Sino-Japanese",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "ひゃく",
+          "romaji": "hyaku",
+          "en": "100 — Sino-Japanese",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "さん"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which source phrase matches: \"100 — Sino-Japanese\"?",
+      "title": "Contrast 5: ひゃく",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "ひゃく",
+          "romaji": "hyaku",
+          "en": "100 — Sino-Japanese",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "ひとつ",
+          "romaji": "hitotsu",
+          "en": "one thing — native counter",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "ふたつ",
+          "romaji": "futatsu",
+          "en": "two things — native counter",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "ひゃく"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which source phrase matches: \"two things — native counter\"?",
+      "title": "Contrast 7: ふたつ",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "ふたつ",
+          "romaji": "futatsu",
+          "en": "two things — native counter",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "みっつ",
+          "romaji": "mittsu",
+          "en": "three things — native counter",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "むっつ",
+          "romaji": "muttsu",
+          "en": "six things — native counter",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "ふたつ"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the key phrase from the source lesson:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "いくらですか",
+        "answerRomaji": "ikura desu ka",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "ikura desuka",
+          "ikuradesuka",
+          "ikura desu ka"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "いくらですか",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the whole source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "ひゃくえん",
+        "answerRomaji": "hyaku en",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "hyakuen",
+          "hyaku en"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "ひゃくえん",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the whole source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "みっつください",
+        "answerRomaji": "mittsu kudasai",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "mittsukundasai",
+          "mittsu kudasai"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "みっつください",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "いち",
+          "romaji": "ichi",
+          "en": "1 — Sino-Japanese"
+        },
+        {
+          "jp": "に",
+          "romaji": "ni",
+          "en": "2 — Sino-Japanese"
+        },
+        {
+          "jp": "さん",
+          "romaji": "san",
+          "en": "3 — Sino-Japanese"
+        },
+        {
+          "jp": "じゅう",
+          "romaji": "juu",
+          "en": "10 — Sino-Japanese"
+        },
+        {
+          "jp": "ひゃく",
+          "romaji": "hyaku",
+          "en": "100 — Sino-Japanese"
+        },
+        {
+          "jp": "ひとつ",
+          "romaji": "hitotsu",
+          "en": "one thing — native counter"
+        },
+        {
+          "jp": "ふたつ",
+          "romaji": "futatsu",
+          "en": "two things — native counter"
+        },
+        {
+          "jp": "みっつ",
+          "romaji": "mittsu",
+          "en": "three things — native counter"
+        },
+        {
+          "jp": "むっつ",
+          "romaji": "muttsu",
+          "en": "six things — native counter"
+        },
+        {
+          "jp": "いくら",
+          "romaji": "ikura",
+          "en": "how much? (price)"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "このりんごはいくらですか？",
+      "options": [
+        {
+          "text": "How many apples are there?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "How much are these apples?",
+          "correct": true
+        },
+        {
+          "text": "Do you like apples?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Can I have an apple?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ひとつひゃくえんです",
+      "options": [
+        {
+          "text": "100 items available",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "One is 100 yen",
+          "correct": true
+        },
+        {
+          "text": "Please give me one",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "One hundred each",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "みっつおねがいします",
+      "options": [
+        {
+          "text": "Three please",
+          "correct": true
+        },
+        {
+          "text": "Give me more",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "How many?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "That's too many",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "さんびゃくえんです",
+      "options": [
+        {
+          "text": "It's 30 yen",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "It's 300 items",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "It's 300 yen",
+          "correct": true
+        },
+        {
+          "text": "Please pay 3,000 yen",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "おいくつですか",
+      "options": [
+        {
+          "text": "How many do you want?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "How old are you? (polite)",
+          "correct": true
+        },
+        {
+          "text": "What is your name?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Where do you live?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "にじゅうきゅうさいです",
+      "options": [
+        {
+          "text": "I'm 29 years old",
+          "correct": true
+        },
+        {
+          "text": "I have 29 things",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "I'm 92 years old",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "29 is expensive",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "むっつかな",
+      "options": [
+        {
+          "text": "About three, I think",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "About ten, I think",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "About six, I think",
+          "correct": true
+        },
+        {
+          "text": "About eight, I think",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "みっつずつわけよう",
+      "options": [
+        {
+          "text": "Let's share three each",
+          "correct": true
+        },
+        {
+          "text": "Give me three",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Three is enough",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Three are missing",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "このりんごは いくらですか？",
+        "romaji": "Kono ringo wa ikura desu ka?",
+        "speakText": "このりんごはいくらですか"
+      },
+      "options": [
+        {
+          "jp": "ひとつ ひゃくえんです。",
+          "romaji": "Hitotsu hyaku en desu.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "りんごが すきです。",
+          "romaji": "Ringo ga suki desu.",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This is a familiar phrase, but it does not answer this prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "むっつ あります。",
+          "romaji": "Muttsu arimasu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "みっつ おねがいします",
+        "romaji": "Mittsu onegaishimasu",
+        "speakText": "みっつおねがいします"
+      },
+      "options": [
+        {
+          "jp": "むずかしいです。",
+          "romaji": "Muzukashii desu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption0",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はい、さんびゃくえんです。",
+          "romaji": "Hai, san byaku en desu.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いいえ、あります。",
+          "romaji": "Iie, arimasu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "おいくつですか？",
+        "romaji": "O-ikutsu desu ka?",
+        "speakText": "おいくつですか"
+      },
+      "options": [
+        {
+          "jp": "さんじゅうにさいです。",
+          "romaji": "Sanjuu ni sai desu.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "りんごです。",
+          "romaji": "Ringo desu.",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This is a familiar phrase, but it does not answer this prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "みっつ ください。",
+          "romaji": "Mittsu kudasai.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "これ いくつある？",
+        "romaji": "Kore ikutsu aru?",
+        "speakText": "これいくつある"
+      },
+      "options": [
+        {
+          "jp": "たかいです！",
+          "romaji": "Takai desu!",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption0",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "むっつかな。",
+          "romaji": "Muttsu kana.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "friends",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はい、そうです。",
+          "romaji": "Hai, sou desu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Review from dialogues-lesson-08: choose the best response:",
+      "reviewFrom": "dialogues-lesson-08",
+      "question": {
+        "jp": "このほん、きみの？",
+        "romaji": "Kono hon, kimi no?",
+        "speakText": "このほん、きみの？"
+      },
+      "options": [
+        {
+          "jp": "うん、ぼくのだよ。",
+          "romaji": "Un, boku no da yo.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "friends",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はじめまして、よろしく！",
+          "romaji": "Hajimemashite, yoroshiku!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor0",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "おはようございます！",
+          "romaji": "Ohayou gozaimasu!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor1",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "formal",
+          "relationship": "junior-to-senior",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Review from dialogues-lesson-09: choose the best response:",
+      "reviewFrom": "dialogues-lesson-09",
+      "question": {
+        "jp": "しゅうまつ なにするの？",
+        "romaji": "Shuumatsu nani suru no?",
+        "speakText": "しゅうまつ なにするの？"
+      },
+      "options": [
+        {
+          "jp": "えいがを みるよ。",
+          "romaji": "Eiga wo miru yo.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はじめまして、よろしく！",
+          "romaji": "Hajimemashite, yoroshiku!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor0",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "おはようございます！",
+          "romaji": "Ohayou gozaimasu!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor1",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "formal",
+          "relationship": "junior-to-senior",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "いくらですか",
+      "answer": "ikura desu ka",
+      "acceptAlternatives": [
+        "ikura desuka",
+        "ikuradesuka"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "ひゃくえん",
+      "answer": "hyaku en",
+      "acceptAlternatives": [
+        "hyakuen"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "みっつください",
+      "answer": "mittsu kudasai",
+      "acceptAlternatives": [
+        "mittsukundasai"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "さんびゃくえん",
+      "answer": "san byaku en",
+      "acceptAlternatives": [
+        "sanbyaku en",
+        "sanbyakuen",
+        "san byakuen"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "おいくつですか",
+      "answer": "o ikutsu desu ka",
+      "acceptAlternatives": [
+        "oikutsu desu ka",
+        "oikutsudesuka",
+        "o ikutsuka"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "にじゅうきゅうさいです",
+      "answer": "nijuu kyuu sai desu",
+      "acceptAlternatives": [
+        "nijuukyuusai desu",
+        "nijuu kyu sai desu",
+        "nijuukyuusaidesu"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "みっつずつわけよう",
+      "answer": "mittsu zutsu wakeyou",
+      "acceptAlternatives": [
+        "mittsu zutsu wakeyoo",
+        "mitsuzutsuwakeyou"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is still accepted:",
+      "speakText": "ひとつひゃくえんです",
+      "answer": "hitotsu hyaku en desu",
+      "acceptAlternatives": [
+        "hitotsu hyakuen desu",
+        "hitotsuhyakuendesu"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "このりんごは いくらですか？",
+      "romaji": "Kono ringo wa ikura desu ka?",
+      "en": "How much are these apples?",
+      "speakText": "このりんごは いくらですか？",
+      "register": "polite",
+      "dialogueContext": "A - At a market",
+      "speaker": "田中"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ひとつ ひゃくえんです。",
+      "romaji": "Hitotsu hyaku en desu.",
+      "en": "They're 100 yen each.",
+      "speakText": "ひとつ ひゃくえんです。",
+      "register": "polite",
+      "dialogueContext": "A - At a market",
+      "speaker": "鈴木"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "では、みっつ おねがいします。",
+      "romaji": "Dewa, mittsu onegaishimasu.",
+      "en": "Then, three please.",
+      "speakText": "では、みっつ おねがいします。",
+      "register": "polite",
+      "dialogueContext": "A - At a market",
+      "speaker": "田中"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "おいくつですか？",
+      "romaji": "O-ikutsu desu ka?",
+      "en": "How old are you? (polite)",
+      "speakText": "おいくつですか？",
+      "register": "polite",
+      "dialogueContext": "B - Asking age",
+      "speaker": "田中"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "さんじゅうにさいです。あなたは？",
+      "romaji": "Sanjuu ni sai desu. Anata wa?",
+      "en": "I'm 32. And you?",
+      "speakText": "さんじゅうにさいです。あなたは？",
+      "register": "polite",
+      "dialogueContext": "B - Asking age",
+      "speaker": "鈴木"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "にじゅうきゅうさいです。",
+      "romaji": "Nijuu kyuu sai desu.",
+      "en": "I'm 29.",
+      "speakText": "にじゅうきゅうさいです。",
+      "register": "polite",
+      "dialogueContext": "B - Asking age",
+      "speaker": "田中"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ねえ、これ いくつある？",
+      "romaji": "Nee, kore ikutsu aru?",
+      "en": "Hey, how many of these are there?",
+      "speakText": "ねえ、これ いくつある？",
+      "register": "casual",
+      "dialogueContext": "C - Counting with friends",
+      "speaker": "田中"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ええと、むっつかな。",
+      "romaji": "Eeto, muttsu kana.",
+      "en": "Hmm, about six I think.",
+      "speakText": "ええと、むっつかな。",
+      "register": "casual",
+      "dialogueContext": "C - Counting with friends",
+      "speaker": "鈴木"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "じゃ、みっつずつ わけよう！",
+      "romaji": "Ja, mittsu zutsu wakeyou!",
+      "en": "Then let's split them three each!",
+      "speakText": "じゃ、みっつずつ わけよう！",
+      "register": "casual",
+      "dialogueContext": "C - Counting with friends",
+      "speaker": "田中"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "いち",
+          "right": "1 — Sino-Japanese"
+        },
+        {
+          "left": "に",
+          "right": "2 — Sino-Japanese"
+        },
+        {
+          "left": "さん",
+          "right": "3 — Sino-Japanese"
+        },
+        {
+          "left": "じゅう",
+          "right": "10 — Sino-Japanese"
+        },
+        {
+          "left": "ひゃく",
+          "right": "100 — Sino-Japanese"
+        },
+        {
+          "left": "ひとつ",
+          "right": "one thing — native counter"
+        },
+        {
+          "left": "[LANGUAGE]語が わかります。",
+          "right": "I understand [LANGUAGE].",
+          "reviewFrom": "dialogues-lesson-06"
+        },
+        {
+          "left": "にほんごが できます。",
+          "right": "I can speak Japanese.",
+          "reviewFrom": "dialogues-lesson-07"
+        },
+        {
+          "left": "これは わたしの かばんです。",
+          "right": "This is my bag.",
+          "reviewFrom": "dialogues-lesson-08"
+        },
+        {
+          "left": "どこに いきますか？",
+          "right": "Where are you going?",
+          "reviewFrom": "dialogues-lesson-09"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "このりんごは いくらですか？",
+          "romaji": "Kono ringo wa ikura desu ka?",
+          "en": "How much are these apples?"
+        },
+        {
+          "jp": "ひとつ ひゃくえんです。",
+          "romaji": "Hitotsu hyaku en desu.",
+          "en": "They're 100 yen each.",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "A - At a market; register is polite."
+          }
+        },
+        {
+          "jp": "では、みっつ おねがいします。",
+          "romaji": "Dewa, mittsu onegaishimasu.",
+          "en": "Then, three please."
+        },
+        {
+          "jp": "おいくつですか？",
+          "romaji": "O-ikutsu desu ka?",
+          "en": "How old are you? (polite)"
+        },
+        {
+          "jp": "さんじゅうにさいです。あなたは？",
+          "romaji": "Sanjuu ni sai desu. Anata wa?",
+          "en": "I'm 32. And you?",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "B - Asking age; register is polite."
+          }
+        },
+        {
+          "jp": "にじゅうきゅうさいです。",
+          "romaji": "Nijuu kyuu sai desu.",
+          "en": "I'm 29."
+        },
+        {
+          "jp": "ねえ、これ いくつある？",
+          "romaji": "Nee, kore ikutsu aru?",
+          "en": "Hey, how many of these are there?"
+        },
+        {
+          "jp": "ええと、むっつかな。",
+          "romaji": "Eeto, muttsu kana.",
+          "en": "Hmm, about six I think.",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "C - Counting with friends; register is casual."
+          }
+        },
+        {
+          "jp": "じゃ、みっつずつ わけよう！",
+          "romaji": "Ja, mittsu zutsu wakeyou!",
+          "en": "Then let's split them three each!"
+        },
+        {
+          "jp": "いち",
+          "romaji": "ichi",
+          "en": "1 — Sino-Japanese"
+        }
+      ]
+    }
+  ]
+}

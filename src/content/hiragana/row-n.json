@@ -1,0 +1,360 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "N-row — な行",
+      "rows": [
+        [
+          "な na",
+          "に ni",
+          "ぬ nu",
+          "ね ne",
+          "の no"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "の",
+          "back": "no",
+          "speakText": "の"
+        },
+        {
+          "front": "ぬ",
+          "back": "nu",
+          "speakText": "ぬ"
+        },
+        {
+          "front": "に",
+          "back": "ni",
+          "speakText": "に"
+        },
+        {
+          "front": "ね",
+          "back": "ne",
+          "speakText": "ね"
+        },
+        {
+          "front": "な",
+          "back": "na",
+          "speakText": "な"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Na?",
+      "options": [
+        "ね",
+        "な",
+        "に",
+        "の"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ni?",
+      "options": [
+        "な",
+        "に",
+        "ぬ",
+        "ね"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "の",
+      "answer": "no"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "に",
+      "answer": "ni"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ぬ",
+          "nu"
+        ],
+        [
+          "の",
+          "no"
+        ],
+        [
+          "ね",
+          "ne"
+        ],
+        [
+          "に",
+          "ni"
+        ],
+        [
+          "な",
+          "na"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "な",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "に",
+        "な",
+        "ね",
+        "の"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ぬ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "な",
+        "ぬ",
+        "ね",
+        "の"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Nu?",
+      "options": [
+        "の",
+        "な",
+        "ぬ",
+        "に"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ぬ",
+      "answer": "nu"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "な",
+      "answer": "na"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ni?",
+      "options": [
+        "な",
+        "こ",
+        "に",
+        "た"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Na?",
+      "options": [
+        "た",
+        "な",
+        "ち",
+        "つ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "に",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "な",
+        "ね",
+        "に",
+        "の"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "ね",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ぬ",
+        "ね",
+        "な",
+        "の"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ね",
+      "answer": "ne"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is No?",
+      "options": [
+        "ぬ",
+        "に",
+        "の",
+        "な"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "夏 [なつ] (natsu)",
+          "summer"
+        ],
+        [
+          "肉 [にく] (niku)",
+          "meat"
+        ],
+        [
+          "布 [ぬの] (nuno)",
+          "cloth"
+        ],
+        [
+          "猫 [ねこ] (neko)",
+          "cat"
+        ],
+        [
+          "残す [のこす] (nokosu)",
+          "to leave behind"
+        ],
+        [
+          "ねこが すきです",
+          "I like cats"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "summer",
+      "answer": [
+        "な",
+        "つ"
+      ],
+      "bank": [
+        "な",
+        "に",
+        "ぬ",
+        "ね",
+        "の",
+        "つ"
+      ],
+      "speakText": "なつ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "meat",
+      "answer": [
+        "に",
+        "く"
+      ],
+      "bank": [
+        "な",
+        "に",
+        "ぬ",
+        "ね",
+        "の",
+        "く"
+      ],
+      "speakText": "にく"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "cloth",
+      "answer": [
+        "ぬ",
+        "の"
+      ],
+      "bank": [
+        "な",
+        "に",
+        "ぬ",
+        "ね",
+        "の"
+      ],
+      "speakText": "ぬの"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "なつ",
+      "answer": "natsu"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ねこ",
+      "answer": "neko"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "なつ",
+          "summer"
+        ],
+        [
+          "にく",
+          "meat"
+        ],
+        [
+          "ぬの",
+          "cloth"
+        ],
+        [
+          "ねこ",
+          "cat"
+        ],
+        [
+          "のこす",
+          "to leave behind"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "の",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ぬ",
+        "に",
+        "な",
+        "の"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "cat",
+      "answer": [
+        "ね",
+        "こ"
+      ],
+      "bank": [
+        "な",
+        "に",
+        "ぬ",
+        "ね",
+        "の",
+        "こ"
+      ],
+      "speakText": "ねこ"
+    }
+  ],
+  "id": "hiragana-row-n"
+}

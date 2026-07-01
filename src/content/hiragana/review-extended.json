@@ -1,0 +1,441 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Special Marks Review",
+      "rows": [
+        [
+          "Dakuten ゛",
+          "が ざ だ ば rows"
+        ],
+        [
+          "Handakuten ゜",
+          "ぱ row"
+        ],
+        [
+          "Sokuon",
+          "small っ doubles the next consonant"
+        ],
+        [
+          "Yōon",
+          "small ゃ ゅ ょ combine with i-kana"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "が",
+          "back": "ga",
+          "speakText": "が"
+        },
+        {
+          "front": "じ",
+          "back": "ji",
+          "speakText": "じ"
+        },
+        {
+          "front": "ず",
+          "back": "zu",
+          "speakText": "ず"
+        },
+        {
+          "front": "で",
+          "back": "de",
+          "speakText": "で"
+        },
+        {
+          "front": "ぼ",
+          "back": "bo",
+          "speakText": "ぼ"
+        },
+        {
+          "front": "ぱ",
+          "back": "pa",
+          "speakText": "ぱ"
+        },
+        {
+          "front": "ぴ",
+          "back": "pi",
+          "speakText": "ぴ"
+        },
+        {
+          "front": "きゃ",
+          "back": "kya",
+          "speakText": "きゃ"
+        },
+        {
+          "front": "しゅ",
+          "back": "shu",
+          "speakText": "しゅ"
+        },
+        {
+          "front": "ちょ",
+          "back": "cho",
+          "speakText": "ちょ"
+        },
+        {
+          "front": "じゃ",
+          "back": "ja",
+          "speakText": "じゃ"
+        },
+        {
+          "front": "びょ",
+          "back": "byo",
+          "speakText": "びょ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one is Ga?",
+      "options": [
+        "か",
+        "が",
+        "ぎ",
+        "ぱ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one is Po?",
+      "options": [
+        "ぼ",
+        "ほ",
+        "ぽ",
+        "ぷ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one is Sha?",
+      "options": [
+        "しや",
+        "しゃ",
+        "しゅ",
+        "じゃ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one is Ja?",
+      "options": [
+        "じや",
+        "じゃ",
+        "しゃ",
+        "ちゃ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ぎ",
+      "answer": "gi"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ぷ",
+      "answer": "pu"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "しゃ",
+      "answer": "sha",
+      "acceptAlternatives": [
+        "sya"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "じょ",
+      "answer": "jo",
+      "acceptAlternatives": [
+        "jyo",
+        "zyo"
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "が",
+          "ga"
+        ],
+        [
+          "ぴ",
+          "pi"
+        ],
+        [
+          "きゃ",
+          "kya"
+        ],
+        [
+          "じゅ",
+          "ju"
+        ],
+        [
+          "びょ",
+          "byo"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "だ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "た",
+        "だ",
+        "で",
+        "ど"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ぱ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "は",
+        "ば",
+        "ぱ",
+        "ほ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "ちょ",
+      "prompt": "Which did you hear?",
+      "options": [
+        "ちゃ",
+        "ちゅ",
+        "ちょ",
+        "ちよ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Combined Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "学校 [がっこう] (gakkou)",
+          "school — dakuten + sokuon"
+        ],
+        [
+          "切手 [きって] (kitte)",
+          "stamp — sokuon"
+        ],
+        [
+          "雑誌 [ざっし] (zasshi)",
+          "magazine — dakuten + sokuon"
+        ],
+        [
+          "一杯 [いっぱい] (ippai)",
+          "full — sokuon + handakuten"
+        ],
+        [
+          "授業 [じゅぎょう] (jugyou)",
+          "class — yōon + dakuten"
+        ],
+        [
+          "病院 [びょういん] (byouin)",
+          "hospital — dakuten + yōon"
+        ],
+        [
+          "旅行 [りょこう] (ryokou)",
+          "trip — yōon"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "school",
+      "answer": [
+        "が",
+        "っ",
+        "こ",
+        "う"
+      ],
+      "bank": [
+        "が",
+        "か",
+        "っ",
+        "つ",
+        "こ",
+        "う",
+        "ご"
+      ],
+      "speakText": "がっこう"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "magazine",
+      "answer": [
+        "ざ",
+        "っ",
+        "し"
+      ],
+      "bank": [
+        "ざ",
+        "さ",
+        "っ",
+        "つ",
+        "し",
+        "じ"
+      ],
+      "speakText": "ざっし"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "full / a lot",
+      "answer": [
+        "い",
+        "っ",
+        "ぱ",
+        "い"
+      ],
+      "bank": [
+        "い",
+        "っ",
+        "つ",
+        "ぱ",
+        "ば",
+        "は"
+      ],
+      "speakText": "いっぱい"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "class / lesson",
+      "answer": [
+        "じ",
+        "ゅ",
+        "ぎ",
+        "ょ",
+        "う"
+      ],
+      "bank": [
+        "じ",
+        "ゅ",
+        "ぎ",
+        "ょ",
+        "う",
+        "ゆ",
+        "き"
+      ],
+      "speakText": "じゅぎょう"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "hospital",
+      "answer": [
+        "び",
+        "ょ",
+        "う",
+        "い",
+        "ん"
+      ],
+      "bank": [
+        "び",
+        "ょ",
+        "う",
+        "い",
+        "ん",
+        "よ",
+        "ひ"
+      ],
+      "speakText": "びょういん"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "がっこう",
+      "answer": "gakkou"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "じゅぎょう",
+      "answer": "jugyou",
+      "acceptAlternatives": [
+        "jyugyou",
+        "zyugyou"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "いっぱい",
+      "answer": "ippai"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "がっこう",
+          "school"
+        ],
+        [
+          "きって",
+          "stamp"
+        ],
+        [
+          "ざっし",
+          "magazine"
+        ],
+        [
+          "じゅぎょう",
+          "class"
+        ],
+        [
+          "びょういん",
+          "hospital"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "がっこう",
+      "prompt": "Which word did you hear?",
+      "options": [
+        "かこう",
+        "がっこう",
+        "がこう",
+        "がっごう"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "りょこう",
+      "prompt": "Which word did you hear?",
+      "options": [
+        "りよこう",
+        "りょこう",
+        "りゃこう",
+        "りゅこう"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "じゅぎょう",
+      "prompt": "Which word did you hear?",
+      "options": [
+        "じゅぎょ",
+        "じゅぎょう",
+        "じゅうぎょう",
+        "しゅぎょう"
+      ],
+      "correctIndex": 1
+    }
+  ],
+  "id": "hiragana-review-extended"
+}

@@ -1,0 +1,359 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "K-row — か行",
+      "rows": [
+        [
+          "か ka",
+          "き ki",
+          "く ku",
+          "け ke",
+          "こ ko"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "か",
+          "back": "ka",
+          "speakText": "か"
+        },
+        {
+          "front": "き",
+          "back": "ki",
+          "speakText": "き"
+        },
+        {
+          "front": "く",
+          "back": "ku",
+          "speakText": "く"
+        },
+        {
+          "front": "け",
+          "back": "ke",
+          "speakText": "け"
+        },
+        {
+          "front": "こ",
+          "back": "ko",
+          "speakText": "こ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ka?",
+      "options": [
+        "き",
+        "か",
+        "く",
+        "こ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ko?",
+      "options": [
+        "く",
+        "こ",
+        "け",
+        "か"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "こ",
+      "answer": "ko"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "き",
+      "answer": "ki"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "け",
+          "ke"
+        ],
+        [
+          "か",
+          "ka"
+        ],
+        [
+          "こ",
+          "ko"
+        ],
+        [
+          "く",
+          "ku"
+        ],
+        [
+          "き",
+          "ki"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "か",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "き",
+        "か",
+        "く",
+        "こ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "く",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "こ",
+        "け",
+        "く",
+        "か"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ku?",
+      "options": [
+        "か",
+        "く",
+        "こ",
+        "け"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "け",
+      "answer": "ke"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "か",
+      "answer": "ka"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ki?",
+      "options": [
+        "さ",
+        "き",
+        "ち",
+        "ぎ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ke?",
+      "options": [
+        "は",
+        "け",
+        "ほ",
+        "げ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "き",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "け",
+        "き",
+        "か",
+        "く"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "こ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "か",
+        "く",
+        "け",
+        "こ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "く",
+      "answer": "ku"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ke?",
+      "options": [
+        "は",
+        "こ",
+        "け",
+        "ほ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "柿 [かき] (kaki)",
+          "persimmon"
+        ],
+        [
+          "口 [くち] (kuchi)",
+          "mouth"
+        ],
+        [
+          "菊 [きく] (kiku)",
+          "chrysanthemum"
+        ],
+        [
+          "声 [こえ] (koe)",
+          "voice"
+        ],
+        [
+          "顔 [かお] (kao)",
+          "face"
+        ],
+        [
+          "かきを たべる",
+          "Eat persimmon"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "persimmon",
+      "answer": [
+        "か",
+        "き"
+      ],
+      "bank": [
+        "か",
+        "き",
+        "く",
+        "け",
+        "こ"
+      ],
+      "speakText": "かき"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "mouth",
+      "answer": [
+        "く",
+        "ち"
+      ],
+      "bank": [
+        "か",
+        "き",
+        "く",
+        "け",
+        "こ",
+        "ち"
+      ],
+      "speakText": "くち"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "chrysanthemum",
+      "answer": [
+        "き",
+        "く"
+      ],
+      "bank": [
+        "か",
+        "き",
+        "く",
+        "け",
+        "こ"
+      ],
+      "speakText": "きく"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "かき",
+      "answer": "kaki"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "くち",
+      "answer": "kuchi"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "かき",
+          "persimmon"
+        ],
+        [
+          "くち",
+          "mouth"
+        ],
+        [
+          "きく",
+          "chrysanthemum"
+        ],
+        [
+          "こえ",
+          "voice"
+        ],
+        [
+          "かお",
+          "face"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "け",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "こ",
+        "か",
+        "け",
+        "き"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "face",
+      "answer": [
+        "か",
+        "お"
+      ],
+      "bank": [
+        "か",
+        "き",
+        "く",
+        "け",
+        "こ",
+        "お"
+      ],
+      "speakText": "かお"
+    }
+  ],
+  "id": "hiragana-row-k"
+}

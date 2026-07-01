@@ -1,0 +1,1229 @@
+{
+  "id": "kanji-batch-04",
+  "misconceptions": [
+    {
+      "kanji": "上",
+      "error": "Reads 上 only as うえ and misses compound ジョウ in 上手.",
+      "mitigation": "Anchor reading, compound reading, sentence fill, and recognition drills target this mistake."
+    },
+    {
+      "kanji": "四",
+      "error": "Overgeneralizes よん and reads 四月 as よんがつ.",
+      "mitigation": "Anchor reading, compound reading, sentence fill, and recognition drills target this mistake."
+    },
+    {
+      "kanji": "金",
+      "error": "Reads 金 only as かね and misses キン in weekday compounds.",
+      "mitigation": "Anchor reading, compound reading, sentence fill, and recognition drills target this mistake."
+    },
+    {
+      "kanji": "九",
+      "error": "Reads 九月 as きゅうがつ instead of the month reading くがつ.",
+      "mitigation": "Anchor reading, compound reading, sentence fill, and recognition drills target this mistake."
+    },
+    {
+      "kanji": "入",
+      "error": "Confuses 入 with 人 or reads compounds with the standalone verb reading.",
+      "mitigation": "Anchor reading, compound reading, sentence fill, and recognition drills target this mistake."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Batch 04 - 上 四 金 九 入",
+      "intro": "This batch teaches 上 四 金 九 入. Learn the anchor reading first, then practise it inside common N5 words and short sentences.",
+      "rows": [
+        [
+          "Kanji",
+          "Meaning",
+          "Anchor reading",
+          "Other readings",
+          "Memory hook"
+        ],
+        [
+          "上",
+          "up / above",
+          "ジョウ",
+          "うえ · うわ · あげる · のぼる",
+          "Line above a base mark"
+        ],
+        [
+          "四",
+          "four",
+          "シ",
+          "よ · よん · よっつ",
+          "Four corners inside a box"
+        ],
+        [
+          "金",
+          "gold / money",
+          "キン",
+          "かね · かな",
+          "Metal treasure under a roof"
+        ],
+        [
+          "九",
+          "nine",
+          "キュウ",
+          "ここの · ここのつ",
+          "A bent hook for number nine"
+        ],
+        [
+          "入",
+          "enter / put in",
+          "ニュウ",
+          "いる · いれる · はいる",
+          "Strokes crossing into a doorway"
+        ]
+      ],
+      "takeaway": "Anchor one core reading first; context then explains the alternate readings."
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "上",
+      "meaning": "up / above",
+      "memoryHook": "Line above a base mark",
+      "jlpt": "N5",
+      "strokeCount": 3,
+      "components": [
+        {
+          "shape": "一",
+          "note": "Horizontal line used as a memory base."
+        },
+        {
+          "shape": "卜",
+          "note": "Vertical mark points upward from the base; memory cue only."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ジョウ",
+            "romaji": "jou",
+            "anchor": true,
+            "anchorReason": "Common compound reading in 上手 and 上下.",
+            "anchorExampleWord": "上手"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "うえ",
+            "romaji": "ue"
+          },
+          {
+            "kana": "うわ",
+            "romaji": "uwa"
+          },
+          {
+            "kana": "あげる",
+            "romaji": "ageru"
+          },
+          {
+            "kana": "のぼる",
+            "romaji": "noboru"
+          }
+        ]
+      },
+      "mnemonic": "Imagine a short mark sitting above a long ground line. The shape points to something up, above, or raised. In compounds it often uses ジョウ, while everyday location uses うえ.",
+      "confusables": [
+        {
+          "kanji": "下",
+          "meaning": "down / below",
+          "note": "下 points below the line; 上 points above it."
+        },
+        {
+          "kanji": "土",
+          "meaning": "earth",
+          "note": "土 has a vertical stroke centered through two horizontal lines."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "上",
+          "reading": "うえ",
+          "meaning": "above; top"
+        },
+        {
+          "word": "上手",
+          "reading": "じょうず",
+          "meaning": "skillful; good at"
+        },
+        {
+          "word": "上下",
+          "reading": "じょうげ",
+          "meaning": "up and down"
+        },
+        {
+          "word": "上げる",
+          "reading": "あげる",
+          "meaning": "to raise"
+        },
+        {
+          "word": "上る",
+          "reading": "のぼる",
+          "meaning": "to go up"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "本は机の上にあります。",
+          "highlight": "上",
+          "reading": "ほんは つくえの うえに あります",
+          "romaji": "Hon wa tsukue no ue ni arimasu.",
+          "gloss": "Book as-for desk's top on exists.",
+          "en": "The book is on the desk.",
+          "readingWord": "ue"
+        },
+        {
+          "jp": "田中さんは日本語が上手です。",
+          "highlight": "上手",
+          "reading": "たなかさんは にほんごが じょうず です",
+          "romaji": "Tanaka-san wa Nihongo ga jouzu desu.",
+          "gloss": "Tanaka as-for Japanese (subj) skillful is.",
+          "en": "Tanaka is good at Japanese."
+        },
+        {
+          "jp": "階段を上ります。",
+          "highlight": "上",
+          "reading": "かいだんを のぼります",
+          "romaji": "Kaidan wo noborimasu.",
+          "gloss": "Stairs (obj) go-up.",
+          "en": "I go up the stairs."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "四",
+      "meaning": "four",
+      "memoryHook": "Four corners inside a box",
+      "jlpt": "N5",
+      "strokeCount": 5,
+      "components": [
+        {
+          "shape": "囗",
+          "note": "Box shape; use the four corners as memory cue."
+        },
+        {
+          "shape": "儿",
+          "note": "Inner legs help distinguish it from simple boxes."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "シ",
+            "romaji": "shi",
+            "anchor": true,
+            "anchorReason": "Month reading in 四月 and formal number reading.",
+            "anchorExampleWord": "四月"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "よ",
+            "romaji": "yo"
+          },
+          {
+            "kana": "よん",
+            "romaji": "yon"
+          },
+          {
+            "kana": "よっつ",
+            "romaji": "yottsu"
+          }
+        ]
+      },
+      "mnemonic": "A box has four corners. Put inner marks inside it and remember the number four. Learners usually say よん in counting, but 四月 is read しがつ and 四つ is よっつ.",
+      "confusables": [
+        {
+          "kanji": "西",
+          "meaning": "west",
+          "note": "西 has a similar outer shape but different inner lines."
+        },
+        {
+          "kanji": "口",
+          "meaning": "mouth",
+          "note": "口 is just a box with no inner marks."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "四",
+          "reading": "よん",
+          "meaning": "four"
+        },
+        {
+          "word": "四つ",
+          "reading": "よっつ",
+          "meaning": "four things"
+        },
+        {
+          "word": "四月",
+          "reading": "しがつ",
+          "meaning": "April"
+        },
+        {
+          "word": "四日",
+          "reading": "よっか",
+          "meaning": "the fourth day; four days"
+        },
+        {
+          "word": "四人",
+          "reading": "よにん",
+          "meaning": "four people"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "四月に学校が始まります。",
+          "highlight": "四月",
+          "reading": "しがつに がっこうが はじまります",
+          "romaji": "Shigatsu ni gakkou ga hajimarimasu.",
+          "gloss": "April in school starts.",
+          "en": "School starts in April."
+        },
+        {
+          "jp": "パンを四つください。",
+          "highlight": "四",
+          "reading": "ぱんを よっつ ください",
+          "romaji": "Pan wo yottsu kudasai.",
+          "gloss": "Bread (obj) four please.",
+          "en": "Please give me four breads."
+        },
+        {
+          "jp": "四人でゲームをします。",
+          "highlight": "四",
+          "reading": "よにんで げーむを します",
+          "romaji": "Yo-nin de geemu wo shimasu.",
+          "gloss": "Four people together game do.",
+          "en": "Four people play a game."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "金",
+      "meaning": "gold / money",
+      "memoryHook": "Metal treasure under a roof",
+      "jlpt": "N5",
+      "strokeCount": 8,
+      "components": [
+        {
+          "shape": "人",
+          "note": "Top roof-like shape used as a memory cover."
+        },
+        {
+          "shape": "王",
+          "note": "Stacked lines below; memory cue for precious metal bars."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "キン",
+            "romaji": "kin",
+            "anchor": true,
+            "anchorReason": "Common reading in money and weekday compounds.",
+            "anchorExampleWord": "金曜日"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "かね",
+            "romaji": "kane"
+          },
+          {
+            "kana": "かな",
+            "romaji": "kana"
+          }
+        ]
+      },
+      "mnemonic": "Picture valuable metal bars protected under a roof. 金 means gold, metal, or money. The compound reading キン appears in 金曜日 and 金額; かね is everyday money.",
+      "confusables": [
+        {
+          "kanji": "全",
+          "meaning": "all",
+          "note": "全 has a similar roof but simpler lower shape."
+        },
+        {
+          "kanji": "王",
+          "meaning": "king",
+          "note": "王 lacks the roof and lower dots/marks."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "金",
+          "reading": "かね",
+          "meaning": "money"
+        },
+        {
+          "word": "金曜日",
+          "reading": "きんようび",
+          "meaning": "Friday"
+        },
+        {
+          "word": "金額",
+          "reading": "きんがく",
+          "meaning": "amount of money"
+        },
+        {
+          "word": "お金",
+          "reading": "おかね",
+          "meaning": "money"
+        },
+        {
+          "word": "金色",
+          "reading": "きんいろ",
+          "meaning": "gold color"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "お金がありません。",
+          "highlight": "金",
+          "reading": "おかねが ありません",
+          "romaji": "Okane ga arimasen.",
+          "gloss": "Money (subj) does-not-exist.",
+          "en": "I have no money.",
+          "readingWord": "okane"
+        },
+        {
+          "jp": "金曜日に映画を見ます。",
+          "highlight": "金曜日",
+          "reading": "きんようびに えいがを みます",
+          "romaji": "Kinyoubi ni eiga wo mimasu.",
+          "gloss": "Friday on movie watch.",
+          "en": "I watch a movie on Friday."
+        },
+        {
+          "jp": "これは金色の時計です。",
+          "highlight": "金",
+          "reading": "これは きんいろの とけい です",
+          "romaji": "Kore wa kiniro no tokei desu.",
+          "gloss": "This as-for gold-color watch is.",
+          "en": "This is a gold-colored watch."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "九",
+      "meaning": "nine",
+      "memoryHook": "A bent hook for number nine",
+      "jlpt": "N5",
+      "strokeCount": 2,
+      "components": [
+        {
+          "shape": "九",
+          "note": "Bent hook shape; use as a distinct number memory cue."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "キュウ",
+            "romaji": "kyuu",
+            "anchor": true,
+            "anchorReason": "Default reading in counting and many number compounds.",
+            "anchorExampleWord": "九"
+          },
+          {
+            "kana": "ク",
+            "romaji": "ku"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "ここの",
+            "romaji": "kokono"
+          },
+          {
+            "kana": "ここのつ",
+            "romaji": "kokonotsu"
+          }
+        ]
+      },
+      "mnemonic": "九 is a compact bent hook. Treat the distinctive hook as the shape for nine. Most counting uses キュウ, but September is 九月 read くがつ and nine things is 九つ.",
+      "confusables": [
+        {
+          "kanji": "丸",
+          "meaning": "circle / round",
+          "note": "丸 adds a small stroke/dot-like mark."
+        },
+        {
+          "kanji": "力",
+          "meaning": "power",
+          "note": "力 has a strong diagonal shape and means power."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "九",
+          "reading": "きゅう",
+          "meaning": "nine"
+        },
+        {
+          "word": "九つ",
+          "reading": "ここのつ",
+          "meaning": "nine things"
+        },
+        {
+          "word": "九月",
+          "reading": "くがつ",
+          "meaning": "September"
+        },
+        {
+          "word": "九日",
+          "reading": "ここのか",
+          "meaning": "the ninth day; nine days"
+        },
+        {
+          "word": "九人",
+          "reading": "きゅうにん",
+          "meaning": "nine people"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "九月に旅行します。",
+          "highlight": "九月",
+          "reading": "くがつに りょこうします",
+          "romaji": "Kugatsu ni ryokou shimasu.",
+          "gloss": "September in travel do.",
+          "en": "I travel in September."
+        },
+        {
+          "jp": "九つのボールを数えます。",
+          "highlight": "九",
+          "reading": "ここのつの ボールを かぞえます",
+          "romaji": "Kokonotsu no booru wo kazoemasu.",
+          "gloss": "Nine balls (obj) count.",
+          "en": "I count nine balls."
+        },
+        {
+          "jp": "九人が来ました。",
+          "highlight": "九",
+          "reading": "きゅうにんが きました",
+          "romaji": "Kyuu-nin ga kimashita.",
+          "gloss": "Nine people (subj) came.",
+          "en": "Nine people came."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "入",
+      "meaning": "enter / put in",
+      "memoryHook": "Strokes crossing into a doorway",
+      "jlpt": "N5",
+      "strokeCount": 2,
+      "components": [
+        {
+          "shape": "入",
+          "note": "Two strokes crossing inward; memory cue for entering."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ニュウ",
+            "romaji": "nyuu",
+            "anchor": true,
+            "anchorReason": "Common compound reading in 入学 and 入国.",
+            "anchorExampleWord": "入学"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "いる",
+            "romaji": "iru"
+          },
+          {
+            "kana": "いれる",
+            "romaji": "ireru"
+          },
+          {
+            "kana": "はいる",
+            "romaji": "hairu"
+          }
+        ]
+      },
+      "mnemonic": "入 looks like something crossing inward through an opening. Compare it with 人: 人 is a person standing, while 入 has the stroke crossing like movement into a place. It means enter or put in.",
+      "confusables": [
+        {
+          "kanji": "人",
+          "meaning": "person",
+          "note": "人's strokes meet more like a standing person; 入 crosses inward."
+        },
+        {
+          "kanji": "八",
+          "meaning": "eight",
+          "note": "八 opens outward and does not cross."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "入る",
+          "reading": "はいる",
+          "meaning": "to enter"
+        },
+        {
+          "word": "入れる",
+          "reading": "いれる",
+          "meaning": "to put in"
+        },
+        {
+          "word": "入学",
+          "reading": "にゅうがく",
+          "meaning": "school entrance; enrollment"
+        },
+        {
+          "word": "入国",
+          "reading": "にゅうこく",
+          "meaning": "entry into a country"
+        },
+        {
+          "word": "入口",
+          "reading": "いりぐち",
+          "meaning": "entrance"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "教室に入ります。",
+          "highlight": "入",
+          "reading": "きょうしつに はいります",
+          "romaji": "Kyoushitsu ni hairimasu.",
+          "gloss": "Classroom into enter.",
+          "en": "I enter the classroom."
+        },
+        {
+          "jp": "かばんに本を入れます。",
+          "highlight": "入",
+          "reading": "かばんに ほんを いれます",
+          "romaji": "Kaban ni hon wo iremasu.",
+          "gloss": "Bag into book (obj) put.",
+          "en": "I put the book into the bag."
+        },
+        {
+          "jp": "四月に入学します。",
+          "highlight": "入学",
+          "reading": "しがつに にゅうがくします",
+          "romaji": "Shigatsu ni nyuugaku shimasu.",
+          "gloss": "April in enroll.",
+          "en": "I enter school in April."
+        }
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "上",
+          "back": "up / above - ジョウ",
+          "speakText": "上"
+        },
+        {
+          "front": "四",
+          "back": "four - シ",
+          "speakText": "四"
+        },
+        {
+          "front": "金",
+          "back": "gold / money - キン",
+          "speakText": "金"
+        },
+        {
+          "front": "九",
+          "back": "nine - キュウ",
+          "speakText": "九"
+        },
+        {
+          "front": "入",
+          "back": "enter / put in - ニュウ",
+          "speakText": "入"
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 上 (kana or romaji):",
+      "question": "上",
+      "speakText": "上",
+      "answer": "ジョウ",
+      "acceptAlternatives": [
+        "jou",
+        "jo",
+        "じょう"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 四 (kana or romaji):",
+      "question": "四",
+      "speakText": "四",
+      "answer": "シ",
+      "acceptAlternatives": [
+        "shi",
+        "し"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 金 (kana or romaji):",
+      "question": "金",
+      "speakText": "金",
+      "answer": "キン",
+      "acceptAlternatives": [
+        "kin",
+        "きん"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 九 (kana or romaji):",
+      "question": "九",
+      "speakText": "九",
+      "answer": "キュウ",
+      "acceptAlternatives": [
+        "kyuu",
+        "kyu",
+        "きゅう",
+        "ク",
+        "ku",
+        "く"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 入 (kana or romaji):",
+      "question": "入",
+      "speakText": "入",
+      "answer": "ニュウ",
+      "acceptAlternatives": [
+        "nyuu",
+        "nyu",
+        "にゅう"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 上手 in hiragana or romaji:",
+      "question": "上手",
+      "speakText": "上手",
+      "answer": "じょうず",
+      "acceptAlternatives": [
+        "jouzu",
+        "jozu"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "上"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 四月 in hiragana or romaji:",
+      "question": "四月",
+      "speakText": "四月",
+      "answer": "しがつ",
+      "acceptAlternatives": [
+        "shigatsu"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "四"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 金曜日 in hiragana or romaji:",
+      "question": "金曜日",
+      "speakText": "金曜日",
+      "answer": "きんようび",
+      "acceptAlternatives": [
+        "kinyoubi",
+        "kinyobi"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "金"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 九月 in hiragana or romaji:",
+      "question": "九月",
+      "speakText": "九月",
+      "answer": "くがつ",
+      "acceptAlternatives": [
+        "kugatsu"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "九"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 入学 in hiragana or romaji:",
+      "question": "入学",
+      "speakText": "入学",
+      "answer": "にゅうがく",
+      "acceptAlternatives": [
+        "nyuugaku",
+        "nyugaku"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "入"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of お金 in hiragana or romaji:",
+      "question": "お金",
+      "speakText": "お金",
+      "answer": "おかね",
+      "acceptAlternatives": [
+        "okane"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "金"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji:",
+      "patternJp": [
+        "本は机の",
+        "[SLOT]",
+        "にあります。"
+      ],
+      "patternRom": [
+        "hon wa tsukue no ",
+        "[SLOT]",
+        " ni arimasu."
+      ],
+      "slot": {
+        "answer": "上",
+        "answerRomaji": "ue",
+        "hint": "Choose the kanji for up / above.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "上",
+            "correct": true
+          },
+          {
+            "text": "下",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "oppositeDirection",
+            "wrongExplanation": "This points the opposite direction."
+          },
+          {
+            "text": "土",
+            "correct": false,
+            "distractorReason": "visualConfusion",
+            "confusionFeature": "centerStroke",
+            "wrongExplanation": "This is an earth shape, not above."
+          },
+          {
+            "text": "大",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "priorSize",
+            "wrongExplanation": "This means big, not above."
+          }
+        ]
+      },
+      "translation": "The book is on the desk.",
+      "speakText": "本は机の上にあります。",
+      "targetKanji": "上",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji:",
+      "patternJp": [
+        "お",
+        "[SLOT]",
+        "がありません。"
+      ],
+      "patternRom": [
+        "o",
+        "[SLOT]",
+        " ga arimasen."
+      ],
+      "slot": {
+        "answer": "金",
+        "answerRomaji": "okane",
+        "hint": "Choose the kanji for gold / money.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "金",
+            "correct": true
+          },
+          {
+            "text": "全",
+            "correct": false,
+            "distractorReason": "visualConfusion",
+            "confusionFeature": "similarRoof",
+            "wrongExplanation": "This has a similar top but means all."
+          },
+          {
+            "text": "王",
+            "correct": false,
+            "distractorReason": "componentShare",
+            "confusionFeature": "lowerShape",
+            "wrongExplanation": "This shares lines but lacks the metal frame."
+          },
+          {
+            "text": "本",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "priorBook",
+            "wrongExplanation": "This means book or origin."
+          }
+        ]
+      },
+      "translation": "I have no money.",
+      "speakText": "お金がありません。",
+      "targetKanji": "金",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji:",
+      "patternJp": [
+        "教室に",
+        "[SLOT]",
+        "ります。"
+      ],
+      "patternRom": [
+        "kyoushitsu ni ",
+        "[SLOT]",
+        "rimasu."
+      ],
+      "slot": {
+        "answer": "入",
+        "answerRomaji": "",
+        "hint": "Choose the kanji for enter / put in.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "入",
+            "correct": true
+          },
+          {
+            "text": "人",
+            "correct": false,
+            "distractorReason": "visualConfusion",
+            "confusionFeature": "strokeCrossing",
+            "wrongExplanation": "This is person, not entering."
+          },
+          {
+            "text": "八",
+            "correct": false,
+            "distractorReason": "visualConfusion",
+            "confusionFeature": "openStrokes",
+            "wrongExplanation": "This opens outward and means eight."
+          },
+          {
+            "text": "出",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "oppositeMovement",
+            "wrongExplanation": "This is the opposite movement."
+          }
+        ]
+      },
+      "translation": "I enter the classroom.",
+      "speakText": "教室に入ります。",
+      "targetKanji": "入",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 上 pronounced in 上手 (skillful)?",
+      "word": "上手",
+      "targetKanji": "上",
+      "options": [
+        {
+          "kana": "じょう",
+          "romaji": "jou",
+          "readingType": "on",
+          "correct": true,
+          "explanation": "上手 uses the compound reading ジョウ, with sound change to じょうず."
+        },
+        {
+          "kana": "うえ",
+          "romaji": "ue",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "locationKun",
+          "wrongExplanation": "This is the location word for above, not this compound."
+        },
+        {
+          "kana": "のぼ",
+          "romaji": "nobo",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "verbStem",
+          "wrongExplanation": "This belongs to the go-up verb family, not this adjective."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 金 pronounced in 金曜日 (Friday)?",
+      "word": "金曜日",
+      "targetKanji": "金",
+      "options": [
+        {
+          "kana": "きん",
+          "romaji": "kin",
+          "readingType": "on",
+          "correct": true,
+          "explanation": "Weekday compounds use the on-yomi キン here."
+        },
+        {
+          "kana": "かね",
+          "romaji": "kane",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "moneyKun",
+          "wrongExplanation": "This is the everyday word for money, not the weekday compound."
+        },
+        {
+          "kana": "かな",
+          "romaji": "kana",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "wordStem",
+          "wrongExplanation": "This native form appears in some words, but not weekdays."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 入 pronounced in 入学 (school entrance)?",
+      "word": "入学",
+      "targetKanji": "入",
+      "options": [
+        {
+          "kana": "にゅう",
+          "romaji": "nyuu",
+          "readingType": "on",
+          "correct": true,
+          "explanation": "入学 is an on-yomi compound, so 入 uses ニュウ."
+        },
+        {
+          "kana": "はい",
+          "romaji": "hai",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "verbStem",
+          "wrongExplanation": "This is from the standalone verb 入る, not the compound."
+        },
+        {
+          "kana": "い",
+          "romaji": "i",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "transitiveStem",
+          "wrongExplanation": "This belongs to 入れる, not this school compound."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji means 'see / look'?",
+      "options": [
+        {
+          "text": "見",
+          "correct": true
+        },
+        {
+          "text": "目",
+          "correct": false,
+          "distractorReason": "componentShare",
+          "confusionFeature": "eyeOnly",
+          "wrongExplanation": "This is eye, not the full seeing kanji."
+        },
+        {
+          "text": "月",
+          "correct": false,
+          "distractorReason": "visualConfusion",
+          "confusionFeature": "curvedShape",
+          "wrongExplanation": "This means moon/month."
+        },
+        {
+          "text": "入",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "movement",
+          "wrongExplanation": "This means enter."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the kanji you hear:",
+      "speakText": "九",
+      "options": [
+        {
+          "text": "九",
+          "correct": true
+        },
+        {
+          "text": "丸",
+          "correct": false,
+          "distractorReason": "visualConfusion",
+          "confusionFeature": "extraMark",
+          "wrongExplanation": "This adds a mark and means round."
+        },
+        {
+          "text": "力",
+          "correct": false,
+          "distractorReason": "visualConfusion",
+          "confusionFeature": "diagonalHook",
+          "wrongExplanation": "This means power."
+        },
+        {
+          "text": "四",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "sameBatchNumber",
+          "wrongExplanation": "This is another number from this batch."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji completes __学 (school entrance / enrollment)?",
+      "options": [
+        {
+          "text": "入",
+          "correct": true
+        },
+        {
+          "text": "人",
+          "correct": false,
+          "distractorReason": "visualConfusion",
+          "confusionFeature": "strokeCrossing",
+          "wrongExplanation": "This is person, not entering."
+        },
+        {
+          "text": "上",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "direction",
+          "wrongExplanation": "This gives a direction, not entrance."
+        },
+        {
+          "text": "出",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "oppositeMovement",
+          "wrongExplanation": "This points outward, not inward."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Review: which kanji means 'middle / inside'?",
+      "reviewFrom": "kanji-batch-02",
+      "options": [
+        {
+          "text": "中",
+          "correct": true
+        },
+        {
+          "text": "日",
+          "correct": false,
+          "distractorReason": "componentShare",
+          "confusionFeature": "boxShape",
+          "wrongExplanation": "This shares a box-like shape but lacks the center line."
+        },
+        {
+          "text": "本",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "originBook",
+          "wrongExplanation": "This means book/origin."
+        },
+        {
+          "text": "三",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "number",
+          "wrongExplanation": "This is a number, not a position."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Review: match older kanji to their meanings:",
+      "reviewFrom": [
+        "kanji-batch-01",
+        "kanji-batch-02"
+      ],
+      "pairs": [
+        {
+          "left": "日",
+          "right": "sun / day",
+          "reviewFrom": "kanji-batch-01"
+        },
+        {
+          "left": "人",
+          "right": "person",
+          "reviewFrom": "kanji-batch-01"
+        },
+        {
+          "left": "本",
+          "right": "book / origin",
+          "reviewFrom": "kanji-batch-02"
+        },
+        {
+          "left": "出",
+          "right": "go out / exit",
+          "reviewFrom": "kanji-batch-02"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each kanji to its meaning:",
+      "pairs": [
+        {
+          "left": "上",
+          "right": "up / above"
+        },
+        {
+          "left": "四",
+          "right": "four"
+        },
+        {
+          "left": "金",
+          "right": "gold / money"
+        },
+        {
+          "left": "九",
+          "right": "nine"
+        },
+        {
+          "left": "入",
+          "right": "enter / put in"
+        }
+      ]
+    }
+  ]
+}

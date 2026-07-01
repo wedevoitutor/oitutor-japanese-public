@@ -1,0 +1,1390 @@
+{
+  "id": "kanji-n5-review",
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "N5 Ultimate Kanji Review",
+      "intro": "Review all 80 N5 kanji taught across batches 01-16. Use this as the complete character map before moving beyond N5.",
+      "rows": [
+        [
+          "Kanji",
+          "Meaning",
+          "Reading",
+          "Source batch"
+        ],
+        [
+          "日",
+          "sun / day",
+          "ニチ / ジツ / ひ",
+          "kanji-batch-01"
+        ],
+        [
+          "一",
+          "one",
+          "イチ / イツ / ひと",
+          "kanji-batch-01"
+        ],
+        [
+          "人",
+          "person",
+          "ジン / ニン / ひと",
+          "kanji-batch-01"
+        ],
+        [
+          "年",
+          "year",
+          "ネン / とし",
+          "kanji-batch-01"
+        ],
+        [
+          "大",
+          "big / great",
+          "ダイ / タイ / おお",
+          "kanji-batch-01"
+        ],
+        [
+          "十",
+          "ten",
+          "ジュウ / ジッ / ジュッ",
+          "kanji-batch-02"
+        ],
+        [
+          "二",
+          "two",
+          "ニ / ジ / ふた",
+          "kanji-batch-02"
+        ],
+        [
+          "本",
+          "book / origin / main",
+          "ホン / もと",
+          "kanji-batch-02"
+        ],
+        [
+          "中",
+          "middle / inside",
+          "チュウ / なか / うち",
+          "kanji-batch-02"
+        ],
+        [
+          "出",
+          "go out / exit / produce",
+          "シュツ / スイ / でる",
+          "kanji-batch-02"
+        ],
+        [
+          "三",
+          "three",
+          "サン / み / みつ",
+          "kanji-batch-03"
+        ],
+        [
+          "見",
+          "see / look",
+          "ケン / みる / みえる",
+          "kanji-batch-03"
+        ],
+        [
+          "月",
+          "moon / month",
+          "ゲツ / ガツ / つき",
+          "kanji-batch-03"
+        ],
+        [
+          "生",
+          "life / birth / raw",
+          "セイ / ショウ / いきる",
+          "kanji-batch-03"
+        ],
+        [
+          "五",
+          "five",
+          "ゴ / いつ / いつつ",
+          "kanji-batch-03"
+        ],
+        [
+          "上",
+          "up / above",
+          "ジョウ / うえ / うわ",
+          "kanji-batch-04"
+        ],
+        [
+          "四",
+          "four",
+          "シ / よ / よん",
+          "kanji-batch-04"
+        ],
+        [
+          "金",
+          "gold / money",
+          "キン / かね / かな",
+          "kanji-batch-04"
+        ],
+        [
+          "九",
+          "nine",
+          "キュウ / ク / ここの",
+          "kanji-batch-04"
+        ],
+        [
+          "入",
+          "enter / put in",
+          "ニュウ / いる / いれる",
+          "kanji-batch-04"
+        ],
+        [
+          "学",
+          "study / learning",
+          "ガク / まなぶ",
+          "kanji-batch-05"
+        ],
+        [
+          "円",
+          "yen / circle",
+          "エン / まるい",
+          "kanji-batch-05"
+        ],
+        [
+          "子",
+          "child",
+          "シ / こ",
+          "kanji-batch-05"
+        ],
+        [
+          "八",
+          "eight",
+          "ハチ / や / やつ",
+          "kanji-batch-05"
+        ],
+        [
+          "六",
+          "six",
+          "ロク / む / むつ",
+          "kanji-batch-05"
+        ],
+        [
+          "下",
+          "down / below",
+          "カ / した",
+          "kanji-batch-06"
+        ],
+        [
+          "気",
+          "spirit / energy",
+          "キ",
+          "kanji-batch-06"
+        ],
+        [
+          "小",
+          "small",
+          "ショウ / ちいさい",
+          "kanji-batch-06"
+        ],
+        [
+          "七",
+          "seven",
+          "シチ / なな",
+          "kanji-batch-06"
+        ],
+        [
+          "山",
+          "mountain",
+          "サン / やま",
+          "kanji-batch-06"
+        ],
+        [
+          "女",
+          "woman / female",
+          "ジョ / おんな",
+          "kanji-batch-07"
+        ],
+        [
+          "百",
+          "hundred",
+          "ヒャク",
+          "kanji-batch-07"
+        ],
+        [
+          "先",
+          "before / ahead",
+          "セン / さき",
+          "kanji-batch-07"
+        ],
+        [
+          "名",
+          "name",
+          "メイ / な",
+          "kanji-batch-07"
+        ],
+        [
+          "川",
+          "river",
+          "セン / かわ",
+          "kanji-batch-07"
+        ],
+        [
+          "千",
+          "thousand",
+          "セン / ち",
+          "kanji-batch-08"
+        ],
+        [
+          "水",
+          "water",
+          "スイ / みず",
+          "kanji-batch-08"
+        ],
+        [
+          "男",
+          "man / male",
+          "ダン / おとこ",
+          "kanji-batch-08"
+        ],
+        [
+          "校",
+          "school",
+          "コウ",
+          "kanji-batch-08"
+        ],
+        [
+          "土",
+          "earth / soil",
+          "ド / つち",
+          "kanji-batch-08"
+        ],
+        [
+          "木",
+          "tree / wood",
+          "モク / き",
+          "kanji-batch-09"
+        ],
+        [
+          "車",
+          "car",
+          "シャ / くるま",
+          "kanji-batch-09"
+        ],
+        [
+          "白",
+          "white",
+          "ハク / しろ",
+          "kanji-batch-09"
+        ],
+        [
+          "天",
+          "heaven / sky",
+          "テン / あま",
+          "kanji-batch-09"
+        ],
+        [
+          "火",
+          "fire",
+          "カ / ひ",
+          "kanji-batch-09"
+        ],
+        [
+          "右",
+          "right",
+          "ウ / みぎ",
+          "kanji-batch-10"
+        ],
+        [
+          "左",
+          "left",
+          "サ / ひだり",
+          "kanji-batch-10"
+        ],
+        [
+          "休",
+          "rest",
+          "キュウ / やすむ",
+          "kanji-batch-10"
+        ],
+        [
+          "何",
+          "what",
+          "カ / なに",
+          "kanji-batch-10"
+        ],
+        [
+          "午",
+          "noon",
+          "ゴ",
+          "kanji-batch-10"
+        ],
+        [
+          "後",
+          "after / behind",
+          "ゴ / あと",
+          "kanji-batch-11"
+        ],
+        [
+          "前",
+          "before / front",
+          "ゼン / まえ",
+          "kanji-batch-11"
+        ],
+        [
+          "時",
+          "time / hour",
+          "ジ / とき",
+          "kanji-batch-11"
+        ],
+        [
+          "間",
+          "interval / between",
+          "カン / あいだ",
+          "kanji-batch-11"
+        ],
+        [
+          "東",
+          "east",
+          "トウ / ひがし",
+          "kanji-batch-11"
+        ],
+        [
+          "西",
+          "west",
+          "セイ / にし",
+          "kanji-batch-12"
+        ],
+        [
+          "南",
+          "south",
+          "ナン / みなみ",
+          "kanji-batch-12"
+        ],
+        [
+          "北",
+          "north",
+          "ホク / きた",
+          "kanji-batch-12"
+        ],
+        [
+          "口",
+          "mouth / opening",
+          "コウ / くち",
+          "kanji-batch-12"
+        ],
+        [
+          "友",
+          "friend",
+          "ユウ / とも",
+          "kanji-batch-12"
+        ],
+        [
+          "父",
+          "father",
+          "フ / ちち",
+          "kanji-batch-13"
+        ],
+        [
+          "母",
+          "mother",
+          "ボ / はは",
+          "kanji-batch-13"
+        ],
+        [
+          "兄",
+          "older brother",
+          "ケイ / あに",
+          "kanji-batch-13"
+        ],
+        [
+          "弟",
+          "younger brother",
+          "ダイ / おとうと",
+          "kanji-batch-13"
+        ],
+        [
+          "姉",
+          "older sister",
+          "シ / あね",
+          "kanji-batch-13"
+        ],
+        [
+          "妹",
+          "younger sister",
+          "マイ / いもうと",
+          "kanji-batch-14"
+        ],
+        [
+          "毎",
+          "every",
+          "マイ",
+          "kanji-batch-14"
+        ],
+        [
+          "語",
+          "language / word",
+          "ゴ / かたる",
+          "kanji-batch-14"
+        ],
+        [
+          "文",
+          "sentence / writing",
+          "ブン / ふみ",
+          "kanji-batch-14"
+        ],
+        [
+          "高",
+          "high / expensive",
+          "コウ / たかい",
+          "kanji-batch-14"
+        ],
+        [
+          "安",
+          "cheap / peaceful",
+          "アン / やすい",
+          "kanji-batch-15"
+        ],
+        [
+          "新",
+          "new",
+          "シン / あたらしい",
+          "kanji-batch-15"
+        ],
+        [
+          "古",
+          "old",
+          "コ / ふるい",
+          "kanji-batch-15"
+        ],
+        [
+          "多",
+          "many / much",
+          "タ / おおい",
+          "kanji-batch-15"
+        ],
+        [
+          "少",
+          "few / little",
+          "ショウ / すくない",
+          "kanji-batch-15"
+        ],
+        [
+          "長",
+          "long / leader",
+          "チョウ / ながい",
+          "kanji-batch-16"
+        ],
+        [
+          "半",
+          "half",
+          "ハン / なかば",
+          "kanji-batch-16"
+        ],
+        [
+          "分",
+          "minute / part",
+          "ブン / わかる",
+          "kanji-batch-16"
+        ],
+        [
+          "今",
+          "now",
+          "コン / いま",
+          "kanji-batch-16"
+        ],
+        [
+          "週",
+          "week",
+          "シュウ",
+          "kanji-batch-16"
+        ]
+      ],
+      "takeaway": "If a kanji feels weak, revisit its source batch and redo the compound-reading drills."
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "日",
+          "back": "sun / day - ニチ / ジツ / ひ",
+          "speakText": "日",
+          "reviewFrom": "kanji-batch-01"
+        },
+        {
+          "front": "一",
+          "back": "one - イチ / イツ / ひと",
+          "speakText": "一",
+          "reviewFrom": "kanji-batch-01"
+        },
+        {
+          "front": "人",
+          "back": "person - ジン / ニン / ひと",
+          "speakText": "人",
+          "reviewFrom": "kanji-batch-01"
+        },
+        {
+          "front": "年",
+          "back": "year - ネン / とし",
+          "speakText": "年",
+          "reviewFrom": "kanji-batch-01"
+        },
+        {
+          "front": "大",
+          "back": "big / great - ダイ / タイ / おお",
+          "speakText": "大",
+          "reviewFrom": "kanji-batch-01"
+        },
+        {
+          "front": "十",
+          "back": "ten - ジュウ / ジッ / ジュッ",
+          "speakText": "十",
+          "reviewFrom": "kanji-batch-02"
+        },
+        {
+          "front": "二",
+          "back": "two - ニ / ジ / ふた",
+          "speakText": "二",
+          "reviewFrom": "kanji-batch-02"
+        },
+        {
+          "front": "本",
+          "back": "book / origin / main - ホン / もと",
+          "speakText": "本",
+          "reviewFrom": "kanji-batch-02"
+        },
+        {
+          "front": "中",
+          "back": "middle / inside - チュウ / なか / うち",
+          "speakText": "中",
+          "reviewFrom": "kanji-batch-02"
+        },
+        {
+          "front": "出",
+          "back": "go out / exit / produce - シュツ / スイ / でる",
+          "speakText": "出",
+          "reviewFrom": "kanji-batch-02"
+        },
+        {
+          "front": "三",
+          "back": "three - サン / み / みつ",
+          "speakText": "三",
+          "reviewFrom": "kanji-batch-03"
+        },
+        {
+          "front": "見",
+          "back": "see / look - ケン / みる / みえる",
+          "speakText": "見",
+          "reviewFrom": "kanji-batch-03"
+        },
+        {
+          "front": "月",
+          "back": "moon / month - ゲツ / ガツ / つき",
+          "speakText": "月",
+          "reviewFrom": "kanji-batch-03"
+        },
+        {
+          "front": "生",
+          "back": "life / birth / raw - セイ / ショウ / いきる",
+          "speakText": "生",
+          "reviewFrom": "kanji-batch-03"
+        },
+        {
+          "front": "五",
+          "back": "five - ゴ / いつ / いつつ",
+          "speakText": "五",
+          "reviewFrom": "kanji-batch-03"
+        },
+        {
+          "front": "上",
+          "back": "up / above - ジョウ / うえ / うわ",
+          "speakText": "上",
+          "reviewFrom": "kanji-batch-04"
+        },
+        {
+          "front": "四",
+          "back": "four - シ / よ / よん",
+          "speakText": "四",
+          "reviewFrom": "kanji-batch-04"
+        },
+        {
+          "front": "金",
+          "back": "gold / money - キン / かね / かな",
+          "speakText": "金",
+          "reviewFrom": "kanji-batch-04"
+        },
+        {
+          "front": "九",
+          "back": "nine - キュウ / ク / ここの",
+          "speakText": "九",
+          "reviewFrom": "kanji-batch-04"
+        },
+        {
+          "front": "入",
+          "back": "enter / put in - ニュウ / いる / いれる",
+          "speakText": "入",
+          "reviewFrom": "kanji-batch-04"
+        },
+        {
+          "front": "学",
+          "back": "study / learning - ガク / まなぶ",
+          "speakText": "学",
+          "reviewFrom": "kanji-batch-05"
+        },
+        {
+          "front": "円",
+          "back": "yen / circle - エン / まるい",
+          "speakText": "円",
+          "reviewFrom": "kanji-batch-05"
+        },
+        {
+          "front": "子",
+          "back": "child - シ / こ",
+          "speakText": "子",
+          "reviewFrom": "kanji-batch-05"
+        },
+        {
+          "front": "八",
+          "back": "eight - ハチ / や / やつ",
+          "speakText": "八",
+          "reviewFrom": "kanji-batch-05"
+        },
+        {
+          "front": "六",
+          "back": "six - ロク / む / むつ",
+          "speakText": "六",
+          "reviewFrom": "kanji-batch-05"
+        },
+        {
+          "front": "下",
+          "back": "down / below - カ / した",
+          "speakText": "下",
+          "reviewFrom": "kanji-batch-06"
+        },
+        {
+          "front": "気",
+          "back": "spirit / energy - キ",
+          "speakText": "気",
+          "reviewFrom": "kanji-batch-06"
+        },
+        {
+          "front": "小",
+          "back": "small - ショウ / ちいさい",
+          "speakText": "小",
+          "reviewFrom": "kanji-batch-06"
+        },
+        {
+          "front": "七",
+          "back": "seven - シチ / なな",
+          "speakText": "七",
+          "reviewFrom": "kanji-batch-06"
+        },
+        {
+          "front": "山",
+          "back": "mountain - サン / やま",
+          "speakText": "山",
+          "reviewFrom": "kanji-batch-06"
+        },
+        {
+          "front": "女",
+          "back": "woman / female - ジョ / おんな",
+          "speakText": "女",
+          "reviewFrom": "kanji-batch-07"
+        },
+        {
+          "front": "百",
+          "back": "hundred - ヒャク",
+          "speakText": "百",
+          "reviewFrom": "kanji-batch-07"
+        },
+        {
+          "front": "先",
+          "back": "before / ahead - セン / さき",
+          "speakText": "先",
+          "reviewFrom": "kanji-batch-07"
+        },
+        {
+          "front": "名",
+          "back": "name - メイ / な",
+          "speakText": "名",
+          "reviewFrom": "kanji-batch-07"
+        },
+        {
+          "front": "川",
+          "back": "river - セン / かわ",
+          "speakText": "川",
+          "reviewFrom": "kanji-batch-07"
+        },
+        {
+          "front": "千",
+          "back": "thousand - セン / ち",
+          "speakText": "千",
+          "reviewFrom": "kanji-batch-08"
+        },
+        {
+          "front": "水",
+          "back": "water - スイ / みず",
+          "speakText": "水",
+          "reviewFrom": "kanji-batch-08"
+        },
+        {
+          "front": "男",
+          "back": "man / male - ダン / おとこ",
+          "speakText": "男",
+          "reviewFrom": "kanji-batch-08"
+        },
+        {
+          "front": "校",
+          "back": "school - コウ",
+          "speakText": "校",
+          "reviewFrom": "kanji-batch-08"
+        },
+        {
+          "front": "土",
+          "back": "earth / soil - ド / つち",
+          "speakText": "土",
+          "reviewFrom": "kanji-batch-08"
+        },
+        {
+          "front": "木",
+          "back": "tree / wood - モク / き",
+          "speakText": "木",
+          "reviewFrom": "kanji-batch-09"
+        },
+        {
+          "front": "車",
+          "back": "car - シャ / くるま",
+          "speakText": "車",
+          "reviewFrom": "kanji-batch-09"
+        },
+        {
+          "front": "白",
+          "back": "white - ハク / しろ",
+          "speakText": "白",
+          "reviewFrom": "kanji-batch-09"
+        },
+        {
+          "front": "天",
+          "back": "heaven / sky - テン / あま",
+          "speakText": "天",
+          "reviewFrom": "kanji-batch-09"
+        },
+        {
+          "front": "火",
+          "back": "fire - カ / ひ",
+          "speakText": "火",
+          "reviewFrom": "kanji-batch-09"
+        },
+        {
+          "front": "右",
+          "back": "right - ウ / みぎ",
+          "speakText": "右",
+          "reviewFrom": "kanji-batch-10"
+        },
+        {
+          "front": "左",
+          "back": "left - サ / ひだり",
+          "speakText": "左",
+          "reviewFrom": "kanji-batch-10"
+        },
+        {
+          "front": "休",
+          "back": "rest - キュウ / やすむ",
+          "speakText": "休",
+          "reviewFrom": "kanji-batch-10"
+        },
+        {
+          "front": "何",
+          "back": "what - カ / なに",
+          "speakText": "何",
+          "reviewFrom": "kanji-batch-10"
+        },
+        {
+          "front": "午",
+          "back": "noon - ゴ",
+          "speakText": "午",
+          "reviewFrom": "kanji-batch-10"
+        },
+        {
+          "front": "後",
+          "back": "after / behind - ゴ / あと",
+          "speakText": "後",
+          "reviewFrom": "kanji-batch-11"
+        },
+        {
+          "front": "前",
+          "back": "before / front - ゼン / まえ",
+          "speakText": "前",
+          "reviewFrom": "kanji-batch-11"
+        },
+        {
+          "front": "時",
+          "back": "time / hour - ジ / とき",
+          "speakText": "時",
+          "reviewFrom": "kanji-batch-11"
+        },
+        {
+          "front": "間",
+          "back": "interval / between - カン / あいだ",
+          "speakText": "間",
+          "reviewFrom": "kanji-batch-11"
+        },
+        {
+          "front": "東",
+          "back": "east - トウ / ひがし",
+          "speakText": "東",
+          "reviewFrom": "kanji-batch-11"
+        },
+        {
+          "front": "西",
+          "back": "west - セイ / にし",
+          "speakText": "西",
+          "reviewFrom": "kanji-batch-12"
+        },
+        {
+          "front": "南",
+          "back": "south - ナン / みなみ",
+          "speakText": "南",
+          "reviewFrom": "kanji-batch-12"
+        },
+        {
+          "front": "北",
+          "back": "north - ホク / きた",
+          "speakText": "北",
+          "reviewFrom": "kanji-batch-12"
+        },
+        {
+          "front": "口",
+          "back": "mouth / opening - コウ / くち",
+          "speakText": "口",
+          "reviewFrom": "kanji-batch-12"
+        },
+        {
+          "front": "友",
+          "back": "friend - ユウ / とも",
+          "speakText": "友",
+          "reviewFrom": "kanji-batch-12"
+        },
+        {
+          "front": "父",
+          "back": "father - フ / ちち",
+          "speakText": "父",
+          "reviewFrom": "kanji-batch-13"
+        },
+        {
+          "front": "母",
+          "back": "mother - ボ / はは",
+          "speakText": "母",
+          "reviewFrom": "kanji-batch-13"
+        },
+        {
+          "front": "兄",
+          "back": "older brother - ケイ / あに",
+          "speakText": "兄",
+          "reviewFrom": "kanji-batch-13"
+        },
+        {
+          "front": "弟",
+          "back": "younger brother - ダイ / おとうと",
+          "speakText": "弟",
+          "reviewFrom": "kanji-batch-13"
+        },
+        {
+          "front": "姉",
+          "back": "older sister - シ / あね",
+          "speakText": "姉",
+          "reviewFrom": "kanji-batch-13"
+        },
+        {
+          "front": "妹",
+          "back": "younger sister - マイ / いもうと",
+          "speakText": "妹",
+          "reviewFrom": "kanji-batch-14"
+        },
+        {
+          "front": "毎",
+          "back": "every - マイ",
+          "speakText": "毎",
+          "reviewFrom": "kanji-batch-14"
+        },
+        {
+          "front": "語",
+          "back": "language / word - ゴ / かたる",
+          "speakText": "語",
+          "reviewFrom": "kanji-batch-14"
+        },
+        {
+          "front": "文",
+          "back": "sentence / writing - ブン / ふみ",
+          "speakText": "文",
+          "reviewFrom": "kanji-batch-14"
+        },
+        {
+          "front": "高",
+          "back": "high / expensive - コウ / たかい",
+          "speakText": "高",
+          "reviewFrom": "kanji-batch-14"
+        },
+        {
+          "front": "安",
+          "back": "cheap / peaceful - アン / やすい",
+          "speakText": "安",
+          "reviewFrom": "kanji-batch-15"
+        },
+        {
+          "front": "新",
+          "back": "new - シン / あたらしい",
+          "speakText": "新",
+          "reviewFrom": "kanji-batch-15"
+        },
+        {
+          "front": "古",
+          "back": "old - コ / ふるい",
+          "speakText": "古",
+          "reviewFrom": "kanji-batch-15"
+        },
+        {
+          "front": "多",
+          "back": "many / much - タ / おおい",
+          "speakText": "多",
+          "reviewFrom": "kanji-batch-15"
+        },
+        {
+          "front": "少",
+          "back": "few / little - ショウ / すくない",
+          "speakText": "少",
+          "reviewFrom": "kanji-batch-15"
+        },
+        {
+          "front": "長",
+          "back": "long / leader - チョウ / ながい",
+          "speakText": "長",
+          "reviewFrom": "kanji-batch-16"
+        },
+        {
+          "front": "半",
+          "back": "half - ハン / なかば",
+          "speakText": "半",
+          "reviewFrom": "kanji-batch-16"
+        },
+        {
+          "front": "分",
+          "back": "minute / part - ブン / わかる",
+          "speakText": "分",
+          "reviewFrom": "kanji-batch-16"
+        },
+        {
+          "front": "今",
+          "back": "now - コン / いま",
+          "speakText": "今",
+          "reviewFrom": "kanji-batch-16"
+        },
+        {
+          "front": "週",
+          "back": "week - シュウ",
+          "speakText": "週",
+          "reviewFrom": "kanji-batch-16"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Ultimate review: match representative N5 kanji to their meanings:",
+      "pairs": [
+        {
+          "left": "日",
+          "right": "sun / day",
+          "reviewFrom": "kanji-batch-01"
+        },
+        {
+          "left": "一",
+          "right": "one",
+          "reviewFrom": "kanji-batch-01"
+        },
+        {
+          "left": "人",
+          "right": "person",
+          "reviewFrom": "kanji-batch-01"
+        },
+        {
+          "left": "年",
+          "right": "year",
+          "reviewFrom": "kanji-batch-01"
+        },
+        {
+          "left": "大",
+          "right": "big / great",
+          "reviewFrom": "kanji-batch-01"
+        },
+        {
+          "left": "十",
+          "right": "ten",
+          "reviewFrom": "kanji-batch-02"
+        },
+        {
+          "left": "二",
+          "right": "two",
+          "reviewFrom": "kanji-batch-02"
+        },
+        {
+          "left": "本",
+          "right": "book / origin / main",
+          "reviewFrom": "kanji-batch-02"
+        },
+        {
+          "left": "中",
+          "right": "middle / inside",
+          "reviewFrom": "kanji-batch-02"
+        },
+        {
+          "left": "出",
+          "right": "go out / exit / produce",
+          "reviewFrom": "kanji-batch-02"
+        },
+        {
+          "left": "三",
+          "right": "three",
+          "reviewFrom": "kanji-batch-03"
+        },
+        {
+          "left": "見",
+          "right": "see / look",
+          "reviewFrom": "kanji-batch-03"
+        },
+        {
+          "left": "月",
+          "right": "moon / month",
+          "reviewFrom": "kanji-batch-03"
+        },
+        {
+          "left": "生",
+          "right": "life / birth / raw",
+          "reviewFrom": "kanji-batch-03"
+        },
+        {
+          "left": "五",
+          "right": "five",
+          "reviewFrom": "kanji-batch-03"
+        },
+        {
+          "left": "上",
+          "right": "up / above",
+          "reviewFrom": "kanji-batch-04"
+        },
+        {
+          "left": "四",
+          "right": "four",
+          "reviewFrom": "kanji-batch-04"
+        },
+        {
+          "left": "金",
+          "right": "gold / money",
+          "reviewFrom": "kanji-batch-04"
+        },
+        {
+          "left": "九",
+          "right": "nine",
+          "reviewFrom": "kanji-batch-04"
+        },
+        {
+          "left": "入",
+          "right": "enter / put in",
+          "reviewFrom": "kanji-batch-04"
+        },
+        {
+          "left": "学",
+          "right": "study / learning",
+          "reviewFrom": "kanji-batch-05"
+        },
+        {
+          "left": "円",
+          "right": "yen / circle",
+          "reviewFrom": "kanji-batch-05"
+        },
+        {
+          "left": "子",
+          "right": "child",
+          "reviewFrom": "kanji-batch-05"
+        },
+        {
+          "left": "八",
+          "right": "eight",
+          "reviewFrom": "kanji-batch-05"
+        },
+        {
+          "left": "六",
+          "right": "six",
+          "reviewFrom": "kanji-batch-05"
+        },
+        {
+          "left": "下",
+          "right": "down / below",
+          "reviewFrom": "kanji-batch-06"
+        },
+        {
+          "left": "気",
+          "right": "spirit / energy",
+          "reviewFrom": "kanji-batch-06"
+        },
+        {
+          "left": "小",
+          "right": "small",
+          "reviewFrom": "kanji-batch-06"
+        },
+        {
+          "left": "七",
+          "right": "seven",
+          "reviewFrom": "kanji-batch-06"
+        },
+        {
+          "left": "山",
+          "right": "mountain",
+          "reviewFrom": "kanji-batch-06"
+        },
+        {
+          "left": "女",
+          "right": "woman / female",
+          "reviewFrom": "kanji-batch-07"
+        },
+        {
+          "left": "百",
+          "right": "hundred",
+          "reviewFrom": "kanji-batch-07"
+        },
+        {
+          "left": "先",
+          "right": "before / ahead",
+          "reviewFrom": "kanji-batch-07"
+        },
+        {
+          "left": "名",
+          "right": "name",
+          "reviewFrom": "kanji-batch-07"
+        },
+        {
+          "left": "川",
+          "right": "river",
+          "reviewFrom": "kanji-batch-07"
+        },
+        {
+          "left": "千",
+          "right": "thousand",
+          "reviewFrom": "kanji-batch-08"
+        },
+        {
+          "left": "水",
+          "right": "water",
+          "reviewFrom": "kanji-batch-08"
+        },
+        {
+          "left": "男",
+          "right": "man / male",
+          "reviewFrom": "kanji-batch-08"
+        },
+        {
+          "left": "校",
+          "right": "school",
+          "reviewFrom": "kanji-batch-08"
+        },
+        {
+          "left": "土",
+          "right": "earth / soil",
+          "reviewFrom": "kanji-batch-08"
+        },
+        {
+          "left": "木",
+          "right": "tree / wood",
+          "reviewFrom": "kanji-batch-09"
+        },
+        {
+          "left": "車",
+          "right": "car",
+          "reviewFrom": "kanji-batch-09"
+        },
+        {
+          "left": "白",
+          "right": "white",
+          "reviewFrom": "kanji-batch-09"
+        },
+        {
+          "left": "天",
+          "right": "heaven / sky",
+          "reviewFrom": "kanji-batch-09"
+        },
+        {
+          "left": "火",
+          "right": "fire",
+          "reviewFrom": "kanji-batch-09"
+        },
+        {
+          "left": "右",
+          "right": "right",
+          "reviewFrom": "kanji-batch-10"
+        },
+        {
+          "left": "左",
+          "right": "left",
+          "reviewFrom": "kanji-batch-10"
+        },
+        {
+          "left": "休",
+          "right": "rest",
+          "reviewFrom": "kanji-batch-10"
+        },
+        {
+          "left": "何",
+          "right": "what",
+          "reviewFrom": "kanji-batch-10"
+        },
+        {
+          "left": "午",
+          "right": "noon",
+          "reviewFrom": "kanji-batch-10"
+        },
+        {
+          "left": "後",
+          "right": "after / behind",
+          "reviewFrom": "kanji-batch-11"
+        },
+        {
+          "left": "前",
+          "right": "before / front",
+          "reviewFrom": "kanji-batch-11"
+        },
+        {
+          "left": "時",
+          "right": "time / hour",
+          "reviewFrom": "kanji-batch-11"
+        },
+        {
+          "left": "間",
+          "right": "interval / between",
+          "reviewFrom": "kanji-batch-11"
+        },
+        {
+          "left": "東",
+          "right": "east",
+          "reviewFrom": "kanji-batch-11"
+        },
+        {
+          "left": "西",
+          "right": "west",
+          "reviewFrom": "kanji-batch-12"
+        },
+        {
+          "left": "南",
+          "right": "south",
+          "reviewFrom": "kanji-batch-12"
+        },
+        {
+          "left": "北",
+          "right": "north",
+          "reviewFrom": "kanji-batch-12"
+        },
+        {
+          "left": "口",
+          "right": "mouth / opening",
+          "reviewFrom": "kanji-batch-12"
+        },
+        {
+          "left": "友",
+          "right": "friend",
+          "reviewFrom": "kanji-batch-12"
+        },
+        {
+          "left": "父",
+          "right": "father",
+          "reviewFrom": "kanji-batch-13"
+        },
+        {
+          "left": "母",
+          "right": "mother",
+          "reviewFrom": "kanji-batch-13"
+        },
+        {
+          "left": "兄",
+          "right": "older brother",
+          "reviewFrom": "kanji-batch-13"
+        },
+        {
+          "left": "弟",
+          "right": "younger brother",
+          "reviewFrom": "kanji-batch-13"
+        },
+        {
+          "left": "姉",
+          "right": "older sister",
+          "reviewFrom": "kanji-batch-13"
+        },
+        {
+          "left": "妹",
+          "right": "younger sister",
+          "reviewFrom": "kanji-batch-14"
+        },
+        {
+          "left": "毎",
+          "right": "every",
+          "reviewFrom": "kanji-batch-14"
+        },
+        {
+          "left": "語",
+          "right": "language / word",
+          "reviewFrom": "kanji-batch-14"
+        },
+        {
+          "left": "文",
+          "right": "sentence / writing",
+          "reviewFrom": "kanji-batch-14"
+        },
+        {
+          "left": "高",
+          "right": "high / expensive",
+          "reviewFrom": "kanji-batch-14"
+        },
+        {
+          "left": "安",
+          "right": "cheap / peaceful",
+          "reviewFrom": "kanji-batch-15"
+        },
+        {
+          "left": "新",
+          "right": "new",
+          "reviewFrom": "kanji-batch-15"
+        },
+        {
+          "left": "古",
+          "right": "old",
+          "reviewFrom": "kanji-batch-15"
+        },
+        {
+          "left": "多",
+          "right": "many / much",
+          "reviewFrom": "kanji-batch-15"
+        },
+        {
+          "left": "少",
+          "right": "few / little",
+          "reviewFrom": "kanji-batch-15"
+        },
+        {
+          "left": "長",
+          "right": "long / leader",
+          "reviewFrom": "kanji-batch-16"
+        },
+        {
+          "left": "半",
+          "right": "half",
+          "reviewFrom": "kanji-batch-16"
+        },
+        {
+          "left": "分",
+          "right": "minute / part",
+          "reviewFrom": "kanji-batch-16"
+        },
+        {
+          "left": "今",
+          "right": "now",
+          "reviewFrom": "kanji-batch-16"
+        },
+        {
+          "left": "週",
+          "right": "week",
+          "reviewFrom": "kanji-batch-16"
+        }
+      ]
+    }
+  ]
+}

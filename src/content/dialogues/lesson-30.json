@@ -1,0 +1,1289 @@
+{
+  "id": "dialogues-lesson-30",
+  "misconceptions": [
+    {
+      "target": "restaurant-etiquette-single-word-answer",
+      "error": "Answers with isolated vocabulary instead of a complete conversational turn.",
+      "mitigation": "Reference rows and response-selection drills keep prompts and natural replies together."
+    },
+    {
+      "target": "restaurant-etiquette-register-mismatch",
+      "error": "Uses casual language with teachers, staff, or strangers.",
+      "mitigation": "Formal, casual, and slang scenes are separated and labeled."
+    },
+    {
+      "target": "restaurant-etiquette-listening-drift",
+      "error": "Chooses a familiar phrase that does not match the audio.",
+      "mitigation": "Listening MC and type-the-answer reuse the exact dialogue speakText."
+    },
+    {
+      "target": "restaurant-etiquette-particle-confusion",
+      "error": "Confuses は, へ, or を in written Japanese source phrases.",
+      "mitigation": "Formula-fill keeps the Japanese particles visible and accepts romaji as support."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Restaurant Etiquette - Formal · Casual · Slang",
+      "intro": "Practice restaurant etiquette as prompt-and-response dialogue, not as loose vocabulary.",
+      "rows": [
+        [
+          "Register",
+          "Japanese",
+          "Romaji",
+          "Typical Response",
+          "Context"
+        ],
+        [
+          "FORMAL",
+          "ごよやくは ございますか？",
+          "goyoyakuha gozaimasuka?",
+          "はい、しちじに よやくしています。",
+          "Yes, I have a reservation at seven."
+        ],
+        [
+          "FORMAL",
+          "はい、しちじに よやくしています。",
+          "hai,shichijini yoyakushiteimasu.",
+          "そうです。ありがとうございます。",
+          "That is right. Thank you."
+        ],
+        [
+          "CASUAL",
+          "いただきます。これ、おいしそう。",
+          "itadakimasu.kore,oishisou.",
+          "ほんとだね。さきに とりわける？",
+          "It does. Shall we share it out first?"
+        ],
+        [
+          "CASUAL",
+          "ほんとだね。さきに とりわける？",
+          "hontodane.sakini toriwakeru?",
+          "いいね。あとで かくにんしよう。",
+          "Nice. Let us check later."
+        ],
+        [
+          "SLANG",
+          "ごちそうさま。めっちゃ おいしかった。",
+          "gochisousama.metcha oishikatta.",
+          "つぎも ここに こよう。",
+          "Let us come here next time too."
+        ],
+        [
+          "SLANG",
+          "つぎも ここに こよう。",
+          "tsugimo kokoni koyou.",
+          "まじか。いいじゃん。",
+          "Really? Nice."
+        ]
+      ],
+      "takeaway": "First choose the right meaning, then choose the right relationship tone."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "A - FORMAL · Restaurant Etiquette",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "先生",
+          "jp": "ごよやくは ございますか？",
+          "romaji": "goyoyakuha gozaimasuka?",
+          "en": "Do you have a reservation?"
+        },
+        {
+          "speaker": "学生",
+          "jp": "はい、しちじに よやくしています。",
+          "romaji": "hai,shichijini yoyakushiteimasu.",
+          "en": "Yes, I have a reservation at seven."
+        },
+        {
+          "speaker": "先生",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "B - CASUAL · Restaurant Etiquette",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "ゆい",
+          "jp": "いただきます。これ、おいしそう。",
+          "romaji": "itadakimasu.kore,oishisou.",
+          "en": "Let us eat. This looks tasty."
+        },
+        {
+          "speaker": "たく",
+          "jp": "ほんとだね。さきに とりわける？",
+          "romaji": "hontodane.sakini toriwakeru?",
+          "en": "It does. Shall we share it out first?"
+        },
+        {
+          "speaker": "ゆい",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "C - SLANG · Restaurant Etiquette",
+      "register": "slang",
+      "lines": [
+        {
+          "speaker": "りく",
+          "jp": "ごちそうさま。めっちゃ おいしかった。",
+          "romaji": "gochisousama.metcha oishikatta.",
+          "en": "Thanks for the meal. It was super tasty."
+        },
+        {
+          "speaker": "まい",
+          "jp": "つぎも ここに こよう。",
+          "romaji": "tsugimo kokoni koyou.",
+          "en": "Let us come here next time too."
+        },
+        {
+          "speaker": "りく",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 1: ごよやくは ございますか？",
+      "prompt": "Which source phrase means: “Do you have a reservation?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "ごよやくは ございますか？",
+          "romaji": "goyoyakuha gozaimasuka?",
+          "en": "Do you have a reservation?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "ごよやくは ございますか？"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 2: はい、しちじに よやくしています。",
+      "prompt": "Which source phrase means: “Yes, I have a reservation at seven.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "はい、しちじに よやくしています。",
+          "romaji": "hai,shichijini yoyakushiteimasu.",
+          "en": "Yes, I have a reservation at seven.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "ごちそうさま。めっちゃ おいしかった。",
+          "romaji": "gochisousama.metcha oishikatta.",
+          "en": "Thanks for the meal. It was super tasty.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "よやくしています",
+          "romaji": "yoyakushiteimasu",
+          "en": "I have a reservation",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "はい、しちじに よやくしています。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 3: そうです。ありがとうございます。",
+      "prompt": "Which source phrase means: “That is right. Thank you.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "つぎも ここに こよう。",
+          "romaji": "tsugimo kokoni koyou.",
+          "en": "Let us come here next time too.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "いただきます",
+          "romaji": "itadakimasu",
+          "en": "said before eating",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "そうです。ありがとうございます。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 4: いただきます。これ、おいしそう。",
+      "prompt": "Which source phrase means: “Let us eat. This looks tasty.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "いただきます。これ、おいしそう。",
+          "romaji": "itadakimasu.kore,oishisou.",
+          "en": "Let us eat. This looks tasty.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "ごちそうさまでした",
+          "romaji": "gochisousamadeshita",
+          "en": "said after eating",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "いただきます。これ、おいしそう。"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "ごよやくは ございますか",
+        "answerRomaji": "goyoyakuha gozaimasuka?",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "goyoyakuhagozaimasuka?"
+        ]
+      },
+      "translation": "Do you have a reservation?",
+      "speakText": "ごよやくは ございますか？",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "はい、しちじに よやくしています",
+        "answerRomaji": "hai,shichijini yoyakushiteimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "hai,shichijiniyoyakushiteimasu."
+        ]
+      },
+      "translation": "Yes, I have a reservation at seven.",
+      "speakText": "はい、しちじに よやくしています。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "そうです。ありがとうございます",
+        "answerRomaji": "soudesu.arigatougozaimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "soudesu.arigatougozaimasu."
+        ]
+      },
+      "translation": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "ごよやくは ございますか？",
+          "romaji": "goyoyakuha gozaimasuka?",
+          "en": "Do you have a reservation?"
+        },
+        {
+          "jp": "はい、しちじに よやくしています。",
+          "romaji": "hai,shichijini yoyakushiteimasu.",
+          "en": "Yes, I have a reservation at seven."
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "いただきます。これ、おいしそう。",
+          "romaji": "itadakimasu.kore,oishisou.",
+          "en": "Let us eat. This looks tasty."
+        },
+        {
+          "jp": "ほんとだね。さきに とりわける？",
+          "romaji": "hontodane.sakini toriwakeru?",
+          "en": "It does. Shall we share it out first?"
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "ごちそうさま。めっちゃ おいしかった。",
+          "romaji": "gochisousama.metcha oishikatta.",
+          "en": "Thanks for the meal. It was super tasty."
+        },
+        {
+          "jp": "つぎも ここに こよう。",
+          "romaji": "tsugimo kokoni koyou.",
+          "en": "Let us come here next time too."
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "よやくしています",
+          "romaji": "yoyakushiteimasu",
+          "en": "I have a reservation"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ごよやくは ございますか？",
+      "options": [
+        {
+          "text": "Do you have a reservation?",
+          "correct": true
+        },
+        {
+          "text": "Let us eat. This looks tasty.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Thanks for the meal. It was super tasty.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "I have a reservation",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "はい、しちじに よやくしています。",
+      "options": [
+        {
+          "text": "Yes, I have a reservation at seven.",
+          "correct": true
+        },
+        {
+          "text": "It does. Shall we share it out first?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Let us come here next time too.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "said before eating",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "そうです。ありがとうございます。",
+      "options": [
+        {
+          "text": "That is right. Thank you.",
+          "correct": true
+        },
+        {
+          "text": "Nice. Let us check later.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "said after eating",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いただきます。これ、おいしそう。",
+      "options": [
+        {
+          "text": "Let us eat. This looks tasty.",
+          "correct": true
+        },
+        {
+          "text": "Thanks for the meal. It was super tasty.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "I have a reservation",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "this way, please",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ほんとだね。さきに とりわける？",
+      "options": [
+        {
+          "text": "It does. Shall we share it out first?",
+          "correct": true
+        },
+        {
+          "text": "Let us come here next time too.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "said before eating",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "the bill, please",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "options": [
+        {
+          "text": "Nice. Let us check later.",
+          "correct": true
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "said after eating",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "splitting the bill",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ごちそうさま。めっちゃ おいしかった。",
+      "options": [
+        {
+          "text": "Thanks for the meal. It was super tasty.",
+          "correct": true
+        },
+        {
+          "text": "I have a reservation",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "this way, please",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "Do you have a reservation?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "つぎも ここに こよう。",
+      "options": [
+        {
+          "text": "Let us come here next time too.",
+          "correct": true
+        },
+        {
+          "text": "said before eating",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "the bill, please",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "Yes, I have a reservation at seven.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "ごよやくは ございますか？",
+        "romaji": "goyoyakuha gozaimasuka?",
+        "speakText": "ごよやくは ございますか？"
+      },
+      "options": [
+        {
+          "jp": "はい、しちじに よやくしています。",
+          "romaji": "hai,shichijini yoyakushiteimasu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "ほんとだね。さきに とりわける？",
+          "romaji": "hontodane.sakini toriwakeru?",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "つぎも ここに こよう。",
+          "romaji": "tsugimo kokoni koyou.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "はい、しちじに よやくしています。",
+        "romaji": "hai,shichijini yoyakushiteimasu.",
+        "speakText": "はい、しちじに よやくしています。"
+      },
+      "options": [
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "いただきます。これ、おいしそう。",
+        "romaji": "itadakimasu.kore,oishisou.",
+        "speakText": "いただきます。これ、おいしそう。"
+      },
+      "options": [
+        {
+          "jp": "ほんとだね。さきに とりわける？",
+          "romaji": "hontodane.sakini toriwakeru?",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "ごちそうさま。めっちゃ おいしかった。",
+          "romaji": "gochisousama.metcha oishikatta.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "よやくしています",
+          "romaji": "yoyakushiteimasu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "ほんとだね。さきに とりわける？",
+        "romaji": "hontodane.sakini toriwakeru?",
+        "speakText": "ほんとだね。さきに とりわける？"
+      },
+      "options": [
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "つぎも ここに こよう。",
+          "romaji": "tsugimo kokoni koyou.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いただきます",
+          "romaji": "itadakimasu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "ごちそうさま。めっちゃ おいしかった。",
+        "romaji": "gochisousama.metcha oishikatta.",
+        "speakText": "ごちそうさま。めっちゃ おいしかった。"
+      },
+      "options": [
+        {
+          "jp": "つぎも ここに こよう。",
+          "romaji": "tsugimo kokoni koyou.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "ごちそうさまでした",
+          "romaji": "gochisousamadeshita",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "つぎも ここに こよう。",
+        "romaji": "tsugimo kokoni koyou.",
+        "speakText": "つぎも ここに こよう。"
+      },
+      "options": [
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "よやくしています",
+          "romaji": "yoyakushiteimasu",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "こちらへ どうぞ",
+          "romaji": "kochirahe douzo",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "ごよやくは ございますか？",
+      "answer": "goyoyakuha gozaimasuka?",
+      "acceptAlternatives": [
+        "goyoyakuhagozaimasuka?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "はい、しちじに よやくしています。",
+      "answer": "hai,shichijini yoyakushiteimasu.",
+      "acceptAlternatives": [
+        "hai,shichijiniyoyakushiteimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "そうです。ありがとうございます。",
+      "answer": "soudesu.arigatougozaimasu.",
+      "acceptAlternatives": [
+        "soudesu.arigatougozaimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "いただきます。これ、おいしそう。",
+      "answer": "itadakimasu.kore,oishisou.",
+      "acceptAlternatives": [
+        "itadakimasu.kore,oishisou."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "ほんとだね。さきに とりわける？",
+      "answer": "hontodane.sakini toriwakeru?",
+      "acceptAlternatives": [
+        "hontodane.sakinitoriwakeru?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "answer": "iine.atode kakuninshiyou.",
+      "acceptAlternatives": [
+        "iine.atodekakuninshiyou."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "ごちそうさま。めっちゃ おいしかった。",
+      "answer": "gochisousama.metcha oishikatta.",
+      "acceptAlternatives": [
+        "gochisousama.metchaoishikatta."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "つぎも ここに こよう。",
+      "answer": "tsugimo kokoni koyou.",
+      "acceptAlternatives": [
+        "tsugimokokonikoyou."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ごよやくは ございますか？",
+      "romaji": "goyoyakuha gozaimasuka?",
+      "en": "Do you have a reservation?",
+      "speakText": "ごよやくは ございますか？",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Restaurant Etiquette",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "はい、しちじに よやくしています。",
+      "romaji": "hai,shichijini yoyakushiteimasu.",
+      "en": "Yes, I have a reservation at seven.",
+      "speakText": "はい、しちじに よやくしています。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Restaurant Etiquette",
+      "speaker": "学生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "そうです。ありがとうございます。",
+      "romaji": "soudesu.arigatougozaimasu.",
+      "en": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Restaurant Etiquette",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いただきます。これ、おいしそう。",
+      "romaji": "itadakimasu.kore,oishisou.",
+      "en": "Let us eat. This looks tasty.",
+      "speakText": "いただきます。これ、おいしそう。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Restaurant Etiquette",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ほんとだね。さきに とりわける？",
+      "romaji": "hontodane.sakini toriwakeru?",
+      "en": "It does. Shall we share it out first?",
+      "speakText": "ほんとだね。さきに とりわける？",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Restaurant Etiquette",
+      "speaker": "たく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いいね。あとで かくにんしよう。",
+      "romaji": "iine.atode kakuninshiyou.",
+      "en": "Nice. Let us check later.",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Restaurant Etiquette",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ごちそうさま。めっちゃ おいしかった。",
+      "romaji": "gochisousama.metcha oishikatta.",
+      "en": "Thanks for the meal. It was super tasty.",
+      "speakText": "ごちそうさま。めっちゃ おいしかった。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Restaurant Etiquette",
+      "speaker": "りく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "つぎも ここに こよう。",
+      "romaji": "tsugimo kokoni koyou.",
+      "en": "Let us come here next time too.",
+      "speakText": "つぎも ここに こよう。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Restaurant Etiquette",
+      "speaker": "まい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "まじか。いいじゃん。",
+      "romaji": "majika.iijan.",
+      "en": "Really? Nice.",
+      "speakText": "まじか。いいじゃん。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Restaurant Etiquette",
+      "speaker": "りく"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "ごよやくは ございますか？",
+          "right": "Do you have a reservation?"
+        },
+        {
+          "left": "はい、しちじに よやくしています。",
+          "right": "Yes, I have a reservation at seven."
+        },
+        {
+          "left": "そうです。ありがとうございます。",
+          "right": "That is right. Thank you."
+        },
+        {
+          "left": "いただきます。これ、おいしそう。",
+          "right": "Let us eat. This looks tasty."
+        },
+        {
+          "left": "ほんとだね。さきに とりわける？",
+          "right": "It does. Shall we share it out first?"
+        },
+        {
+          "left": "いいね。あとで かくにんしよう。",
+          "right": "Nice. Let us check later."
+        },
+        {
+          "left": "ごちそうさま。めっちゃ おいしかった。",
+          "right": "Thanks for the meal. It was super tasty."
+        },
+        {
+          "left": "つぎも ここに こよう。",
+          "right": "Let us come here next time too."
+        },
+        {
+          "left": "まじか。いいじゃん。",
+          "right": "Really? Nice."
+        },
+        {
+          "left": "よやくしています",
+          "right": "I have a reservation"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "ごよやくは ございますか？",
+          "romaji": "goyoyakuha gozaimasuka?",
+          "en": "Do you have a reservation?"
+        },
+        {
+          "jp": "はい、しちじに よやくしています。",
+          "romaji": "hai,shichijini yoyakushiteimasu.",
+          "en": "Yes, I have a reservation at seven.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "いただきます。これ、おいしそう。",
+          "romaji": "itadakimasu.kore,oishisou.",
+          "en": "Let us eat. This looks tasty."
+        },
+        {
+          "jp": "ほんとだね。さきに とりわける？",
+          "romaji": "hontodane.sakini toriwakeru?",
+          "en": "It does. Shall we share it out first?",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "ごちそうさま。めっちゃ おいしかった。",
+          "romaji": "gochisousama.metcha oishikatta.",
+          "en": "Thanks for the meal. It was super tasty."
+        },
+        {
+          "jp": "つぎも ここに こよう。",
+          "romaji": "tsugimo kokoni koyou.",
+          "en": "Let us come here next time too.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "よやくしています",
+          "romaji": "yoyakushiteimasu",
+          "en": "I have a reservation"
+        }
+      ]
+    }
+  ]
+}

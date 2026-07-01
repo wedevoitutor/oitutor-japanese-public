@@ -1,0 +1,1335 @@
+{
+  "id": "dialogues-lesson-04",
+  "misconceptions": [
+    {
+      "target": "doko-location",
+      "error": "Answers どこですか with greetings or unrelated acknowledgements.",
+      "mitigation": "Response-selection drills require a direction or location answer."
+    },
+    {
+      "target": "right-left",
+      "error": "Confuses みぎ and ひだり in turn instructions.",
+      "mitigation": "Meaning checks and comparison cards contrast right and left turns."
+    },
+    {
+      "target": "near-vs-time",
+      "error": "Uses このちかくですか when asking how long it takes.",
+      "mitigation": "Comparison cards and MC items separate nearby checks from duration questions."
+    },
+    {
+      "target": "formal-directions",
+      "error": "Uses bare casual direction phrases with strangers.",
+      "mitigation": "Reference rows and comparison cards keep tourist-to-local requests polite."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Asking Directions - Formal · Standard · Casual",
+      "intro": "Key phrases for asking where something is, giving turns, and checking walking time.",
+      "rows": [
+        [
+          "Register",
+          "Japanese",
+          "Romaji",
+          "Typical Response",
+          "Context"
+        ],
+        [
+          "FORMAL",
+          "すみません、えきは どちらでしょうか？",
+          "Sumimasen, eki wa dochira deshou ka?",
+          "あちらでございます。Achira de gozaimasu.",
+          "Excuse me, which way is the station? — どちら is the polite form of どこ; use with shop staff, officials"
+        ],
+        [
+          "FORMAL",
+          "～までのみちを おしえていただけますか？",
+          "[PLACE] made no michi wo oshiete itadakemasu ka?",
+          "まっすぐ いってください。Massugu itte kudasai.",
+          "Could you tell me the way to ~? — very polite request; ～ていただけますか from Dialogue 02"
+        ],
+        [
+          "FORMAL",
+          "このちかくに ～は ありますか？",
+          "Kono chikaku ni [PLACE] wa arimasu ka?",
+          "はい、あちらに ございます。Hai, achira ni gozaimasu.",
+          "Is there a ~ nearby? — に marks existence location; ある (exist) for non-living things"
+        ],
+        [
+          "FORMAL",
+          "あるいて どのくらい かかりますか？",
+          "Aruite dono kurai kakarimasu ka?",
+          "５ふんほど かかります。Go-fun hodo kakarimasu.",
+          "How long does it take on foot? — あるいて = te-form of あるく (walk); かかる = to take (time)"
+        ],
+        [
+          "STANDARD",
+          "すみません、えきは どこですか？",
+          "Sumimasen, eki wa doko desu ka?",
+          "まっすぐ いってください。Massugu itte kudasai.",
+          "Excuse me, where is the station? — the most practical everyday phrase for asking directions"
+        ],
+        [
+          "STANDARD",
+          "みぎに まがってください。",
+          "Migi ni magatte kudasai.",
+          "わかりました。Wakarimashita.",
+          "Please turn right — に marks the direction of turning; swap みぎ (right) → ひだり (left)"
+        ],
+        [
+          "STANDARD",
+          "つぎの かどで まがってください。",
+          "Tsugi no kado de magatte kudasai.",
+          "はい、わかりました。Hai, wakarimashita.",
+          "Please turn at the next corner — で marks the location of action (different from に for direction)"
+        ],
+        [
+          "STANDARD",
+          "～は このちかくですか？",
+          "[PLACE] wa kono chikaku desu ka?",
+          "はい、あそこです。Hai, asoko desu.",
+          "Is ~ nearby? — このちかく = around here; response: ちかいです (close) or とおいです (far)"
+        ],
+        [
+          "STANDARD",
+          "まがると みえます。",
+          "Magaru to miemasu.",
+          "まがると みえます。Magaru to miemasu.",
+          "When you turn, you'll see it — と here = \"when / if\"; みえる = to come into view"
+        ],
+        [
+          "CASUAL",
+          "えき、どこ？",
+          "Eki, doko?",
+          "あっちだよ。Acchi da yo.",
+          "Where's the station? — は and ですか dropped entirely; rising intonation carries the question"
+        ],
+        [
+          "CASUAL",
+          "まっすぐ いって。",
+          "Massugu itte.",
+          "まっすぐ いって。Massugu itte.",
+          "Go straight — te-form alone = casual request; ください dropped"
+        ],
+        [
+          "CASUAL",
+          "みぎ まがって。",
+          "Migi magatte.",
+          "みぎ まがって。Migi magatte.",
+          "Turn right — に and ください both dropped; just direction + te-form"
+        ],
+        [
+          "CASUAL",
+          "あるいて ５ふんくらい。",
+          "Aruite go-fun kurai.",
+          "あるいて ５ふんくらい。Aruite go-fun kurai.",
+          "About 5 minutes on foot — くらい = approximately; です dropped; natural between friends"
+        ]
+      ],
+      "takeaway": "Directions combine location questions with movement commands: どこ, まっすぐ, みぎ, ひだり, and あるいて."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "A - FORMAL · Tourist Asking a Local",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "エマ",
+          "jp": "すみません、えきまでのみちを おしえていただけますか？",
+          "romaji": "Sumimasen, eki made no michi wo oshiete itadakemasu ka?",
+          "en": "Excuse me, could you tell me the way to the station?"
+        },
+        {
+          "speaker": "やまだ",
+          "jp": "まっすぐ いって、つぎの かどを みぎに まがってください。",
+          "romaji": "Massugu itte, tsugi no kado wo migi ni magatte kudasai.",
+          "en": "Go straight, then turn right at the next corner."
+        },
+        {
+          "speaker": "エマ",
+          "jp": "ありがとうございます。あるいて どのくらい かかりますか？",
+          "romaji": "Arigatou gozaimasu. Aruite dono kurai kakarimasu ka?",
+          "en": "Thank you. How long does it take on foot?"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "B - STANDARD · Asking for a Convenience Store",
+      "register": "polite",
+      "lines": [
+        {
+          "speaker": "アレックス",
+          "jp": "すみません、このちかくに コンビニは ありますか？",
+          "romaji": "Sumimasen, kono chikaku ni konbini wa arimasu ka?",
+          "en": "Excuse me, is there a convenience store nearby?"
+        },
+        {
+          "speaker": "みどり",
+          "jp": "はい、あります。あのかどを ひだりに まがると みえますよ。",
+          "romaji": "Hai, arimasu. Ano kado wo hidari ni magaru to miemasu yo.",
+          "en": "Yes, there is. Turn left at that corner and you'll see it."
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "わかりました。ありがとうございます。",
+          "romaji": "Wakarimashita. Arigatou gozaimasu.",
+          "en": "Got it. Thank you very much."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "C - CASUAL · Friends Looking for a Restaurant",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "ゆき",
+          "jp": "ねえ、あのラーメンやさん どこだっけ？",
+          "romaji": "Nee, ano raamen-yasan doko dakke?",
+          "en": "Hey, where's that ramen place again?"
+        },
+        {
+          "speaker": "はると",
+          "jp": "えきから まっすぐで、みぎがわに あるよ。",
+          "romaji": "Eki kara massugu de, migi gawa ni aru yo.",
+          "en": "From the station, go straight — it's on the right side."
+        },
+        {
+          "speaker": "ゆき",
+          "jp": "あ、わかった！ありがとう！",
+          "romaji": "A, wakatta! Arigatou!",
+          "en": "Oh, got it! Thanks!"
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase matches: \"Where is ~?\"?",
+      "title": "Contrast 1: ～はどこですか？",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "～はどこですか？",
+          "romaji": "[PLACE] wa doko desu ka?",
+          "en": "Where is ~?",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "まっすぐ いってください。",
+          "romaji": "Massugu itte kudasai.",
+          "en": "Please go straight.",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "みぎに まがってください。",
+          "romaji": "Migi ni magatte kudasai.",
+          "en": "Please turn right.",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "～はどこですか？"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase matches: \"Please turn right.\"?",
+      "title": "Contrast 3: みぎに まがってください。",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "みぎに まがってください。",
+          "romaji": "Migi ni magatte kudasai.",
+          "en": "Please turn right.",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "ひだりに まがってください。",
+          "romaji": "Hidari ni magatte kudasai.",
+          "en": "Please turn left.",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "つぎの かどで まがってください。",
+          "romaji": "Tsugi no kado de magatte kudasai.",
+          "en": "Please turn at the next corner.",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "みぎに まがってください。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase matches: \"Please turn at the next corner.\"?",
+      "title": "Contrast 5: つぎの かどで まがってください。",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "つぎの かどで まがってください。",
+          "romaji": "Tsugi no kado de magatte kudasai.",
+          "en": "Please turn at the next corner.",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "あるいて ５ふんです。",
+          "romaji": "Aruite go-fun desu.",
+          "en": "It's 5 minutes on foot.",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "このちかくですか？",
+          "romaji": "Kono chikaku desu ka?",
+          "en": "Is it nearby?",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "つぎの かどで まがってください。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase matches: \"Is it nearby?\"?",
+      "title": "Contrast 7: このちかくですか？",
+      "variants": [
+        {
+          "label": "SOURCE TARGET",
+          "jp": "このちかくですか？",
+          "romaji": "Kono chikaku desu ka?",
+          "en": "Is it nearby?",
+          "note": "Direct source expression for this lesson target.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "MEANING MIXUP",
+          "jp": "まがると みえます。",
+          "romaji": "Magaru to miemasu.",
+          "en": "When you turn, you'll see it.",
+          "note": "Source phrase, but it answers a different need.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceMeaningMixup",
+          "wrongExplanation": "This is a real phrase, but for a different meaning.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "label": "REGISTER OR TASK MIXUP",
+          "jp": "みぎがわに あります。",
+          "romaji": "Migi gawa ni arimasu.",
+          "en": "It's on the right side.",
+          "note": "Source phrase that belongs to a different prompt or relationship.",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "sourceRegisterOrTaskMixup",
+          "wrongExplanation": "This belongs to a different situation from the prompt.",
+          "correct": false,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Choose by communicative job first, then by relationship.",
+      "speakText": "このちかくですか？"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the key phrase from the source lesson:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "えきは どこですか",
+        "answerRomaji": "eki wa doko desu ka",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "eki wa doko desu ka"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "えきは どこですか？",
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the whole source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "まっすぐ いってください",
+        "answerRomaji": "massugu itte kudasai",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "massugu itte kudasai"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "まっすぐ いってください。",
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the whole source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "みぎに まがってください",
+        "answerRomaji": "migi ni magatte kudasai",
+        "hint": "Use the phrase you heard in the lesson source.",
+        "acceptAlternatives": [
+          "migi ni magatte kudasai"
+        ]
+      },
+      "translation": "Source phrase production.",
+      "speakText": "みぎに まがってください。",
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "～はどこですか？",
+          "romaji": "[PLACE] wa doko desu ka?",
+          "en": "Where is ~?"
+        },
+        {
+          "jp": "まっすぐ いってください。",
+          "romaji": "Massugu itte kudasai.",
+          "en": "Please go straight."
+        },
+        {
+          "jp": "みぎに まがってください。",
+          "romaji": "Migi ni magatte kudasai.",
+          "en": "Please turn right."
+        },
+        {
+          "jp": "ひだりに まがってください。",
+          "romaji": "Hidari ni magatte kudasai.",
+          "en": "Please turn left."
+        },
+        {
+          "jp": "つぎの かどで まがってください。",
+          "romaji": "Tsugi no kado de magatte kudasai.",
+          "en": "Please turn at the next corner."
+        },
+        {
+          "jp": "あるいて ５ふんです。",
+          "romaji": "Aruite go-fun desu.",
+          "en": "It's 5 minutes on foot."
+        },
+        {
+          "jp": "このちかくですか？",
+          "romaji": "Kono chikaku desu ka?",
+          "en": "Is it nearby?"
+        },
+        {
+          "jp": "まがると みえます。",
+          "romaji": "Magaru to miemasu.",
+          "en": "When you turn, you'll see it."
+        },
+        {
+          "jp": "みぎがわに あります。",
+          "romaji": "Migi gawa ni arimasu.",
+          "en": "It's on the right side."
+        },
+        {
+          "jp": "あるいて どのくらい かかりますか？",
+          "romaji": "Aruite dono kurai kakarimasu ka?",
+          "en": "How long does it take on foot?"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "えきはどこですか？",
+      "options": [
+        {
+          "text": "How far is ~?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Where is ~?",
+          "correct": true
+        },
+        {
+          "text": "Is there a ~ nearby?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "What is ~?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "まっすぐ いってください。",
+      "options": [
+        {
+          "text": "Please turn right.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Please stop here.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Please go straight.",
+          "correct": true
+        },
+        {
+          "text": "Please go back.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "みぎに まがってください。",
+      "options": [
+        {
+          "text": "Please go right.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Please turn left.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "It's on the right.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Please turn right.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ひだりに まがってください。",
+      "options": [
+        {
+          "text": "Please turn right.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Please turn left.",
+          "correct": true
+        },
+        {
+          "text": "Go straight.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "It's on the left.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "あるいて ５ふんです。",
+      "options": [
+        {
+          "text": "It's a 5-minute drive.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "It's about 5 metres away.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "It's 5 minutes on foot.",
+          "correct": true
+        },
+        {
+          "text": "Walk for 5 blocks.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "まがると みえます。",
+      "options": [
+        {
+          "text": "You should turn here.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "When you turn, you'll see it.",
+          "correct": true
+        },
+        {
+          "text": "Turn and then look left.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "It's around the corner.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "このちかくですか？",
+      "options": [
+        {
+          "text": "Is it far from here?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Is it on this street?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Is it nearby?",
+          "correct": true
+        },
+        {
+          "text": "Is it behind me?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "あるいて どのくらい かかりますか？",
+      "options": [
+        {
+          "text": "How far is it by bus?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption0",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "Is it walkable?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "How much does it cost to walk?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This matches a different source phrase, not the audio."
+        },
+        {
+          "text": "How long does it take on foot?",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "すみません、えきは どこですか？",
+        "romaji": "Sumimasen, eki wa doko desu ka?",
+        "speakText": "すみません、えきは どこですか？"
+      },
+      "options": [
+        {
+          "jp": "まっすぐ いって、みぎに まがってください。",
+          "romaji": "Massugu itte, migi ni magatte kudasai.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "さようなら。",
+          "romaji": "Sayounara.",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This is a familiar earlier phrase, but it does not answer this prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "おはようございます。",
+          "romaji": "Ohayou gozaimasu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "formal",
+          "relationship": "junior-to-senior",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "このちかくに コンビニは ありますか？",
+        "romaji": "Kono chikaku ni konbini wa arimasu ka?",
+        "speakText": "このちかくに コンビニは ありますか？"
+      },
+      "options": [
+        {
+          "jp": "わかりません。",
+          "romaji": "Wakarimasen.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption0",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はい、あそこに あります。",
+          "romaji": "Hai, asoko ni arimasu.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はじめまして。",
+          "romaji": "Hajimemashite.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "あるいて どのくらい かかりますか？",
+        "romaji": "Aruite dono kurai kakarimasu ka?",
+        "speakText": "あるいて どのくらい かかりますか？"
+      },
+      "options": [
+        {
+          "jp": "みぎに まがってください。",
+          "romaji": "Migi ni magatte kudasai.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption0",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まっすぐ いってください。",
+          "romaji": "Massugu itte kudasai.",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This is a familiar earlier phrase, but it does not answer this prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "あるいて ５ふんです。",
+          "romaji": "Aruite go-fun desu.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "えき、どこ？",
+        "romaji": "Eki, doko?",
+        "speakText": "えき、どこ？"
+      },
+      "options": [
+        {
+          "jp": "すみません。",
+          "romaji": "Sumimasen.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption0",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "あっちだよ。",
+          "romaji": "Acchi da yo.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "friends",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "よろしくおねがいします。",
+          "romaji": "Yoroshiku onegaishimasu.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This response does not match the prompt meaning.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Review from dialogues-lesson-02: choose the best response:",
+      "reviewFrom": "dialogues-lesson-02",
+      "question": {
+        "jp": "やばい、助けて！",
+        "romaji": "Yabai, tasukete!",
+        "speakText": "やばい、助けて"
+      },
+      "options": [
+        {
+          "jp": "どうした？",
+          "romaji": "Dou shita?",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はじめまして、よろしく！",
+          "romaji": "Hajimemashite, yoroshiku!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor0",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "おはようございます！",
+          "romaji": "Ohayou gozaimasu!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor1",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "formal",
+          "relationship": "junior-to-senior",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Review from dialogues-lesson-03: choose the best response:",
+      "reviewFrom": "dialogues-lesson-03",
+      "question": {
+        "jp": "もう一度 いってください。",
+        "romaji": "Mou ichido itte kudasai.",
+        "speakText": "もう一度 いってください。"
+      },
+      "options": [
+        {
+          "jp": "はい、もちろん。",
+          "romaji": "Hai, mochiron.",
+          "correct": true,
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "はじめまして、よろしく！",
+          "romaji": "Hajimemashite, yoroshiku!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor0",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "polite",
+          "relationship": "learner-to-stranger",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "おはようございます！",
+          "romaji": "Ohayou gozaimasu!",
+          "correct": false,
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "reviewDistractor1",
+          "wrongExplanation": "This is a real prior response, but it answers a different prompt.",
+          "register": "formal",
+          "relationship": "junior-to-senior",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "えきは どこですか？",
+      "answer": "eki wa doko desu ka",
+      "acceptAlternatives": [],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "まっすぐ いってください。",
+      "answer": "massugu itte kudasai",
+      "acceptAlternatives": [],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "みぎに まがってください。",
+      "answer": "migi ni magatte kudasai",
+      "acceptAlternatives": [],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "ひだりに まがってください。",
+      "answer": "hidari ni magatte kudasai",
+      "acceptAlternatives": [],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "つぎの かどで まがってください。",
+      "answer": "tsugi no kado de magatte kudasai",
+      "acceptAlternatives": [
+        "tsugi no kado wo magatte kudasai"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "あるいて ５ふんです。",
+      "answer": "aruite go fun desu",
+      "acceptAlternatives": [
+        "aruite gofun desu",
+        "aruite 5 fun desu"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "このちかくですか？",
+      "answer": "kono chikaku desu ka",
+      "acceptAlternatives": [],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "みぎがわに あります。",
+      "answer": "migi gawa ni arimasu",
+      "acceptAlternatives": [
+        "migigawa ni arimasu"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "すみません、えきまでのみちを おしえていただけますか？",
+      "romaji": "Sumimasen, eki made no michi wo oshiete itadakemasu ka?",
+      "en": "Excuse me, could you tell me the way to the station?",
+      "speakText": "すみません、えきまでのみちを おしえていただけますか？",
+      "register": "formal",
+      "dialogueContext": "A - Formal · Tourist Asking a Local",
+      "speaker": "エマ"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "まっすぐ いって、つぎの かどを みぎに まがってください。",
+      "romaji": "Massugu itte, tsugi no kado wo migi ni magatte kudasai.",
+      "en": "Go straight, then turn right at the next corner.",
+      "speakText": "まっすぐ いって、つぎの かどを みぎに まがってください。",
+      "register": "formal",
+      "dialogueContext": "A - Formal · Tourist Asking a Local",
+      "speaker": "やまだ"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ありがとうございます。あるいて どのくらい かかりますか？",
+      "romaji": "Arigatou gozaimasu. Aruite dono kurai kakarimasu ka?",
+      "en": "Thank you. How long does it take on foot?",
+      "speakText": "ありがとうございます。あるいて どのくらい かかりますか？",
+      "register": "formal",
+      "dialogueContext": "A - Formal · Tourist Asking a Local",
+      "speaker": "エマ"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "すみません、このちかくに コンビニは ありますか？",
+      "romaji": "Sumimasen, kono chikaku ni konbini wa arimasu ka?",
+      "en": "Excuse me, is there a convenience store nearby?",
+      "speakText": "すみません、このちかくに コンビニは ありますか？",
+      "register": "polite",
+      "dialogueContext": "B - Standard · Asking for a Convenience Store",
+      "speaker": "アレックス"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "はい、あります。あのかどを ひだりに まがると みえますよ。",
+      "romaji": "Hai, arimasu. Ano kado wo hidari ni magaru to miemasu yo.",
+      "en": "Yes, there is. Turn left at that corner and you'll see it.",
+      "speakText": "はい、あります。あのかどを ひだりに まがると みえますよ。",
+      "register": "polite",
+      "dialogueContext": "B - Standard · Asking for a Convenience Store",
+      "speaker": "みどり"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "わかりました。ありがとうございます。",
+      "romaji": "Wakarimashita. Arigatou gozaimasu.",
+      "en": "Got it. Thank you very much.",
+      "speakText": "わかりました。ありがとうございます。",
+      "register": "polite",
+      "dialogueContext": "B - Standard · Asking for a Convenience Store",
+      "speaker": "アレックス"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ねえ、あのラーメンやさん どこだっけ？",
+      "romaji": "Nee, ano raamen-yasan doko dakke?",
+      "en": "Hey, where's that ramen place again?",
+      "speakText": "ねえ、あのラーメンやさん どこだっけ？",
+      "register": "casual",
+      "dialogueContext": "C - Casual · Friends Looking for a Restaurant",
+      "speaker": "ゆき"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "えきから まっすぐで、みぎがわに あるよ。",
+      "romaji": "Eki kara massugu de, migi gawa ni aru yo.",
+      "en": "From the station, go straight — it's on the right side.",
+      "speakText": "えきから まっすぐで、みぎがわに あるよ。",
+      "register": "casual",
+      "dialogueContext": "C - Casual · Friends Looking for a Restaurant",
+      "speaker": "はると"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "あ、わかった！ありがとう！",
+      "romaji": "A, wakatta! Arigatou!",
+      "en": "Oh, got it! Thanks!",
+      "speakText": "あ、わかった！ありがとう！",
+      "register": "casual",
+      "dialogueContext": "C - Casual · Friends Looking for a Restaurant",
+      "speaker": "ゆき"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "～はどこですか？",
+          "right": "Where is ~?"
+        },
+        {
+          "left": "まっすぐ いってください。",
+          "right": "Please go straight."
+        },
+        {
+          "left": "みぎに まがってください。",
+          "right": "Please turn right."
+        },
+        {
+          "left": "ひだりに まがってください。",
+          "right": "Please turn left."
+        },
+        {
+          "left": "つぎの かどで まがってください。",
+          "right": "Please turn at the next corner."
+        },
+        {
+          "left": "あるいて ５ふんです。",
+          "right": "It's 5 minutes on foot."
+        },
+        {
+          "left": "ゆっくり話してください",
+          "right": "Please speak slowly",
+          "reviewFrom": "dialogues-lesson-02"
+        },
+        {
+          "left": "よろしくおねがいします",
+          "right": "Please treat me well",
+          "reviewFrom": "dialogues-lesson-01"
+        },
+        {
+          "left": "ゆっくり はなしてください",
+          "right": "Please speak slowly",
+          "reviewFrom": "dialogues-lesson-03"
+        },
+        {
+          "left": "もう一度 おっしゃっていただけますか？",
+          "right": "Could you say that one more time? (formal)",
+          "reviewFrom": "dialogues-lesson-03"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "すみません、えきまでのみちを おしえていただけますか？",
+          "romaji": "Sumimasen, eki made no michi wo oshiete itadakemasu ka?",
+          "en": "Excuse me, could you tell me the way to the station?"
+        },
+        {
+          "jp": "まっすぐ いって、つぎの かどを みぎに まがってください。",
+          "romaji": "Massugu itte, tsugi no kado wo migi ni magatte kudasai.",
+          "en": "Go straight, then turn right at the next corner.",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "A - Formal · Tourist Asking a Local; register is formal."
+          }
+        },
+        {
+          "jp": "ありがとうございます。あるいて どのくらい かかりますか？",
+          "romaji": "Arigatou gozaimasu. Aruite dono kurai kakarimasu ka?",
+          "en": "Thank you. How long does it take on foot?"
+        },
+        {
+          "jp": "すみません、このちかくに コンビニは ありますか？",
+          "romaji": "Sumimasen, kono chikaku ni konbini wa arimasu ka?",
+          "en": "Excuse me, is there a convenience store nearby?"
+        },
+        {
+          "jp": "はい、あります。あのかどを ひだりに まがると みえますよ。",
+          "romaji": "Hai, arimasu. Ano kado wo hidari ni magaru to miemasu yo.",
+          "en": "Yes, there is. Turn left at that corner and you'll see it.",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "B - Standard · Asking for a Convenience Store; register is polite."
+          }
+        },
+        {
+          "jp": "わかりました。ありがとうございます。",
+          "romaji": "Wakarimashita. Arigatou gozaimasu.",
+          "en": "Got it. Thank you very much."
+        },
+        {
+          "jp": "ねえ、あのラーメンやさん どこだっけ？",
+          "romaji": "Nee, ano raamen-yasan doko dakke?",
+          "en": "Hey, where's that ramen place again?"
+        },
+        {
+          "jp": "えきから まっすぐで、みぎがわに あるよ。",
+          "romaji": "Eki kara massugu de, migi gawa ni aru yo.",
+          "en": "From the station, go straight — it's on the right side.",
+          "comprehension": {
+            "q": "What relationship or situation does this line fit?",
+            "a": "C - Casual · Friends Looking for a Restaurant; register is casual."
+          }
+        },
+        {
+          "jp": "あ、わかった！ありがとう！",
+          "romaji": "A, wakatta! Arigatou!",
+          "en": "Oh, got it! Thanks!"
+        },
+        {
+          "jp": "～はどこですか？",
+          "romaji": "[PLACE] wa doko desu ka?",
+          "en": "Where is ~?"
+        }
+      ]
+    }
+  ]
+}

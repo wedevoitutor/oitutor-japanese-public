@@ -1,0 +1,365 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "S-row — サ行",
+      "rows": [
+        [
+          "サ sa",
+          "シ shi",
+          "ス su",
+          "セ se",
+          "ソ so"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ス",
+          "back": "su",
+          "speakText": "ス"
+        },
+        {
+          "front": "シ",
+          "back": "shi",
+          "speakText": "シ"
+        },
+        {
+          "front": "サ",
+          "back": "sa",
+          "speakText": "サ"
+        },
+        {
+          "front": "ソ",
+          "back": "so",
+          "speakText": "ソ"
+        },
+        {
+          "front": "セ",
+          "back": "se",
+          "speakText": "セ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Sa?",
+      "options": [
+        "セ",
+        "サ",
+        "ス",
+        "ソ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is So?",
+      "options": [
+        "ソ",
+        "シ",
+        "セ",
+        "ス"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "シ",
+      "answer": "shi",
+      "acceptAlternatives": [
+        "si"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ス",
+      "answer": "su"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "サ",
+          "sa"
+        ],
+        [
+          "シ",
+          "shi"
+        ],
+        [
+          "ス",
+          "su"
+        ],
+        [
+          "セ",
+          "se"
+        ],
+        [
+          "ソ",
+          "so"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "サ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "セ",
+        "サ",
+        "ソ",
+        "シ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "シ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "シ",
+        "ス",
+        "セ",
+        "ソ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Se?",
+      "options": [
+        "サ",
+        "ソ",
+        "セ",
+        "ス"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "セ",
+      "answer": "se"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ソ",
+      "answer": "so"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Shi? (watch for look-alikes)",
+      "options": [
+        "ツ",
+        "シ",
+        "ン",
+        "ソ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is So? (watch for look-alikes)",
+      "options": [
+        "ン",
+        "ノ",
+        "ソ",
+        "シ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "ス",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "サ",
+        "セ",
+        "ソ",
+        "ス"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "listening",
+      "speakText": "セ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "セ",
+        "ス",
+        "サ",
+        "ソ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "サ",
+      "answer": "sa"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Su? (watch for look-alikes)",
+      "options": [
+        "ヌ",
+        "ス",
+        "ク",
+        "ン"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "スキー (sukii)",
+          "ski"
+        ],
+        [
+          "シーソー (shiisoo)",
+          "seesaw"
+        ],
+        [
+          "ソース (soosu)",
+          "sauce"
+        ],
+        [
+          "スイス (suisu)",
+          "Switzerland"
+        ],
+        [
+          "エース (eesu)",
+          "ace"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "ski",
+      "answer": [
+        "ス",
+        "キ",
+        "ー"
+      ],
+      "bank": [
+        "サ",
+        "シ",
+        "ス",
+        "セ",
+        "ソ",
+        "キ",
+        "ー"
+      ],
+      "speakText": "スキー"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "sauce",
+      "answer": [
+        "ソ",
+        "ー",
+        "ス"
+      ],
+      "bank": [
+        "サ",
+        "シ",
+        "ス",
+        "セ",
+        "ソ",
+        "ー"
+      ],
+      "speakText": "ソース"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "Switzerland",
+      "answer": [
+        "ス",
+        "イ",
+        "ス"
+      ],
+      "bank": [
+        "サ",
+        "シ",
+        "ス",
+        "セ",
+        "ソ",
+        "イ"
+      ],
+      "speakText": "スイス"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "スキー",
+      "answer": "sukii"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ソース",
+      "answer": "soosu"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "スキー",
+          "ski"
+        ],
+        [
+          "シーソー",
+          "seesaw"
+        ],
+        [
+          "ソース",
+          "sauce"
+        ],
+        [
+          "スイス",
+          "Switzerland"
+        ],
+        [
+          "エース",
+          "ace"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ソ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "シ",
+        "ス",
+        "ソ",
+        "サ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "ace",
+      "answer": [
+        "エ",
+        "ー",
+        "ス"
+      ],
+      "bank": [
+        "エ",
+        "ア",
+        "サ",
+        "シ",
+        "ス",
+        "ー"
+      ],
+      "speakText": "エース"
+    }
+  ],
+  "id": "katakana-row-s"
+}

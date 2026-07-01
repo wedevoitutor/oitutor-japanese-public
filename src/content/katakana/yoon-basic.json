@@ -1,0 +1,373 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Yōon — Basic (Unvoiced Rows)",
+      "rows": [
+        [
+          "キャ kya",
+          "キュ kyu",
+          "キョ kyo"
+        ],
+        [
+          "シャ sha",
+          "シュ shu",
+          "ショ sho"
+        ],
+        [
+          "チャ cha",
+          "チュ chu",
+          "チョ cho"
+        ],
+        [
+          "ニャ nya",
+          "ニュ nyu",
+          "ニョ nyo"
+        ],
+        [
+          "ヒャ hya",
+          "ヒュ hyu",
+          "ヒョ hyo"
+        ],
+        [
+          "ミャ mya",
+          "ミュ myu",
+          "ミョ myo"
+        ],
+        [
+          "リャ rya",
+          "リュ ryu",
+          "リョ ryo"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "キョ",
+          "back": "kyo",
+          "speakText": "キョ"
+        },
+        {
+          "front": "シャ",
+          "back": "sha",
+          "speakText": "シャ"
+        },
+        {
+          "front": "シュ",
+          "back": "shu",
+          "speakText": "シュ"
+        },
+        {
+          "front": "チャ",
+          "back": "cha",
+          "speakText": "チャ"
+        },
+        {
+          "front": "チョ",
+          "back": "cho",
+          "speakText": "チョ"
+        },
+        {
+          "front": "ニャ",
+          "back": "nya",
+          "speakText": "ニャ"
+        },
+        {
+          "front": "ヒャ",
+          "back": "hya",
+          "speakText": "ヒャ"
+        },
+        {
+          "front": "ミョ",
+          "back": "myo",
+          "speakText": "ミョ"
+        },
+        {
+          "front": "リョ",
+          "back": "ryo",
+          "speakText": "リョ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Kyo?",
+      "options": [
+        "キヨ",
+        "キョ",
+        "キャ",
+        "キュ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Sha?",
+      "options": [
+        "シヤ",
+        "シャ",
+        "シュ",
+        "ショ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ryo?",
+      "options": [
+        "リヨ",
+        "リョ",
+        "リャ",
+        "リュ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "シャ",
+      "answer": "sha",
+      "acceptAlternatives": [
+        "sya"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "チュ",
+      "answer": "chu",
+      "acceptAlternatives": [
+        "tyu",
+        "tu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "キョ",
+      "answer": "kyo"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "キョ",
+          "kyo"
+        ],
+        [
+          "シャ",
+          "sha"
+        ],
+        [
+          "チュ",
+          "chu"
+        ],
+        [
+          "ヒャ",
+          "hya"
+        ],
+        [
+          "リョ",
+          "ryo"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "キャ",
+      "prompt": "Which one did you hear?",
+      "options": [
+        "キヤ",
+        "キャ",
+        "キュ",
+        "キョ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ショ",
+      "prompt": "Which one did you hear?",
+      "options": [
+        "シヤ",
+        "シャ",
+        "シュ",
+        "ショ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "listening",
+      "speakText": "チョ",
+      "prompt": "Which one did you hear?",
+      "options": [
+        "チャ",
+        "チュ",
+        "チョ",
+        "チヨ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Kya?",
+      "options": [
+        "キヤ",
+        "キャ",
+        "キュ",
+        "キョ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Shu?",
+      "options": [
+        "シユ",
+        "シュ",
+        "シャ",
+        "ショ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Yōon Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "シャツ (shatsu)",
+          "shirt"
+        ],
+        [
+          "チョコ (choko)",
+          "chocolate"
+        ],
+        [
+          "メニュー (menyuu)",
+          "menu"
+        ],
+        [
+          "ニュース (nyuusu)",
+          "news"
+        ],
+        [
+          "シャワー (shawaa)",
+          "shower"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "shirt",
+      "answer": [
+        "シ",
+        "ャ",
+        "ツ"
+      ],
+      "bank": [
+        "シ",
+        "ャ",
+        "ツ",
+        "ュ",
+        "ョ",
+        "ソ"
+      ],
+      "speakText": "シャツ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "chocolate",
+      "answer": [
+        "チ",
+        "ョ",
+        "コ"
+      ],
+      "bank": [
+        "チ",
+        "ョ",
+        "コ",
+        "ャ",
+        "ュ",
+        "ロ"
+      ],
+      "speakText": "チョコ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "menu",
+      "answer": [
+        "メ",
+        "ニ",
+        "ュ",
+        "ー"
+      ],
+      "bank": [
+        "メ",
+        "ニ",
+        "ュ",
+        "ョ",
+        "ャ",
+        "ー",
+        "ノ"
+      ],
+      "speakText": "メニュー"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "シャツ",
+      "answer": "shatsu",
+      "acceptAlternatives": [
+        "syatsu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "チョコ",
+      "answer": "choko",
+      "acceptAlternatives": [
+        "tyoko"
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "シャツ",
+          "shirt"
+        ],
+        [
+          "チョコ",
+          "chocolate"
+        ],
+        [
+          "メニュー",
+          "menu"
+        ],
+        [
+          "ニュース",
+          "news"
+        ],
+        [
+          "シャワー",
+          "shower"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ニュース",
+      "prompt": "Which word did you hear?",
+      "options": [
+        "news",
+        "menu",
+        "shirt",
+        "shower"
+      ],
+      "correctIndex": 0
+    }
+  ],
+  "id": "katakana-yoon-basic"
+}

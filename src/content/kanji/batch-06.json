@@ -1,0 +1,1133 @@
+{
+  "id": "kanji-batch-06",
+  "misconceptions": [
+    {
+      "kanji": "下",
+      "error": "Learner may overuse one reading of 下 and miss the reading used in 地下.",
+      "mitigation": "Addressed in anchor reading, compound, sentence fill, and recognition drills."
+    },
+    {
+      "kanji": "気",
+      "error": "Learner may overuse one reading of 気 and miss the reading used in 元気.",
+      "mitigation": "Addressed in anchor reading, compound, sentence fill, and recognition drills."
+    },
+    {
+      "kanji": "小",
+      "error": "Learner may overuse one reading of 小 and miss the reading used in 小学校.",
+      "mitigation": "Addressed in anchor reading, compound, sentence fill, and recognition drills."
+    },
+    {
+      "kanji": "七",
+      "error": "Learner may overuse one reading of 七 and miss the reading used in 七月.",
+      "mitigation": "Addressed in anchor reading, compound, sentence fill, and recognition drills."
+    },
+    {
+      "kanji": "山",
+      "error": "Learner may overuse one reading of 山 and miss the reading used in 火山.",
+      "mitigation": "Addressed in anchor reading, compound, sentence fill, and recognition drills."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Batch 06 - 下 気 小 七 山",
+      "intro": "This batch teaches 下 気 小 七 山. Focus on one anchor reading, then practise common N5 words.",
+      "rows": [
+        [
+          "Kanji",
+          "Meaning",
+          "Anchor reading",
+          "Other readings",
+          "Memory hook"
+        ],
+        [
+          "下",
+          "down / below",
+          "カ",
+          "した",
+          "Use the shape of 下 as a visual anchor for down / below."
+        ],
+        [
+          "気",
+          "spirit / energy",
+          "キ",
+          "—",
+          "Use the shape of 気 as a visual anchor for spirit / energy."
+        ],
+        [
+          "小",
+          "small",
+          "ショウ",
+          "ちいさい",
+          "Use the shape of 小 as a visual anchor for small."
+        ],
+        [
+          "七",
+          "seven",
+          "シチ",
+          "なな",
+          "Use the shape of 七 as a visual anchor for seven."
+        ],
+        [
+          "山",
+          "mountain",
+          "サン",
+          "やま",
+          "Use the shape of 山 as a visual anchor for mountain."
+        ]
+      ],
+      "takeaway": "Use the anchor reading as your first handle; compounds and sentences teach the variations."
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "下",
+      "meaning": "down / below",
+      "memoryHook": "Use the shape of 下 as a visual anchor for down / below.",
+      "jlpt": "N5",
+      "strokeCount": 3,
+      "components": [
+        {
+          "shape": "下",
+          "note": "The whole shape is used as a memory cue for down / below; not an etymology claim."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "カ",
+            "romaji": "ka",
+            "anchor": true,
+            "anchorReason": "Common N5 compound reading in 地下.",
+            "anchorExampleWord": "地下"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "した",
+            "romaji": "shita"
+          }
+        ]
+      },
+      "mnemonic": "When you see 下, first connect the shape to down / below. Anchor the reading カ, then check real words because N5 kanji often change reading in compounds.",
+      "confusables": [
+        {
+          "kanji": "日",
+          "meaning": "sun / day",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "人",
+          "meaning": "person",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "地下",
+          "reading": "ちか",
+          "meaning": "underground"
+        },
+        {
+          "word": "下",
+          "reading": "した",
+          "meaning": "below"
+        },
+        {
+          "word": "下手",
+          "reading": "へた",
+          "meaning": "unskillful"
+        },
+        {
+          "word": "下さい",
+          "reading": "ください",
+          "meaning": "please"
+        },
+        {
+          "word": "上下",
+          "reading": "じょうげ",
+          "meaning": "up and down"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "地下で電車に乗ります。",
+          "highlight": "下",
+          "reading": "ちかで でんしゃに のります",
+          "en": "I take the train underground."
+        },
+        {
+          "jp": "本を机の下に置きます。",
+          "highlight": "下",
+          "reading": "ほんを つくえの したに おきます",
+          "en": "I put the book under the desk."
+        },
+        {
+          "jp": "漢字を書くのは下手です。",
+          "highlight": "下",
+          "reading": "かんじを かくのは へたです",
+          "en": "I am not good at writing kanji."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "気",
+      "meaning": "spirit / energy",
+      "memoryHook": "Use the shape of 気 as a visual anchor for spirit / energy.",
+      "jlpt": "N5",
+      "strokeCount": 6,
+      "components": [
+        {
+          "shape": "気",
+          "note": "The whole shape is used as a memory cue for spirit / energy; not an etymology claim."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "キ",
+            "romaji": "ki",
+            "anchor": true,
+            "anchorReason": "Common N5 compound reading in 元気.",
+            "anchorExampleWord": "元気"
+          }
+        ],
+        "kun": []
+      },
+      "mnemonic": "When you see 気, first connect the shape to spirit / energy. Anchor the reading キ, then check real words because N5 kanji often change reading in compounds.",
+      "confusables": [
+        {
+          "kanji": "日",
+          "meaning": "sun / day",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "人",
+          "meaning": "person",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "元気",
+          "reading": "げんき",
+          "meaning": "healthy"
+        },
+        {
+          "word": "天気",
+          "reading": "てんき",
+          "meaning": "weather"
+        },
+        {
+          "word": "気分",
+          "reading": "きぶん",
+          "meaning": "mood"
+        },
+        {
+          "word": "人気",
+          "reading": "にんき",
+          "meaning": "popularity"
+        },
+        {
+          "word": "空気",
+          "reading": "くうき",
+          "meaning": "air"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "今日は元気です。",
+          "highlight": "気",
+          "reading": "きょうは げんきです",
+          "en": "I feel well today."
+        },
+        {
+          "jp": "天気がいいです。",
+          "highlight": "気",
+          "reading": "てんきが いいです",
+          "en": "The weather is nice."
+        },
+        {
+          "jp": "気分が悪いです。",
+          "highlight": "気",
+          "reading": "きぶんが わるいです",
+          "en": "I feel sick."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "小",
+      "meaning": "small",
+      "memoryHook": "Use the shape of 小 as a visual anchor for small.",
+      "jlpt": "N5",
+      "strokeCount": 3,
+      "components": [
+        {
+          "shape": "小",
+          "note": "The whole shape is used as a memory cue for small; not an etymology claim."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "ショウ",
+            "romaji": "shou",
+            "anchor": true,
+            "anchorReason": "Common N5 compound reading in 小学校.",
+            "anchorExampleWord": "小学校"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "ちいさい",
+            "romaji": "chiisai"
+          }
+        ]
+      },
+      "mnemonic": "When you see 小, first connect the shape to small. Anchor the reading ショウ, then check real words because N5 kanji often change reading in compounds.",
+      "confusables": [
+        {
+          "kanji": "日",
+          "meaning": "sun / day",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "人",
+          "meaning": "person",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "小学校",
+          "reading": "しょうがっこう",
+          "meaning": "elementary school"
+        },
+        {
+          "word": "小さい",
+          "reading": "ちいさい",
+          "meaning": "small"
+        },
+        {
+          "word": "小人",
+          "reading": "こびと",
+          "meaning": "small person"
+        },
+        {
+          "word": "小川",
+          "reading": "おがわ",
+          "meaning": "stream"
+        },
+        {
+          "word": "小学生",
+          "reading": "しょうがくせい",
+          "meaning": "elementary student"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "小学校は駅の近くです。",
+          "highlight": "小",
+          "reading": "しょうがっこうは えきの ちかくです",
+          "en": "The elementary school is near the station."
+        },
+        {
+          "jp": "小さい犬が好きです。",
+          "highlight": "小",
+          "reading": "ちいさい いぬが すきです",
+          "en": "I like small dogs."
+        },
+        {
+          "jp": "小川のそばを歩きます。",
+          "highlight": "小",
+          "reading": "おがわの そばを あるきます",
+          "en": "I walk beside a stream."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "七",
+      "meaning": "seven",
+      "memoryHook": "Use the shape of 七 as a visual anchor for seven.",
+      "jlpt": "N5",
+      "strokeCount": 2,
+      "components": [
+        {
+          "shape": "七",
+          "note": "The whole shape is used as a memory cue for seven; not an etymology claim."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "シチ",
+            "romaji": "shichi",
+            "anchor": true,
+            "anchorReason": "Common N5 compound reading in 七月.",
+            "anchorExampleWord": "七月"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "なな",
+            "romaji": "nana"
+          }
+        ]
+      },
+      "mnemonic": "When you see 七, first connect the shape to seven. Anchor the reading シチ, then check real words because N5 kanji often change reading in compounds.",
+      "confusables": [
+        {
+          "kanji": "日",
+          "meaning": "sun / day",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "人",
+          "meaning": "person",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "七月",
+          "reading": "しちがつ",
+          "meaning": "July"
+        },
+        {
+          "word": "七つ",
+          "reading": "ななつ",
+          "meaning": "seven things"
+        },
+        {
+          "word": "七人",
+          "reading": "しちにん",
+          "meaning": "seven people"
+        },
+        {
+          "word": "七日",
+          "reading": "なのか",
+          "meaning": "the seventh day"
+        },
+        {
+          "word": "七時",
+          "reading": "しちじ",
+          "meaning": "seven o’clock"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "七月に日本へ行きます。",
+          "highlight": "七",
+          "reading": "しちがつに にほんへ いきます",
+          "en": "I go to Japan in July."
+        },
+        {
+          "jp": "七時に起きます。",
+          "highlight": "七",
+          "reading": "しちじに おきます",
+          "en": "I wake up at seven."
+        },
+        {
+          "jp": "七つのりんごを買います。",
+          "highlight": "七",
+          "reading": "ななつの りんごを かいます",
+          "en": "I buy seven apples."
+        }
+      ]
+    },
+    {
+      "type": "kanji-card",
+      "kanji": "山",
+      "meaning": "mountain",
+      "memoryHook": "Use the shape of 山 as a visual anchor for mountain.",
+      "jlpt": "N5",
+      "strokeCount": 3,
+      "components": [
+        {
+          "shape": "山",
+          "note": "The whole shape is used as a memory cue for mountain; not an etymology claim."
+        }
+      ],
+      "readings": {
+        "on": [
+          {
+            "kana": "サン",
+            "romaji": "san",
+            "anchor": true,
+            "anchorReason": "Common N5 compound reading in 火山.",
+            "anchorExampleWord": "火山"
+          }
+        ],
+        "kun": [
+          {
+            "kana": "やま",
+            "romaji": "yama"
+          }
+        ]
+      },
+      "mnemonic": "When you see 山, first connect the shape to mountain. Anchor the reading サン, then check real words because N5 kanji often change reading in compounds.",
+      "confusables": [
+        {
+          "kanji": "日",
+          "meaning": "sun / day",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        },
+        {
+          "kanji": "人",
+          "meaning": "person",
+          "note": "Review contrast: check the shape, reading, and meaning before choosing."
+        }
+      ],
+      "compounds": [
+        {
+          "word": "火山",
+          "reading": "かざん",
+          "meaning": "volcano"
+        },
+        {
+          "word": "山",
+          "reading": "やま",
+          "meaning": "mountain"
+        },
+        {
+          "word": "富士山",
+          "reading": "ふじさん",
+          "meaning": "Mt. Fuji"
+        },
+        {
+          "word": "山川",
+          "reading": "やまかわ",
+          "meaning": "mountains and rivers"
+        },
+        {
+          "word": "登山",
+          "reading": "とざん",
+          "meaning": "mountain climbing"
+        }
+      ],
+      "sentences": [
+        {
+          "jp": "山に登ります。",
+          "highlight": "山",
+          "reading": "やまに のぼります",
+          "en": "I climb a mountain."
+        },
+        {
+          "jp": "富士山は有名です。",
+          "highlight": "山",
+          "reading": "ふじさんは ゆうめいです",
+          "en": "Mt. Fuji is famous."
+        },
+        {
+          "jp": "火山を勉強します。",
+          "highlight": "山",
+          "reading": "かざんを べんきょうします",
+          "en": "I study volcanoes."
+        }
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "下",
+          "back": "down / below - カ",
+          "speakText": "下"
+        },
+        {
+          "front": "気",
+          "back": "spirit / energy - キ",
+          "speakText": "気"
+        },
+        {
+          "front": "小",
+          "back": "small - ショウ",
+          "speakText": "小"
+        },
+        {
+          "front": "七",
+          "back": "seven - シチ",
+          "speakText": "七"
+        },
+        {
+          "front": "山",
+          "back": "mountain - サン",
+          "speakText": "山"
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 下 (kana or romaji):",
+      "question": "下",
+      "speakText": "下",
+      "answer": "カ",
+      "acceptAlternatives": [
+        "ka",
+        "カ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 気 (kana or romaji):",
+      "question": "気",
+      "speakText": "気",
+      "answer": "キ",
+      "acceptAlternatives": [
+        "ki",
+        "キ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 小 (kana or romaji):",
+      "question": "小",
+      "speakText": "小",
+      "answer": "ショウ",
+      "acceptAlternatives": [
+        "sho",
+        "shou",
+        "ショウ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 七 (kana or romaji):",
+      "question": "七",
+      "speakText": "七",
+      "answer": "シチ",
+      "acceptAlternatives": [
+        "shichi",
+        "シチ"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the anchor reading of 山 (kana or romaji):",
+      "question": "山",
+      "speakText": "山",
+      "answer": "サン",
+      "acceptAlternatives": [
+        "san",
+        "サン"
+      ],
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 地下 in hiragana or romaji:",
+      "question": "地下",
+      "speakText": "地下",
+      "answer": "ちか",
+      "acceptAlternatives": [
+        "chika"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "下"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 元気 in hiragana or romaji:",
+      "question": "元気",
+      "speakText": "元気",
+      "answer": "げんき",
+      "acceptAlternatives": [
+        "genki"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "気"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 小学校 in hiragana or romaji:",
+      "question": "小学校",
+      "speakText": "小学校",
+      "answer": "しょうがっこう",
+      "acceptAlternatives": [
+        "shogakko",
+        "shougakkou"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "小"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 七月 in hiragana or romaji:",
+      "question": "七月",
+      "speakText": "七月",
+      "answer": "しちがつ",
+      "acceptAlternatives": [
+        "shichigatsu"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "七"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 火山 in hiragana or romaji:",
+      "question": "火山",
+      "speakText": "火山",
+      "answer": "かざん",
+      "acceptAlternatives": [
+        "kazan"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "山"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Type the reading of 小さい in hiragana or romaji:",
+      "question": "小さい",
+      "speakText": "小さい",
+      "answer": "ちいさい",
+      "acceptAlternatives": [
+        "chiisai"
+      ],
+      "strictness": "romaji-accepted",
+      "targetKanji": "小"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "地",
+        "[SLOT]",
+        "で電車に乗ります。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "下",
+        "answerRomaji": "ka",
+        "hint": "Choose the kanji for down / below.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "下",
+            "correct": true
+          },
+          {
+            "text": "気",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "気 means “spirit / energy,” so it does not fit this prompt."
+          },
+          {
+            "text": "小",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "小 means “small,” so it does not fit this prompt."
+          },
+          {
+            "text": "七",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "七 means “seven,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I take the train underground.",
+      "speakText": "地下で電車に乗ります。",
+      "targetKanji": "下",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "学校は駅の近くです。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "小",
+        "answerRomaji": "shou",
+        "hint": "Choose the kanji for small.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "小",
+            "correct": true
+          },
+          {
+            "text": "下",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "下 means “down / below,” so it does not fit this prompt."
+          },
+          {
+            "text": "気",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "気 means “spirit / energy,” so it does not fit this prompt."
+          },
+          {
+            "text": "七",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "七 means “seven,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "The elementary school is near the station.",
+      "speakText": "小学校は駅の近くです。",
+      "targetKanji": "小",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Fill the missing kanji in the sentence:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        "に登ります。"
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "山",
+        "answerRomaji": "san",
+        "hint": "Choose the kanji for mountain.",
+        "acceptAlternatives": [],
+        "options": [
+          {
+            "text": "山",
+            "correct": true
+          },
+          {
+            "text": "下",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "下 means “down / below,” so it does not fit this prompt."
+          },
+          {
+            "text": "気",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "気 means “spirit / energy,” so it does not fit this prompt."
+          },
+          {
+            "text": "小",
+            "correct": false,
+            "distractorReason": "wrongMeaning",
+            "confusionFeature": "knownKanji",
+            "wrongExplanation": "小 means “small,” so it does not fit this prompt."
+          }
+        ]
+      },
+      "translation": "I climb a mountain.",
+      "speakText": "山に登ります。",
+      "targetKanji": "山",
+      "inputMode": "kanji-tap-set",
+      "strictness": "kanji-select"
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 下 read in 地下?",
+      "word": "地下",
+      "targetKanji": "下",
+      "options": [
+        {
+          "kana": "ちか",
+          "romaji": "chika",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "地下 is read ちか in this vocabulary item."
+        },
+        {
+          "kana": "カ",
+          "romaji": "ka",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "カ is useful for 下, but not the full reading of 地下."
+        },
+        {
+          "kana": "した",
+          "romaji": "shita",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "した is another reading connected to 下, not the reading used in 地下."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 小 read in 小学校?",
+      "word": "小学校",
+      "targetKanji": "小",
+      "options": [
+        {
+          "kana": "しょうがっこう",
+          "romaji": "shogakko",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "小学校 is read しょうがっこう in this vocabulary item."
+        },
+        {
+          "kana": "ショウ",
+          "romaji": "shou",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "ショウ is useful for 小, but not the full reading of 小学校."
+        },
+        {
+          "kana": "ちいさい",
+          "romaji": "chiisai",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "ちいさい is another reading connected to 小, not the reading used in 小学校."
+        }
+      ]
+    },
+    {
+      "type": "reading-explanation",
+      "prompt": "How is 山 read in 火山?",
+      "word": "火山",
+      "targetKanji": "山",
+      "options": [
+        {
+          "kana": "かざん",
+          "romaji": "kazan",
+          "readingType": "word",
+          "correct": true,
+          "explanation": "火山 is read かざん in this vocabulary item."
+        },
+        {
+          "kana": "サン",
+          "romaji": "san",
+          "readingType": "on",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "anchorReading",
+          "wrongExplanation": "サン is useful for 山, but not the full reading of 火山."
+        },
+        {
+          "kana": "やま",
+          "romaji": "yama",
+          "readingType": "kun",
+          "correct": false,
+          "distractorReason": "wrongReading",
+          "confusionFeature": "alternateReading",
+          "wrongExplanation": "やま is another reading connected to 山, not the reading used in 火山."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji means 'spirit / energy'?",
+      "options": [
+        {
+          "text": "気",
+          "correct": true
+        },
+        {
+          "text": "下",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "下 means “down / below,” so it does not fit this prompt."
+        },
+        {
+          "text": "小",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "小 means “small,” so it does not fit this prompt."
+        },
+        {
+          "text": "七",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "七 means “seven,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the kanji you hear:",
+      "speakText": "七",
+      "options": [
+        {
+          "text": "七",
+          "correct": true
+        },
+        {
+          "text": "下",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "下 means “down / below,” so it does not fit this prompt."
+        },
+        {
+          "text": "気",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "気 means “spirit / energy,” so it does not fit this prompt."
+        },
+        {
+          "text": "小",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "小 means “small,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which kanji in 火山 (volcano) means 'mountain'?",
+      "options": [
+        {
+          "text": "山",
+          "correct": true
+        },
+        {
+          "text": "下",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "下 means “down / below,” so it does not fit this prompt."
+        },
+        {
+          "text": "気",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "気 means “spirit / energy,” so it does not fit this prompt."
+        },
+        {
+          "text": "小",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "小 means “small,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Review: which older kanji means 'six'?",
+      "reviewFrom": "kanji-batch-05",
+      "options": [
+        {
+          "text": "六",
+          "correct": true
+        },
+        {
+          "text": "学",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "学 means “study / learning,” so it does not fit this prompt."
+        },
+        {
+          "text": "円",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "円 means “yen / circle,” so it does not fit this prompt."
+        },
+        {
+          "text": "子",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "confusionFeature": "knownKanji",
+          "wrongExplanation": "子 means “child,” so it does not fit this prompt."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Review: match older kanji to their meanings:",
+      "reviewFrom": [
+        "kanji-batch-04",
+        "kanji-batch-05"
+      ],
+      "pairs": [
+        {
+          "left": "円",
+          "right": "yen / circle",
+          "reviewFrom": "kanji-batch-05"
+        },
+        {
+          "left": "子",
+          "right": "child",
+          "reviewFrom": "kanji-batch-05"
+        },
+        {
+          "left": "八",
+          "right": "eight",
+          "reviewFrom": "kanji-batch-05"
+        },
+        {
+          "left": "六",
+          "right": "six",
+          "reviewFrom": "kanji-batch-05"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each kanji to its meaning:",
+      "pairs": [
+        {
+          "left": "下",
+          "right": "down / below"
+        },
+        {
+          "left": "気",
+          "right": "spirit / energy"
+        },
+        {
+          "left": "小",
+          "right": "small"
+        },
+        {
+          "left": "七",
+          "right": "seven"
+        },
+        {
+          "left": "山",
+          "right": "mountain"
+        }
+      ]
+    }
+  ]
+}

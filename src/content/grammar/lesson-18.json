@@ -1,0 +1,743 @@
+{
+  "id": "grammar-lesson-18",
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "まえに - Before Doing",
+      "intro": "Use まえに to place one action before another. With verbs, put the dictionary form before まえに.",
+      "rows": [
+        [
+          "Pattern",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "V dictionary + まえに",
+          "v dictionary + mae ni",
+          "before doing V"
+        ],
+        [
+          "たべる まえに",
+          "taberu mae ni",
+          "before eating"
+        ],
+        [
+          "ねる まえに",
+          "neru mae ni",
+          "before sleeping"
+        ],
+        [
+          "いく まえに",
+          "iku mae ni",
+          "before going"
+        ],
+        [
+          "べんきょうする まえに",
+          "benkyou suru mae ni",
+          "before studying"
+        ]
+      ],
+      "takeaway": "Before an action: dictionary-form verb + まえに."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which form means 'before sleeping'?",
+      "options": [
+        "ねる まえに",
+        "ねて まえに",
+        "ねた まえに",
+        "ねます まえに"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I brush my teeth before sleeping':",
+      "patternJp": [
+        "ねる まえに ",
+        "[SLOT]",
+        "を みがきます。"
+      ],
+      "patternRom": [
+        "neru mae ni ",
+        "[SLOT]",
+        " o migakimasu."
+      ],
+      "slot": {
+        "answer": "は",
+        "answerRomaji": "ha",
+        "hint": "The noun meaning 'teeth', written as one kana.",
+        "acceptAlternatives": [
+          "歯"
+        ]
+      },
+      "translation": "I brush my teeth before sleeping.",
+      "speakText": "ねる まえに 歯を みがきます。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Noun + の + まえに",
+      "intro": "When the thing before まえ is a noun, connect it with の. This is useful for meals, school, work, and tests.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "ごはんの まえに",
+          "gohan no mae ni",
+          "before a meal"
+        ],
+        [
+          "がっこうの まえに",
+          "gakkou no mae ni",
+          "before school"
+        ],
+        [
+          "しごとの まえに",
+          "shigoto no mae ni",
+          "before work"
+        ],
+        [
+          "テストの まえに",
+          "tesuto no mae ni",
+          "before a test"
+        ],
+        [
+          "えいがの まえに",
+          "eiga no mae ni",
+          "before a movie"
+        ]
+      ],
+      "takeaway": "Before a noun: noun + の + まえに."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which phrase correctly means 'before a test'?",
+      "options": [
+        "テストの まえに",
+        "テスト まえに",
+        "テストを まえに",
+        "テストに まえ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I study before a test':",
+      "patternJp": [
+        "テストの まえに ",
+        "[SLOT]",
+        "します。"
+      ],
+      "patternRom": [
+        "tesuto no mae ni ",
+        "[SLOT]",
+        " shimasu."
+      ],
+      "slot": {
+        "answer": "べんきょう",
+        "answerRomaji": "benkyou",
+        "hint": "The noun used with suru to mean 'study'.",
+        "acceptAlternatives": [
+          "勉強",
+          "Benkyou"
+        ]
+      },
+      "translation": "I study before a test.",
+      "speakText": "テストの まえに べんきょうします。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "あとで - After Doing",
+      "intro": "Use あとで for something that happens after another action or event. With verbs, the verb before あとで is usually the past plain た-form.",
+      "rows": [
+        [
+          "Pattern",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "Vた + あとで",
+          "v-ta + ato de",
+          "after doing V"
+        ],
+        [
+          "たべた あとで",
+          "tabeta ato de",
+          "after eating"
+        ],
+        [
+          "みた あとで",
+          "mita ato de",
+          "after watching"
+        ],
+        [
+          "かえった あとで",
+          "kaetta ato de",
+          "after returning"
+        ],
+        [
+          "N + の + あとで",
+          "n + no ato de",
+          "after a noun/event"
+        ]
+      ],
+      "takeaway": "After an action: た-form + あとで; after a noun: noun + の + あとで."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which phrase correctly means 'after eating'?",
+      "options": [
+        "たべた あとで",
+        "たべる あとで",
+        "たべて あとで",
+        "たべます あとで"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I drink coffee after eating':",
+      "patternJp": [
+        "たべた あとで コーヒーを ",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "tabeta ato de koohii o ",
+        "[SLOT]",
+        "."
+      ],
+      "slot": {
+        "answer": "のみます",
+        "answerRomaji": "nomimasu",
+        "hint": "The polite present verb meaning 'drink'.",
+        "acceptAlternatives": [
+          "飲みます",
+          "Nomimasu"
+        ]
+      },
+      "translation": "I drink coffee after eating.",
+      "speakText": "たべた あとで コーヒーを のみます。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "てから and Sequence Words",
+      "intro": "てから means 'after doing, then...' and strongly connects the order of actions. Sequence words like それから and さいごに help tell a simple routine.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "Vて + から",
+          "v-te + kara",
+          "after doing V / once V is done"
+        ],
+        [
+          "おきてから",
+          "okite kara",
+          "after getting up"
+        ],
+        [
+          "それから",
+          "sorekara",
+          "and then"
+        ],
+        [
+          "つぎに",
+          "tsugi ni",
+          "next"
+        ],
+        [
+          "さいごに",
+          "saigo ni",
+          "last / finally"
+        ],
+        [
+          "まず",
+          "mazu",
+          "first"
+        ]
+      ],
+      "takeaway": "Use てから for a required order; use sequence words to guide the listener."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which phrase means 'after getting up / once I get up'?",
+      "options": [
+        "おきてから",
+        "おきるまえに",
+        "おきたあとでない",
+        "おきますから"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'After I get up, I wash my face':",
+      "patternJp": [
+        "おきてから かおを ",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "okite kara kao o ",
+        "[SLOT]",
+        "."
+      ],
+      "slot": {
+        "answer": "あらいます",
+        "answerRomaji": "araimasu",
+        "hint": "The polite present verb meaning 'wash'.",
+        "acceptAlternatives": [
+          "洗います",
+          "Araimasu"
+        ]
+      },
+      "translation": "After I get up, I wash my face.",
+      "speakText": "おきてから かおを あらいます。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence correctly uses まえに before an action?",
+      "title": "Dictionary form before まえに",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "ねる まえに 歯を みがきます。",
+          "romaji": "neru mae ni ha o migakimasu.",
+          "en": "I brush my teeth before sleeping.",
+          "note": "Use the dictionary form before まえに.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "ねた まえに 歯を みがきます。",
+          "romaji": "neta mae ni ha o migakimasu.",
+          "en": "(intended: before sleeping)",
+          "note": "The た-form belongs with あとで, not まえに.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "ねて まえに 歯を みがきます。",
+          "romaji": "nete mae ni ha o migakimasu.",
+          "en": "(intended: before sleeping)",
+          "note": "て-form does not attach directly to まえに.",
+          "correct": false
+        }
+      ],
+      "takeaway": "まえに takes dictionary-form verbs.",
+      "speakText": "ねる まえに 歯を みがきます。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence correctly uses の before まえに with a noun?",
+      "title": "Noun + の + まえに",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "テストの まえに べんきょうします。",
+          "romaji": "tesuto no mae ni benkyou shimasu.",
+          "en": "I study before a test.",
+          "note": "A noun connects to まえに with の.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "テスト まえに べんきょうします。",
+          "romaji": "tesuto mae ni benkyou shimasu.",
+          "en": "(intended: before a test)",
+          "note": "Do not drop の after a noun.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "テストを まえに べんきょうします。",
+          "romaji": "tesuto o mae ni benkyou shimasu.",
+          "en": "(intended: before a test)",
+          "note": "を marks an object, not the link to まえに.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use の between a noun and まえに.",
+      "speakText": "テストの まえに べんきょうします。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence correctly uses あとで after an action?",
+      "title": "た-form before あとで",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "たべた あとで コーヒーを のみます。",
+          "romaji": "tabeta ato de koohii o nomimasu.",
+          "en": "I drink coffee after eating.",
+          "note": "Use the た-form before あとで for 'after doing'.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "たべる あとで コーヒーを のみます。",
+          "romaji": "taberu ato de koohii o nomimasu.",
+          "en": "(intended: after eating)",
+          "note": "Dictionary form is for まえに, not this あとで pattern.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "たべて あとで コーヒーを のみます。",
+          "romaji": "tabete ato de koohii o nomimasu.",
+          "en": "(intended: after eating)",
+          "note": "Use たべた あとで or たべてから.",
+          "correct": false
+        }
+      ],
+      "takeaway": "あとで usually follows a completed action in た-form.",
+      "speakText": "たべた あとで コーヒーを のみます。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which sentence clearly says one action happens after another?",
+      "title": "てから for ordered steps",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "おきてから かおを あらいます。",
+          "romaji": "okite kara kao o araimasu.",
+          "en": "After I get up, I wash my face.",
+          "note": "てから strongly marks the first action as completed before the next one.",
+          "correct": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "おきる まえに かおを あらいます。",
+          "romaji": "okiru mae ni kao o araimasu.",
+          "en": "I wash my face before getting up.",
+          "note": "This reverses the intended order.",
+          "correct": false
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "おきますから かおを あらいます。",
+          "romaji": "okimasu kara kao o araimasu.",
+          "en": "Because I get up, I wash my face.",
+          "note": "から after a polite verb can mean 'because', not the sequence pattern てから.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use てから when action A is completed, then action B happens.",
+      "speakText": "おきてから かおを あらいます。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Before, After, and Sequence in Context",
+      "intro": "These examples show a simple routine and how the order changes with まえに, あとで, and てから.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "English"
+        ],
+        [
+          "ねる まえに 歯を みがきます。",
+          "neru mae ni ha o migakimasu.",
+          "I brush my teeth before sleeping."
+        ],
+        [
+          "テストの まえに べんきょうします。",
+          "tesuto no mae ni benkyou shimasu.",
+          "I study before a test."
+        ],
+        [
+          "たべた あとで コーヒーを のみます。",
+          "tabeta ato de koohii o nomimasu.",
+          "I drink coffee after eating."
+        ],
+        [
+          "しごとの あとで うちへ かえります。",
+          "shigoto no ato de uchi e kaerimasu.",
+          "I go home after work."
+        ],
+        [
+          "おきてから かおを あらいます。",
+          "okite kara kao o araimasu.",
+          "After I get up, I wash my face."
+        ],
+        [
+          "まず シャワーを あびます。",
+          "mazu shawaa o abimasu.",
+          "First, I take a shower."
+        ],
+        [
+          "それから あさごはんを たべます。",
+          "sorekara asagohan o tabemasu.",
+          "Then I eat breakfast."
+        ],
+        [
+          "さいごに がっこうへ いきます。",
+          "saigo ni gakkou e ikimasu.",
+          "Finally, I go to school."
+        ]
+      ],
+      "takeaway": "Choose まえに for before, あとで or てから for after, and sequence words for routines."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ねる まえに 歯を みがきます。",
+      "options": [
+        "I brush my teeth before sleeping.",
+        "I sleep after brushing my teeth.",
+        "I brush my face before sleeping.",
+        "I brush my teeth after sleeping."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "テストの まえに べんきょうします。",
+      "options": [
+        "I study after a test.",
+        "I study before a test.",
+        "I take a test before studying.",
+        "I study during a test."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "たべた あとで コーヒーを のみます。",
+      "options": [
+        "I drink coffee before eating.",
+        "I eat after drinking coffee.",
+        "I drink coffee after eating.",
+        "I do not drink coffee."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "しごとの あとで うちへ かえります。",
+      "options": [
+        "I go to work after home.",
+        "I go home after work.",
+        "I go home before work.",
+        "I work at home."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "おきてから かおを あらいます。",
+      "options": [
+        "After I get up, I wash my face.",
+        "Before I get up, I wash my face.",
+        "After washing my face, I sleep.",
+        "I get up because I wash my face."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "まず シャワーを あびます。",
+      "options": [
+        "Next, I eat breakfast.",
+        "Finally, I go to school.",
+        "First, I take a shower.",
+        "Before sleeping, I shower."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "それから あさごはんを たべます。",
+      "options": [
+        "Then I eat breakfast.",
+        "First I sleep.",
+        "After work I go home.",
+        "Before breakfast I study."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "さいごに がっこうへ いきます。",
+      "options": [
+        "Finally, I go to school.",
+        "First, I go home.",
+        "I go to school before sleeping.",
+        "I went to school yesterday."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "ねる まえに 歯を みがきます",
+      "answer": "neru mae ni ha o migakimasu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "テストの まえに べんきょうします",
+      "answer": "tesuto no mae ni benkyou shimasu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "たべた あとで コーヒーを のみます",
+      "answer": "tabeta ato de koohii o nomimasu",
+      "acceptAlternatives": [
+        "tabeta ato de ko-hi- wo nomimasu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "しごとの あとで うちへ かえります",
+      "answer": "shigoto no ato de uchi e kaerimasu",
+      "acceptAlternatives": [
+        "shigoto no ato de uchi he kaerimasu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "おきてから かおを あらいます",
+      "answer": "okite kara kao o araimasu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "それから あさごはんを たべます",
+      "answer": "sorekara asagohan o tabemasu",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "さいごに がっこうへ いきます",
+      "answer": "saigo ni gakkou e ikimasu",
+      "acceptAlternatives": [
+        "saigo ni gakkou he ikimasu"
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each sequence word or phrase to its meaning:",
+      "pairs": [
+        {
+          "left": "まえに",
+          "right": "before"
+        },
+        {
+          "left": "あとで",
+          "right": "after"
+        },
+        {
+          "left": "てから",
+          "right": "after doing / once done"
+        },
+        {
+          "left": "まず",
+          "right": "first"
+        },
+        {
+          "left": "つぎに",
+          "right": "next"
+        },
+        {
+          "left": "それから",
+          "right": "and then"
+        },
+        {
+          "left": "さいごに",
+          "right": "finally"
+        },
+        {
+          "left": "歯を みがく",
+          "right": "brush teeth"
+        },
+        {
+          "left": "かおを あらう",
+          "right": "wash face"
+        },
+        {
+          "left": "うちへ かえる",
+          "right": "go home"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice - before, after, and sequence",
+      "cards": [
+        {
+          "jp": "ねる まえに 歯を みがきます。",
+          "romaji": "neru mae ni ha o migakimasu.",
+          "en": "I brush my teeth before sleeping."
+        },
+        {
+          "jp": "ごはんの まえに てを あらいます。",
+          "romaji": "gohan no mae ni te o araimasu.",
+          "en": "I wash my hands before a meal."
+        },
+        {
+          "jp": "テストの まえに べんきょうします。",
+          "romaji": "tesuto no mae ni benkyou shimasu.",
+          "en": "I study before a test."
+        },
+        {
+          "jp": "たべた あとで コーヒーを のみます。",
+          "romaji": "tabeta ato de koohii o nomimasu.",
+          "en": "I drink coffee after eating."
+        },
+        {
+          "jp": "しごとの あとで うちへ かえります。",
+          "romaji": "shigoto no ato de uchi e kaerimasu.",
+          "en": "I go home after work."
+        },
+        {
+          "jp": "おきてから かおを あらいます。",
+          "romaji": "okite kara kao o araimasu.",
+          "en": "After I get up, I wash my face."
+        },
+        {
+          "jp": "まず シャワーを あびます。",
+          "romaji": "mazu shawaa o abimasu.",
+          "en": "First, I take a shower."
+        },
+        {
+          "jp": "それから あさごはんを たべます。",
+          "romaji": "sorekara asagohan o tabemasu.",
+          "en": "Then I eat breakfast."
+        },
+        {
+          "jp": "つぎに がっこうへ いきます。",
+          "romaji": "tsugi ni gakkou e ikimasu.",
+          "en": "Next, I go to school."
+        },
+        {
+          "jp": "さいごに しゅくだいを します。",
+          "romaji": "saigo ni shukudai o shimasu.",
+          "en": "Finally, I do homework."
+        }
+      ]
+    }
+  ]
+}

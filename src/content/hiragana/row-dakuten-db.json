@@ -1,0 +1,330 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Dakuten — だ行 & ば行",
+      "rows": [
+        [
+          "た → だ (da)",
+          "ち → ぢ (ji)",
+          "つ → づ (zu)",
+          "て → で (de)",
+          "と → ど (do)"
+        ],
+        [
+          "は → ば (ba)",
+          "ひ → び (bi)",
+          "ふ → ぶ (bu)",
+          "へ → べ (be)",
+          "ほ → ぼ (bo)"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "だ",
+          "back": "da",
+          "speakText": "だ"
+        },
+        {
+          "front": "ぢ",
+          "back": "ji",
+          "speakText": "ぢ"
+        },
+        {
+          "front": "づ",
+          "back": "zu",
+          "speakText": "づ"
+        },
+        {
+          "front": "で",
+          "back": "de",
+          "speakText": "で"
+        },
+        {
+          "front": "ど",
+          "back": "do",
+          "speakText": "ど"
+        },
+        {
+          "front": "ば",
+          "back": "ba",
+          "speakText": "ば"
+        },
+        {
+          "front": "び",
+          "back": "bi",
+          "speakText": "び"
+        },
+        {
+          "front": "ぶ",
+          "back": "bu",
+          "speakText": "ぶ"
+        },
+        {
+          "front": "べ",
+          "back": "be",
+          "speakText": "べ"
+        },
+        {
+          "front": "ぼ",
+          "back": "bo",
+          "speakText": "ぼ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Da?",
+      "options": [
+        "た",
+        "な",
+        "だ",
+        "ざ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Bo?",
+      "options": [
+        "ほ",
+        "ぼ",
+        "ば",
+        "ご"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Bu?",
+      "options": [
+        "ふ",
+        "ぶ",
+        "ぷ",
+        "ぐ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "で",
+      "answer": "de"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ぢ",
+      "answer": "ji",
+      "acceptAlternatives": [
+        "di"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ば",
+      "answer": "ba"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "だ",
+          "da"
+        ],
+        [
+          "で",
+          "de"
+        ],
+        [
+          "ば",
+          "ba"
+        ],
+        [
+          "び",
+          "bi"
+        ],
+        [
+          "ぼ",
+          "bo"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "だ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "た",
+        "だ",
+        "な",
+        "ざ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ば",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "は",
+        "ば",
+        "だ",
+        "な"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ぼ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ほ",
+        "ぼ",
+        "ば",
+        "ご"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Do?",
+      "options": [
+        "と",
+        "ど",
+        "だ",
+        "た"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Be?",
+      "options": [
+        "へ",
+        "べ",
+        "で",
+        "ぺ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "電話 [でんわ] (denwa)",
+          "telephone"
+        ],
+        [
+          "誰 [だれ] (dare)",
+          "who"
+        ],
+        [
+          "そば (soba)",
+          "next to / soba noodles"
+        ],
+        [
+          "僕 [ぼく] (boku)",
+          "I (male)"
+        ],
+        [
+          "豚 [ぶた] (buta)",
+          "pig"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "telephone",
+      "answer": [
+        "で",
+        "ん",
+        "わ"
+      ],
+      "bank": [
+        "で",
+        "ん",
+        "わ",
+        "だ",
+        "て"
+      ],
+      "speakText": "でんわ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "soba / next to",
+      "answer": [
+        "そ",
+        "ば"
+      ],
+      "bank": [
+        "そ",
+        "ば",
+        "ぞ",
+        "は",
+        "ぼ"
+      ],
+      "speakText": "そば"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "pig",
+      "answer": [
+        "ぶ",
+        "た"
+      ],
+      "bank": [
+        "ぶ",
+        "た",
+        "だ",
+        "ふ",
+        "な"
+      ],
+      "speakText": "ぶた"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "でんわ",
+          "telephone"
+        ],
+        [
+          "だれ",
+          "who"
+        ],
+        [
+          "そば",
+          "soba"
+        ],
+        [
+          "ぼく",
+          "I (male)"
+        ],
+        [
+          "ぶた",
+          "pig"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "でんわ",
+      "prompt": "Which word did you hear?",
+      "options": [
+        "てんわ",
+        "でんわ",
+        "でんや",
+        "ぜんわ"
+      ],
+      "correctIndex": 1
+    }
+  ],
+  "id": "hiragana-row-dakuten-db"
+}

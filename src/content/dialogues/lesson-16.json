@@ -1,0 +1,1289 @@
+{
+  "id": "dialogues-lesson-16",
+  "misconceptions": [
+    {
+      "target": "describing-people-single-word-answer",
+      "error": "Answers with isolated vocabulary instead of a complete conversational turn.",
+      "mitigation": "Reference rows and response-selection drills keep prompts and natural replies together."
+    },
+    {
+      "target": "describing-people-register-mismatch",
+      "error": "Uses casual language with teachers, staff, or strangers.",
+      "mitigation": "Formal, casual, and slang scenes are separated and labeled."
+    },
+    {
+      "target": "describing-people-listening-drift",
+      "error": "Chooses a familiar phrase that does not match the audio.",
+      "mitigation": "Listening MC and type-the-answer reuse the exact dialogue speakText."
+    },
+    {
+      "target": "describing-people-particle-confusion",
+      "error": "Confuses は, へ, or を in written Japanese source phrases.",
+      "mitigation": "Formula-fill keeps the Japanese particles visible and accepts romaji as support."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Describing People - Formal · Casual · Slang",
+      "intro": "Practice describing people as prompt-and-response dialogue, not as loose vocabulary.",
+      "rows": [
+        [
+          "Register",
+          "Japanese",
+          "Romaji",
+          "Typical Response",
+          "Context"
+        ],
+        [
+          "FORMAL",
+          "やまださんは どんな ひとですか？",
+          "yamadasanha donna hitodesuka?",
+          "とても しんせつで、まじめな ひとです。",
+          "He is very kind and serious."
+        ],
+        [
+          "FORMAL",
+          "とても しんせつで、まじめな ひとです。",
+          "totemo shinsetsude,majimena hitodesu.",
+          "そうです。ありがとうございます。",
+          "That is right. Thank you."
+        ],
+        [
+          "CASUAL",
+          "あたらしい クラスメイト、どんな ひと？",
+          "atarashii kurasumeito,donna hito?",
+          "あかるくて、せが たかいよ。",
+          "She is cheerful and tall."
+        ],
+        [
+          "CASUAL",
+          "あかるくて、せが たかいよ。",
+          "akarukute,sega takaiyo.",
+          "いいね。あとで かくにんしよう。",
+          "Nice. Let us check later."
+        ],
+        [
+          "SLANG",
+          "あの ひと、クールじゃない？",
+          "ano hito,kuurujanai?",
+          "でも めっちゃ やさしいよ。",
+          "But he is super kind."
+        ],
+        [
+          "SLANG",
+          "でも めっちゃ やさしいよ。",
+          "demo metcha yasashiiyo.",
+          "まじか。いいじゃん。",
+          "Really? Nice."
+        ]
+      ],
+      "takeaway": "First choose the right meaning, then choose the right relationship tone."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "A - FORMAL · Describing People",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "先生",
+          "jp": "やまださんは どんな ひとですか？",
+          "romaji": "yamadasanha donna hitodesuka?",
+          "en": "What kind of person is Yamada?"
+        },
+        {
+          "speaker": "学生",
+          "jp": "とても しんせつで、まじめな ひとです。",
+          "romaji": "totemo shinsetsude,majimena hitodesu.",
+          "en": "He is very kind and serious."
+        },
+        {
+          "speaker": "先生",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "B - CASUAL · Describing People",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "ゆい",
+          "jp": "あたらしい クラスメイト、どんな ひと？",
+          "romaji": "atarashii kurasumeito,donna hito?",
+          "en": "What is the new classmate like?"
+        },
+        {
+          "speaker": "たく",
+          "jp": "あかるくて、せが たかいよ。",
+          "romaji": "akarukute,sega takaiyo.",
+          "en": "She is cheerful and tall."
+        },
+        {
+          "speaker": "ゆい",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "C - SLANG · Describing People",
+      "register": "slang",
+      "lines": [
+        {
+          "speaker": "りく",
+          "jp": "あの ひと、クールじゃない？",
+          "romaji": "ano hito,kuurujanai?",
+          "en": "That person seems cool, right?"
+        },
+        {
+          "speaker": "まい",
+          "jp": "でも めっちゃ やさしいよ。",
+          "romaji": "demo metcha yasashiiyo.",
+          "en": "But he is super kind."
+        },
+        {
+          "speaker": "りく",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 1: やまださんは どんな ひとですか？",
+      "prompt": "Which source phrase means: “What kind of person is Yamada?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "やまださんは どんな ひとですか？",
+          "romaji": "yamadasanha donna hitodesuka?",
+          "en": "What kind of person is Yamada?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "やまださんは どんな ひとですか？"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 2: とても しんせつで、まじめな ひとです。",
+      "prompt": "Which source phrase means: “He is very kind and serious.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "とても しんせつで、まじめな ひとです。",
+          "romaji": "totemo shinsetsude,majimena hitodesu.",
+          "en": "He is very kind and serious.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "あの ひと、クールじゃない？",
+          "romaji": "ano hito,kuurujanai?",
+          "en": "That person seems cool, right?",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "やさしい",
+          "romaji": "yasashii",
+          "en": "kind",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "とても しんせつで、まじめな ひとです。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 3: そうです。ありがとうございます。",
+      "prompt": "Which source phrase means: “That is right. Thank you.”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you.",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "でも めっちゃ やさしいよ。",
+          "romaji": "demo metcha yasashiiyo.",
+          "en": "But he is super kind.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "しんせつです",
+          "romaji": "shinsetsudesu",
+          "en": "is kind",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "そうです。ありがとうございます。"
+    },
+    {
+      "type": "comparison-cards",
+      "title": "Contrast 4: あたらしい クラスメイト、どんな ひと？",
+      "prompt": "Which source phrase means: “What is the new classmate like?”?",
+      "variants": [
+        {
+          "label": "MATCHES",
+          "jp": "あたらしい クラスメイト、どんな ひと？",
+          "romaji": "atarashii kurasumeito,donna hito?",
+          "en": "What is the new classmate like?",
+          "note": "This phrase matches the prompt and lesson context.",
+          "naturalness": "native-likely",
+          "correct": true,
+          "register": "lesson-context",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "label": "DIFFERENT MEANING",
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice.",
+          "note": "Natural Japanese, but it answers a different prompt.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningMixup",
+          "wrongExplanation": "This is from the lesson, but not this meaning.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "label": "WRONG CONTEXT",
+          "jp": "まじめです",
+          "romaji": "majimedesu",
+          "en": "is serious",
+          "note": "This line belongs to another register or task.",
+          "naturalness": "native-likely",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "registerMixup",
+          "wrongExplanation": "The relationship or communicative job is different.",
+          "register": "mixed",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ],
+      "takeaway": "Meaning and register must both fit the situation.",
+      "speakText": "あたらしい クラスメイト、どんな ひと？"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "やまださんは どんな ひとですか",
+        "answerRomaji": "yamadasanha donna hitodesuka?",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "yamadasanhadonnahitodesuka?"
+        ]
+      },
+      "translation": "What kind of person is Yamada?",
+      "speakText": "やまださんは どんな ひとですか？",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "とても しんせつで、まじめな ひとです",
+        "answerRomaji": "totemo shinsetsude,majimena hitodesu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "totemoshinsetsude,majimenahitodesu."
+        ]
+      },
+      "translation": "He is very kind and serious.",
+      "speakText": "とても しんせつで、まじめな ひとです。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the dialogue source phrase:",
+      "patternJp": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "patternRom": [
+        "",
+        "[SLOT]",
+        ""
+      ],
+      "slot": {
+        "answer": "そうです。ありがとうございます",
+        "answerRomaji": "soudesu.arigatougozaimasu.",
+        "hint": "Type the complete source phrase from the dialogue.",
+        "acceptAlternatives": [
+          "soudesu.arigatougozaimasu."
+        ]
+      },
+      "translation": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "flashcard",
+      "prompt": "Review the key expressions:",
+      "cards": [
+        {
+          "jp": "やまださんは どんな ひとですか？",
+          "romaji": "yamadasanha donna hitodesuka?",
+          "en": "What kind of person is Yamada?"
+        },
+        {
+          "jp": "とても しんせつで、まじめな ひとです。",
+          "romaji": "totemo shinsetsude,majimena hitodesu.",
+          "en": "He is very kind and serious."
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "あたらしい クラスメイト、どんな ひと？",
+          "romaji": "atarashii kurasumeito,donna hito?",
+          "en": "What is the new classmate like?"
+        },
+        {
+          "jp": "あかるくて、せが たかいよ。",
+          "romaji": "akarukute,sega takaiyo.",
+          "en": "She is cheerful and tall."
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "あの ひと、クールじゃない？",
+          "romaji": "ano hito,kuurujanai?",
+          "en": "That person seems cool, right?"
+        },
+        {
+          "jp": "でも めっちゃ やさしいよ。",
+          "romaji": "demo metcha yasashiiyo.",
+          "en": "But he is super kind."
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "やさしい",
+          "romaji": "yasashii",
+          "en": "kind"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "やまださんは どんな ひとですか？",
+      "options": [
+        {
+          "text": "What kind of person is Yamada?",
+          "correct": true
+        },
+        {
+          "text": "What is the new classmate like?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "That person seems cool, right?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "kind",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "とても しんせつで、まじめな ひとです。",
+      "options": [
+        {
+          "text": "He is very kind and serious.",
+          "correct": true
+        },
+        {
+          "text": "She is cheerful and tall.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "But he is super kind.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "is kind",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "そうです。ありがとうございます。",
+      "options": [
+        {
+          "text": "That is right. Thank you.",
+          "correct": true
+        },
+        {
+          "text": "Nice. Let us check later.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "is serious",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "あたらしい クラスメイト、どんな ひと？",
+      "options": [
+        {
+          "text": "What is the new classmate like?",
+          "correct": true
+        },
+        {
+          "text": "That person seems cool, right?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "kind",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "is tall",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "あかるくて、せが たかいよ。",
+      "options": [
+        {
+          "text": "She is cheerful and tall.",
+          "correct": true
+        },
+        {
+          "text": "But he is super kind.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "is kind",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "has long hair",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "options": [
+        {
+          "text": "Nice. Let us check later.",
+          "correct": true
+        },
+        {
+          "text": "Really? Nice.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "is serious",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "is cheerful",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "あの ひと、クールじゃない？",
+      "options": [
+        {
+          "text": "That person seems cool, right?",
+          "correct": true
+        },
+        {
+          "text": "kind",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "is tall",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "What kind of person is Yamada?",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "でも めっちゃ やさしいよ。",
+      "options": [
+        {
+          "text": "But he is super kind.",
+          "correct": true
+        },
+        {
+          "text": "is kind",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption1",
+          "wrongExplanation": "This matches a different line."
+        },
+        {
+          "text": "has long hair",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption2",
+          "wrongExplanation": "This belongs to another prompt in the lesson."
+        },
+        {
+          "text": "He is very kind and serious.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "meaningOption3",
+          "wrongExplanation": "This is real lesson language, but not what you heard."
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "やまださんは どんな ひとですか？",
+        "romaji": "yamadasanha donna hitodesuka?",
+        "speakText": "やまださんは どんな ひとですか？"
+      },
+      "options": [
+        {
+          "jp": "とても しんせつで、まじめな ひとです。",
+          "romaji": "totemo shinsetsude,majimena hitodesu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "あかるくて、せが たかいよ。",
+          "romaji": "akarukute,sega takaiyo.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "でも めっちゃ やさしいよ。",
+          "romaji": "demo metcha yasashiiyo.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "とても しんせつで、まじめな ひとです。",
+        "romaji": "totemo shinsetsude,majimena hitodesu.",
+        "speakText": "とても しんせつで、まじめな ひとです。"
+      },
+      "options": [
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "correct": true,
+          "register": "formal",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "formal",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "あたらしい クラスメイト、どんな ひと？",
+        "romaji": "atarashii kurasumeito,donna hito?",
+        "speakText": "あたらしい クラスメイト、どんな ひと？"
+      },
+      "options": [
+        {
+          "jp": "あかるくて、せが たかいよ。",
+          "romaji": "akarukute,sega takaiyo.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "あの ひと、クールじゃない？",
+          "romaji": "ano hito,kuurujanai?",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "やさしい",
+          "romaji": "yasashii",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "あかるくて、せが たかいよ。",
+        "romaji": "akarukute,sega takaiyo.",
+        "speakText": "あかるくて、せが たかいよ。"
+      },
+      "options": [
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "correct": true,
+          "register": "casual",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "でも めっちゃ やさしいよ。",
+          "romaji": "demo metcha yasashiiyo.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "しんせつです",
+          "romaji": "shinsetsudesu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "casual",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "あの ひと、クールじゃない？",
+        "romaji": "ano hito,kuurujanai?",
+        "speakText": "あの ひと、クールじゃない？"
+      },
+      "options": [
+        {
+          "jp": "でも めっちゃ やさしいよ。",
+          "romaji": "demo metcha yasashiiyo.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "まじめです",
+          "romaji": "majimedesu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": {
+        "jp": "でも めっちゃ やさしいよ。",
+        "romaji": "demo metcha yasashiiyo.",
+        "speakText": "でも めっちゃ やさしいよ。"
+      },
+      "options": [
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "correct": true,
+          "register": "slang",
+          "relationship": "matches-prompt",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "やさしい",
+          "romaji": "yasashii",
+          "correct": false,
+          "distractorReason": "wrongContext",
+          "errorFeature": "responseOption1",
+          "wrongExplanation": "This response is natural, but for another prompt.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        },
+        {
+          "jp": "せが たかいです",
+          "romaji": "sega takaidesu",
+          "correct": false,
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "responseOption2",
+          "wrongExplanation": "This does not answer the question.",
+          "register": "slang",
+          "relationship": "different-context",
+          "beginnerSafe": true
+        }
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "やまださんは どんな ひとですか？",
+      "answer": "yamadasanha donna hitodesuka?",
+      "acceptAlternatives": [
+        "yamadasanhadonnahitodesuka?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "とても しんせつで、まじめな ひとです。",
+      "answer": "totemo shinsetsude,majimena hitodesu.",
+      "acceptAlternatives": [
+        "totemoshinsetsude,majimenahitodesu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "そうです。ありがとうございます。",
+      "answer": "soudesu.arigatougozaimasu.",
+      "acceptAlternatives": [
+        "soudesu.arigatougozaimasu."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "あたらしい クラスメイト、どんな ひと？",
+      "answer": "atarashii kurasumeito,donna hito?",
+      "acceptAlternatives": [
+        "atarashiikurasumeito,donnahito?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "あかるくて、せが たかいよ。",
+      "answer": "akarukute,sega takaiyo.",
+      "acceptAlternatives": [
+        "akarukute,segatakaiyo."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "answer": "iine.atode kakuninshiyou.",
+      "acceptAlternatives": [
+        "iine.atodekakuninshiyou."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "あの ひと、クールじゃない？",
+      "answer": "ano hito,kuurujanai?",
+      "acceptAlternatives": [
+        "anohito,kuurujanai?"
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear. Kana is preferred; romaji is accepted:",
+      "speakText": "でも めっちゃ やさしいよ。",
+      "answer": "demo metcha yasashiiyo.",
+      "acceptAlternatives": [
+        "demometchayasashiiyo."
+      ],
+      "strictness": "kana-preferred"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "やまださんは どんな ひとですか？",
+      "romaji": "yamadasanha donna hitodesuka?",
+      "en": "What kind of person is Yamada?",
+      "speakText": "やまださんは どんな ひとですか？",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Describing People",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "とても しんせつで、まじめな ひとです。",
+      "romaji": "totemo shinsetsude,majimena hitodesu.",
+      "en": "He is very kind and serious.",
+      "speakText": "とても しんせつで、まじめな ひとです。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Describing People",
+      "speaker": "学生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "そうです。ありがとうございます。",
+      "romaji": "soudesu.arigatougozaimasu.",
+      "en": "That is right. Thank you.",
+      "speakText": "そうです。ありがとうございます。",
+      "register": "formal",
+      "dialogueContext": "A - FORMAL · Describing People",
+      "speaker": "先生"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "あたらしい クラスメイト、どんな ひと？",
+      "romaji": "atarashii kurasumeito,donna hito?",
+      "en": "What is the new classmate like?",
+      "speakText": "あたらしい クラスメイト、どんな ひと？",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Describing People",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "あかるくて、せが たかいよ。",
+      "romaji": "akarukute,sega takaiyo.",
+      "en": "She is cheerful and tall.",
+      "speakText": "あかるくて、せが たかいよ。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Describing People",
+      "speaker": "たく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いいね。あとで かくにんしよう。",
+      "romaji": "iine.atode kakuninshiyou.",
+      "en": "Nice. Let us check later.",
+      "speakText": "いいね。あとで かくにんしよう。",
+      "register": "casual",
+      "dialogueContext": "B - CASUAL · Describing People",
+      "speaker": "ゆい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "あの ひと、クールじゃない？",
+      "romaji": "ano hito,kuurujanai?",
+      "en": "That person seems cool, right?",
+      "speakText": "あの ひと、クールじゃない？",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Describing People",
+      "speaker": "りく"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "でも めっちゃ やさしいよ。",
+      "romaji": "demo metcha yasashiiyo.",
+      "en": "But he is super kind.",
+      "speakText": "でも めっちゃ やさしいよ。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Describing People",
+      "speaker": "まい"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "まじか。いいじゃん。",
+      "romaji": "majika.iijan.",
+      "en": "Really? Nice.",
+      "speakText": "まじか。いいじゃん。",
+      "register": "slang",
+      "dialogueContext": "C - SLANG · Describing People",
+      "speaker": "りく"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        {
+          "left": "やまださんは どんな ひとですか？",
+          "right": "What kind of person is Yamada?"
+        },
+        {
+          "left": "とても しんせつで、まじめな ひとです。",
+          "right": "He is very kind and serious."
+        },
+        {
+          "left": "そうです。ありがとうございます。",
+          "right": "That is right. Thank you."
+        },
+        {
+          "left": "あたらしい クラスメイト、どんな ひと？",
+          "right": "What is the new classmate like?"
+        },
+        {
+          "left": "あかるくて、せが たかいよ。",
+          "right": "She is cheerful and tall."
+        },
+        {
+          "left": "いいね。あとで かくにんしよう。",
+          "right": "Nice. Let us check later."
+        },
+        {
+          "left": "あの ひと、クールじゃない？",
+          "right": "That person seems cool, right?"
+        },
+        {
+          "left": "でも めっちゃ やさしいよ。",
+          "right": "But he is super kind."
+        },
+        {
+          "left": "まじか。いいじゃん。",
+          "right": "Really? Nice."
+        },
+        {
+          "left": "やさしい",
+          "right": "kind"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        {
+          "jp": "やまださんは どんな ひとですか？",
+          "romaji": "yamadasanha donna hitodesuka?",
+          "en": "What kind of person is Yamada?"
+        },
+        {
+          "jp": "とても しんせつで、まじめな ひとです。",
+          "romaji": "totemo shinsetsude,majimena hitodesu.",
+          "en": "He is very kind and serious.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "そうです。ありがとうございます。",
+          "romaji": "soudesu.arigatougozaimasu.",
+          "en": "That is right. Thank you."
+        },
+        {
+          "jp": "あたらしい クラスメイト、どんな ひと？",
+          "romaji": "atarashii kurasumeito,donna hito?",
+          "en": "What is the new classmate like?"
+        },
+        {
+          "jp": "あかるくて、せが たかいよ。",
+          "romaji": "akarukute,sega takaiyo.",
+          "en": "She is cheerful and tall.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "いいね。あとで かくにんしよう。",
+          "romaji": "iine.atode kakuninshiyou.",
+          "en": "Nice. Let us check later."
+        },
+        {
+          "jp": "あの ひと、クールじゃない？",
+          "romaji": "ano hito,kuurujanai?",
+          "en": "That person seems cool, right?"
+        },
+        {
+          "jp": "でも めっちゃ やさしいよ。",
+          "romaji": "demo metcha yasashiiyo.",
+          "en": "But he is super kind.",
+          "comprehension": {
+            "q": "What should you notice?",
+            "a": "Match both the meaning and the relationship tone."
+          }
+        },
+        {
+          "jp": "まじか。いいじゃん。",
+          "romaji": "majika.iijan.",
+          "en": "Really? Nice."
+        },
+        {
+          "jp": "やさしい",
+          "romaji": "yasashii",
+          "en": "kind"
+        }
+      ]
+    }
+  ]
+}

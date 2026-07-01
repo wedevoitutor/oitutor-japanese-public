@@ -1,0 +1,436 @@
+{
+  "exercises": [
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "し",
+          "back": "shi",
+          "speakText": "し"
+        },
+        {
+          "front": "き",
+          "back": "ki",
+          "speakText": "き"
+        },
+        {
+          "front": "え",
+          "back": "e",
+          "speakText": "え"
+        },
+        {
+          "front": "あ",
+          "back": "a",
+          "speakText": "あ"
+        },
+        {
+          "front": "く",
+          "back": "ku",
+          "speakText": "く"
+        },
+        {
+          "front": "て",
+          "back": "te",
+          "speakText": "て"
+        },
+        {
+          "front": "う",
+          "back": "u",
+          "speakText": "う"
+        },
+        {
+          "front": "い",
+          "back": "i",
+          "speakText": "い"
+        },
+        {
+          "front": "た",
+          "back": "ta",
+          "speakText": "た"
+        },
+        {
+          "front": "つ",
+          "back": "tsu",
+          "speakText": "つ"
+        },
+        {
+          "front": "か",
+          "back": "ka",
+          "speakText": "か"
+        },
+        {
+          "front": "と",
+          "back": "to",
+          "speakText": "と"
+        },
+        {
+          "front": "ち",
+          "back": "chi",
+          "speakText": "ち"
+        },
+        {
+          "front": "そ",
+          "back": "so",
+          "speakText": "そ"
+        },
+        {
+          "front": "け",
+          "back": "ke",
+          "speakText": "け"
+        },
+        {
+          "front": "こ",
+          "back": "ko",
+          "speakText": "こ"
+        },
+        {
+          "front": "さ",
+          "back": "sa",
+          "speakText": "さ"
+        },
+        {
+          "front": "す",
+          "back": "su",
+          "speakText": "す"
+        },
+        {
+          "front": "お",
+          "back": "o",
+          "speakText": "お"
+        },
+        {
+          "front": "せ",
+          "back": "se",
+          "speakText": "せ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ta?",
+      "options": [
+        "て",
+        "お",
+        "た",
+        "と"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "て",
+      "answer": "te"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "と",
+          "to"
+        ],
+        [
+          "あ",
+          "a"
+        ],
+        [
+          "し",
+          "shi"
+        ],
+        [
+          "い",
+          "i"
+        ],
+        [
+          "て",
+          "te"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Te?",
+      "options": [
+        "た",
+        "て",
+        "う",
+        "け"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "つ",
+      "answer": "tsu",
+      "acceptAlternatives": [
+        "tu"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "お",
+      "answer": "o"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ki?",
+      "options": [
+        "と",
+        "し",
+        "こ",
+        "き"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "か",
+          "ka"
+        ],
+        [
+          "え",
+          "e"
+        ],
+        [
+          "す",
+          "su"
+        ],
+        [
+          "う",
+          "u"
+        ],
+        [
+          "せ",
+          "se"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "さ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "し",
+        "さ",
+        "す",
+        "そ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "た",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "て",
+        "た",
+        "と",
+        "つ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "き",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "か",
+        "き",
+        "く",
+        "け"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is A?",
+      "options": [
+        "く",
+        "お",
+        "え",
+        "あ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ke?",
+      "options": [
+        "さ",
+        "て",
+        "つ",
+        "け"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "た",
+      "answer": "ta"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is So?",
+      "options": [
+        "す",
+        "そ",
+        "し",
+        "さ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "歌 [うた] (uta)",
+          "song"
+        ],
+        [
+          "椅子 [いす] (isu)",
+          "chair"
+        ],
+        [
+          "傘 [かさ] (kasa)",
+          "umbrella"
+        ],
+        [
+          "蛸 [たこ] (tako)",
+          "octopus"
+        ],
+        [
+          "月 [つき] (tsuki)",
+          "moon"
+        ],
+        [
+          "あおい つき",
+          "Blue moon"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "chair",
+      "answer": [
+        "い",
+        "す"
+      ],
+      "bank": [
+        "あ",
+        "い",
+        "う",
+        "え",
+        "お",
+        "さ",
+        "し",
+        "す",
+        "せ",
+        "そ"
+      ],
+      "speakText": "いす"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "umbrella",
+      "answer": [
+        "か",
+        "さ"
+      ],
+      "bank": [
+        "か",
+        "き",
+        "く",
+        "け",
+        "こ",
+        "さ",
+        "し",
+        "す",
+        "せ",
+        "そ"
+      ],
+      "speakText": "かさ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "octopus",
+      "answer": [
+        "た",
+        "こ"
+      ],
+      "bank": [
+        "た",
+        "ち",
+        "つ",
+        "て",
+        "と",
+        "こ"
+      ],
+      "speakText": "たこ"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "あおい",
+      "answer": "aoi"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "うた",
+      "answer": "uta"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "うた",
+          "song"
+        ],
+        [
+          "いす",
+          "chair"
+        ],
+        [
+          "かさ",
+          "umbrella"
+        ],
+        [
+          "たこ",
+          "octopus"
+        ],
+        [
+          "つき",
+          "moon"
+        ]
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "そ",
+      "answer": "so"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "き",
+      "answer": "ki"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "く",
+      "answer": "ku"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ち",
+      "answer": "chi",
+      "acceptAlternatives": [
+        "ti"
+      ]
+    }
+  ],
+  "id": "hiragana-review-1"
+}

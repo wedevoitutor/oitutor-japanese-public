@@ -1,0 +1,273 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Handakuten — ぱ行",
+      "rows": [
+        [
+          "は → ば (ba)",
+          "ひ → び (bi)",
+          "ふ → ぶ (bu)",
+          "へ → べ (be)",
+          "ほ → ぼ (bo)"
+        ],
+        [
+          "は → ぱ (pa)",
+          "ひ → ぴ (pi)",
+          "ふ → ぷ (pu)",
+          "へ → ぺ (pe)",
+          "ほ → ぽ (po)"
+        ],
+        [
+          "The mark ゛ (dakuten) voices to b — the small circle ゜ (handakuten) bursts it into p.",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ぱ",
+          "back": "pa",
+          "speakText": "ぱ"
+        },
+        {
+          "front": "ぴ",
+          "back": "pi",
+          "speakText": "ぴ"
+        },
+        {
+          "front": "ぷ",
+          "back": "pu",
+          "speakText": "ぷ"
+        },
+        {
+          "front": "ぺ",
+          "back": "pe",
+          "speakText": "ぺ"
+        },
+        {
+          "front": "ぽ",
+          "back": "po",
+          "speakText": "ぽ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Pa?",
+      "options": [
+        "ば",
+        "ぱ",
+        "は",
+        "ほ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Po?",
+      "options": [
+        "ぼ",
+        "ほ",
+        "ぽ",
+        "は"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ぴ",
+      "answer": "pi"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ぺ",
+      "answer": "pe"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ぱ",
+          "pa"
+        ],
+        [
+          "ぴ",
+          "pi"
+        ],
+        [
+          "ぷ",
+          "pu"
+        ],
+        [
+          "ぺ",
+          "pe"
+        ],
+        [
+          "ぽ",
+          "po"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ぱ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "は",
+        "ぱ",
+        "ば",
+        "ほ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ぽ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ほ",
+        "ぽ",
+        "ぼ",
+        "は"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Pa?",
+      "options": [
+        "ば",
+        "ぱ",
+        "だ",
+        "は"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Pi?",
+      "options": [
+        "び",
+        "ぴ",
+        "ひ",
+        "ぎ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Pu?",
+      "options": [
+        "ぶ",
+        "ぷ",
+        "ふ",
+        "ぐ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "ぱん (pan)",
+          "bread"
+        ],
+        [
+          "鉛筆 [えんぴつ] (enpitsu)",
+          "pencil"
+        ],
+        [
+          "散歩 [さんぽ] (sanpo)",
+          "walk"
+        ],
+        [
+          "天ぷら [てんぷら] (tenpura)",
+          "tempura"
+        ],
+        [
+          "乾杯 [かんぱい] (kanpai)",
+          "cheers"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "bread",
+      "answer": [
+        "ぱ",
+        "ん"
+      ],
+      "bank": [
+        "ぱ",
+        "ん",
+        "ば",
+        "は",
+        "な"
+      ],
+      "speakText": "ぱん"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "walk",
+      "answer": [
+        "さ",
+        "ん",
+        "ぽ"
+      ],
+      "bank": [
+        "さ",
+        "ん",
+        "ぽ",
+        "ぼ",
+        "ほ"
+      ],
+      "speakText": "さんぽ"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ぱん",
+          "bread"
+        ],
+        [
+          "えんぴつ",
+          "pencil"
+        ],
+        [
+          "さんぽ",
+          "walk"
+        ],
+        [
+          "てんぷら",
+          "tempura"
+        ],
+        [
+          "かんぱい",
+          "cheers"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ぱん",
+      "prompt": "Which word did you hear?",
+      "options": [
+        "はん",
+        "ぱん",
+        "ばん",
+        "ほん"
+      ],
+      "correctIndex": 1
+    }
+  ],
+  "id": "hiragana-row-handakuten"
+}

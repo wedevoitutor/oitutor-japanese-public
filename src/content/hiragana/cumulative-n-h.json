@@ -1,0 +1,314 @@
+{
+  "exercises": [
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "に",
+          "back": "ni",
+          "speakText": "に"
+        },
+        {
+          "front": "は",
+          "back": "ha",
+          "speakText": "は"
+        },
+        {
+          "front": "ぬ",
+          "back": "nu",
+          "speakText": "ぬ"
+        },
+        {
+          "front": "ほ",
+          "back": "ho",
+          "speakText": "ほ"
+        },
+        {
+          "front": "な",
+          "back": "na",
+          "speakText": "な"
+        },
+        {
+          "front": "ひ",
+          "back": "hi",
+          "speakText": "ひ"
+        },
+        {
+          "front": "の",
+          "back": "no",
+          "speakText": "の"
+        },
+        {
+          "front": "ふ",
+          "back": "fu",
+          "speakText": "ふ"
+        },
+        {
+          "front": "ね",
+          "back": "ne",
+          "speakText": "ね"
+        },
+        {
+          "front": "へ",
+          "back": "he",
+          "speakText": "へ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Nu?",
+      "options": [
+        "ほ",
+        "ぬ",
+        "に",
+        "ふ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ha?",
+      "options": [
+        "に",
+        "は",
+        "ほ",
+        "へ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is No?",
+      "options": [
+        "ほ",
+        "へ",
+        "の",
+        "ひ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "は",
+      "answer": "ha"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ね",
+      "answer": "ne"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ふ",
+      "answer": "fu",
+      "acceptAlternatives": [
+        "hu"
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "な",
+          "na"
+        ],
+        [
+          "は",
+          "ha"
+        ],
+        [
+          "ぬ",
+          "nu"
+        ],
+        [
+          "ふ",
+          "fu"
+        ],
+        [
+          "ね",
+          "ne"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "な",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "に",
+        "な",
+        "は",
+        "ね"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "ほ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "は",
+        "ひ",
+        "ふ",
+        "ほ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ho?",
+      "options": [
+        "け",
+        "は",
+        "ほ",
+        "へ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is He?",
+      "options": [
+        "く",
+        "ひ",
+        "へ",
+        "に"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "reference-chart",
+      "title": "Vocabulary Review — N & H Rows",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "猫 [ねこ] (neko)",
+          "cat"
+        ],
+        [
+          "夏 [なつ] (natsu)",
+          "summer"
+        ],
+        [
+          "花 [はな] (hana)",
+          "flower"
+        ],
+        [
+          "星 [ほし] (hoshi)",
+          "star"
+        ],
+        [
+          "肉 [にく] (niku)",
+          "meat"
+        ],
+        [
+          "ねこが すきです",
+          "I like cats"
+        ]
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "なつ",
+      "answer": "natsu"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "はな",
+      "answer": "hana"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ねこ",
+          "cat"
+        ],
+        [
+          "なつ",
+          "summer"
+        ],
+        [
+          "はな",
+          "flower"
+        ],
+        [
+          "ほし",
+          "star"
+        ],
+        [
+          "にく",
+          "meat"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "cat",
+      "answer": [
+        "ね",
+        "こ"
+      ],
+      "bank": [
+        "な",
+        "に",
+        "ぬ",
+        "ね",
+        "の",
+        "こ"
+      ],
+      "speakText": "ねこ"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "flower",
+      "answer": [
+        "は",
+        "な"
+      ],
+      "bank": [
+        "は",
+        "ひ",
+        "ふ",
+        "へ",
+        "ほ",
+        "な"
+      ],
+      "speakText": "はな"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "star",
+      "answer": [
+        "ほ",
+        "し"
+      ],
+      "bank": [
+        "は",
+        "ひ",
+        "ふ",
+        "へ",
+        "ほ",
+        "し"
+      ],
+      "speakText": "ほし"
+    },
+    {
+      "type": "listening",
+      "speakText": "ひ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "は",
+        "ひ",
+        "ふ",
+        "へ"
+      ],
+      "correctIndex": 1
+    }
+  ],
+  "id": "hiragana-cumulative-n-h"
+}

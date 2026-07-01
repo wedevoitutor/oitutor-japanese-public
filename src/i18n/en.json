@@ -1,0 +1,725 @@
+{
+  "nav": {
+    "home": "Home",
+    "course": "Curriculum",
+    "profile": "Profile",
+    "startLearning": "Start Learning",
+    "dashboard": "Dashboard",
+    "benefits": "Benefits",
+    "subscription": "Premium",
+    "shop": "Shop",
+    "team": "Team",
+    "contact": "Contact",
+    "more": "More",
+    "skilltree": "Skill Tree",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "methodology": "Methodology",
+    "about": "About the Teacher",
+    "schedule": "Schedule Class",
+    "login": "Log In",
+    "signup": "Sign Up"
+  },
+  "auth": {
+    "logout": "Logout",
+    "or": "or",
+    "continueWithDiscord": "Continue with Discord",
+    "loginWithDiscord": "Log in with Discord",
+    "signupWithDiscord": "Sign up with Discord",
+    "redirecting": "Redirecting...",
+    "captchaMissing": "CAPTCHA is not configured.",
+    "captchaUnavailable": "CAPTCHA could not load. Please refresh and try again.",
+    "captchaDomainNotAllowed": "CAPTCHA is not allowed on this domain. Check the Turnstile widget hostnames in Cloudflare.",
+    "errorCaptchaRequired": "Complete the CAPTCHA before creating your account.",
+    "errorCaptcha": "CAPTCHA verification failed. Please try again.",
+    "errorProviderUnavailable": "Discord login is not available for this project yet.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "passwordStrength": {
+      "0": "Very weak",
+      "1": "Weak",
+      "2": "Okay",
+      "3": "Strong",
+      "4": "Very strong",
+      "empty": "Password strength"
+    }
+  },
+  "signup": {
+    "title": "Create your account",
+    "subtitle": "Check your inbox after registration to verify your email before signing in.",
+    "panelTitle": "Build your Japanese routine",
+    "panelDesc": "Create a student account to keep lessons, progress, and premium access tied to one verified email.",
+    "benefit1": "Save progress across devices",
+    "benefit2": "Unlock the student dashboard",
+    "benefit3": "Keep subscription access connected",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "button": "Register",
+    "loading": "Creating account...",
+    "already_have_account": "Already have an account?",
+    "login_here": "Log in here!",
+    "placeholder_name": "How would you like to be called?",
+    "placeholder_email": "you@example.com",
+    "placeholder_password": "Create a strong password",
+    "passwordRules": "Password must have lowercase, uppercase, digits, symbols, and at least 10 characters.",
+    "passwordRuleLowercase": "Lowercase [abc...]",
+    "passwordRuleUppercase": "Uppercase [ABC...]",
+    "passwordRuleDigits": "Digits [0123...]",
+    "passwordRuleSymbols": "Symbols [!@#$...]",
+    "passwordRuleLength": "Min. characters : 10",
+    "termsAcceptPrefix": "I accept the",
+    "termsAcceptTerms": "Terms & Conditions",
+    "termsAcceptAnd": "and",
+    "termsAcceptPrivacy": "Privacy Policy",
+    "success_message": "Account created successfully!",
+    "confirmationSent": "Check your inbox to confirm your email before signing in.",
+    "accountReady": "Account created. Email confirmation is currently disabled, so you can sign in now.",
+    "errorRegistered": "This email is already registered.",
+    "errorPasswordLength": "Password must be at least 10 characters.",
+    "errorPasswordPolicy": "Password must be at least 10 characters and include lowercase and uppercase letters, digits, and symbols.",
+    "errorTermsRequired": "Accept the Terms & Conditions and Privacy Policy to create your account.",
+    "errorRateLimited": "Too many signup attempts. Please wait and try again.",
+    "errorCooldown": "Please wait a few seconds before trying again.",
+    "errorGeneric": "We could not create the account. Please try again."
+  },
+  "landing": {
+    "heroTitle": "Learn Japanese the",
+    "heroHighlight": [
+      "Authentic",
+      "Immersive",
+      "Fun"
+    ],
+    "heroHighlightSuffix": "方法",
+    "heroDesc": "Unlock the culture, study through your favorite songs, and master the language with a dynamic, modern method focused on real fluency.",
+    "startJourney": "Start Journey",
+    "learnMore": "Learn More",
+    "methodTitle": "Learn beyond textbooks",
+    "methodDesc": "We use an interactive system inspired by native media immersion. Absorb the language while enjoying content you love.",
+    "method1Title": "Study with Lyrics & Music",
+    "method1Desc": "Learn grammar in context by deciphering songs, anime, and real dialogues. The natural repetition of music reinforces vocabulary effectively.",
+    "method2Title": "Focus on Speaking (Keigo & Casual)",
+    "method2Desc": "Understand when to be formal, when to use slang, and start communicating confidently from the very first lesson.",
+    "method3Title": "Total Cultural Immersion",
+    "method3Desc": "Language and culture go hand in hand. Understand the history and thinking behind each kanji and idiomatic expression.",
+    "ctaTitle": "Ready to take the first step?",
+    "ctaDesc": "Get in touch to schedule a chat. Let's structure your ideal study plan tailored to your Japanese learning goals.",
+    "whatsapp": "Chat on WhatsApp",
+    "email": "Send an Email",
+    "copyright": "All rights reserved."
+  },
+  "newsletter": {
+    "title": "Get Japanese Tips Every Week",
+    "subtitle": "Subscribe to our newsletter and receive exclusive study materials.",
+    "placeholder": "Enter your email",
+    "submit": "SUBSCRIBE",
+    "sending": "Sending...",
+    "subscribed": "Subscribed!",
+    "success": "Email registered successfully! Arigatou gozaimasu!",
+    "duplicate": "This email is already on our list!",
+    "error": "An error occurred. Please try again.",
+    "captchaRequired": "Complete the CAPTCHA before subscribing.",
+    "trust": "We respect your inbox. Unsubscribe anytime."
+  },
+  "course": {
+    "title": "Japanese",
+    "subtitle": "Nihongo — Japanese Language",
+    "heroDesc": "文 46 characters · 📖 10 Row lessons · 🔀 5 Cumulative lessons · 📝 3 Reviews",
+    "pathTip": "Open a Study & Learn lesson first to understand the writing system — then use the matching Practice exercises to drill recognition.",
+    "backToLanguages": "Homepage",
+    "openLesson": "Open Lesson",
+    "startPractice": "Start Practice",
+    "startLesson": "Start Lesson",
+    "ultimateReview": "Ultimate Review",
+    "comingSoon": "Coming Soon",
+    "locked": "Locked",
+    "available": "Available",
+    "completed": "Completed",
+    "lessons": "lessons",
+    "characters": "characters total",
+    "studyLessons": "Study lessons",
+    "practiceExercises": "Practice exercises",
+    "loginToUnlock": "Login to unlock",
+    "prevSection": "Previous section",
+    "nextSection": "Next section"
+  },
+  "badges": {
+    "available": "Available",
+    "locked": "Locked",
+    "completed": "Completed",
+    "comingSoon": "Coming Soon",
+    "study": "Study & Learn",
+    "practice": "Practice",
+    "grammar": "Grammar",
+    "dialogue": "Lesson",
+    "kanji": "Kanji",
+    "review": "Review"
+  },
+  "exercise": {
+    "check": "Check",
+    "continue": "Continue",
+    "correct": "Correct!",
+    "incorrect": "Incorrect. Try again.",
+    "showAnswer": "Show Answer",
+    "showTip": "Show Tip",
+    "tryAgain": "Try Again",
+    "flipCard": "Tap to flip",
+    "readingPractice": "Review / Reading Practice",
+    "typePrompt": "Type your answer",
+    "of": "of",
+    "complete": "Lesson Complete!",
+    "xpEarned": "XP earned",
+    "nextLesson": "Next Lesson",
+    "backToCourse": "Back to Curriculum",
+    "backConfirmTitle": "Leave lesson?",
+    "backConfirmMessage": "Are you sure you want to go back to the <hl>curriculum</hl> page?",
+    "yesGoBack": "Yes, go back",
+    "cancel": "Cancel",
+    "listenAgain": "Listen again",
+    "tapToHear": "Tap to hear",
+    "buildSentence": "Build the sentence",
+    "checkOrder": "Check order",
+    "bestInChrome": "Best audio experience in Chrome",
+    "hint": "Hint",
+    "playAudio": "Play audio",
+    "playSlower": "Play slower",
+    "practised": "Practised",
+    "mnemonic": "Mnemonic",
+    "confusables": "Confusables",
+    "compounds": "Key vocabulary",
+    "sentences": "Sentences in context",
+    "showDetails": "Show details",
+    "hideDetails": "Hide details",
+    "cheatsheet": "Cheatsheet — tap through to review"
+  },
+  "profile": {
+    "title": "Profile",
+    "totalXP": "Total XP",
+    "streak": "Day Streak",
+    "completed": "Lessons Completed",
+    "level": "Current Level",
+    "achievements": "Achievements",
+    "badges": "Badges",
+    "resetProgress": "Reset Progress"
+  },
+  "portal": {
+    "welcomeTitle": "Welcome to your learning portal",
+    "welcomeDesc": "Track your progress, access lessons, and achieve your language goals.",
+    "feature1": "Personalized lesson plans",
+    "feature2": "Track your progress",
+    "feature3": "Access materials anytime",
+    "login": "Sign in to your account",
+    "loginSubtitle": "Enter your credentials to access your dashboard",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "password": "Password",
+    "passwordPlaceholder": "Your password",
+    "signIn": "Sign In",
+    "signingIn": "Signing in...",
+    "errorInvalidCredentials": "Email or password is incorrect.",
+    "errorEmailNotConfirmed": "Please confirm your email before signing in.",
+    "errorRateLimited": "Too many attempts. Please wait and try again.",
+    "errorGeneric": "We could not sign you in. Please try again.",
+    "contactPrompt": "Having trouble? Contact your tutor:",
+    "contactEmail": "support@example.com",
+    "noAccountPrompt": "New to OiTutor?",
+    "createAccount": "Create an account",
+    "brand": "Student Portal",
+    "navLessons": "My Lessons",
+    "navMaterials": "Materials",
+    "navBook": "Book Lesson",
+    "daysRemaining": "Days Remaining",
+    "myLessons": "My Lessons",
+    "continueWhere": "Continue where you left off",
+    "signOut": "Sign out",
+    "signOutConfirmTitle": "Sign out?",
+    "signOutConfirmMessage": "You will need to sign in again to access your dashboard.",
+    "cancel": "Cancel",
+    "yourProgress": "Your Progress",
+    "completed": "Completed",
+    "remaining": "Remaining",
+    "total": "Total",
+    "assignedLessons": "Assigned Lessons",
+    "filterAll": "All",
+    "filterTodo": "To Do",
+    "filterDone": "Done",
+    "noLessons": "No lessons yet",
+    "noLessonsDesc": "Your tutor will assign lessons for you soon.",
+    "openLesson": "Open Lesson",
+    "loading": "Loading your dashboard...",
+    "markComplete": "Mark complete",
+    "markIncomplete": "Mark incomplete",
+    "greetingMorning": "おはよう！",
+    "greetingAfternoon": "こんにちは！",
+    "greetingEvening": "お帰り！",
+    "level": "Level",
+    "streak": "Day streak",
+    "xpLabel": "XP",
+    "navSkillTree": "Skill Tree",
+    "navProfile": "Profile",
+    "navDictionary": "Dictionary"
+  },
+  "dictionary": {
+    "eyebrow": "Personal Dictionary",
+    "title": "Japanese Words",
+    "subtitle": "A curated English-Japanese learning dictionary with useful meanings, readings, examples, and audio.",
+    "noticeTitle": "English-Japanese dictionary",
+    "noticeBody": "This dictionary currently supports English-Japanese word cards only. App controls still follow your selected interface language.",
+    "dismissNotice": "Dismiss dictionary language notice",
+    "searchPlaceholder": "Search Japanese, kana, romaji, English meaning, or tags...",
+    "resultCount_one": "{{count}} word",
+    "resultCount_other": "{{count}} words",
+    "resultsLabel": "Dictionary results",
+    "multipleMeanings_one": "This word has {{count}} common meaning shown by learner usefulness.",
+    "multipleMeanings_other": "This word has {{count}} common meanings shown by learner usefulness.",
+    "multipleMeaningsCapped_one": "Showing {{count}} learner-useful meaning.",
+    "multipleMeaningsCapped_other": "Showing {{count}} learner-useful meanings.",
+    "meaningLabel": "Meaning",
+    "exampleLabel": "Example",
+    "meaningPlaceholder": "Meaning pending",
+    "descriptionPlaceholder": "A learner note will be added here.",
+    "examplePlaceholder": "Example sentence will be added here.",
+    "loading": "Loading dictionary...",
+    "error": "We could not load the dictionary.",
+    "emptyTitle": "No matches",
+    "empty": {
+      "lockedTitle": "No unlocked words yet",
+      "locked": "Complete a lesson to unlock its dictionary words.",
+      "searchTitle": "No matches",
+      "search": "No matches. Try a different spelling, reading, English meaning, or tag."
+    }
+  },
+  "sections": {
+    "hiragana": {
+      "title": "Hiragana",
+      "description": "Base characters + Dakuten + Yoon"
+    },
+    "katakana": {
+      "title": "Katakana",
+      "description": "Base characters + Dakuten + Yoon"
+    },
+    "kanji": {
+      "title": "Kanji",
+      "description": "JLPT N5 to N1 - 600 characters planned"
+    },
+    "grammar": {
+      "title": "Grammar 1-20",
+      "description": "Foundations: Pronouns, Copula, Particles, Verbs, Adjectives"
+    },
+    "dialogues": {
+      "title": "Lessons 1-49",
+      "description": "Complete N5 dialogue course: greetings, grammar, daily life"
+    }
+  },
+  "skilltree": {
+    "title": "Your Learning Path",
+    "subtitle": "Follow your progress through each skill",
+    "loading": "Loading...",
+    "completed": "completed",
+    "planned": "planned",
+    "comingSoon": "Coming Soon",
+    "continue": "CONTINUE",
+    "progress": "Progress",
+    "skills": {
+      "hiragana": "rows",
+      "katakana": "rows",
+      "kanji": "kanji",
+      "grammar": "grammar points",
+      "dialogues": "dialogues"
+    },
+    "paths": {
+      "hiragana": "Hiragana",
+      "katakana": "Katakana",
+      "kanji": "Kanji",
+      "grammar": "Grammar",
+      "dialogues": "Dialogues"
+    }
+  },
+  "skillTree": {
+    "alphabets": {
+      "title": "Alphabets Path",
+      "completed": "{{completed}} / {{total}} completed",
+      "currentLesson": "Current lesson",
+      "reviewLesson": "Review lesson",
+      "reviewPrompt": "Would you like to review {{title}}?",
+      "continue": "Continue",
+      "lessonPosition": "{{current}} / {{total}} completed",
+      "progressLabel": "Alphabets path progress",
+      "sakuraButton": "Alphabets tree options",
+      "closeLessonCard": "Close lesson card",
+      "nodeAria": "{{title}}, {{state}}",
+      "states": {
+        "completed": "completed",
+        "current": "current lesson",
+        "available": "available",
+        "locked": "locked"
+      },
+      "nodes": {
+        "hiraganaVowels": "Hiragana あ行 — Vowels",
+        "hiraganaK": "Hiragana か行 — K-row",
+        "hiraganaVowelsKPractice": "Hiragana あ/か — Practice",
+        "hiraganaS": "Hiragana さ行 — S-row",
+        "hiraganaT": "Hiragana た行 — T-row",
+        "hiraganaSTPractice": "Hiragana さ/た — Practice",
+        "hiraganaReviewOne": "Hiragana Review 1",
+        "hiraganaN": "Hiragana な行 — N-row",
+        "hiraganaH": "Hiragana は行 — H-row",
+        "hiraganaNHPractice": "Hiragana な/は — Practice",
+        "hiraganaM": "Hiragana ま行 — M-row",
+        "hiraganaY": "Hiragana や行 — Y-row",
+        "hiraganaMYPractice": "Hiragana ま/や — Practice",
+        "hiraganaReviewTwo": "Hiragana Review 2",
+        "hiraganaR": "Hiragana ら行 — R-row",
+        "hiraganaW": "Hiragana わ行 — W-row",
+        "hiraganaRWPractice": "Hiragana ら/わ — Practice",
+        "hiraganaFinalReview": "Hiragana Final Review",
+        "katakanaVowels": "Katakana ア行 — Vowels",
+        "katakanaK": "Katakana カ行 — K-row",
+        "katakanaVowelsKPractice": "Katakana ア/カ — Practice",
+        "katakanaS": "Katakana サ行 — S-row",
+        "katakanaT": "Katakana タ行 — T-row",
+        "katakanaSTPractice": "Katakana サ/タ — Practice",
+        "katakanaReviewOne": "Katakana Review 1",
+        "katakanaN": "Katakana ナ行 — N-row",
+        "katakanaH": "Katakana ハ行 — H-row",
+        "katakanaNHPractice": "Katakana ナ/ハ — Practice",
+        "katakanaM": "Katakana マ行 — M-row",
+        "katakanaY": "Katakana ヤ行 — Y-row",
+        "katakanaMYPractice": "Katakana マ/ヤ — Practice",
+        "katakanaReviewTwo": "Katakana Review 2",
+        "katakanaR": "Katakana ラ行 — R-row",
+        "katakanaW": "Katakana ワ行 — W-row",
+        "katakanaRWPractice": "Katakana ラ/ワ — Practice",
+        "katakanaFinalReview": "Katakana Final Review",
+        "finalTest": "The FINAL TEST"
+      }
+    },
+    "kanji": {
+      "title": "Kanji Path",
+      "completed": "{{completed}} / {{total}} completed",
+      "currentLesson": "Current lesson",
+      "reviewLesson": "Review lesson",
+      "reviewPrompt": "Would you like to review {{title}}?",
+      "continue": "Continue",
+      "lessonPosition": "{{current}} / {{total}} completed",
+      "progressLabel": "Kanji path progress",
+      "optionsButton": "Kanji tree options",
+      "closeLessonCard": "Close lesson card",
+      "nodeAria": "{{title}}, {{state}}",
+      "empty": "No kanji lessons are available yet.",
+      "states": {
+        "completed": "completed",
+        "current": "current lesson",
+        "available": "available",
+        "locked": "locked"
+      }
+    },
+    "lessons": {
+      "title": "Lessons Path",
+      "completed": "{{completed}} / {{total}} completed",
+      "currentLesson": "Current lesson",
+      "reviewLesson": "Review lesson",
+      "reviewPrompt": "Would you like to review {{title}}?",
+      "continue": "Continue",
+      "lessonPosition": "{{current}} / {{total}} completed",
+      "progressLabel": "Lessons path progress",
+      "optionsButton": "Lessons tree options",
+      "closeLessonCard": "Close lesson card",
+      "nodeAria": "{{title}}, {{state}}",
+      "empty": "No lessons are available yet.",
+      "chapters": {
+        "tabList": "Lessons path chapters",
+        "pathOneLabel": "Path I",
+        "pathOneTitle": "First Steps",
+        "pathTwoLabel": "Path II",
+        "pathTwoTitle": "Building Skill",
+        "pathThreeLabel": "Path III",
+        "pathThreeTitle": "Deeper Mastery",
+        "heading": "{{label}} — {{title}}",
+        "rangeProgress": "Lessons {{start}}-{{end}} · {{completed}} / {{total}} completed",
+        "panelLabel": "{{label}} — {{title}}",
+        "continueLesson": "Continue Lesson {{number}}",
+        "lockedFeedback": "Complete the previous lesson first."
+      },
+      "states": {
+        "completed": "completed",
+        "current": "current lesson",
+        "available": "available",
+        "locked": "locked",
+        "comingSoon": "coming soon"
+      }
+    },
+    "grammar": {
+      "title": "Grammar Path",
+      "completed": "{{completed}} / {{total}} completed",
+      "currentLesson": "Current lesson",
+      "reviewLesson": "Review lesson",
+      "reviewPrompt": "Would you like to review {{title}}?",
+      "continue": "Continue",
+      "lessonPosition": "{{current}} / {{total}} completed",
+      "progressLabel": "Grammar path progress",
+      "optionsButton": "Grammar tree options",
+      "closeLessonCard": "Close lesson card",
+      "nodeAria": "{{title}}, {{state}}",
+      "empty": "No grammar lessons are available yet.",
+      "states": {
+        "completed": "completed",
+        "current": "current lesson",
+        "available": "available",
+        "locked": "locked"
+      }
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "backToHome": "Back to Home",
+    "logoAlt": "OiTutor logo"
+  },
+  "subscription": {
+    "pageTitle": "Choose your path to fluency",
+    "pageSubtitle": "Accelerate your learning with premium features. Cancel anytime.",
+    "popularBadge": "Most Popular",
+    "launchSaleBadge": "Launch Sale",
+    "selectPlan": "Select Plan",
+    "plans": {
+      "free": {
+        "title": "Basic",
+        "price": "Free"
+      },
+      "premium": {
+        "title": "Premium Sensei",
+        "price": "$7.99",
+        "originalPrice": "$9.99",
+        "period": "/month + taxes"
+      }
+    },
+    "features": {
+      "basicLessons": "Access to basic Hiragana and Katakana",
+      "limitedHearts": "Limited hearts per day",
+      "adsIncluded": "Ad-supported experience",
+      "allLessons": "Unlock all 139 planned lessons (Kanji, Grammar, Dialogues)",
+      "personalizedLessons": "Personalized lessons tailored to your level and goals",
+      "specificContent": "Specific content designed just for you by your tutor",
+      "noAds": "100% Ad-free experience",
+      "offlineMode": "Download lessons for offline study"
+    },
+    "success": {
+      "title": "Welcome to Premium!",
+      "message": "Your subscription is active. Enjoy full access to all lessons and features.",
+      "cta": "Go to Dashboard"
+    },
+    "cancel": {
+      "title": "Checkout canceled",
+      "message": "No worries — you can upgrade anytime.",
+      "cta": "Back to Plans"
+    }
+  },
+  "benefits": {
+    "heroTitle": "Why upgrade to Premium?",
+    "heroSubtitle": "Our premium plan is designed to remove friction from your learning, helping you achieve Japanese fluency faster.",
+    "ctaButton": "View Premium Plans",
+    "hearts": {
+      "title": "Learn without fear of mistakes",
+      "desc": "With infinite hearts, you can make as many mistakes as you need. Mistakes are the best way to learn a new language."
+    },
+    "noAds": {
+      "title": "Zero interruptions",
+      "desc": "Keep your focus sharp. With the Premium plan, you will never see an ad interrupting your study flow."
+    },
+    "offline": {
+      "title": "Study anywhere",
+      "desc": "Taking a flight or riding the subway? Download your lessons in advance and keep your streak alive even without the internet."
+    },
+    "xp": {
+      "title": "XP Boosts & Insights",
+      "desc": "Earn bonus XP on weekends and get detailed insights into which Kanji or Grammar points you need to practice more."
+    }
+  },
+  "shop": {
+    "pageTitle": "Japanese Learning Materials",
+    "pageSubtitle": "Expand your study toolkit with curated ebooks, guides, and audio courses crafted for Japanese learners.",
+    "comingSoon": "Coming Soon",
+    "buyNow": "Buy Now",
+    "paymentNotice": "Payments via Stripe (card) and CoinGate (crypto) — coming soon.",
+    "paymentMethods": "We accept: Visa · Mastercard · Bitcoin · Ethereum · and more",
+    "tags": {
+      "ebook": "Digital Book",
+      "guide": "Study Guide",
+      "reference": "Reference",
+      "audio": "Audio Course"
+    },
+    "products": {
+      "ebook1": {
+        "title": "Japanese Ebook Vol. 1",
+        "desc": "Master the first 20 essential Kanji with stroke order, on'yomi & kun'yomi readings, and example sentences.",
+        "price": "$9.99"
+      },
+      "ebook2": {
+        "title": "Japanese Ebook Vol. 2",
+        "desc": "Kanji 21–40 with advanced readings, compound vocabulary, and real-world usage examples.",
+        "price": "$9.99"
+      },
+      "n5Grammar": {
+        "title": "N5 Grammar Guide",
+        "desc": "Complete JLPT N5 grammar reference with explanations, conjugation tables, and practice exercises.",
+        "price": "$12.99"
+      },
+      "vocabulary": {
+        "title": "Japanese Vocabulary Builder",
+        "desc": "1,000 essential words organized by topic with furigana, romaji, and example sentences.",
+        "price": "$14.99"
+      },
+      "phrasebook": {
+        "title": "Japanese Phrasebook",
+        "desc": "500+ practical phrases for travel, shopping, business meetings, and everyday conversation.",
+        "price": "$7.99"
+      },
+      "audioCourse": {
+        "title": "Japanese Audio Course",
+        "desc": "Native speaker recordings for all JLPT N5 vocabulary and key phrases — perfect for commuters.",
+        "price": "$24.99"
+      }
+    }
+  },
+  "placeholder": {
+    "defaultTitle": "Coming Soon",
+    "defaultDesc": "We are working hard to bring this feature to life. Check back later!",
+    "shopTitle": "The Store is closed right now",
+    "shopDesc": "Soon you'll be able to spend your hard-earned XP on profile customizations and streak freezes."
+  },
+  "footer": {
+    "navigation": "Navigation",
+    "legal": "Legal & Support",
+    "social": "Social Media",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "contact": "Contact",
+    "team": "Our Team"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated",
+    "introduction": {
+      "title": "Introduction",
+      "body": "Welcome to OiTutor. These Terms of Service govern your use of our website and services. By accessing or using our platform, you agree to be bound by these terms. Please read them carefully before proceeding."
+    },
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "body": "By creating an account or using any part of our service, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service. If you do not agree, you must not use our platform."
+    },
+    "eligibility": {
+      "title": "User Eligibility and Accounts",
+      "body": "You must be at least 13 years of age to use our services. If you are under 18, you must have parental or guardian consent. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account."
+    },
+    "intellectualProperty": {
+      "title": "Intellectual Property",
+      "body": "All content on OiTutor, including lessons, exercises, audio, text, graphics, and software, is the property of OiTutor or its content suppliers and is protected by international copyright laws. You may not reproduce, distribute, or create derivative works without prior written consent."
+    },
+    "userConduct": {
+      "title": "User Conduct",
+      "body": "You agree not to misuse the platform, including but not limited to: attempting to gain unauthorized access, interfering with the proper operation of the service, scraping or collecting data without permission, or using the service for any unlawful purpose."
+    },
+    "termination": {
+      "title": "Termination",
+      "body": "We reserve the right to suspend or terminate your access to the service at our discretion, without notice, for conduct that we believe violates these Terms of Service or is harmful to other users, us, or third parties, or for any other reason."
+    },
+    "disclaimers": {
+      "title": "Disclaimers & Limitation of Liability",
+      "body": "The service is provided \"as is\" without warranties of any kind. OiTutor shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of or inability to use the service."
+    },
+    "governingLaw": {
+      "title": "Governing Law",
+      "body": "These terms shall be governed by and construed in accordance with the applicable laws of the jurisdiction in which OiTutor operates, without regard to conflict of law principles."
+    },
+    "changes": {
+      "title": "Changes to Terms",
+      "body": "We may update these Terms of Service from time to time. We will notify users of significant changes by posting a notice on our platform. Your continued use of the service after changes constitutes acceptance of the revised terms."
+    },
+    "contactInfo": {
+      "title": "Contact Information",
+      "body": "If you have any questions about these Terms of Service, please contact us at support@example.com."
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated",
+    "introduction": {
+      "title": "Introduction",
+      "body": "OiTutor is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you use our website and services."
+    },
+    "dataCollection": {
+      "title": "Information We Collect",
+      "body": "We may collect personal information you provide directly, such as your name, email address, and account credentials. We also automatically collect usage data including pages visited, time spent on lessons, exercise scores, and device/browser information."
+    },
+    "dataUsage": {
+      "title": "How We Use Your Information",
+      "body": "We use your information to provide and improve our language learning services, personalize your experience, track your learning progress, communicate updates, and ensure the security of our platform. We do not sell your personal information to third parties."
+    },
+    "cookies": {
+      "title": "Cookies and Tracking",
+      "body": "We use cookies and similar technologies to maintain your session, remember your preferences, and analyze how our service is used. You can control cookie settings through your browser preferences, though some features may not function properly without them."
+    },
+    "thirdParty": {
+      "title": "Third-Party Services",
+      "body": "We may use third-party services such as Supabase for authentication and data storage, and analytics tools to understand usage patterns. These services have their own privacy policies governing how they handle your data."
+    },
+    "dataSecurity": {
+      "title": "Data Security",
+      "body": "We implement industry-standard security measures to protect your personal information, including encryption in transit and at rest. However, no method of transmission over the internet is 100% secure, and we cannot guarantee absolute security."
+    },
+    "childrenPrivacy": {
+      "title": "Children's Privacy",
+      "body": "Our services are not directed to children under 13. We do not knowingly collect personal information from children under 13. If we become aware that we have collected such information, we will take steps to delete it promptly."
+    },
+    "userRights": {
+      "title": "Your Rights",
+      "body": "You have the right to access, correct, or delete your personal information. You may also request a copy of your data or ask us to restrict its processing. To exercise these rights, contact us at the email provided below."
+    },
+    "changes": {
+      "title": "Changes to This Policy",
+      "body": "We may update this Privacy Policy from time to time. We will notify users of significant changes by posting a notice on our platform. Your continued use of the service after changes constitutes acceptance of the updated policy."
+    },
+    "contactInfo": {
+      "title": "Contact Information",
+      "body": "If you have any questions about this Privacy Policy or our data practices, please contact us at support@example.com."
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have a question, feedback, or want to collaborate? We'd love to hear from you.",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully! We'll get back to you soon.",
+    "error": "Something went wrong. Please try again.",
+    "emailLabel": "Email",
+    "phoneLabel": "WhatsApp",
+    "addressLabel": "Location"
+  },
+  "team": {
+    "title": "Meet the Team",
+    "subtitle": "The people behind OiTutor — passionate about AI, education, and the Japanese language.",
+    "highlights": {
+      "aiEducation": "AI Education",
+      "multilingual": "Multilingual",
+      "curriculum": "Curriculum Design",
+      "fullstack": "Full-Stack Dev",
+      "python": "Python",
+      "webTech": "Web Technologies",
+      "vps": "VPS & DevOps"
+    },
+    "productLead": {
+      "name": "Product Lead",
+      "role": "AI Education & Curriculum",
+      "bio": "Coordinates curriculum direction, learner experience, and AI-assisted study workflows for the platform."
+    },
+    "engineeringLead": {
+      "name": "Engineering Lead",
+      "role": "Full-Stack Development",
+      "bio": "Builds and maintains the web app, lesson engine, backend integrations, and quality workflows."
+    }
+  }
+}

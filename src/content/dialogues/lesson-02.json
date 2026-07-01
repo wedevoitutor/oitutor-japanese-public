@@ -1,0 +1,719 @@
+{
+  "id": "dialogues-lesson-02",
+  "dictionaryVocabulary": [
+    {
+      "word": "すみません",
+      "kana": "すみません",
+      "romaji": "sumimasen",
+      "partOfSpeech": "expression",
+      "meaning": "excuse me / sorry",
+      "description": "A polite opener for getting attention, apologizing, or starting a request.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "すみません、ちょっと手伝ってください。",
+        "kana": "すみません、ちょっとてつだってください。",
+        "romaji": "Sumimasen, chotto tetsudatte kudasai.",
+        "english": "Excuse me, please help me for a moment.",
+        "highlight": "すみません"
+      },
+      "tags": ["requests", "polite", "dialogue-02"]
+    },
+    {
+      "word": "手伝う",
+      "kana": "てつだう",
+      "romaji": "tetsudau",
+      "partOfSpeech": "verb",
+      "meaning": "to help",
+      "description": "Used when helping someone with a task.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "宿題を手伝ってください。",
+        "kana": "しゅくだいをてつだってください。",
+        "romaji": "Shukudai o tetsudatte kudasai.",
+        "english": "Please help me with my homework.",
+        "highlight": "手伝"
+      },
+      "tags": ["requests", "verb", "dialogue-02"]
+    },
+    {
+      "word": "大丈夫",
+      "kana": "だいじょうぶ",
+      "romaji": "daijoubu",
+      "partOfSpeech": "na-adjective",
+      "meaning": "okay / all right",
+      "description": "Used to ask if someone is okay or to say that something is fine.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "大丈夫ですか。",
+        "kana": "だいじょうぶですか。",
+        "romaji": "Daijoubu desu ka.",
+        "english": "Are you okay?",
+        "highlight": "大丈夫"
+      },
+      "tags": ["requests", "health", "dialogue-02"]
+    },
+    {
+      "word": "見る",
+      "kana": "みる",
+      "romaji": "miru",
+      "partOfSpeech": "verb",
+      "meaning": "to see / watch / look",
+      "description": "Used for seeing, watching, or intentionally looking at something.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "この切符を見てください。",
+        "kana": "このきっぷをみてください。",
+        "romaji": "Kono kippu o mite kudasai.",
+        "english": "Please look at this ticket.",
+        "highlight": "見"
+      },
+      "tags": ["verb", "requests", "dialogue-02"]
+    },
+    {
+      "word": "助ける",
+      "kana": "たすける",
+      "romaji": "tasukeru",
+      "partOfSpeech": "verb",
+      "meaning": "to help / save",
+      "description": "Used when helping someone in trouble or rescuing them.",
+      "dictionaryEligible": true,
+      "example": {
+        "japanese": "助けて！",
+        "kana": "たすけて！",
+        "romaji": "Tasukete!",
+        "english": "Help!",
+        "highlight": "助け"
+      },
+      "tags": ["requests", "urgent", "dialogue-02"]
+    }
+  ],
+  "misconceptions": [
+    {
+      "target": "sumimasen-help-opener",
+      "error": "Starts a request with casual ねえ in a public or service context.",
+      "mitigation": "Comparison card 1 contrasts public attention-getters; response-selection drills use formal request openers."
+    },
+    {
+      "target": "te-kudasai-request",
+      "error": "Uses bare imperative forms when asking for help.",
+      "mitigation": "Formula-fill drills practice てください request frames."
+    },
+    {
+      "target": "daijoubu-desu-ka",
+      "error": "Answers 大丈夫ですか as if it asks for identity or location.",
+      "mitigation": "Multiple-choice and response-selection drills treat it as a welfare/help check."
+    },
+    {
+      "target": "formal-vs-casual-help",
+      "error": "Uses casual 手伝って with a stranger or staff member.",
+      "mitigation": "Comparison cards and response-selection distractors mark wrong-register choices."
+    },
+    {
+      "target": "chotto-softener",
+      "error": "Translates ちょっと literally as only 'a little' and misses its request-softening role.",
+      "mitigation": "Dialogue scenes and reading-practice cards show ちょっとすみません as a help-request opener."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "Asking for Help - Formal · Casual · Slang",
+      "intro": "Help requests depend on relationship. Start with formal public phrases, then learn casual friend-to-friend forms and compressed slang you should understand before using.",
+      "rows": [
+        ["Register", "Japanese", "Romaji", "Typical Response", "Context"],
+        ["FORMAL", "すみません、手伝ってください。", "Sumimasen, tetsudatte kudasai.", "はい、いいですよ。", "Please help me - stranger, staff, teacher"],
+        ["FORMAL", "ちょっとすみません。", "Chotto sumimasen.", "はい、どうしましたか。", "Excuse me / could I ask something?"],
+        ["FORMAL", "大丈夫ですか。", "Daijoubu desu ka.", "はい、大丈夫です。", "Are you okay? / Do you need help?"],
+        ["FORMAL", "もう一度お願いします。", "Mou ichido onegaishimasu.", "もちろんです。", "One more time, please"],
+        ["FORMAL", "ゆっくり話してください。", "Yukkuri hanashite kudasai.", "はい、ゆっくり話します。", "Please speak slowly"],
+        ["CASUAL", "手伝って。", "Tetsudatte.", "いいよ。", "Help me - friends / classmates"],
+        ["CASUAL", "ちょっといい？", "Chotto ii?", "うん、なに？", "Do you have a second?"],
+        ["CASUAL", "大丈夫？", "Daijoubu?", "うん、大丈夫。", "You okay?"],
+        ["CASUAL", "もう一回言って。", "Mou ikkai itte.", "いいよ。", "Say it again"],
+        ["SLANG", "助けて！", "Tasukete!", "どうした？", "Help! urgent, emotional"],
+        ["SLANG", "マジでむり。", "Maji de muri.", "手伝うよ。", "I seriously can't do this"],
+        ["SLANG", "ちょい待って。", "Choi matte.", "おっけー。", "Wait a sec"]
+      ],
+      "takeaway": "Use すみません + てください with strangers. Use shorter forms only with people close to you."
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "Formal · At the Station",
+      "register": "formal",
+      "lines": [
+        {
+          "speaker": "キム",
+          "jp": "すみません、ちょっと手伝ってください。",
+          "romaji": "Sumimasen, chotto tetsudatte kudasai.",
+          "en": "Excuse me, please help me for a moment."
+        },
+        {
+          "speaker": "駅員",
+          "jp": "はい、どうしましたか。",
+          "romaji": "Hai, dou shimashita ka.",
+          "en": "Yes, what happened?"
+        },
+        {
+          "speaker": "キム",
+          "jp": "この切符を見てください。大丈夫ですか。",
+          "romaji": "Kono kippu wo mite kudasai. Daijoubu desu ka.",
+          "en": "Please look at this ticket. Is it okay?"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "Casual · Classmates",
+      "register": "casual",
+      "lines": [
+        {
+          "speaker": "みか",
+          "jp": "ねえ、ちょっといい？ 宿題を手伝って。",
+          "romaji": "Nee, chotto ii? Shukudai wo tetsudatte.",
+          "en": "Hey, do you have a second? Help me with homework."
+        },
+        {
+          "speaker": "そうた",
+          "jp": "いいよ。どこがわからない？",
+          "romaji": "Ii yo. Doko ga wakaranai?",
+          "en": "Sure. What part don't you understand?"
+        },
+        {
+          "speaker": "みか",
+          "jp": "ここ。もう一回言って。",
+          "romaji": "Koko. Mou ikkai itte.",
+          "en": "Here. Say it one more time."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-scene",
+      "title": "Slang · Friend in Trouble",
+      "register": "slang",
+      "lines": [
+        {
+          "speaker": "はる",
+          "jp": "やばい、マジでむり。助けて！",
+          "romaji": "Yabai, maji de muri. Tasukete!",
+          "en": "This is bad, I seriously can't do it. Help!"
+        },
+        {
+          "speaker": "ゆー",
+          "jp": "どうした？ ちょい待って。",
+          "romaji": "Dou shita? Choi matte.",
+          "en": "What happened? Wait a sec."
+        },
+        {
+          "speaker": "はる",
+          "jp": "ありがとう。これ、見て。",
+          "romaji": "Arigatou. Kore, mite.",
+          "en": "Thanks. Look at this."
+        }
+      ]
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which opener fits asking station staff for help?",
+      "title": "Getting Attention Politely",
+      "variants": [
+        {
+          "label": "FORMAL",
+          "jp": "すみません、ちょっと手伝ってください。",
+          "romaji": "Sumimasen, chotto tetsudatte kudasai.",
+          "en": "Excuse me, please help me for a moment.",
+          "note": "Safe for strangers and staff.",
+          "register": "polite",
+          "naturalness": "native-likely",
+          "correct": true
+        },
+        {
+          "label": "CASUAL",
+          "jp": "ねえ、手伝って。",
+          "romaji": "Nee, tetsudatte.",
+          "en": "Hey, help me.",
+          "note": "Natural with friends, not staff.",
+          "register": "casual",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongRegister",
+          "errorFeature": "tooCasual",
+          "wrongExplanation": "This is too casual for staff or strangers.",
+          "correct": false
+        },
+        {
+          "label": "SLANG",
+          "jp": "マジでむり、助けて。",
+          "romaji": "Maji de muri, tasukete.",
+          "en": "I seriously can't. Help.",
+          "note": "Urgent friend-to-friend emotion.",
+          "register": "slang",
+          "naturalness": "native-likely",
+          "distractorReason": "wrongRegister",
+          "errorFeature": "emotionalSlang",
+          "wrongExplanation": "This sounds emotional and intimate, not like a public request.",
+          "correct": false
+        }
+      ],
+      "takeaway": "すみません opens public requests safely.",
+      "speakText": "すみません、ちょっと手伝ってください。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which phrase asks someone to speak slowly?",
+      "title": "Requesting Slower Speech",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "ゆっくり話してください。",
+          "romaji": "Yukkuri hanashite kudasai.",
+          "en": "Please speak slowly.",
+          "note": "Polite and beginner-safe.",
+          "register": "polite",
+          "naturalness": "native-likely",
+          "correct": true
+        },
+        {
+          "label": "COMMON MIXUP",
+          "jp": "もう一度お願いします。",
+          "romaji": "Mou ichido onegaishimasu.",
+          "en": "One more time, please.",
+          "note": "This asks for repetition, not slower speed.",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "repeatVsSlow",
+          "wrongExplanation": "This asks for repetition, not speed.",
+          "correct": false
+        }
+      ],
+      "takeaway": "もう一度 = repeat. ゆっくり = slowly.",
+      "speakText": "ゆっくり話してください。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which check asks 'Are you okay?' politely?",
+      "title": "Checking on Someone",
+      "variants": [
+        {
+          "label": "POLITE",
+          "jp": "大丈夫ですか。",
+          "romaji": "Daijoubu desu ka.",
+          "en": "Are you okay?",
+          "note": "Polite welfare check.",
+          "register": "polite",
+          "naturalness": "native-likely",
+          "correct": true
+        },
+        {
+          "label": "CASUAL",
+          "jp": "大丈夫？",
+          "romaji": "Daijoubu?",
+          "en": "You okay?",
+          "note": "Fine with friends.",
+          "distractorReason": "wrongRegister",
+          "errorFeature": "tooCasual",
+          "wrongExplanation": "This is fine with friends but too bare for a polite check.",
+          "correct": false
+        },
+        {
+          "label": "WRONG MEANING",
+          "jp": "どうしましたか。",
+          "romaji": "Dou shimashita ka.",
+          "en": "What happened?",
+          "note": "Asks what happened after you have attention.",
+          "distractorReason": "wrongMeaning",
+          "errorFeature": "eventQuestion",
+          "wrongExplanation": "This asks what happened, not whether someone is okay.",
+          "correct": false
+        }
+      ],
+      "takeaway": "大丈夫ですか is the safe polite check.",
+      "speakText": "大丈夫ですか。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which answer naturally accepts a help request?",
+      "title": "Accepting Help Requests",
+      "variants": [
+        {
+          "label": "NATURAL",
+          "jp": "はい、いいですよ。",
+          "romaji": "Hai, ii desu yo.",
+          "en": "Yes, that's fine.",
+          "note": "Polite acceptance.",
+          "register": "polite",
+          "naturalness": "native-likely",
+          "correct": true
+        },
+        {
+          "label": "TOO CASUAL",
+          "jp": "おっけー。",
+          "romaji": "Okkee.",
+          "en": "Okay.",
+          "note": "Friend-to-friend casual.",
+          "distractorReason": "wrongRegister",
+          "errorFeature": "tooCasual",
+          "wrongExplanation": "This is too casual for a polite service-style exchange.",
+          "correct": false
+        },
+        {
+          "label": "MISMATCH",
+          "jp": "おやすみなさい。",
+          "romaji": "Oyasuminasai.",
+          "en": "Good night.",
+          "note": "A greeting from lesson 01, not a help response.",
+          "distractorReason": "learnerOvergeneralization",
+          "errorFeature": "dialogue01Greeting",
+          "wrongExplanation": "This is a prior greeting, not a response to a request.",
+          "correct": false
+        }
+      ],
+      "takeaway": "いいですよ accepts a request without sounding too casual.",
+      "speakText": "はい、いいですよ。"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Complete the polite help request:",
+      "patternJp": ["すみません、", "[SLOT]", "ください。"],
+      "patternRom": ["Sumimasen, ", "[SLOT]", " kudasai."],
+      "slot": {
+        "answer": "手伝って",
+        "answerRomaji": "tetsudatte",
+        "hint": "Use the te-form of 'help'.",
+        "acceptAlternatives": ["てつだって", "tetsudatte"]
+      },
+      "translation": "Excuse me, please help me.",
+      "speakText": "すみません、手伝ってください。",
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Ask someone to speak slowly:",
+      "patternJp": ["", "[SLOT]", "話してください。"],
+      "patternRom": ["", "[SLOT]", " hanashite kudasai."],
+      "slot": {
+        "answer": "ゆっくり",
+        "answerRomaji": "yukkuri",
+        "hint": "Adverb meaning slowly.",
+        "acceptAlternatives": ["yukuri"]
+      },
+      "translation": "Please speak slowly.",
+      "speakText": "ゆっくり話してください。",
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Ask for one more repetition:",
+      "patternJp": ["", "[SLOT]", "お願いします。"],
+      "patternRom": ["", "[SLOT]", " onegaishimasu."],
+      "slot": {
+        "answer": "もう一度",
+        "answerRomaji": "mou ichido",
+        "hint": "Set phrase meaning one more time.",
+        "acceptAlternatives": ["もういちど", "mouichido", "mo ichido"]
+      },
+      "translation": "One more time, please.",
+      "speakText": "もう一度お願いします。",
+      "strictness": "romaji-accepted"
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        { "front": "手伝ってください", "back": "Tetsudatte kudasai - Please help me", "speakText": "手伝ってください" },
+        { "front": "ちょっとすみません", "back": "Chotto sumimasen - Excuse me for a moment", "speakText": "ちょっとすみません" },
+        { "front": "大丈夫ですか", "back": "Daijoubu desu ka - Are you okay?", "speakText": "大丈夫ですか" },
+        { "front": "もう一度お願いします", "back": "Mou ichido onegaishimasu - One more time, please", "speakText": "もう一度お願いします" },
+        { "front": "ゆっくり話してください", "back": "Yukkuri hanashite kudasai - Please speak slowly", "speakText": "ゆっくり話してください" },
+        { "front": "どうしましたか", "back": "Dou shimashita ka - What happened?", "speakText": "どうしましたか" },
+        { "front": "いいですよ", "back": "Ii desu yo - That's fine / sure", "speakText": "いいですよ" },
+        { "front": "助けて", "back": "Tasukete - Help me!", "speakText": "助けて" }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "手伝ってください",
+      "options": [
+        { "text": "Please help me", "correct": true },
+        { "text": "Please wait", "correct": false, "distractorReason": "wrongMeaning", "errorFeature": "requestVerb", "wrongExplanation": "This is a request, but the action is different." },
+        { "text": "Please speak slowly", "correct": false, "distractorReason": "wrongMeaning", "errorFeature": "slowSpeech", "wrongExplanation": "This asks for help, not slower speech." },
+        { "text": "Good night", "correct": false, "distractorReason": "learnerOvergeneralization", "errorFeature": "dialogue01Greeting", "wrongExplanation": "This is a greeting from an earlier lesson." }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "大丈夫ですか",
+      "options": [
+        { "text": "Are you okay?", "correct": true },
+        { "text": "What is your name?", "correct": false, "distractorReason": "wrongMeaning", "wrongExplanation": "This is a welfare check, not an identity question." },
+        { "text": "Where are you from?", "correct": false, "distractorReason": "wrongMeaning", "wrongExplanation": "This does not ask about origin." },
+        { "text": "Nice to meet you", "correct": false, "distractorReason": "learnerOvergeneralization", "errorFeature": "dialogue01FirstMeeting", "wrongExplanation": "This is a prior first-meeting phrase." }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "もう一度お願いします",
+      "options": [
+        { "text": "One more time, please", "correct": true },
+        { "text": "Please speak slowly", "correct": false, "distractorReason": "wrongMeaning", "errorFeature": "repeatVsSlow", "wrongExplanation": "This asks for repetition, not speed." },
+        { "text": "Please help me", "correct": false, "distractorReason": "wrongMeaning", "errorFeature": "helpRequest", "wrongExplanation": "This is not the help-request verb." },
+        { "text": "See you", "correct": false, "distractorReason": "learnerOvergeneralization", "errorFeature": "dialogue01Farewell", "wrongExplanation": "This is a prior farewell, not a request." }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ゆっくり話してください",
+      "options": [
+        { "text": "Please speak slowly", "correct": true },
+        { "text": "Please say it again", "correct": false, "distractorReason": "wrongMeaning", "errorFeature": "repeatVsSlow", "wrongExplanation": "This is about speed, not repetition." },
+        { "text": "Please look at this", "correct": false, "distractorReason": "wrongMeaning", "errorFeature": "lookVerb", "wrongExplanation": "This contains the verb for speaking, not looking." },
+        { "text": "Are you okay?", "correct": false, "distractorReason": "wrongMeaning", "errorFeature": "welfareCheck", "wrongExplanation": "This is a request, not a check-in question." }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "どうしましたか",
+      "options": [
+        { "text": "What happened?", "correct": true },
+        { "text": "Are you okay?", "correct": false, "distractorReason": "wrongMeaning", "errorFeature": "welfareCheck", "wrongExplanation": "This asks for the situation, not directly about condition." },
+        { "text": "Please help me", "correct": false, "distractorReason": "wrongMeaning", "errorFeature": "request", "wrongExplanation": "This is a question, not a request." },
+        { "text": "Thank you", "correct": false, "distractorReason": "wrongMeaning", "errorFeature": "thanks", "wrongExplanation": "This is not an expression of thanks." }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "ちょっとすみません",
+      "options": [
+        { "text": "Excuse me for a moment", "correct": true },
+        { "text": "I'm a little okay", "correct": false, "distractorReason": "wrongMeaning", "errorFeature": "literalChotto", "wrongExplanation": "This translates the softener too literally." },
+        { "text": "Good morning", "correct": false, "distractorReason": "learnerOvergeneralization", "errorFeature": "dialogue01Greeting", "wrongExplanation": "This is not a greeting." },
+        { "text": "See you tomorrow", "correct": false, "distractorReason": "wrongMeaning", "errorFeature": "farewell", "wrongExplanation": "This opens a request; it does not end a conversation." }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Review from Lesson 01: listen and choose the meaning:",
+      "reviewFrom": "dialogues-lesson-01",
+      "speakText": "はじめまして",
+      "options": [
+        { "text": "Nice to meet you", "correct": true },
+        { "text": "Please help me", "correct": false, "distractorReason": "learnerOvergeneralization", "errorFeature": "currentLessonRequest", "wrongExplanation": "This is a current request meaning, not the prior greeting." },
+        { "text": "Are you okay?", "correct": false, "distractorReason": "wrongMeaning", "wrongExplanation": "This is not a welfare check." },
+        { "text": "One more time, please", "correct": false, "distractorReason": "wrongMeaning", "wrongExplanation": "This is not a repeat request." }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "助けて",
+      "options": [
+        { "text": "Help me!", "correct": true },
+        { "text": "Please speak slowly", "correct": false, "distractorReason": "wrongMeaning", "errorFeature": "slowSpeech", "wrongExplanation": "This is urgent help, not a speech-speed request." },
+        { "text": "I'm well, thank you", "correct": false, "distractorReason": "learnerOvergeneralization", "errorFeature": "dialogue01WellbeingReply", "wrongExplanation": "This is a prior wellness reply." },
+        { "text": "Goodbye", "correct": false, "distractorReason": "wrongMeaning", "errorFeature": "farewell", "wrongExplanation": "This is not a farewell." }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": { "jp": "すみません、手伝ってください。", "romaji": "Sumimasen, tetsudatte kudasai.", "speakText": "すみません、手伝ってください" },
+      "options": [
+        { "jp": "はい、いいですよ。", "romaji": "Hai, ii desu yo.", "correct": true, "register": "polite", "relationship": "staff-to-customer", "beginnerSafe": true },
+        { "jp": "おやすみなさい。", "romaji": "Oyasuminasai.", "correct": false, "distractorReason": "learnerOvergeneralization", "errorFeature": "dialogue01Greeting", "wrongExplanation": "This is a prior night greeting, not help acceptance.", "register": "polite", "relationship": "parting-at-night", "beginnerSafe": true },
+        { "jp": "マジでむり。", "romaji": "Maji de muri.", "correct": false, "distractorReason": "wrongRegister", "errorFeature": "slangRefusal", "wrongExplanation": "This slang refusal is inappropriate for a polite request.", "register": "slang", "relationship": "close-friends", "beginnerSafe": false }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": { "jp": "大丈夫ですか。", "romaji": "Daijoubu desu ka.", "speakText": "大丈夫ですか" },
+      "options": [
+        { "jp": "はい、大丈夫です。", "romaji": "Hai, daijoubu desu.", "correct": true, "register": "polite", "relationship": "learner-to-stranger", "beginnerSafe": true },
+        { "jp": "はじめまして。", "romaji": "Hajimemashite.", "correct": false, "distractorReason": "learnerOvergeneralization", "errorFeature": "dialogue01FirstMeeting", "wrongExplanation": "This starts a first meeting; it does not answer a check-in.", "register": "polite", "relationship": "first-meeting", "beginnerSafe": true },
+        { "jp": "十一月です。", "romaji": "Juuichigatsu desu.", "correct": false, "distractorReason": "wrongMeaning", "errorFeature": "timeAnswer", "wrongExplanation": "This answers with a month, not condition.", "register": "polite", "relationship": "classroom", "beginnerSafe": true }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": { "jp": "もう一度お願いします。", "romaji": "Mou ichido onegaishimasu.", "speakText": "もう一度お願いします" },
+      "options": [
+        { "jp": "もちろんです。", "romaji": "Mochiron desu.", "correct": true, "register": "polite", "relationship": "teacher-to-learner", "beginnerSafe": true },
+        { "jp": "どこがわからない？", "romaji": "Doko ga wakaranai?", "correct": false, "distractorReason": "wrongMeaning", "errorFeature": "helpQuestion", "wrongExplanation": "This asks about a problem, not whether to repeat.", "register": "casual", "relationship": "classmates", "beginnerSafe": true },
+        { "jp": "さようなら。", "romaji": "Sayounara.", "correct": false, "distractorReason": "learnerOvergeneralization", "errorFeature": "dialogue01Farewell", "wrongExplanation": "This ends a conversation instead of responding to a request.", "register": "formal", "relationship": "parting", "beginnerSafe": true }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Review from Lesson 01: choose the best response:",
+      "reviewFrom": "dialogues-lesson-01",
+      "question": { "jp": "おはようございます。", "romaji": "Ohayou gozaimasu.", "speakText": "おはようございます" },
+      "options": [
+        { "jp": "おはようございます。", "romaji": "Ohayou gozaimasu.", "correct": true, "register": "polite", "relationship": "learner-to-teacher", "beginnerSafe": true },
+        { "jp": "手伝ってください。", "romaji": "Tetsudatte kudasai.", "correct": false, "distractorReason": "learnerOvergeneralization", "errorFeature": "currentLessonRequest", "wrongExplanation": "This requests help; it is not a greeting reply.", "register": "polite", "relationship": "learner-to-stranger", "beginnerSafe": true },
+        { "jp": "大丈夫ですか。", "romaji": "Daijoubu desu ka.", "correct": false, "distractorReason": "wrongMeaning", "errorFeature": "welfareCheck", "wrongExplanation": "This checks condition, not morning greeting.", "register": "polite", "relationship": "learner-to-stranger", "beginnerSafe": true }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural casual reply:",
+      "question": { "jp": "ねえ、ちょっといい？", "romaji": "Nee, chotto ii?", "speakText": "ねえ、ちょっといい" },
+      "options": [
+        { "jp": "うん、なに？", "romaji": "Un, nani?", "correct": true, "register": "casual", "relationship": "friends", "beginnerSafe": true },
+        { "jp": "はい、どうしましたか。", "romaji": "Hai, dou shimashita ka.", "correct": false, "distractorReason": "wrongRegister", "errorFeature": "tooFormal", "wrongExplanation": "This is polite and stiff for a close friend prompt.", "register": "polite", "relationship": "staff-to-customer", "beginnerSafe": true },
+        { "jp": "おげんきですか。", "romaji": "Ogenki desu ka.", "correct": false, "distractorReason": "learnerOvergeneralization", "errorFeature": "dialogue01Wellbeing", "wrongExplanation": "This asks how someone is; it does not answer the prompt.", "register": "polite", "relationship": "re-meeting", "beginnerSafe": true }
+      ]
+    },
+    {
+      "type": "response-selection",
+      "prompt": "Choose the natural reply:",
+      "question": { "jp": "やばい、助けて！", "romaji": "Yabai, tasukete!", "speakText": "やばい、助けて" },
+      "options": [
+        { "jp": "どうした？", "romaji": "Dou shita?", "correct": true, "register": "casual", "relationship": "friends", "beginnerSafe": true },
+        { "jp": "こちらこそ。", "romaji": "Kochira koso.", "correct": false, "distractorReason": "learnerOvergeneralization", "errorFeature": "dialogue01Likewise", "wrongExplanation": "This means likewise; it does not respond to urgent help.", "register": "polite", "relationship": "first-meeting", "beginnerSafe": true },
+        { "jp": "いい天気ですね。", "romaji": "Ii tenki desu ne.", "correct": false, "distractorReason": "unnaturalPhrasing", "errorFeature": "topicMismatch", "wrongExplanation": "Grammatical, but it ignores the urgent request.", "register": "polite", "relationship": "small-talk", "beginnerSafe": true }
+      ]
+    },
+    { "type": "type-the-answer", "prompt": "Listen and type what you hear in romaji:", "speakText": "手伝ってください", "answer": "tetsudatte kudasai", "acceptAlternatives": ["tetsudatte kudasai"], "strictness": "romaji-accepted" },
+    { "type": "type-the-answer", "prompt": "Listen and type what you hear in romaji:", "speakText": "ちょっとすみません", "answer": "chotto sumimasen", "acceptAlternatives": ["chotto sumimasen"], "strictness": "romaji-accepted" },
+    { "type": "type-the-answer", "prompt": "Listen and type what you hear in romaji:", "speakText": "大丈夫ですか", "answer": "daijoubu desu ka", "acceptAlternatives": ["daijobu desu ka", "daijoubudesuka"], "strictness": "romaji-accepted" },
+    { "type": "type-the-answer", "prompt": "Listen and type what you hear in romaji:", "speakText": "もう一度お願いします", "answer": "mou ichido onegaishimasu", "acceptAlternatives": ["mouichido onegaishimasu", "mo ichido onegaishimasu"], "strictness": "romaji-accepted" },
+    { "type": "type-the-answer", "prompt": "Listen and type what you hear in romaji:", "speakText": "ゆっくり話してください", "answer": "yukkuri hanashite kudasai", "acceptAlternatives": ["yukuri hanashite kudasai"], "strictness": "romaji-accepted" },
+    { "type": "type-the-answer", "prompt": "Listen and type what you hear in romaji:", "speakText": "どうしましたか", "answer": "dou shimashita ka", "acceptAlternatives": ["doushimashitaka"], "strictness": "romaji-accepted" },
+    { "type": "type-the-answer", "prompt": "Listen and type what you hear in romaji:", "speakText": "助けて", "answer": "tasukete", "acceptAlternatives": [], "strictness": "romaji-accepted" },
+    { "type": "type-the-answer", "prompt": "Listen and type what you hear in romaji:", "speakText": "いいですよ", "answer": "ii desu yo", "acceptAlternatives": ["iidesuyo"], "strictness": "romaji-accepted" },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "すみません、ちょっと手伝ってください。",
+      "romaji": "Sumimasen, chotto tetsudatte kudasai.",
+      "en": "Excuse me, please help me for a moment.",
+      "speakText": "すみません、ちょっと手伝ってください。",
+      "register": "formal",
+      "dialogueContext": "A - Formal · At the Station",
+      "speaker": "キム"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "はい、どうしましたか。",
+      "romaji": "Hai, dou shimashita ka.",
+      "en": "Yes, what happened?",
+      "speakText": "はい、どうしましたか。",
+      "register": "formal",
+      "dialogueContext": "A - Formal · At the Station",
+      "speaker": "駅員"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "この切符を見てください。大丈夫ですか。",
+      "romaji": "Kono kippu wo mite kudasai. Daijoubu desu ka.",
+      "en": "Please look at this ticket. Is it okay?",
+      "speakText": "この切符を見てください。大丈夫ですか。",
+      "register": "formal",
+      "dialogueContext": "A - Formal · At the Station",
+      "speaker": "キム"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ねえ、ちょっといい？ 宿題を手伝って。",
+      "romaji": "Nee, chotto ii? Shukudai wo tetsudatte.",
+      "en": "Hey, do you have a second? Help me with homework.",
+      "speakText": "ねえ、ちょっといい？ 宿題を手伝って。",
+      "register": "casual",
+      "dialogueContext": "B - Casual · Classmates",
+      "speaker": "みか"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "いいよ。どこがわからない？",
+      "romaji": "Ii yo. Doko ga wakaranai?",
+      "en": "Sure. What part don't you understand?",
+      "speakText": "いいよ。どこがわからない？",
+      "register": "casual",
+      "dialogueContext": "B - Casual · Classmates",
+      "speaker": "そうた"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ここ。もう一回言って。",
+      "romaji": "Koko. Mou ikkai itte.",
+      "en": "Here. Say it one more time.",
+      "speakText": "ここ。もう一回言って。",
+      "register": "casual",
+      "dialogueContext": "B - Casual · Classmates",
+      "speaker": "みか"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "やばい、マジでむり。助けて！",
+      "romaji": "Yabai, maji de muri. Tasukete!",
+      "en": "This is bad, I seriously can't do it. Help!",
+      "speakText": "やばい、マジでむり。助けて！",
+      "register": "slang",
+      "dialogueContext": "C - Slang · Friend in Trouble",
+      "speaker": "はる"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "どうした？ ちょい待って。",
+      "romaji": "Dou shita? Choi matte.",
+      "en": "What happened? Wait a sec.",
+      "speakText": "どうした？ ちょい待って。",
+      "register": "slang",
+      "dialogueContext": "C - Slang · Friend in Trouble",
+      "speaker": "ゆー"
+    },
+    {
+      "type": "shadowing",
+      "prompt": "Shadow this line - speak along with the audio:",
+      "jp": "ありがとう。これ、見て。",
+      "romaji": "Arigatou. Kore, mite.",
+      "en": "Thanks. Look at this.",
+      "speakText": "ありがとう。これ、見て。",
+      "register": "slang",
+      "dialogueContext": "C - Slang · Friend in Trouble",
+      "speaker": "はる"
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each expression to its meaning:",
+      "pairs": [
+        { "left": "手伝ってください", "right": "Please help me" },
+        { "left": "ちょっとすみません", "right": "Excuse me for a moment" },
+        { "left": "大丈夫ですか", "right": "Are you okay?" },
+        { "left": "もう一度お願いします", "right": "One more time, please" },
+        { "left": "ゆっくり話してください", "right": "Please speak slowly" },
+        { "left": "どうしましたか", "right": "What happened?" },
+        { "left": "はじめまして", "right": "Nice to meet you", "reviewFrom": "dialogues-lesson-01" },
+        { "left": "おはようございます", "right": "Good morning", "reviewFrom": "dialogues-lesson-01" },
+        { "left": "またね", "right": "See you", "reviewFrom": "dialogues-lesson-01" },
+        { "left": "おかげさまで", "right": "I'm well, thank you", "reviewFrom": "dialogues-lesson-01" }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice",
+      "cards": [
+        { "jp": "すみません、ちょっと手伝ってください。", "romaji": "Sumimasen, chotto tetsudatte kudasai.", "en": "Excuse me, please help me for a moment.", "comprehension": { "q": "Is this safe for a stranger?", "a": "Yes. すみません plus ください is polite and beginner-safe." } },
+        { "jp": "はい、どうしましたか。", "romaji": "Hai, dou shimashita ka.", "en": "Yes, what happened?" },
+        { "jp": "この切符を見てください。大丈夫ですか。", "romaji": "Kono kippu wo mite kudasai. Daijoubu desu ka.", "en": "Please look at this ticket. Is it okay?", "comprehension": { "q": "What is being checked?", "a": "The ticket. The speaker asks whether it is okay." } },
+        { "jp": "ねえ、ちょっといい？ 宿題を手伝って。", "romaji": "Nee, chotto ii? Shukudai wo tetsudatte.", "en": "Hey, do you have a second? Help me with homework." },
+        { "jp": "いいよ。どこがわからない？", "romaji": "Ii yo. Doko ga wakaranai?", "en": "Sure. What part don't you understand?" },
+        { "jp": "ここ。もう一回言って。", "romaji": "Koko. Mou ikkai itte.", "en": "Here. Say it one more time." },
+        { "jp": "やばい、マジでむり。助けて！", "romaji": "Yabai, maji de muri. Tasukete!", "en": "This is bad, I seriously can't do it. Help!", "comprehension": { "q": "Should a beginner use this with staff?", "a": "No. It is emotional slang for close relationships or urgent situations." } },
+        { "jp": "どうした？ ちょい待って。", "romaji": "Dou shita? Choi matte.", "en": "What happened? Wait a sec." },
+        { "jp": "ありがとう。これ、見て。", "romaji": "Arigatou. Kore, mite.", "en": "Thanks. Look at this." },
+        { "jp": "ゆっくり話してください。もう一度お願いします。", "romaji": "Yukkuri hanashite kudasai. Mou ichido onegaishimasu.", "en": "Please speak slowly. One more time, please." }
+      ]
+    }
+  ]
+}

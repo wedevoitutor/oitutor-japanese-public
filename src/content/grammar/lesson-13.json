@@ -1,0 +1,733 @@
+{
+  "id": "grammar-lesson-13",
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "たい - Want to Do",
+      "intro": "Use たい when you want to do an action. Attach たい to the verb's ます-stem, the part before ます.",
+      "rows": [
+        [
+          "ます-form",
+          "たい Form",
+          "Meaning"
+        ],
+        [
+          "たべます",
+          "たべたい",
+          "want to eat"
+        ],
+        [
+          "いきます",
+          "いきたい",
+          "want to go"
+        ],
+        [
+          "のみます",
+          "のみたい",
+          "want to drink"
+        ],
+        [
+          "します",
+          "したい",
+          "want to do"
+        ],
+        [
+          "きます",
+          "きたい",
+          "want to come"
+        ]
+      ],
+      "takeaway": "Verb ます-stem + たい means 'want to do'."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which form means 'want to drink'?",
+      "options": [
+        "のみたい",
+        "のみますたい",
+        "のむたい",
+        "のみほしい"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I want to drink water' using the たい form:",
+      "patternJp": [
+        "みずを ",
+        "[SLOT]",
+        "です。"
+      ],
+      "patternRom": [
+        "mizu o ",
+        "[SLOT]",
+        " desu."
+      ],
+      "slot": {
+        "answer": "のみたい",
+        "answerRomaji": "nomitai",
+        "hint": "The want-to-do form of 'to drink'.",
+        "acceptAlternatives": [
+          "Nomitai"
+        ]
+      },
+      "translation": "I want to drink water.",
+      "speakText": "みずを のみたいです。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "たい Conjugates Like an i-Adjective",
+      "intro": "After you make the たい form, it conjugates like an i-adjective. That gives you present, negative, past, and past-negative desire forms.",
+      "rows": [
+        [
+          "Form",
+          "Example",
+          "Romaji"
+        ],
+        [
+          "Present",
+          "たべたい / たべたいです",
+          "tabetai / tabetai desu"
+        ],
+        [
+          "Present negative",
+          "たべたくない / たべたくないです",
+          "tabetakunai / tabetakunai desu"
+        ],
+        [
+          "Past",
+          "たべたかった / たべたかったです",
+          "tabetakatta / tabetakatta desu"
+        ],
+        [
+          "Past negative",
+          "たべたくなかった",
+          "tabetakunakatta"
+        ]
+      ],
+      "takeaway": "Conjugate たい like an i-adjective: たくない, たかった, たくなかった."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which form means 'did not want to eat'?",
+      "options": [
+        "たべたくなかった",
+        "たべたいです",
+        "たべたかった",
+        "たべます"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I don't want to do anything today' using たくない:",
+      "patternJp": [
+        "きょうは なにも ",
+        "[SLOT]",
+        "。"
+      ],
+      "patternRom": [
+        "kyou wa nanimo ",
+        "[SLOT]",
+        "."
+      ],
+      "slot": {
+        "answer": "したくない",
+        "answerRomaji": "shitakunai",
+        "hint": "The negative want-to-do form of 'to do'.",
+        "acceptAlternatives": [
+          "Shitakunai",
+          "し たくない"
+        ]
+      },
+      "translation": "I don't want to do anything today.",
+      "speakText": "きょうは なにも したくない。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "ほしい - Want a Thing",
+      "intro": "Use ほしい when the thing you want is a noun, not an action. The basic pattern is noun + が + ほしいです.",
+      "rows": [
+        [
+          "Pattern",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "[THING] が ほしいです",
+          "[thing] ga hoshii desu",
+          "I want [thing]."
+        ],
+        [
+          "ほしい / ほしいです",
+          "hoshii / hoshii desu",
+          "want"
+        ],
+        [
+          "ほしくない",
+          "hoshikunai",
+          "do not want"
+        ],
+        [
+          "ほしかった",
+          "hoshikatta",
+          "wanted"
+        ],
+        [
+          "ほしくなかった",
+          "hoshikunakatta",
+          "did not want"
+        ]
+      ],
+      "takeaway": "Use ほしい for nouns: thing + が + ほしい."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which sentence means 'I want new shoes'?",
+      "options": [
+        "あたらしい くつが ほしいです。",
+        "あたらしい くつを たべたいです。",
+        "あたらしい くつが のみたいです。",
+        "あたらしい くつを します。"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'I want new shoes' using ほしい:",
+      "patternJp": [
+        "あたらしい くつが ",
+        "[SLOT]",
+        "です。"
+      ],
+      "patternRom": [
+        "atarashii kutsu ga ",
+        "[SLOT]",
+        " desu."
+      ],
+      "slot": {
+        "answer": "ほしい",
+        "answerRomaji": "hoshii",
+        "hint": "The adjective used for wanting a thing.",
+        "acceptAlternatives": [
+          "Hoshii"
+        ]
+      },
+      "translation": "I want new shoes.",
+      "speakText": "あたらしい くつが ほしいです。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Other People's Desires and Invitations",
+      "intro": "たい and ほしい safely describe your own feelings. For another person's apparent desire, use たがっている; for invitations, ～ませんか sounds softer than asking directly what someone wants.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "Meaning"
+        ],
+        [
+          "わたしは いきたい",
+          "watashi wa ikitai",
+          "I want to go"
+        ],
+        [
+          "かれは かえりたがっている",
+          "kare wa kaeritagatte iru",
+          "He seems to want to go home"
+        ],
+        [
+          "いっしょに たべませんか",
+          "issho ni tabemasen ka",
+          "Would you like to eat together?"
+        ],
+        [
+          "たべたいですか",
+          "tabetai desu ka",
+          "Do you want to eat?"
+        ]
+      ],
+      "takeaway": "Use たがっている for observed third-person desire, and ～ませんか for softer invitations."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which sentence naturally means 'He seems to want to go home'?",
+      "options": [
+        "かれは かえりたがっている。",
+        "かれは かえりたい。",
+        "かれは ほしい。",
+        "かれは かえりますたい。"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "formula-fill",
+      "prompt": "Say 'He seems to want to go home' using たがっている:",
+      "patternJp": [
+        "かれは ",
+        "[SLOT]",
+        "いる。"
+      ],
+      "patternRom": [
+        "kare wa ",
+        "[SLOT]",
+        " iru."
+      ],
+      "slot": {
+        "answer": "かえりたがって",
+        "answerRomaji": "kaeritagatte",
+        "hint": "The observed-desire form of 'to go home'.",
+        "acceptAlternatives": [
+          "Kaeritagatte"
+        ]
+      },
+      "translation": "He seems to want to go home.",
+      "speakText": "かれは かえりたがっている。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which uses the standard object particle with たい?",
+      "title": "たい object particle - を or が",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "みずを のみたい",
+          "romaji": "mizu o nomitai.",
+          "en": "I want to drink water.",
+          "note": "を is the clearest beginner object particle for たい sentences.",
+          "correct": true
+        },
+        {
+          "label": "NATURAL",
+          "jp": "みずが のみたい",
+          "romaji": "mizu ga nomitai.",
+          "en": "I want to drink water.",
+          "note": "が can be natural when emphasizing the desired object, but teach を first as the basic beginner pattern.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "みずに のみたい",
+          "romaji": "mizu ni nomitai.",
+          "en": "(intended: I want to drink water)",
+          "note": "に does not mark the object of のみたい.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use を as the clearest beginner object particle with たい; が can highlight the desired object.",
+      "speakText": "みずを のみたい"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly states your own desire?",
+      "title": "たい / ほしい are your feelings",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "わたしは いきたい。",
+          "romaji": "watashi wa ikitai.",
+          "en": "I want to go.",
+          "note": "First-person desire is always fine with たい.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "かれは いきたい。",
+          "romaji": "kare wa ikitai.",
+          "en": "(intended: he wants to go)",
+          "note": "For someone else's inner state, use かれは いきたがっている.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "わたしは いきほしい。",
+          "romaji": "watashi wa ikihoshii.",
+          "en": "(intended: I want to go)",
+          "note": "Use たい for actions, not ほしい.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use たい and ほしい directly for your own feelings; use たがっている for others.",
+      "speakText": "わたしは いきたい。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which correctly uses ほしい for a thing and たい for an action?",
+      "title": "ほしい for things / たい for actions",
+      "variants": [
+        {
+          "label": "CORRECT",
+          "jp": "くつが ほしい。 / たべたい。",
+          "romaji": "kutsu ga hoshii. / tabetai.",
+          "en": "I want shoes. / I want to eat.",
+          "note": "ほしい is for noun desire; たい is for verb desire.",
+          "correct": true
+        },
+        {
+          "label": "COMMON MISTAKE",
+          "jp": "たべることが ほしい。",
+          "romaji": "taberu koto ga hoshii.",
+          "en": "(intended: I want to eat.)",
+          "note": "Do not use ほしい for actions. Use たべたい.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "くつを たべたい。",
+          "romaji": "kutsu o tabetai.",
+          "en": "I want to eat shoes.",
+          "note": "たい attaches to an action; this changes the action to eating shoes.",
+          "correct": false
+        }
+      ],
+      "takeaway": "Use ほしい for nouns and たい for verbs.",
+      "speakText": "くつが ほしい。たべたい。"
+    },
+    {
+      "type": "comparison-cards",
+      "prompt": "Which is the softer invitation?",
+      "title": "Softer invitation with ～ませんか",
+      "variants": [
+        {
+          "label": "POLITE",
+          "jp": "いっしょに たべませんか。",
+          "romaji": "issho ni tabemasen ka.",
+          "en": "Would you like to eat together?",
+          "note": "～ませんか is the natural polite way to invite someone.",
+          "correct": true
+        },
+        {
+          "label": "RUDE",
+          "jp": "たべたいですか。",
+          "romaji": "tabetai desu ka.",
+          "en": "Do you want to eat?",
+          "note": "Directly asking about desire can feel abrupt as an invitation.",
+          "correct": false
+        },
+        {
+          "label": "WRONG",
+          "jp": "いっしょに たべほしいですか。",
+          "romaji": "issho ni tabehoshii desu ka.",
+          "en": "(intended: would you like to eat together?)",
+          "note": "ほしい does not attach to an action this way.",
+          "correct": false
+        }
+      ],
+      "takeaway": "For invitations, ～ませんか is softer than asking directly with たいですか.",
+      "speakText": "いっしょに たべませんか。"
+    },
+    {
+      "type": "reference-chart",
+      "title": "Desires in Context",
+      "intro": "These examples contrast wanting to do something, wanting a thing, negative desire, past desire, and observed desire in another person.",
+      "rows": [
+        [
+          "Japanese",
+          "Romaji",
+          "English"
+        ],
+        [
+          "みずを のみたいです。",
+          "mizu o nomitai desu.",
+          "I want to drink water."
+        ],
+        [
+          "にほんに いきたい！",
+          "nihon ni ikitai!",
+          "I want to go to Japan!"
+        ],
+        [
+          "きょうは なにも したくない。",
+          "kyou wa nanimo shitakunai.",
+          "I don't want to do anything today."
+        ],
+        [
+          "なにが たべたいですか。",
+          "nani ga tabetai desu ka.",
+          "What do you want to eat?"
+        ],
+        [
+          "あたらしい くつが ほしいです。",
+          "atarashii kutsu ga hoshii desu.",
+          "I want new shoes."
+        ],
+        [
+          "こどもの とき、いぬが ほしかった。",
+          "kodomo no toki, inu ga hoshikatta.",
+          "When I was a child, I wanted a dog."
+        ],
+        [
+          "べつに ほしくない。",
+          "betsu ni hoshikunai.",
+          "I don't particularly want it."
+        ],
+        [
+          "かれは かえりたがっている。",
+          "kare wa kaeritagatte iru.",
+          "He seems to want to go home."
+        ]
+      ],
+      "takeaway": "たい is action desire; ほしい is thing desire; たがっている describes another person's apparent desire."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "みずを のみたいです。",
+      "options": [
+        "I want to drink water.",
+        "I am drinking water.",
+        "Water is delicious.",
+        "I don't want water."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "あたらしい くつが ほしいです。",
+      "options": [
+        "I bought new shoes.",
+        "These shoes are new.",
+        "I want new shoes.",
+        "I don't need shoes."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "きょうは なにも したくない。",
+      "options": [
+        "I want to do everything today.",
+        "I did nothing today.",
+        "I don't want to do anything today.",
+        "What do you want to do today?"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "こどもの とき、いぬが ほしかった。",
+      "options": [
+        "I have a dog now.",
+        "When I was a child, I wanted a dog.",
+        "My child wants a dog.",
+        "I didn't like dogs as a child."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "なにが たべたいですか。",
+      "options": [
+        "Did you eat something?",
+        "What did you eat?",
+        "What do you want to eat?",
+        "I don't want to eat."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "かれは かえりたがっている。",
+      "options": [
+        "He came home already.",
+        "He is going to return.",
+        "He seems to want to go home.",
+        "He doesn't want to go home."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "べつに ほしくない。",
+      "options": [
+        "I really want it.",
+        "I don't particularly want it.",
+        "I want something else.",
+        "Please give it to me."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Listen and choose the correct English meaning:",
+      "speakText": "かれは かえりたがっている。",
+      "options": [
+        "He seems to want to go home.",
+        "He wants a new bag.",
+        "I want to help.",
+        "He went home yesterday."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "みずが のみたいです",
+      "answer": "mizu ga nomitai desu",
+      "acceptAlternatives": [
+        "mizu wo nomitai desu",
+        "mizu ga nomitai"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "にほんに いきたい",
+      "answer": "nihon ni ikitai",
+      "acceptAlternatives": []
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "あたらしい くつが ほしいです",
+      "answer": "atarashii kutsu ga hoshii desu",
+      "acceptAlternatives": [
+        "atarashii kutsu ga hoshii"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "なにも したくない",
+      "answer": "nanimo shitakunai",
+      "acceptAlternatives": [
+        "nani mo shitakunai"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "こどもの とき、いぬが ほしかった",
+      "answer": "kodomo no toki inu ga hoshikatta",
+      "acceptAlternatives": [
+        "kodomo no toki, inu ga hoshikatta"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "かれは かえりたがっている",
+      "answer": "kare wa kaeritagatte iru",
+      "acceptAlternatives": [
+        "kare wa kaeritagatteiru"
+      ]
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "Listen and type what you hear in romaji:",
+      "speakText": "べつに ほしくない",
+      "answer": "betsu ni hoshikunai",
+      "acceptAlternatives": [
+        "betsu ni hoshiku nai"
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning:",
+      "pairs": [
+        {
+          "left": "みず",
+          "right": "water"
+        },
+        {
+          "left": "くつ",
+          "right": "shoes"
+        },
+        {
+          "left": "いぬ",
+          "right": "dog"
+        },
+        {
+          "left": "こども",
+          "right": "child"
+        },
+        {
+          "left": "なに",
+          "right": "what"
+        },
+        {
+          "left": "べつに",
+          "right": "not particularly"
+        },
+        {
+          "left": "あたらしい",
+          "right": "new"
+        },
+        {
+          "left": "かえる",
+          "right": "to return / go home"
+        },
+        {
+          "left": "てつだう",
+          "right": "to help"
+        },
+        {
+          "left": "たがっている",
+          "right": "seems to want to do"
+        }
+      ]
+    },
+    {
+      "type": "reading-practice",
+      "title": "Reading practice - desires",
+      "cards": [
+        {
+          "jp": "みずが のみたいです。",
+          "romaji": "mizu ga nomitai desu.",
+          "en": "I want to drink water."
+        },
+        {
+          "jp": "にほんに いきたい！",
+          "romaji": "nihon ni ikitai!",
+          "en": "I want to go to Japan!"
+        },
+        {
+          "jp": "きょうは なにも したくない。",
+          "romaji": "kyou wa nanimo shitakunai.",
+          "en": "I don't want to do anything today."
+        },
+        {
+          "jp": "あたらしい くつが ほしいです。",
+          "romaji": "atarashii kutsu ga hoshii desu.",
+          "en": "I want new shoes."
+        },
+        {
+          "jp": "こどもの とき、いぬが ほしかった。",
+          "romaji": "kodomo no toki, inu ga hoshikatta.",
+          "en": "When I was a child, I wanted a dog."
+        },
+        {
+          "jp": "なにが たべたいですか。",
+          "romaji": "nani ga tabetai desu ka.",
+          "en": "What do you want to eat?"
+        },
+        {
+          "jp": "かれは かえりたがっている。",
+          "romaji": "kare wa kaeritagatte iru.",
+          "en": "He seems to want to go home."
+        },
+        {
+          "jp": "べつに ほしくない。",
+          "romaji": "betsu ni hoshikunai.",
+          "en": "I don't particularly want it."
+        },
+        {
+          "jp": "かれは かえりたがっている。",
+          "romaji": "kare wa kaeritagatte iru.",
+          "en": "He seems to want to go home."
+        },
+        {
+          "jp": "たべたかったです。",
+          "romaji": "tabetakatta desu.",
+          "en": "I wanted to eat (it)."
+        }
+      ]
+    }
+  ]
+}

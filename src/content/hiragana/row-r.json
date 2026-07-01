@@ -1,0 +1,363 @@
+{
+  "exercises": [
+    {
+      "type": "reference-chart",
+      "title": "R-row — ら行",
+      "rows": [
+        [
+          "ら ra",
+          "り ri",
+          "る ru",
+          "れ re",
+          "ろ ro"
+        ]
+      ]
+    },
+    {
+      "type": "flashcard",
+      "cards": [
+        {
+          "front": "ら",
+          "back": "ra",
+          "speakText": "ら"
+        },
+        {
+          "front": "る",
+          "back": "ru",
+          "speakText": "る"
+        },
+        {
+          "front": "り",
+          "back": "ri",
+          "speakText": "り"
+        },
+        {
+          "front": "ろ",
+          "back": "ro",
+          "speakText": "ろ"
+        },
+        {
+          "front": "れ",
+          "back": "re",
+          "speakText": "れ"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ri?",
+      "options": [
+        "ら",
+        "ろ",
+        "り",
+        "る"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ra?",
+      "options": [
+        "ら",
+        "る",
+        "ろ",
+        "れ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ろ",
+      "answer": "ro"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "れ",
+      "answer": "re"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "ろ",
+          "ro"
+        ],
+        [
+          "り",
+          "ri"
+        ],
+        [
+          "ら",
+          "ra"
+        ],
+        [
+          "れ",
+          "re"
+        ],
+        [
+          "る",
+          "ru"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ら",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "り",
+        "ら",
+        "る",
+        "れ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "る",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ら",
+        "る",
+        "れ",
+        "ろ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ru?",
+      "options": [
+        "ろ",
+        "ら",
+        "る",
+        "り"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "る",
+      "answer": "ru"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "ら",
+      "answer": "ra"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ra?",
+      "options": [
+        "ち",
+        "う",
+        "ら",
+        "り"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Ro?",
+      "options": [
+        "そ",
+        "る",
+        "ろ",
+        "れ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "listening",
+      "speakText": "り",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "ら",
+        "り",
+        "る",
+        "ろ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "listening",
+      "speakText": "れ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "る",
+        "れ",
+        "ら",
+        "ろ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "り",
+      "answer": "ri"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Which one of these is Re?",
+      "options": [
+        "ね",
+        "り",
+        "れ",
+        "ろ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "reference-chart",
+      "title": "Reading Practice — Vocabulary",
+      "rows": [
+        [
+          "NIHONGO",
+          "ENGLISH"
+        ],
+        [
+          "桜 [さくら] (sakura)",
+          "cherry blossom"
+        ],
+        [
+          "車 [くるま] (kuruma)",
+          "car"
+        ],
+        [
+          "空 [そら] (sora)",
+          "sky"
+        ],
+        [
+          "昼 [ひる] (hiru)",
+          "noon"
+        ],
+        [
+          "色 [いろ] (iro)",
+          "color"
+        ],
+        [
+          "さくらが きれいです",
+          "Cherry blossoms are beautiful"
+        ]
+      ]
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "sky",
+      "answer": [
+        "そ",
+        "ら"
+      ],
+      "bank": [
+        "ら",
+        "り",
+        "る",
+        "れ",
+        "ろ",
+        "そ"
+      ],
+      "speakText": "そら"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "noon",
+      "answer": [
+        "ひ",
+        "る"
+      ],
+      "bank": [
+        "ら",
+        "り",
+        "る",
+        "れ",
+        "ろ",
+        "ひ"
+      ],
+      "speakText": "ひる"
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "color",
+      "answer": [
+        "い",
+        "ろ"
+      ],
+      "bank": [
+        "ら",
+        "り",
+        "る",
+        "れ",
+        "ろ",
+        "い"
+      ],
+      "speakText": "いろ"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "そら",
+      "answer": "sora"
+    },
+    {
+      "type": "type-the-answer",
+      "prompt": "くるま",
+      "answer": "kuruma"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "さくら",
+          "cherry blossom"
+        ],
+        [
+          "くるま",
+          "car"
+        ],
+        [
+          "そら",
+          "sky"
+        ],
+        [
+          "ひる",
+          "noon"
+        ],
+        [
+          "いろ",
+          "color"
+        ]
+      ]
+    },
+    {
+      "type": "listening",
+      "speakText": "ろ",
+      "prompt": "Which character did you hear?",
+      "options": [
+        "る",
+        "ろ",
+        "れ",
+        "ら"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "hiragana-build",
+      "hint": "car",
+      "answer": [
+        "く",
+        "る",
+        "ま"
+      ],
+      "bank": [
+        "ら",
+        "り",
+        "る",
+        "れ",
+        "ろ",
+        "く",
+        "ま"
+      ],
+      "speakText": "くるま"
+    }
+  ],
+  "id": "hiragana-row-r"
+}
